@@ -1,0 +1,45 @@
+name: Bug report
+description: Something does not behave as specified.
+title: "[Bug] "
+labels: ["type/bug", "status/triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: Reference the requirement or acceptance criterion if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options: ["Critical - data loss, security or tenant isolation", "Major - core flow blocked", "Minor - workaround exists", "Trivial - cosmetic"]
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Browser, device, version/commit, environment (preview/production)

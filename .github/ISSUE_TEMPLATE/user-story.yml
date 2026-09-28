@@ -1,0 +1,44 @@
+name: User story
+description: A user-facing capability described from the user's point of view.
+title: "[Story] "
+labels: ["type/story", "status/triage"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      description: As a <persona>, I want <capability>, so that <benefit>.
+      placeholder: As a restaurant owner, I want guests to receive a reminder the day before their booking, so that fewer tables are lost to no-shows.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria (Gherkin)
+      description: One scenario per behaviour. Each must be verifiable by a test.
+      render: gherkin
+      placeholder: |
+        Scenario: Reminder is sent the day before
+          Given a confirmed booking for tomorrow at 21:00
+          And the guest has consented to WhatsApp messages
+          When the reminder job runs at 12:00 today
+          Then the guest receives a reminder with a cancel/modify link
+    validations:
+      required: true
+  - type: dropdown
+    id: moscow
+    attributes:
+      label: Priority (MoSCoW)
+      options: ["Must", "Should", "Could", "Won't (this release)"]
+    validations:
+      required: true
+  - type: textarea
+    id: nfr
+    attributes:
+      label: Non-functional requirements and constraints
+      description: Performance, accessibility, security, privacy, legal (reference SRS IDs when available).
+  - type: textarea
+    id: notes
+    attributes:
+      label: Design and technical notes
+      description: Links to designs, ADRs, data model, events emitted/consumed.
