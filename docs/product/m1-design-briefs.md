@@ -1,18 +1,32 @@
 # M1 no-code design briefs
 
-Version 0.3 · 1 October 2026 · Accountable owner: Yahya.
+Version 0.4 · 1 October 2026 · Accountable owner: Yahya.
 
-**Status: design briefs for accepted launch scope; no prototype or specialist review completed.** These briefs use the [capability commitment](m0-capability-matrix.md) and proposed [journeys/criteria](m0-journeys-and-criteria.md). The owner approved D1 and amended D2 to launch delivery with only standalone audio and 3D deferred; [ADR-0008](../adr/0008-first-launch-capability-commitment.md) records the decision. G1 combines Direction/Product consolidation; independent Quality remains required. Scope acceptance is not implementation, validation, provider access or M0 completion.
+**Status: active G2 design assignment under [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5).** M0 is integrated and closed; its evidence is in the [closeout](../project/m0-closeout.md). No prototype or specialist review is completed. These briefs use the [capability commitment](m0-capability-matrix.md) and proposed [journeys/criteria](m0-journeys-and-criteria.md). The owner approved D1 and amended D2 to launch delivery with only standalone audio and 3D deferred; [ADR-0008](../adr/0008-first-launch-capability-commitment.md) records the decision. G1 combines Direction/Product consolidation; independent Quality remains required. Scope acceptance does not establish implementation, validation or provider access.
 
 Common inputs: [roadmap](../project/roadmap.md), [functional definition](../research/storefront-digital-menu/functional-definition/functional-definition.es.md), [executive brief](../project/m0-execution-brief.md), [glossary](../glossary.md), retained [language decision](../adr/0005-repository-and-product-language.md). Do not create renamed copies of these sources or restart competitive exploration.
 
 [ADR-0009](../adr/0009-studio-design-and-registered-diner-personalisation.md) resolves the supplementary scope: restaurants update content autonomously; Valiris controls page design. Personalised recommendations are launch scope for authenticated registered diners. Ordinary public consultation remains account-free. Necessary diner identity/preferences add genuine design and Core work; no authentication provider or recommendation algorithm is selected here.
 
+## G2 responsibilities and design order
+
+| Contribution | Responsibility and handover |
+| --- | --- |
+| Product Designer | Leads information architecture, journeys, interaction, states, UX writing and the functional no-code prototype; consolidates capability/criterion coverage and behavioural questions across both briefs. |
+| Visual Designer | Joins with the first journeys and representative content; owns art direction, UI, identity, templates and printable composition. Coordinates public, management, screen and paper expression with the Product Designer. |
+| Collaboration and review | Content and output behaviour are designed with composition, not handed over after interaction is frozen. G1 consolidates operational decisions and escalates material commitments to Yahya; G4 retains independent review. Consult G3/G5/G6 for the specific feasibility, intake/service and discovery/offer questions below. |
+
+These are responsibilities within #5, not separate backlog items or a claim that collaborators are available. Confirm actual prototyping and reviewer access before execution; record absent contributions honestly.
+
+Start with C1–C3 content/state fixtures and a connected operator prepare/review/publish → public consultation path. Bring visual design into these first paths. Address urgent updates alongside drafts, price/context, food/translation meaning, permissions and recovery early. Then cover every remaining accepted path, including J10–J15, connected states and outputs. Check output content/freshness with its screen or printable composition as each path develops.
+
+The 72 capabilities are a coverage inventory, not 72 navigation destinations. Group them around tasks and reveal configuration only where relevant: C1 must not configure C2/C3 areas, variants or schedules to read or maintain a simple café menu. This ordering does not defer any accepted launch capability or change the criteria below.
+
 ## P — Public presence and menu consultation
 
 **Objective:** let diners recognise the venue and understand its actual offering before/during a visit, with an identity the buyer can choose and maintain. Respect both venue-discovery and direct-menu intent.
 
-**Consolidating responsibility:** Experience Design; G1 resolves behaviour and commitment. Visual Design contributes identity/templates/print; SEO examines restaurant discovery; Engineering and independent Quality review specific risks. These are requested responsibilities, not asserted active collaborators.
+**Consolidating responsibility:** Product Designer, with Visual Designer involved from the first representative paths; G1 resolves behaviour and commitment. SEO examines restaurant discovery; Engineering and independent Quality review specific risks. These are requested responsibilities, not asserted active collaborators.
 
 **Scope:** matrix included/configurable public capabilities in blocks 1–3 and 5–7, backed by the management brief below. Public interface supports ES/EN/FR/DE per ADR-0005, with reviewed venue content enabled by the restaurant and Arabic/RTL preparation considered. Base templates and studio bespoke expression share clear access, essential information and content autonomy. Preserve optional images, no-photo quality, gradual detail, real formats/supplements/composed menus and editable contextual distinctions.
 
@@ -45,7 +59,7 @@ J15.1–J15.6 and R17 are required review paths: optional entry, correct account
 
 **Objective:** let a restaurant or authorised studio service prepare/review/publish and maintain a coherent offering, including urgent service-time changes and recovery, through the same management behaviours for templates and bespoke designs.
 
-**Consolidating responsibility:** Experience Design with G1. Engineering examines permissions/publication/concurrency/scheduling implications; Service examines real intake/handover/correction work; independent Quality checks critical state transitions and usability/accessibility. Detailed implementation is M2–M5 work.
+**Consolidating responsibility:** Product Designer with G1; Visual Designer coordinates UI and output composition from the first representative paths. Engineering examines permissions/publication/concurrency/scheduling implications; Service examines real intake/handover/correction work; independent Quality checks critical state transitions and usability/accessibility. Detailed implementation is M2–M5 work.
 
 **Scope:** matrix included/configurable management behaviours in all seven blocks, with necessary Core entry to the correct venue/location and authorised actions. Include reviewed import from PDF/photo/structured sources, manual fallback, mobile/bulk editing, shared versus duplicated content, contextual drafts/previews, controlled and scheduled publication, urgent availability, history/recovery, affected translations/food information, print/QR/export and actionable maintenance/digital-use signals. Configuration is relevant to the venue; C1 must not require C2/C3 setup.
 
@@ -111,6 +125,6 @@ The design handover must state what is interactive, which content is fictional, 
 
 **Can start now:** the complete accepted-scope prototype plans, including saved choices/video/nutrition/offline/comparison/screens, optional diner accounts/personalisation and labelled connected states; fixture/content/device/access preparation and focused consultations. **Waits for the relevant response/evidence:** real source/destination/access for completed connections, concrete paid-tool decisions, final D3 terms and real-user evidence. Account/personalisation design must expose its proposed inputs and unresolved M2 rules. Implementation follows the roadmap's later construction milestones. If a founder question is raised, wait for its response before resolving that affected decision; elapsed time is never approval.
 
-Track through [GitHub #3](https://github.com/yaboula/valiris-restaurants/issues/3), [#6](https://github.com/yaboula/valiris-restaurants/issues/6), [#15](https://github.com/yaboula/valiris-restaurants/issues/15) and [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs). No new backlog or role activation is implied by this package.
+Track G2 execution in [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5), technical preparation in [M2 #4](https://github.com/yaboula/valiris-restaurants/issues/4), and parallel commercial work in [#15](https://github.com/yaboula/valiris-restaurants/issues/15). [#3](https://github.com/yaboula/valiris-restaurants/issues/3), [#6](https://github.com/yaboula/valiris-restaurants/issues/6) and [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs) are completed M0 antecedents, not active design assignments. No new backlog or role activation is implied by this package.
 
-The owner requested finishing M0 first. The [closeout record](../project/m0-closeout.md) provides the exit audit, actual resource snapshot, accountable carry-over checkpoints and integration sequence. Prepare the formal closure before transitioning to M1 execution; these later design/access/review requirements are not falsely claimed completed by M0.
+The owner's request to finish M0 first has been fulfilled. The [closeout record](../project/m0-closeout.md) preserves the exit audit, resources, accountable carry-over checkpoints and completed integration evidence. G2 can begin #5 without asking to integrate or approve M0 again. Its design/access/review evidence remains to produce.

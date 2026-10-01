@@ -33,9 +33,9 @@ The owner-supplied roadmap replaces the historical seven-module/17-week plan. [r
 | Issue #15 | Parallel M0–M7 work; full completion tracked in M7, with the M0 contribution in the closeout record |
 | Issue #9 | This planning migration |
 
-M3–M7 have outcome issues reflecting the current roadmap. Milestone due dates remain unset; construction estimates follow M2 preparation and first functional delivery. Existing research and kick-off PRs remain historical-delivery reviews; neither grants the new launch exit criteria automatically.
+M3–M7 have outcome issues reflecting the current roadmap. Milestone due dates remain unset; construction estimates follow M2 preparation and first functional delivery. The research and kick-off PRs are integrated historical deliveries; their evidence limits remain explicit.
 
-The [M0 closeout](m0-closeout.md) audits the current preparation criteria and integration sequence. Pending design, technical, participant and commercial evidence stays assigned to its affected milestone. Formal M0 closure follows owner review/integration of the prepared outcomes; issue #15 continues in parallel without holding M0 open until commercial launch.
+The [M0 closeout](m0-closeout.md) preserves the completed exit audit, integration sequence and SHAs. M0 and #1/#2/#3/#6/#9/#17 are closed; Linear YAH-5 is Done. [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5) is the active G2 assignment and [M2 #4](https://github.com/yaboula/valiris-restaurants/issues/4) retains technical preparation. Pending design, technical, participant and commercial evidence stays assigned to its affected milestone; #15 continues in parallel through M7. These existing outcomes are not reopened or duplicated by documentation maintenance.
 
 ## Outcome tasks
 

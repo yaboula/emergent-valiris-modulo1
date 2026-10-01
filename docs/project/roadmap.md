@@ -1,6 +1,6 @@
 # Roadmap — Valiris Restaurants
 
-Version 0.3 · 1 October 2026. Owner-adopted direction; capability scope accepted in [ADR-0008](../adr/0008-first-launch-capability-commitment.md) and supplemented by [ADR-0009](../adr/0009-studio-design-and-registered-diner-personalisation.md), with M0 preparation/dependencies still open.
+Version 0.4 · 1 October 2026. Owner-adopted direction; capability scope accepted in [ADR-0008](../adr/0008-first-launch-capability-commitment.md) and supplemented by [ADR-0009](../adr/0009-studio-design-and-registered-diner-personalisation.md). M0 is integrated and closed; active design work is [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5). Later delivery dependencies remain open in the [closeout register](m0-closeout.md).
 
 This roadmap replaces the seven-module, 17-week plan. It records execution direction, not committed dates, contracted capacity, or implemented capabilities. See [ADR-0007](../adr/0007-first-product-launch-roadmap.md) and the [historical roadmap](history/roadmap-2026-09-28.md).
 
@@ -54,8 +54,8 @@ The supplied G1–G6 labels identify workstreams, not staffed teams. Yahya remai
 
 | Label | Responsibility |
 | --- | --- |
-| G1 | Product: launch commitment, prioritisation, evidence |
-| G2 | Experience design: journeys, content, visual direction, prototypes |
+| G1 | Combined Direction and Product: commitment, priorities, viability, evidence and consolidation |
+| G2 | Product Designer leads journeys/interactions/content/prototype; Visual Designer joins early for UI/identity/templates/print |
 | G3 | Engineering: feasibility, architecture, construction, technical operation |
 | G4 | Quality: independent review, accessibility, verification, scenarios |
 | G5 | Service: onboarding, training, support, pilot coordination |
@@ -238,4 +238,4 @@ Each new module gets scope/design/construction/tests/commercial delivery. Keep t
 
 Personal execution/coordination material stays outside Git. This roadmap establishes sequence without automatically approving every proposed capability or historical date. Record subsequent changes with rationale/impact; current owner decisions take precedence.
 
-**Next action: M0.** The owner prepares execution; Product prepares launch matrix and first-prototype briefs. Independent work may run in parallel, but consolidate one scope before committing dates/construction.
+**Next action: G2 / M1 [#5](https://github.com/yaboula/valiris-restaurants/issues/5).** Execute the [public and management design briefs](../product/m1-design-briefs.md), with Product Designer first and Visual Designer involved from the initial journeys/content. M0 integration and closure are complete; do not request them again. [#4](https://github.com/yaboula/valiris-restaurants/issues/4) retains M2 preparation and [#15](https://github.com/yaboula/valiris-restaurants/issues/15) the parallel commercial line. Order design by tasks/risks within the full accepted scope, not one navigation item per capability or compulsory advanced setup for a simple café. No dates are committed; costs and final commercial conditions await concrete proposals/evidence.

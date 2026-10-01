@@ -1,6 +1,6 @@
 # M0 launch capability commitment
 
-Version 0.3 · 1 October 2026 · Accountable owner: Yahya.
+Version 0.4 · 1 October 2026 · Accountable owner: Yahya.
 
 **Status: launch scope accepted by owner instruction on 1 October 2026; behaviour design and delivery dependencies remain open.** The owner approved D1 and rejected the D2 deferral recommendation: deliver the D2 capabilities in the first launch, deferring only standalone audio explanations and 3D. See [ADR-0008](../adr/0008-first-launch-capability-commitment.md). Scope acceptance does not establish implementation, provider access, completed review or M0 closure.
 
@@ -186,4 +186,4 @@ D1/D2/D4/D5 are resolved and need no repeat approval. D3 retains concrete commer
 
 Author checks cover source-row mapping and separate scope approval, public/operator/service criteria and new D2 journeys. Independent Quality/Engineering/SEO/Service review and actual user tests remain requested, not completed.
 
-Next: follow the authorised integration/closure record in the [M0 closeout](../project/m0-closeout.md), then design accepted scope including J15, resolve delivery dependencies at their recorded checkpoints and document actual reviews. [GitHub #3](https://github.com/yaboula/valiris-restaurants/issues/3), [#6](https://github.com/yaboula/valiris-restaurants/issues/6) and [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs) record preparation completion; [#15](https://github.com/yaboula/valiris-restaurants/issues/15) continues the parallel commercial work. M0 completion does not satisfy the later delivery checkpoints.
+Next: G2 designs the accepted scope including J15 under [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5), using the [design briefs](m1-design-briefs.md); resolve delivery dependencies at the [closeout register's](../project/m0-closeout.md) checkpoints and document actual reviews. M0 is integrated and closed. [GitHub #3](https://github.com/yaboula/valiris-restaurants/issues/3), [#6](https://github.com/yaboula/valiris-restaurants/issues/6) and [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs) are completed preparation antecedents; [#4](https://github.com/yaboula/valiris-restaurants/issues/4) retains M2 and [#15](https://github.com/yaboula/valiris-restaurants/issues/15) the parallel commercial work. M0 completion does not satisfy later delivery checkpoints.

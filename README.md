@@ -2,7 +2,7 @@
 
 > Public presence and a living digital menu for independent restaurants — built by **Valiris**, with a modular product vision.
 
-![status](https://img.shields.io/badge/status-M0%20launch%20alignment-blue)
+![status](https://img.shields.io/badge/status-M1%20experience%20design-blue)
 ![license](https://img.shields.io/badge/license-proprietary-lightgrey)
 
 ## What it is
@@ -15,7 +15,7 @@ Shared responsibilities will evolve with actual product needs. Future verticals 
 
 ## Project status
 
-The project is in **M0 — Align execution**. Competitive exploration is complete; launch scope and first-prototype briefs come next. M1 covers no-code experience design, M2 construction preparation, M3–M5 implementation, M6 a real pilot, and M7 launch. No application implementation or commercial validation is claimed.
+**M0 is integrated and closed; G2's active assignment is [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5).** Launch scope and first-prototype briefs are delivered. Start with the [public and operator design briefs](docs/product/m1-design-briefs.md); the [closeout](docs/project/m0-closeout.md) records completed integration and pending delivery dependencies. M1 covers no-code experience design, M2 construction preparation, M3–M5 implementation, M6 a real pilot, and M7 launch. No completed prototype, application implementation or commercial validation is claimed.
 
 - Roadmap: [`docs/project/roadmap.md`](docs/project/roadmap.md)
 - Project charter (philosophy, quality bar, standards, roles, risks): [`docs/project/charter.md`](docs/project/charter.md)

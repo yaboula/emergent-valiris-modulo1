@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Reconcile active documentation with completed M0 integration and closure; make M1 #5 the G2 design entry, distinguish completed preparation from later evidence, and clarify Product Designer and early Visual Designer collaboration without changing accepted scope or criteria.
 - Clarify applicable versus unknown dish allergens, mark unsupported historical brand findings as unverified leads, and distinguish documentation outcomes from software releases. Allow owner-delegated review and squash merge while retaining branch protections.
 - Resolve the two supplementary prose capabilities: exclude free-form restaurant page design and accept recommendations for authenticated registered diners. Extend the public design brief, J15/R17, roadmap and vocabulary while retaining account-free public consultation and explicit M2 data/access decisions.
 - Expand the accepted launch to personal comparison, video, declared nutrition, offline consultation, change comparison and in-venue displays; retain six connection capabilities at launch. Update scope approval, public/operator criteria, M1 briefs and roadmap while preserving original references and pending delivery evidence.
