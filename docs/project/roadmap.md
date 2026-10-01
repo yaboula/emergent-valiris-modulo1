@@ -1,6 +1,6 @@
 # Roadmap — Valiris Restaurants
 
-Version 0.1 · 1 October 2026. Owner-adopted direction; launch details remain to be committed in M0.
+Version 0.3 · 1 October 2026. Owner-adopted direction; capability scope accepted in [ADR-0008](../adr/0008-first-launch-capability-commitment.md) and supplemented by [ADR-0009](../adr/0009-studio-design-and-registered-diner-personalisation.md), with M0 preparation/dependencies still open.
 
 This roadmap replaces the seven-module, 17-week plan. It records execution direction, not committed dates, contracted capacity, or implemented capabilities. See [ADR-0007](../adr/0007-first-product-launch-roadmap.md) and the [historical roadmap](history/roadmap-2026-09-28.md).
 
@@ -14,6 +14,10 @@ Bookings, reviews, loyalty, reactivation, and WhatsApp remain in the modular vis
 
 **Complete** covers preparation, review, publication, consultation, updating, distribution, correction, and continuity. It does not automatically include every research opportunity. M0 defines the launch commitment with traceability to the [functional definition](../research/storefront-digital-menu/functional-definition/functional-definition.es.md).
 
+The owner's subsequent D1/D2 decision accepts the 72 reference capability rows for launch: 36 common, 30 configurable and six connection capabilities with unresolved target/access dependencies. This includes personal comparison, video, declared nutrition, offline consultation, change comparison and in-venue displays. Only standalone audio and 3D media subparts are deferred. See the [current matrix](../product/m0-capability-matrix.md); scope acceptance does not demonstrate delivery, validation or M0 closure.
+
+The supplementary D4/D5 decision keeps page design with Valiris and autonomous content updates with restaurants; a free-form restaurant page builder is excluded. Personalised recommendations for authenticated registered diners join the launch, with sufficient account/preferences responsibilities. Public consultation stays account-free. These two prose references are tracked separately from the 72-row count.
+
 ## 2. Starting position
 
 | State | Work |
@@ -21,7 +25,7 @@ Bookings, reviews, loyalty, reactivation, and WhatsApp remain in the modular vis
 | Available | Competitive research, synthesis, focused references, detailed functional definition |
 | Available as an execution proposal | Six responsibility areas; actual capacity and ownership still need confirmation |
 | Closed | General competitive exploration; new enquiries address specific decisions |
-| Next | Commit launch scope and begin no-code prototypes |
+| Next | Resolve actual delivery dependencies and begin complete-scope no-code prototypes |
 | Unproven | Real usability, maintenance effort, willingness to pay, service costs, margin |
 | Not established as completed | Product prototypes, implementation, pilots, active integrations, commercial launch |
 
@@ -94,6 +98,8 @@ Use three contrasting cases: simple café; restaurant with variants/areas; resta
 
 Prepare information architecture, copy, empty/error states, interactive no-code prototypes, visual direction, necessary components, printable output. Templates and bespoke design must support the same autonomous everyday maintenance.
 
+Include optional registered-diner access/preferences and personalised recommendation states, recovery/sign-out and ordinary anonymous consultation. Restaurants edit content rather than compose their own pages. Distinguish personalisation from venue-curated recommendations and local saved comparisons.
+
 SEO participates in public structure, discoverable content, design-affecting requirements. Engineering reviews technical implications; Quality reviews clarity, accessibility, scenarios. Detailed future-module screens are unnecessary.
 
 Check important usability questions with real diners/operators. If unavailable, record the limitation and use expert review/scenarios without calling them user validation. Product decides which uncertainties may proceed internally and which block the affected journey.
@@ -105,6 +111,8 @@ Check important usability questions with real diners/operators. If unavailable, 
 Specify business rules, states, shared data, component responsibilities, interfaces, acceptance criteria. Select stack/structure from first-product needs and actual capacity.
 
 Define necessary Core: establishments/data separation; team access/permissions; common business information; hours/exceptions; shared catalogue; languages; appropriate traceability/recovery. Implement it connected to M3–M5 journeys.
+
+Registered-diner identity/session, preferences and authorised recommendation inputs are necessary Core for the accepted launch. Define guest versus staff access, account scope across venues, recovery/account controls and retention/deletion rules. Choose only what this use requires; registration alone neither creates a tenant's campaign customer nor authorises promotional messages.
 
 Do not build campaign customers/consents, loyalty visits, bookable resources, booking notifications merely for future modules. Add them only for committed needs. Do not require extensive event catalogues or abstractions for hypothetical modules.
 
@@ -129,6 +137,8 @@ Implement committed presence/identity; menus/categories; variants/formats/prices
 Build each public behaviour with its required management. Do not publish information the restaurant cannot maintain. Some management is completed here rather than necessarily waiting for M5.
 
 Critical cases: browsing before visiting while service is closed; terrace versus general menu; supplements; useful consultation without photos; pending information; clarity/navigation when changing language.
+
+Complete accepted registered-diner recommendations with their required account/preference controls, current-item/context checks and empty/no-match/error fallback. Preserve anonymous browsing and private-state isolation.
 
 **Exit:** assigned cases work with representative content, without promises about future stock or automatically inferred food safety.
 

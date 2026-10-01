@@ -2,7 +2,7 @@
 
 The ubiquitous language of Valiris Restaurants. Code, documentation and UI must use these terms consistently. The Spanish column is the canonical UI term.
 
-Scope note: Storefront + Digital Menu and its necessary Core are the first release. Booking, customer-history, campaign and messaging terms below describe future-module vocabulary, not a requirement to build those domains now. Architecture layers and paths remain subject to M2 decisions.
+Scope note: Storefront + Digital Menu and its necessary Core are the first release, including optional registered-diner accounts/preferences for personalised recommendations (ADR-0009). Booking, customer-history, campaign and messaging terms below describe future-module vocabulary, not a requirement to build those domains now. Architecture layers, identity boundaries and paths remain subject to M2 decisions.
 
 **Layer** tells where the concept lives:
 - **Platform:** sector-agnostic, reusable by future products.
@@ -27,7 +27,9 @@ Scope note: Storefront + Digital Menu and its necessary Core are the first relea
 | Term | Español (UI) | Layer | Definition |
 | --- | --- | --- | --- |
 | Customer | Cliente | Platform | A person known to a tenant (name, phone, email, language). Platform term. |
-| Guest | Comensal | Vertical | A customer in the restaurant context. The UI says *comensal*; the code in the platform says `customer`. |
+| Guest | Comensal | Vertical | A diner consulting or using a restaurant's offering, including anonymous public visitors. The UI says *comensal*. Where a future module records a tenant-known guest, the platform concept is `customer`; public consultation or account registration does not by itself create that record. |
+| Registered diner account | Cuenta de comensal | Platform | Optional authenticated identity for launch menu personalisation, distinct from restaurant staff membership and a tenant-known campaign customer. Account scope across venues and exact data/access rules belong to M2; ordinary public browsing requires no account. |
+| Personalised recommendation | Recomendación personalizada | Module (storefront) | A suggestion for an authenticated registered diner using reviewed inputs/preferences and the venue's current published offering. Empty/no-match/error fallback remains usable; it does not guarantee food safety or prove visits/purchases. |
 | Consent | Consentimiento | Platform | A recorded, revocable permission for a defined purpose and channel, with timestamp, source and notice version. Promotional permission is separate from the lawful basis for necessary booking processing. |
 | Channel | Canal | Platform | A communication medium: `email`, `whatsapp`, `sms`. |
 | Visit | Visita | Platform | A record of confirmed attendance at the business. Completion, authorised staff scanning or manual confirmation may establish it; a public QR scan or booking alone does not. Confirmation rules are specified when a future module commits to using visits. |
@@ -50,6 +52,10 @@ Scope note: Storefront + Digital Menu and its necessary Core are the first relea
 | Storefront | Escaparate / Web del restaurante | Module (storefront) | The public page of a restaurant: menu, hours, location, contact, booking entry point, highlights. |
 | Living menu | Carta viva | Module (storefront) | Maintained, contextual content with explicit publication and availability states. |
 | Launch commitment | Compromiso de lanzamiento | Product | The M0 capability treatment matrix defining first-product scope, responsibility and acceptance boundaries. |
+| Configurable within launch | Configurable en el lanzamiento | Product | A capability available in the proposed first commercial scope when a venue needs it; not postponed. Treatment and owner approval are recorded separately. |
+| Publication scope | Alcance de publicación | Module (storefront) | The selected content/context/version made public by an authorised action; unrelated drafts remain unpublished. |
+| Reviewed-language fallback | Alternativa en idioma revisado | Module (storefront) | An explicit alternative for content whose selected translation is missing or affected by factual changes; it does not silently present stale claims as current. Proposed behaviour is subject to review. |
+| Generated output | Salida generada | Module (storefront) | A versioned menu, staff record or QR material derived from content; a live update does not replace already printed copies. |
 | Table QR | QR de mesa | Module (storefront) | Printable QR code that opens the menu, optionally identifying the table. |
 
 ## Bookings

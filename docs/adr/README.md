@@ -29,3 +29,5 @@ Write an ADR when a decision:
 | [0005](0005-repository-and-product-language.md) | English for the repository, Spanish-first product UI | Accepted |
 | [0006](0006-discovery-evidence-boundary.md) | Define the evidence boundary for the discovery gate | Rejected; retired by ADR-0007 |
 | [0007](0007-first-product-launch-roadmap.md) | Launch Storefront + Digital Menu before subsequent modules | Accepted by owner instruction; PR integration pending |
+| [0008](0008-first-launch-capability-commitment.md) | Commit first-launch capabilities and defer only audio and 3D | Accepted by owner instruction; PR integration pending |
+| [0009](0009-studio-design-and-registered-diner-personalisation.md) | Keep studio design and personalise for registered diners | Accepted by owner instruction; PR integration pending |

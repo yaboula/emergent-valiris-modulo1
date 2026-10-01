@@ -30,9 +30,12 @@ The owner-supplied roadmap replaces the historical seven-module/17-week plan. [r
 | Issue #4 | M2 technical preparation and necessary Core |
 | Issue #5 | M1 no-code experience design and checks |
 | Issue #6 | M0 consolidation and first-prototype briefs; no app-release requirement |
+| Issue #15 | Parallel M0–M7 work; full completion tracked in M7, with the M0 contribution in the closeout record |
 | Issue #9 | This planning migration |
 
 M3–M7 have outcome issues reflecting the current roadmap. Milestone due dates remain unset; construction estimates follow M2 preparation and first functional delivery. Existing research and kick-off PRs remain historical-delivery reviews; neither grants the new launch exit criteria automatically.
+
+The [M0 closeout](m0-closeout.md) audits the current preparation criteria and integration sequence. Pending design, technical, participant and commercial evidence stays assigned to its affected milestone. Formal M0 closure follows owner review/integration of the prepared outcomes; issue #15 continues in parallel without holding M0 open until commercial launch.
 
 ## Outcome tasks
 

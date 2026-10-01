@@ -1,10 +1,14 @@
 # M0 execution brief
 
-Version 0.1 · 1 October 2026 · Owner: Yahya, product owner and lead engineer.
+Version 0.5 · 1 October 2026 · Owner: Yahya, product owner and lead engineer.
 
-**Status:** first executive contribution for review. Existing product direction is retained; priorities and working arrangements below are recommendations within that direction. This brief neither commits detailed launch capabilities nor closes M0.
+**Status:** execution framework with owner-accepted launch capability scope and audited [M0 closeout](m0-closeout.md). D1 is approved; D2 is amended to deliver launch opportunities/screens/connections, with only standalone audio and 3D deferred. [ADR-0008](../adr/0008-first-launch-capability-commitment.md) records that decision. Detailed behaviour/access/reviews remain at their later checkpoints; formal M0 completion is recorded in the linked milestone after integration.
 
 **Owner clarification, 1 October 2026:** proceed by outcomes and dependencies without committed dates; examine costs when a concrete spending decision arises. A weekly-hours estimate or spending ceiling is not a prerequisite for starting this work.
+
+**Supplementary scope decision:** [ADR-0009](../adr/0009-studio-design-and-registered-diner-personalisation.md) records D4/D5: restaurants maintain content; Valiris retains page design; personalised recommendations enter the launch for authenticated registered diners. Ordinary browsing remains account-free. Include necessary account/preferences journeys and Core preparation without assuming a provider, algorithm or future campaign module.
+
+**Responsibility update, 1 October 2026:** combine Direction and Product execution/consolidation for this assignment. This replaces the earlier separate Product handoff arrangement. Specialist responsibilities and independent Quality review remain; Yahya retains material-decision and merge authority. Continue with the [capability proposal](../product/m0-capability-matrix.md), [journeys/criteria](../product/m0-journeys-and-criteria.md) and [M1 briefs](../product/m1-design-briefs.md).
 
 ## 1. Immediate objective and closure
 
@@ -12,7 +16,7 @@ Make Storefront + Digital Menu ready for experience design: a restaurant's publi
 
 Use the [current roadmap](roadmap.md) and [functional definition](../research/storefront-digital-menu/functional-definition/functional-definition.es.md). General competitive exploration is closed. The seven-module timetable and former discovery gates are historical. Future modules remain unscheduled; ordering, payments, POS, delivery and invoicing remain outside this module.
 
-**Recommendation:** start Product's capability inventory now; coordinate service and commercial constraints alongside it. Begin the affected M1 no-code design work when its brief is sufficiently resolved. Missing resource estimates must not block the inventory, but must prevent unsupported dates or sales promises.
+**Current recommendation:** the inventory, scope decisions, briefs and closeout review are delivered. Complete authorised integration/tracker closure using the [M0 closeout record](m0-closeout.md), then transition to M1. Missing resource estimates prevent unsupported dates or sales promises; known unknowns are recorded with affected checkpoints rather than mistaken for completed delivery.
 
 M0 closes when the owner has reviewed the consolidated commitment and the following evidence exists:
 
@@ -22,7 +26,7 @@ M0 closes when the owner has reviewed the consolidated commitment and the follow
 - Consequential open decisions have an owner, next action and affected work. An unresolved launch-defining choice blocks that commitment; a contained design question may continue under an explicit provisional assumption, without being sold as settled.
 - Actual delivery/review capacity and missing tools, content or participant access are recorded. Unknown values stay unknown.
 
-Documentary completion is not evidence of demand, usability, willingness to pay or margin. This contribution closes when Product has a usable assignment; full M0 closure also requires Product's consolidation.
+Documentary completion is not evidence of demand, usability, willingness to pay or margin. This executive contribution supplies the framework; combined G1 execution now consolidates the capability proposal and design briefs. Full M0 closure still requires their criteria and owner review.
 
 ## 2. Priority and dependency order
 
@@ -40,7 +44,7 @@ Use a simple café, a restaurant with variants/areas, and a restaurant with dail
 
 ## 3. Responsibilities and initial working capacity
 
-Yahya is the only recorded accountable person. G1–G6 denote responsibilities; they do not prove staffed teams or active specialists. Direction coordinates priorities, dependencies and viability; Product consolidates scope, behaviours, acceptance criteria and design assignments. The founder decides strategy, investment, material commitments and merges.
+Yahya is the only recorded accountable person. G1–G6 denote responsibilities; they do not prove staffed teams or active specialists. Combined G1 execution coordinates priorities, dependencies and viability and consolidates scope, behaviours, acceptance criteria and design assignments. These remain distinct responsibilities within one mandate; the founder decides strategy, investment and material commitments, and has delegated review/merge of authorised work.
 
 **Recommended initial allocation:** executive and Product work first. Bring experience design and SEO into the initial briefs; request focused Engineering and independent Quality input for publication, context, food-information and accessibility risks. Service and Commercial contribute boundary questions in parallel. Activate visual design when the visual-direction brief is ready. Frontend, Backend and operational construction assignments follow M2 preparation.
 
@@ -85,7 +89,7 @@ Git stores reference documents and reviewed changes. GitHub retains existing mil
 
 ## 7. Ready-to-use Product assignment
 
-**Objective:** turn the reference definition into a reviewable launch commitment and usable M1 no-code design briefs. Product consolidates the detailed selection; Direction examines its commercial and resource consequences. Founder approves material commitments.
+**Objective:** turn the reference definition into a reviewable launch commitment and usable M1 no-code design briefs. The combined executive/product mandate consolidates the detailed selection and its commercial/resource consequences. Founder approves material commitments. This assignment is now being executed rather than awaiting a separate Product executor.
 
 **Inputs:** this brief, current roadmap, functional definition (all seven capability blocks, coherence rules and scenarios), available focused research only when a specific decision needs it, and the resource/access answers when supplied. Repository outcomes: [scope #3](https://github.com/yaboula/valiris-restaurants/issues/3), [M0 consolidation #6](https://github.com/yaboula/valiris-restaurants/issues/6); parallel commercial line: [#15](https://github.com/yaboula/valiris-restaurants/issues/15).
 
@@ -98,8 +102,8 @@ Git stores reference documents and reviewed changes. GitHub retains existing mil
 
 **Closure check:** no reference capability silently omitted; no detailed opportunity implicitly approved; every committed public behaviour has a maintainable operator counterpart; templates/bespoke design preserve autonomy; briefs include relevant states and checks; unresolved material choices identify affected work and owner. Report what was checked and which independent reviews/real tests remain pending.
 
-**Essential founder decisions:** (a) approve the consolidated launch commitment and any material change, once Product presents it; (b) decide concrete spending proposals when their purpose, cost and alternatives are available; (c) confirm available real content/participant access when the affected check is prepared, then approve proposed service/pricing obligations when delivery evidence supports them. No dates are committed. The first Product inventory can proceed while access and detailed commercial obligations remain pending.
+**Founder decision status:** D1/D2 and supplementary D4/D5 scope are resolved through ADR-0008/0009. Remaining decisions concern actual connection targets where business choice is needed, concrete spending proposals, real content/participant access and evidence-based service/pricing obligations. Account/personalisation rules require focused design/M2 preparation. No dates are committed; accepted-scope design can proceed while those bounded dependencies remain explicit.
 
-Next consolidation: Product prepares the matrix and briefs under #3; the owner then reviews execution closure under #6. Detailed selection, design, architecture and commercial validation remain subsequent work.
+Current consolidation: the matrix records accepted D1/D2/D4/D5 scope and updated journeys/briefs under #3. The closeout record audits #3/#6 criteria, records actual resources and carries target/access/device/content/account dependencies to their affected M1–M7 checkpoints. The owner reviews and integrates the prepared M0 package. Prototypes, architecture, implementation and commercial validation remain subsequent work.
 
-Prepared coordination handoff: [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs), Todo and unassigned. Its creation does not establish an active Product executor.
+Execution tracking: [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs) records this combined assignment's formal completion; the assignee field remains unset and does not imply another collaborator. Launch scope is accepted through ADR-0008/0009. Close the assignment after M0 integration/outcome closure; detailed delivery checks remain in their later milestones.

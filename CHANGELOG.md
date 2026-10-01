@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- M0 closeout record: exit-criteria audit, actual resource snapshot, accountable carry-over checkpoints, M1 handover order and dependency-aware owner integration sequence.
+- ADR-0009 records studio-controlled page design with restaurant content autonomy and launch personalisation for registered diners, including necessary account/preferences journeys and Core preparation.
+- ADR-0008 records the owner's first-launch capability commitment: D1 accepted, D2 deferrals rejected except standalone audio and 3D, launch connection dependencies explicit.
+- Proposed M0 launch package: all 72 reference capabilities mapped with treatment and approval status, diner/operator/buyer journeys and initial criteria, and public/management no-code M1 briefs with targeted specialist review requests.
 - M0 executive execution brief: closure evidence, priorities, responsibility boundaries, coordinated commercial/service work, resource gaps, decisive risks and an actionable Product handoff.
 - Repository bootstrap: README, proprietary license, editor and git settings, contribution guide, issue and pull request templates.
 - M0.1 kick-off documentation: project charter, roadmap, glossary (EN/ES), documentation index.
@@ -22,6 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Clarify applicable versus unknown dish allergens, mark unsupported historical brand findings as unverified leads, and distinguish documentation outcomes from software releases. Allow owner-delegated review and squash merge while retaining branch protections.
+- Resolve the two supplementary prose capabilities: exclude free-form restaurant page design and accept recommendations for authenticated registered diners. Extend the public design brief, J15/R17, roadmap and vocabulary while retaining account-free public consultation and explicit M2 data/access decisions.
+- Expand the accepted launch to personal comparison, video, declared nutrition, offline consultation, change comparison and in-venue displays; retain six connection capabilities at launch. Update scope approval, public/operator criteria, M1 briefs and roadmap while preserving original references and pending delivery evidence.
+- Combine executive and product execution/consolidation for M0 while retaining owner decisions and independent Quality review; update the executive brief and linked execution tracking. Detailed launch commitment remains proposed.
 - Replace the seven-module/17-week plan with a first-product M0–M7 roadmap; v1.0 is Storefront + Digital Menu with necessary Core and delivery service. Align charter, contribution rules, documentation, vocabulary and tracker; preserve historical research with applicability notes.
 - Record ADR-0007, retire the former discovery-gate proposal, and move real pilot evidence and commercial launch to M6/M7.
 

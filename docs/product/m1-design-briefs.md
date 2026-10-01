@@ -1,0 +1,116 @@
+# M1 no-code design briefs
+
+Version 0.3 · 1 October 2026 · Accountable owner: Yahya.
+
+**Status: design briefs for accepted launch scope; no prototype or specialist review completed.** These briefs use the [capability commitment](m0-capability-matrix.md) and proposed [journeys/criteria](m0-journeys-and-criteria.md). The owner approved D1 and amended D2 to launch delivery with only standalone audio and 3D deferred; [ADR-0008](../adr/0008-first-launch-capability-commitment.md) records the decision. G1 combines Direction/Product consolidation; independent Quality remains required. Scope acceptance is not implementation, validation, provider access or M0 completion.
+
+Common inputs: [roadmap](../project/roadmap.md), [functional definition](../research/storefront-digital-menu/functional-definition/functional-definition.es.md), [executive brief](../project/m0-execution-brief.md), [glossary](../glossary.md), retained [language decision](../adr/0005-repository-and-product-language.md). Do not create renamed copies of these sources or restart competitive exploration.
+
+[ADR-0009](../adr/0009-studio-design-and-registered-diner-personalisation.md) resolves the supplementary scope: restaurants update content autonomously; Valiris controls page design. Personalised recommendations are launch scope for authenticated registered diners. Ordinary public consultation remains account-free. Necessary diner identity/preferences add genuine design and Core work; no authentication provider or recommendation algorithm is selected here.
+
+## P — Public presence and menu consultation
+
+**Objective:** let diners recognise the venue and understand its actual offering before/during a visit, with an identity the buyer can choose and maintain. Respect both venue-discovery and direct-menu intent.
+
+**Consolidating responsibility:** Experience Design; G1 resolves behaviour and commitment. Visual Design contributes identity/templates/print; SEO examines restaurant discovery; Engineering and independent Quality review specific risks. These are requested responsibilities, not asserted active collaborators.
+
+**Scope:** matrix included/configurable public capabilities in blocks 1–3 and 5–7, backed by the management brief below. Public interface supports ES/EN/FR/DE per ADR-0005, with reviewed venue content enabled by the restaurant and Arabic/RTL preparation considered. Base templates and studio bespoke expression share clear access, essential information and content autonomy. Preserve optional images, no-photo quality, gradual detail, real formats/supplements/composed menus and editable contextual distinctions.
+
+Include launch personal comparison, video explanation, declared nutrition, offline reading/reconnect, dedicated screen outputs and connected public states. Standalone audio and 3D remain later. Connection capabilities need real supported targets/access; labelled connection-state examples may be designed before access, but are not proof of functioning integration. Preserve other-module boundaries: booking/order/payment execution is not silently absorbed. The [matrix](m0-capability-matrix.md) controls accepted scope and unresolved dependencies.
+
+**Journeys and states:**
+
+- J1: recognise venue, inspect visit information, consult general/future offering while closed, inspect price/food conditions, choose language and contact/map/booking-link exit.
+- J2: QR/direct menu, visible terrace/general context and change, category navigation, search/no results, filters/reset/unknown food information, details/pairings and retained reading location.
+- Cross-states: closed versus planned service; expired/withdrawn deep link; sold-out versus removed item; future validity; missing/affected translation with explicit fallback; declared versus pending food record; connection loss/retry; unavailable external destination where observable. Never pretend to know a provider result without access.
+- J10–J12: saved/comparison options with changed price/context/availability; reviewed video with captions/text/failure; loaded offline snapshot with age/warning/reconnect; declared/pending nutrition and source/portion basis; in-venue display output with revision, stale/failure and context/language states.
+- J14: public embedded/booking/connected result states are tied to the actual selected destination/source when known; data access remains a launch dependency, not a deferral.
+- J15: optional registration/sign-in, recovery, preferences, personalised current-menu results, no preferences/no match/error, account controls and sign-out. Distinguish venue-curated suggestions and local comparison from private personalisation. Keep public browsing usable without registration and show no private state in another user's, signed-out or shared-device session.
+
+**Expected delivery:** information architecture and annotated journeys; interactive no-code prototype for C1–C3 using verified real or explicitly fictional content; critical/empty/error/recovery states; Spanish-first copy with other-language and long-text examples; visual direction and sufficient shared components/tokens for these journeys; a base-template and a bespoke-direction example showing equal routine content controls; representative paper-menu, daily-menu and staff-output layouts linked to the live-data rules. A bespoke example is an illustration, not an already commissioned client design.
+
+Also deliver prototype states for personal comparison, optional video, nutrition, offline/reconnect and a dedicated in-venue display layout using labelled representative-device assumptions. Demonstrate essential content without video, stale/current snapshot distinction and display refresh/failure. Do not replace these required design paths with a "future feature" label.
+
+Include J15 account/personalisation states in the public prototype. Use explicit diner preferences as a proposed first input, labelled example results and explanation limits; do not invent recorded visits, purchases or recommendation effectiveness. Account scope across venues and exact account controls need M2 rules. Signed-in results must use current published items/context/prices and preserve declared/pending food information; fallback to ordinary consultation remains usable.
+
+Use a real accessible prototyping capability when confirmed. No design tool is presumed connected, no software implementation is required by this brief, and no complete speculative design system is needed before testing the journeys.
+
+**Review criteria:** cover J1.1–J1.5, J2.1–J2.6 and public effects of J5–J7. Across C1–C3, essential price/format/context and food state remain understandable without photos, icon-only meaning or obligatory account. Changing context/language preserves intent and communicates resulting changes. Long names/conditions and absent translations do not conceal essentials. Assess keyboard/focus paths, text enlargement, contrast and reading order in the actual prototype's available fidelity; record implementation checks still needed. Paper hierarchy/page breaks retain conditions and language/food status rather than reproducing a screen capture.
+
+J15.1–J15.6 and R17 are required review paths: optional entry, correct account/session, preference changes/reset, empty/no-match/error fallback, current context and sign-out/recovery/account controls. A recommendation is not an allergen-safety guarantee. Independent privacy/access review and actual implementation checks remain to do.
+
+**Dependencies and pending decisions:** D1/D2/D4/D5 scope is settled. Venue/video rights, nutritional sources, translations, target display/device, actual prototyping access, real diner sessions and connection targets/access are unconfirmed. Prepare labelled fixtures and expert review honestly; resolve launch dependencies without automatic deferral. Recommendation inputs/rules, authentication method, account scope across venues and retention/deletion effects require focused design/M2 preparation. Domain/SEO/exit details need the consultations below; no provider/ranking promise is inferred.
+
+## O — Operator preparation, publication and maintenance
+
+**Objective:** let a restaurant or authorised studio service prepare/review/publish and maintain a coherent offering, including urgent service-time changes and recovery, through the same management behaviours for templates and bespoke designs.
+
+**Consolidating responsibility:** Experience Design with G1. Engineering examines permissions/publication/concurrency/scheduling implications; Service examines real intake/handover/correction work; independent Quality checks critical state transitions and usability/accessibility. Detailed implementation is M2–M5 work.
+
+**Scope:** matrix included/configurable management behaviours in all seven blocks, with necessary Core entry to the correct venue/location and authorised actions. Include reviewed import from PDF/photo/structured sources, manual fallback, mobile/bulk editing, shared versus duplicated content, contextual drafts/previews, controlled and scheduled publication, urgent availability, history/recovery, affected translations/food information, print/QR/export and actionable maintenance/digital-use signals. Configuration is relevant to the venue; C1 must not require C2/C3 setup.
+
+Provider assistance is optional and reviewable. External source ownership/sync is accepted launch work requiring resolved target/access rules; owned-content maintenance remains usable during connection failure. Commission management is bounded service coordination, not a full sales/billing/CRM product.
+
+Restaurant content controls do not include a free-form page designer. Templates and bespoke layout remain studio responsibilities. Operators maintain the published content used by J15 recommendations; guest accounts never confer staff permissions or automatically expose private preferences to operators.
+
+External connections are accepted launch work with open target/access dependencies. The operator brief must include connection mapping/result/conflict/revocation states, reviewable nutrition/video maintenance, screen configuration/preview/revision, offline-public consequences and observed change comparisons with insufficient-data limits.
+
+**Journeys and states:**
+
+- J3: correct venue/access → existing material/import → source/proposal/uncertainties → reviewed catalogue/context/food/languages → preview. Include no material, unsupported/failed/partial import, ambiguous `24 / 34`, and assistance accept/edit/reject/failure.
+- J4: selected changes → conflicts/authorisation → immediate or scheduled publication → result/history/live inspection. Include insufficient permission, changed-underfoot data, unsaved/failed operation, schedule edited/cancelled/superseded/failed and recovery.
+- J5: urgent sold-out action with another draft present → scoped visible result/undo → previous temporary-state review at next service. Include bulk scope and no silent restock.
+- J6: ingredient/format change → affected claims/translations → review → explicit public fallback/withholding → maintenance queue.
+- J7–J9: generate/review/refresh print/QR; common template/bespoke routine editing; handover/delegated change/export/exit; pending maintenance and digital signals with limits.
+- J10–J14: edit/review video; maintain nutrition source/portion/variant state; configure dedicated screen output; observe offline/reconnect implications; compare a selected change/period/metric; map a supported external source/destination and handle failure/conflict/access loss.
+
+**Expected delivery:** annotated information architecture and state/transition inventory; interactive no-code management prototype across C1–C3; mobile routine-edit/availability path; representative import review and publication selection; contextual scheduled/exception preview; food/translation review; history/recovery; output freshness; buyer handover/exit and measurement examples. Supply a capability/criterion-to-screen-or-path map and unresolved questions. Show which states are static illustrations rather than interactive paths; use labelled fictional data without fabricated outcomes.
+
+Extend the management prototype with video/rights/review controls, nutritional-data maintenance, screen output configuration/preview, version-linked comparison and all six connection types' relevant configuration/status paths. Unknown provider interfaces are labelled assumptions to resolve; they are not reported as working connections.
+
+**Review criteria:** cover J3.1–J3.6, J4.1–J4.4, J5.1–J5.4, J6.1–J6.3, J7.1–J7.4, J8.1–J8.4 and J9.1–J9.3. The urgent path cannot publish unrelated draft edits. Permission/conflict/failure states retain honest result and recovery. Import ambiguity and pending food information stay explicit. Ingredient changes expose affected translations; shared values are consistent. Generated paper output cannot imply physical replacement. Both visual routes permit independent routine updates. Digital event examples never imply real sales, customers or causal improvement.
+
+**Dependencies and pending decisions:** D1/D2 scope is accepted; detailed behaviours such as R06 fallback, offline freshness, nutrition review and display failure still need focused review. Import limits, scheduling/recovery, measurement/privacy and comparison-data sufficiency need M2 Engineering input; no stack or arbitrary limits are selected here. Real materials/video/nutrition source, representative display, connection targets/access, prototyping capability and independent review are unresolved. D3 terms remain open without blocking common management design.
+
+## 3. Targeted specialist consultations
+
+These requests are prepared, **not sent to or answered by a specialist**. Activate the relevant responsibility when available; G1 consolidates implications. No universal review of every document is required.
+
+| Responsibility | Specific question / input | Expected contribution and affected closure |
+| --- | --- | --- |
+| Engineering | J4/J5: can selected publication, an immediate availability change and a scheduled target coexist without an unrelated draft leaking or a concurrent edit being silently lost? | Identify required invariants, conflict/recovery states and later verification obligations; adjust prototype before affected publication design closes. No stack selection in this consultation. |
+| Engineering | J3/J7/J8: what source-quality/file/asset constraints, export completeness and custom-domain ownership boundaries change import review, output freshness or exit? | Practical constraints and representative failure examples; propose explicit limits for later owner review when material. Product does not invent a successful import or universal domain transfer. |
+| Independent Quality | R02/R04/R06/R07: do C2/C3 paths allow a wrong contextual price, accidental draft publication, stale factual translation or implied food safety? | Independent scenario/state findings with severity, reproduction and correction criteria; check both public and operator effects. Review has not yet occurred. |
+| Experience/accessibility Quality | Can users read/compare/navigate/reset/recover across no-photo and long-text cases, language/context changes, mobile editing and paper outputs? | Review keyboard/focus/contrast/text enlargement/read order at available fidelity; identify assistive-technology checks deferred to implementation without claiming compliance. |
+| Service / Implantation | Using an existing menu, who confirms formats, ingredients and translations, and can another responsible person onboard then teach routine edits for both design routes? | Intake/handover responsibilities, realistic content examples, correction/escalation path and effort fields to observe. Final support/revision packages remain D3 decisions. |
+| Commercial / SEO | Which restaurant public content, location identity, URLs and indexability requirements affect the proposed navigation and multilingual structure? What differs for Valiris's own offer website? | Restaurant-discovery requirements for P; a separate Valiris information-structure/claims brief under #15. No ranking/traffic/generative-search guarantee or unverified markup policy. Research current official guidance when specifying technical requirements. |
+| Commercial / Service | Do buyers understand ongoing product, setup, paid bespoke design, optional delegated updates and exit without assuming every content edit is a new commission? | Questions and truthful provisional offer wording tied to row status; identify evidence needed for pricing/support limits during M5/M6. No fabricated buyer interview or accepted quote. |
+| Engineering / Quality | J10/J12: how do loaded snapshots, saved choices and unattended displays expose age/failure and reconnect without presenting stale food/price information as current? | Proposed freshness/update/recovery rules and testable scenarios; include the design states now, assess implementation in M2. |
+| Service / Quality | J10/J11: who supplies video rights/captions and reviewed nutrition with unit/portion/variant basis, and who rechecks after a recipe change? | Content intake/review responsibilities and representative valid/missing/changed examples; no invented nutrition or certified safety. |
+| Product / Engineering / Commercial | J13: which actual digital question, change and metric/period/exposure should the first comparison support? | A concrete comparison contract including insufficient/missing-data states and limits; no causal uplift or invented traffic. |
+| Product / Engineering / Independent Quality | J15/R17: which explicit preferences, account scope, access/session/recovery and retention/deletion rules support personalisation without gating public browsing or exposing private data to other diners, venues or staff? | Required guest/staff identity boundaries, minimal input/data flows, current-item and no-match/error rules, account-control states and later verification obligations. Select technical method in M2; no provider, behavioural history or campaign permission is assumed. |
+
+### Launch connection dependency register
+
+All six capabilities are accepted for launch; targets/access are **unresolved**, not automatically deferred. G1 consolidates selection; Engineering checks actual support, Service obtains authorised venue material/access and Quality verifies mapped failure/result states. No access or purchase is presumed.
+
+| Source capability | Target/data to identify | Required before the affected design/construction is final |
+| --- | --- | --- |
+| B1.09 | Actual reservation destination and needed booking handoff/data | Link/embedded/live boundary, venue identity and confirmation source if used; preserve booking responsibility |
+| B2.10 | Actual operational catalogue/availability source | Authorised fields, source quality, mapping and stale/conflict behaviour |
+| B4.12 | Actual authoritative external change source | Per-field edit ownership, incoming change, override/review and revocation |
+| B6.07 | Actual existing venue website/embedding surface | Host control/access, public navigation, accessibility, update and failure behaviour |
+| B6.08 | Actual external publication/channel destination | Supported data/delivery operation, authorisation, result/latency and failure/retry handling |
+| B7.06 | Actual confirmed-outcome source | Permitted outcome data, event meaning and attribution limits; no implicit construction of all future modules |
+
+## 4. Design-to-review handover and next action
+
+G1 provides this package and source links; Design returns the two prototypes, coverage map and open decisions. Reviewers inspect specific paths rather than receiving all documents without a question. G1 resolves operational behaviour, escalates material scope/service changes to Yahya and records proposed/approved/pending status. Preserve independent Quality review even though executive/product consolidation is combined.
+
+The design handover must state what is interactive, which content is fictional, what has been reviewed by whom and which real sessions are still absent. Required corrections are checked in affected public and operator paths. M1 closure uses actual review/test evidence and honest limits; preparation of these briefs is not M1 completion.
+
+**Can start now:** the complete accepted-scope prototype plans, including saved choices/video/nutrition/offline/comparison/screens, optional diner accounts/personalisation and labelled connected states; fixture/content/device/access preparation and focused consultations. **Waits for the relevant response/evidence:** real source/destination/access for completed connections, concrete paid-tool decisions, final D3 terms and real-user evidence. Account/personalisation design must expose its proposed inputs and unresolved M2 rules. Implementation follows the roadmap's later construction milestones. If a founder question is raised, wait for its response before resolving that affected decision; elapsed time is never approval.
+
+Track through [GitHub #3](https://github.com/yaboula/valiris-restaurants/issues/3), [#6](https://github.com/yaboula/valiris-restaurants/issues/6), [#15](https://github.com/yaboula/valiris-restaurants/issues/15) and [Linear YAH-5](https://linear.app/valiris/issue/YAH-5/m0-consolidate-launch-commitment-and-m1-design-briefs). No new backlog or role activation is implied by this package.
+
+The owner requested finishing M0 first. The [closeout record](../project/m0-closeout.md) provides the exit audit, actual resource snapshot, accountable carry-over checkpoints and integration sequence. Prepare the formal closure before transitioning to M1 execution; these later design/access/review requirements are not falsely claimed completed by M0.
