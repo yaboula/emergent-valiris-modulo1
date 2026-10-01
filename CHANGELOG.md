@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- M0 executive execution brief: closure evidence, priorities, responsibility boundaries, coordinated commercial/service work, resource gaps, decisive risks and an actionable Product handoff.
 - Repository bootstrap: README, proprietary license, editor and git settings, contribution guide, issue and pull request templates.
 - M0.1 kick-off documentation: project charter, roadmap, glossary (EN/ES), documentation index.
 - ADR-0001 to ADR-0005: ADR process, studio brand (accepted risk), product name, repository visibility and license, repository and product language.

@@ -6,6 +6,7 @@ Documentation is treated as code: every document is versioned, reviewed through 
 | --- | --- | --- |
 | Project charter: purpose, quality bar, principles, standards, roles, risks | [`project/charter.md`](project/charter.md) | M0, maintained continuously |
 | Current first-product roadmap and milestones | [`project/roadmap.md`](project/roadmap.md) | M0, maintained continuously |
+| Executive execution brief and Product handoff | [`project/m0-execution-brief.md`](project/m0-execution-brief.md) | M0 contribution; launch commitment remains with Product and owner |
 | Glossary (ubiquitous language, EN/ES) | [`glossary.md`](glossary.md) | Continuously |
 | Architecture decision records | [`adr/`](adr/README.md) | Continuously |
 | Research: market, competitors, 50-review ledger, simulated interviews, legal, synthesis | [`research/`](research/README.md) | Historical discovery; focused checks as needed |
