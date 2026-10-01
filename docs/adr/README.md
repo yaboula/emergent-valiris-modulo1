@@ -1,0 +1,29 @@
+# Architecture Decision Records
+
+This directory contains the Architecture Decision Records (ADRs) of Valiris Restaurants, written in the [MADR 4](https://adr.github.io/madr/) format.
+
+## When to write an ADR
+
+Write an ADR when a decision:
+
+- is costly to reverse (data model, framework, hosting, tenancy model);
+- affects more than one module or the platform/vertical boundary;
+- chooses between real alternatives with different trade-offs;
+- accepts a known risk.
+
+## Process
+
+1. Copy [`template.md`](template.md) to `NNNN-short-title.md` using the next free number.
+2. Open a pull request with status `proposed`.
+3. The product owner accepts or rejects it in review; the status is updated before merging.
+4. ADRs are immutable once accepted. To change a decision, write a new ADR and mark the old one as `superseded by ADR-NNNN`.
+
+## Index
+
+| ADR | Title | Status |
+| --- | --- | --- |
+| [0001](0001-record-architecture-decisions.md) | Record architecture decisions | Accepted |
+| [0002](0002-studio-brand-valiris.md) | Keep "Valiris" as the studio brand despite a name collision | Accepted |
+| [0003](0003-product-name.md) | Name the product "Valiris Restaurants" | Accepted |
+| [0004](0004-repository-visibility-and-license.md) | Private repository and proprietary license until v1.0 | Accepted |
+| [0005](0005-repository-and-product-language.md) | English for the repository, Spanish-first product UI | Accepted |

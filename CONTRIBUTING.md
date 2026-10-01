@@ -13,7 +13,7 @@ This guide defines how work flows through the repository. It applies to document
 1. **Every change starts from an issue** (user story, task, research or bug) assigned to a milestone (`M0`–`M8`).
 2. **Create a short-lived branch from `main`** using the naming convention below.
 3. **Open a pull request early**, fill in the template, link the issue (`Closes #123`).
-4. **The pull request is merged only when it meets the Definition of Done** and has been reviewed by the product owner.
+4. **The pull request is merged only when it meets the Definition of Done** and the authorised review is complete. The product owner may delegate review and merge of approved work; material product decisions remain with the owner. Keep branch protections active.
 5. **Merge strategy: squash merge.** The squash commit message follows Conventional Commits.
 
 `main` is always releasable. Each milestone ends with a tagged release (`v0.1.0`, `v0.2.0`, … `v1.0.0`).

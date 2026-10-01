@@ -24,6 +24,11 @@ It is the first vertical product of the Valiris product line. It is built on a r
 
 The project is in **M0 — Discovery, specification and design**. No application code exists yet by design: every decision is researched and recorded first.
 
+- Roadmap: [`docs/project/roadmap.md`](docs/project/roadmap.md)
+- Project charter (philosophy, quality bar, standards, roles, risks): [`docs/project/charter.md`](docs/project/charter.md)
+- Architecture decisions: [`docs/adr/`](docs/adr/README.md)
+- Glossary: [`docs/glossary.md`](docs/glossary.md)
+
 ## Repository layout
 
 ```text
