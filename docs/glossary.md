@@ -26,9 +26,9 @@ The ubiquitous language of Valiris Restaurants. Code, documentation and UI must 
 | --- | --- | --- | --- |
 | Customer | Cliente | Platform | A person known to a tenant (name, phone, email, language). Platform term. |
 | Guest | Comensal | Vertical | A customer in the restaurant context. The UI says *comensal*; the code in the platform says `customer`. |
-| Consent | Consentimiento | Platform | A recorded, revocable permission of a customer for a purpose and channel (e.g. marketing via WhatsApp), with timestamp and source. Required by GDPR/LSSI. |
+| Consent | Consentimiento | Platform | A recorded, revocable permission for a defined purpose and channel, with timestamp, source and notice version. Promotional permission is separate from the lawful basis for necessary booking processing. |
 | Channel | Canal | Platform | A communication medium: `email`, `whatsapp`, `sms`. |
-| Visit | Visita | Platform | A record that a customer attended the business, created from a completed booking, a loyalty scan or manual entry. The central fact the review, loyalty and reactivation modules depend on. |
+| Visit | Visita | Platform | A record of confirmed attendance at the business. Completion, authorised staff scanning or manual confirmation may establish it; a public QR scan or booking alone does not. Confirmation rules are specified in M0.3. |
 | Visit frequency | Frecuencia de visita | Module (reactivation) | The typical interval between a customer's visits, computed from their visit history. |
 | Lapsed guest | Cliente en riesgo / inactivo | Module (reactivation) | A customer whose time since the last visit clearly exceeds their usual frequency. |
 
@@ -64,9 +64,10 @@ The ubiquitous language of Valiris Restaurants. Code, documentation and UI must 
 | Booking status | Estado de la reserva | Module (booking) | `pending`, `confirmed`, `seated`, `completed`, `cancelled`, `no_show`. |
 | Walk-in | Sin reserva | Module (booking) | A guest seated without a prior booking. |
 | Waitlist | Lista de espera | Module (booking) | Guests waiting for a slot or table to become available. |
-| No-show | No presentado | Module (booking) | A confirmed booking whose guests did not arrive and did not cancel in time. |
-| Deposit | Depósito / Señal | Module (booking) | An amount charged when booking, deducted from the bill or kept on no-show. |
-| Card guarantee | Garantía con tarjeta | Module (booking) | A card saved (with Strong Customer Authentication) and charged only on no-show under the published policy. |
+| No-show | No presentado | Module (booking) | Non-attendance at a confirmed booking without timely cancellation under the venue policy. Booking-based and cover-based rates have different denominators. |
+| Deposit | Depósito / Señal | Module (booking) | An amount charged in advance; application to the bill, retention and refunds follow the disclosed booking conditions. |
+| Card guarantee | Garantía con tarjeta | Module (booking) | A saved payment method for a possible later charge under accepted conditions, with authentication when applicable. It does not guarantee funds or successful collection. |
+| Authorisation hold | Retención temporal | Module (booking) | Temporary reservation of funds by a payment provider; it is distinct from saving a card or taking a deposit and can expire. |
 
 ## Reviews, loyalty and messaging
 
@@ -97,3 +98,15 @@ The ubiquitous language of Valiris Restaurants. Code, documentation and UI must 
 | Module | A bounded capability (storefront, booking, reviews, loyalty, reactivation, whatsapp) that depends on the core and never on another module. |
 | Domain event | An immutable fact emitted by the core or a module (e.g. `visit.completed`), consumed by other modules. |
 | RLS (Row Level Security) | PostgreSQL mechanism that restricts rows per tenant at the database level. |
+
+## Research and measurement
+
+| Term | Definition |
+| --- | --- |
+| Simulated interview | A fictional scenario exercise. It contributes no real participants or independent demand evidence. |
+| Public review signal | A reviewer's reported experience, used to identify possible tasks and failure modes; not verified vendor defect status or a representative survey. |
+| Job to be done | A hypothesis about a user's situation, desired progress and reason; validated through behavioural evidence rather than compliments. |
+| Portfolio discovery | Research sufficient to guide the proposed portfolio product's definition, with its limitations recorded; the Gate 1 boundary is proposed in ADR-0006. |
+| Commercial validation | Direct evidence supporting actual target-customer demand or purchasing behaviour. It has not been established in M0.2. |
+| Observed return visit | A confirmed attendance after an earlier visit; temporal association with a campaign is not proof the campaign caused it. |
+| Foregone contribution | Estimated sales not earned minus avoidable variable costs; distinct from gross revenue and dependent on explicit assumptions. |

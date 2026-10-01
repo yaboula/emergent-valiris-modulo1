@@ -7,7 +7,7 @@
 
 ## What it is
 
-Valiris Restaurants helps small and mid-sized restaurants in Spain fill tables, cut no-shows and bring guests back — without per-cover commissions and with the guest data owned by the restaurant.
+Valiris Restaurants is a planned guest-service platform for independent restaurants and cafes in Spain. It explores direct bookings, reliable public information and repeat-guest workflows without per-cover commissions. Demand and business outcomes remain unvalidated; restaurants manage their guest relationships subject to privacy rights and lawful processing.
 
 It is the first vertical product of the Valiris product line. It is built on a reusable, sector-agnostic **platform** (core + generic modules) with a restaurant-specific **vertical** and **app** on top, so future products (e.g. barbershops, beauty salons) reuse the platform and ship their own frontend.
 
@@ -26,6 +26,7 @@ The project is in **M0 — Discovery, specification and design**. No application
 
 - Roadmap: [`docs/project/roadmap.md`](docs/project/roadmap.md)
 - Project charter (philosophy, quality bar, standards, roles, risks): [`docs/project/charter.md`](docs/project/charter.md)
+- Discovery evidence and pending Gate 1 decision: [`docs/research/`](docs/research/README.md)
 - Architecture decisions: [`docs/adr/`](docs/adr/README.md)
 - Glossary: [`docs/glossary.md`](docs/glossary.md)
 
