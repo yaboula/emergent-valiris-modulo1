@@ -1,4 +1,6 @@
-# Discovery research (M0.2)
+> Historical discovery context (September 2026). The [current first-product roadmap](../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
+# Research inputs and historical discovery
 
 Issue: [#2](https://github.com/yaboula/valiris-restaurants/issues/2). Research date: 2026-09-28.
 
@@ -10,11 +12,11 @@ Investigate the problems of independent restaurants and cafes in Spain before de
 - Vendor pages establish advertised features and prices, not independent proof of outcomes.
 - Official statistics establish their published population and period, not the addressable market automatically.
 - Simulated interviews are fictional scenario exercises. They cannot establish demand, willingness to pay or problem frequency.
-- Gate 1 and significant product decisions require the product owner's review. Research recommendations do not grant approval.
+- Significant product decisions require owner review. Research recommendations do not grant approval; current milestone exits are defined by the roadmap.
 
 ## Reading order and deliverables
 
-1. [Synthesis and Gate 1 recommendation](synthesis.md): prioritised problems, jobs to be done, differentiation hypothesis and decision record.
+1. [Historical synthesis and retired Gate 1 proposal](synthesis.md): earlier prioritised problems, jobs to be done and differentiation hypothesis; a new synthesis remains separate work.
 2. [Market](market.md): Spanish enterprise baseline, digitalisation, adoption barriers and no-show economics.
 3. [Competitors](competitors.md): advertised features, prices, substitutes and comparison limits.
 4. [Review mining](review-mining.md) and [50-record ledger](review-ledger.md): coding rules, source locators, counts and counterevidence.
@@ -26,6 +28,6 @@ Investigate the problems of independent restaurants and cafes in Spain before de
 10. [Advanced research framework](advanced-research-framework.md): English methodological reference for research design, funding, execution and assessment; broader than the restaurant product.
 11. [Storefront + Digital Menu master research](storefront-digital-menu/README.md): complete Spanish source and English translation covering 59 products across three regions, with capability matrices, sources and a decision log.
 
-Status: research deliverables prepared for review. **Gate 1 remains pending Yahya's decision**; issue #2 stays open until the gate is recorded. [ADR-0006](../adr/0006-discovery-evidence-boundary.md) proposes the distinction between portfolio discovery and commercial validation.
+Status: research inputs are available. General competitive exploration is closed; the next step is the M0 launch commitment and M1 prototypes. The old Gate 1 proposal is retired by [ADR-0007](../adr/0007-first-product-launch-roadmap.md). Research availability does not establish commercial validation; issue #2 tracks historical evidence integration.
 
-This change depends on [M0.1 PR #7](https://github.com/yaboula/valiris-restaurants/pull/7). Review the kick-off decisions first, then the research. No application or provider integration is introduced in M0.2.
+The original research delivery is stacked on [kick-off PR #7](https://github.com/yaboula/valiris-restaurants/pull/7). Review foundational decisions first, then the research. These documents introduce no application or provider integration; current planning is defined by the first-product roadmap.

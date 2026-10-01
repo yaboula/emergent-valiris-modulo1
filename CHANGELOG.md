@@ -21,5 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Clarify applicable versus unknown dish allergens, mark unsupported historical brand findings as unverified leads, and distinguish documentation outcomes from software releases. Allow owner-delegated review and squash merge while retaining branch protections.
+- Replace the seven-module/17-week plan with a first-product M0–M7 roadmap; v1.0 is Storefront + Digital Menu with necessary Core and delivery service. Align charter, contribution rules, documentation, vocabulary and tracker; preserve historical research with applicability notes.
+- Record ADR-0007, retire the former discovery-gate proposal, and move real pilot evidence and commercial launch to M6/M7.
+
 - Clarify consent, visit confirmation, no-show measurement and payment terminology in the glossary following discovery research.
 - Describe the planned product and its unvalidated outcomes explicitly in the repository introduction.

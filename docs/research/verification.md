@@ -1,3 +1,5 @@
+> Historical discovery context (September 2026). The [current first-product roadmap](../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
 # M0.2 verification record
 
 Review date: 2026-09-28. Scope: documentation and research evidence. This record describes document verification; it does not certify providers, legal compliance or product performance.

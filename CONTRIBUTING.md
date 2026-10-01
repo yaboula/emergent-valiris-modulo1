@@ -10,13 +10,13 @@ This guide defines how work flows through the repository. It applies to document
 
 ## Workflow
 
-1. **Every change starts from an issue** (user story, task, research or bug) assigned to a milestone (`M0`–`M8`).
-2. **Create a short-lived branch from `main`** using the naming convention below.
+1. **Every change starts from an issue** (user story, task, research or bug) assigned to a milestone (`M0`–`M7`).
+2. **Create a short-lived branch from `main`** using the naming convention below. If a change depends on an unmerged PR, stack its branch and PR on that dependency, state the review order, and transplant only the dependent commits after the earlier squash merge; retarget and check the resulting diff.
 3. **Open a pull request early**, fill in the template, link the issue (`Closes #123`).
 4. **The pull request is merged only when it meets the Definition of Done** and the authorised review is complete. The product owner may delegate review and merge of approved work; material product decisions remain with the owner. Keep branch protections active.
 5. **Merge strategy: squash merge.** The squash commit message follows Conventional Commits.
 
-`main` is always releasable. Each milestone ends with a tagged release (`v0.1.0`, `v0.2.0`, … `v1.0.0`).
+`main` remains reviewable and coherent. M0–M2 deliver decisions, prototypes and preparation, not usable-application releases. Software deliveries begin in M3 and integrate earlier work. Deployed releases are identifiable with relevant notes; a tag is not required for every task. `v1.0.0` is the first commercial Storefront + Digital Menu release with necessary Core. See [the roadmap](docs/project/roadmap.md).
 
 ## Branch naming
 
@@ -24,7 +24,7 @@ This guide defines how work flows through the repository. It applies to document
 <type>/<milestone>-<short-description>
 ```
 
-Examples: `docs/m0-research-competitors`, `feat/m3-booking-availability`, `fix/m2-menu-allergen-icons`.
+Examples: `docs/m0-research-competitors`, `feat/m3-menu-publication`, `fix/m4-menu-allergen-labels`.
 
 ## Commit messages
 
@@ -56,12 +56,12 @@ Any decision that is costly to reverse, affects several modules or selects betwe
 A change is done when **all** of the following hold:
 
 - [ ] Acceptance criteria of the linked issue are met.
-- [ ] Automated tests cover the change and pass in CI (from M1 onwards).
-- [ ] No accessibility violations reported by automated checks (from M1 onwards).
+- [ ] Risk-appropriate automated and manual checks cover the change; construction CI passes from M3. No implementation tests are required for unrelated documentation edits.
+- [ ] Relevant accessibility checks are completed: design review in M1 and automated/manual implementation checks from M3.
 - [ ] Security and privacy impact considered (tenant isolation, personal data, consent).
 - [ ] Documentation updated (ADR, SRS, glossary, README or module docs as relevant).
 - [ ] `CHANGELOG.md` updated under `[Unreleased]` when the change is user-visible or structural.
-- [ ] Deployed to a preview environment and verified (from M1 onwards).
+- [ ] Outcome is demonstrable; software changes are verified in the appropriate environment from M3. Planning/design deliverables do not require application deployment.
 
 ## Language
 

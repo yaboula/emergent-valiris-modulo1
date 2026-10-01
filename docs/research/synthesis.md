@@ -1,3 +1,5 @@
+> Historical discovery context (September 2026). The [current first-product roadmap](../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
 # Discovery synthesis and Gate 1
 
 Prepared: 2026-09-28. Owner: Yahya, product owner and lead engineer. **Decision status: pending owner review.**
@@ -6,7 +8,7 @@ Prepared: 2026-09-28. Owner: Yahya, product owner and lead engineer. **Decision 
 
 Recommend a **conditional go for portfolio product definition**, with commercial demand explicitly unvalidated. The research supports investigating reliable guest-facing information, booking operations and repeat-guest workflows; it does not support claims of a unique bundle, demand at a particular price, reduced no-shows or improved retention.
 
-The proposed evidence boundary is recorded in [ADR-0006](../adr/0006-discovery-evidence-boundary.md), status proposed. No scope, provider or pricing decision is accepted by this document. The previously agreed seven-module v1 ambition remains the planning constraint; M0.3 must define its thin, testable boundaries.
+The proposed evidence boundary is recorded in [ADR-0006](../adr/0006-discovery-evidence-boundary.md), status proposed. No scope, provider or pricing decision is accepted by this document. That previous seven-module v1 planning constraint is retired. The current launch commitment covers Storefront + Digital Menu and necessary Core; this historical synthesis has not yet been rebuilt from the latest module research.
 
 ## Evidence inventory
 
@@ -68,7 +70,7 @@ Proposed evaluation targets require owner approval in M0.3; none are achieved me
 | Approval date / review reference | Not recorded |
 | Deliverable status | Research set prepared; owner review outstanding |
 
-Issue #2 requires Gate 1 to be passed. It therefore stays open until Yahya records the actual decision and any required changes. If the gate means commercial validation, the present evidence is insufficient and the recommendation is no-go for that claim. Accepting the proposed narrower meaning requires explicit review of ADR-0006, rather than quietly redefining validation.
+The original issue required Gate 1. That requirement is retired by ADR-0007; issue #2 now tracks research integration without claiming a passed gate. If the gate means commercial validation, the present evidence is insufficient and the recommendation is no-go for that claim. Accepting the proposed narrower meaning requires explicit review of ADR-0006, rather than quietly redefining validation.
 
 ### Conditions to record before a pass
 

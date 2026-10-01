@@ -19,8 +19,8 @@ Closes #
 ## Definition of Done
 
 - [ ] Acceptance criteria of the linked issue are met
-- [ ] Tests added/updated and passing (from M1)
-- [ ] Accessibility checks pass (from M1)
+- [ ] Risk-appropriate checks pass (construction CI from M3)
+- [ ] Relevant accessibility checks pass (design from M1; implementation from M3)
 - [ ] Security and privacy impact considered
 - [ ] Documentation updated (ADR / SRS / glossary / README)
 - [ ] `CHANGELOG.md` updated if relevant

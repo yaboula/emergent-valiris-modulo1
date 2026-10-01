@@ -1,3 +1,5 @@
+> Historical discovery context (September 2026). The [current first-product roadmap](../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
 # Discovery source register
 
 Research access date: **2026-09-28** for every entry. Reference periods and publication dates below are separate from access dates. Inline citations in each deliverable locate claims; this register records source scope and retrieval limits. An accessible page is not necessarily a current contract or consolidated legal text.

@@ -1,3 +1,5 @@
+> Historical discovery context (September 2026). The [current first-product roadmap](../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
 # Public review ledger
 
 Collected: 2026-09-28. Exactly 50 distinct reviews; one primary theme per row. Read [the method and limitations](review-mining.md) before interpreting the counts. Summaries are paraphrases, not quotations. Stars and textual sentiment can disagree.

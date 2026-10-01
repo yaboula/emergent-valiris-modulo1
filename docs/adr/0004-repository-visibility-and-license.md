@@ -41,3 +41,7 @@ Chosen option: **Private until v1.0, proprietary license**, decided by the produ
 - The ruleset is active (`GET /repos/{owner}/{repo}/rules/branches/main` lists `deletion`, `non_fast_forward`, `required_linear_history` and `pull_request`).
 - From M1, required status checks (CI) are added to the ruleset.
 - At the M8 release gate, the repository visibility is reviewed: it becomes public, keeping the proprietary license.
+
+## Current milestone applicability
+
+[ADR-0007](0007-first-product-launch-roadmap.md) updates the historical milestone triggers: construction checks begin in M3 and commercial v1.0 review occurs in M7. The substantive decision above remains in force.

@@ -27,4 +27,5 @@ Write an ADR when a decision:
 | [0003](0003-product-name.md) | Name the product "Valiris Restaurants" | Accepted |
 | [0004](0004-repository-visibility-and-license.md) | Private repository and proprietary license until v1.0 | Accepted |
 | [0005](0005-repository-and-product-language.md) | English for the repository, Spanish-first product UI | Accepted |
-| [0006](0006-discovery-evidence-boundary.md) | Define the evidence boundary for the discovery gate | Proposed |
+| [0006](0006-discovery-evidence-boundary.md) | Define the evidence boundary for the discovery gate | Rejected; retired by ADR-0007 |
+| [0007](0007-first-product-launch-roadmap.md) | Launch Storefront + Digital Menu before subsequent modules | Accepted by owner instruction; PR integration pending |

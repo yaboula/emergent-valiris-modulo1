@@ -38,3 +38,7 @@ Chosen option: **English for the repository (code, docs, commits, issues); Spani
 ### Confirmation
 
 Review checks that no user-facing string is hard-coded. From M1, this is enforced by the i18n lint rules.
+
+## Current milestone applicability
+
+[ADR-0007](0007-first-product-launch-roadmap.md) updates the historical M1 trigger: implementation i18n enforcement begins with construction in M3. The language decision above remains in force.

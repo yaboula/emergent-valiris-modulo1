@@ -2,6 +2,8 @@
 
 The ubiquitous language of Valiris Restaurants. Code, documentation and UI must use these terms consistently. The Spanish column is the canonical UI term.
 
+Scope note: Storefront + Digital Menu and its necessary Core are the first release. Booking, customer-history, campaign and messaging terms below describe future-module vocabulary, not a requirement to build those domains now. Architecture layers and paths remain subject to M2 decisions.
+
 **Layer** tells where the concept lives:
 - **Platform:** sector-agnostic, reusable by future products.
 - **Vertical:** specific to restaurants.
@@ -28,11 +30,11 @@ The ubiquitous language of Valiris Restaurants. Code, documentation and UI must 
 | Guest | Comensal | Vertical | A customer in the restaurant context. The UI says *comensal*; the code in the platform says `customer`. |
 | Consent | Consentimiento | Platform | A recorded, revocable permission for a defined purpose and channel, with timestamp, source and notice version. Promotional permission is separate from the lawful basis for necessary booking processing. |
 | Channel | Canal | Platform | A communication medium: `email`, `whatsapp`, `sms`. |
-| Visit | Visita | Platform | A record of confirmed attendance at the business. Completion, authorised staff scanning or manual confirmation may establish it; a public QR scan or booking alone does not. Confirmation rules are specified in M0.3. |
+| Visit | Visita | Platform | A record of confirmed attendance at the business. Completion, authorised staff scanning or manual confirmation may establish it; a public QR scan or booking alone does not. Confirmation rules are specified when a future module commits to using visits. |
 | Visit frequency | Frecuencia de visita | Module (reactivation) | The typical interval between a customer's visits, computed from their visit history. |
 | Lapsed guest | Cliente en riesgo / inactivo | Module (reactivation) | A customer whose time since the last visit clearly exceeds their usual frequency. |
 
-## Menu (storefront)
+## Menu (Storefront + Digital Menu)
 
 | Term | Español (UI) | Layer | Definition |
 | --- | --- | --- | --- |
@@ -46,6 +48,8 @@ The ubiquitous language of Valiris Restaurants. Code, documentation and UI must 
 | Daily offer | Oferta del día / Menú del día | Vertical | A time-limited item or set menu shown prominently. |
 | Sold out | Agotado | Vertical | Temporary unavailability of an item, set in real time by staff. |
 | Storefront | Escaparate / Web del restaurante | Module (storefront) | The public page of a restaurant: menu, hours, location, contact, booking entry point, highlights. |
+| Living menu | Carta viva | Module (storefront) | Maintained, contextual content with explicit publication and availability states. |
+| Launch commitment | Compromiso de lanzamiento | Product | The M0 capability treatment matrix defining first-product scope, responsibility and acceptance boundaries. |
 | Table QR | QR de mesa | Module (storefront) | Printable QR code that opens the menu, optionally identifying the table. |
 
 ## Bookings
@@ -106,7 +110,7 @@ The ubiquitous language of Valiris Restaurants. Code, documentation and UI must 
 | Simulated interview | A fictional scenario exercise. It contributes no real participants or independent demand evidence. |
 | Public review signal | A reviewer's reported experience, used to identify possible tasks and failure modes; not verified vendor defect status or a representative survey. |
 | Job to be done | A hypothesis about a user's situation, desired progress and reason; validated through behavioural evidence rather than compliments. |
-| Portfolio discovery | Research sufficient to guide the proposed portfolio product's definition, with its limitations recorded; the Gate 1 boundary is proposed in ADR-0006. |
-| Commercial validation | Direct evidence supporting actual target-customer demand or purchasing behaviour. It has not been established in M0.2. |
+| Portfolio discovery | Research sufficient to guide the proposed portfolio product's definition, with its limitations recorded; the previous gate proposal in ADR-0006 is retired by ADR-0007; it does not prove demand. |
+| Commercial validation | Direct evidence supporting actual target-customer demand or purchasing behaviour. It has not been established by the historical discovery; M6 requires real participants. |
 | Observed return visit | A confirmed attendance after an earlier visit; temporal association with a campaign is not proof the campaign caused it. |
 | Foregone contribution | Estimated sales not earned minus avoidable variable costs; distinct from gross revenue and dependent on explicit assumptions. |

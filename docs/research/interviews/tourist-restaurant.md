@@ -1,3 +1,5 @@
+> Historical discovery context (September 2026). The [current first-product roadmap](../../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
 # Simulated scenario: tourist-facing restaurant
 
 **SIMULATED — FICTIONAL.** No interview took place. Every profile detail and response below is invented; no real person, business, transaction or metric is represented. Prepared 2026-09-28 using the [interview guide](script.md).

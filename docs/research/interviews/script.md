@@ -1,3 +1,5 @@
+> Historical discovery context (September 2026). The [current first-product roadmap](../../project/roadmap.md) supersedes the former M0 subphases, Gate 1/2 and seven-module v1 timetable. Findings remain research inputs; old milestone references are historical, not launch commitments. No commercial validation is established.
+
 # Behaviour-based owner interview guide
 
 Prepared: 2026-09-28. Method reference: [The Mom Test, Rob Fitzpatrick](https://www.momtestbook.com/). The questions below are original adaptations for this project, not excerpts from the book.

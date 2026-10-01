@@ -1,10 +1,12 @@
 ---
-status: proposed
+status: rejected
 date: 2026-09-28
 deciders: Yahya, product owner and lead engineer
 ---
 
 # ADR-0006: Define the evidence boundary for the discovery gate
+
+> Retired on 1 October 2026 by [ADR-0007](0007-first-product-launch-roadmap.md). The owner replaced the historical discovery gate with outcome-based first-product execution; this proposal was not accepted as validation. The original reasoning is preserved below.
 
 ## Context and problem statement
 

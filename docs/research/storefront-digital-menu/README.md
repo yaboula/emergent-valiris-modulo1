@@ -15,3 +15,5 @@ Decision labels in section 21 reproduce the supplied report. They do not indepen
 - [Interactive HTML document](functional-definition/index.html): the supplied Spanish visual presentation, preserved unchanged. Open locally in a browser; its stylesheet and scripts are embedded, while its fonts load from Google Fonts.
 
 These documents describe product directions and recommendations for discussion. Their inclusion does not independently approve detailed requirements or record a project gate decision. Both files were checked byte-for-byte against the supplied originals.
+
+Current execution follows the [first-product roadmap](../../project/roadmap.md). This supersedes earlier seven-module scheduling and old gate labels without modifying the supplied originals.

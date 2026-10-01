@@ -1,32 +1,25 @@
 # Valiris Restaurants
 
-> All-in-one platform for independent restaurants: digital menu, table bookings, reviews, loyalty, customer reactivation and a WhatsApp assistant — built by **Valiris**.
+> Public presence and a living digital menu for independent restaurants — built by **Valiris**, with a modular product vision.
 
-![status](https://img.shields.io/badge/status-M0%20discovery-blue)
+![status](https://img.shields.io/badge/status-M0%20launch%20alignment-blue)
 ![license](https://img.shields.io/badge/license-proprietary-lightgrey)
 
 ## What it is
 
-Valiris Restaurants is a planned guest-service platform for independent restaurants and cafes in Spain. It explores direct bookings, reliable public information and repeat-guest workflows without per-cover commissions. Demand and business outcomes remain unvalidated; restaurants manage their guest relationships subject to privacy rights and lawful processing.
+Valiris Restaurants is a studio-owned product for independent restaurants and cafés in Spain. Its first commercial release is **Storefront + Digital Menu** and the Core necessary to prepare, review, publish and maintain restaurant information. QR is one access route, alongside public links and other channels. Templates and paid bespoke design are supported delivery directions; detailed launch commitments are settled in M0.
 
-It is the first vertical product of the Valiris product line. It is built on a reusable, sector-agnostic **platform** (core + generic modules) with a restaurant-specific **vertical** and **app** on top, so future products (e.g. barbershops, beauty salons) reuse the platform and ship their own frontend.
+Bookings, reviews, loyalty, reactivation and a WhatsApp assistant remain future modular possibilities without a committed implementation order. Ordering, payments, POS, delivery and invoicing are outside the first module. Demand, usability, willingness to pay and service economics still require real evidence.
 
-| Module | Purpose |
-| --- | --- |
-| Storefront + QR Menu | Public restaurant page and multilingual menu with the 14 EU allergens |
-| Table Bookings | Shifts, party size, capacity, reminders, waitlist, deposit/card guarantee |
-| Reviews | Post-visit feedback, Google review invitation, alerts, AI-assisted replies |
-| Loyalty | Stamps/points via QR, rewards, Wallet pass |
-| Reactivation | Detects guests who stopped coming and runs consented campaigns |
-| WhatsApp Assistant | AI receptionist grounded on the restaurant's real data, with human handover |
+Shared responsibilities will evolve with actual product needs. Future verticals remain a vision, not a requirement to implement a sector-agnostic platform before the first usable journey.
 
 ## Project status
 
-The project is in **M0 — Discovery, specification and design**. No application code exists yet by design: every decision is researched and recorded first.
+The project is in **M0 — Align execution**. Competitive exploration is complete; launch scope and first-prototype briefs come next. M1 covers no-code experience design, M2 construction preparation, M3–M5 implementation, M6 a real pilot, and M7 launch. No application implementation or commercial validation is claimed.
 
 - Roadmap: [`docs/project/roadmap.md`](docs/project/roadmap.md)
 - Project charter (philosophy, quality bar, standards, roles, risks): [`docs/project/charter.md`](docs/project/charter.md)
-- Discovery evidence and pending Gate 1 decision: [`docs/research/`](docs/research/README.md)
+- Research inputs and historical evidence: [`docs/research/`](docs/research/README.md)
 - Architecture decisions: [`docs/adr/`](docs/adr/README.md)
 - Glossary: [`docs/glossary.md`](docs/glossary.md)
 
@@ -38,7 +31,7 @@ docs/            Documentation as code (research, product, architecture, ADRs, t
 scripts/         Repository tooling (e.g. GitHub label sync)
 ```
 
-The application monorepo layout (`apps/`, `packages/platform/`, `packages/verticals/`, `packages/ui-base/`) is introduced in M1 and described in the architecture documentation.
+Technical structure is selected in M2 from the first product’s needs. Necessary Core is implemented with the connected journeys in M3–M5; the earlier monorepo layout is not a committed construction prerequisite.
 
 ## Contributing
 

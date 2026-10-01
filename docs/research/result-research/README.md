@@ -12,4 +12,4 @@ These seven reports were collected separately for M0.2 and are organised by prod
 | Reactivation | [reactivation.md](reactivation.md) | Returning inactive customers |
 | WhatsApp Assistant | [whatsapp-assistant.md](whatsapp-assistant.md) | Diner questions and booking initiation in WhatsApp |
 
-Read these alongside the [discovery synthesis](../synthesis.md), [source register](../sources.md) and [verification record](../verification.md). They do not change the pending Gate 1 decision.
+Read these alongside the [discovery synthesis](../synthesis.md), [source register](../sources.md) and [verification record](../verification.md). Old M0.3 references are historical. Storefront + Digital Menu is the first product; other reports remain future-module research. The former Gate 1 proposal is retired by [ADR-0007](../../adr/0007-first-product-launch-roadmap.md).
