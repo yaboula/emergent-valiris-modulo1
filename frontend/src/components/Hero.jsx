@@ -41,7 +41,7 @@ export default function Hero() {
   const oliX = useTransform(scrollYProgress, [0, 1], [0, 220]);
 
   return (
-    <ThemedSection id="inicio" theme={THEMES.hero} className="relative min-h-[100svh] overflow-hidden">
+    <ThemedSection id="inicio" theme={THEMES.hero} className="relative min-h-[100svh] overflow-hidden bg-[#A8F0DC] text-[#0B1F17]" style={{ "--ink": "#0B1F17", "--bg": "#A8F0DC", "--accent": "#F0285F" }}>
       <div ref={ref} className="relative min-h-[100svh]">
         <Plane />
         <div className="relative z-10 mx-auto max-w-[1500px] px-5 pt-28 md:px-10 md:pt-32">

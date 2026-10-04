@@ -17,7 +17,7 @@ const Hours = () => (
 
 export default function Visit() {
   return (
-    <ThemedSection id="visita" theme={THEMES.visit} className="relative py-32 md:py-44">
+    <ThemedSection id="visita" theme={THEMES.visit} className="relative py-20 md:py-28">
       <div className="mx-auto grid max-w-[1400px] gap-14 px-5 md:px-10 lg:grid-cols-12">
         <div className="lg:col-span-7">
           <p className="kicker text-accent">Visítanos</p>

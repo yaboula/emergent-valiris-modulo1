@@ -18,6 +18,11 @@ User choices: landing page only (very representative), continuous-scroll "journe
 - Route tracker pill, Cast ("El reparto"), La casa story, Visit (hours, Alcoy), reservation form (MOCKED: demo toast only), footer w/ fiction disclaimer
 - Tested: iteration_1 all pass; mobile overflow fixed
 
+## Fixes (2026-10-04, iteration 2)
+- Manifesto sticky restored (removed html overflow-x clip that broke position:sticky)
+- Hero buttons/text locked to hero palette (no invisible 'Empezar el viaje' when theme changes)
+- Reduced vertical spacing: worlds 140vh, manifesto 180vh, sections py-20/28
+
 ## Backlog
 - P1: Full digital menu page (Ver carta) with allergens per dish
 - P1: Real reservation channel (WhatsApp/email) when real data exists

@@ -44,8 +44,8 @@ export default function World({ w }) {
 
   return (
     <ThemedSection id={w.id} theme={w.theme}>
-      <div ref={ref} className="relative lg:h-[190vh]">
-        <div className="relative overflow-hidden py-28 lg:sticky lg:top-0 lg:flex lg:h-screen lg:items-center lg:py-0">
+      <div ref={ref} className="relative lg:h-[140vh]">
+        <div className="relative overflow-hidden py-16 lg:sticky lg:top-0 lg:flex lg:h-screen lg:items-center lg:py-0">
           <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 top-1/2 -translate-y-1/2">
             <motion.div style={{ x: wordX }} className="outline-word font-display whitespace-nowrap text-[30vw] leading-[0.8] opacity-70">
               {w.word}
@@ -53,7 +53,7 @@ export default function World({ w }) {
           </div>
           <div className="relative z-10 mx-auto grid w-full max-w-[1400px] items-center gap-10 px-5 md:px-10 lg:grid-cols-12">
             <Copy w={w} />
-            <div className="relative h-[420px] md:h-[560px] lg:col-span-7 lg:h-[78vh]">
+            <div className="relative h-[360px] md:h-[520px] lg:col-span-7 lg:h-[78vh]">
               <motion.div style={{ rotate: dishRot, scale: dishScale }} className="absolute inset-0 flex items-center justify-center">
                 <img src={w.dishImg} alt={w.dishes[0].name} data-testid={`world-dish-img-${w.id}`} className="drop max-h-full w-[88%] object-contain" />
               </motion.div>

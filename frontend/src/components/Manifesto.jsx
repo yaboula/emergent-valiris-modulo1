@@ -22,7 +22,7 @@ export default function Manifesto() {
   const words = TEXT.split(" ");
   return (
     <ThemedSection id="manifiesto" theme={THEMES.manifesto} className="relative">
-      <div ref={ref} className="relative h-[220vh]">
+      <div ref={ref} className="relative h-[180vh]">
         <div className="sticky top-0 flex h-screen items-center">
           <div className="mx-auto max-w-6xl px-5 md:px-10">
             <p className="kicker mb-8 opacity-70">Manifiesto · 00</p>

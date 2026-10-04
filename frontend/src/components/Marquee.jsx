@@ -9,7 +9,8 @@ const Star = () => (
 export default function Marquee() {
   const items = [...WORLDS, ...WORLDS];
   return (
-    <div className="relative z-10 -my-8 -rotate-2 overflow-hidden bg-[#F0285F] py-5 text-[#FFF4E2]" data-testid="worlds-marquee">
+    <div className="relative z-10 overflow-x-clip py-8">
+    <div className="-rotate-2 bg-[#F0285F] py-5 text-[#FFF4E2]" data-testid="worlds-marquee">
       <div className="marquee flex w-max whitespace-nowrap font-display text-4xl md:text-6xl">
         {items.map((w, i) => (
           <span key={i} className="flex items-center">
@@ -18,6 +19,7 @@ export default function Marquee() {
           </span>
         ))}
       </div>
+    </div>
     </div>
   );
 }

@@ -11,7 +11,7 @@ const FACTS = [
 
 export default function Casa() {
   return (
-    <ThemedSection id="casa" theme={THEMES.casa} className="relative overflow-hidden py-32 md:py-44">
+    <ThemedSection id="casa" theme={THEMES.casa} className="relative overflow-hidden py-20 md:py-28">
       <div className="mx-auto grid max-w-[1400px] gap-12 px-5 md:px-10 lg:grid-cols-12">
         <div className="lg:col-span-6">
           <p className="kicker opacity-80">La casa · Alcoy</p>

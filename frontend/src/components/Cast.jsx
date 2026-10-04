@@ -28,9 +28,9 @@ const Member = ({ m, i }) => (
 
 export default function Cast() {
   return (
-    <ThemedSection id="reparto" theme={THEMES.cast} className="relative py-32 md:py-44">
+    <ThemedSection id="reparto" theme={THEMES.cast} className="relative py-20 md:py-28">
       <div className="mx-auto max-w-[1400px] px-5 md:px-10">
-        <div className="mb-16 grid gap-6 md:grid-cols-12 md:items-end">
+        <div className="mb-12 grid gap-6 md:grid-cols-12 md:items-end">
           <h2 className="font-display text-[clamp(3rem,8vw,7.5rem)] leading-[0.85] md:col-span-7">
             Conoce<br />al <span className="text-accent">reparto.</span>
           </h2>
