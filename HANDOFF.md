@@ -1,3 +1,13 @@
+# Estado vigente — trabajo integrado en main, 4 de octubre de 2026
+
+**Integración confirmada:** [PR #47](https://github.com/yaboula/valiris-restaurants/pull/47), squash `056b5324c7bc9177f2b95d3018a43d2c7d6f341c`. Su árbol coincide exactamente con la consolidación revisada `4bcb62a`. [Retorno y comprobación posterior](research-evidence/reviews/main-integration-2026-10-04/merged-main-receipt.json) registra fuentes #21–#46, cierre como PRs sustituidas y conservación de ramas/discusiones. No se afirma una fusión individual de cada PR. Regla de protección activa, sin bypass; autor YAHYA ABOULAFIYA <yaboula@epsa.upv.es>, sin trailers.
+
+**Entrada nueva de trabajo:** origin/main, congelando su SHA publicado en cada encargo, con propia rama/worktree. Los checkouts anteriores de especialistas permanecen intactos, sin cambio de rama, reset o rebase automático. El repositorio conserva instrucciones, coordinación, entregas, activos y evidencias.
+
+La integración conserva toda la definición y los pendientes descritos abajo: M0 cerrado, M1/#5 abierto, M2/#4 y #15 abiertos. Propuesta G2.07 actual #45/298643b: Storefront completo en PC, raster y puentes/estados parciales; [lecturas y límites](research-evidence/g2-07-storefront/imagegen/README.md). Diseño editable, adaptación a teléfono, comportamiento/idiomas/recursos/derechos y revisión independiente G4/uso real siguen pendientes. El [archivo SVG](research-evidence/archive-g2-07-svg-2026-10-04/README.md) conserva 146 experimentos locales superados sin autoridad operativa. 72 capacidades/36-30-6 y 94 IDs de copy intactos. Sin aprobación de branding/modelos, implementación, configuración, publicación o cierre de hito.
+
+Las entradas «hacia main», «sin integrar», las bases antiguas de PRs y los estados abiertos originales que siguen son historia de preparación, no instrucciones para volver a integrar o esperar esas PRs. Sus fuentes y límites de revisión no cambian.
+
 # Estado operativo — consolidación autorizada hacia main, 4 de octubre de 2026
 
 El fundador encargó integrar todo el trabajo conservado. [Registro de G1](research-evidence/reviews/main-integration-2026-10-04/README.md) reúne las fuentes #21–#46 y la exploración local 3ea85c5 en una PR contra main, con squash y sin reescribir ramas de agentes. [Registro exacto de fuentes](research-evidence/reviews/main-integration-2026-10-04/source-register.json). Este estado acompaña la entrega de integración; el SHA final de main se confirma en GitHub, no se inventa dentro de su propio commit.

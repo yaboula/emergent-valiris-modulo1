@@ -1,3 +1,5 @@
+**Post-merge confirmation:** [PR #47](https://github.com/yaboula/valiris-restaurants/pull/47) was squash-merged as `056b5324c7bc9177f2b95d3018a43d2c7d6f341c` on 4 October 2026. Source PRs #21–#46 are closed as superseded with original heads/history retained. [Exact readback](merged-main-receipt.json). The preparation record below remains preserved; its prospective steps are now completed repository actions, not product acceptance.
+
 # G1 — authorised M1 repository consolidation
 
 4 October 2026. Founder request: **“quiero ahora pasar todo al main posible ?”**.

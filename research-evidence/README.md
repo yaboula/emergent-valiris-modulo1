@@ -1,3 +1,5 @@
+Verified main integration: [PR #47](https://github.com/yaboula/valiris-restaurants/pull/47) / `056b532`, [post-merge source/state receipt](reviews/main-integration-2026-10-04/merged-main-receipt.json). All retained sources and archived working files are in main; dated verdicts remain scoped. Source PRs are closed as superseded, not individually merged or approved as complete product work.
+
 Current integration sources, 4 October 2026: [G1 register and checks](reviews/main-integration-2026-10-04/README.md), [latest published PC proposal](g2-07-storefront/imagegen/README.md), and [preserved superseded SVG working snapshot](archive-g2-07-svg-2026-10-04/README.md). The source PRs and earlier reviews retain their dated scope; repository integration does not approve the visual proposal or close M1.
 
 # Retained project evidence and assets

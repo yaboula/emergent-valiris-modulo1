@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-04",
+  "integration_pr": {
+    "headRefOid": "4bcb62a79d5ba374c8fbcab5bc7ad6c7a5d3e053",
+    "mergeCommit": {
+      "oid": "056b5324c7bc9177f2b95d3018a43d2c7d6f341c"
+    },
+    "mergedAt": "2026-10-04T17:07:10Z",
+    "state": "MERGED",
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/47"
+  },
+  "main_integration_sha": "056b5324c7bc9177f2b95d3018a43d2c7d6f341c",
+  "reviewed_head": "4bcb62a79d5ba374c8fbcab5bc7ad6c7a5d3e053",
+  "main_tree_identical_to_reviewed_head": true,
+  "author_email": "yaboula@epsa.upv.es",
+  "attribution_trailers": [],
+  "source_prs": [
+    {
+      "number": 21,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "b28ee63ef887c9d3bc9a6a8ad5165e9e160aa9fc",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/21",
+      "integrated_by": 47
+    },
+    {
+      "number": 22,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "4f97693bbdb207e910146be74330ea852d5b6861",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/22",
+      "integrated_by": 47
+    },
+    {
+      "number": 23,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "920ddf634eefa0223e00a13d76d89a01c64e7486",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/23",
+      "integrated_by": 47
+    },
+    {
+      "number": 24,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "ffa83b7eeb3e1fea4e3fff83cc680afbff706dec",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/24",
+      "integrated_by": 47
+    },
+    {
+      "number": 25,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/25",
+      "integrated_by": 47
+    },
+    {
+      "number": 26,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "acf35c9a2d89646ce1222ec10c9435578748205c",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/26",
+      "integrated_by": 47
+    },
+    {
+      "number": 27,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/27",
+      "integrated_by": 47
+    },
+    {
+      "number": 28,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "e7065aaa92acdf223628f9d7099301d766810ad3",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/28",
+      "integrated_by": 47
+    },
+    {
+      "number": 29,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "432dce72e9d4b7fbc603cd4dc4afeca189225331",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/29",
+      "integrated_by": 47
+    },
+    {
+      "number": 30,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "2b2a4a3bf5506c94b95d9b177f6006946200df24",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/30",
+      "integrated_by": 47
+    },
+    {
+      "number": 31,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "a1c39bf402907781829e3866e9706b289c59c39a",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/31",
+      "integrated_by": 47
+    },
+    {
+      "number": 32,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "4cb80e03d1e7c98fdf4c5085edae0b4744f22122",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/32",
+      "integrated_by": 47
+    },
+    {
+      "number": 33,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/33",
+      "integrated_by": 47
+    },
+    {
+      "number": 34,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "6046327ee9216e26ed56aeac81c346f7299735d8",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/34",
+      "integrated_by": 47
+    },
+    {
+      "number": 35,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "6ce8634e98da3d975a376a265de77b940ed22f37",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/35",
+      "integrated_by": 47
+    },
+    {
+      "number": 36,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/36",
+      "integrated_by": 47
+    },
+    {
+      "number": 37,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/37",
+      "integrated_by": 47
+    },
+    {
+      "number": 38,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "b30dada1ac8fa5be01d07092ec6c7dbfe80a0439",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/38",
+      "integrated_by": 47
+    },
+    {
+      "number": 39,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/39",
+      "integrated_by": 47
+    },
+    {
+      "number": 40,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/40",
+      "integrated_by": 47
+    },
+    {
+      "number": 41,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/41",
+      "integrated_by": 47
+    },
+    {
+      "number": 42,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/42",
+      "integrated_by": 47
+    },
+    {
+      "number": 43,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "7c233f1b5b94257312ab92ca8c9c859c7a6c2c64",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/43",
+      "integrated_by": 47
+    },
+    {
+      "number": 44,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "4893d501b750efd1bb9149ff695564f0d2df227b",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/44",
+      "integrated_by": 47
+    },
+    {
+      "number": 45,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "298643b81c9800a7fbb4f1cc718c560af58dee60",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/45",
+      "integrated_by": 47
+    },
+    {
+      "number": 46,
+      "state": "closed",
+      "merged_individually": false,
+      "head": "ffadd70da06b1b934b5492eb65f637b104854580",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/46",
+      "integrated_by": 47
+    }
+  ],
+  "author_branches_deleted_or_rewritten": false,
+  "main_rules_unchanged": true,
+  "ruleset_id": 24138436,
+  "ruleset_enforcement": "active",
+  "bypass_actors": [],
+  "issue_states": {
+    "5": "open",
+    "4": "open",
+    "15": "open"
+  },
+  "archived_local_files": 146,
+  "archive_hashes_match": true,
+  "original_specialist_files_intact": true,
+  "new_assignment_baseline": "published origin/main SHA",
+  "local_copy_note": "Specialist worktrees retain their original branches and local files; main integration is not an automatic rebase or deletion.",
+  "scope": "verified repository integration and historical preservation; not final design approval or M1 completion"
+}
