@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Minus, Plus, Check } from "lucide-react";
+import { Minus, Plus, Check, HandPlatter } from "lucide-react";
+import { useMesa } from "../lib/mesa";
+import { eur } from "../lib/format";
 
 const TIMES = ["13:00", "13:30", "14:00", "14:30", "20:00", "20:30", "21:00"];
 const field = "w-full rounded-2xl border-2 border-coal/15 bg-white px-4 py-3 font-medium outline-none transition-colors duration-300 focus:border-[#F0285F]";
@@ -9,6 +11,7 @@ export default function ReserveCard() {
   const [people, setPeople] = useState(2);
   const [time, setTime] = useState("14:00");
   const [sent, setSent] = useState(false);
+  const mesa = useMesa();
 
   const submit = (e) => {
     e.preventDefault();
@@ -21,6 +24,13 @@ export default function ReserveCard() {
       <img src="/img/oli.webp" alt="" aria-hidden="true" className="drop absolute -right-4 -top-20 h-32 rotate-12 md:-right-8 md:h-40" />
       <p className="kicker text-[#F0285F]">Reservar mesa</p>
       <p className="font-display mt-2 text-4xl leading-none">Guárdanos un sitio.</p>
+      {mesa.count > 0 && (
+        <button type="button" onClick={() => mesa.setOpen(true)} data-testid="reserve-mesa-summary" className="mt-5 flex w-full items-center gap-3 rounded-2xl bg-[#A8F0DC] px-4 py-3 text-left transition-transform duration-300 hover:-translate-y-0.5">
+          <HandPlatter className="h-5 w-5 shrink-0" />
+          <span className="flex-1 text-sm font-semibold">Tu selección de la carta: {mesa.count} raciones · {eur(mesa.total)}</span>
+          <span className="text-xs font-bold underline">Ver</span>
+        </button>
+      )}
       <div className="mt-7 space-y-4">
         <input required data-testid="reserve-name-input" placeholder="Tu nombre" className={field} />
         <input required type="date" data-testid="reserve-date-input" className={field} />

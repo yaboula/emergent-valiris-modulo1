@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import Symbol from "./Symbol";
 import Character, { Bubble } from "./Character";
 import { ThemedSection } from "../lib/active";
@@ -33,6 +34,7 @@ const Plane = () => (
 );
 
 export default function Hero() {
+  const navigate = useNavigate();
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const wordY = useTransform(scrollYProgress, [0, 1], [0, -160]);
@@ -59,8 +61,8 @@ export default function Hero() {
                 <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-start-journey-btn" onClick={() => scrollToId("manifiesto")} className="group flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 font-bold text-[#A8F0DC] transition-transform duration-300 hover:-translate-y-1">
                   Empezar el viaje <ArrowDown className="h-4 w-4 transition-transform duration-300 group-hover:translate-y-1" />
                 </motion.button>
-                <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-reserve-btn" onClick={() => scrollToId("visita")} className="rounded-full border-2 border-ink px-6 py-3.5 font-bold transition-colors duration-300 hover:bg-ink hover:text-[#A8F0DC]">
-                  Reservar mesa
+                <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-carta-btn" onClick={() => navigate("/carta")} className="rounded-full border-2 border-ink px-6 py-3.5 font-bold transition-colors duration-300 hover:bg-ink hover:text-[#A8F0DC]">
+                  Ver la carta
                 </motion.button>
               </div>
             </motion.div>

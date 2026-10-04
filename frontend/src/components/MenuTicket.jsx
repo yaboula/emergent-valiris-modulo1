@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+
 export default function MenuTicket({ w }) {
+  const navigate = useNavigate();
   return (
     <div data-testid={`world-menu-${w.id}`} className="mt-8 max-w-lg rounded-[28px] bg-paper p-2 text-coal shadow-[0_14px_0_rgba(0,0,0,0.16)]">
       <div className="flex items-center justify-between px-4 pb-2 pt-3">
@@ -16,6 +20,15 @@ export default function MenuTicket({ w }) {
           </li>
         ))}
       </ul>
+      <button
+        onClick={() => navigate(`/carta?orilla=${w.id}`)}
+        data-testid={`world-carta-link-${w.id}`}
+        style={{ background: w.theme.bg, color: w.theme.ink }}
+        className="group mt-1 flex w-full items-center justify-between rounded-[22px] px-5 py-3.5 text-sm font-bold"
+      >
+        Ver toda la carta de {w.title}
+        <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1.5" />
+      </button>
     </div>
   );
 }

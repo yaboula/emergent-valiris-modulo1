@@ -1,5 +1,11 @@
 import Symbol from "./Symbol";
-import { scrollToId } from "../lib/scroll";
+import { getLenis } from "../lib/scroll";
+
+const toTop = () => {
+  const l = getLenis();
+  if (l) l.scrollTo(0, { duration: 1.6 });
+  else window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
 export default function Footer() {
   return (
@@ -7,7 +13,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1400px]">
         <div className="flex flex-wrap items-center justify-between gap-4 border-t pt-8 text-sm" style={{ borderColor: "color-mix(in srgb, var(--ink) 20%, transparent)" }}>
           <p className="opacity-70">Cinco orillas · Una sola mesa · Alcoy (Alicante)</p>
-          <button data-testid="footer-back-top-btn" onClick={() => scrollToId("inicio")} className="rounded-full border-2 border-current px-4 py-2 font-bold transition-colors duration-300 hover:bg-[color:var(--ink)] hover:text-[color:var(--bg)]">
+          <button data-testid="footer-back-top-btn" onClick={toTop} className="rounded-full border-2 border-current px-4 py-2 font-bold transition-colors duration-300 hover:bg-[color:var(--ink)] hover:text-[color:var(--bg)]">
             Volver a la orilla ↑
           </button>
         </div>

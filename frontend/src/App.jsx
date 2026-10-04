@@ -1,18 +1,13 @@
 import { useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Lenis from "lenis";
 import { ActiveProvider } from "./lib/active";
-import { setLenis } from "./lib/scroll";
-import { WORLDS } from "./data/worlds";
+import { MesaProvider } from "./lib/mesa";
+import { setLenis, getLenis } from "./lib/scroll";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Manifesto from "./components/Manifesto";
-import Marquee from "./components/Marquee";
-import World from "./components/World";
-import RouteTracker from "./components/RouteTracker";
-import Cast from "./components/Cast";
-import Casa from "./components/Casa";
-import Visit from "./components/Visit";
-import Footer from "./components/Footer";
+import Landing from "./pages/Landing";
+import Carta from "./pages/Carta";
+import { MesaDrawer } from "./components/carta/Mesa";
 
 const useSmoothScroll = () => {
   useEffect(() => {
@@ -33,24 +28,34 @@ const useSmoothScroll = () => {
   }, []);
 };
 
+const ScrollReset = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const l = getLenis();
+    if (l) l.scrollTo(0, { immediate: true });
+    else window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+};
+
 export default function App() {
   useSmoothScroll();
   return (
-    <ActiveProvider>
-      <div className="grain relative">
-        <Nav />
-        <main>
-          <Hero />
-          <Manifesto />
-          <Marquee />
-          {WORLDS.map((w) => <World key={w.id} w={w} />)}
-          <Cast />
-          <Casa />
-          <Visit />
-          <Footer />
-        </main>
-        <RouteTracker />
-      </div>
-    </ActiveProvider>
+    <BrowserRouter>
+      <ActiveProvider>
+        <MesaProvider>
+          <ScrollReset />
+          <div className="grain relative">
+            <Nav />
+            <Routes>
+              <Route path="/" element={<Landing />} />
+              <Route path="/carta" element={<Carta />} />
+              <Route path="*" element={<Landing />} />
+            </Routes>
+            <MesaDrawer />
+          </div>
+        </MesaProvider>
+      </ActiveProvider>
+    </BrowserRouter>
   );
 }
