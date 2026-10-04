@@ -14,7 +14,7 @@ export default function Casa() {
     <ThemedSection id="casa" theme={THEMES.casa} className="relative overflow-hidden py-32 md:py-44">
       <div className="mx-auto grid max-w-[1400px] gap-12 px-5 md:px-10 lg:grid-cols-12">
         <div className="lg:col-span-6">
-          <p className="overline opacity-80">La casa · Alcoy</p>
+          <p className="kicker opacity-80">La casa · Alcoy</p>
           <h2 className="font-display mt-5 text-[clamp(2.8rem,6.5vw,6rem)] leading-[0.88]">
             Dos hermanos.<br />Una discusión<br />de domingo.
           </h2>

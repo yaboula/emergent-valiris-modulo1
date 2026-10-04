@@ -20,7 +20,7 @@ export default function Visit() {
     <ThemedSection id="visita" theme={THEMES.visit} className="relative py-32 md:py-44">
       <div className="mx-auto grid max-w-[1400px] gap-14 px-5 md:px-10 lg:grid-cols-12">
         <div className="lg:col-span-7">
-          <p className="overline text-accent">Visítanos</p>
+          <p className="kicker text-accent">Visítanos</p>
           <h2 className="font-display mt-5 text-[clamp(3rem,8vw,7.5rem)] leading-[0.85]">
             Ven a<br />la <span className="text-accent">orilla.</span>
           </h2>
@@ -32,7 +32,7 @@ export default function Visit() {
             </div>
           </div>
           <div className="mt-10" data-testid="visit-hours">
-            <p className="flex items-center gap-2 overline"><Clock className="h-4 w-4 text-accent" /> Horario · Europe/Madrid</p>
+            <p className="flex items-center gap-2 kicker"><Clock className="h-4 w-4 text-accent" /> Horario · Europe/Madrid</p>
             <Hours />
             <p className="mt-4 text-sm opacity-60">Comidas de martes a domingo. Cenas los viernes y sábados. No hay terraza.</p>
           </div>

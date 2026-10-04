@@ -19,7 +19,7 @@ export default function ReserveCard() {
   return (
     <form onSubmit={submit} data-testid="reserve-form" className="relative rounded-[36px] bg-paper p-7 text-coal shadow-[0_18px_0_rgba(0,0,0,0.25)] md:p-9">
       <img src="/img/oli.webp" alt="" aria-hidden="true" className="drop absolute -right-4 -top-20 h-32 rotate-12 md:-right-8 md:h-40" />
-      <p className="overline text-[#F0285F]">Reservar mesa</p>
+      <p className="kicker text-[#F0285F]">Reservar mesa</p>
       <p className="font-display mt-2 text-4xl leading-none">Guárdanos un sitio.</p>
       <div className="mt-7 space-y-4">
         <input required data-testid="reserve-name-input" placeholder="Tu nombre" className={field} />

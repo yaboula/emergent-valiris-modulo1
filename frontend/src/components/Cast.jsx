@@ -22,7 +22,7 @@ const Member = ({ m, i }) => (
     </div>
     <p className="font-display mt-4 text-2xl leading-none">{m.name}</p>
     <p className="mt-1 text-center text-sm font-medium opacity-70">{m.role}</p>
-    <span className="overline mt-2 rounded-full border-2 border-current px-3 py-0.5 !text-[10px]">{m.tag}</span>
+    <span className="kicker mt-2 rounded-full border-2 border-current px-3 py-0.5 !text-[10px]">{m.tag}</span>
   </motion.div>
 );
 

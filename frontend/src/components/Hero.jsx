@@ -45,7 +45,7 @@ export default function Hero() {
       <div ref={ref} className="relative min-h-[100svh]">
         <Plane />
         <div className="relative z-10 mx-auto max-w-[1500px] px-5 pt-28 md:px-10 md:pt-32">
-          <motion.p initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="overline mb-3 flex items-center gap-3">
+          <motion.p initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="kicker mb-3 flex items-center gap-3">
             <span className="h-2 w-2 rounded-full bg-[#F0285F]" /> Cocina mediterránea · Alcoy (Alicante)
           </motion.p>
           <motion.div style={{ y: wordY }}>

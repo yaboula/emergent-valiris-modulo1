@@ -14,7 +14,7 @@
     --accent 0.9s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
-html { background: var(--bg); }
+html { background: var(--bg); overflow-x: clip; }
 body {
   background: var(--bg);
   color: var(--ink);
@@ -25,7 +25,7 @@ body {
 ::selection { background: var(--ink); color: var(--bg); }
 
 .font-display { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; letter-spacing: -0.045em; }
-.overline { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+.kicker { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
 
 .grain::after {
   content: "";

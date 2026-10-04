@@ -39,7 +39,7 @@ export default function App() {
     <ActiveProvider>
       <div className="grain relative">
         <Nav />
-        <main>
+        <main className="overflow-x-clip">
           <Hero />
           <Manifesto />
           <Marquee />
