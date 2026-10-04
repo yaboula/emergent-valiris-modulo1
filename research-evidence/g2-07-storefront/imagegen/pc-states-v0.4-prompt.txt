@@ -1,0 +1,58 @@
+Use case: ui-mockup. Asset: ORILLA PC review sheet of STATIC STATE FRAGMENTS, not six pages.
+Input1 is ORILLA's kitchen; keep luminous ivory, black broad rounded titles, clear human sans, colour limitedto textual state bands, no images, characters or extra destinations.
+Output1536x1024 landscape reviewboard, six roomyfragments in a3column2rowgrid, sourceconditionnotrealoperationalfeedback. Topreviewannotation outsideUI: "PC · Independent state resets · Static fragments".
+Common readablecontext abovefragments:
+"ORILLA"
+"ORILLA es un restaurante ficticio creado para esta demostración."
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+Allcopy readable, darkonivory/mint/yellow/coral, never smallwhitetextoncoral. Everycardnotapage: borderthin, title blackheavy, bodyhumanreadable, actionsblackpillsoroutlinesecondary. Do not inventmodal/toasttimestamps.
+
+Sixfragments:
+1. Small reviewannotationoutsidecard "SC01 · Temporary, Sunday lunch".
+Inside:
+"Flan de café"
+"No disponible en este servicio" DARKtext oncoral.
+"Ración · 6,00 €"
+"El flan de café no está disponible para comidas del 4 de octubre. Puedes consultar los demás postres."
+"Declarado en el ejemplo: leche y huevo. El resto de alérgenos y la elaboración están pendientes."
+primary "Ver postres"; secondary "Ver detalle".
+2. Annotation "SC02 · Confirmed restoration, same lunch".
+Inside:
+"Flan de café"
+"Disponible en este servicio" darkonmint.
+"Ración · 6,00 €"
+"Flan de café y caramelo, servido en una porción individual."
+"Declarado en el ejemplo: leche y huevo. El resto de alérgenos y la elaboración están pendientes."
+"Ver detalle".
+3. Annotation "SC03 · Next service, stock unknown".
+Inside:
+"Flan de café"
+"Disponibilidad por confirmar" darkonyellow.
+"Ración · 6,00 €"
+"Flan de café y caramelo, servido en una porción individual."
+"Declarado en el ejemplo: leche y huevo. El resto de alérgenos y la elaboración están pendientes."
+"Ver detalle".
+4. Annotation "SC07 · Known former target withdrawn".
+Inside:
+"Flan de café"
+"Este producto ya no está publicado en la carta de ORILLA."
+"Ver carta".
+NO price oravailable/stockclaiminthiscard.
+5. Annotation "SC05 · Current information unconfirmed".
+Inside:
+"Flan de café"
+"No podemos confirmar la información actual."
+"Reintentar"
+"Horarios y visita".
+NOprice, claimwithdrawal/unavailability, ingredientfacts orcookedserving.
+6. Annotation "SC09 · Visit data missing".
+Inside:
+"Horarios y visita"
+"Alcoy (Alicante)"
+"Horario del local pendiente."
+"Horario de cocina pendiente."
+"Dirección y contacto de ejemplo no disponibles."
+"Ver carta".
+NO hours, closed badge orfakecontact.
+
+Keepfiveflanconditionsdistinct, labelcard1temporarynexttocurrentname andconditionalprices1/2/3only. They are INDEPENDENT RESETS, NEVER a chronologicalcombinedrestaurantstate. Usewhitespaceforknown/pending/recoveryreading; do notoverusegraphics. Preserve accents Spanishdecimalcomma. No darkmode, fabricatedstockreason/restockdate, sourcechanges, account/cart/reservation.

@@ -1,0 +1,26 @@
+[
+  { "name": "type/story", "color": "1D76DB", "description": "User-facing capability (user story)" },
+  { "name": "type/task", "color": "5319E7", "description": "Engineering or documentation work" },
+  { "name": "type/research", "color": "0E8A16", "description": "Discovery and research work" },
+  { "name": "type/adr", "color": "006B75", "description": "Architecture decision record" },
+  { "name": "type/bug", "color": "D73A4A", "description": "Behaviour does not match the specification" },
+
+  { "name": "module/core", "color": "C5DEF5", "description": "Platform core (tenants, customers, visits, notifications, events)" },
+  { "name": "module/storefront", "color": "C5DEF5", "description": "Storefront and QR menu" },
+  { "name": "module/booking", "color": "C5DEF5", "description": "Table bookings" },
+  { "name": "module/reviews", "color": "C5DEF5", "description": "Reviews and reputation" },
+  { "name": "module/loyalty", "color": "C5DEF5", "description": "Loyalty (stamps, points, rewards)" },
+  { "name": "module/reactivation", "color": "C5DEF5", "description": "Customer reactivation" },
+  { "name": "module/whatsapp", "color": "C5DEF5", "description": "WhatsApp assistant" },
+  { "name": "module/restaurants", "color": "BFD4F2", "description": "Restaurant vertical and app" },
+  { "name": "module/ui", "color": "BFD4F2", "description": "Design system and base UI" },
+  { "name": "module/infra", "color": "BFD4F2", "description": "Repository, CI/CD, hosting, observability" },
+
+  { "name": "priority/must", "color": "B60205", "description": "MoSCoW: Must have" },
+  { "name": "priority/should", "color": "D93F0B", "description": "MoSCoW: Should have" },
+  { "name": "priority/could", "color": "FBCA04", "description": "MoSCoW: Could have" },
+  { "name": "priority/wont", "color": "EDEDED", "description": "MoSCoW: Won't have in this release" },
+
+  { "name": "status/triage", "color": "F9D0C4", "description": "Needs refinement and prioritisation" },
+  { "name": "status/blocked", "color": "000000", "description": "Blocked by a dependency or decision" }
+]

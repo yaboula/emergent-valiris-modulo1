@@ -1,6 +1,6 @@
 # Planning transition — 1 October 2026
 
-The owner-supplied roadmap replaces the historical seven-module/17-week plan. [roadmap.md](roadmap.md) is the active English execution reference; [ADR-0007](../adr/0007-first-product-launch-roadmap.md) records the decision. The supplied Spanish source and personal coordination material are preserved outside the repository.
+The owner-supplied roadmap replaces the historical seven-module/17-week plan. [roadmap.md](roadmap.md) is the active English execution reference; [ADR-0007](../adr/0007-first-product-launch-roadmap.md) records the decision. The supplied Spanish source and project coordination material are now preserved in this repository under the owner’s 3 October Git decision; see the [operating index](../../coordination/README.md).
 
 ## Applicability
 
@@ -50,4 +50,4 @@ The [M0 closeout](m0-closeout.md) preserves the completed exit audit, integratio
 
 ## Migration checks
 
-The English roadmap covers the supplied objective, starting position, dependencies, all eight milestone outcomes and exits, parallel commercial work, quality, versioning, capacity-based estimation, future-module conditions and next action. Personal coordination references stay outside Git under the workspace agreement. This migration changes planning; it does not complete the launch matrix, new research synthesis, prototypes or implementation.
+The English roadmap covers the supplied objective, starting position, dependencies, all eight milestone outcomes and exits, parallel commercial work, quality, versioning, capacity-based estimation, future-module conditions and next action. Project coordination references are versioned in the repository under the current [workspace agreement](../../coordination/valiris-restaurants/workspace-working-agreement-2026-10-01.md); the previous storage rule is historical. This migration changes planning; it does not complete the launch matrix, new research synthesis, prototypes or implementation.

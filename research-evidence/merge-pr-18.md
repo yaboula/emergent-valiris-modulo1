@@ -1,0 +1,1 @@
+Integrate the M0 executive execution framework, responsibility boundaries and resource/evidence constraints for the first-product commitment.

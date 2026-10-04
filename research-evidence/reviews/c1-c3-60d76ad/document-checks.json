@@ -1,0 +1,18 @@
+{
+  "baseline": "60d76ad602d83ca70124eeac4e1fab20329255d1",
+  "checked_document": "docs/design/m1-connected-journey.md",
+  "sha256": "C13F767C3F83E68FF56EB1315096ABBF5DB300A5F832E00FE222EF5A4853D6C1",
+  "local_link_occurrences": 71,
+  "external_link_occurrences_not_fetched": 2,
+  "local_link_failures": [],
+  "matrix_unique_parent_rows": 72,
+  "treatments": {
+    "Included": 36,
+    "Connection-dependent": 6,
+    "Configurable": 30
+  },
+  "coverage_inventory_unique_parent_rows": 72,
+  "coverage_missing": [],
+  "coverage_extra": [],
+  "meaning": "Local documentary references and parent-row inventory only; no executed interaction or complete criterion validation."
+}

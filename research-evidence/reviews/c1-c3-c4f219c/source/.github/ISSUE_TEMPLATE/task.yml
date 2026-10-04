@@ -1,0 +1,28 @@
+name: Task
+description: Engineering, documentation or research work that is not a user story.
+title: "[Task] "
+labels: ["type/task", "status/triage"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What outcome does this task produce and why is it needed?
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: Concrete artefacts (files, documents, configurations).
+      placeholder: |
+        - docs/research/competitors.md
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: Verifiable completion criteria.
+    validations:
+      required: true

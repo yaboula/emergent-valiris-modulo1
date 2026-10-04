@@ -1,0 +1,44 @@
+Use case: ui-mockup. Asset: ORILLA DESKTOP partial menu/detail bridge review board, not a full Digital Menu rebuild.
+Input1 supplies ORILLA's culinary typographic colour grammar. Functional consultation is calmer: warm ivory, heavyrounded blacktitles, clean readable human sansbody, thin rules, mint context bands, blacktextpillactions. Nocharacters, decorativephotography, orders, cart, totals, checkout, booking or account. ONE landscapePCreviewboard around1536x1024 with TWO broad component frames sidebyside, everytextlegible. Aboveframes only smallannotative captions "M01 · Entrada directa · muestra parcial" and "D01 · Entrada directa a variante · sin recurso". Captions describe reviewscope notproductnavigation.
+
+LEFT frame — partial direct public Carta:
+"ORILLA"
+"ORILLA es un restaurante ficticio creado para esta demostración."
+"Carta de ORILLA"
+"Carta general · Sala"
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+Secondarylinks "Conocer ORILLA" and "Horarios y visita".
+Heading "Del horno y la cuchara"
+"Arroz al horno de verduras y garbanzos"
+"Por persona · 16,00 € / persona"
+"Mínimo 2 personas."
+"Arroz de horno con calabaza, pimiento y garbanzos. Se prepara para un mínimo de dos personas."
+"La información de alérgenos de este ejemplo está pendiente."
+"Ver detalle"
+Next heading "Para beber"
+"Vino blanco de la casa"
+"Vino blanco servido por copa de 125 ml o botella de 750 ml."
+"Copa · 125 ml · 3,50 €"
+"Botella · 750 ml · 17,50 €"
+"Declarado en el ejemplo: sulfitos. El resto de alérgenos y la elaboración están pendientes."
+"Ver detalle"
+No claimthispartialframeiscompleteCarta.
+
+RIGHT frame — known published direct V02 detail without compatibleimage:
+"ORILLA"
+"ORILLA es un restaurante ficticio creado para esta demostración."
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+Warmmintnotice "Este contenido se muestra en español mientras revisamos la traducción."
+Large complete title inmultiplelines:
+"Berenjena asada con aceite de limón, miel y avellanas tostadas"
+"La misma berenjena con aceite de limón en lugar de yogur. Conserva la miel y las avellanas."
+"Elige la variante"
+Show two choicepills, inactiveoutlined "Con yogur de limón", selectedmintdarktext "Con aceite de limón, sin yogur".
+"Media ración · 9,50 €"
+"Ración · 15,00 €"
+"Elige la variante; el precio no cambia."
+"Ingredientes y alérgenos de ejemplo"
+"Declarado en el ejemplo: avellanas (frutos de cáscara). Se ha quitado el yogur de la receta de ejemplo; no se ha confirmado la ausencia de leche. El resto de alérgenos y la elaboración están pendientes."
+"Información nutricional pendiente."
+A filledblackpill "Ver carta" forknownmenu directentry. Secondary "Horarios y visita". Do NOTshowbacktoLaCocina because thisframeis directentrywithoutsourceorigin.
+Allessentialfacts live-lookingeditabletypeoutsidenonexistentimages. No fauximageplaceholder oryogurtimage. PreserveALLphrasesunitsamountsfullvariantmilkuncertainty. No allergy/dietsafeclaim orinventedcurrenttimestamps. UsertextusesSpanishdecimalcommas. Renderbothframesasstaticcomponentcompositionswithoutdeviceframe, no arrowsor technicalrouterstrings.

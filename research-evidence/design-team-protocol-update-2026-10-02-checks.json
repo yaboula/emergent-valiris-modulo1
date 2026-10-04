@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-02",
+  "specialties": 12,
+  "old_protocol_body_preserved": true,
+  "historical_handoff_preserved": true,
+  "personal_files_outside_repo": true,
+  "repository_clean": true,
+  "created_threads_or_subagents": false,
+  "configured_models_or_tools": false,
+  "protocol_sha256": "39f3bc56df94a245bb8017512fe5ebf4a35d10457df519d3e299869d16822b6a",
+  "handoff_sha256": "c12b0f43b57fd0cb5ae7cc0b6d90da0d6462f8ae188b392621b75405c272b04f"
+}

@@ -1,0 +1,43 @@
+{
+  "commit": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+  "capabilities_count": 72,
+  "capability_ids_unique": true,
+  "treatments": {
+    "Included": 36,
+    "Configurable": 30,
+    "Connection-dependent": 6
+  },
+  "judgments": {
+    "sufficient": 69,
+    "partial": 3
+  },
+  "criteria_count": 59,
+  "criteria_exact_source_set": true,
+  "sourcecriteria_unique": 59,
+  "connected_before_section7_unchanged": true,
+  "connected_from_section8_unchanged": false,
+  "packages_sources_unchanged": {
+    "docs/design/m1-extended-journeys.md": true,
+    "docs/design/m1-content-preparation.md": true,
+    "docs/design/m1-service-and-maintenance.md": true,
+    "docs/design/m1-public-presence-and-discovery.md": true,
+    "docs/design/m1-scheduling-and-service-continuity.md": true,
+    "docs/design/m1-food-register-and-outputs.md": true,
+    "docs/product/m0-capability-matrix.md": true,
+    "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md": true
+  },
+  "criterion_source_append_only": true,
+  "changed_files": [
+    "CHANGELOG.md",
+    "docs/README.md",
+    "docs/design/m1-connected-journey.md",
+    "docs/design/m1-coverage-and-evidence.md",
+    "docs/product/m0-journeys-and-criteria.md",
+    "docs/product/m1-design-briefs.md",
+    "docs/project/roadmap.md"
+  ],
+  "connected_card_count": 18,
+  "connected_complete_card_bodies_unchanged": true,
+  "connected_from_section8_change_explanation": "Only G4 prepared-question status changed to bounded RV01-RV07; card and contrast bodies unchanged.",
+  "connected_V16_rows_unchanged": true
+}

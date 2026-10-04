@@ -1,0 +1,266 @@
+{
+  "main_before": "a52edc2d07ada73b823b01c01c89ac5fe4e90d29",
+  "pull_requests": [
+    {
+      "baseRefName": "docs/m1-g1-orilla-ui-ready",
+      "headRefName": "docs/m1-g1-relume-transfer",
+      "headRefOid": "ffadd70da06b1b934b5492eb65f637b104854580",
+      "isDraft": true,
+      "number": 46,
+      "title": "docs(product): prepare G2 context for Relume exploration",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/46",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-ui-ready",
+      "headRefName": "docs/m1-g2-07-orilla-adaptive-ui",
+      "headRefOid": "298643b81c9800a7fbb4f1cc718c560af58dee60",
+      "isDraft": true,
+      "number": 45,
+      "title": "docs(design): propose complete ORILLA desktop Storefront with ImageGen",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/45",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-seo-orilla-1-1-review",
+      "headRefName": "docs/m1-g1-orilla-ui-ready",
+      "headRefOid": "4893d501b750efd1bb9149ff695564f0d2df227b",
+      "isDraft": true,
+      "number": 44,
+      "title": "docs(product): consolidate ORILLA inputs for adaptive UI",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/44",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-joint-handoff",
+      "headRefName": "docs/m1-seo-orilla-1-1-review",
+      "headRefOid": "7c233f1b5b94257312ab92ca8c9c859c7a6c2c64",
+      "isDraft": true,
+      "number": 43,
+      "title": "docs: re-read ORILLA 1.1 and architecture v0.3",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/43",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-joint-handoff",
+      "headRefName": "docs/m1-g2-02-orilla-content-1-1-adoption",
+      "headRefOid": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c",
+      "isDraft": true,
+      "number": 42,
+      "title": "docs(product): adopt ORILLA content 1.1 in storefront architecture",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/42",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g2-04-orilla-seo-consolidation",
+      "headRefName": "docs/m1-g1-orilla-joint-handoff",
+      "headRefOid": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "isDraft": true,
+      "number": 41,
+      "title": "docs(product): hand off ORILLA content 1.1 with architecture v0.3",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/41",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-seo-handoff",
+      "headRefName": "docs/m1-g2-02-orilla-content-adoption",
+      "headRefOid": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+      "isDraft": true,
+      "number": 40,
+      "title": "docs(storefront): adopt ORILLA content and discovery review",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/40",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-seo-handoff",
+      "headRefName": "docs/m1-g2-04-orilla-seo-consolidation",
+      "headRefOid": "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4",
+      "isDraft": true,
+      "number": 39,
+      "title": "docs(M1): consolidate ORILLA SEO content recommendations",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/39",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-seo-orilla-content-review",
+      "headRefName": "docs/m1-g1-orilla-seo-handoff",
+      "headRefOid": "b30dada1ac8fa5be01d07092ec6c7dbfe80a0439",
+      "isDraft": true,
+      "number": 38,
+      "title": "docs(product): receive ORILLA SEO review and prepare scoped returns",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/38",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-content-handoff",
+      "headRefName": "docs/m1-seo-orilla-content-review",
+      "headRefOid": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+      "isDraft": true,
+      "number": 37,
+      "title": "docs: review ORILLA 1.0 for SEO and GEO",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/37",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g2-04-orilla-content",
+      "headRefName": "docs/m1-g1-orilla-content-handoff",
+      "headRefOid": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "isDraft": true,
+      "number": 36,
+      "title": "docs(product): coordinate shared ORILLA content review and UI handoff",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/36",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g1-orilla-architecture-handoff",
+      "headRefName": "docs/m1-g2-04-orilla-content",
+      "headRefOid": "6ce8634e98da3d975a376a265de77b940ed22f37",
+      "isDraft": true,
+      "number": 35,
+      "title": "docs(M1): develop ORILLA case and situated Storefront copy",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/35",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g2-02-storefront-architecture",
+      "headRefName": "docs/m1-g1-orilla-architecture-handoff",
+      "headRefOid": "6046327ee9216e26ed56aeac81c346f7299735d8",
+      "isDraft": true,
+      "number": 34,
+      "title": "docs(product): receive ORILLA architecture and prepare content handoff",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/34",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-orilla-shared-case-contracts",
+      "headRefName": "docs/m1-g2-02-storefront-architecture",
+      "headRefOid": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+      "isDraft": true,
+      "number": 33,
+      "title": "docs(storefront): define preliminary ORILLA information architecture",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/33",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-storefront-adaptive-contracts",
+      "headRefName": "docs/m1-orilla-shared-case-contracts",
+      "headRefOid": "4cb80e03d1e7c98fdf4c5085edae0b4744f22122",
+      "isDraft": true,
+      "number": 32,
+      "title": "docs(product): define the shared fictional ORILLA case",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/32",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-selected-reference-handoff",
+      "headRefName": "docs/m1-storefront-adaptive-contracts",
+      "headRefOid": "a1c39bf402907781829e3866e9706b289c59c39a",
+      "isDraft": true,
+      "number": 31,
+      "title": "docs(product): prepare adaptive storefront specialist contracts",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/31",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-selected-reference-handoff",
+      "headRefName": "docs/m1-g4-selected-direction-review",
+      "headRefOid": "2b2a4a3bf5506c94b95d9b177f6006946200df24",
+      "isDraft": true,
+      "number": 30,
+      "title": "docs(research): independently review selected brand direction",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/30",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g2-06-lettering-refinement",
+      "headRefName": "docs/m1-selected-reference-handoff",
+      "headRefOid": "432dce72e9d4b7fbc603cd4dc4afeca189225331",
+      "isDraft": true,
+      "number": 29,
+      "title": "docs(product): consolidate the selected restaurant brand references",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/29",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-brand-direction-consolidation",
+      "headRefName": "docs/m1-g2-06-lettering-refinement",
+      "headRefOid": "e7065aaa92acdf223628f9d7099301d766810ad3",
+      "isDraft": true,
+      "number": 28,
+      "title": "docs(restaurants): explore brand signature and ORILLA proximity",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/28",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-g2-06-restaurants-brand",
+      "headRefName": "docs/m1-brand-direction-consolidation",
+      "headRefOid": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+      "isDraft": true,
+      "number": 27,
+      "title": "docs(product): consolidate reviewed culinary brand exploration",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/27",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-restaurants-brand-foundation",
+      "headRefName": "docs/m1-g2-06-restaurants-brand",
+      "headRefOid": "acf35c9a2d89646ce1222ec10c9435578748205c",
+      "isDraft": true,
+      "number": 26,
+      "title": "docs(restaurants): propose an open culinary brand direction",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/26",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-orilla-direction-review",
+      "headRefName": "docs/m1-restaurants-brand-foundation",
+      "headRefOid": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "isDraft": true,
+      "number": 25,
+      "title": "docs(product): scope Valiris Restaurants brand foundations",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/25",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-versioned-operating-state",
+      "headRefName": "docs/m1-orilla-direction-review",
+      "headRefOid": "ffa83b7eeb3e1fea4e3fff83cc680afbff706dec",
+      "isDraft": true,
+      "number": 24,
+      "title": "docs(product): review ORILLA handoff and coordinate content with SEO GEO",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/24",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-connected-journey",
+      "headRefName": "docs/m1-versioned-operating-state",
+      "headRefOid": "920ddf634eefa0223e00a13d76d89a01c64e7486",
+      "isDraft": true,
+      "number": 23,
+      "title": "docs(project): version operating material and require Git for each specialist",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/23",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "docs/m1-connected-journey",
+      "headRefName": "docs/m1-orilla-direction-handoff",
+      "headRefOid": "4f97693bbdb207e910146be74330ea852d5b6861",
+      "isDraft": true,
+      "number": 22,
+      "title": "docs(product): hand over scoped ORILLA art direction",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/22",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    },
+    {
+      "baseRefName": "main",
+      "headRefName": "docs/m1-connected-journey",
+      "headRefOid": "b28ee63ef887c9d3bc9a6a8ad5165e9e160aa9fc",
+      "isDraft": true,
+      "number": 21,
+      "title": "docs(product): describe M1 public, management and service journeys",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/21",
+      "integration_strategy": "included through consolidation PR; original source remains available"
+    }
+  ],
+  "retained_local_exploration": "3ea85c588b9452fd517921f44e2e282164e6ba53"
+}

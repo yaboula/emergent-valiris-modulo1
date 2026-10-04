@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordDate": "2026-10-03",
+  "delivery": "G2.06 proposed Valiris Restaurants identity v1.0",
+  "contentSnapshotCommit": "058ae6bbf7ff8a50e3f8887a47e37e979c798cdf",
+  "contentCommitMessage": "docs(restaurants): propose line identity and brand hierarchy",
+  "baseline": "27861fd94dafd51889e2f223000320d66fd39dae",
+  "branch": "docs/m1-g2-06-restaurants-brand",
+  "remote": "https://github.com/yaboula/valiris-restaurants.git",
+  "pullRequest": {
+    "number": 26,
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/26",
+    "title": "docs(restaurants): propose Valiris Restaurants identity directions",
+    "base": "docs/m1-restaurants-brand-foundation",
+    "head": "docs/m1-g2-06-restaurants-brand",
+    "stateAtReadback": "OPEN",
+    "draftAtReadback": true,
+    "milestone": "M1 - Design and check experience",
+    "closingIssueReferences": [],
+    "reportedStatusChecksAtReadback": []
+  },
+  "readback": {
+    "localContentCommitAuthor": "Yahya <yaboula@epsa.upv.es>",
+    "localContentCommitCommitter": "Yahya <yaboula@epsa.upv.es>",
+    "trailers": "None",
+    "remoteBranchAndPrHeadAtContentReadback": "058ae6bbf7ff8a50e3f8887a47e37e979c798cdf",
+    "baseWorktree": "restaurants-brand-foundation",
+    "baseWorktreeReadback": "Clean; docs/m1-restaurants-brand-foundation at agreed 27861fd94dafd51889e2f223000320d66fd39dae",
+    "applicationCi": "No status checks reported; not a software verification claim",
+    "issues": "Both #15 and #5 OPEN; no closing keywords; milestone not closed"
+  },
+  "checks": {
+    "verifier": "python research-evidence/g2-06-restaurants-brand/verify.py",
+    "record": "checks.json",
+    "result": "PASS",
+    "authorReview": "author-review.md",
+    "whitespace": "Authored-path diff check with CR-at-EOL accepted; untouched upstream OFL notices retain line-21 space, documented and byte-verified against primary sources."
+  },
+  "recordScope": "Content snapshot is an immutable reference, not an assertion that it remains final branch HEAD. This publication record and return-link follow-up are committed afterwards. Resolve final HEAD using git rev-parse HEAD or PR headRefOid; the delivery response reports it.",
+  "integration": "G1 coordinates upstream #25/#24/#23/#21 and preserved #22 source; transplant only assignment commits after upstream squash, retarget and inspect resulting diff.",
+  "approval": "Proposed; founder selection, G1 review and G4 independent application review pending. No merge, identity approval or tracker closure.",
+  "ownedPaths": [
+    "docs/design/valiris-restaurants-brand-direction.md",
+    "research-evidence/g2-06-restaurants-brand/"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edition": "v2 / 2026-10-03",
+  "status": "Revised proposal published for founder evaluation; not approved",
+  "verifiedAt": "2026-10-03 17:05:45 UTC",
+  "contentCommit": "07bb98462aca9ddae93ec5aab7643bc3d7578514",
+  "revisionStart": "d44942ea7eee6471c8d6933dab91dcd9f6b37009",
+  "agreedBaseline": "27861fd94dafd51889e2f223000320d66fd39dae",
+  "branch": "docs/m1-g2-06-restaurants-brand",
+  "author": "Yahya <yaboula@epsa.upv.es>",
+  "trailers": "None",
+  "remotePush": "Confirmed origin branch advanced d44942e → 07bb984",
+  "pullRequest": {
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/26",
+    "state": "OPEN",
+    "draft": true,
+    "baseRefName": "docs/m1-restaurants-brand-foundation",
+    "verifiedContentHead": "07bb98462aca9ddae93ec5aab7643bc3d7578514",
+    "title": "docs(restaurants): propose a vivid kitchen character identity",
+    "statusCheckRollup": [],
+    "statusCheckInterpretation": "No check entries returned; no CI pass claimed"
+  },
+  "checks": {
+    "result": "PASS",
+    "report": "checks.json",
+    "nativeTexts": 129,
+    "minimumNativeTextContrast": 4.72,
+    "assets": 56,
+    "boards": 8,
+    "frozenSourceRecords": 19,
+    "scope": "Bounded author review; not integral accessibility or independent review",
+    "gitWhitespace": "Staged diff check passed with per-command cr-at-eol allowance for historical manifest; no Git configuration change",
+    "softwareTests": "Not applicable; no application/configuration changes"
+  },
+  "figma": {
+    "file": "uJSv4mj3oi9Br8Za9WuZAz",
+    "page": "20:2",
+    "team": "Valiris",
+    "url": "https://www.figma.com/design/uJSv4mj3oi9Br8Za9WuZAz?node-id=20-2",
+    "oldPage": "0:1 / preserved as rejected"
+  },
+  "reservedPaths": [
+    "docs/design/valiris-restaurants-brand-direction.md",
+    "research-evidence/g2-06-restaurants-brand/"
+  ],
+  "relativeGuide": "docs/design/valiris-restaurants-brand-direction.md",
+  "relativeEvidence": "research-evidence/g2-06-restaurants-brand/v2/",
+  "selfReferencePolicy": "This publication snapshot is committed after the identified content commit. Its own containing commit cannot record its own SHA; final branch tip is verified externally and reported to the founder.",
+  "pending": [
+    "Founder direction/hierarchy selection",
+    "G1 consolidation",
+    "G6 offer validation",
+    "G2.04 copy/SEO/GEO",
+    "G2.05 localisation",
+    "G2.08 production/rights",
+    "G2.07/G2.03 applications",
+    "G2.09 motion",
+    "G4 independent application review"
+  ],
+  "merge": false,
+  "issueClosure": false,
+  "otherChatMessages": false
+}

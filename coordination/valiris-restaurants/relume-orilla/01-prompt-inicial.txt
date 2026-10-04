@@ -1,0 +1,9 @@
+Crea una propuesta de sitio en español para ORILLA, restaurante mediterráneo ficticio en Alcoy (Alicante), ejemplo de Valiris Restaurants. Inés y Dani Vidal lo conciben alrededor del horno, verduras asadas, arroz para compartir y platos individuales; una mesa de madera reparada para seis convive con mesas pequeñas.
+
+Objetivo: una presentación memorable, creativa y cómoda que ayude a comprender el restaurante y planificar la visita, con Ver carta directo y consulta pública sin cuenta.
+
+Conserva dos destinos principales: presentación con bloques La cocina, Nuestra mesa y Horarios y visita; y Carta de ORILLA separada, clara y tranquila. No crear páginas separadas para cada bloque o categoría. El detalle de plato es contextual. Navegación: La cocina, La historia de ORILLA, Horarios y visita, Ver carta.
+
+Dirección: Modern Product-Centric Web Design — Bold Graphic, Editorial & Soft Depth; Playful Branding, Character-driven Brand Identity, Playful Minimalism y Brand-led UI. Solo superficies luminosas, color vivo flexible, letras amplias y objetos culinarios protagonistas. Presentación expresiva; consulta precisa. Personajes opcionales, sin roles fijos. Primero diseña PC; después adapta deliberadamente a teléfono.
+
+Trabaja con el caso/copy ORILLA 1.1 que aportaré por sección; no inventes hechos adicionales. Visible: «ORILLA es un restaurante ficticio creado para esta demostración.» En contenido alimentario: «Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer.» Sin dirección/contacto real, reservas activas, reseñas, premios, pedidos, carrito o pagos. Mantén estas ausencias explícitas. No blog ni páginas SEO añadidas. Empieza por el sitemap para revisar la estructura antes de los wireframes.

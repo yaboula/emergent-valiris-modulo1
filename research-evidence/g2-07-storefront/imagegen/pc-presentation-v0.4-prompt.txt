@@ -1,0 +1,17 @@
+Use case: ui-mockup. Asset: ORILLA PC H01 native readable opening.
+Reference1 is the fullpagePCproposal. Reproduce just its header and H01 opening as a high-resolution 1536x1024 landscape desktop UI still. Preserve direction: monumental broad rounded heavy black ORILLA, mint airy upperfield, coral culinary ground, tactile material and softdepth, oversized roasted aubergine with white yogurt/honey/hazelnut and redovenpan of rice/squash/pepper/chickpeas. A BLUE SPOON CHARACTER with eyes, blacklimbs and whitegloves integrated leftwelcoming/presentingfood, no extra cast. Keep characterclearofalltext. Reference2 is earlierheaderhero for fidelitybutnotcharacterpolicy. References3selectedcafeforcharacter/materiallanguage; notcopyitscoffeecopy. No seaside orbeachbusinessclaim.
+
+Exact upper compact identity:
+"ORILLA"
+"ORILLA es un restaurante ficticio creado para esta demostración."
+Header secondary nav "La cocina" / "La historia de ORILLA" / "Horarios y visita"; primaryseparateblackpill "Ver carta".
+Main HUGE "ORILLA" broadheavytype.
+"Del horno al centro de la mesa."
+"Cocina mediterránea en Alcoy (Alicante)"
+"Verduras asadas, arroz para compartir y platos individuales. Inés cocina; Dani prepara una mesa en la que también cabe venir por tu cuenta."
+Mainbutton "Ver carta".
+Functional copy needscomfortableactualsize, do notshrinktomicrotext. Keepbigletteringatmostaboutquarterheight sofunctionaltextandfoodbothhaveroom. CTAatleast48pxheightinscreenshot. Boldbrandtype/displaybutbodycleanhumansans no fontlicenseclaim.
+Bottom ivoryreadingstrip withnotice notburied infooter, exactatleast18px:
+"Representaciones conceptuales de platos."
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+Foodillustrationstartafterfunctionaltext; no essential text onphotographicpattern, no vegetable coversproposition. Preserve fullnames accents, text notcropped. Noprices/stock/search/order/booking/share orValirisprimarybrand. Opaque output.

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-03",
+  "review_owner": "G1",
+  "reviewed_sha": "4f97693bbdb207e910146be74330ea852d5b6861",
+  "guide_git_blob_sha256": "82f01230bc802bc4fe6a44fdf084b1658abeb7eb40084cfc27d834a174283141",
+  "changed_paths": [
+    "CHANGELOG.md",
+    "docs/design/m1-storefront-visual-direction.md"
+  ],
+  "assets": [
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/01-ceramica-v0.2.png",
+      "bytes": 2251203,
+      "sha256": "19091f907d5f807d755e2e95699802a8a32fb5fadaaf3cb2f9d125e007f4dfb3",
+      "expected_sha256": "19091f907d5f807d755e2e95699802a8a32fb5fadaaf3cb2f9d125e007f4dfb3",
+      "size": [
+        1422,
+        1106
+      ],
+      "matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-inicial-v0.2.png",
+      "bytes": 1864700,
+      "sha256": "4af3068316f665f02384f506e10010e0f74c78fa8023f9a1394ccbbd93467ebb",
+      "expected_sha256": "4af3068316f665f02384f506e10010e0f74c78fa8023f9a1394ccbbd93467ebb",
+      "size": [
+        1422,
+        1106
+      ],
+      "matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/03-encuadres-v0.2.png",
+      "bytes": 2027275,
+      "sha256": "8f02a2007174008a844ee3ce84b51824eb57bf8f6dcc973c1ce5d82b864799fb",
+      "expected_sha256": "8f02a2007174008a844ee3ce84b51824eb57bf8f6dcc973c1ce5d82b864799fb",
+      "size": [
+        1422,
+        1106
+      ],
+      "matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "bytes": 1862288,
+      "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+      "expected_sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+      "size": [
+        1422,
+        1106
+      ],
+      "matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/01-storefront-mobile-v0.3.png",
+      "bytes": 1730573,
+      "sha256": "d09c467bb75d166c437162a1345920318d8feaa406f786d4e7c4dbd204180207",
+      "expected_sha256": "d09c467bb75d166c437162a1345920318d8feaa406f786d4e7c4dbd204180207",
+      "size": [
+        853,
+        1844
+      ],
+      "matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/02-no-photo-failed-v0.3.png",
+      "bytes": 1861545,
+      "sha256": "dda0c236991a503cc9963803cc655b9b84b06ec0413e499c41ce69a247183b07",
+      "expected_sha256": "dda0c236991a503cc9963803cc655b9b84b06ec0413e499c41ce69a247183b07",
+      "size": [
+        1422,
+        1106
+      ],
+      "matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/02-no-photo-illustrated-v0.3.png",
+      "bytes": 1358709,
+      "sha256": "a97e09b88180bdeed6a2b1a8c10e105d4cd4c346149967f30dfde36d84cd9eca",
+      "expected_sha256": "a97e09b88180bdeed6a2b1a8c10e105d4cd4c346149967f30dfde36d84cd9eca",
+      "size": [
+        1422,
+        1106
+      ],
+      "matches": true
+    }
+  ],
+  "local_v04_folder_absent": true,
+  "withdrawn_local_branch_absent": true,
+  "figma_live_deletion": "declared by author/founder relay; not checked by G1",
+  "new_independent_g4_review": false,
+  "software_tests": false,
+  "new_review_and_prompt_local_targets": "passed",
+  "source_scope_and_pending_status": "G1 documentary acceptance only; no new independent G4 review",
+  "operating_link_check": {
+    "date": "2026-10-03",
+    "preserved_original_files": 475,
+    "inventory_records": 487,
+    "operating_files_checked": 77,
+    "local_link_targets_checked": 2187,
+    "failures": [],
+    "secret_pattern_file_count": 0,
+    "protected_source_changes": [],
+    "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+  }
+}

@@ -1,0 +1,11 @@
+# G1 — shared ORILLA case contract update
+
+4 October 2026 · G1 / sole PM · Contract and initial-case preparation, not full case/UI delivery.
+
+Owner source: the founder defines ORILLA by name as a fictional restaurant in Alcoy (Alicante), developed with the depth/coherence of a real business. He commissions story, people, gastronomic proposition, atmosphere/audience, representative menu/prices/categories/variants/availability, hours/services/visit conditions and coherent imagery. He requires a common source, specialist contributions and explicit fiction/unverified food-information labelling. Preparation baseline a1c39bf402907781829e3866e9706b289c59c39a / draft PR #31; this update leaves its adaptive method and accepted scope intact.
+
+Created `docs/design/orilla-case.md` with founder-defined identity/location/concept, one-editor/version rules and commissioned detail coverage. G2.04 develops the detailed fixture; architecture, SEO and UI propose changes referencing its IDs/SHA. Copy remains placed/derived editorial content, not an independent factual dossier. G1 did not invent the specialist's final restaurant biography/menu or declare them delivered. Update prepared contracts/common context and dependent resource/integration notes; no agent dispatch, design, image production, implementation or site publication.
+
+Contradictions corrected: blanket prohibition on invented hours/ingredients/etc now distinguishes authorised labelled fictional case development from false real-world claims; SEO's unknown-city instruction now uses the founder-defined fictional setting. Original ORILLA/brand explorations, frozen G4 scopes, accepted ADRs, capability matrix, criterion/functional sources and prior C1–C3 fixture facts remain intact. Illustrations and dish representations have different roles; example food information never becomes verified by authorship.
+
+Checks are recorded in `checks.json`: inventory/original/local-target integrity, preserved product/author sources and manual ownership/decision consistency. No new live SEO, UX, food-safety, rights, independent application review or software validation is claimed. Specialist detailed case development and actual cross-review remain pending. No new question is needed: founder-defined name, setting and permission to develop fiction are explicit.

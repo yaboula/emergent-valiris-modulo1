@@ -31,3 +31,6 @@ Write an ADR when a decision:
 | [0007](0007-first-product-launch-roadmap.md) | Launch Storefront + Digital Menu before subsequent modules | Accepted by owner instruction; PR integration pending |
 | [0008](0008-first-launch-capability-commitment.md) | Commit first-launch capabilities and defer only audio and 3D | Accepted by owner instruction; PR integration pending |
 | [0009](0009-studio-design-and-registered-diner-personalisation.md) | Keep studio design and personalise for registered diners | Accepted by owner instruction; PR integration pending |
+| [0010](0010-diner-account-and-display-recovery.md) | Share diner identity, scope preferences by venue and hide unconfirmed display prices | Proposed record of owner-selected design directions; technical contracts/review pending |
+| [0011](0011-shared-menu-content-and-contextual-maintenance.md) | Prefer shared item content with explicit contextual maintenance | Proposed record of owner-selected reuse direction; field ownership, coherent operation and technical review pending |
+| [0012](0012-confirm-delegated-updates-per-assignment.md) | Confirm delegated updates per assignment | Proposed record of owner-selected confirmation model; actual service terms/authority/version/result contracts pending |

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 1669" width="390" height="1669" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-T-V02-DIRECT · ORILLA · static editable partial detail bridge; not complete Digital Menu · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. SCENARIO-01. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="390" height="1669" fill="#FFF8EC"/>
+<g id="composition-UI-T-V02-DIRECT" data-source="">
+<g id="H01-recognition" data-source="ORI-COPY-H01-01/05/06">
+<text id="UI-T-V02-DIRECT-e1" data-source="ORI-COPY-H01-01" x="24" y="56" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="24" y="56.0">ORILLA</tspan>
+</text>
+<g id="UI-T-V02-DIRECT-e2-action" data-source="ORI-COPY-H01-05">
+<rect id="UI-T-V02-DIRECT-e3" x="234" y="24" width="132" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-T-V02-DIRECT-e4" data-source="ORI-COPY-H01-05" x="254" y="52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="254" y="52.0">Ver carta</tspan>
+</text>
+</g>
+<text id="UI-T-V02-DIRECT-e5" data-source="ORI-COPY-H01-06" x="24" y="108" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="108.0">ORILLA es un restaurante ficticio creado para</tspan>
+<tspan x="24" y="131.2">esta demostración.</tspan>
+</text>
+</g>
+<rect id="UI-T-V02-DIRECT-e6" x="24" y="154.4" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-V02-DIRECT-e7" data-source="ORI-COPY-H01-02" x="24" y="212.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="212.4">Cocina mediterránea en Alcoy (Alicante)</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e8" data-source="ORI-COPY-E03" x="24" y="268.5" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="268.5">Ver carta</tspan>
+</text>
+<path id="UI-T-V02-DIRECT-e9" d="M24 276.7 H100.98" stroke="#20251E"/>
+<rect id="UI-T-V02-DIRECT-e10" x="24" y="312.5" width="342" height="136.39999999999998" rx="12" fill="#DDEBBE"/>
+<text id="UI-T-V02-DIRECT-e11" data-source="ORI-COPY-M01-10" x="40" y="344.5" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="40" y="344.5">Los ingredientes y alérgenos son</tspan>
+<tspan x="40" y="370.6">ejemplos sin verificar. Esta</tspan>
+<tspan x="40" y="396.7">demostración no sirve para decidir</tspan>
+<tspan x="40" y="422.8">qué puedes comer.</tspan>
+</text>
+<g id="offer-02-V02-UI-T-V02-DIRECT-e12" data-source="ORI-DISH-02-V02">
+<rect id="UI-T-V02-DIRECT-e13" x="24" y="472.9" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-V02-DIRECT-e14" data-source="ORI-DISH-02-V02" x="24" y="530.9" font-family="Arial Black" font-size="30" font-weight="900" fill="#20251E">
+<tspan x="24" y="530.9">Berenjena asada</tspan>
+<tspan x="24" y="566.9">con aceite de</tspan>
+<tspan x="24" y="602.9">limón, miel y</tspan>
+<tspan x="24" y="638.9">avellanas tostadas</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e15" data-source="ORI-DISH-02-V02" x="24" y="678.9" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="678.9">La misma berenjena con aceite de limón</tspan>
+<tspan x="24" y="705.0">en lugar de yogur. Conserva la miel y las</tspan>
+<tspan x="24" y="731.1">avellanas.</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e16" data-source="ORI-DISH-02-V02" x="24" y="781.2" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="781.2">Con aceite de limón, sin yogur</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e17" data-source="ORI-MENU-P02" x="24" y="823.3" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="823.3">Media ración · 9,50 €</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e18" data-source="ORI-MENU-P03" x="24" y="865.9" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="865.9">Ración · 15,00 €</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e19" data-source="ORI-MENU-P02" x="24" y="904.5" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="904.5">Elige la variante; el precio no cambia.</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e20" data-source="ORI-COPY-D01-04" x="24" y="958.6" font-family="Segoe UI" font-size="18" font-weight="400" fill="#53594C">
+<tspan x="24" y="958.6">Declarado en el ejemplo: avellanas (frutos</tspan>
+<tspan x="24" y="984.7">de cáscara). Se ha quitado el yogur de la</tspan>
+<tspan x="24" y="1010.8">receta de ejemplo; no se ha confirmado</tspan>
+<tspan x="24" y="1036.9">la ausencia de leche. El resto de</tspan>
+<tspan x="24" y="1063.0">alérgenos y la elaboración están</tspan>
+<tspan x="24" y="1089.1">pendientes.</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e21" data-source="ORI-COPY-M01-05" x="24" y="1143.2" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="1143.2">Elige la variante</tspan>
+</text>
+<g id="UI-T-V02-DIRECT-e22-action" data-source="ORI-DISH-02-V01">
+<rect id="UI-T-V02-DIRECT-e23" x="24" y="1163.3" width="342" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-T-V02-DIRECT-e24" data-source="ORI-DISH-02-V01" x="44" y="1191.3" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="44" y="1191.3">Con yogur de limón</tspan>
+</text>
+</g>
+<g id="UI-T-V02-DIRECT-e25-action" data-source="ORI-DISH-02-V02">
+<rect id="UI-T-V02-DIRECT-e26" x="24" y="1224.5" width="342" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-T-V02-DIRECT-e27" data-source="ORI-DISH-02-V02" x="44" y="1252.5" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="44" y="1252.5">✓ Con aceite de limón, sin yogur</tspan>
+</text>
+</g>
+<text id="UI-T-V02-DIRECT-e28" data-source="ORI-COPY-M01-06" x="24" y="1311.7" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="1311.7">Elige el formato</tspan>
+</text>
+<g id="UI-T-V02-DIRECT-e29-action" data-source="ORI-MENU-P02">
+<rect id="UI-T-V02-DIRECT-e30" x="24" y="1331.8" width="342" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-T-V02-DIRECT-e31" data-source="ORI-MENU-P02" x="44" y="1359.8" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="44" y="1359.8">✓ Media ración · 9,50 €</tspan>
+</text>
+</g>
+<g id="UI-T-V02-DIRECT-e32-action" data-source="ORI-MENU-P03">
+<rect id="UI-T-V02-DIRECT-e33" x="24" y="1393.0" width="342" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-T-V02-DIRECT-e34" data-source="ORI-MENU-P03" x="44" y="1421.0" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="44" y="1421.0">Ración · 15,00 €</tspan>
+</text>
+</g>
+</g>
+<rect id="UI-T-V02-DIRECT-e35" x="24" y="1514.2" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-V02-DIRECT-e36" data-source="ORI-COPY-H01-01" x="24" y="1564.2" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="1564.2">ORILLA</tspan>
+</text>
+<text id="UI-T-V02-DIRECT-e37" data-source="ADR-0003; attribution only" x="24" y="1605.9" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="1605.9">Powered by Valiris Restaurants</tspan>
+</text>
+</g>
+</svg>

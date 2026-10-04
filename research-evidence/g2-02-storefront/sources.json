@@ -1,0 +1,386 @@
+{
+  "baseline": "56306793d54bb8df74305134ec6284c6d647eebf",
+  "delivery_date": "2026-10-04",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "sha256": "419d5210ae5e303ab91e4ad0a3435295fa01fd48043d1d37dadf81bf95eb0126",
+      "bytes": 16927
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "sha256": "4924af46b2caff26e232c74202924b0422a1de20478e6c3835d774603f5bef8f",
+      "bytes": 5369
+    },
+    {
+      "path": "HANDOFF.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "5081b83661aa55605dd82329016e87c832f541c1",
+      "sha256": "d1ccb6f20d3a10e303bbb705319365f8ef1547a0e3cdeaf78164749cb65c2773",
+      "bytes": 133811
+    },
+    {
+      "path": "coordination/README.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "40600bf49820f1105da9b16c7fc834bfd429293a",
+      "sha256": "ffd0977546945c03665e72a7614426d778d7161e8a03199a92803da11a4f1289",
+      "bytes": 12138
+    },
+    {
+      "path": "coordination/valiris-restaurants/G2_02_Arquitectura_Storefront_ORILLA_Prompt.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "5a45ed80ae24ae7d34126a9bae33091c109d4a94",
+      "sha256": "cc7e2721003bd188d34b3b9d50b6ef2723365c3902933a05d497d0861e45c3e2",
+      "bytes": 19317
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_G2_Brief_Arranque_Diseno.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "05402afe09bbc3f5cdf00c6665d5314267703c69",
+      "sha256": "7e8146506fdc843657cbaebc105deeb8ee85d925e27e46dd299584f65ddfaa23",
+      "bytes": 19852
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "0c3dfdeac265839f5f69a0d5e753b6f1360fbacd",
+      "sha256": "6435f74dd3cab4594799d2cb4ab0003e983ff197869f4d4e36906c0590370779",
+      "bytes": 20980
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Organizacion_Protocolo_Agentes.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "3a39e3220af52ad6925db9f7b4546cc0b8a58e11",
+      "sha256": "35e0558c7c81004836f187f4c257c4eaebdf667795f3f96b57cb913c5f3e6e95",
+      "bytes": 46101
+    },
+    {
+      "path": "coordination/valiris-restaurants/G2_04_Contenido_Storefront_ORILLA_Prompt.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "87a9938d00eceeb77b49da2d54f87f34f3138aab",
+      "sha256": "57b63abd4663fb951748f9562a2734cf4fcd158eb86510f71728e2fc1c0f21c8",
+      "bytes": 17259
+    },
+    {
+      "path": "coordination/valiris-restaurants/SEO_Estrategia_Contenido_Prompt.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "f85f237fc42926bf3ea815eebdabd957ef63b3d4",
+      "sha256": "a93c2cf9fd44cbef848565c2c935270830b04f6a0e033df4000bb98d4558d95e",
+      "bytes": 14687
+    },
+    {
+      "path": "coordination/valiris-restaurants/G2_07_UI_Storefront_Adaptativo_Prompt.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "7e519ab368044b9aad612c0eaa483c1eae7756ba",
+      "sha256": "bcf6f2fedcfdf8d0acfa86b7364d4c031874c74aaf14eb1c4e1c1ed46cc33270",
+      "bytes": 20095
+    },
+    {
+      "path": "docs/design/orilla-case.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "ad0f42fc461396e1d28191c667b077c060195a38",
+      "sha256": "b6ab6e968ecdf1d75b22f725b29051460e6aff1bea439a087ea75e288c4ed61c",
+      "bytes": 33732,
+      "authority_commit": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "adopted_version": "ORI-CASE-1.1"
+    },
+    {
+      "path": "docs/project/roadmap.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "dbc14d853286634a69d8dc6abde9c37ce6897be8",
+      "sha256": "e381fe7b18c501ad7259538fb20e80425bed7601a4630318101bfae9ad760c7f",
+      "bytes": 29360
+    },
+    {
+      "path": "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c",
+      "bytes": 36890
+    },
+    {
+      "path": "docs/product/m1-design-briefs.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "7ed2d854cf5f8e9ff97587fbf23d837b98cfd36f",
+      "sha256": "66cee4271eebca9eba5ff2057d431cad6e4bd243b71cd2f9543453cd39638839",
+      "bytes": 36087
+    },
+    {
+      "path": "docs/product/m0-capability-matrix.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "c34a28866e6b6fb5d92ba28e2399629d32696019",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc",
+      "bytes": 29777
+    },
+    {
+      "path": "docs/product/m0-journeys-and-criteria.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "854cbe6ad54649fc0ddab43cc3e348815b6da8f4",
+      "sha256": "fb6aaa728fb743d420cb998ac78626326741933d42b3a436d063d3dd1e0da919",
+      "bytes": 36293
+    },
+    {
+      "path": "docs/design/m1-public-presence-and-discovery.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "4e84997d2240cc97d6fd82b53ca75aaf008f78ea",
+      "sha256": "721f7551284857fa2ccd24c26ee1ad2bd1bd02cb0b066dac4e5d16560f44fa02",
+      "bytes": 53479
+    },
+    {
+      "path": "docs/design/m1-connected-journey.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "sha256": "d977d26db2a2f094e448eaa197f1857f405f377edac49daffe211de2544be835",
+      "bytes": 139448
+    },
+    {
+      "path": "docs/design/m1-coverage-and-evidence.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "4e10dab5c6bc4be3d7f5bae19d05dcb1939b28bc",
+      "sha256": "e98e0810674e8ce4b8f12675aca1af72e63bf82eca3c4511a13317e7a5fe7485",
+      "bytes": 61713
+    },
+    {
+      "path": "docs/design/m1-extended-journeys.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "932ab7b91aae3443d4217128454579127d94b6ce",
+      "sha256": "e51ccc07f4e9692aa5ee61bdea0334c905e5c6a4674513a6f34c2b3c02b8fe7f",
+      "bytes": 123131
+    },
+    {
+      "path": "docs/project/valiris-restaurants-brand-foundation-brief.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "76b70ef50d98e6fab563019cfba704da9e0172cb",
+      "sha256": "a28fc045f7427b6f79c017ab0d6fc4f20dc7c71eda3aa5833cf415dd803c2d6f",
+      "bytes": 9685
+    },
+    {
+      "path": "docs/design/valiris-restaurants-brand-refinement.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "8412acb4497425ec2aa171a8d5ac9f3b0aaa230a",
+      "sha256": "7fd55ba2bc50e704ad9094f08d482ddeaedee43789d0636e4d11d50473952dd9",
+      "bytes": 21141
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "b9ee10a65366a09c3227b683730de7364ffea39e",
+      "sha256": "5ff29a779d49e20c8e632741e60d3f0160ba9eaf3a254febd40468a49e5f88bf",
+      "bytes": 3197
+    },
+    {
+      "path": "docs/adr/0005-repository-and-product-language.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "ab739d3c33159bdfc8f55ce20231fddce845106e",
+      "sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57",
+      "bytes": 1942
+    },
+    {
+      "path": "docs/adr/0008-first-launch-capability-commitment.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "2f4c01233df5e4bfedb88dc8f609f6e3ce1271a1",
+      "sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa",
+      "bytes": 4784
+    },
+    {
+      "path": "docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "62ae654d20c7c91cfea0561555ef2bbabf4d301f",
+      "sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b",
+      "bytes": 4671
+    },
+    {
+      "path": "docs/adr/0010-diner-account-and-display-recovery.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "ecab7f52735ae8b1550c6b33a84833aaea7333d8",
+      "sha256": "d6af1a3d6c08f8e164f81b70a3ecbd3690db19536b8a9120843b8f864faec9c6",
+      "bytes": 7316
+    },
+    {
+      "path": "docs/adr/0011-shared-menu-content-and-contextual-maintenance.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "b7ed9c662c9602732542d0ba195702aaac8a8f2c",
+      "sha256": "d65b8a568dc798614cd1437869af969160e55832d45de4900b89e7124c2a0651",
+      "bytes": 6860
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "73fc7351a4f6095759ebe2cdbd2d02ed290257cb",
+      "sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb",
+      "bytes": 1708076
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "96aeccb9f2f46d2c438fb329a5f4ddce7d100f71",
+      "sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06",
+      "bytes": 1726367
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "b2af9df083cd024364a913cf0ef35bfe0e9d7b82",
+      "sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff",
+      "bytes": 1767964
+    },
+    {
+      "path": "docs/design/m1-storefront-content-and-copy.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+      "sha256": "67454712ecda58e44dd2bd07dde77b35dbd110b815e28a4b1c85a5e51a14cdb8",
+      "bytes": 45340,
+      "authority_commit": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "adopted_version": "ORI-COPY-1.1"
+    },
+    {
+      "path": "docs/design/m1-storefront-discovery-content.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "57345211d68b3d67be7bfe5ff726ba718b041e78",
+      "sha256": "fa1e9fdccf25d5f6cde2f4c04ab7cc525679e6e023bedcafe6a1cdb767488fa3",
+      "bytes": 29952,
+      "authority_commit": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+      "adopted_version": "SEO/GEO 1.0"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/README.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "89f158523b97557541c54837c87cae06ef902056",
+      "sha256": "60157f905574b06883f54d909a2c7653594b56a4007094a717fd41508e7d42b4",
+      "bytes": 10681
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/delivery.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "4f14a32f435ab172b1368d5af36179ed0b65ba4f",
+      "sha256": "165f3ed4dd3c48b677e0d8a953054711dbdb07b865fef18f0fc041a96179af5a",
+      "bytes": 4460
+    },
+    {
+      "path": "research-evidence/reviews/orilla-architecture-ff8fc06/g1-review.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "065b2e9f3c91215012f769c8233c54ea1267baa7",
+      "sha256": "9b81dd05819bf8b467b8366a83e8f82d8de3640b42c970a611048a841b53ae71",
+      "bytes": 6122
+    },
+    {
+      "path": "research-evidence/reviews/orilla-content-5bd3184/g1-review.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "b0bd5b49a9d00c40344008591c3ec2277555d1ee",
+      "sha256": "4706637c6cd7e6d292d417b8a5fa6f753b2e7b2efd1f88267a4b4db75dc0299e",
+      "bytes": 6339
+    },
+    {
+      "path": "research-evidence/reviews/orilla-seo-0c17480/g1-review.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "98fa0a201c87bf0e50ad874c439579d04b5eeb39",
+      "sha256": "d3f98414f3c79af6faa19f6bae95084bf5be017245fcf50c55ed75e449b83fc3",
+      "bytes": 7231
+    },
+    {
+      "path": "research-evidence/seo-storefront/delivery.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "379dec72361f0c1989d314a8a15601da22e8c6bf",
+      "sha256": "67acd51722772209730b109ce6571bacc3211671d1115afc2a5445376588f6d3",
+      "bytes": 5073
+    },
+    {
+      "path": "research-evidence/seo-storefront/primary-sources.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "2eef89f06759477dc64372efaa5fb9b9a5b3ca24",
+      "sha256": "e17303d754e0180016cf369fb27a0402c697c3f61664f1e1650c0b6386235de1",
+      "bytes": 6945
+    },
+    {
+      "path": "research-evidence/reviews/orilla-joint-4b382be-ba44c68/g1-review.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "e354520c967d86a5f36ea7da483fb385bc0d7587",
+      "sha256": "e0b5f93a08ef004cf25935b0acd3592e6f7065cb23666bf4d063cc90f5751a7b",
+      "bytes": 9693
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/seo-consolidation-1.1/resolutions.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "48681a142ed173cc9bd24aa659785efafca688ba",
+      "sha256": "c129ca167bd4c3c2ad4a685e3a40458c6f913b144682daa39328ec1d9041842d",
+      "bytes": 10462
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/seo-consolidation-1.1/delivery.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "7eed2dd62c34c7d49b934f5d3389aaba5eaa36de",
+      "sha256": "9434e9fdb9069f6a0a679f479d5303f29628817166ffdb0f392135b7e639f403",
+      "bytes": 4530
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/seo-consolidation-1.1/author-review.md",
+      "source_commit": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "git_blob": "d5696550a7360c5759fcdeaee1c51a56fb58a77b",
+      "sha256": "6cf3bd2c8293e3b2ca8a20f183e6255f30757b8c674b1aa12df5a839b854c650",
+      "bytes": 4833
+    },
+    {
+      "path": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "source_commit": "2b2a4a3bf5506c94b95d9b177f6006946200df24",
+      "git_blob": "54d6ed4e5a8e9b384bf2f3ebd32828a7ffb02f34",
+      "sha256": "0700d376fc4538ceb91900a4e35ad3f9e17a6d1476d1ca402c84ba84f95e29a8",
+      "bytes": 11871,
+      "scope": "separate frozen conceptual review, not IA/application approval"
+    }
+  ],
+  "original_architecture": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+  "previous_architecture": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+  "previous_content_pair": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+  "adopted_content_pair": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+  "received_seo_review": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+  "external_method_sources": [
+    {
+      "repository": "rampstackco/claude-skills",
+      "source_commit": "3d4510a94a76ead80122c691b5c480f92f3fbe40",
+      "upstream_path": "skills/information-architecture/SKILL.md",
+      "archive_path": "research-evidence/g2-02-storefront/method/rampstack/upstream/skills/information-architecture/SKILL.md",
+      "source_url": "https://github.com/rampstackco/claude-skills/blob/3d4510a94a76ead80122c691b5c480f92f3fbe40/skills/information-architecture/SKILL.md",
+      "git_blob": "6334299eb89142e856dcb7dd7619112edfcc9320",
+      "sha256": "b61e91c357c58eed1a12aad57beb1660d59d5cb598d2fd54beab7beb208bc969",
+      "bytes": 10456,
+      "license": "MIT; original notice archived in bundle"
+    },
+    {
+      "repository": "rampstackco/claude-skills",
+      "source_commit": "3d4510a94a76ead80122c691b5c480f92f3fbe40",
+      "upstream_path": "skills/information-architecture/references/ia-document-template.md",
+      "archive_path": "research-evidence/g2-02-storefront/method/rampstack/upstream/skills/information-architecture/references/ia-document-template.md",
+      "source_url": "https://github.com/rampstackco/claude-skills/blob/3d4510a94a76ead80122c691b5c480f92f3fbe40/skills/information-architecture/references/ia-document-template.md",
+      "git_blob": "4f7ad123579e32d18aab625b480c44b8b8b01503",
+      "sha256": "74c09120e7d6c2cdcd4f7bc1253a6234310f450e7e8acaaa5086faf672f88127",
+      "bytes": 7519,
+      "license": "MIT; original notice archived in bundle"
+    },
+    {
+      "repository": "rampstackco/claude-skills",
+      "source_commit": "3d4510a94a76ead80122c691b5c480f92f3fbe40",
+      "upstream_path": "skills/information-architecture/references/url-pattern-library.md",
+      "archive_path": "research-evidence/g2-02-storefront/method/rampstack/upstream/skills/information-architecture/references/url-pattern-library.md",
+      "source_url": "https://github.com/rampstackco/claude-skills/blob/3d4510a94a76ead80122c691b5c480f92f3fbe40/skills/information-architecture/references/url-pattern-library.md",
+      "git_blob": "75bf05273c1ffb1d7c81fd0cb72934f3e97df4a6",
+      "sha256": "235a35a3703a3f94a691343cde949bee543550650952ea1a911eb0fa07c61353",
+      "bytes": 8047,
+      "license": "MIT; original notice archived in bundle"
+    },
+    {
+      "repository": "rampstackco/claude-skills",
+      "source_commit": "3d4510a94a76ead80122c691b5c480f92f3fbe40",
+      "upstream_path": "LICENSE",
+      "archive_path": "research-evidence/g2-02-storefront/method/rampstack/upstream/LICENSE",
+      "source_url": "https://github.com/rampstackco/claude-skills/blob/3d4510a94a76ead80122c691b5c480f92f3fbe40/LICENSE",
+      "git_blob": "9d5acfd7a3ad1c3c164a15834a06ff101197cae4",
+      "sha256": "7957f4b291988f21be7cb75637d2efb6edd0369a95d3814cac7ef931f7f10b7c",
+      "bytes": 1070,
+      "license": "MIT; original notice archived in bundle"
+    }
+  ]
+}

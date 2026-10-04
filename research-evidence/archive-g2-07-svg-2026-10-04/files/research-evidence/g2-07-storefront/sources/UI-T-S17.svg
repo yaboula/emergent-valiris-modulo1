@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 778" width="390" height="778" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-T-S17 · ORILLA · static editable situated state study; entry and recovery · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. SCENARIO-07; confirmed withdrawal. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="390" height="778" fill="#FFF8EC"/>
+<g id="composition-UI-T-S17" data-source="">
+<g id="H01-recognition" data-source="ORI-COPY-H01-01/05/06">
+<text id="UI-T-S17-e1" data-source="ORI-COPY-H01-01" x="24" y="56" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="24" y="56.0">ORILLA</tspan>
+</text>
+<g id="UI-T-S17-e2-action" data-source="ORI-COPY-H01-05">
+<rect id="UI-T-S17-e3" x="234" y="24" width="132" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-T-S17-e4" data-source="ORI-COPY-H01-05" x="254" y="52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="254" y="52.0">Ver carta</tspan>
+</text>
+</g>
+<text id="UI-T-S17-e5" data-source="ORI-COPY-H01-06" x="24" y="108" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="108.0">ORILLA es un restaurante ficticio creado para</tspan>
+<tspan x="24" y="131.2">esta demostración.</tspan>
+</text>
+</g>
+<rect id="UI-T-S17-e6" x="24" y="154.4" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<rect id="UI-T-S17-e7" x="24" y="194.4" width="342" height="136.39999999999998" rx="12" fill="#DDEBBE"/>
+<text id="UI-T-S17-e8" data-source="ORI-COPY-M01-10" x="40" y="226.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="40" y="226.4">Los ingredientes y alérgenos son</tspan>
+<tspan x="40" y="252.5">ejemplos sin verificar. Esta</tspan>
+<tspan x="40" y="278.6">demostración no sirve para decidir</tspan>
+<tspan x="40" y="304.7">qué puedes comer.</tspan>
+</text>
+<text id="UI-T-S17-e9" data-source="ORI-DISH-08" x="24" y="386.8" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="24" y="386.8">Flan de café</tspan>
+</text>
+<rect id="UI-T-S17-e10" x="24" y="416.4" width="342" height="84.19999999999999" rx="12" fill="#F3DE8A"/>
+<text id="UI-T-S17-e11" data-source="ORI-COPY-S17" x="40" y="448.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="40" y="448.4">Este producto ya no está publicado</tspan>
+<tspan x="40" y="474.5">en la carta de ORILLA.</tspan>
+</text>
+<g id="UI-T-S17-e12-action" data-source="ORI-COPY-S17">
+<rect id="UI-T-S17-e13" x="24" y="524.5999999999999" width="342" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-T-S17-e14" data-source="ORI-COPY-S17" x="44" y="552.6" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="44" y="552.6">Ver carta</tspan>
+</text>
+</g>
+<rect id="UI-T-S17-e15" x="24" y="623.8" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-S17-e16" data-source="ORI-COPY-H01-01" x="24" y="673.8" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="673.8">ORILLA</tspan>
+</text>
+<text id="UI-T-S17-e17" data-source="ADR-0003; attribution only" x="24" y="715.5" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="715.5">Powered by Valiris Restaurants</tspan>
+</text>
+</g>
+</svg>

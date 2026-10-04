@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "scope": "author documentary integrity/relationships, no product tests",
+  "operating_baseline": "6046327ee9216e26ed56aeac81c346f7299735d8",
+  "branch": "docs/m1-g2-04-orilla-content",
+  "source_records_preserved": 44,
+  "local_links": 18,
+  "tables": 28,
+  "unique_copy_ids": 83,
+  "dishes": 11,
+  "offers": 13,
+  "categories": 4,
+  "food_records": 12,
+  "scenarios": 11,
+  "long_dish_name_characters": 61,
+  "clock_states_local_kitchen": {
+    "10:30": [
+      false,
+      false
+    ],
+    "12:45": [
+      true,
+      false
+    ],
+    "14:00": [
+      true,
+      true
+    ],
+    "15:30": [
+      true,
+      false
+    ],
+    "17:00": [
+      false,
+      false
+    ]
+  },
+  "fictional_date_weekdays": "4 October Sunday; 6 October Tuesday",
+  "unchanged_architecture_requests": true,
+  "owned_paths_only": true,
+  "not_checked": [
+    "real food",
+    "translations",
+    "SEO/GEO applied review",
+    "UI/render/accessibility",
+    "participants",
+    "runtime/stock/publication",
+    "rights",
+    "independent application review"
+  ]
+}

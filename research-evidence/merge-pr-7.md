@@ -1,0 +1,1 @@
+Integrate foundational project documentation after correcting the review findings. Retain current roadmap migration as the subsequent dependent change.

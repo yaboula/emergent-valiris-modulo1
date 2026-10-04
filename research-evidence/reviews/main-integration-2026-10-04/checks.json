@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-04",
+  "result": "PASS",
+  "source_pr_heads_collected": 26,
+  "retained_local_exploration_ancestor": true,
+  "source_files_byte_preserved_from_46": 800,
+  "explicit_operating_changes": [
+    "CHANGELOG.md",
+    "HANDOFF.md",
+    "README.md",
+    "coordination/README.md",
+    "coordination/storage-migration-2026-10-03.json",
+    "coordination/valiris-restaurants/relume-orilla/README.md",
+    "docs/README.md",
+    "docs/design/m1-storefront-visual-direction.md",
+    "research-evidence/README.md"
+  ],
+  "protected_original_sources": 17,
+  "copy_ids": 94,
+  "capabilities": {
+    "total": 72,
+    "included": 36,
+    "configurable": 30,
+    "connections": 6
+  },
+  "published_ui_files_byte_preserved": 29,
+  "ui_pngs_and_prompt_hashes": 12,
+  "original_visual_hashes_match": 4,
+  "archived_working_files": 146,
+  "original_working_files_unchanged": true,
+  "active_entry_local_links": 281,
+  "migration_originals_preserved": 475,
+  "migration_links": 2532,
+  "branch_rules": "active required PR, squash-only, linear history, no bypass actors; unchanged",
+  "scope": "integration ancestry, documentary preservation, local links and asset integrity only",
+  "not_claimed": [
+    "G4 application approval",
+    "UX validation",
+    "rendered accessibility",
+    "software tests",
+    "Relume operation",
+    "M1 completion"
+  ]
+}

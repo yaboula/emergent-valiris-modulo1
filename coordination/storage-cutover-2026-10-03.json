@@ -1,0 +1,2365 @@
+{
+  "date": "2026-10-03",
+  "published_original_commit": "949a550dc0e37c94297294e7ab28142ae0c9ac45",
+  "pr": "https://github.com/yaboula/valiris-restaurants/pull/23",
+  "exact_external_duplicates_removed": 470,
+  "removed_files": [
+    {
+      "source": "D:\\the next level\\AGENTS.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/AGENTS.md",
+      "sha256": "f6a87bba06f2c24d9b3506b386341889dc6c70b2e70ee125812b3edb040b22d7"
+    },
+    {
+      "source": "D:\\the next level\\build-review-ledger.mjs",
+      "preserved": "coordination/history/workspace-source-2026-10-03/build-review-ledger.mjs",
+      "sha256": "8da7f4234657c44b2c341e569b91d9668c2fb40aa7ed911d7de10c28a8332c0c"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\AGENTS.previous-672BE3492329.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/AGENTS.previous-672BE3492329.md",
+      "sha256": "672be3492329f9194a8151e8ea5a3dfd85df22e67214af6903c67e944f198276"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\G2_06_Continuacion_Storefront_ORILLA.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/G2_06_Continuacion_Storefront_ORILLA.md",
+      "sha256": "a7434a858dfb6efce3e3e0a270ca665ba8cd304cf7e0c5850851965c89dcc3d3"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\G2_06_Direccion_Arte_Prompt.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/G2_06_Direccion_Arte_Prompt.md",
+      "sha256": "b73419bf99ebda02332ebd63d554324128d59949e481020641653a1d57897eea"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\G2_Product_Designer_Prompt.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/G2_Product_Designer_Prompt.md",
+      "sha256": "01707ed96d00354508b4358b90d7ca3fdb651d28a5f4d58972783cd58c8edd0c"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\SEO_Estrategia_Contenido_Prompt.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/SEO_Estrategia_Contenido_Prompt.md",
+      "sha256": "f0c4e45fda49356a15976560c4b59e599260ae3856da7dc615384edcd2e82e2d"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\SEO_Tecnico_Prompt.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/SEO_Tecnico_Prompt.md",
+      "sha256": "4af5296d720037ed9f63e3b24afbcd916a47cf96da5df769a578ee3232fb140f"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\Valiris_Contexto_Comun_Agentes.md",
+      "preserved": "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md",
+      "sha256": "ecd4a64830152f74c827cdb8cc5b563c4248029a24d63beefff280f6549807b2"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\Valiris_G2_Brief_Arranque_Diseno.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/Valiris_G2_Brief_Arranque_Diseno.md",
+      "sha256": "f3c846969aa87d457b3cd7263760a62bf76e27c7f92039cac0e74a355c16cbb6"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\Valiris_Organizacion_Protocolo_Agentes.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/Valiris_Organizacion_Protocolo_Agentes.md",
+      "sha256": "d68bfc9f7795adadd42e2bde40c133ae0837fe20b0d310c328577b9a253387ba"
+    },
+    {
+      "source": "D:\\the next level\\coordination\\valiris-restaurants\\workspace-working-agreement-2026-10-01.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/workspace-working-agreement-2026-10-01.md",
+      "sha256": "c06b4ad1811782801ef495e5b16612d5a1778539ca322b382c2c37c3c806fd2d"
+    },
+    {
+      "source": "D:\\the next level\\general_idea.md",
+      "preserved": "coordination/history/workspace-source-2026-10-03/general_idea.md",
+      "sha256": "32d3d02c0e5224a30c279bd6beefe91036614d5161d98259b2d6d02eb98a02a2"
+    },
+    {
+      "source": "D:\\the next level\\HANDOFF.md",
+      "preserved": "coordination/history/pre-repository-storage-2026-10-03/HANDOFF.md",
+      "sha256": "3bee387f80e35fef915561b6e6275f6e2c8098e478aacbe71d63c4f1c5e88d1b"
+    },
+    {
+      "source": "D:\\the next level\\m0-discovery-pr-body.md",
+      "preserved": "coordination/history/workspace-source-2026-10-03/m0-discovery-pr-body.md",
+      "sha256": "5d039e5b7c8e0cedc24548a15ce4f2902d89acf673f8e0c9cd0dc8a2b2f4c66d"
+    },
+    {
+      "source": "D:\\the next level\\PLAN (5).md",
+      "preserved": "coordination/history/workspace-source-2026-10-03/PLAN (5).md",
+      "sha256": "2d57adff57c8ed8aef6986a5f48fe408d14922d664ac4f961a4f93f1fd1ec4fd"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\advanced-research-framework.es.md",
+      "preserved": "research-evidence/advanced-research-framework.es.md",
+      "sha256": "2b9848554e224f4fd9024ed0587be167d0c9ff07546aa086dbcc03ffb643e01c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\audit-m1-consolidation-g1.py",
+      "preserved": "research-evidence/audit-m1-consolidation-g1.py",
+      "sha256": "191dd066e791ce65b9e324377af4ed038a4eaa9ee0e11cce3d10f89502619d74"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-consolidation.py",
+      "preserved": "research-evidence/check-m1-consolidation.py",
+      "sha256": "31f0e17dbcf87436b423d458a7c072de4def7589baa6984bef65a7598c9c07a6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-content-preparation.py",
+      "preserved": "research-evidence/check-m1-content-preparation.py",
+      "sha256": "ffaf301b20a407ff6108f79b5d25f11ae4667883b74b1a54e6d86ccf228a851b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-extended-markdown.py",
+      "preserved": "research-evidence/check-m1-extended-markdown.py",
+      "sha256": "e80e49563fcb17ba3b504db435492ee0e071fc60cff8f40051c48afc39e87a9a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-food-outputs.py",
+      "preserved": "research-evidence/check-m1-food-outputs.py",
+      "sha256": "86cd84ed3ce025287b1858310a461a069e66bc3e9fbd8dd73d50894ac0a607f4"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-food-review-g1.py",
+      "preserved": "research-evidence/check-m1-food-review-g1.py",
+      "sha256": "404e265de2c12bc39f69495f5e98f8726589f9f59c261e6c26a1449521adfe99"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-j15-category-recovery.py",
+      "preserved": "research-evidence/check-m1-j15-category-recovery.py",
+      "sha256": "b10fa16aae9abad3efa7bfbe909267f48f9e585de2d01598a6c76c0dfa860ae0"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-markdown.py",
+      "preserved": "research-evidence/check-m1-markdown.py",
+      "sha256": "a3b97d6b4baa86b23df23256bbd67553b2e996cd1f90a62927bedab961d0b520"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-public-presence.py",
+      "preserved": "research-evidence/check-m1-public-presence.py",
+      "sha256": "ff7b9620944ce25b452e9968da8a98076cf7aff8729ccaa99226062c5da93cff"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-scheduling.py",
+      "preserved": "research-evidence/check-m1-scheduling.py",
+      "sha256": "f785e40d12f609b18cbe89e2a789a413f4f921d9539aae70dfbcc1ff44514ade"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\check-m1-service-and-maintenance.py",
+      "preserved": "research-evidence/check-m1-service-and-maintenance.py",
+      "sha256": "01f33fb2b28fde7773964768b774a95edf2048b7bcbaf85d997b0e93a2a5f0f8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\coded-reviews.json",
+      "preserved": "research-evidence/coded-reviews.json",
+      "sha256": "f83dcea9b304fafb63bb53eeb9a1af1df1bb58718703e851b40508a005457851"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\consolidate-m1-coverage.py",
+      "preserved": "research-evidence/consolidate-m1-coverage.py",
+      "sha256": "1a67a2bc697565ee80f864f0aeb126e08f1664d369b4126d434f550209826c7f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\covermanager-alt.json",
+      "preserved": "research-evidence/covermanager-alt.json",
+      "sha256": "8408f657d45d2de1901c7dccc1fa574b8e59d203421c52d40a3b5ded42a9a4e7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\covermanager-es.json",
+      "preserved": "research-evidence/covermanager-es.json",
+      "sha256": "b9e9d38d7599f71565dab99af3494ce9a7f07a3cf79910df1af0af53c30d909a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\design-team-protocol-update-2026-10-02-checks.json",
+      "preserved": "research-evidence/design-team-protocol-update-2026-10-02-checks.json",
+      "sha256": "c8bddb7d89e98d0aef526a61794a305a5fe3f82044d37a104eb7ebeaf1157ec7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\design-team-protocol-update-2026-10-02.diff",
+      "preserved": "research-evidence/design-team-protocol-update-2026-10-02.diff",
+      "sha256": "f6cc9d9150eefe7fb6964c0a6b6f4873bef77b5d3eab056233348c5ddb5e76c9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\diner-scope-issue-15.md",
+      "preserved": "research-evidence/diner-scope-issue-15.md",
+      "sha256": "1ecd210cc878f9d7c3d7370c88d7476e0a0336ee0621615ab0415e109fe26d7e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\diner-scope-issue-3.md",
+      "preserved": "research-evidence/diner-scope-issue-3.md",
+      "sha256": "2c11462328d51fbba096ad5dbc0534fb0764ec65c9f1e19763530bd290e1630f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\diner-scope-issue-6.md",
+      "preserved": "research-evidence/diner-scope-issue-6.md",
+      "sha256": "4d03ca4848ad4ba50ef67fbf4c8f9bcd45e3a1f76c8c1deca505f16d291bebcb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\diner-scope-pr-19.md",
+      "preserved": "research-evidence/diner-scope-pr-19.md",
+      "sha256": "7b976e0090c184aabe582ba5ffe0f1cb67d59f09eb151cab9aef964f93288e17"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\dirce-39371.json",
+      "preserved": "research-evidence/dirce-39371.json",
+      "sha256": "ec51408ad9af586cb1117ed66c4412d63d1e8d6cd0bde52cddcc26d445d924e6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\dirce-index.html",
+      "preserved": "research-evidence/dirce-index.html",
+      "sha256": "b239fa8316fc1f6c280b075c866a1872e40cfa3f69c34b5640ba8683876a05ad"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\figma-m1-probe-public-2026-10-01.png",
+      "preserved": "research-evidence/figma-m1-probe-public-2026-10-01.png",
+      "sha256": "c52e8bc25d0de08979713e0d7cea462ebebebac673bcfaac2ec56bd3a24426ce"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\figma-valiris-file-private-2026-10-01.png",
+      "preserved": "research-evidence/figma-valiris-file-private-2026-10-01.png",
+      "sha256": "9a3c6c618624815121b42cf9f7f041e8efa20a034fe0b40314e5b83e81d52e3e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\figma-valiris-team-created-2026-10-01.png",
+      "preserved": "research-evidence/figma-valiris-team-created-2026-10-01.png",
+      "sha256": "cab073905c9070ed03baad9993372967e79cd4870f42ce4513a61a01dd1b8433"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\figma-valiris-team-creation-2026-10-01.png",
+      "preserved": "research-evidence/figma-valiris-team-creation-2026-10-01.png",
+      "sha256": "46a2bc8daf97dceb7dda554dd41858d954c3c3334d18aea695bd1794df653a77"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\finalize-j6-j7-review-g1.py",
+      "preserved": "research-evidence/finalize-j6-j7-review-g1.py",
+      "sha256": "ca088ae96aac875bb967c2c41a4fcdcf366eb3051598263cb3167b78d3a3e13b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\finalize-m1-consolidation.py",
+      "preserved": "research-evidence/finalize-m1-consolidation.py",
+      "sha256": "d735b8dce34f18522a68d1d17476960573eabde29246aa089598c31ee77089af"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\finalize-m1-coverage-audit-g1.py",
+      "preserved": "research-evidence/finalize-m1-coverage-audit-g1.py",
+      "sha256": "5cf4d24393fab530c8640d67bb2f835ba662d23094735256f2ef58713eafb6ba"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\finalize-m1-food-outputs.py",
+      "preserved": "research-evidence/finalize-m1-food-outputs.py",
+      "sha256": "7ba3c1c6e621e0ebe18ce5b63df99564e84fcd7fb84560b893b7ab3fe4aa5586"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\finalize-m1-scheduling.py",
+      "preserved": "research-evidence/finalize-m1-scheduling.py",
+      "sha256": "004f171623e21a472c4a405c91ab74ae78813d05fbda90686be74bf388c0cd4c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\01-patio-abierto-v0.1.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/01-patio-abierto-v0.1.png",
+      "sha256": "9a0a4558c89f806bdf9cc559a95202dedb220173d46f00358755c46ee3e45c19"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\02-cuaderno-de-cocina-v0.1.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/02-cuaderno-de-cocina-v0.1.png",
+      "sha256": "df9289df07c8f04e65a9b3d8b9ecd5c8aa6cc19844a59e5a744bbfe774c8a428"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\03-mercado-al-mediodia-v0.1.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/03-mercado-al-mediodia-v0.1.png",
+      "sha256": "5e814c92790052c30576a338090a2db303940568ffc995e871a1832156f18fb6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\figma-board-v0.1.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/figma-board-v0.1.png",
+      "sha256": "a0d4c1d7f3496055627216e42bd4cc7eeb5a7634d1426bb118cd951a1d2719f3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\manifest.json",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/manifest.json",
+      "sha256": "720e32be12dde2cb5315fc35b26b7979f3305ebb9ddfccf87ed606523814f930"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\PRODUCT.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/PRODUCT.md",
+      "sha256": "7cd0e3f1761ae2080a156e829ee7b3a3404582c0ea2cab0b6987aaf49b9660c1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\prompts.txt",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/prompts.txt",
+      "sha256": "e03110dce12d208dcf38441b27ae8f3576462f63c02307f49ad8c593ff9105fc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\REVIEW.es.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/REVIEW.es.md",
+      "sha256": "d37d6683ad4172b3803abe66ac2f2b433611a31a7cb47271cdc2e97620f278d8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\01-ceramica-v0.2.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/01-ceramica-v0.2.png",
+      "sha256": "19091f907d5f807d755e2e95699802a8a32fb5fadaaf3cb2f9d125e007f4dfb3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\02-cartel-inicial-v0.2.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-inicial-v0.2.png",
+      "sha256": "4af3068316f665f02384f506e10010e0f74c78fa8023f9a1394ccbbd93467ebb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\02-cartel-revisado-v0.2.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\03-encuadres-v0.2.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/03-encuadres-v0.2.png",
+      "sha256": "8f02a2007174008a844ee3ce84b51824eb57bf8f6dcc973c1ce5d82b864799fb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\figma-board-v0.2-corrected.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/figma-board-v0.2-corrected.png",
+      "sha256": "224b0d62b7c516a79ca14879b26b41c4ce9fb5832811127b1a57d1fe3561bb8d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\figma-board-v0.2.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/figma-board-v0.2.png",
+      "sha256": "0c3914a4a0ef5259c7f4155c24fb2ebef2e01ff03bd021a94b6f69a828e5171c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\manifest.json",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/manifest.json",
+      "sha256": "013b463066ab3d4a3b7407487c68f479eb56d05101b50e6ff4e6623edfe433fc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\prompts.txt",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/prompts.txt",
+      "sha256": "88fd9395b74f7867797e6879b31c969057e2fbdfecc8a717d8f501203514de8c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.2\\REVIEW.es.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/REVIEW.es.md",
+      "sha256": "11496b1a8699dbb2e45cf8379407973658146cd81df3ae38d3daa7c62d0c96ea"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\01-storefront-mobile-v0.3.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/01-storefront-mobile-v0.3.png",
+      "sha256": "d09c467bb75d166c437162a1345920318d8feaa406f786d4e7c4dbd204180207"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\02-no-photo-failed-v0.3.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/02-no-photo-failed-v0.3.png",
+      "sha256": "dda0c236991a503cc9963803cc655b9b84b06ec0413e499c41ce69a247183b07"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\02-no-photo-illustrated-v0.3.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/02-no-photo-illustrated-v0.3.png",
+      "sha256": "a97e09b88180bdeed6a2b1a8c10e105d4cd4c346149967f30dfde36d84cd9eca"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\figma-board-v0.3.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/figma-board-v0.3.png",
+      "sha256": "3b72f2d0f553b3269fe97d032af1c52d5e23050e8a8605bd8cf0ba2f148f2f2e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\manifest.json",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/manifest.json",
+      "sha256": "18d89b4e6204405090a9485330c9e4b00769a2a1eda1973c150b74ff0fc1a883"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\mobile-at-390px-v0.3.png",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/mobile-at-390px-v0.3.png",
+      "sha256": "864db24e4dfff34c33135ee49cbe606b8a6b41285f27e27390d58df8c1f56a12"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\PR-direccion-v1.en.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/PR-direccion-v1.en.md",
+      "sha256": "85f7a828cf40891b85ddd4b4848da048a3af075b67389f7996e0e6217e09955a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\prompts.txt",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/prompts.txt",
+      "sha256": "131a1fa94b60c03f8d945775ae3b43668cf50a3a9088a08c95fca90c4ef5587d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\RETORNO_PM-direccion-v1.es.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/RETORNO_PM-direccion-v1.es.md",
+      "sha256": "c66f8c75b5781e3cf48cc3fc69db775d2a8b34d5b1bd4355db04b33e3685bf4d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\RETORNO_PM.es.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/RETORNO_PM.es.md",
+      "sha256": "43e9f77f8836bf5fa9b7cb3e7d612554b7abbb28e615f198bdcbdaf1c1ad463a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\g2-06-art-direction-2026-10-03\\storefront-v0.3\\REVIEW.es.md",
+      "preserved": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.3/REVIEW.es.md",
+      "sha256": "4b4f00c112b472f673d75e2711b3e2e0fc34fb63f516b3737a9cd7a82218629d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\j15-category-recovery-source-review-hashes.json",
+      "preserved": "research-evidence/j15-category-recovery-source-review-hashes.json",
+      "sha256": "e78b8658e169d2eb250744836ad37d163f856b0d89087582eb45a5e036f44e41"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\loopy-capterra-retrieved.txt",
+      "preserved": "research-evidence/loopy-capterra-retrieved.txt",
+      "sha256": "8a94d77103ee0904cc048298b7ba521d721ae021f8347d0a8cc642c10cf49367"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\loopy-es.json",
+      "preserved": "research-evidence/loopy-es.json",
+      "sha256": "36a903ff65b048c79f6a24098a00d96b431e1a09ef70880ea78e8d8041b37ab8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\loopy-page1.txt",
+      "preserved": "research-evidence/loopy-page1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\loopy-us.json",
+      "preserved": "research-evidence/loopy-us.json",
+      "sha256": "3d9b5aa3ebef6f18da608a92495781e7f8977c1c44dbf8bf482917ad12d59bd7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-approved-issue-15.md",
+      "preserved": "research-evidence/m0-approved-issue-15.md",
+      "sha256": "a03ca57041339497eca800ff7d50aa0acf1e14d37cf5fdd674888d699ef1f017"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-approved-issue-3.md",
+      "preserved": "research-evidence/m0-approved-issue-3.md",
+      "sha256": "499727f477cbd6471516d2fe105296537f451271eda3306030d5f694d67ac144"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-approved-issue-6.md",
+      "preserved": "research-evidence/m0-approved-issue-6.md",
+      "sha256": "7312bcfaafb26613c0bf0ed4c2d4e2e30691d468675db28a54afe6679036cd5d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-approved-scope-pr.md",
+      "preserved": "research-evidence/m0-approved-scope-pr.md",
+      "sha256": "137fda3d34a491fd7227a37a91e0ec4812806b98baf77a1ff230740287a45cd5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-capability-source.json",
+      "preserved": "research-evidence/m0-capability-source.json",
+      "sha256": "b626c4d9a64ea82bbafe403ce5fa16df291300fb4f0f537088fbf127cda1665e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-issue-15.md",
+      "preserved": "research-evidence/m0-closeout-issue-15.md",
+      "sha256": "f5f0d515e4cf4af73be06a4c5a046e09178b1431e4616c6a80b11541c4b0d55d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-issue-2.md",
+      "preserved": "research-evidence/m0-closeout-issue-2.md",
+      "sha256": "c709fa0f0750dc37f835a0fa859c9706dea1199ac278198a5bbe508bd6e5b8c7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-issue-3.md",
+      "preserved": "research-evidence/m0-closeout-issue-3.md",
+      "sha256": "2ad950a0d1a564c14db372c2bbb4f7210456d34150659457b2ebd5bf31211042"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-issue-4.md",
+      "preserved": "research-evidence/m0-closeout-issue-4.md",
+      "sha256": "b2e284f030d8502f612c0e781c8af83778f9116a6ea55462f2766874f28a1e8c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-issue-5.md",
+      "preserved": "research-evidence/m0-closeout-issue-5.md",
+      "sha256": "a3e11751e33874b87a631449db6f665c67eb6adec4a81ceec2526ce8fbc20108"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-issue-6.md",
+      "preserved": "research-evidence/m0-closeout-issue-6.md",
+      "sha256": "5a3ca4a7ccde8241057dd5d66963831b0dfc460fa4ef315e8f1d66644e3d083f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-pr-19.md",
+      "preserved": "research-evidence/m0-closeout-pr-19.md",
+      "sha256": "da141e7b82868e90f3251db52a3f118bec8315a5db6bacba39893dc12d81449e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-closeout-pr-8.md",
+      "preserved": "research-evidence/m0-closeout-pr-8.md",
+      "sha256": "9c16109d32a357524a3129b1c58f3ef113423453af0a5f65ffcfde2d176210b6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-execution-issue.md",
+      "preserved": "research-evidence/m0-execution-issue.md",
+      "sha256": "632908fc04ec21a45724d76da97e2908593ea053ac31669bbd9cda386a6ea62a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-execution-pr.md",
+      "preserved": "research-evidence/m0-execution-pr.md",
+      "sha256": "c40987a67a8010eb7157a06d1dc2a8570172f6de17460e68651b4d75f9e0f4d1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-final-integration-pr-19.md",
+      "preserved": "research-evidence/m0-final-integration-pr-19.md",
+      "sha256": "117f17228ecf303687419597cfaad0041d902ba1454f2a7163c18dcc9798e0c9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-issue-15-update.md",
+      "preserved": "research-evidence/m0-issue-15-update.md",
+      "sha256": "21297ee085edc923b5fbb01debf96523f0612894188cfd77d92e4c44779e2639"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-issue-3-update.md",
+      "preserved": "research-evidence/m0-issue-3-update.md",
+      "sha256": "9cc903690618f32e880971876e7d92b46dd186f944d5f59744bdc4ec8f87ed74"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-issue-6-update.md",
+      "preserved": "research-evidence/m0-issue-6-update.md",
+      "sha256": "b2467626df1781e34aa36c364c5ce4b5b8e24216a806c043789178a0d9937e66"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-launch-proposal-pr.md",
+      "preserved": "research-evidence/m0-launch-proposal-pr.md",
+      "sha256": "51a84e77036a4ece0f110f4dda91558fcd5e271e8800d86f2330d6f3711881a3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-pr19-integrated-body.md",
+      "preserved": "research-evidence/m0-pr19-integrated-body.md",
+      "sha256": "82ccd05b716440e3aed7fdd74374a375827f24767a44b50056892cc366de38f2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m0-pre-integration-heads.json",
+      "preserved": "research-evidence/m0-pre-integration-heads.json",
+      "sha256": "c375b62abff276df2821a6682f794b3a8341a2a1731ba769a943862670d72c3c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-active-g2-issue5.md",
+      "preserved": "research-evidence/m1-active-g2-issue5.md",
+      "sha256": "d945339549bd654ca4cef32d5e13bf9ad930daf4323320e81e63bd5450d534e2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-aligned-issue15.md",
+      "preserved": "research-evidence/m1-aligned-issue15.md",
+      "sha256": "54646980def12b9ff2fbe9d104bcbc71a7ac47840d6b4c3cc44042ffe9271530"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-aligned-issue4.md",
+      "preserved": "research-evidence/m1-aligned-issue4.md",
+      "sha256": "170577b1c59811cc7bb86c1fe92f00e4b5ec6c28de30bf1dcbf7e2abedc14be1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-connected-journey-pr-body.md",
+      "preserved": "research-evidence/m1-connected-journey-pr-body.md",
+      "sha256": "3e69105f60a4f8b228f0f0cd175b7d43a1eeb2b7c193e77443593b35de1b3ee3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-consolidated-coverage-data.json",
+      "preserved": "research-evidence/m1-consolidated-coverage-data.json",
+      "sha256": "0220d10c701379ded0311dd6a159bb2affa4b9e26a48cdc7a34c29217c5052de"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-consolidated-criteria-data.json",
+      "preserved": "research-evidence/m1-consolidated-criteria-data.json",
+      "sha256": "ca13910443ceb30070ade99e723ae5e94dca3a6aa5106dfacbf8cd1cd8ae718f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-content-preparation-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-content-preparation-review-2026-10-02.md",
+      "sha256": "ae1e713052ef1a0c4a270186f05a2c1885a9c79a85eb8b3e62e9d25e845404ca"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-coverage-consolidation-final-state.json",
+      "preserved": "research-evidence/m1-coverage-consolidation-final-state.json",
+      "sha256": "14f537b0847f3dd4dd976b1e9f61bf88dde3e2cc0574dadd2abaac3a91b6faed"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-coverage-consolidation-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-coverage-consolidation-review-2026-10-02.md",
+      "sha256": "2bb1cca60a9fb7f4a25f4dad4ff6b21e9c604f4fce78a03a77556d0c488e482b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-coverage-report-body.md",
+      "preserved": "research-evidence/m1-coverage-report-body.md",
+      "sha256": "1267da808a4dff8f7c8b5f6469be5c94407804d02109de4047efc3acc28b41eb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-extended-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-extended-review-2026-10-02.md",
+      "sha256": "b2c9a9bb7b7e03b283bcc9e4b500b154b50ad03130d1d95f7e0013d72f1f1de1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-food-register-and-outputs-final-state.json",
+      "preserved": "research-evidence/m1-food-register-and-outputs-final-state.json",
+      "sha256": "c7b7be282e15b132525471c5e207a1caa7e71cab69fbbc1f7042e32a54295088"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-food-register-and-outputs-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-food-register-and-outputs-review-2026-10-02.md",
+      "sha256": "12146b5127fefbf65bb86d6ce3179dfbbc7bbc95d122eabe1cdaf56b6e7a08e6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-handover-squash-body.txt",
+      "preserved": "research-evidence/m1-handover-squash-body.txt",
+      "sha256": "9dffbd9eb3b4c4c8b30321afae1fa793181922e8f42e930499322ac8e2b5620e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-j10-j15-self-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-j10-j15-self-review-2026-10-02.md",
+      "sha256": "ea5268057d79e24f35f4962b81b9675404fc1968c1776cc731d3628ba8a15fed"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-j15-category-recovery-2026-10-02.md",
+      "preserved": "research-evidence/m1-j15-category-recovery-2026-10-02.md",
+      "sha256": "f093653c0811a868ce65bb9972fd33dbacaf526c95e81981e73b66964b52d4ab"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-j15-category-recovery-return.md",
+      "preserved": "research-evidence/m1-j15-category-recovery-return.md",
+      "sha256": "832fb90f4b02afe8e1c55773a276c2f24281b836d8904db4c509c2204d6603bf"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-operational-handover-pr.md",
+      "preserved": "research-evidence/m1-operational-handover-pr.md",
+      "sha256": "576a34b002dfca4d2f8f37161771e50e28861fb93a0a6a01e2c93b6241fd9b86"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-public-presence-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-public-presence-review-2026-10-02.md",
+      "sha256": "ed424ca93c6252fd79d1e4e21d285a8c9f079edd2cf7bbc756995163172937c3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-scheduling-final-readback.json",
+      "preserved": "research-evidence/m1-scheduling-final-readback.json",
+      "sha256": "78b6743aa0524838805aef7892750c85e494f935aa4f4f55808c74716e4002ae"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-scheduling-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-scheduling-review-2026-10-02.md",
+      "sha256": "78ddcd10fcc601cbb97f5c726608ceb1afc594798b2ceff477222f136149409c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\m1-service-and-maintenance-review-2026-10-02.md",
+      "preserved": "research-evidence/m1-service-and-maintenance-review-2026-10-02.md",
+      "sha256": "95c35ee3713424a63ec3f637ce1fa5d1d72efcb2808f1c365d97f214711c7639"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\merge-pr-16.md",
+      "preserved": "research-evidence/merge-pr-16.md",
+      "sha256": "580037635a49c3c4b901b5626c0fbea9fd500b1e98d4058856e81f42c3266763"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\merge-pr-18.md",
+      "preserved": "research-evidence/merge-pr-18.md",
+      "sha256": "35c3172c4e0559c01a0f50e1ce487abe3486a43618d010e22cf2efcec9972aaf"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\merge-pr-19.md",
+      "preserved": "research-evidence/merge-pr-19.md",
+      "sha256": "30b58b2386d1068503ea51e848c99514fe67bee6bbfc51705820ffeb12ce94a9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\merge-pr-7.md",
+      "preserved": "research-evidence/merge-pr-7.md",
+      "sha256": "ae0ec6d1f8fc7eb9fc6ae7fff4f13ab7b80e035f0b68a9eac3a597a4a2031433"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\merge-pr-8.md",
+      "preserved": "research-evidence/merge-pr-8.md",
+      "sha256": "6d5c911903a278478499f85e289874d52c2cd0fa2fbb058897685555694360ba"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\Core — Núcleo común del producto.md",
+      "preserved": "research-evidence/module-research-originals/Core — Núcleo común del producto.md",
+      "sha256": "3b8b36864ca18e38e561621f66a6d9ab3b0c065db0b2e01eb4e8d6b1816d8643"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\Reactivation — Recuperación de clientes inactivos.md",
+      "preserved": "research-evidence/module-research-originals/Reactivation — Recuperación de clientes inactivos.md",
+      "sha256": "de8c3bbddde56a6a96d80d77f2a04f355d17f0b030c89d80292d88fb9baca27e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\Reviews — Opiniones y reputación.md",
+      "preserved": "research-evidence/module-research-originals/Reviews — Opiniones y reputación.md",
+      "sha256": "5f68bff95297c89d85bb8073d6e4a6033792cda81adf0152fa82b21e101f0273"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\Storefront + QR Menu — Página pública y carta digital.md",
+      "preserved": "research-evidence/module-research-originals/Storefront + QR Menu — Página pública y carta digital.md",
+      "sha256": "0c170525ed4efeb927863b5c680f98a5e5abfe91825a8692dc8fd5e91cc60e14"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\Table Bookings — Reservas de mesas.md",
+      "preserved": "research-evidence/module-research-originals/Table Bookings — Reservas de mesas.md",
+      "sha256": "329e36cb8dd58ee91c3f5332265ba0b66f0efb5b348262788652286d5c2b2a14"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\The loyalty module addresses a real need.md",
+      "preserved": "research-evidence/module-research-originals/The loyalty module addresses a real need.md",
+      "sha256": "3e23672dd8c42f7d6f8f65b0676dfaba84074fd20c705216fc3a1fb7e5fa8ef5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\module-research-originals\\WhatsApp Assistant — Atención al comensal por WhatsApp.md",
+      "preserved": "research-evidence/module-research-originals/WhatsApp Assistant — Atención al comensal por WhatsApp.md",
+      "sha256": "5e8c36e8279fbbb667b08fb552da9ae643046fdce3499a7f50af79a083bfa253"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\operational-handover-checks.json",
+      "preserved": "research-evidence/operational-handover-checks.json",
+      "sha256": "37e203e1e9243bd4977134803f867b5c16e4ec3353267954d0f15e45499648f4"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-content-preparation-body.md",
+      "preserved": "research-evidence/pr21-content-preparation-body.md",
+      "sha256": "c2fcc2cc04df6914d7b0ff1388108ffb9eefd38819e47e9fa59f32fca327924b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-coverage-consolidation-body.md",
+      "preserved": "research-evidence/pr21-coverage-consolidation-body.md",
+      "sha256": "07a9dfb2cc650ede1e6da9bd0c27d7ffc3c30e3e7d11c0c0ab27f27d517e290e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-extended-body.md",
+      "preserved": "research-evidence/pr21-extended-body.md",
+      "sha256": "442393c860b243a5a71c7dd7a8ca2cd803e0ebfde014bb08f2fe5afc0ac23015"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-food-register-and-outputs-body.md",
+      "preserved": "research-evidence/pr21-food-register-and-outputs-body.md",
+      "sha256": "fe9de7d7d1131d81e9ebea7e5b3830883b224358ab072f23bab0295ed984d86a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-j15-category-recovery-body.md",
+      "preserved": "research-evidence/pr21-j15-category-recovery-body.md",
+      "sha256": "697767d9d264102b0b8cc7cadc1dafa52a66aafbd8195f0a30d763861322dc79"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-public-presence-body.md",
+      "preserved": "research-evidence/pr21-public-presence-body.md",
+      "sha256": "bda0ed542e869abf3dc13d99268033f407c2811e9c377a305c085d7191561d7d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-scheduling-body.md",
+      "preserved": "research-evidence/pr21-scheduling-body.md",
+      "sha256": "33ccde99896c94784b56d58f560dd45abb888bcfb315f7b7a5983af3edc23895"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr21-service-and-maintenance-body.md",
+      "preserved": "research-evidence/pr21-service-and-maintenance-body.md",
+      "sha256": "bbc14d2344dcdf77c69ef330918b3ef9d89d40160a69f3943f7f2edf7d190769"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr8-body-bilingual.md",
+      "preserved": "research-evidence/pr8-body-bilingual.md",
+      "sha256": "1c87ca40713b9f4e3a1c6e9796fb3921ed8d8333b800513d90c78f1738cd2686"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr8-body-functional-definition.md",
+      "preserved": "research-evidence/pr8-body-functional-definition.md",
+      "sha256": "20b7bef0284890c01b4009aa73e15d40a91be8a4b95041849604bfc0d07dad30"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\pr8-body.md",
+      "preserved": "research-evidence/pr8-body.md",
+      "sha256": "7620bb15bc8302ce129712ff1d9df1c85e1add0c2aa0c4ac9dbab1974c8d7b1a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\public-presence-independent-source-hashes.json",
+      "preserved": "research-evidence/public-presence-independent-source-hashes.json",
+      "sha256": "363988eb41ee58830a26ba41223abe5c492a687fef340eaff3fc019d7305c812"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\document-checks.json",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/document-checks.json",
+      "sha256": "45161400170d6f3c5af97240597738020d7249f7cf4c8ed7374050e60c625032"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\g1-review.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/g1-review.md",
+      "sha256": "9ae448358067465dc8c92b9e862adfe74897f9192831e824dd9928ca75572f8e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\g4-review.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/g4-review.md",
+      "sha256": "d80cd80695020f1d8a646a6944287218f341efef9fe4277d156df8e4c0f05532"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\review-handover.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/review-handover.md",
+      "sha256": "f0003b82a267a36d89992214b8f414e007d0c3eb7970f83392fd7338edec983a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source.zip",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source.zip",
+      "sha256": "7450461c078a22ded1bf3faf0d6609a0cd05ef481b81c99b96f9155e31326910"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.editorconfig",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.editorconfig",
+      "sha256": "6d6796f174b736bcd7a68999e30d2f19a3719ad92355dcc0cfdfce8a66864553"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.gitattributes",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.gitattributes",
+      "sha256": "5bbc9288d6920231fb242259a1e598a06619d438a93accb37083736031f6f0a5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.github\\ISSUE_TEMPLATE\\bug.yml",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.github/ISSUE_TEMPLATE/bug.yml",
+      "sha256": "474f3b214253e4ef37e48c1b5e171202b87515bcb2ccd02880a9a210b9fc37ff"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.github\\ISSUE_TEMPLATE\\config.yml",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.github\\ISSUE_TEMPLATE\\task.yml",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.github/ISSUE_TEMPLATE/task.yml",
+      "sha256": "bc89c058b911438793a5898ae91b4e6a54a2d2d3c2e99fa249619d68df8e7302"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.github\\ISSUE_TEMPLATE\\user-story.yml",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.github/ISSUE_TEMPLATE/user-story.yml",
+      "sha256": "a230089c3f259bf890b77f19cead6ff63fdc6034bb193982730299a514a16f7d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.github\\labels.json",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.github/labels.json",
+      "sha256": "d80a79389809019d2b7efb28acb21293a6b99b00e509e3956987f2368423784c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.github\\pull_request_template.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.github/pull_request_template.md",
+      "sha256": "6196e3162ce65eb1eac0a6f621a976a0804d78a3a3a8f57c30c753b2ab8a937a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\.gitignore",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/.gitignore",
+      "sha256": "e479ad65f43b307f8e8699953c8061a818ef51143ebd90739e820555cdc8bff5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\CHANGELOG.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/CHANGELOG.md",
+      "sha256": "8ccc4b4948a061c3d8803695544ab377b4b38aebeda444d7ac69a283aef94c2b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\CONTRIBUTING.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/CONTRIBUTING.md",
+      "sha256": "bd7a0d42056ef220307196893ed03541d5b93c3c39bcfb73722c441284ca8245"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0001-record-architecture-decisions.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0001-record-architecture-decisions.md",
+      "sha256": "3303ed4ddd0e8eccb3c42a929823fe0066b022587e0a0a20ed735fc4b98808ab"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0002-studio-brand-valiris.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0002-studio-brand-valiris.md",
+      "sha256": "fb118f8916909424245e4bc49705c74fdbc237db29dd3024ec787847900c971f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0003-product-name.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0003-product-name.md",
+      "sha256": "16763b7800e9fb60e58834e84e40eeddd6e3c30359c3ea38c1bbe2eec7c1bd6a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0004-repository-visibility-and-license.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0004-repository-visibility-and-license.md",
+      "sha256": "704191f4434a65315ecf2662b04ff0c63729459545fcac00e1db9626d89466b9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0005-repository-and-product-language.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0005-repository-and-product-language.md",
+      "sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0006-discovery-evidence-boundary.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0006-discovery-evidence-boundary.md",
+      "sha256": "1e03486d2c1a397e816e422c961b7903f5fe8106f189642f7ac543a1c97b8e41"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0007-first-product-launch-roadmap.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0007-first-product-launch-roadmap.md",
+      "sha256": "7604246595810591202caa9ae9e3c17c14fd3b8352b8b1204c09f99a40f98ee6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0008-first-launch-capability-commitment.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0008-first-launch-capability-commitment.md",
+      "sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0009-studio-design-and-registered-diner-personalisation.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\0010-diner-account-and-display-recovery.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/0010-diner-account-and-display-recovery.md",
+      "sha256": "d6af1a3d6c08f8e164f81b70a3ecbd3690db19536b8a9120843b8f864faec9c6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/README.md",
+      "sha256": "3882188e4d9f1ab125f856a9bca317f8f73b28dd23eb2e570a1caa7383394760"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\adr\\template.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/adr/template.md",
+      "sha256": "b045dcd711b4095bd688d36a1351fbfc073457f621beacf86423b3a30587b84c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\design\\m1-connected-journey.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/design/m1-connected-journey.md",
+      "sha256": "c13f767c3f83e68ff56eb1315096abbf5db300a5f832e00fe222ef5a4853d6c1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\design\\m1-extended-journeys.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/design/m1-extended-journeys.md",
+      "sha256": "63ea78f99e92661f5a147296aec28ad2e9c4c5d03b4d972c7b6e7e27e9110693"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\glossary.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/glossary.md",
+      "sha256": "062d24d00a4bef1fca5e9d47884cd38347d6bb211a50e844f3b92c6bdaeada37"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\product\\m0-capability-matrix.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/product/m0-capability-matrix.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\product\\m0-journeys-and-criteria.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/product/m0-journeys-and-criteria.md",
+      "sha256": "a72fc4b5e443c5b0135467014d8dd052323f7a36c923d24a8a994143b0a96c7e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\product\\m1-design-briefs.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/product/m1-design-briefs.md",
+      "sha256": "10f6d05120f843e1d6dadd1af1ae136c10af80228cd6f6fe256e4789cb869c28"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\project\\charter.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/project/charter.md",
+      "sha256": "068bd237f5ccd8902bace93fc2dc37cce5cf30df99db872194cd384a5d58643c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\project\\history\\roadmap-2026-09-28.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/project/history/roadmap-2026-09-28.md",
+      "sha256": "401da2617c67fc1e29a9142e0150b8e211ef545d3debd58a1f54215eca6591c5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\project\\m0-closeout.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/project/m0-closeout.md",
+      "sha256": "fbe4ed9c1058c9063ec9d80b0ab4440e893cc948606c57efd387cf54acc82401"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\project\\m0-execution-brief.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/project/m0-execution-brief.md",
+      "sha256": "26be7ff02671302fdd0d6161960e978e637c54c2b9fc93292d7cf6e3f540ceb6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\project\\planning-transition.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/project/planning-transition.md",
+      "sha256": "e449a88a8a5c517fb130693565df03154ed736123479aeec6b2ab25cce431b43"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\project\\roadmap.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/project/roadmap.md",
+      "sha256": "c0983c78ddc91713ce05187963a13c284941aa58efb64d7a870775e121d9048f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/README.md",
+      "sha256": "948abf6a8e155e96b5f1c8d7d3901d373cbb850be382c8bf174ae1d589dd2706"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\advanced-research-framework.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/advanced-research-framework.md",
+      "sha256": "df1b5f9dec00c13fbc8b22d7333ef5ed69bef1e1d96763ff7c3128e367112f38"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\competitors.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/competitors.md",
+      "sha256": "406baab833ae0612292ca1fc85d45eccf5a081e343aaf0577066ed7a327070b6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\interviews\\cafe.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/interviews/cafe.md",
+      "sha256": "7b8e9c50bd53fb6b5f79ee976c95db5cf7247e5239c6dc796cc7517de3f74b73"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\interviews\\neighbourhood-restaurant.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/interviews/neighbourhood-restaurant.md",
+      "sha256": "4b28440c4bf6a5c90cec13ce3117401b53695b40ea3a7e40197fb4eb8e04055b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\interviews\\script.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/interviews/script.md",
+      "sha256": "1e8ac9eeae266a13ff7fd6cec1382b55547e3a6adc6cf5f1414434e1500bf1bb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\interviews\\tourist-restaurant.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/interviews/tourist-restaurant.md",
+      "sha256": "6288682dec91529546b28caa7b4b664600fa2281be1158af06f8331204344126"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\legal.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/legal.md",
+      "sha256": "3c8e06dfde5c4b8cbcf84a61adfc9a8df790fb0c073cbba773b34fb2410ff5ab"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\market.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/market.md",
+      "sha256": "ab0fa147590177817ce222f83b7ffc214b935386470411063ac2937f8d814d3f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/README.md",
+      "sha256": "da9da4a3a700d2ecb533438b374a3644e30d764c8654f10f8512d24df0203867"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\core.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/core.md",
+      "sha256": "b624fcec082bc32d3f76f86ae89f56d765a8e1fdfb222a332ac4c13591f0e22a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\loyalty.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/loyalty.md",
+      "sha256": "68ac65546cd326a950f1952276131fb4f3a228ea8e9eca897f32d8933e122e32"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\reactivation.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/reactivation.md",
+      "sha256": "ff6035a250c50a7fabefe8eab306912a7b886e9a293fa9204faa5859d469154e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/README.md",
+      "sha256": "dbf8e0b197a219115b7c2711d0e7cd3accf8585abb5b3732fc37b0d0d9a794ac"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\reviews.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/reviews.md",
+      "sha256": "f82efc73f678f8f60070cd33f705fdd86c13ea86166b5e3831e5f49f46ab2451"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\storefront-qr-menu.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/storefront-qr-menu.md",
+      "sha256": "dc30458adef9192c048b766cf9367a77ffb450a314990ed6236e5b96df927e2e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\table-bookings.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/table-bookings.md",
+      "sha256": "4fbea2e60bf3ff7fb49650a93342e9df82aae3c2d753fdc851b746032db7e1a5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\result-research\\whatsapp-assistant.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/result-research/whatsapp-assistant.md",
+      "sha256": "8a63386c7d488c1f1bc5315ce39ba90eed312dc541104823f7bdf48a8d0d2b8c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\review-ledger.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/review-ledger.md",
+      "sha256": "5e86e5c706dcb69f9f392437c46e9f07cfefd981c57ecc9a17bae47c34aa61a8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\review-mining.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/review-mining.md",
+      "sha256": "a28830aa49d1d12454060c2da177bda5e6612c8b8e0d924b4599e635d7e1e69d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\sources.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/sources.md",
+      "sha256": "a46a2f6f3a0a188e818a5639e5bd6f8d924a697ae991821a0565ddc2b7a42f12"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\storefront-digital-menu\\functional-definition\\functional-definition.es.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\storefront-digital-menu\\functional-definition\\index.html",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/storefront-digital-menu/functional-definition/index.html",
+      "sha256": "76ea0edbbfa26e64dc7bd83d774220f07951661f2caa3ca356d111ea6d58c840"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\storefront-digital-menu\\master-research.en.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/storefront-digital-menu/master-research.en.md",
+      "sha256": "384df4d2654681df8e2904347fa95da9b3b00e815374f70d4450fb33fe22f532"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\storefront-digital-menu\\master-research.es.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/storefront-digital-menu/master-research.es.md",
+      "sha256": "3a2b27b0dc5409e0df28d566f279e816c044155924df3ee91064175f415c2e82"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\storefront-digital-menu\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/storefront-digital-menu/README.md",
+      "sha256": "7c6998807cea2b783e2985ebe4d18792d5d15a94628c37353234f34e835029e2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\synthesis.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/synthesis.md",
+      "sha256": "a5acdaad0990fd9ddace51635a29fdeb4752a2b08db754b2f9008b38dcc29a81"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\docs\\research\\verification.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/docs/research/verification.md",
+      "sha256": "ae3e475764ba9bf371fd85c03a387c28de50e17ac0405eec1763285f25362f79"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\LICENSE",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/LICENSE",
+      "sha256": "250d65cb99fa1c245c2b1e8160469924c67c53fb5b78c0de5fff463c63ee1cae"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/README.md",
+      "sha256": "53f12c6703bc5ee8b7d6360e970e2fd5b0f5e9cc8879ad24ddd4b65861b4124b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-60d76ad\\source\\scripts\\github\\sync-labels.mjs",
+      "preserved": "research-evidence/reviews/c1-c3-60d76ad/source/scripts/github/sync-labels.mjs",
+      "sha256": "6d0d3e79d2651b586accccadcc6d2b803af074c4c09b10ae267f2897f3a2a54e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\document-checks.json",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/document-checks.json",
+      "sha256": "67e7f25459b95c6a16a76fe86624cb124393b58e9c3acecb99ad7e7bf8f5d5a2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\g4-recheck.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/g4-recheck.md",
+      "sha256": "ae8a84ea8469c4d4d568511be775812edd402974204286e000e3d232964f5b08"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\review-result.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/review-result.md",
+      "sha256": "1110df45f6dde44886dd35fcc0ae4b08839a8939ac68ad4a6a80865c2ddead70"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source.zip",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source.zip",
+      "sha256": "d6a9882d2fc0ff2fa3449518aa886e132da569e5c912675489db0bd7fc84641d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.editorconfig",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.editorconfig",
+      "sha256": "6d6796f174b736bcd7a68999e30d2f19a3719ad92355dcc0cfdfce8a66864553"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.gitattributes",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.gitattributes",
+      "sha256": "5bbc9288d6920231fb242259a1e598a06619d438a93accb37083736031f6f0a5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.github\\ISSUE_TEMPLATE\\bug.yml",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.github/ISSUE_TEMPLATE/bug.yml",
+      "sha256": "474f3b214253e4ef37e48c1b5e171202b87515bcb2ccd02880a9a210b9fc37ff"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.github\\ISSUE_TEMPLATE\\config.yml",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.github\\ISSUE_TEMPLATE\\task.yml",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.github/ISSUE_TEMPLATE/task.yml",
+      "sha256": "bc89c058b911438793a5898ae91b4e6a54a2d2d3c2e99fa249619d68df8e7302"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.github\\ISSUE_TEMPLATE\\user-story.yml",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.github/ISSUE_TEMPLATE/user-story.yml",
+      "sha256": "a230089c3f259bf890b77f19cead6ff63fdc6034bb193982730299a514a16f7d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.github\\labels.json",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.github/labels.json",
+      "sha256": "d80a79389809019d2b7efb28acb21293a6b99b00e509e3956987f2368423784c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.github\\pull_request_template.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.github/pull_request_template.md",
+      "sha256": "6196e3162ce65eb1eac0a6f621a976a0804d78a3a3a8f57c30c753b2ab8a937a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\.gitignore",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/.gitignore",
+      "sha256": "e479ad65f43b307f8e8699953c8061a818ef51143ebd90739e820555cdc8bff5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\CHANGELOG.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/CHANGELOG.md",
+      "sha256": "b0246bad9d5d6221f72a905936e3d653b8124ab9b496d0ed0b057770b0a84bdb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\CONTRIBUTING.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/CONTRIBUTING.md",
+      "sha256": "bd7a0d42056ef220307196893ed03541d5b93c3c39bcfb73722c441284ca8245"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0001-record-architecture-decisions.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0001-record-architecture-decisions.md",
+      "sha256": "3303ed4ddd0e8eccb3c42a929823fe0066b022587e0a0a20ed735fc4b98808ab"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0002-studio-brand-valiris.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0002-studio-brand-valiris.md",
+      "sha256": "fb118f8916909424245e4bc49705c74fdbc237db29dd3024ec787847900c971f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0003-product-name.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0003-product-name.md",
+      "sha256": "16763b7800e9fb60e58834e84e40eeddd6e3c30359c3ea38c1bbe2eec7c1bd6a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0004-repository-visibility-and-license.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0004-repository-visibility-and-license.md",
+      "sha256": "704191f4434a65315ecf2662b04ff0c63729459545fcac00e1db9626d89466b9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0005-repository-and-product-language.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0005-repository-and-product-language.md",
+      "sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0006-discovery-evidence-boundary.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0006-discovery-evidence-boundary.md",
+      "sha256": "1e03486d2c1a397e816e422c961b7903f5fe8106f189642f7ac543a1c97b8e41"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0007-first-product-launch-roadmap.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0007-first-product-launch-roadmap.md",
+      "sha256": "7604246595810591202caa9ae9e3c17c14fd3b8352b8b1204c09f99a40f98ee6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0008-first-launch-capability-commitment.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0008-first-launch-capability-commitment.md",
+      "sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0009-studio-design-and-registered-diner-personalisation.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0010-diner-account-and-display-recovery.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0010-diner-account-and-display-recovery.md",
+      "sha256": "d6af1a3d6c08f8e164f81b70a3ecbd3690db19536b8a9120843b8f864faec9c6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\0011-shared-menu-content-and-contextual-maintenance.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/0011-shared-menu-content-and-contextual-maintenance.md",
+      "sha256": "d65b8a568dc798614cd1437869af969160e55832d45de4900b89e7124c2a0651"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/README.md",
+      "sha256": "1fd603634fd8d673708a6367f91311a19cd2790bb8c8b1a499ec306d9617abe8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\adr\\template.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/adr/template.md",
+      "sha256": "b045dcd711b4095bd688d36a1351fbfc073457f621beacf86423b3a30587b84c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\design\\m1-connected-journey.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/design/m1-connected-journey.md",
+      "sha256": "8c661b05629bc6858dee275456bf50e7e24e279eb642d558c9a4cbb9650ddbd9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\design\\m1-content-preparation.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/design/m1-content-preparation.md",
+      "sha256": "49048796905bcaf44eb9e415f0b3c987b6687b61f8170efae8bf8ee0441ebcc5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\design\\m1-extended-journeys.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/design/m1-extended-journeys.md",
+      "sha256": "86b650ad37af9db33935e4c0834a23e9549ce492b2b688160254b813ae6705f9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\glossary.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/glossary.md",
+      "sha256": "062d24d00a4bef1fca5e9d47884cd38347d6bb211a50e844f3b92c6bdaeada37"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\product\\m0-capability-matrix.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/product/m0-capability-matrix.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\product\\m0-journeys-and-criteria.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/product/m0-journeys-and-criteria.md",
+      "sha256": "1051bbdc992b4d5277b99c7181107862f3eaec2ade44d5769d262431cb21beeb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\product\\m1-design-briefs.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/product/m1-design-briefs.md",
+      "sha256": "1e4e5b6e4b03bf50ceaa476925eafa8bd19ce21be1c8bd8740a071f97dd15d4a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\project\\charter.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/project/charter.md",
+      "sha256": "068bd237f5ccd8902bace93fc2dc37cce5cf30df99db872194cd384a5d58643c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\project\\history\\roadmap-2026-09-28.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/project/history/roadmap-2026-09-28.md",
+      "sha256": "401da2617c67fc1e29a9142e0150b8e211ef545d3debd58a1f54215eca6591c5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\project\\m0-closeout.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/project/m0-closeout.md",
+      "sha256": "0da32bf6a7a90246b313bf63c7f0de41a1bd0c72b3e2e62ee3d88d1892ebfbb1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\project\\m0-execution-brief.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/project/m0-execution-brief.md",
+      "sha256": "26be7ff02671302fdd0d6161960e978e637c54c2b9fc93292d7cf6e3f540ceb6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\project\\planning-transition.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/project/planning-transition.md",
+      "sha256": "e449a88a8a5c517fb130693565df03154ed736123479aeec6b2ab25cce431b43"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\project\\roadmap.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/project/roadmap.md",
+      "sha256": "73f8091807881c1d29d91e3e4011a248076566a652cfffa260fd378055db9481"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/README.md",
+      "sha256": "65e32b1624ae2f3c8f8af3ff6a1798050ef61a91614f8fc240c889349017d3a2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\advanced-research-framework.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/advanced-research-framework.md",
+      "sha256": "df1b5f9dec00c13fbc8b22d7333ef5ed69bef1e1d96763ff7c3128e367112f38"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\competitors.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/competitors.md",
+      "sha256": "406baab833ae0612292ca1fc85d45eccf5a081e343aaf0577066ed7a327070b6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\interviews\\cafe.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/interviews/cafe.md",
+      "sha256": "7b8e9c50bd53fb6b5f79ee976c95db5cf7247e5239c6dc796cc7517de3f74b73"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\interviews\\neighbourhood-restaurant.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/interviews/neighbourhood-restaurant.md",
+      "sha256": "4b28440c4bf6a5c90cec13ce3117401b53695b40ea3a7e40197fb4eb8e04055b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\interviews\\script.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/interviews/script.md",
+      "sha256": "1e8ac9eeae266a13ff7fd6cec1382b55547e3a6adc6cf5f1414434e1500bf1bb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\interviews\\tourist-restaurant.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/interviews/tourist-restaurant.md",
+      "sha256": "6288682dec91529546b28caa7b4b664600fa2281be1158af06f8331204344126"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\legal.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/legal.md",
+      "sha256": "3c8e06dfde5c4b8cbcf84a61adfc9a8df790fb0c073cbba773b34fb2410ff5ab"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\market.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/market.md",
+      "sha256": "ab0fa147590177817ce222f83b7ffc214b935386470411063ac2937f8d814d3f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/README.md",
+      "sha256": "da9da4a3a700d2ecb533438b374a3644e30d764c8654f10f8512d24df0203867"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\core.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/core.md",
+      "sha256": "b624fcec082bc32d3f76f86ae89f56d765a8e1fdfb222a332ac4c13591f0e22a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\loyalty.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/loyalty.md",
+      "sha256": "68ac65546cd326a950f1952276131fb4f3a228ea8e9eca897f32d8933e122e32"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\reactivation.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/reactivation.md",
+      "sha256": "ff6035a250c50a7fabefe8eab306912a7b886e9a293fa9204faa5859d469154e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/README.md",
+      "sha256": "dbf8e0b197a219115b7c2711d0e7cd3accf8585abb5b3732fc37b0d0d9a794ac"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\reviews.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/reviews.md",
+      "sha256": "f82efc73f678f8f60070cd33f705fdd86c13ea86166b5e3831e5f49f46ab2451"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\storefront-qr-menu.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/storefront-qr-menu.md",
+      "sha256": "dc30458adef9192c048b766cf9367a77ffb450a314990ed6236e5b96df927e2e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\table-bookings.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/table-bookings.md",
+      "sha256": "4fbea2e60bf3ff7fb49650a93342e9df82aae3c2d753fdc851b746032db7e1a5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\result-research\\whatsapp-assistant.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/result-research/whatsapp-assistant.md",
+      "sha256": "8a63386c7d488c1f1bc5315ce39ba90eed312dc541104823f7bdf48a8d0d2b8c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\review-ledger.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/review-ledger.md",
+      "sha256": "5e86e5c706dcb69f9f392437c46e9f07cfefd981c57ecc9a17bae47c34aa61a8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\review-mining.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/review-mining.md",
+      "sha256": "a28830aa49d1d12454060c2da177bda5e6612c8b8e0d924b4599e635d7e1e69d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\sources.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/sources.md",
+      "sha256": "a46a2f6f3a0a188e818a5639e5bd6f8d924a697ae991821a0565ddc2b7a42f12"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\storefront-digital-menu\\functional-definition\\functional-definition.es.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\storefront-digital-menu\\functional-definition\\index.html",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/storefront-digital-menu/functional-definition/index.html",
+      "sha256": "76ea0edbbfa26e64dc7bd83d774220f07951661f2caa3ca356d111ea6d58c840"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\storefront-digital-menu\\master-research.en.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/storefront-digital-menu/master-research.en.md",
+      "sha256": "384df4d2654681df8e2904347fa95da9b3b00e815374f70d4450fb33fe22f532"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\storefront-digital-menu\\master-research.es.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/storefront-digital-menu/master-research.es.md",
+      "sha256": "3a2b27b0dc5409e0df28d566f279e816c044155924df3ee91064175f415c2e82"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\storefront-digital-menu\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/storefront-digital-menu/README.md",
+      "sha256": "7c6998807cea2b783e2985ebe4d18792d5d15a94628c37353234f34e835029e2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\synthesis.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/synthesis.md",
+      "sha256": "a5acdaad0990fd9ddace51635a29fdeb4752a2b08db754b2f9008b38dcc29a81"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\docs\\research\\verification.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/docs/research/verification.md",
+      "sha256": "ae3e475764ba9bf371fd85c03a387c28de50e17ac0405eec1763285f25362f79"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\LICENSE",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/LICENSE",
+      "sha256": "250d65cb99fa1c245c2b1e8160469924c67c53fb5b78c0de5fff463c63ee1cae"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\README.md",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/README.md",
+      "sha256": "53f12c6703bc5ee8b7d6360e970e2fd5b0f5e9cc8879ad24ddd4b65861b4124b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source\\scripts\\github\\sync-labels.mjs",
+      "preserved": "research-evidence/reviews/c1-c3-c4f219c/source/scripts/github/sync-labels.mjs",
+      "sha256": "6d0d3e79d2651b586accccadcc6d2b803af074c4c09b10ae267f2897f3a2a54e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\actual-case-link-checks.json",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/actual-case-link-checks.json",
+      "sha256": "cd305e9108ab648cf7ccda47ed3cb3342426d0332768d562beb5b1badbcaacd9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\capability-reference-checks.json",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/capability-reference-checks.json",
+      "sha256": "aa0e43d4037b63fb500350c4aac165f8cb35508abe87f66efcf57b409ae7963d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\criterion-reference-checks.json",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/criterion-reference-checks.json",
+      "sha256": "4411600167868fb52adeb4f87d44b1c088e73b190cadf82ce0d4897c6f8bcd13"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\document-checks.json",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/document-checks.json",
+      "sha256": "f6146f20f388f00614680d12bc1c7416901a994a2ead8cbce40d3854a3048ccd"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\final-state-checks.json",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/final-state-checks.json",
+      "sha256": "b411712da9e9cb1cbe9ea78e423ecc2aeca0c6a842e77acc696bb0929decf20f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\g1-review.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/g1-review.md",
+      "sha256": "c060bea39cfa8b9382d36eb0d88b977b817854522a2207d92a88b743cefcf57e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\g4-review.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/g4-review.md",
+      "sha256": "3dd5859616be226eb53d2f92792ff46dcfe796f3ef2af2066c3c63eec0c7d109"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\g4-structural-checks.json",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/g4-structural-checks.json",
+      "sha256": "796bbb62a0439750176ece449c503227bd87e0843aec860d3a3c8ae9bd036600"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\handoff-continuity.diff",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/handoff-continuity.diff",
+      "sha256": "2c6d02e4c9dd4e6b5b2c3fc33310d0590cfa7376a82b430e4230d74318d3df04"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\review-result.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/review-result.md",
+      "sha256": "37fabe7e6388e0fa86f5c08da7a0c777d7701c4189fa317c17441644fab0e76b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\CHANGELOG.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/CHANGELOG.md",
+      "sha256": "a72a5c1a4986bd4a720059585a4bdf21a1d09b928627e3a1a329dc5e1c1c538f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0001-record-architecture-decisions.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0001-record-architecture-decisions.md",
+      "sha256": "3303ed4ddd0e8eccb3c42a929823fe0066b022587e0a0a20ed735fc4b98808ab"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0002-studio-brand-valiris.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0002-studio-brand-valiris.md",
+      "sha256": "fb118f8916909424245e4bc49705c74fdbc237db29dd3024ec787847900c971f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0003-product-name.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0003-product-name.md",
+      "sha256": "16763b7800e9fb60e58834e84e40eeddd6e3c30359c3ea38c1bbe2eec7c1bd6a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0004-repository-visibility-and-license.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0004-repository-visibility-and-license.md",
+      "sha256": "704191f4434a65315ecf2662b04ff0c63729459545fcac00e1db9626d89466b9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0005-repository-and-product-language.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0005-repository-and-product-language.md",
+      "sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0006-discovery-evidence-boundary.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0006-discovery-evidence-boundary.md",
+      "sha256": "1e03486d2c1a397e816e422c961b7903f5fe8106f189642f7ac543a1c97b8e41"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0007-first-product-launch-roadmap.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0007-first-product-launch-roadmap.md",
+      "sha256": "7604246595810591202caa9ae9e3c17c14fd3b8352b8b1204c09f99a40f98ee6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0008-first-launch-capability-commitment.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0008-first-launch-capability-commitment.md",
+      "sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0009-studio-design-and-registered-diner-personalisation.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0010-diner-account-and-display-recovery.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0010-diner-account-and-display-recovery.md",
+      "sha256": "d6af1a3d6c08f8e164f81b70a3ecbd3690db19536b8a9120843b8f864faec9c6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0011-shared-menu-content-and-contextual-maintenance.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0011-shared-menu-content-and-contextual-maintenance.md",
+      "sha256": "d65b8a568dc798614cd1437869af969160e55832d45de4900b89e7124c2a0651"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\0012-confirm-delegated-updates-per-assignment.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/0012-confirm-delegated-updates-per-assignment.md",
+      "sha256": "654b100f43065e446bfd52586b20bcf82d9bdb98c8174f61b603245563a8ddfd"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\README.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/README.md",
+      "sha256": "224762d0eb07c77341f799ca0eddbc9d385d1ff2a22a2097e6e698e7e01046a5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\adr\\template.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/adr/template.md",
+      "sha256": "b045dcd711b4095bd688d36a1351fbfc073457f621beacf86423b3a30587b84c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-connected-journey.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-connected-journey.md",
+      "sha256": "d977d26db2a2f094e448eaa197f1857f405f377edac49daffe211de2544be835"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-content-preparation.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-content-preparation.md",
+      "sha256": "6cfe7d6e7e4b6fa6f382a7a437fb9362b42711e10ed8ceae7ed3d0a09031ba7d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-coverage-and-evidence.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-coverage-and-evidence.md",
+      "sha256": "35aa489acddce201dc47debd623d7fbfaaec0a4570a100bdd9dd6408b3e13d5a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-extended-journeys.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-extended-journeys.md",
+      "sha256": "56b6d2f7e4262da871a4e9cb91bcb41884858068467a6f8593944303d554858f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-food-register-and-outputs.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-food-register-and-outputs.md",
+      "sha256": "e268d5276cb735f945783ef2f114dc03ff8221c077ac7e8cd2bd09eeeb3e7507"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-public-presence-and-discovery.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-public-presence-and-discovery.md",
+      "sha256": "db1a922be8bb42150e9089fe2adf152a17e4d7937100732d554150e7dea01ece"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-scheduling-and-service-continuity.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-scheduling-and-service-continuity.md",
+      "sha256": "66903175d2a9b370369bbb45fa77f77ef892bc5659a03ced62b63132bc04fb22"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\design\\m1-service-and-maintenance.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/design/m1-service-and-maintenance.md",
+      "sha256": "545c27f66f9606033325e26b0df8de79bd2ee30a5de4cfa4c84faa03affa7335"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\product\\m0-capability-matrix.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/product/m0-capability-matrix.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\product\\m0-journeys-and-criteria.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/product/m0-journeys-and-criteria.md",
+      "sha256": "fb6aaa728fb743d420cb998ac78626326741933d42b3a436d063d3dd1e0da919"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\product\\m1-design-briefs.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/product/m1-design-briefs.md",
+      "sha256": "8ef4fcb333bc4107138266c1593acb4cd1afe5399c32955f907c1cc45b960ea1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\project\\m0-closeout.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/project/m0-closeout.md",
+      "sha256": "7c2b8ed44467ae1150971d06095e244c82733b7cecf09baacbb2b3d257ac8129"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\project\\roadmap.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/project/roadmap.md",
+      "sha256": "5496390a0428640eece69a6a66e8b004cf576c3834cdc40789394015cf0e7012"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\README.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/README.md",
+      "sha256": "ff53d7228ba38895ece6fe89ddd765cd24c7a862f6972ea77e3d24d850f29a07"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\coverage-d71d3de\\snapshots\\docs\\research\\storefront-digital-menu\\functional-definition\\functional-definition.es.md",
+      "preserved": "research-evidence/reviews/coverage-d71d3de/snapshots/docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\0011-shared-menu-content-and-contextual-maintenance.snapshot.md",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/0011-shared-menu-content-and-contextual-maintenance.snapshot.md",
+      "sha256": "d65b8a568dc798614cd1437869af969160e55832d45de4900b89e7124c2a0651"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\check-documents.py",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/check-documents.py",
+      "sha256": "e5958953fe06b59323cbdc31bce024b894980040695f0873835f562d0f7d3bf3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\document-checks.json",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/document-checks.json",
+      "sha256": "affc83c612928953218b685c203195b5a54b142fb2057a7574c19fda7cfbda04"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\g1-review.md",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/g1-review.md",
+      "sha256": "344741f263b39b205557f27f87594433819f42c8f6e008048cf48cd710396096"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\g4-review.md",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/g4-review.md",
+      "sha256": "36c051b324c73171d88a811701b5801d20b315a8e62fb655ffad1a2a336bdd89"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\m0-journeys-and-criteria.snapshot.md",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/m0-journeys-and-criteria.snapshot.md",
+      "sha256": "facbc24b73a66f7a0cb30f56436dd6650fe1497ada34a77e2b9471fa98ee93b8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\m1-content-preparation.snapshot.md",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/m1-content-preparation.snapshot.md",
+      "sha256": "629b3d91836fe80fa4007cf2b2a432e5defca25175b49828f442e5ef7923ba29"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\cp-2eb8e86\\review-result.md",
+      "preserved": "research-evidence/reviews/cp-2eb8e86/review-result.md",
+      "sha256": "c9ac40d5293f518c4ea18d9c6a65c427ea81b3dbb3b97add9a4b0cd8bb826307"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\check-documents.py",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/check-documents.py",
+      "sha256": "1431495c07e97f00be8685b8c92faca82ad435239313b8b6e31d180de2fb8cfc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\document-checks.json",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/document-checks.json",
+      "sha256": "35a991d381640837c770984b15d0d1a91c3cc1ab0faaf30a4b7baa9bff9bf34d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\final-state-checks.json",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/final-state-checks.json",
+      "sha256": "c519254ed3e66ff737e4a6957da390b4e3e0ed7aae0519ebb48512b2e6268c71"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\g1-review.md",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/g1-review.md",
+      "sha256": "7de05f13f7b8caf1744c8d34024a19bb8eefd5082056da6c49e4b0b0dd2a8b3a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\g4-review.md",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/g4-review.md",
+      "sha256": "5d5f7793e00179f59ddb67dc91d865f6621e0f99d06ec03b933482867dd472df"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\m0-capability-matrix.snapshot.md",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/m0-capability-matrix.snapshot.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\m0-journeys-and-criteria.snapshot.md",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/m0-journeys-and-criteria.snapshot.md",
+      "sha256": "41e7e487e2a59d36c889345a65f59a31c254ec241ef4f7207ff5c7a303337734"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\m1-public-presence-and-discovery.snapshot.md",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/m1-public-presence-and-discovery.snapshot.md",
+      "sha256": "db1a922be8bb42150e9089fe2adf152a17e4d7937100732d554150e7dea01ece"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\review-result.md",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/review-result.md",
+      "sha256": "997a4225fee945d0879660c1ac7d286ba91da3b5100ce01ecf559925b4b9779a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j1-j2-9cfe77b\\update-handoff.py",
+      "preserved": "research-evidence/reviews/j1-j2-9cfe77b/update-handoff.py",
+      "sha256": "541a84685612cfa427d76b1b2e51e61be4e7a5519cad92b516a51587fca06f0c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j10-j15-c4f219c\\document-checks.json",
+      "preserved": "research-evidence/reviews/j10-j15-c4f219c/document-checks.json",
+      "sha256": "cb36bdce6c3d3507f38b65450915a8272296d184153b953d5d491b8606ece3f9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j10-j15-c4f219c\\g1-review.md",
+      "preserved": "research-evidence/reviews/j10-j15-c4f219c/g1-review.md",
+      "sha256": "93f3b2f1bf4c961005905555c6a865c701e429e47848cb50d902b025728678f3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j10-j15-c4f219c\\g4-review.md",
+      "preserved": "research-evidence/reviews/j10-j15-c4f219c/g4-review.md",
+      "sha256": "0236c23672314f0c2d52be6f243bc5dede9fdf88d4a02fed1bd38e389215e7cd"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j10-j15-c4f219c\\review-handover.md",
+      "preserved": "research-evidence/reviews/j10-j15-c4f219c/review-handover.md",
+      "sha256": "c7c63b4292fc08896ff017097f69f6653b332e6b2d9420a5b753679ac54b987b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j15-recheck-2eb8e86\\document-checks.json",
+      "preserved": "research-evidence/reviews/j15-recheck-2eb8e86/document-checks.json",
+      "sha256": "b15505157346e568d1db33ef76058c6a2020a75a6f3e760bc92b029638134f62"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j15-recheck-2eb8e86\\g1-recheck.md",
+      "preserved": "research-evidence/reviews/j15-recheck-2eb8e86/g1-recheck.md",
+      "sha256": "f25e7cfe3e475873bd7e35d33fea864fafd77d51492a2bb5cee8fdd02fe50df6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j15-recheck-2eb8e86\\g4-recheck.md",
+      "preserved": "research-evidence/reviews/j15-recheck-2eb8e86/g4-recheck.md",
+      "sha256": "6ad642f402a28d89aa899fc172b10d7dd2db7208511929fc9bad3c0e4c41c5c8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j15-recheck-2eb8e86\\m1-extended-journeys.snapshot.md",
+      "preserved": "research-evidence/reviews/j15-recheck-2eb8e86/m1-extended-journeys.snapshot.md",
+      "sha256": "bdf25f202f835f4569ffc18980c6d04128038dab5d2963d5cc0bfdb61cca3a0f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j15-recheck-2eb8e86\\review-result.md",
+      "preserved": "research-evidence/reviews/j15-recheck-2eb8e86/review-result.md",
+      "sha256": "2fdb51686cc088b6cdfa665dd87b83372c9f0391e016fb2f8ce3e33edc3a57c3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\check-documents.py",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/check-documents.py",
+      "sha256": "d5d14f45296a9dccb9df1616ed1e3ea0860b0f5569e5af5c94fd84ed7f43484f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\document-checks.json",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/document-checks.json",
+      "sha256": "681ea0eef1f32bebdf76d5d2d6cced49cf666c406461025eee6b02cf5be944b0"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\final-state-checks.json",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/final-state-checks.json",
+      "sha256": "af0d6b049717a7d1a73df358551678b79bcdcde3f0285ba675e0ab1c1c4418b0"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\g1-review.md",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/g1-review.md",
+      "sha256": "335de9226cfc44d793af01be598fc705390e8fbe6cead2079dbc633ef4d8903f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\g4-review.md",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/g4-review.md",
+      "sha256": "78868348379f6af7db552a2a0899293cfbdd5b829eeb191959495b7dc4581de5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\m0-capability-matrix.snapshot.md",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/m0-capability-matrix.snapshot.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\m0-journeys-and-criteria.snapshot.md",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/m0-journeys-and-criteria.snapshot.md",
+      "sha256": "c1af16ea5da6ad27d4fbdd85ddfe748fa29b154eb8d9cad31378171308162533"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\m1-scheduling-and-service-continuity.snapshot.md",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/m1-scheduling-and-service-continuity.snapshot.md",
+      "sha256": "66903175d2a9b370369bbb45fa77f77ef892bc5659a03ced62b63132bc04fb22"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\review-result.md",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/review-result.md",
+      "sha256": "69dc3cc432bfb5af16398f85ac022f8a5c27486916b930aac9f3c54509f4f7c7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j4-j5-120903f\\update-handoff.py",
+      "preserved": "research-evidence/reviews/j4-j5-120903f/update-handoff.py",
+      "sha256": "d7f4a28f564e6f189e226cd7c553b3255f52e5197bb2b6e06cd22756614bb32d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\document-checks.json",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/document-checks.json",
+      "sha256": "07299b870fa4406d936c9e01eefd4dd5171c71cf987a045a655a1dab97e8e603"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\final-state-checks.json",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/final-state-checks.json",
+      "sha256": "38974e0aec04be249d715907e642d3e8a238f3e977cb3ff219565735d6b5ea89"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\g1-review.md",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/g1-review.md",
+      "sha256": "7061169d50642791c3859cde7a88484c01514d2af3d54b0b3e7496a4fcc0cc0e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\g4-review.md",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/g4-review.md",
+      "sha256": "037c90e764e8f0691195de706d1850c263c8daac5427cb7d1728210e69a92ce8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\handoff-continuity.diff",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/handoff-continuity.diff",
+      "sha256": "9a195735d50c3e3f6c7844373f2e3a8978fce2f60906aa94e2c5a2e56b0fd359"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\m0-capability-matrix.snapshot.md",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/m0-capability-matrix.snapshot.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\m0-journeys-and-criteria.snapshot.md",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/m0-journeys-and-criteria.snapshot.md",
+      "sha256": "93be99eca12947979912adbeefc7235bdbb5ef9a9dc9e64209397b71d481b08c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\m1-food-register-and-outputs.snapshot.md",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/m1-food-register-and-outputs.snapshot.md",
+      "sha256": "e268d5276cb735f945783ef2f114dc03ff8221c077ac7e8cd2bd09eeeb3e7507"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\preliminary-to-final-checks.json",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/preliminary-to-final-checks.json",
+      "sha256": "5783beb2ebd9dccf53e5776b7190456de979c7fdf560b0cf34f30c3404fc2206"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\preliminary-to-final.diff",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/preliminary-to-final.diff",
+      "sha256": "6782ca7234304c5962be1ab766e038c31ac9a809522013f1252fa97018c9c854"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-a0583e0\\review-result.md",
+      "preserved": "research-evidence/reviews/j6-j7-a0583e0/review-result.md",
+      "sha256": "73c81bd095a7d7a618c432d7404fd598017655837722e8dda67eab5fc3043a39"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\check-documents.py",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/check-documents.py",
+      "sha256": "9397e11f2fd21672d4e3ab9ee7e53ec79cec77ddbf7ec028dc84a8c8ff519003"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\document-checks.json",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/document-checks.json",
+      "sha256": "b3989cae38c9c54ad9f32d2dde92024f7d318a0a2ea9fba71501575931399e51"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\g1-review.md",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/g1-review.md",
+      "sha256": "c8b8597761890b74f06f1ff2dbc4c7ce784ff97d71e8614e7a0fa979d759dba7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\g4-review.md",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/g4-review.md",
+      "sha256": "82e75cc6037a82b217e0d500706aacd12efb770d77d49606401fc9f4e4d497a0"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\m0-capability-matrix.snapshot.md",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/m0-capability-matrix.snapshot.md",
+      "sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\m0-journeys-and-criteria.snapshot.md",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/m0-journeys-and-criteria.snapshot.md",
+      "sha256": "c1af16ea5da6ad27d4fbdd85ddfe748fa29b154eb8d9cad31378171308162533"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\m1-food-register-and-outputs.snapshot.md",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/m1-food-register-and-outputs.snapshot.md",
+      "sha256": "b63b4545ba6a5fa481054d8c3448a5a5d72951bbd261559db83ca4c2960f5c38"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j6-j7-preliminary-b63b454\\review-result.md",
+      "preserved": "research-evidence/reviews/j6-j7-preliminary-b63b454/review-result.md",
+      "sha256": "5fa4c827f2c1a0b35c3616de6e4cb1b48ea29687a5182de0fdb3596d482cbd2f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\0012-confirm-delegated-updates-per-assignment.snapshot.md",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/0012-confirm-delegated-updates-per-assignment.snapshot.md",
+      "sha256": "654b100f43065e446bfd52586b20bcf82d9bdb98c8174f61b603245563a8ddfd"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\check-documents.py",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/check-documents.py",
+      "sha256": "9ddec0672790c8145cfde792e512a1aa860fbfeae323943c710689e8564604b5"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\document-checks.json",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/document-checks.json",
+      "sha256": "67082745b4e1bdbc4fadf7d36b52a265d55c309b5ab5f4019f26e712a2c88c5c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\g1-review.md",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/g1-review.md",
+      "sha256": "80578493c9fb0a560ea579b7b43aab74ce1de78a934c75395f93f28b7db96669"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\g4-review.md",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/g4-review.md",
+      "sha256": "b76494b2702d688e8a8b69a165e1c6fcb8ec092aa6077566648ae9254410ad07"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\m0-journeys-and-criteria.snapshot.md",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/m0-journeys-and-criteria.snapshot.md",
+      "sha256": "41e7e487e2a59d36c889345a65f59a31c254ec241ef4f7207ff5c7a303337734"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\m1-service-and-maintenance.snapshot.md",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/m1-service-and-maintenance.snapshot.md",
+      "sha256": "545c27f66f9606033325e26b0df8de79bd2ee30a5de4cfa4c84faa03affa7335"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\j8-j9-9cfe77b\\review-result.md",
+      "preserved": "research-evidence/reviews/j8-j9-9cfe77b/review-result.md",
+      "sha256": "32abb8b26b1d386681673114b62abd05bf57b1f58634f6f929913f65fae7f94c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\orilla-v0.3-2026-10-03\\g1-continuation-before-role-correction.md",
+      "preserved": "research-evidence/reviews/orilla-v0.3-2026-10-03/g1-continuation-before-role-correction.md",
+      "sha256": "70d3e2461bda7c16785afda9812b4c4d7edcad056e743df1cf713aa24ff89d7c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\orilla-v0.3-2026-10-03\\g4-review.md",
+      "preserved": "research-evidence/reviews/orilla-v0.3-2026-10-03/g4-review.md",
+      "sha256": "384479adc8723b77e95254306db26cc323b2271c474a7fd3b6c0e87bc59e2872"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\reviews\\orilla-v0.3-2026-10-03\\pr21-body.txt",
+      "preserved": "research-evidence/reviews/orilla-v0.3-2026-10-03/pr21-body.txt",
+      "sha256": "00e03022245cc08cc45810baecac3ef1d1c546e03626ed879242d1df7095b481"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration-issue.md",
+      "preserved": "research-evidence/roadmap-migration-issue.md",
+      "sha256": "d055ec2bc8ac4be1f391626a91fc80255e606fd91cd4d1f4bff988bb06c0fb7d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\commercial-parallel.md",
+      "preserved": "research-evidence/roadmap-migration/commercial-parallel.md",
+      "sha256": "9922700f6b993c4186215e95bf09226a4623256396a8821527e62b087673383d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\completion.json",
+      "preserved": "research-evidence/roadmap-migration/completion.json",
+      "sha256": "d734818374ea49673966621aa5ec75659c8bde506aef5ffa4ce851301c75edf8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\issue-2.md",
+      "preserved": "research-evidence/roadmap-migration/issue-2.md",
+      "sha256": "f6daff4c4e87a1f4acc2c864bea79191848edc0a126ef9a31972dfa5609f1f91"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\issue-3.md",
+      "preserved": "research-evidence/roadmap-migration/issue-3.md",
+      "sha256": "06a0dc07bb0e3a04b5b6822ffb8bafa24b89aabaae3fb479a51cb2c3e4deca14"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\issue-4.md",
+      "preserved": "research-evidence/roadmap-migration/issue-4.md",
+      "sha256": "19f4f82fd5ad2252c6da88a282d4c8ac4a5f2ddd8a03641f7e93a9c46bb390ef"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\issue-5.md",
+      "preserved": "research-evidence/roadmap-migration/issue-5.md",
+      "sha256": "03a6766d44c3fb73ce57ae71451883b68e5835f6056573eb8b52a64c6399a6af"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\issue-6.md",
+      "preserved": "research-evidence/roadmap-migration/issue-6.md",
+      "sha256": "2f7c67ea0afaeeca465937b44353971d073de874564b4fc71195d42c9c5a23c0"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\issues-before.json",
+      "preserved": "research-evidence/roadmap-migration/issues-before.json",
+      "sha256": "7265c59712a2219636f21021c18a8b4236317827de67803cab7cae7d0e5cb4a1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\M3-outcome.md",
+      "preserved": "research-evidence/roadmap-migration/M3-outcome.md",
+      "sha256": "4c3a0f20cccb87f4920699d6f89d27cc62ca9e8552daa19c6164b943b4a1d088"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\M4-outcome.md",
+      "preserved": "research-evidence/roadmap-migration/M4-outcome.md",
+      "sha256": "6a58cf99b90e1c29fe26d2836294f9df0e6511145c467ab859d941856f0b011a"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\M5-outcome.md",
+      "preserved": "research-evidence/roadmap-migration/M5-outcome.md",
+      "sha256": "fdca9c504d16827d8e609f25e15086b9c9d7c347aace3802105c27a6c967541d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\M6-outcome.md",
+      "preserved": "research-evidence/roadmap-migration/M6-outcome.md",
+      "sha256": "2def88e4499830ad0172d198909d37337f20c0b590fe918078a6d4ba3d76f66c"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\M7-outcome.md",
+      "preserved": "research-evidence/roadmap-migration/M7-outcome.md",
+      "sha256": "c16a4b43dcd90855a6c9fc89f29f62802a90a7822744880c3f273d979328dacc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-1.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-1.json",
+      "sha256": "75ce384658fecd500d17b42a8550117ce64ff7316aeb243d0c98175c4784ab09"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-2.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-2.json",
+      "sha256": "3bd3b84fa6007dff5ab3d529237f8e3447100c4ad671f1d5b85ba65ed4a17c73"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-3.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-3.json",
+      "sha256": "0a74399737f268bf89c5cf19aaa0aca9bb5dcdfe96627abf00c13ad9c8c907b2"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-4.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-4.json",
+      "sha256": "1e76c1613c383d0cb13fd4e3bcd51305f765543a61cce9df09243aad888ef7be"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-5.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-5.json",
+      "sha256": "f35d23a09e2e422c0ab08033e2f22fc4faeb227874c550882f122aeb0ede7c85"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-6.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-6.json",
+      "sha256": "f2bc6ae68ce4896e03e810f8c91fb62b605f67aa863f451ebd77b35b1fc53b5b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-7.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-7.json",
+      "sha256": "f237a522fed31a4433629afd25d3cbe8eca5030a9495316e46009675a4012852"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-8.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-8.json",
+      "sha256": "c53d9822a4c0630d208a11d46d28e8f485571268f28f0a28d17eec263ce6a729"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestone-9.json",
+      "preserved": "research-evidence/roadmap-migration/milestone-9.json",
+      "sha256": "7838869d175a9213394577e59567414e9601eb2a325827d3bae442fb1f69711e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\milestones-before.json",
+      "preserved": "research-evidence/roadmap-migration/milestones-before.json",
+      "sha256": "cb14ec082bdbc53fe1c3c3412650c96b2e7a59b0a1d1152ab079c2aaf94cb8b6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\new-pr.md",
+      "preserved": "research-evidence/roadmap-migration/new-pr.md",
+      "sha256": "afe89d28537710b3f8b067374eb27720d9d321a77d034c354843ee11ed8e9658"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\pr-7-before.json",
+      "preserved": "research-evidence/roadmap-migration/pr-7-before.json",
+      "sha256": "44e61877512c730672074b0abcfc5ec48709bcc7d111d5b216454d4b3e3bb336"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\pr-7-updated.md",
+      "preserved": "research-evidence/roadmap-migration/pr-7-updated.md",
+      "sha256": "fdb4e403eb4ad1a2a710645c79eab59893e2f567a1c07ced6907a989ae376387"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\pr-8-before.json",
+      "preserved": "research-evidence/roadmap-migration/pr-8-before.json",
+      "sha256": "c32087a1b67aba59de4755252478f2de2860c552bec272d82d0b34d04591ef81"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-migration\\pr-8-updated.md",
+      "preserved": "research-evidence/roadmap-migration/pr-8-updated.md",
+      "sha256": "4de3b7130c11d5f620dca6d333b3edaa23a571b76e67d734ae15ea9d1fa9683b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\roadmap-supplied-2026-10-01.es.md",
+      "preserved": "research-evidence/roadmap-supplied-2026-10-01.es.md",
+      "sha256": "eca5b7745d359ee59d0d77d2ae33f520355f2f318c81ba29ace1099619af02ba"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\eat-curious-overview.png",
+      "preserved": "research-evidence/style-review-2026-10-03/eat-curious-overview.png",
+      "sha256": "2a87370bb38222f7ac17016e2d8345e60f40e5e41d57c7ebbb642e9ac81a074b"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\eat-curious.png",
+      "preserved": "research-evidence/style-review-2026-10-03/eat-curious.png",
+      "sha256": "a9e804acebfdbbeff2a8e343f3055d65852330584e8c76c9077f8cd89a110abf"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-01.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-01.jpg",
+      "sha256": "45860a40388669f73587ae4ccd7788d965c6bfc6e51cd022d23478b85e8d2ac8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-02.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-02.jpg",
+      "sha256": "4864a1d061b25cbba569718739d021c067deae88a6353d4526ba922926db25fa"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-03.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-03.jpg",
+      "sha256": "1f576d2db81e133dc48243fef351ed51e7f9ff32e583188576279c55f3e6e3a1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-04.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-04.jpg",
+      "sha256": "9fc000112c0bc73b4cfce744f70f48a18fed9f1de28b87871d6e28dfe6d838ac"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-05.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-05.jpg",
+      "sha256": "7d4d72df5acfd324c8db3422b17a80a91ce0e9ae120359a584d389663afc3af0"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-06.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-06.jpg",
+      "sha256": "71195d3d70083119ffd548e15f2f1e7fce1394ac77a8d5a5c182848bf68c5ebb"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-07.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-07.jpg",
+      "sha256": "c114501057e89c0f35db93446e25a88610718eccb80b662484e4f4c513724273"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-08.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-08.jpg",
+      "sha256": "18b661faff7e4d104df29e2371af7d2c99a8dcfdf5bef90a4a725f607b8ff032"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-09.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-09.jpg",
+      "sha256": "3ac3e4a088e7de0601f65c687884d6139ccbe6414248c54f89d0d1d9f403de24"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-10.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-10.jpg",
+      "sha256": "c7a9531c608fd191c0817f587a0d5e96eca6015c9ca4d2f3e49c66fd36fdadc8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-11.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-11.jpg",
+      "sha256": "4dca650016273e5227c5439677c046a4fb4e89f0938abc209ba6b6c91f5d863d"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-12.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-12.jpg",
+      "sha256": "79b6910883fc3e5aed506e73b866fe058015f6829053132c6513ee95030cd4d8"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro-scroll-13.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro-scroll-13.jpg",
+      "sha256": "6485100dcf1be0145e19031f79f5d91c4fa4326c376792d8cda562435d86d8b7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\gastrometro.png",
+      "preserved": "research-evidence/style-review-2026-10-03/gastrometro.png",
+      "sha256": "4e22fc97c7fe9d2c75fef6bb3e0c82adf5ca4a918626c6769e4e72248c78c3d1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\just-eat-welcome.png",
+      "preserved": "research-evidence/style-review-2026-10-03/just-eat-welcome.png",
+      "sha256": "fc8b2941e2f502e1594632ab8cdb26119ce692ae34b09cc5679489c06dbfbf83"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\marshmallow.png",
+      "preserved": "research-evidence/style-review-2026-10-03/marshmallow.png",
+      "sha256": "85b15daf7c153309c898a8d8547142157d04ed06d0fa3db2225b0c3be8223c70"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-01.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-01.jpg",
+      "sha256": "3b0b6b12c1ecd7fe77204f418eee975c3c8330886601c1f181529be9408893e6"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-02.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-02.jpg",
+      "sha256": "e341bb3ac823987f657e9db7ee2cd0d7ca2949a739c7853befaa5e855eedc801"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-03.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-03.jpg",
+      "sha256": "2c6d871a713173eb16d5c016180abd6c04e55fadd9fca4b782d9dc325a8697cc"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-04.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-04.jpg",
+      "sha256": "62f12830c4a2a563e351a0ee7913d25aa84c9713f0b789525d8734720bd0a4df"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-05.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-05.jpg",
+      "sha256": "983e0337ccafee02875c4209d60ded9968d12b8b46f06df8d0bc87b4834504c1"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-06.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-06.jpg",
+      "sha256": "4f3e420a6b913021b97cb0149b8bfa933b1960a55d133a654a640175669523dd"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-07.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-07.jpg",
+      "sha256": "66320928b9e19c4e60a2bcd3980b1fc9f9d044846edfc952e7c785b0812a6e52"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-08.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-08.jpg",
+      "sha256": "88da0d7912d1d80e12064d87567d7a85332ad37a50848cb6dd9cf64cde079d6e"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-09.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-09.jpg",
+      "sha256": "7615270c2e1bc002a33f742f77a0cb6414f1e90fee97e449288d5f23d3e062b9"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-10.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-10.jpg",
+      "sha256": "c8cb32a47032699c91d20d99020e1ea7dab936a3e1ba69c8d93e7fb7e0d81725"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-11.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-11.jpg",
+      "sha256": "b27a6ca885506dd046fdf2ff34bb5470d9fec6e0d3a84cd89afb3c864c30cc86"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-12.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-12.jpg",
+      "sha256": "7c1fbf14c022b51a474b32177bda0a05eec51017b6d87fdeea968be1e9e7dde3"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\style-review-2026-10-03\\scroll-13.jpg",
+      "preserved": "research-evidence/style-review-2026-10-03/scroll-13.jpg",
+      "sha256": "e71ceba32b801135239ea38eac231d5f0124d960afc2ed0fa94e95d3a3f1b386"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\thefork-es.json",
+      "preserved": "research-evidence/thefork-es.json",
+      "sha256": "5aae391537ea08729253c17f145b225525744a4926ca1828faf033b5a8853450"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\update-design-team-protocol-2026-10-02.py",
+      "preserved": "research-evidence/update-design-team-protocol-2026-10-02.py",
+      "sha256": "8cc880c1d0c609d730df532f2fac4c4b39bd0a706bd708c6105688d3ec1732a7"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\update-diner-scope-tracking.ps1",
+      "preserved": "research-evidence/update-diner-scope-tracking.ps1",
+      "sha256": "032c1d32a5aa332eb27e2db5d0bac24f4b0dd4b402933497eacb291c3f89305f"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\update-m0-closeout-tracking.ps1",
+      "preserved": "research-evidence/update-m0-closeout-tracking.ps1",
+      "sha256": "5cc823147c10e2d41d9db65a07b48c7caccc0ab615d7c0340ad57d896666c361"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\verify-diner-scope.ps1",
+      "preserved": "research-evidence/verify-diner-scope.ps1",
+      "sha256": "3f32280e9dbaa36dac1f2bd6b4443fe6f88b0c6777283a4a341f258f8bbf8542"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\verify-operational-handover.cjs",
+      "preserved": "research-evidence/verify-operational-handover.cjs",
+      "sha256": "fc7166d97bf9d6ea465c027dc0dbfc771307362fbe241a8a7cf33e1af10f5f81"
+    },
+    {
+      "source": "D:\\the next level\\research-evidence\\verify-pr-documentation.ps1",
+      "preserved": "research-evidence/verify-pr-documentation.ps1",
+      "sha256": "543e32758a2d4f9b4017e64a3b756e525cc313b0f7f0e8e0aad7028a0eab5485"
+    },
+    {
+      "source": "D:\\the next level\\verify-m0-discovery.mjs",
+      "preserved": "coordination/history/workspace-source-2026-10-03/verify-m0-discovery.mjs",
+      "sha256": "f56bc462d2b24970c990a1c10dcaff8dea3b02bdeee9ab88396fb61d95793ac0"
+    }
+  ],
+  "legacy_routes": [
+    "D:\\the next level\\AGENTS.md",
+    "D:\\the next level\\HANDOFF.md",
+    "D:\\the next level\\coordination\\valiris-restaurants\\README.md",
+    "D:\\the next level\\research-evidence\\README.md"
+  ],
+  "notes": "Only route files remain as legacy entry points. Browser runtime data, user input attachments/generated tool caches and unrelated personal PDF remain untouched. Shared product checkout was not switched or edited. Main integration and loading the new instructions in already-open chats are not claimed."
+}

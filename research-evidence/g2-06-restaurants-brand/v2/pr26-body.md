@@ -1,0 +1,16 @@
+The founder rejected v1 because its restrained geometric identity lacked life and a gastronomic connection. This revision recommends **A / Carácter a la mesa**, a vivid kitchen family of plate, pear, aubergine and cup with shared anatomy, alongside **B / Sala viva**, a distinct social-hospitality alternative. The founder's positive work-in-progress feedback and kitchen-character idea informed A; final identity and public hierarchy remain unapproved.
+
+**Founder clarification: this is a general direction idea, not definitive branding.** The founder considers the idea good and the direction clear; the current colors are imperfect and many details will be refined. Plate, pear, aubergine and cup are four examples. The repertoire is freely open to any food, cooking or restaurant-related subject with shared visual character, without a fixed cast or numerical limit. Palette, lettering, anatomy, compositions and final resources remain exploratory. Figma and local exports explicitly carry this boundary.
+
+Eight native Figma sheets and versioned PNG exports make the decision reviewable: five-reference analysis, both routes, silhouettes/acting, original lettering/color/type, expressive and quiet identity fragments with identical offer facts, a conceptual 3D scene/storyboard, and architecture/long-name/language/photo-scarcity/ORILLA contrasts. Original lettering SVGs, generated concept art, prompts, reference review derivatives, font notices, provenance and a Spanish specialist return accompany the guide. V1 remains available as rejected history.
+
+Recommend restaurant-led endorsement with the exact “Powered by Valiris Restaurants” attribution. Retain two or three curated base models plus genuinely bespoke design, with autonomous restaurant content maintenance in both. No shared source, product implementation, configuration, commercial website or original ORILLA application changes.
+
+Validation: author inspected all eight exports; native audit covers 129 text nodes with minimum 4.72:1 contrast and no immediate-parent overflow, and 12 populated content-image nodes. The repository verifier checks hashes/dimensions, frozen sources and ORILLA, v1 preservation, local links, equal factual text, approval boundaries and owned-path scope. These are bounded author checks, not full accessibility, interaction, user research, localisation or independent review. Software implementation tests are not applicable.
+
+Stacked on **#25** at agreed baseline `27861fd94dafd51889e2f223000320d66fd39dae`; #25 depends on #24/#23 and the shared #21 product decision. #22 remains the scoped ORILLA source. Review dependencies before this draft; G1 controls integration/retargeting. Related **#15** and **#5**, without closure. Founder selection, G6 offer truthfulness, G2.04 copy/SEO/GEO, G2.05 localisation, G2.08 production, G2.07/G2.03 applications, G2.09 motion and G4 independent application review remain checkpoints.
+
+- Guide: `docs/design/valiris-restaurants-brand-direction.md`
+- Evidence and local assets: `research-evidence/g2-06-restaurants-brand/v2/README.md`
+- Reproducible check: `python research-evidence/g2-06-restaurants-brand/v2/verify.py`
+- Figma: https://www.figma.com/design/uJSv4mj3oi9Br8Za9WuZAz?node-id=20-2

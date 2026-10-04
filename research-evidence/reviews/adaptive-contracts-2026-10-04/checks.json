@@ -1,0 +1,24 @@
+{
+  "observed_date": "2026-10-04",
+  "baseline": "432dce72e9d4b7fbc603cd4dc4afeca189225331",
+  "storage_checker": {
+    "date": "2026-10-03",
+    "preserved_original_files": 475,
+    "inventory_records": 487,
+    "operating_files_checked": 85,
+    "local_link_targets_checked": 2375,
+    "failures": [],
+    "secret_pattern_file_count": 0,
+    "protected_source_changes": [],
+    "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+  },
+  "protected_source_changes": [],
+  "manual_contract_review": {
+    "editor_output_ownership": "Distinct architecture/copy/SEO/UI/interaction/resource sources; comments refer to versions instead of overwriting another editor.",
+    "entry_and_dependencies": "Architecture and copy/SEO start together; UI/interaction can use identified preliminary versions; situated needs drive resource production.",
+    "adaptive_method": "Desktop composition first, deliberate phone adaptation afterwards; task/state/content parity and feedback to desktop before final acceptance.",
+    "approval_boundary": "Prepared only; final branding/ORILLA replacement and application approval not inferred.",
+    "decision_check": "No new general owner decision blocks preparation on the selected fictional Mediterranean example; tool/material/font availability remain explicit execution checkpoints."
+  },
+  "limits": "Document/inventory preservation and local target checks, plus manual contract coherence review. No new UX, software, independent G4, live SEO/remote URL or resource-licence validation."
+}

@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "edition": "2026-10-03 / v1.0",
+  "assignment": "G2.06 — identity of the Valiris Restaurants line",
+  "status": "Historical v1 rejected by founder; recommendation withdrawn; see v2/manifest.json for active proposal",
+  "recommendation": {
+    "direction": "A / Hacer sitio",
+    "hierarchy": "R1 / restaurant-led endorsement",
+    "character": "Selective, detachable; absence permitted",
+    "approvalOwner": "Founder selection; G1 coordination; G4 independent application review pending"
+  },
+  "git": {
+    "branch": "docs/m1-g2-06-restaurants-brand",
+    "baseline": "27861fd94dafd51889e2f223000320d66fd39dae",
+    "basePullRequest": "https://github.com/yaboula/valiris-restaurants/pull/25",
+    "ownedPaths": [
+      "docs/design/valiris-restaurants-brand-direction.md",
+      "research-evidence/g2-06-restaurants-brand/"
+    ],
+    "publicationRecord": "publication.json"
+  },
+  "figma": {
+    "fileKey": "uJSv4mj3oi9Br8Za9WuZAz",
+    "url": "https://www.figma.com/design/uJSv4mj3oi9Br8Za9WuZAz",
+    "team": "Valiris",
+    "teamChosenBy": "Founder reply in this task",
+    "page": "0:1",
+    "sheets": [
+      {
+        "nodeId": "2:2",
+        "title": "01 · A · HACER SITIO",
+        "assetStem": "01-a-hacer-sitio",
+        "dimensions": [
+          1440,
+          1216
+        ]
+      },
+      {
+        "nodeId": "2:46",
+        "title": "02 · B · SOBREMESA TIPOGRÁFICA",
+        "assetStem": "02-b-sobremesa",
+        "dimensions": [
+          1440,
+          1216
+        ]
+      },
+      {
+        "nodeId": "2:89",
+        "title": "03 · C · COMPÁS DE SALA",
+        "assetStem": "03-c-compas",
+        "dimensions": [
+          1440,
+          1190
+        ]
+      },
+      {
+        "nodeId": "4:2",
+        "title": "04 · Brand hierarchy",
+        "assetStem": "04-hierarchy",
+        "dimensions": [
+          1440,
+          1133
+        ]
+      },
+      {
+        "nodeId": "4:39",
+        "title": "05 · Bounded stress specimens",
+        "assetStem": "05-contrasts",
+        "dimensions": [
+          1440,
+          1242
+        ]
+      },
+      {
+        "nodeId": "4:85",
+        "title": "06 · ORILLA coexistence comparison",
+        "assetStem": "06-orilla-coexistence",
+        "dimensions": [
+          1440,
+          1202
+        ]
+      },
+      {
+        "nodeId": "8:2",
+        "title": "07 · Base and bespoke identity",
+        "assetStem": "07-base-bespoke",
+        "dimensions": [
+          1440,
+          1199
+        ]
+      }
+    ],
+    "editableTextFonts": [
+      {
+        "family": "Source Sans 3",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      {
+        "family": "Bricolage Grotesque",
+        "style": "ExtraBold",
+        "variationSettings": {
+          "wght": 800,
+          "wdth": 100,
+          "opsz": 14
+        }
+      },
+      {
+        "family": "Source Sans 3",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      {
+        "family": "Fraunces",
+        "style": "Black",
+        "variationSettings": {
+          "wght": 900,
+          "WONK": 1,
+          "SOFT": 0
+        }
+      },
+      {
+        "family": "Space Grotesk",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      }
+    ],
+    "fontBinaryVersions": "Unavailable; no font binaries distributed.",
+    "export": "Seven PNG previews and outlined SVG boards; six editable concept SVGs.",
+    "construction": "Scripts retain native text/layout and vector concept creation. IDs are file-specific."
+  },
+  "orilla": {
+    "sourcePath": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+    "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+    "bytes": 1862288,
+    "dimensions": [
+      1422,
+      1106
+    ],
+    "version": "Original v0.2 / node 9:15",
+    "sourceGuideCommit": "4f97693bbdb207e910146be74330ea852d5b6861",
+    "use": "Unchanged raster in separate comparison; no original/application modification.",
+    "rightsStatus": "Prior generated conceptual image, fictional food; original evidence governs. No new rights clearance or real dish claim."
+  },
+  "resourceStates": [
+    {
+      "type": "Concept symbols and characters",
+      "source": "AI-assisted author vector construction in this assignment; geometric SVG primitives",
+      "rights": "Repository concept assets for evaluation. No third-party stock used; no exclusivity, trademark clearance or production rights grant asserted.",
+      "approval": "Not a final logo or character family; G2.08 production pending."
+    },
+    {
+      "type": "Board lettering and facts",
+      "source": "Native Figma type using inspected available families; outlined exports",
+      "rights": "Font source notices retained separately; exact installed binary versions unknown.",
+      "approval": "Typeset concepts, no final lettering/UI type scale."
+    },
+    {
+      "type": "Factual specimens",
+      "source": "Existing fictional C1/C2/C3 fixtures at baseline",
+      "rights": "Project source; no real venue, current menu or food-safety assertions.",
+      "approval": "Excerpt only. Sheet 07 combines new fictional venue name with C1 facts. C3 remains historical 1 October."
+    },
+    {
+      "type": "New food images, stock and client assets",
+      "source": "None",
+      "rights": "Not acquired, generated or distributed",
+      "approval": "Absent"
+    }
+  ],
+  "fontSources": {
+    "googleFontsCommit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "consultedOn": "2026-10-03",
+    "license": "Four retained source notices state SIL Open Font License 1.1. Notices apply to source distributions; actual production binaries must be identified.",
+    "binaryDistribution": false,
+    "projects": [
+      {
+        "family": "Bricolage Grotesque",
+        "project": "https://github.com/ateliertriay/bricolage",
+        "licensePrimaryUrl": "https://github.com/google/fonts/blob/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/bricolagegrotesque/OFL.txt",
+        "retainedNotice": "research-evidence/g2-06-restaurants-brand/sources/bricolage-grotesque-OFL.txt"
+      },
+      {
+        "family": "Fraunces",
+        "project": "https://github.com/undercasetype/Fraunces",
+        "licensePrimaryUrl": "https://github.com/google/fonts/blob/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/fraunces/OFL.txt",
+        "retainedNotice": "research-evidence/g2-06-restaurants-brand/sources/fraunces-OFL.txt"
+      },
+      {
+        "family": "Space Grotesk",
+        "project": "https://github.com/floriankarsten/space-grotesk",
+        "licensePrimaryUrl": "https://github.com/google/fonts/blob/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/spacegrotesk/OFL.txt",
+        "retainedNotice": "research-evidence/g2-06-restaurants-brand/sources/space-grotesk-OFL.txt"
+      },
+      {
+        "family": "Source Sans 3",
+        "project": "https://github.com/adobe-fonts/source-sans",
+        "licensePrimaryUrl": "https://github.com/google/fonts/blob/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/sourcesans3/OFL.txt",
+        "retainedNotice": "research-evidence/g2-06-restaurants-brand/sources/source-sans-3-OFL.txt"
+      }
+    ]
+  },
+  "externalReferences": [
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "use": "Contrast calculation and limited text criterion"
+    },
+    {
+      "url": "https://fiasco.design/work/plant-based-brand-eat-curious/",
+      "use": "Previously identified sensitivity reference; no visual asset copied, no new benchmark"
+    },
+    {
+      "url": "https://raggededge.com/partnerships/marshmallow",
+      "use": "Previously identified character sensitivity reference; no visual asset copied"
+    }
+  ],
+  "pending": [
+    "Founder direction/hierarchy/character/local freedom selection",
+    "G1 review of scope/facts/maintenance; shared-source integration",
+    "G6 positioning and offer truthfulness",
+    "G2.04 plus SEO/GEO same-copy-version review",
+    "G2.05 actual locales and RTL",
+    "G2.08 production resources and rights",
+    "G2.07/G2.03 identified applications and behaviour",
+    "G4 independent application review"
+  ],
+  "assets": [
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/assets/a-character-concept.svg",
+      "kind": "concept-vector",
+      "bytes": 608,
+      "sha256": "aa3807115ef5df2c75e23b6c21f61adb6176d3245fb999cbc55c4c9e9b9a6c15",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 608,
+      "lfSha256": "aa3807115ef5df2c75e23b6c21f61adb6176d3245fb999cbc55c4c9e9b9a6c15",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/assets/a-symbol-concept.svg",
+      "kind": "concept-vector",
+      "bytes": 154,
+      "sha256": "63a7900879f5912768e48822bdc3733c2c823680cd763bb7006a893eca4ec786",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 154,
+      "lfSha256": "63a7900879f5912768e48822bdc3733c2c823680cd763bb7006a893eca4ec786",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/assets/b-character-concept.svg",
+      "kind": "concept-vector",
+      "bytes": 692,
+      "sha256": "fdc768e762e15a08643be27bff7f5504f04e4dd54e91588679f782fecdf3b37e",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 692,
+      "lfSha256": "fdc768e762e15a08643be27bff7f5504f04e4dd54e91588679f782fecdf3b37e",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/assets/b-symbol-concept.svg",
+      "kind": "concept-vector",
+      "bytes": 292,
+      "sha256": "65ff4f057686317f529fb33e5a2b37b7fdc16750080d469fc2fc015d26ec9cd7",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 292,
+      "lfSha256": "65ff4f057686317f529fb33e5a2b37b7fdc16750080d469fc2fc015d26ec9cd7",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/assets/c-character-concept.svg",
+      "kind": "concept-vector",
+      "bytes": 663,
+      "sha256": "7bd35c94bcf89e04d7e0ef05ca1c35a14d5815cb2fdc4f1ab75569de95b437f1",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 663,
+      "lfSha256": "7bd35c94bcf89e04d7e0ef05ca1c35a14d5815cb2fdc4f1ab75569de95b437f1",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/assets/c-symbol-concept.svg",
+      "kind": "concept-vector",
+      "bytes": 193,
+      "sha256": "bda801e8a1ad6bbf5ede3155c1847d01ae1800127a4a30b2974652b266f0a93c",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 193,
+      "lfSha256": "bda801e8a1ad6bbf5ede3155c1847d01ae1800127a4a30b2974652b266f0a93c",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/01-a-hacer-sitio.png",
+      "kind": "board",
+      "bytes": 120452,
+      "sha256": "f789fadd0313a16d352a55691d56f6930d4441f75e04b2f08d9d9cf62011139f",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "2:2",
+      "dimensions": [
+        1440,
+        1216
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/01-a-hacer-sitio.svg",
+      "kind": "board",
+      "bytes": 507032,
+      "sha256": "423f611cea97be2694a356ece08cc0d322ba193e172a3226f41d13917edf0640",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 507032,
+      "lfSha256": "423f611cea97be2694a356ece08cc0d322ba193e172a3226f41d13917edf0640",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "2:2",
+      "dimensions": [
+        1440,
+        1216
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/02-b-sobremesa.png",
+      "kind": "board",
+      "bytes": 122281,
+      "sha256": "f098d6ab544f3dfb7424853fcb9dcbf4ce2d5327aefea52fc50b0e56c4734bb7",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "2:46",
+      "dimensions": [
+        1440,
+        1216
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/02-b-sobremesa.svg",
+      "kind": "board",
+      "bytes": 544145,
+      "sha256": "89216d091398c74716d3395b03a3f8157df5d8ce474003ecb26cbc17a5b6e9c5",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 544145,
+      "lfSha256": "89216d091398c74716d3395b03a3f8157df5d8ce474003ecb26cbc17a5b6e9c5",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "2:46",
+      "dimensions": [
+        1440,
+        1216
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/03-c-compas.png",
+      "kind": "board",
+      "bytes": 110028,
+      "sha256": "4651805f6cf4f34e61762af0b14e96fd28932bc3a13cf94356dda0342b874578",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "2:89",
+      "dimensions": [
+        1440,
+        1190
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/03-c-compas.svg",
+      "kind": "board",
+      "bytes": 477336,
+      "sha256": "7a1447a063edd020f531330a96852ed53d179a08fe3e06948357ff311e0807e4",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 477336,
+      "lfSha256": "7a1447a063edd020f531330a96852ed53d179a08fe3e06948357ff311e0807e4",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "2:89",
+      "dimensions": [
+        1440,
+        1190
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/04-hierarchy.png",
+      "kind": "board",
+      "bytes": 175570,
+      "sha256": "28f549f8954ea50ac5ddc51ee31d9c87c4eb92b117e162365a7eb39aad247a6c",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "4:2",
+      "dimensions": [
+        1440,
+        1133
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/04-hierarchy.svg",
+      "kind": "board",
+      "bytes": 978511,
+      "sha256": "db7d4bed6cdd8365810afb6a91ed36a3840ea55e0227ffd845acf1c7441677c6",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 978511,
+      "lfSha256": "db7d4bed6cdd8365810afb6a91ed36a3840ea55e0227ffd845acf1c7441677c6",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "4:2",
+      "dimensions": [
+        1440,
+        1133
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/05-contrasts.png",
+      "kind": "board",
+      "bytes": 189353,
+      "sha256": "32d91db957ada1687c549c97bacac0dd5fbddf4049fb82df398f0d537fe8ae94",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "4:39",
+      "dimensions": [
+        1440,
+        1242
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/05-contrasts.svg",
+      "kind": "board",
+      "bytes": 1076050,
+      "sha256": "5d5a69b360123c830d3f68f9ca6168e7bbbb08295a4b363e32fd89f9ad6a356b",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 1076050,
+      "lfSha256": "5d5a69b360123c830d3f68f9ca6168e7bbbb08295a4b363e32fd89f9ad6a356b",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "4:39",
+      "dimensions": [
+        1440,
+        1242
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/06-orilla-coexistence.png",
+      "kind": "board",
+      "bytes": 935170,
+      "sha256": "ff68a147264f0de68998d2aad60802092d4eb409b8ff52b58c274a6fb4303629",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "4:85",
+      "dimensions": [
+        1440,
+        1202
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/06-orilla-coexistence.svg",
+      "kind": "board",
+      "bytes": 3072764,
+      "sha256": "55efd753819f98f285899f6aebfb430e8869012119e9745dcef9129d8344364c",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 3072764,
+      "lfSha256": "55efd753819f98f285899f6aebfb430e8869012119e9745dcef9129d8344364c",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "4:85",
+      "dimensions": [
+        1440,
+        1202
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/07-base-bespoke.png",
+      "kind": "board",
+      "bytes": 169573,
+      "sha256": "80bd5082f3b5d59dd3122b1d83c9c5bc8c0ca293774fc9c5701fe73dfef301e2",
+      "state": "Proposal/evaluation only; no production approval",
+      "figmaNode": "8:2",
+      "dimensions": [
+        1440,
+        1199
+      ],
+      "textOutlined": false
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/boards/07-base-bespoke.svg",
+      "kind": "board",
+      "bytes": 871616,
+      "sha256": "8dd89fb33f7d18f6a7d26c5cf62629463124ca56ce058128e9935b8e0ae2df2e",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 871616,
+      "lfSha256": "8dd89fb33f7d18f6a7d26c5cf62629463124ca56ce058128e9935b8e0ae2df2e",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings.",
+      "figmaNode": "8:2",
+      "dimensions": [
+        1440,
+        1199
+      ],
+      "textOutlined": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/figma-base-bespoke.js",
+      "kind": "construction-evidence",
+      "bytes": 7056,
+      "sha256": "71752aaa671a6a6429578de3934a4751d783087c886f1be8a8461fffa30e8795",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 7056,
+      "lfSha256": "71752aaa671a6a6429578de3934a4751d783087c886f1be8a8461fffa30e8795",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/figma-corrections.js",
+      "kind": "construction-evidence",
+      "bytes": 1551,
+      "sha256": "1da202987075332bb80984518968f3aa3a1937e93f45ce84a930a67b5900d757",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 1551,
+      "lfSha256": "1da202987075332bb80984518968f3aa3a1937e93f45ce84a930a67b5900d757",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/figma-directions.js",
+      "kind": "construction-evidence",
+      "bytes": 8694,
+      "sha256": "017b59beb7992b31edabf183c395df257adce48049165580d19fff4f6d503666",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 8694,
+      "lfSha256": "017b59beb7992b31edabf183c395df257adce48049165580d19fff4f6d503666",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/figma-specimens.js",
+      "kind": "construction-evidence",
+      "bytes": 13126,
+      "sha256": "001df5a9261cb829a7f8b81fe808f3633f0064df6dc5ac26519c5f98df33a5da",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 13126,
+      "lfSha256": "001df5a9261cb829a7f8b81fe808f3633f0064df6dc5ac26519c5f98df33a5da",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/figma-validation.json",
+      "kind": "construction-evidence",
+      "bytes": 5776,
+      "sha256": "6f9366d6ea9dc8da3b7dd8476c25394bdebf4fec2611fad9d94749414a9cf364",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 5776,
+      "lfSha256": "6f9366d6ea9dc8da3b7dd8476c25394bdebf4fec2611fad9d94749414a9cf364",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/sources/bricolage-grotesque-OFL.txt",
+      "kind": "font-license",
+      "bytes": 4403,
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 4403,
+      "lfSha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/sources/fraunces-OFL.txt",
+      "kind": "font-license",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 4391,
+      "lfSha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/sources/source-sans-3-OFL.txt",
+      "kind": "font-license",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 4486,
+      "lfSha256": "ed86f375d70bd39238d13b2ba5bd3bed20b3fe4847fa1356a63f380d2b26a8a5",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/sources/space-grotesk-OFL.txt",
+      "kind": "font-license",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 4402,
+      "lfSha256": "c6dec685825f73b18c20926fddc65e8315642e12986f15db0699170940a09efc",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/verify.py",
+      "kind": "construction-evidence",
+      "bytes": 8514,
+      "sha256": "bb58e4a2c447600fd2dfdd950ea2f48dabc52e952f2dff078a749636e1b27425",
+      "state": "Proposal/evaluation only; no production approval",
+      "lfBytes": 8514,
+      "lfSha256": "bb58e4a2c447600fd2dfdd950ea2f48dabc52e952f2dff078a749636e1b27425",
+      "newlinePolicy": "Exact local/export bytes recorded above; LF-equivalent text hash also retained because Git may convert text line endings."
+    }
+  ],
+  "repositorySources": [
+    {
+      "path": "AGENTS.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "bytes": 16927,
+      "sha256": "419d5210ae5e303ab91e4ad0a3435295fa01fd48043d1d37dadf81bf95eb0126"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "bytes": 5369,
+      "sha256": "4924af46b2caff26e232c74202924b0422a1de20478e6c3835d774603f5bef8f"
+    },
+    {
+      "path": "HANDOFF.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "53010c027db7c15b55ff560af63323acfb245be4",
+      "bytes": 122121,
+      "sha256": "d9b0398ee7760436f49fa42e83a84ec1fefa94b0aafd80b49836a0ae9da82fac"
+    },
+    {
+      "path": "coordination/README.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "c8f66582811e8af7129b17fb37cdfadbacba6ae1",
+      "bytes": 5207,
+      "sha256": "ddc023362d368f0a424212bc6dd302a3025152cf7cf998112f95be68cd4373e7"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "883fbe11aaf82ec7c8558c588146b998e1f53088",
+      "bytes": 16706,
+      "sha256": "704d24ef30b60daf3da1e2d5fc0f7e08bc20d99d2e66f491b52803afc7da921f"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Organizacion_Protocolo_Agentes.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "6189d8cdb8173f6f13ab595e8e03a90c5ddb0819",
+      "bytes": 38771,
+      "sha256": "cbca9145ae6bec2c65f699f1b137c520c2c17b72ecbeae5810557177873f26d3"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_G2_Brief_Arranque_Diseno.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "cbe92eb2c52b6bee8498e0b419dea9b212becba4",
+      "bytes": 11819,
+      "sha256": "c5118637e0f2eb15c3151be70c61a8b423f6b8adb57a5ff03f75f817d6a0d0f0"
+    },
+    {
+      "path": "coordination/valiris-restaurants/G2_06_Branding_Valiris_Restaurants_Prompt.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "a7daab0f5323c69c2b312aa5135f21d31835924a",
+      "bytes": 8568,
+      "sha256": "8294e843f454db0759eed49c9422f6a13076e4f0b72d2a89e7db5c1c07eefd75"
+    },
+    {
+      "path": "docs/project/roadmap.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "c60d358e791fba60f1337f99ae4d24565c22fe9c",
+      "bytes": 28942,
+      "sha256": "f23e89087287b0f2cbca779b310f260a183953120dd4b9f59bf861c6cc43bda8"
+    },
+    {
+      "path": "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "bytes": 36890,
+      "sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    {
+      "path": "docs/project/valiris-restaurants-brand-foundation-brief.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "4affd72dd2e80910091189beb4efa6f5fc01671d",
+      "bytes": 9132,
+      "sha256": "766f07d78b20f10425dff57d63e11c02f47e22eca66cbd72c09ff4115d6c0f76"
+    },
+    {
+      "path": "docs/adr/0002-studio-brand-valiris.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "dce271ca2013b99abacfdaa77795ee752389136a",
+      "bytes": 3353,
+      "sha256": "fb118f8916909424245e4bc49705c74fdbc237db29dd3024ec787847900c971f"
+    },
+    {
+      "path": "docs/adr/0003-product-name.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "51836d2a3b9970e033415349f8a0500c49e0998e",
+      "bytes": 2361,
+      "sha256": "16763b7800e9fb60e58834e84e40eeddd6e3c30359c3ea38c1bbe2eec7c1bd6a"
+    },
+    {
+      "path": "docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "62ae654d20c7c91cfea0561555ef2bbabf4d301f",
+      "bytes": 4671,
+      "sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    },
+    {
+      "path": "docs/design/m1-storefront-visual-direction.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "33494148c76ce0a418af62108cfc167d1df0a671",
+      "bytes": 7201,
+      "sha256": "300356abfea83fae12423c351926575e3c500e5a6ed288e1d8c637b85fb858b2"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-direction-4f97693/g1-review.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "70ebf6afdfefab41436bf2185cb32b5f91b3b593",
+      "bytes": 6709,
+      "sha256": "15b62e8609b2a382e5ddef7be5dcacef4dfadcff11e6884fc3edfc9c027ffc48"
+    },
+    {
+      "path": "docs/design/m1-connected-journey.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "bytes": 139448,
+      "sha256": "d977d26db2a2f094e448eaa197f1857f405f377edac49daffe211de2544be835"
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "6aa0f221b2842472ee2146fbd23d0df0c86cb5f6",
+      "bytes": 1862288,
+      "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989"
+    },
+    {
+      "path": "docs/design/m1-storefront-visual-direction.md",
+      "commit": "4f97693bbdb207e910146be74330ea852d5b6861",
+      "gitBlob": "332495565f016feeb3ec984a02120197060db533",
+      "bytes": 13350,
+      "sha256": "82f01230bc802bc4fe6a44fdf084b1658abeb7eb40084cfc27d834a174283141"
+    }
+  ],
+  "supersededBy": "v2/manifest.json"
+}

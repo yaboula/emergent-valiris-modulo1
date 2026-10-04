@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-02",
+  "baseline": "120903f138a798e957b26498f2a3efb5d5e6521a",
+  "head": "120903f138a798e957b26498f2a3efb5d5e6521a",
+  "pr": {
+    "headRefOid": "120903f138a798e957b26498f2a3efb5d5e6521a",
+    "isDraft": true,
+    "state": "OPEN",
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/21"
+  },
+  "issues": [
+    {
+      "number": 5,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/5"
+    },
+    {
+      "number": 4,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/4"
+    }
+  ],
+  "repo_clean": true,
+  "source_snapshot_and_checkout_match": true,
+  "jt_sha256": "66903175d2a9b370369bbb45fa77f77ef892bc5659a03ced62b63132bc04fb22",
+  "report_local_links": 22,
+  "handoff_current_state_and_new_links_checked": true,
+  "next": "J6-J7 after G2 immutable delivery; not claimed delivered/reviewed",
+  "scope": "Documentary G1/G4 result only; no software/UX/real-use validation or repo/tracker mutation"
+}

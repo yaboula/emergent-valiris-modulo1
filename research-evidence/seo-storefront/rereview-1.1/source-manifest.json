@@ -1,0 +1,215 @@
+{
+  "checked_on": "2026-10-04",
+  "baseline": "56306793d54bb8df74305134ec6284c6d647eebf",
+  "base_branch": "docs/m1-g1-orilla-joint-handoff",
+  "base_pr": 41,
+  "branch": "docs/m1-seo-orilla-1-1-review",
+  "original_review_sha": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+  "content_pair_sha": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+  "architecture_sha": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+  "architecture_consumed_pair_sha": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+  "frozen_sources": [
+    {
+      "path": "docs/design/orilla-case.md",
+      "reviewed_sha": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "blob": "ad0f42fc461396e1d28191c667b077c060195a38",
+      "verified_at": {
+        "4b382bebe5d5c6cad21a7edcaffab053c433a0e9": "ad0f42fc461396e1d28191c667b077c060195a38",
+        "56306793d54bb8df74305134ec6284c6d647eebf": "ad0f42fc461396e1d28191c667b077c060195a38",
+        "HEAD": "ad0f42fc461396e1d28191c667b077c060195a38",
+        "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4": "ad0f42fc461396e1d28191c667b077c060195a38"
+      }
+    },
+    {
+      "path": "docs/design/m1-storefront-content-and-copy.md",
+      "reviewed_sha": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "blob": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+      "verified_at": {
+        "4b382bebe5d5c6cad21a7edcaffab053c433a0e9": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+        "56306793d54bb8df74305134ec6284c6d647eebf": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+        "HEAD": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+        "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4": "d570c699455169c4d27c2fe8fc384250ce47fbd7"
+      }
+    },
+    {
+      "path": "docs/design/m1-storefront-information-architecture.md",
+      "reviewed_sha": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+      "blob": "297d25f2869970b268bc1e8671bd0cbe74c477fd",
+      "verified_at": {
+        "ba44c6809516d8d078d192f5f6a423b12cd8b673": "297d25f2869970b268bc1e8671bd0cbe74c477fd",
+        "56306793d54bb8df74305134ec6284c6d647eebf": "297d25f2869970b268bc1e8671bd0cbe74c477fd",
+        "HEAD": "297d25f2869970b268bc1e8671bd0cbe74c477fd"
+      }
+    }
+  ],
+  "historical_evidence_blobs": {
+    "research-evidence/seo-storefront/checks.json": "ff170aaa26dfed84e0933470a4836277793e1507",
+    "research-evidence/seo-storefront/delivery.md": "379dec72361f0c1989d314a8a15601da22e8c6bf",
+    "research-evidence/seo-storefront/documentary-contrasts.md": "1ad6da0300cb07049b02432ed2f702ea41c3c979",
+    "research-evidence/seo-storefront/primary-sources.md": "2eef89f06759477dc64372efaa5fb9b9a5b3ca24",
+    "research-evidence/seo-storefront/source-manifest.json": "911699348914ec054e3d0acc5718fa78766b966a",
+    "research-evidence/seo-storefront/verify.py": "26d4a8912fd9ebb5e2d2f6b3d9aad70792f85efd"
+  },
+  "original_review_blob": "57345211d68b3d67be7bfe5ff726ba718b041e78",
+  "read_records": {
+    "HANDOFF.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "5081b83661aa55605dd82329016e87c832f541c1",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "coordination/README.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "40600bf49820f1105da9b16c7fc834bfd429293a",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "coordination/valiris-restaurants/SEO_Estrategia_Contenido_Prompt.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "f85f237fc42926bf3ea815eebdabd957ef63b3d4",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/reviews/orilla-joint-4b382be-ba44c68/g1-review.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "e354520c967d86a5f36ea7da483fb385bc0d7587",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/g2-04-storefront/seo-consolidation-1.1/resolutions.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "48681a142ed173cc9bd24aa659785efafca688ba",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/g2-04-storefront/seo-consolidation-1.1/author-review.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "d5696550a7360c5759fcdeaee1c51a56fb58a77b",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/g2-04-storefront/seo-consolidation-1.1/delivery.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "7eed2dd62c34c7d49b934f5d3389aaba5eaa36de",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/g2-02-storefront/adoption.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "fbae01650debe3967dd97e3f1bc4e31d21e74b3c",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/g2-02-storefront/content-requests.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "d4b4d8ae6017fffc80066949b18211d7677c35b3",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    },
+    "research-evidence/g2-02-storefront/content-adoption-contrasts.md": {
+      "sha": "56306793d54bb8df74305134ec6284c6d647eebf",
+      "blob": "d6fd2cf0fd72cef32d1edbf0c0dd44696ad689f8",
+      "scope": "Current operating changes or complete received resolution/return; affected IA destination/relations sections."
+    }
+  },
+  "reused_common_readings": {
+    "AGENTS.md": {
+      "original_blob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "baseline_blob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "read_scope_reused": "Full common instructions; own-checkout authority."
+    },
+    "CONTRIBUTING.md": {
+      "original_blob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "baseline_blob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "read_scope_reused": "Full workflow; stacked dependency and author rules."
+    },
+    "coordination/valiris-restaurants/Valiris_G2_Brief_Arranque_Diseno.md": {
+      "original_blob": "05402afe09bbc3f5cdf00c6665d5314267703c69",
+      "baseline_blob": "05402afe09bbc3f5cdf00c6665d5314267703c69",
+      "read_scope_reused": "Common current brief and adaptive/content decisions."
+    },
+    "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md": {
+      "original_blob": "0c3dfdeac265839f5f69a0d5e753b6f1360fbacd",
+      "baseline_blob": "0c3dfdeac265839f5f69a0d5e753b6f1360fbacd",
+      "read_scope_reused": "Full shared context."
+    },
+    "coordination/valiris-restaurants/Valiris_Organizacion_Protocolo_Agentes.md": {
+      "original_blob": "3a39e3220af52ad6925db9f7b4546cc0b8a58e11",
+      "baseline_blob": "3a39e3220af52ad6925db9f7b4546cc0b8a58e11",
+      "read_scope_reused": "Shared protocol and responsibilities; current later decisions override historical preparation."
+    },
+    "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md": {
+      "original_blob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "baseline_blob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "read_scope_reused": "Full functional definition; later launch decisions preserved."
+    },
+    "docs/project/roadmap.md": {
+      "original_blob": "dbc14d853286634a69d8dc6abde9c37ce6897be8",
+      "baseline_blob": "dbc14d853286634a69d8dc6abde9c37ce6897be8",
+      "read_scope_reused": "Full roadmap; M1 design versus M2 preparation and later implementation."
+    },
+    "docs/product/m1-design-briefs.md": {
+      "original_blob": "7ed2d854cf5f8e9ff97587fbf23d837b98cfd36f",
+      "baseline_blob": "7ed2d854cf5f8e9ff97587fbf23d837b98cfd36f",
+      "read_scope_reused": "Both M1 briefs; accepted capabilities and factual/public/private/language criteria."
+    },
+    "docs/adr/0005-repository-and-product-language.md": {
+      "original_blob": "ab739d3c33159bdfc8f55ce20231fddce845106e",
+      "baseline_blob": "ab739d3c33159bdfc8f55ce20231fddce845106e",
+      "read_scope_reused": "Full language ADR; English repository documents, Spanish-first UI, guest-language and RTL preparation obligations preserved."
+    },
+    "docs/design/m1-public-presence-and-discovery.md": {
+      "original_blob": "4e84997d2240cc97d6fd82b53ca75aaf008f78ea",
+      "baseline_blob": "4e84997d2240cc97d6fd82b53ca75aaf008f78ea",
+      "read_scope_reused": "Public structure, PV-P tasks, walkthroughs and contrasts; applicable operator-maintenance links."
+    },
+    "docs/design/m1-connected-journey.md": {
+      "original_blob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "baseline_blob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "read_scope_reused": "Applicable shared public C1-C3 rules, direct/menu/detail entries and public change/recovery contrasts; operator history not re-audited."
+    },
+    "docs/design/m1-coverage-and-evidence.md": {
+      "original_blob": "4e10dab5c6bc4be3d7f5bae19d05dcb1939b28bc",
+      "baseline_blob": "4e10dab5c6bc4be3d7f5bae19d05dcb1939b28bc",
+      "read_scope_reused": "Coverage purpose, CG01-CG12 gaps and next-assignment checkpoints; no repeated audit of all capability rows."
+    },
+    "docs/project/valiris-restaurants-brand-foundation-brief.md": {
+      "original_blob": "76b70ef50d98e6fab563019cfba704da9e0172cb",
+      "baseline_blob": "76b70ef50d98e6fab563019cfba704da9e0172cb",
+      "read_scope_reused": "Current scoped brand direction and ownership; no new visual selection."
+    },
+    "docs/design/valiris-restaurants-brand-refinement.md": {
+      "original_blob": "8412acb4497425ec2aa171a8d5ac9f3b0aaa230a",
+      "baseline_blob": "8412acb4497425ec2aa171a8d5ac9f3b0aaa230a",
+      "read_scope_reused": "Current selected direction and application constraints; no rendered visual audit."
+    },
+    "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md": {
+      "original_blob": "b9ee10a65366a09c3227b683730de7364ffea39e",
+      "baseline_blob": "b9ee10a65366a09c3227b683730de7364ffea39e",
+      "read_scope_reused": "Exact selected-reference record; existing image assets not re-audited."
+    }
+  },
+  "affected_copy_rows": {
+    "revised": [
+      "ORI-COPY-H02-07",
+      "ORI-COPY-M01-03",
+      "ORI-COPY-S10",
+      "ORI-COPY-S11",
+      "ORI-COPY-S14",
+      "ORI-COPY-S18"
+    ],
+    "added": [
+      "ORI-COPY-E01",
+      "ORI-COPY-E02",
+      "ORI-COPY-E03",
+      "ORI-COPY-H03-09",
+      "ORI-COPY-META-01",
+      "ORI-COPY-META-02",
+      "ORI-COPY-META-03",
+      "ORI-COPY-META-04",
+      "ORI-COPY-META-05",
+      "ORI-COPY-META-06",
+      "ORI-COPY-META-07"
+    ]
+  },
+  "later_parallel_return": {
+    "pr": 42,
+    "sha": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c",
+    "path": "research-evidence/g2-02-storefront/content-1-1-adoption.md",
+    "blob": "62004a97d854e803ad9ee38f2498a418f4f6cad9",
+    "read_scope": "Full adoption declaration; applied SEO findings remain frozen on IA v0.3."
+  },
+  "source_evidence_reuse": "Eight official primary pages retained byte-for-byte from #37; no new technical rule or external retrieval claimed.",
+  "limits": "Scoped documentary comparison on IA v0.3; later G2.02 v0.4 adoption declared separately. G1 consolidation and composition, behaviour, linguistic/technical and independent review remain pending."
+}

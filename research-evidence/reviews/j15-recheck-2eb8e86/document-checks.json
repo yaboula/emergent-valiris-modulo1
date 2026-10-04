@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-02",
+  "baseline": "2eb8e86831c4c00315078b5442e20fc5273150c9",
+  "source": "docs/design/m1-extended-journeys.md",
+  "snapshot_sha256": "bdf25f202f835f4569ffc18980c6d04128038dab5d2963d5cc0bfdb61cca3a0f",
+  "snapshot_matches_checkout": true,
+  "structural_checker_reused_from_G2": [
+    "PASS: 343 local/internal links in 14 docs; fragments/headings/fences/tables; 38 states with only J15-A06/P02/P03 changed; six LC contrasts; only Q17 and J15.3/J15.4 mappings refined.",
+    "PASS: other 63 prior V/Q/PC/DS and 26 SC rows, all E/W/XF rows, CP/J8-J9 state cards, source criteria/matrix/definition/ADR-0008-0012 unchanged from f2ba724. Independent recheck remains pending. Documentary check only."
+  ],
+  "protected_sources_unchanged_from_c4f219c": [
+    "docs/product/m0-capability-matrix.md",
+    "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+    "docs/adr/0008-first-launch-capability-commitment.md",
+    "docs/adr/0009-studio-design-and-registered-diner-personalisation.md"
+  ],
+  "diff_check_passed": true,
+  "state_count": 38,
+  "lc_count": 6,
+  "scope": "Document integrity only. Manual G1/G4 reasoning is recorded separately; no software or user validation.",
+  "final_readback": {
+    "report_local_links_valid": 11,
+    "repo_clean": true,
+    "pr_21": {
+      "headRefOid": "2eb8e86831c4c00315078b5442e20fc5273150c9",
+      "isDraft": true,
+      "state": "OPEN"
+    },
+    "issue_states": {
+      "5": "OPEN",
+      "4": "OPEN"
+    },
+    "handoff_current_result_present": true,
+    "independent_g4_result": "Resolved documentarily",
+    "g1_result": "Resolved documentarily"
+  }
+}

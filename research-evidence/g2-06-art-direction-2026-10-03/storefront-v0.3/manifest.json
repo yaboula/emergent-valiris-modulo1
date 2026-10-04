@@ -1,0 +1,86 @@
+{
+  "owner": "G2.06 - Identity and art direction",
+  "version": "0.3",
+  "date": "2026-10-03",
+  "timezone": "Europe/Madrid",
+  "state": "Selected Storefront direction recorded; mobile and no-photo applications proposed and self-inspected",
+  "selectedReference": {
+    "name": "Cartel abierto revisado",
+    "figmaNodeId": "9:15",
+    "file": "../storefront-v0.2/02-cartel-revisado-v0.2.png",
+    "decidedBy": "Yahya - founder",
+    "date": "2026-10-03",
+    "scope": "Creative direction for Storefront, not complete design or M1 approval"
+  },
+  "scope": "Storefront only; Digital Menu remains separate; no implementation",
+  "fictionalCase": "ORILLA",
+  "baseline": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+  "generator": "Built-in image_gen.imagegen",
+  "rasterUiIsEditable": false,
+  "nativeAnnotationsAreEditable": true,
+  "sourceRoot": "C:\\Users\\aboul\\.codex\\generated_images\\01a10111-e241-79a0-a7b1-791d4f900f02",
+  "prompts": "prompts.txt",
+  "assets": [
+    {
+      "name": "Mobile application - proposed",
+      "file": "01-storefront-mobile-v0.3.png",
+      "sourceFile": "exec-76ab4ac0-e75b-4e73-aac8-71a07c323eac.png",
+      "requestedSize": { "width": 390, "height": 844 },
+      "actualSize": { "width": 853, "height": 1844 },
+      "figmaSize": { "width": 390, "height": 843 },
+      "bytes": 1730573,
+      "sha256": "D09C467BB75D166C437162A1345920318D8FEAA406F786D4E7C4DBD204180207",
+      "nodeId": "15:10",
+      "imageHash": "4d551161481e9125a4bdb2a371a3407cbd464af9",
+      "reference": "../storefront-v0.2/02-cartel-revisado-v0.2.png"
+    },
+    {
+      "name": "No-photo initial attempt - failed, do not use",
+      "file": "02-no-photo-failed-v0.3.png",
+      "sourceFile": "exec-ef16ebf6-0def-4931-a9bc-b4acc3a7c979.png",
+      "actualSize": { "width": 1422, "height": 1106 },
+      "bytes": 1861545,
+      "sha256": "DDA0C236991A503CC9963803CC655B9B84B06EC0413E499C41CE69A247183B07",
+      "failure": "Food still appeared photographic or CGI-realistic instead of an unmistakable editorial illustration",
+      "reference": "../storefront-v0.2/02-cartel-revisado-v0.2.png"
+    },
+    {
+      "name": "No-photo illustrated application - proposed",
+      "file": "02-no-photo-illustrated-v0.3.png",
+      "sourceFile": "exec-141e69b4-10b8-4de2-9729-a6b846f0aad2.png",
+      "requestedSize": { "width": 1440, "height": 1120 },
+      "actualSize": { "width": 1422, "height": 1106 },
+      "figmaSize": { "width": 1422, "height": 1106 },
+      "bytes": 1358709,
+      "sha256": "A97E09B88180BDEED6A2B1A8C10E105D4CD4C346149967F30DFDE36D84CD9ECA",
+      "nodeId": "15:15",
+      "imageHash": "c2a2a83649325d3fb2caa41ea33b11f5c13389e4",
+      "reference": "02-no-photo-failed-v0.3.png",
+      "limitation": "Needs studio illustration assets; does not demonstrate zero-asset fallback or fidelity to real recipes"
+    }
+  ],
+  "figma": {
+    "fileKey": "miM4ul2l4Q6ZwJNfAJeN38",
+    "url": "https://www.figma.com/design/miM4ul2l4Q6ZwJNfAJeN38?node-id=15-2",
+    "pageId": "0:1",
+    "boardId": "15:2",
+    "boardSize": { "width": 2050, "height": 1534 },
+    "scaleMode": "FIT",
+    "boardScreenshot": "figma-board-v0.3.png",
+    "mobileScreenshot": "mobile-at-390px-v0.3.png"
+  },
+  "inspection": {
+    "uploadsConfirmed": 2,
+    "imageFillsVerified": 2,
+    "nativeTextBoundsVerified": 10,
+    "mobileInspectedAt390px": true,
+    "noPhotoIllustrationInspected": true,
+    "independentReview": false,
+    "longName": false,
+    "languages": false,
+    "zeroVisualAssets": false,
+    "motion": false,
+    "interaction": false,
+    "fullCycleComplete": false
+  }
+}

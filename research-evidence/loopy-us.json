@@ -1,0 +1,468 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id604071314"
+          },
+          "name": {
+            "label": "I am da 1 101"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-04-24T17:11:31+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.1.2"
+        },
+        "id": {
+          "label": "13992231921"
+        },
+        "title": {
+          "label": "Loopy stamper"
+        },
+        "content": {
+          "label": "This digital card has been a lifesaver for my customers and I",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id989532991"
+          },
+          "name": {
+            "label": "Bella Sturdevant"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-06-12T17:21:17+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.0.7"
+        },
+        "id": {
+          "label": "12766115969"
+        },
+        "title": {
+          "label": "Terrible app."
+        },
+        "content": {
+          "label": "I jsut got the $25 monthly subscription and I cannot even log in! I’ve deleted the app and redownloaded. I have powered on and off my phone. It won’t even let me tap on the username or password. Yes I have the latest version. Yes it’s updated. I had such high hopes and bragged about this app to my boss, who finally let me do this…. And now it doesn’t even work.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id628699999"
+          },
+          "name": {
+            "label": "nahhh15"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-27T20:10:59+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.0.7"
+        },
+        "id": {
+          "label": "12704949680"
+        },
+        "title": {
+          "label": "FANTASTIC SYSTEM"
+        },
+        "content": {
+          "label": "So easy and simple to use",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id458436824"
+          },
+          "name": {
+            "label": "Crow x T x Robot"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-02-05T02:44:21+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.0.7"
+        },
+        "id": {
+          "label": "12272046914"
+        },
+        "title": {
+          "label": "Joseph"
+        },
+        "content": {
+          "label": "Scanning is super simple and gives me the confidence to offer digital stamp cards to my customers.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id312356919"
+          },
+          "name": {
+            "label": "Destiny-85"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-01-23T01:31:54+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.0.4"
+        },
+        "id": {
+          "label": "12218844183"
+        },
+        "title": {
+          "label": "App isnt working"
+        },
+        "content": {
+          "label": "I recently signed up for Loopy Loyalty and was excited to introduce this to my customers. However, I signed up for the whole year, but I am having issues with the redemption stamper. For the most part, the app freezes and I cannot stamp my customers loyalty card. I tried to log out and log back into the app and deleted it, and re-downloaded but it wasnt working. I reached out to their customer service, but they didn’t really seem to care about and they told me I have to buy a new device in order to redeem the stamps. Which I think it’s ridiculous. I wasnt  planning in buying a another tablet just to be able to give those stamps to my clients. Very disappointing and I’m looking for a different service that is more reliable.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id105623567"
+          },
+          "name": {
+            "label": "Taxson"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2017-08-26T20:00:21+02:00"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "im:version": {
+          "label": "2.0"
+        },
+        "id": {
+          "label": "1751746298"
+        },
+        "title": {
+          "label": "Recent update"
+        },
+        "content": {
+          "label": "I was loving this app up until the recent update!  I was logged out and am not able to get in with my login info. It's very frustrating. Please help!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id163717953"
+          },
+          "name": {
+            "label": "Ars.hk"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2017-08-24T19:40:41+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "2.0"
+        },
+        "id": {
+          "label": "1745841735"
+        },
+        "title": {
+          "label": "สา"
+        },
+        "content": {
+          "label": "Simply Awesome. With this app I feel confident I can destroy my competition.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id197673139"
+          },
+          "name": {
+            "label": "denisekimberley"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2015-02-20T08:51:39+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "1.0.4"
+        },
+        "id": {
+          "label": "1154298820"
+        },
+        "title": {
+          "label": "Awesome app!"
+        },
+        "content": {
+          "label": "Love the simplicity of this app for merchants. It makes the entire stamping experience really easy and fun. Great job!!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=945301614&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      }
+    ],
+    "updated": {
+      "label": "2026-09-28T22:09:06+02:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Customer Reviews"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=1"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/id=945301614/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "first",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=945301614/sortby=mostrecent/xml?urlDesc=/customerreviews/id=945301614/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "last",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=945301614/sortby=mostrecent/xml?urlDesc=/customerreviews/id=945301614/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "previous",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=945301614/sortby=mostrecent/xml?urlDesc=/customerreviews/id=945301614/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "next",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=2/id=945301614/sortby=mostrecent/xml?urlDesc=/customerreviews/id=945301614/sortBy=mostRecent/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/us/rss/customerreviews/id=945301614/sortBy=mostRecent/json"
+    }
+  }
+}

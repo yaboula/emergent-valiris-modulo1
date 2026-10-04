@@ -1,0 +1,70 @@
+{
+  "observed_on": "2026-10-04",
+  "reviewer": "G1, sole PM",
+  "reviewed_sha": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+  "content_sha": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+  "architecture_sha": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+  "operating_branch": "docs/m1-g1-orilla-seo-handoff",
+  "scope": "Scoped documentary receipt and prepared returns; not independent G4, UX, linguistic, rendered, software, crawler or performance validation.",
+  "author_verifier_reproduction": {
+    "result": "pass",
+    "controls": 17,
+    "method": "Original verify.py evaluated against clean author checkout; only its two output paths redirected in memory to G1 cache. Source left intact.",
+    "published_results": {
+      "checks.json": {
+        "byte_identical": true,
+        "sha256": "2ea2536b0f47d821c0f27594485a871fa22ef1f4b741be5a8178e6f8d0e25a70"
+      },
+      "source-manifest.json": {
+        "byte_identical": true,
+        "sha256": "1082024789a162a264d255707ab98ebd23a7d23855858c67467147c385c70ba7"
+      }
+    }
+  },
+  "source_and_author_evidence": "Unchanged against reviewed SHA; CASE/COPY/architecture blobs and all author evidence preserved.",
+  "storage_verification": {
+    "date": "2026-10-03",
+    "preserved_original_files": 475,
+    "inventory_records": 487,
+    "operating_files_checked": 89,
+    "local_link_targets_checked": 2490,
+    "failures": [],
+    "secret_pattern_file_count": 0,
+    "protected_source_changes": [],
+    "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+  },
+  "storage_date_note": "Verifier retains its original migration date 2026-10-03; execution observed 2026-10-04.",
+  "github_readback": {
+    "pr": 37,
+    "state": "OPEN",
+    "draft": true,
+    "base": "docs/m1-g1-orilla-content-handoff",
+    "head": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+    "issues": {
+      "5": "OPEN",
+      "4": "OPEN",
+      "15": "OPEN"
+    },
+    "linear": "Not rechecked or modified."
+  },
+  "resolution": "XR02/Q01-Q05 author response received; all R01-R12/T01-T08 await consolidators. No recommendations silently adopted.",
+  "messages": "Prepared in existing contracts; not sent; no new specialist activated.",
+  "pending": [
+    "G2.04 consolidation",
+    "G2.02 adoption",
+    "PC and deliberate phone composition",
+    "G2.03 applied behaviour",
+    "G2.05 linguistic review",
+    "resources/fonts/rights",
+    "G3 technical decisions in M2/#4",
+    "G4 application review",
+    "real usage evidence"
+  ],
+  "g1_operating_checks": {
+    "root_branch_and_owned_paths": "pass",
+    "immutable_inventory_fields": "preserved",
+    "protected_sources_and_author_evidence": "preserved",
+    "local_link_targets_checked": 271,
+    "whitespace_diff": "pass"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "edition": "2026-10-03 / open product-centric exploration",
+  "status": "Informal discussion sketches; no definitive branding, application approval or new PM delivery",
+  "subject": "Valiris Restaurants line presentation; existing restaurant-led hierarchy on client pages retained",
+  "requestedMix": "Modern Product-Centric Web Design — Bold Graphic, Editorial & Soft Depth + open culinary character identity",
+  "tool": "Built-in image_gen.imagegen; no CLI/API fallback",
+  "git": {
+    "branch": "docs/m1-g2-06-restaurants-brand",
+    "startingHead": "acf35c9a2d89646ce1222ec10c9435578748205c",
+    "publication": "Local discussion archive; existing PM PR/return not updated by this exploration"
+  },
+  "records": [
+    {
+      "output": "01-producto-tangible-inicial.png",
+      "status": "Intermediate: physical paper interpretation, superseded for the digital sketch",
+      "prompt": "Use case: ui-mockup. New exploratory art direction for Valiris Restaurants, the restaurant design line of a studio. This is a discussion sketch, NOT approved branding, NOT a live website, NOT a commercial launch or a production UI. Show a sophisticated modern desktop web HERO specimen only, landscape 1536x1024, without browser chrome. Mix playful culinary character identity with Modern Product-Centric Web Design, Bold Graphic, Editorial & Soft Depth. Adult warmth and strong contemporary typographic craft; vivid purposeful color, substantial negative space, precise hierarchy, restrained layered matte depth. Characters are open culinary subjects with coherent expressive almond eyes, short brows, cream substantial hands and long dark articulated limbs; expressive purposeful action, never generic floating stickers. Do not use all four previous prototypes or repeat their dining-table scene. No imitation of Duolingo, Marshmallow, Headspace or Gorilla. No gradients as a substitute for composition, no glossy SaaS dashboard template, no repeated rounded feature-card grid, no dark mode, no fabricated statistics, awards, customer logos or functionality claims. Small visible footer text exactly: 'Exploración conceptual · no branding definitivo'. Any shown venue/menu content is fictional. Maintain the unchanged full name 'Valiris Restaurants'; no new logo icon. Direction 01, PRODUCTO EN ESCENA: an overscaled crisp editorial headline spanning the top 'Tu carta. Con carácter.' in substantial contemporary ink-black display sans, expressive baseline rhythm. A large frontal digital menu preview with slight paper-like elevation becomes the focal product at center, not a hardware tablet. Inside the cream product surface show only the fictional name 'Casa Naranja', 'Carta general', 'Entrantes', 'Platos', 'Postres' and an obvious high-contrast 'Ver carta'. Fine real-feeling interface hierarchy, no prices or allergen badges. A witty small tomato character at the side uses one arm to usher attention toward the product; an expressive spoon character peeks over the edge, sharing their anatomy without identical bodies. The characters are flat 2D editorial drawing, shadows and folded product edges supply soft depth. Dominant warm cream with huge cropped saturated coral-red graphic circle and small cobalt-blue planes. Give the product clear predominance and the headline a memorable relationship with the scene. Slim top identity 'Valiris Restaurants', small understated 'Ideas' / 'Diseño' links. One small ink CTA 'Explorar'. Finish as a high-end confident authored art-direction specimen, not a moodboard.",
+      "sourceFile": "exec-84414595-5d17-470e-bce0-ce12810c6fc6.png",
+      "references": [],
+      "bytes": 2028468,
+      "sha256": "3878f763be76e46364772bd423c8560c55656584cfab7cd1a35fb723d6704b71",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "output": "02-editorial-inicial.png",
+      "status": "Intermediate: invented service-copy claim, superseded and not reusable marketing",
+      "prompt": "Use case: ui-mockup. New exploratory art direction for Valiris Restaurants, the restaurant design line of a studio. This is a discussion sketch, NOT approved branding, NOT a live website, NOT a commercial launch or a production UI. Show a sophisticated modern desktop web HERO specimen only, landscape 1536x1024, without browser chrome. Mix playful culinary character identity with Modern Product-Centric Web Design, Bold Graphic, Editorial & Soft Depth. Adult warmth and strong contemporary typographic craft; vivid purposeful color, substantial negative space, precise hierarchy, restrained layered matte depth. Characters are open culinary subjects with coherent expressive almond eyes, short brows, cream substantial hands and long dark articulated limbs; expressive purposeful action, never generic floating stickers. Do not use all four previous prototypes or repeat their dining-table scene. No imitation of Duolingo, Marshmallow, Headspace or Gorilla. No gradients as a substitute for composition, no glossy SaaS dashboard template, no repeated rounded feature-card grid, no dark mode, no fabricated statistics, awards, customer logos or functionality claims. Small visible footer text exactly: 'Exploración conceptual · no branding definitivo'. Any shown venue/menu content is fictional. Maintain the unchanged full name 'Valiris Restaurants'; no new logo icon. Direction 02, EDITORIAL CON HAMBRE: a sharply composed asymmetrical magazine-like website hero with a narrow metadata gutter '01 / ESTUDIO', monumental inky typographic column 'Buen diseño. Buen apetito.' aligned left and a bold tangerine orange field across the right two-thirds. Huge deliberately cropped flat 2D expressive olive and whisk characters form an unexpected culinary still life; whisk loops and olive countershape echo typography, one character gestures toward a readable tall cream digital-menu preview integrated as the editorial insert. This product preview is neither a phone nor a tablet and shows only 'Casa Naranja', 'Carta general', 'Entrantes', 'Platos', 'Postres', 'Ver carta'. Product, graphic characters and oversized cropping create hierarchy through radically different scales. Thin editorial rules, occasional numbered annotation, large calm white margins; no collage of many cards. Selected cream product edges cast soft contact shadows onto the orange field, while most graphics remain flat. Restrained cobalt accent and dark aubergine ink. Top full unchanged name 'Valiris Restaurants' in simple legible type; small provisional CTA 'Ver la idea'. The whole composition should feel like a forward-looking restaurant design studio publication and a product presentation at once. Crisp contemporary, witty adult, not vintage.",
+      "sourceFile": "exec-57fd65f9-0d21-48bf-9db2-10b46ba2b77b.png",
+      "references": [],
+      "bytes": 1975994,
+      "sha256": "5571f272b69017356474adcee33acbea6d78959eb931a9e5c730a8b41e0ecd55",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "output": "03-objeto-con-atmosfera.png",
+      "status": "Discussion contrast: tactile/3D atmosphere, not selected digital identity",
+      "prompt": "Use case: ui-mockup. New exploratory art direction for Valiris Restaurants, the restaurant design line of a studio. This is a discussion sketch, NOT approved branding, NOT a live website, NOT a commercial launch or a production UI. Show a sophisticated modern desktop web HERO specimen only, landscape 1536x1024, without browser chrome. Mix playful culinary character identity with Modern Product-Centric Web Design, Bold Graphic, Editorial & Soft Depth. Adult warmth and strong contemporary typographic craft; vivid purposeful color, substantial negative space, precise hierarchy, restrained layered matte depth. Characters are open culinary subjects with coherent expressive almond eyes, short brows, cream substantial hands and long dark articulated limbs; expressive purposeful action, never generic floating stickers. Do not use all four previous prototypes or repeat their dining-table scene. No imitation of Duolingo, Marshmallow, Headspace or Gorilla. No gradients as a substitute for composition, no glossy SaaS dashboard template, no repeated rounded feature-card grid, no dark mode, no fabricated statistics, awards, customer logos or functionality claims. Small visible footer text exactly: 'Exploración conceptual · no branding definitivo'. Any shown venue/menu content is fictional. Maintain the unchanged full name 'Valiris Restaurants'; no new logo icon. Direction 03, OBJETO DIGITAL CON ATMÓSFERA: create a bold warm premium web hero as a sculptural product still-life with a monumental editorial two-line title 'Cada restaurante, su carácter.' in dark ink anchored in the upper left. Give the right and bottom a wide tactile scene with one large ivory digital-menu surface treated as a softly bent paper object, a legible frontal content plane and a restrained matte shadow. Not an invented physical device or hardware product. Show only 'Casa Naranja', 'Carta general', 'Entrantes', 'Platos', 'Postres', and 'Ver carta' on that surface. Nearby a characterful lemon and a fork form a hospitality gesture around the product, maintaining recognisable culinary outlines and shared witty face/hand/limb grammar. These character objects may translate the same 2D identity into restrained matte 3D, with no toy gloss, no childish proportions, no huge white cartoon eyeballs. Sculptural depth is limited to the hero scene; navigation/text stay graphic, flat and very readable. Warm off-white background, huge cropped cobalt architectural plane, a saturated tomato-red pedestal, apricot reflected light; more spacious and atmospheric than the other two directions, still alive and visually bold. Strong art-directed warm directional light and soft contact shadows, no photoreal offered dishes, no photoreal restaurant interior. Slim top wordmark 'Valiris Restaurants', a small 'Explorar' CTA. A sophisticated modern product-design studio tone, not an app store ad.",
+      "sourceFile": "exec-c117c599-fde9-42bc-b65f-dc8dc9b316d5.png",
+      "references": [],
+      "bytes": 2155047,
+      "sha256": "0935a440df54612e53220a4fa4f8b8d0f0ed617e4b5c57c17a2257da75851b4d",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "output": "01-producto-en-escena.png",
+      "status": "Refined digital product / graphic character discussion sketch, not approved",
+      "prompt": "Edit Image 1 as the target website hero specimen. Preserve its exact bold sans headline 'Tu carta. Con carácter.', full name 'Valiris Restaurants', overall layout, typography, huge cropped coral field, cobalt accents, cream background, tomato and spoon subject choice, footer 'Exploración conceptual · no branding definitivo'. Make one coherent art-direction correction: express a DIGITAL product with GRAPHIC 2D brand characters instead of a physical paper/food tabletop photoshoot. Replace the central rough tent-menu with a clean frontal floating digital-menu interface surface with a slight UI layer offset and refined soft contact shadow; NO phone/tablet/hardware, NO folded paper stand. Inside this interface use crisp contemporary sans type only, fictional name 'Casa Naranja', 'Carta general', 'Entrantes', 'Platos', 'Postres', 'Ver carta', tidy high quality spacing; remove all dish photography, use small flat category symbols or graphic cropped fields instead. No price/allergen/availability states. Tomato and spoon keep their acting and relationship to the interface but redraw their bodies/faces in polished flat 2D culinary-family illustration: small expressive almond eyes, short brows, cream substantial hands, long dark articulated limbs, consistent proportions, grounded dark feet. Image 2 is anatomy/illustration reference only, NOT a composition target or a cast to copy; extend that shared warmth into tomato and spoon. Remove realistic basil vase, dishes, real tomatoes and physical tabletop; replace with generous calm cream and graphic cobalt plane accents. Keep depth ONLY as restrained shadow/elevation of the main interface, not texture, bevels or rendering on every shape. Crisp contemporary brand-led product design, adult witty warmth, vivid professional graphic character. Keep title readable and all footer/state text. No new marketing copy or extra people.",
+      "sourceFile": "exec-53fc8d15-dc4a-4cb5-9073-7f7e43950d5c.png",
+      "references": [
+        {
+          "path": "01-producto-tangible-inicial.png",
+          "role": "Edit target"
+        },
+        {
+          "path": "research-evidence/g2-06-restaurants-brand/v2/assets/a-kitchen-scene.png",
+          "role": "Anatomy/illustration reference only, not cast/composition target"
+        }
+      ],
+      "bytes": 1394618,
+      "sha256": "cbf1d19f0c2efc08dacc733bb9f6147f766008eab6e4157fafa7c9f7b3e9221b",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "output": "02-editorial-con-hambre.png",
+      "status": "Editorial discussion sketch with corrected exploratory copy, not approved",
+      "prompt": "Edit this speculative website image. Change ONLY the small supporting paragraph under the oversized left headline; remove the current claims about designing spaces, experiences and inviting return. Replace exactly with: 'Una idea para explorar cómo se presenta cada restaurante y su carta.' Retain every other element, layout, typography, colors, characters, menu, footer and headline unchanged. This is exploratory visual copy, not a service promise. Keep text clean and readable.",
+      "sourceFile": "exec-5adbef68-8484-4a30-bd37-a44f1268f9a0.png",
+      "references": [
+        {
+          "path": "02-editorial-inicial.png",
+          "role": "Edit target"
+        }
+      ],
+      "bytes": 1912822,
+      "sha256": "0debf080279e83daaf1681d2ce9bdb88d46dff638db8bd2a0271deea77b2d10b",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "rights": "Generated conceptual imagery for evaluation. Fictional venue, food/props and category art; no real offering, production approval, exclusivity or legal clearance asserted. New images copied from default generated_images output; originals retained.",
+  "typography": "Raster generated lettering, not identified font families or a production typography/license choice",
+  "limits": "No live UI, native Figma design, implementation, full Home, interactions, accessibility/localisation/user/recognition/conversion study or commercial website. New PM brief not supplied or executed. No closed cast, model count, palette or anatomy imposed.",
+  "authorReview": "review.md"
+}

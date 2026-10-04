@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-02",
+  "reviewed_baseline": "9cfe77ba652d8b22b412f69a93d24987a9201098",
+  "latest_head": "120903f138a798e957b26498f2a3efb5d5e6521a",
+  "pr": {
+    "headRefOid": "120903f138a798e957b26498f2a3efb5d5e6521a",
+    "isDraft": true,
+    "state": "OPEN",
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/21"
+  },
+  "issues": [
+    {
+      "number": 5,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/5"
+    },
+    {
+      "number": 4,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/4"
+    }
+  ],
+  "repo_clean_at_final_readback": true,
+  "pv_byte_identical": true,
+  "pv_sha256": "db1a922be8bb42150e9089fe2adf152a17e4d7937100732d554150e7dea01ece",
+  "report_local_links": 15,
+  "handoff_updated_and_review_links_resolve": true,
+  "next_review": "J4-J5 in 120903f; not covered by current verdict",
+  "no_repo_or_tracker_mutations_by_reviewers": true
+}

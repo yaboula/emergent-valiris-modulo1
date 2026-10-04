@@ -1,0 +1,89 @@
+{
+  "mutatedNodeIds": [
+    "20:2",
+    "20:84",
+    "20:30",
+    "20:52",
+    "20:56",
+    "20:85",
+    "20:86",
+    "20:106",
+    "20:107",
+    "20:108",
+    "20:110",
+    "20:166"
+  ],
+  "boards": [
+    {
+      "id": "20:29",
+      "name": "02 · A / CARÁCTER A LA MESA",
+      "width": 1920,
+      "height": 1164
+    },
+    {
+      "id": "20:84",
+      "name": "04 · UNA FAMILIA ABIERTA",
+      "width": 1920,
+      "height": 1953
+    },
+    {
+      "id": "20:109",
+      "name": "05 · DE LOS CONTORNOS A LAS LETRAS",
+      "width": 1920,
+      "height": 1519.15380859375
+    }
+  ],
+  "changes": [
+    {
+      "id": "20:30",
+      "name": "Sheet and status",
+      "characters": "02 / A / CARÁCTER A LA MESA · DIRECCIÓN CONCEPTUAL / v2"
+    },
+    {
+      "id": "20:52",
+      "name": "Body",
+      "characters": "Plato, pera, berenjena y taza son cuatro ejemplos. Repertorio abierto a comida, cocina y restaurante, con un lenguaje visual compartido."
+    },
+    {
+      "id": "20:56",
+      "name": "Evidence boundary",
+      "characters": "Idea de dirección, no branding definitivo. Personajes, colores y detalles exploratorios; el repertorio no se limita a estos cuatro ejemplos."
+    },
+    {
+      "id": "20:85",
+      "name": "Sheet and status",
+      "characters": "04 / UNA FAMILIA ABIERTA · DIRECCIÓN CONCEPTUAL / v2"
+    },
+    {
+      "id": "20:86",
+      "name": "Title",
+      "characters": "Una gramática.\nMuchas posibilidades."
+    },
+    {
+      "id": "20:106",
+      "name": "Heading",
+      "characters": "Libertad de repertorio"
+    },
+    {
+      "id": "20:107",
+      "name": "Body",
+      "characters": "Cualquier elemento de comida, cocina o restaurante puede entrar en la familia. Estos cuatro son muestras; silueta, gesto y expresión conservan parentesco."
+    },
+    {
+      "id": "20:108",
+      "name": "Evidence boundary",
+      "characters": "Idea de dirección, no familia final. Anatomía y detalles se ajustarán después. Los personajes no indican dieta, disponibilidad ni alérgenos. G2.08 desarrolla producción."
+    },
+    {
+      "id": "20:110",
+      "name": "Sheet and status",
+      "characters": "05 / LETRAS Y COLOR · EXPLORACIÓN DE DIRECCIÓN / v2"
+    },
+    {
+      "id": "20:166",
+      "name": "Evidence boundary",
+      "characters": "Paleta, lettering y fuentes exploratorios: no branding definitivo. OFL conservadas; binarios de Figma no identificados. Producción y ajuste óptico posteriores."
+    }
+  ],
+  "status": "Direction idea, not definitive branding; four examples, open culinary repertoire; colors and details exploratory"
+}

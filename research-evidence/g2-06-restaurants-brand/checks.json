@@ -1,0 +1,138 @@
+{
+  "edition": "2026-10-03 / v1.0",
+  "baseline": "27861fd94dafd51889e2f223000320d66fd39dae",
+  "expectedBranch": "docs/m1-g2-06-restaurants-brand",
+  "result": "PASS",
+  "checks": {
+    "ownedPathsOnly": true,
+    "frozenRepositorySources": 19,
+    "assetHashesAndBytes": 30,
+    "pngDimensions": {
+      "01-a-hacer-sitio.png": [
+        1440,
+        1216
+      ],
+      "02-b-sobremesa.png": [
+        1440,
+        1216
+      ],
+      "03-c-compas.png": [
+        1440,
+        1190
+      ],
+      "04-hierarchy.png": [
+        1440,
+        1133
+      ],
+      "05-contrasts.png": [
+        1440,
+        1242
+      ],
+      "06-orilla-coexistence.png": [
+        1440,
+        1202
+      ],
+      "07-base-bespoke.png": [
+        1440,
+        1199
+      ]
+    },
+    "svgDocuments": 13,
+    "localMarkdownLinks": 39,
+    "orillaUnchanged": true,
+    "nativeFigmaSheets": 7,
+    "nativeTextNodes": 144,
+    "minimumAuthoredTextContrast": 5.1,
+    "contrastPairsRecomputed": [
+      {
+        "foreground": "#164B3B",
+        "background": "#F7F4E8",
+        "ratio": 9.06
+      },
+      {
+        "foreground": "#F7F4E8",
+        "background": "#164B3B",
+        "ratio": 9.06
+      },
+      {
+        "foreground": "#164B3B",
+        "background": "#E6F07A",
+        "ratio": 8.13
+      },
+      {
+        "foreground": "#164B3B",
+        "background": "#CBD7F1",
+        "ratio": 6.91
+      },
+      {
+        "foreground": "#164B3B",
+        "background": "#FFFFFF",
+        "ratio": 9.98
+      },
+      {
+        "foreground": "#B53C26",
+        "background": "#FFF0C8",
+        "ratio": 5.1
+      },
+      {
+        "foreground": "#FFF0C8",
+        "background": "#B53C26",
+        "ratio": 5.1
+      },
+      {
+        "foreground": "#2C2A49",
+        "background": "#ECA593",
+        "ratio": 6.76
+      },
+      {
+        "foreground": "#FFF0C8",
+        "background": "#2C2A49",
+        "ratio": 12.09
+      },
+      {
+        "foreground": "#B53C26",
+        "background": "#FFFFFF",
+        "ratio": 5.77
+      },
+      {
+        "foreground": "#244BDD",
+        "background": "#F5F7FF",
+        "ratio": 6.28
+      },
+      {
+        "foreground": "#F5F7FF",
+        "background": "#244BDD",
+        "ratio": 6.28
+      },
+      {
+        "foreground": "#17224C",
+        "background": "#ECA593",
+        "ratio": 7.57
+      },
+      {
+        "foreground": "#F5F7FF",
+        "background": "#17224C",
+        "ratio": 14.33
+      },
+      {
+        "foreground": "#244BDD",
+        "background": "#FFFFFF",
+        "ratio": 6.72
+      },
+      {
+        "foreground": "#583D52",
+        "background": "#F1E4DB",
+        "ratio": 7.65
+      }
+    ]
+  },
+  "limits": [
+    "Opaque solid colors and immediate-parent bounds; ORILLA raster text excluded.",
+    "No functional UI, full accessibility, translation, user or independent review.",
+    "Binary hashes are exact; text may use recorded LF-equivalent hashes across Git newline conversion.",
+    "Hashes do not establish legal clearance or successful reproduction in Figma.",
+    "Font source notices pinned; exact Figma binaries unidentified and not distributed.",
+    "Git author, remote publication and PR recorded separately in publication.json."
+  ],
+  "errors": []
+}

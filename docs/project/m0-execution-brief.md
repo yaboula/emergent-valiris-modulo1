@@ -74,7 +74,7 @@ Do not turn an external link into a synchronisation promise. Connected capabilit
 - Design/prototyping access and separately available collaborators: confirm before assigning execution. Linear access does not establish design-tool or integration access.
 - Onboarding/design/support workload: capture effort by activity, revisions, corrections and follow-up during delivery and pilot. Use the M2 backlog and first working journey to assess feasibility and concurrent work, without turning them into a date commitment. No fixed launch date or unit economics are approved.
 
-Git stores reference documents and reviewed changes. GitHub retains existing outcomes: #5 for G2 design, #4 for M2 and #15 for parallel commercial work. Linear YAH-5 records completed M0 preparation, without migrating the milestone backlog. Keep personal coordination references outside the repository. M0 was closed after verified integration and outcome closure; that completion does not satisfy M1 or later evidence.
+Git stores reference documents and reviewed changes. GitHub retains existing outcomes: #5 for G2 design, #4 for M2 and #15 for parallel commercial work. Linear YAH-5 records completed M0 preparation, without migrating the milestone backlog. The owner’s 3 October storage decision versions project instructions, coordination and evidence in this repository; see the [operating index](../../coordination/README.md) and [Git rules](../../AGENTS.md). M0 was closed after verified integration and outcome closure; that completion does not satisfy M1 or later evidence.
 
 ## 6. Decisive risks and treatment
 

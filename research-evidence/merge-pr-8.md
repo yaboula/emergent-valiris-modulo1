@@ -1,0 +1,1 @@
+Integrate historical discovery and Storefront inputs with traceable sources and explicit evidence limits. No retired gate or commercial validation is established.

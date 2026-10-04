@@ -1,0 +1,25 @@
+{
+  "retrieved_utc": "2026-10-03T18:54:45.0937417Z",
+  "primary_website": "https://www.marshmallow.com/",
+  "sources": [
+    {
+      "observation": "Declared bold webfont",
+      "url": "https://www.marshmallow.com/_next/static/chunks/252sc5oocfz53.css",
+      "excerpt": [
+        "@font-face{font-family:Marshmallowyouth;src:url(https://cdn.prod.website-files.com/64ca30ad4f1f3d0d4bd24943/64ca30ad4f1f3d0d4bd24f98_MarshmallowYouth-Bold.woff)format(\"woff\");font-weight:700;font-style:normal;font-display:swap}"
+      ]
+    },
+    {
+      "observation": "Declared brand family token",
+      "url": "https://www.marshmallow.com/_next/static/chunks/2r0ay3gre9nw5.css",
+      "excerpt": "--font-family-brand:\"Marshmallow Youth\";"
+    }
+  ],
+  "conclusion": "Current official web CSS declares Marshmallow Youth / Marshmallowyouth at weight 700; screenshot use remains a visual inference",
+  "limits": [
+    "No font binary downloaded",
+    "No foundry or licence established",
+    "No proof every historical screenshot or logo uses this exact file",
+    "Generated images are visual approximations"
+  ]
+}

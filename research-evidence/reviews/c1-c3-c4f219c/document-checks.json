@@ -1,0 +1,23 @@
+{
+  "baseline": "c4f219cf5f06a3fe55b1d4e2040c6f6f45c584df",
+  "connected_sha256": "8C661B05629BC6858DEE275456BF50E7E24E279EB642D558C9A4CBB9650DDBD9",
+  "preparation_sha256": "49048796905BCAF44EB9E415F0B3C987B6687B61F8170EFAE8BF8EE0441EBCC5",
+  "local_link_occurrences_by_document": {
+    "m1-content-preparation.md": 51,
+    "m1-connected-journey.md": 79
+  },
+  "local_link_failures": [],
+  "DS_rows": [
+    "DS01",
+    "DS02",
+    "DS03",
+    "DS04"
+  ],
+  "unchanged_authority_sources": {
+    "docs\\product\\m0-capability-matrix.md": true,
+    "docs\\research\\storefront-digital-menu\\functional-definition\\functional-definition.es.md": true,
+    "docs\\adr\\0009-studio-design-and-registered-diner-personalisation.md": true,
+    "docs\\adr\\0008-first-launch-capability-commitment.md": true
+  },
+  "scope": "Documentary target integrity and source preservation only; G4-01 behavioral recheck is recorded separately. No complete CP/J10-J15 review or runtime test."
+}

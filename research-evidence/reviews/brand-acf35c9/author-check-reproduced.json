@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-03",
+  "source_sha": "acf35c9a2d89646ce1222ec10c9435578748205c",
+  "reproduced_by": "G1",
+  "result": "PASS",
+  "method": "Inspected verify.py, then ran without --write-checks in the clean author checkout. HEAD acf35c9 and clean status asserted before and after. No branch switch, writes or live Figma audit.",
+  "script_sha256": "cbbe1849d0c01b4255bde1e4262ce30a77b253b08f0f4bcd9d49a70ebc37053c",
+  "report_source": "research-evidence/g2-06-restaurants-brand/v2/checks.json",
+  "observed_summary": {
+    "boards": 8,
+    "assets": 56,
+    "frozen_source_records": 19,
+    "local_targets": 93,
+    "archived_native_texts": 129,
+    "archived_content_images": 12,
+    "archived_minimum_text_contrast": 4.72
+  },
+  "scope": "Asset/source/fixture integrity and recomputation from archived author audit; no independent G4, integral accessibility, live UI, rights clearance or software testing."
+}

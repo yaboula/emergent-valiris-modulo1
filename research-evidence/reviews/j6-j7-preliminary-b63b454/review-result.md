@@ -1,0 +1,15 @@
+# J6–J7 — preliminary documentary review
+
+2 October 2026 · G1 consolidator (sole PM), G4 independent reviewer.
+
+**No required behavioral correction identified in the bounded written branches of the frozen uncommitted snapshot.** This result is preliminary: G2's authoring was interrupted before final delivery, then resumed. Compare its final immutable commit before final acceptance. This report does not certify that final source or close M1.
+
+Snapshot SHA256 `b63b4545ba6a5fa481054d8c3448a5a5d72951bbd261559db83ca4c2960f5c38`; surrounding source baseline `120903f138a798e957b26498f2a3efb5d5e6521a`. [G1 review](g1-review.md), [G4 independent preliminary review](g4-review.md), [structural checks](document-checks.json), [FO snapshot](m1-food-register-and-outputs.snapshot.md), [criteria](m0-journeys-and-criteria.snapshot.md) and [matrix](m0-capability-matrix.snapshot.md) remain outside Git. These are review evidence, not a second operative product definition.
+
+Scope:354lines/18states/sevencriteria/22affected contributions/fiveFW paths/24FC contrasts. The record preserves known positives beside missing information, distinct formats/process/adaptation/diet/nutrition, actual-service discrepancy versus future draft, reviewed-source fallback and staff-only evidence. Outputs preserve selected snapshot/use/context/language; generation/retrieval/physical placement remain separate. Partial replacement and newer-source conflicts remain explicit. Public QR requires an actual configured owned target, excludes private source/token/profile and distinguishes content update from host/target change. No material contradiction was reproduced in affected recovery/private-state contracts.
+
+Structural preservation checks:38FO local/internal links resolved against the frozen source tree,unique18cards and required fields,sevenexact criteria,22rows,24FC/fiveFW,152prior contrast rows and prior card bodies unchanged,original criteria/matrix/functional definition/ADRs preserved.72parents retain36included/30configurable/sixconnection-dependent. These checks do not prove food facts, generated files, scanning, placed paper, software, accessibility or user comprehension.
+
+Authoring continuity only: snapshot line13 still labels JT review pending, now superseded by the actual G1/G4 result on120903f. G2 must incorporate that result and finish its own evidence/repository flow. Its resumed edits observed afterward address this status and author-check bookkeeping; no final verdict about those edits follows automatically. Preserve this report as dated history when later final review supersedes it.
+
+Next: G2 finishes author delivery; G1/G4 compare its final commit with this snapshot and review any changed behavior. G3/G1 retains M2 source/action/group/permission/manifest/retention/host contracts; G5/G2 supplies real food/source/translation/procedure/target/placement material; G2/visual/G4 supplies actual interaction/rendered accessibility/printing/QR/device/user evidence. No source/Git/tracker/configuration/merge/closure/external message was performed by the reviewers.

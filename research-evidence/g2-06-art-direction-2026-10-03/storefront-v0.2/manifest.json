@@ -1,0 +1,100 @@
+{
+  "owner": "G2.06 - Identity and art direction",
+  "version": "0.2",
+  "date": "2026-10-03",
+  "timezone": "Europe/Madrid",
+  "state": "Cartel abierto revisado selected by Yahya as creative direction on 2026-10-03; not full design approval or M1 closure",
+  "fictionalCase": "ORILLA - proposed fictional Mediterranean sharing restaurant, not a real customer",
+  "selectedDirection": {
+    "name": "Cartel abierto revisado",
+    "file": "02-cartel-revisado-v0.2.png",
+    "figmaNodeId": "9:15",
+    "boardColumn": 2,
+    "decidedBy": "Yahya - founder",
+    "date": "2026-10-03",
+    "scope": "Creative direction for Storefront; Digital Menu remains separate",
+    "mapping": "User chose 2 after the return explicitly identified Cartel abierto revisado as the central Figma sample; not the superseded initial generation",
+    "continuation": "../storefront-v0.3/REVIEW.es.md"
+  },
+  "authorRecommendation": "Cartel abierto revisado - relative recommendation, not full-cycle completion",
+  "baseline": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+  "requestedDimensions": { "width": 1440, "height": 1120 },
+  "actualDimensions": { "width": 1422, "height": 1106 },
+  "rasterUiIsEditable": false,
+  "nativeAnnotationsAreEditable": true,
+  "generator": "Built-in image_gen.imagegen",
+  "independentGenerations": 3,
+  "compositionEdits": 1,
+  "figma": {
+    "fileKey": "miM4ul2l4Q6ZwJNfAJeN38",
+    "url": "https://www.figma.com/design/miM4ul2l4Q6ZwJNfAJeN38?node-id=9-2",
+    "pageId": "0:1",
+    "boardId": "9:2",
+    "boardSize": { "width": 4458, "height": 1580 },
+    "scaleMode": "FIT",
+    "correctedScreenshot": "figma-board-v0.2-corrected.png",
+    "screenshotSize": { "width": 3600, "height": 1276 }
+  },
+  "assets": [
+    {
+      "displayedOrder": 1,
+      "name": "Ceramica en primer plano",
+      "file": "01-ceramica-v0.2.png",
+      "sourceFile": "exec-d2722037-a22a-4773-adde-b21cd0716976.png",
+      "bytes": 2251203,
+      "sha256": "19091F907D5F807D755E2E95699802A8A32FB5FADAAF3CB2F9D125E007F4DFB3",
+      "nodeId": "9:10",
+      "imageHash": "c6156b4245d68ca585006cc7edee99e72b7f1085"
+    },
+    {
+      "displayedOrder": 2,
+      "name": "Cartel abierto initial - superseded by composition revision",
+      "file": "02-cartel-inicial-v0.2.png",
+      "sourceFile": "exec-2b99dd7c-3d12-435f-8d7e-9833b766fe71.png",
+      "bytes": 1864700,
+      "sha256": "4AF3068316F665F02384F506E10010E0F74C78FA8023F9A1394CCBBD93467EBB"
+    },
+    {
+      "displayedOrder": 3,
+      "name": "Encuadres de cocina",
+      "file": "03-encuadres-v0.2.png",
+      "sourceFile": "exec-48637f0d-6f2a-4be6-bf97-ef7df536133d.png",
+      "bytes": 2027275,
+      "sha256": "8F02A2007174008A844EE3CE84B51824EB57BF8F6DCC973C1CE5D82B864799FB",
+      "nodeId": "9:20",
+      "imageHash": "630f4b6653ca57afe7ad5eafce391dd880af715d"
+    },
+    {
+      "displayedOrder": 4,
+      "revisesDisplayedOrder": 2,
+      "name": "Cartel abierto revisado",
+      "file": "02-cartel-revisado-v0.2.png",
+      "sourceFile": "exec-791bf03d-1f5d-48c0-8e06-8c5cd3b360c6.png",
+      "bytes": 1862288,
+      "sha256": "4F576DD2156F9361ABEE8338DF13704CFD4DC70A4E5E2A47D11DE8FBF567F989",
+      "nodeId": "9:15",
+      "imageHash": "af178fb12cc73fe3fdbd0b2df1f79cdf642a5dd7"
+    }
+  ],
+  "sourceRoot": "C:\\Users\\aboul\\.codex\\generated_images\\01a10111-e241-79a0-a7b1-791d4f900f02",
+  "prompts": "prompts.txt",
+  "referenceRoot": "D:\\the next level\\research-evidence\\style-review-2026-10-03",
+  "attachedReferences": {
+    "ceramica": ["gastrometro-scroll-01.jpg", "eat-curious-overview.png", "scroll-03.jpg"],
+    "cartel": ["eat-curious-overview.png", "gastrometro-scroll-01.jpg", "scroll-03.jpg"],
+    "encuadres": ["gastrometro-scroll-06.jpg", "scroll-03.jpg", "eat-curious-overview.png"],
+    "cartelRevision": ["02-cartel-inicial-v0.2.png"]
+  },
+  "inspection": {
+    "uploadsConfirmed": 3,
+    "imageFillsVerified": 3,
+    "nativeTextBoundsVerified": 13,
+    "clippedAnnotationsCorrected": true,
+    "independentReview": false,
+    "mobile": false,
+    "noPhoto": false,
+    "motion": false,
+    "interaction": false,
+    "fullCycleComplete": false
+  }
+}

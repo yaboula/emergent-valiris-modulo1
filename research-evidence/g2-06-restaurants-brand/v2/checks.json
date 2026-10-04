@@ -1,0 +1,63 @@
+{
+  "result": "PASS",
+  "date": "2026-10-03",
+  "branch": "docs/m1-g2-06-restaurants-brand",
+  "revisionStart": "d44942ea7eee6471c8d6933dab91dcd9f6b37009",
+  "passedByGroup": {
+    "scope": 3,
+    "frozen_sources": 37,
+    "orilla": 5,
+    "v1_preservation": 90,
+    "approval": 5,
+    "v2_inventory": 212,
+    "native_audit": 31,
+    "contrast": 6,
+    "factual_parity": 7,
+    "localisation": 1,
+    "provenance": 22,
+    "font_notices": 2,
+    "local_links": 93,
+    "handoff": 11
+  },
+  "failures": [],
+  "summary": {
+    "boards": 8,
+    "nativeTexts": 129,
+    "contentImages": 12,
+    "minimumNativeTextContrast": 4.72,
+    "rejectedInkOnRedContrast": 4.43,
+    "verifiedTextPairs": [
+      {
+        "foreground": "#251E2E",
+        "background": "#FFFDF8",
+        "ratio": 15.84
+      },
+      {
+        "foreground": "#251E2E",
+        "background": "#FFD33E",
+        "ratio": 11.23
+      },
+      {
+        "foreground": "#251E2E",
+        "background": "#24DCC5",
+        "ratio": 9.29
+      },
+      {
+        "foreground": "#FFFDF8",
+        "background": "#6C55FF",
+        "ratio": 4.72
+      },
+      {
+        "foreground": "#FFFDF8",
+        "background": "#251E2E",
+        "ratio": 15.84
+      }
+    ],
+    "assets": 56,
+    "frozenSourceRecords": 19,
+    "localLinks": 93
+  },
+  "limits": "Recorded native solid text and immediate-parent bounds; raster/generated content excluded. Integrity checks, not integral accessibility, interaction, localisation, legal, user research or independent review.",
+  "softwareTests": "Not applicable: no application/configuration changes",
+  "gitWhitespaceReview": "git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff --cached --check; CRLF accepted for preserved historical manifest, no configuration change"
+}

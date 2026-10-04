@@ -1,0 +1,65 @@
+--- protocol-v0.1
++++ protocol-v0.2
+@@ -1,8 +1,61 @@
+ # Valiris — Organización y protocolo de agentes
+ 
+-Versión 0.1 · 1 de octubre de 2026 · Propuesta operativa basada en el escenario de seis grupos.
++Versión 0.2 · 2 de octubre de 2026 · Organización vigente G1 unificado/G2 doce especialidades; base original conservada.
+ 
+ Lee primero `Valiris_Contexto_Comun_Agentes.md` y la definición funcional vigente. Este documento organiza responsabilidades; no es un sistema de agentes ya instalado ni una autorización para ejecutar acciones externas indiscriminadamente.
++
++## 0. Organización vigente de diseño — decisión del fundador, 2 de octubre de 2026
++
++Yahya Aboulafiya establece doce especialidades de G2 para construir una experiencia propia y profesional de Valiris Restaurants, con ambición de competir al máximo nivel en España y Europa. La investigación de mercado ya realizada conserva su autoridad y límites; una consulta nueva requiere una pregunta concreta, no reiniciar el benchmark. La ambición orienta los criterios de calidad, no acredita superioridad comercial ya demostrada.
++
++**Estructura solicitada:** G1 sigue siendo un único agente con Dirección y Producto y el único PM. Las doce especialidades G2 y G6 trabajan en núcleos propios bajo su coordinación. G4 y G5 pueden trabajar como subagentes de G1 cuando haya encargo y disponibilidad. G3 conserva implementación/viabilidad/operación. Son responsabilidades acordadas; este documento no crea chats, configura modelos, activa perfiles ni acredita acceso a herramientas.
++
++**Integración operativa recomendada por G1:** el Product Designer actual asume G2.03 y consolida las entregas de experiencia de G2; G2.06 custodia concepto y coherencia visual. Son responsabilidades de integración y especialidad, no otros PM. G1 consolida prioridades, comportamiento, alcance y consecuencias; Yahya conserva decisión final de dirección estratégica/creativa e inversión. La autoría de una entrega y su revisión independiente quedan separadas.
++
++### 0.1. Los doce encargos especializados
++
++1. **G2.01 · Investigación UX.** Resuelve preguntas concretas sobre comensales, personal y comprador; consulta evidencia maestra existente y prepara/realiza observación autorizada cuando haya acceso. Entrega pregunta, método, observaciones, límites y consecuencia de diseño. No presenta simulaciones o ejemplos ficticios como entrevistas. Contribución de campo coordinada con G5; no contacta participantes sin autorización.
++2. **G2.02 · Arquitectura de información.** Organiza presencia/carta/gestión y modelos mentales de categorías, formatos, contexto y tareas. Entrega estructura, navegación y etiquetas contrastadas con C1–C3 y las 72 referencias. El café simple no configura todas las posibilidades y las 72 capacidades no son 72 destinos de navegación.
++3. **G2.03 · Diseño de interacción e integración G2.** Conserva los recorridos/estados ya auditados y resuelve el comportamiento de controles, transiciones de estado, confirmación y recuperación. Integra aportaciones sobre una versión identificada. Entrega recorridos conectados y evidencia estática/interactiva declarada; cambios materiales vuelven a G1. El Product Designer no sustituye las entregas de los otros once especialistas.
++4. **G2.04 · Contenido y UX writing.** Escribe lenguaje de interfaz, nombres, instrucciones, errores y recuperación, incluido contexto/precio/alimentos/estado incierto. Entrega copy en su pantalla/estado, criterios de uso y glosario coordinado con G2.05. No inventa hechos, certificaciones o promesas comerciales; G6 conserva mensajes de captación/oferta.
++5. **G2.05 · Localización.** Adapta interfaz y contenido mantenido, longitudes, formatos, lectura y dirección a los compromisos vigentes (público ES/EN/FR/DE, gestión español primero e inglés, preparación árabe/RTL). Entrega ejemplos y revisión de significado/fallback/contexto con G2.04/G2.07/G4. No fabrica traducciones revisadas del restaurante ni amplía los idiomas comprometidos por preparación RTL.
++6. **G2.06 · Identidad y dirección de arte.** Define concepto, personalidad y lenguaje visual con alternativas pertinentes y justificación. Distingue identidad Valiris/estudio, producto de gestión y expresión de cada restaurante; coordina con posicionamiento G6. Entrega dirección y muestras aplicadas a contenido difícil, no solo moodboard o adjetivos. Yahya selecciona la dirección estratégica/creativa; G1 recoge sus consecuencias.
++7. **G2.07 · UI y responsive.** Compone y adapta público/móvil/gestión entre tamaños desde la dirección elegida y comportamiento aprobado. Entrega pantallas conectadas/estados y reglas de adaptación con contenido representativo, texto largo, vacío/error y limitaciones alimentarias. Coordina con G2.03/G2.10/G4; una pantalla atractiva no acredita el recorrido.
++8. **G2.08 · Fotografía, ilustración y recursos gráficos.** Define dirección/tratamiento de fotografía, ilustración e iconografía, uso de activos originales y trazabilidad de derechos. Entrega recursos utilizables con origen/licencia/estado y reglas de producción. C1 sin fotos sigue siendo de alta calidad; imágenes generadas no se presentan como fotografía fiel de platos reales no suministrados.
++9. **G2.09 · Motion design.** Da significado a cambios, navegación y feedback, coordinado con interacción/UI. Entrega ejemplos, propósito, estados interrumpidos y alternativa de movimiento reducido; no oculta precio/error ni exige movimiento para entender. Es diseño de movimiento de interfaz, sin reabrir el audio independiente o 3D pospuestos.
++10. **G2.10 · Sistema de diseño.** Consolida tipografía, composición, tokens, componentes/patrones/variantes y reglas de contenido/contexto/estado a partir de direcciones y pantallas comprobadas. Entrega piezas reutilizables y excepciones justificadas, con adaptación por restaurante coherente con Core. No cierra una biblioteca genérica antes de probarla en C1–C3; implementación del sistema corresponde a G3 cuando se autorice.
++11. **G2.11 · Diseño editorial e impreso.** Compone carta/menú diario/ficha del personal/material QR con jerarquía, formatos, idiomas y paginación deliberada. Entrega composiciones específicas para papel, no capturas móviles; diferencia archivo de versión, generación y papel colocado. Coordina fuentes/comportamiento con G2.03/G2.04/G2.05 y producción con G5/G4. No afirma impresión/escaneo o sustitución física sin evidencia.
++12. **G2.12 · Diseño de servicios.** Diseña la experiencia entre comprador, personal, estudio y producto: alta, confirmación, encargo propio, formación, mantenimiento, soporte y salida. Entrega recorrido de servicio, responsabilidades, contactos entre personas/sistema y recuperación. G5 aporta operación real, G6 oferta y G1 términos/compromisos; no simula costes, capacidad o servicio prestado.
++
++### 0.2. Herramientas y preparación de cada núcleo
++
++Antes de iniciar un encargo, comprobar modelo disponible/configuración real, skills leídas, herramientas conectadas y operación relevante de lectura/producción/inspección. Documentar solo límites que afecten a la entrega. Ningún nombre de perfil o plugin acredita especialización o acceso. Seleccionar modelo por resultado en una tarea representativa y por capacidad necesaria; las opciones/configuraciones actuales se verifican al preparar cada núcleo, sin compras ni presupuesto supuesto.
++
++Capacidades a comprobar según trabajo: búsqueda/fuentes/lectura de documentos para investigación y servicio; Product Design y composición/prototipado disponible para IA/interacción/UI; Creative Production/ImageGen o activos originales cuando aporten exploración y recursos; herramientas de texto/localización para copy/idiomas; representación y revisión de componentes para el sistema; PDF/producción/render e inspección para impresos. Movimiento requiere un medio que permita observar su comportamiento. Herramientas para generar no sustituyen herramientas para inspeccionar el resultado. Figma permanece descartado por la instrucción vigente del fundador; no se reintroduce como requisito.
++
++En esta conversación G1 dispone de cuatro plazas de agentes activos, contando G1; es una capacidad local del árbol actual, no una prueba de doce ejecuciones simultáneas. Los núcleos propios se crearán solo ante petición explícita de nuevos chats; sus límites/accesos se comprobarán individualmente. Definir doce especialistas no exige activar a todos en cada entrega. Se conserva su especialidad, contexto y disponibilidad de contribución según dependencias.
++
++### 0.3. Encargos, comunicación e integración
++
++Utilizar el contrato breve del apartado4 y el backlog ya acordado. Cada encargo incluye pregunta/resultado, fuentes exactas y versión, decisiones aprobadas, límites de edición, entregable, dependencias y comprobación. La comunicación al otro núcleo requiere autorización humana vigente; preparar un retorno en archivo no equivale a haberlo enviado. No crear mensajes circulares ni pedir al fundador que reconstruya toda la conversación.
++
++Cada especialista es propietario de sus entregables asignados; G2.03 integra experiencia y G2.06 coherencia visual, evitando que varios agentes sobrescriban el mismo archivo. Lecturas/contrastes independientes pueden avanzar en paralelo. Dependencias como concepto seleccionado→composición→patrones comunes se resuelven en orden, con ciclos cortos de retorno entre especialistas. Un cambio de fuente o dirección invalida solo lo afectado y requiere revisión explícita; no se rehace todo ni se integra silenciosamente.
++
++Git conserva producto/decisiones y su flujo de revisión; GitHub mantiene resultados; Linear conserva encargos enlazados sin migrar o duplicar backlog. Este protocolo, prompts, configuración personal y HANDOFF permanecen fuera de Git, en sus ubicaciones actuales. Los nuevos especialistas parten del mapa/criterios/estados auditados en d71d3de y de los retornos G1/G4; no reabren M0 ni sustituyen compromisos por una plantilla genérica.
++
++### 0.4. Primer ciclo recomendado y criterios de calidad
++
++Primero fijar un brief creativo que reúna investigación existente, diferencias útiles para comensal/restaurante/Valiris, personalidad pretendida, referencias anotadas y restricciones de contenido/mantenimiento. G2.06 lidera alternativas de concepto con G2.07/G2.04 y aportaciones tempranas G2.10/G2.11; G2.01/G2.02/G2.03/G2.05/G2.08/G2.09/G2.12 aportan sobre preguntas concretas según la tarea. G6 coordina posicionamiento y descubrimiento, G5 servicio, G3 viabilidad y G4 contraste independiente. Las áreas siguen presentes en el equipo; la secuencia es de resultados, no un descarte de especialidades.
++
++Contrastar la dirección en una pequeña entrega completa de público y gestión: C1 sin fotos, C2 General/Terraza con nombres largos/formatos/condiciones y C3 carta diaria/idiomas/estados alimentarios. Incluir cambiar precio, publicación elegida y urgencia con borrador ajeno, fallo/resultado incierto y retorno del comensal; llevar una composición al papel. Las alternativas se juzgan por identidad reconocible, jerarquía/lectura, contexto/precio correcto, confianza factual, accesibilidad pertinente, autonomía de mantenimiento y capacidad de reutilizar la dirección sin borrar identidad del restaurante. Yahya decide la dirección creativa; el trabajo continúa con UI/sistema/motion/localización/recursos/impreso/servicio coordinados sobre ella.
++
++Se revisan claridad y oficio visual —tipografía, composición, densidad, proporción, contraste, estados y calidad de recursos— junto a comportamiento/servicio. Cada afirmación de avance indica si es propuesta, estática, interactiva o comprobada. G4 revisa independientemente; autorregresión no la sustituye. La valoración estética no inventa comprensión, velocidad, conversiones o rentabilidad. Costes y condiciones D3 se evalúan ante propuestas concretas; no hay fechas comprometidas.
++
++**Estado de ejecución:** estructura solicitada registrada; reparto e integración operativa preparados por G1. Ningún nuevo núcleo/perfil/configuración/modelo/herramienta, contacto o propuesta visual se activa mediante esta actualización. Próximo resultado: brief creativo y encargos de arranque completos para los doce núcleos bajo esta organización, con su capacidad real comprobada al crearlos. M1 sigue abierto y sus criterios/evidencias originales permanecen.
++
++## Base original conservada — versión0.1
++
++Los perfiles y separación Dirección/Producto de los apartados1/2/9, así como su número histórico en11, ceden ante el estado vigente de0. Las reglas de fuentes, encargos, herramientas, evidencia, seguridad y continuidad compatibles se conservan. Ningún primer encargo histórico ni recomendación de herramienta vuelve a ser activo por aparecer debajo.
+ 
+ ## 1. Seis grupos y perfiles reservables
+ 

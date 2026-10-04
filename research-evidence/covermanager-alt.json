@@ -1,0 +1,2568 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/es/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id180778094"
+          },
+          "name": {
+            "label": "Herlinjc7"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-06-24T09:08:37+02:00"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "im:version": {
+          "label": "3.5.1"
+        },
+        "id": {
+          "label": "14219607018"
+        },
+        "title": {
+          "label": "Mejorar"
+        },
+        "content": {
+          "label": "La app deja bastante que desear, habría que desarrollarla un poco más.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1712944092"
+          },
+          "name": {
+            "label": "Jesus León Montañez"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-03-25T12:53:31+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.4.7"
+        },
+        "id": {
+          "label": "13885140569"
+        },
+        "title": {
+          "label": "Excelente app"
+        },
+        "content": {
+          "label": "Muy útil y con mucha información para la gestión del restaurante",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1679086055"
+          },
+          "name": {
+            "label": "Marta Ivan Funes"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-03-20T09:52:08+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.4.7"
+        },
+        "id": {
+          "label": "13867286111"
+        },
+        "title": {
+          "label": "Mejor App de gestión de reservas"
+        },
+        "content": {
+          "label": "Una app con un gran diseño y muy buen rendimiento. Gran trabajo ;).",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id703241347"
+          },
+          "name": {
+            "label": "Sousapuerta"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-03-19T13:50:03+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.4.7"
+        },
+        "id": {
+          "label": "13864403714"
+        },
+        "title": {
+          "label": "Sencilla y fácil de usar"
+        },
+        "content": {
+          "label": "Me gustan los últimos cambios realizados",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id243985156"
+          },
+          "name": {
+            "label": "juanki90"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2026-03-15T14:05:24+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.4.6"
+        },
+        "id": {
+          "label": "13850690346"
+        },
+        "title": {
+          "label": "Cada vez falla mas"
+        },
+        "content": {
+          "label": "Si no podéis abarcar tanto no abarquéis mas para dar el mal servicio que dais y invertir mas tiempo en desarollo",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1680286770"
+          },
+          "name": {
+            "label": "Antonio Chico Calla"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-09-13T06:03:59+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.4.0"
+        },
+        "id": {
+          "label": "13130941187"
+        },
+        "title": {
+          "label": "Excelente"
+        },
+        "content": {
+          "label": "De verdad que no comprendo la nota tan baja que tienen aquí. Funciona de maravilla, no es costosa para lo que ofrece, sabiendo lo que hay en el mercado y es muy user-friendly. Yo estoy encantado.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id226848584"
+          },
+          "name": {
+            "label": "lesbarquescambrils"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-08-20T00:08:46+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.3.9"
+        },
+        "id": {
+          "label": "13036952415"
+        },
+        "title": {
+          "label": "Súper"
+        },
+        "content": {
+          "label": "Súper",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id16707932"
+          },
+          "name": {
+            "label": "Chefte"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-08-19T12:00:12+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.3.9"
+        },
+        "id": {
+          "label": "13034691580"
+        },
+        "title": {
+          "label": "La App en el móvil va fatal"
+        },
+        "content": {
+          "label": "El programa es bueno, pero la App para el móvil es horrible, lo que da muy poca tranquilidad fuera del restaurante . Además con los últimos cambios, complica buscar clientes por nombre ni por su número de tlfno cuando tienes que hacer una reserva. La verdad que no se entiende que sea una app tan mala",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1418707133"
+          },
+          "name": {
+            "label": "acromode"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-07-04T00:05:46+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.3.4"
+        },
+        "id": {
+          "label": "12849131432"
+        },
+        "title": {
+          "label": "Aplicación decepcionante para un servicio tan importante"
+        },
+        "content": {
+          "label": "Llevo años intentando usar esta aplicación para gestionar las reservas de mi restaurante, y la experiencia no ha hecho más que empeorar. Cada actualización añade más fallos, la fluidez es inexistente y la estabilidad deja mucho que desear. No entiendo cómo una herramienta pensada para trabajar con clientes puede ser tan poco fiable.\n\nAl final, siempre acabo entrando desde la web porque la app simplemente no funciona como debería. En un sector donde la atención al cliente es clave, necesitamos aplicaciones robustas, rápidas y estables. Esta app no cumple con esos mínimos.\n\nSi no van a invertir en mejorarla seriamente, deberían plantearse rediseñarla desde cero o recomendar directamente el uso de la versión web. Porque tal como está, resulta más un estorbo que una ayuda.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id261553113"
+          },
+          "name": {
+            "label": "Xantyelias"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-06-04T17:41:47+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.3.3"
+        },
+        "id": {
+          "label": "12735386769"
+        },
+        "title": {
+          "label": "Mejor solución para reservas"
+        },
+        "content": {
+          "label": "La app de reservas más completa y con el poder de tu base de datos propia",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id44073273"
+          },
+          "name": {
+            "label": "Ziezo"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-06-04T14:53:13+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.3.3"
+        },
+        "id": {
+          "label": "12734816055"
+        },
+        "title": {
+          "label": "Cada día peor"
+        },
+        "content": {
+          "label": "Con la pasta que nos cuesta a los negocios es una vergüenza de aplicación, reservas sin actualizar, problemas con los clientes, base de datos de desastre, cada vez más lenta… vamos, de denuncia.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id178711022"
+          },
+          "name": {
+            "label": "mayer!"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-30T21:38:10+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.3.1"
+        },
+        "id": {
+          "label": "12716688167"
+        },
+        "title": {
+          "label": "Muy mal programada"
+        },
+        "content": {
+          "label": "Encima que hay que actualizarla cada dos/tres días, ahora actualizas y no avanza.. no puedes entrar al central de reservas no se puede trabajar así…. Y ahora sigo… sin app",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id309023650"
+          },
+          "name": {
+            "label": "Retislava"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-29T23:44:43+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.3.1"
+        },
+        "id": {
+          "label": "12713160777"
+        },
+        "title": {
+          "label": "Buena app"
+        },
+        "content": {
+          "label": "Con las últimas mejoras, recomendable",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id160520178"
+          },
+          "name": {
+            "label": "urbina1978"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-23T13:05:40+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.3.0"
+        },
+        "id": {
+          "label": "12688060733"
+        },
+        "title": {
+          "label": "Mala APP"
+        },
+        "content": {
+          "label": "No es normal que tengas que estar cada semana actualizando. Que no se pueda hacer lo mismo que en la versión web y bastante liosas algunas cosas. \nTienen que mejorar mucho esta aplicación. Sin comentar lo que cobran, que no lo merece. Caro y malo",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1619062219"
+          },
+          "name": {
+            "label": "Andres5541"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-10T12:13:33+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.2.9"
+        },
+        "id": {
+          "label": "12639993129"
+        },
+        "title": {
+          "label": "No vale para nada"
+        },
+        "content": {
+          "label": "Es una autentica estupidez que se actualice cada 3 dias y cada actualización sea peor que la anterior",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id559637418"
+          },
+          "name": {
+            "label": "ALGC8"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-08T23:23:37+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.2.8"
+        },
+        "id": {
+          "label": "12634578058"
+        },
+        "title": {
+          "label": "No funciona"
+        },
+        "content": {
+          "label": "Desde que han hecho la última actualización, se queda muy pillado y no funciona, ni para los clientes.\nNo lo recomiendo",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id224375699"
+          },
+          "name": {
+            "label": "Enderil"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-05-07T21:44:20+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.2.7"
+        },
+        "id": {
+          "label": "12630709036"
+        },
+        "title": {
+          "label": "Basura muy cara"
+        },
+        "content": {
+          "label": "Hubo un momento en que CoverManager era la punta de lanza de la innovación en la gestión de reservas. No uso un tiempo verbal en pasado por error.\nLo que yo pago hoy en día por CoverManager no corresponden absoluto con el servicio, que era día de hoy recibo. La app es una auténtica basura. Tanto en móvil como en iPad como PC. Da problemas todo el tiempo. Hay que actualizarlo una vez por semana la maldita aplicación porque no dejan de hacer actualizaciones basura y luego tienen que hacer otras 200 actualizaciones para intentar solucionarlo. \nAntes, tenían atención telefónica y te cogían el teléfono casi siempre. Ahora llamas, no te cogen el teléfono nunca, y ellos te devuelven la llamada cuando le salen las narices. A veces varias horas después.\nEn fin, un barco que está tocado y hundiéndose. Mucho tiene que cambiar para que reste y de momento, pinta no tiene.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1287592210"
+          },
+          "name": {
+            "label": "hfhujfrxh"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-04-22T12:18:25+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.2.6"
+        },
+        "id": {
+          "label": "12572432465"
+        },
+        "title": {
+          "label": "No inicia sesión"
+        },
+        "content": {
+          "label": "Pongo la clave y nada",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id174447280"
+          },
+          "name": {
+            "label": "Catapimba"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-03-26T13:24:50+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.2.2"
+        },
+        "id": {
+          "label": "12466410872"
+        },
+        "title": {
+          "label": "IMPERDONABLE"
+        },
+        "content": {
+          "label": "Que un programa de gestión de reservas de tantos fallos, sobre todo en su aplicación, es imperdonable; sobre todo teniendo en cuenta la fortuna que hay que desembolsar todos los meses.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1767287696"
+          },
+          "name": {
+            "label": "Dinnarex"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-03-19T14:23:24+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.2.1"
+        },
+        "id": {
+          "label": "12438789242"
+        },
+        "title": {
+          "label": "Muy bien"
+        },
+        "content": {
+          "label": "Aunque al principio es complejo, me parece de las mejores plataformas que existen para un local. La aplicación funciona muy bien.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id442479710"
+          },
+          "name": {
+            "label": "Clakero9519"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-03-07T18:59:36+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.1.7"
+        },
+        "id": {
+          "label": "12393436314"
+        },
+        "title": {
+          "label": "No saltan notificaciones"
+        },
+        "content": {
+          "label": "Horrible",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id272241293"
+          },
+          "name": {
+            "label": "Texaswalms"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2025-01-24T14:29:58+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.1.0"
+        },
+        "id": {
+          "label": "12225088014"
+        },
+        "title": {
+          "label": "A peor"
+        },
+        "content": {
+          "label": "Nueva app pésima me voy con otro sistema de reservas harta de comunicar errores a hospitality",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1498512398"
+          },
+          "name": {
+            "label": "LordRiro"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-11-23T12:19:57+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.0.8"
+        },
+        "id": {
+          "label": "11982322801"
+        },
+        "title": {
+          "label": "Última actualización"
+        },
+        "content": {
+          "label": "La última actualización me parece pésima…la interfaz anterior me parecía mil veces mejor. Me parece penoso que hayan quitado el poder actualizar o cambiar los datos de un cliente mientras estas haciendo una reserva, que no estén la lista de reservas y el plano en la misma ventana entre otros mil detalles…. Para esto se paga la app? Para que la empeoren?",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id371450772"
+          },
+          "name": {
+            "label": "Agffgfff"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-11-12T07:54:02+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.0.7"
+        },
+        "id": {
+          "label": "11940750933"
+        },
+        "title": {
+          "label": "Última actualización horrible"
+        },
+        "content": {
+          "label": "En tablet solo funciona vertical\n\nCasi Todas las reservas entran que necesitan trona\n\nHorarios por horas habilitados en días que no hay servicio  (aunque el servicio si aparece como cerrado)\n\nSigue sin poder visualizarse informacion de los clientes y las reservas como duplicadas\n\nAparecen reservas en plano pero no en listado. Al día siguiente no aparecen (tampoco en canceladas)",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id843452947"
+          },
+          "name": {
+            "label": "pol.edu"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-11-01T19:29:04+01:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "3.0.3"
+        },
+        "id": {
+          "label": "11900493856"
+        },
+        "title": {
+          "label": "La actualización es terrible"
+        },
+        "content": {
+          "label": "La nueva actualización es malísima , es para nada ágil, ni rápida , todo está más lento y más complicado ! Malísimo!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id143168984"
+          },
+          "name": {
+            "label": "Viblioteca"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-10-31T15:24:30+01:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "3.0.1"
+        },
+        "id": {
+          "label": "11896001557"
+        },
+        "title": {
+          "label": "Pesimo"
+        },
+        "content": {
+          "label": "Cons",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id638669367"
+          },
+          "name": {
+            "label": "Btollendal"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-10-17T18:49:50+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11844436008"
+        },
+        "title": {
+          "label": "Error en la app a cada 5 días"
+        },
+        "content": {
+          "label": "A cada semana tienes que desinstalar y volver a ponerla (app) porque simplemente para de funcionar… un tiemmmmpo perdido… 🥹",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id137352311"
+          },
+          "name": {
+            "label": "jordimd"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-10-16T23:52:28+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11841692393"
+        },
+        "title": {
+          "label": "Palabrota, palabrota, palabrota. Quedó claro??"
+        },
+        "content": {
+          "label": "Dejo una estrella por que no  puedo dar estrellas negativas.\n\nHasta los huevos de la app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1228226338"
+          },
+          "name": {
+            "label": "keev_97"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-10-04T15:20:25+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11796309579"
+        },
+        "title": {
+          "label": "Horrible, demasiados fallos"
+        },
+        "content": {
+          "label": "Para ser una aplicación tan importante para tu local es una vergüenza que de tantos fallos en incluso no te deje ni abrir la app en muchas ocasiones.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id285226209"
+          },
+          "name": {
+            "label": "Dj Croi"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-09-30T21:40:01+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11782562449"
+        },
+        "title": {
+          "label": "No apta para móviles."
+        },
+        "content": {
+          "label": "No está adaptada para móviles. Deja mucho q desear. Hoy en día se usa más el móvil q un PC y se nota q falta una buena actualización",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1699065113"
+          },
+          "name": {
+            "label": "Martirest"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-09-10T17:00:59+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11709566255"
+        },
+        "title": {
+          "label": "APP MALÍSIMA"
+        },
+        "content": {
+          "label": "La aplicación la descargo casi todos los días porque siempre que voy a entrar no se abre, tiene muchos fallos no sé si podrían solucionar eso pero deberían.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id204757268"
+          },
+          "name": {
+            "label": "Bombo clap"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-09-10T16:10:50+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11709407849"
+        },
+        "title": {
+          "label": "Arreglar el tracking de las reservas por favor"
+        },
+        "content": {
+          "label": "Es irritante no poder hacer bien mi trabajo porque la maldita aplicación se cuelga al intentar entrar en el tracking de algunas reservas. Pagamos un precio alto por un gestor de reservas que no da bien su servicio. Penoso.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1698406760"
+          },
+          "name": {
+            "label": "Hgtcco"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-09-08T17:50:58+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11702753997"
+        },
+        "title": {
+          "label": "La peor App"
+        },
+        "content": {
+          "label": "Es horrible",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id327856192"
+          },
+          "name": {
+            "label": "Subash6969"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-09-06T13:09:45+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11694564875"
+        },
+        "title": {
+          "label": "Crashed en cada 5 dia"
+        },
+        "content": {
+          "label": "En cada no se 5 dia hay que re-install esa app. Y tampoco te contestan",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1155019430"
+          },
+          "name": {
+            "label": "R3M7+"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-08-23T13:06:04+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11643127304"
+        },
+        "title": {
+          "label": "Mala no, lo siguiente."
+        },
+        "content": {
+          "label": "Ni entra si quiera, malísima.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id277073504"
+          },
+          "name": {
+            "label": "Ghostfriend1199"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-08-21T21:26:40+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11636836723"
+        },
+        "title": {
+          "label": "Mal necesario"
+        },
+        "content": {
+          "label": "Es como la quinta vez que la borro y vuelvo a instalar - La app en si está bien, cuando funciona que es una lotería",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id187534006"
+          },
+          "name": {
+            "label": "Tricolor1976"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-08-18T12:58:06+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11623912154"
+        },
+        "title": {
+          "label": "Mala mala mala.."
+        },
+        "content": {
+          "label": "Da muchísimos fallos, no puede ser que no tomen medidas y lo solucionen.\nLa mayoría de las veces ni abre.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "2"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id614156981"
+          },
+          "name": {
+            "label": "Jaimemartinez_z1"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-08-11T04:22:32+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11595845856"
+        },
+        "title": {
+          "label": "ARREGLEN LA APP POR DIOS !"
+        },
+        "content": {
+          "label": "Por favor! Hasta cuando va a dar fallos esta app!! Se sale solo, se refresca la app sola, teniendo 3 zonas diferentes es imposible ir cambiando de mapa sin que se reinicie! QUE HORROR! De verdad INVIERTAN EN MEJORAR LA APP QUE PARA ALGO PAGAMOS !",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id176735515"
+          },
+          "name": {
+            "label": "berdug007"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-07-23T11:39:29+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "2.6.5"
+        },
+        "id": {
+          "label": "11525009659"
+        },
+        "title": {
+          "label": "Siempre con errores"
+        },
+        "content": {
+          "label": "Esta nueva versión ni siquiera se ma abre en iOS",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1033027916"
+          },
+          "name": {
+            "label": "Teresuita"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-05-16T16:39:49+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.4"
+        },
+        "id": {
+          "label": "11273613533"
+        },
+        "title": {
+          "label": "Da muchos fallos"
+        },
+        "content": {
+          "label": "Mi experiencia en iOS es que va lenta y da fallos constantemente. Cero práctica la verdad.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id112114770"
+          },
+          "name": {
+            "label": "Pannec"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2024-04-11T13:38:05+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.6.4"
+        },
+        "id": {
+          "label": "11145674297"
+        },
+        "title": {
+          "label": "En iOS es un desastre"
+        },
+        "content": {
+          "label": "Para acudir a días del mes en calendario es imposible",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id205660274"
+          },
+          "name": {
+            "label": "Atreblo"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-09-30T20:18:17+02:00"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "im:version": {
+          "label": "2.5.3"
+        },
+        "id": {
+          "label": "10424177420"
+        },
+        "title": {
+          "label": "La mejor App de reservas"
+        },
+        "content": {
+          "label": "Covermanager a través de su software y su App dan respuesta a todas las necesidades de tu restaurante y su hospitality es la mejor!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1479496893"
+          },
+          "name": {
+            "label": "Highendreatsurant"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-06-20T23:49:11+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.5.2"
+        },
+        "id": {
+          "label": "10054873865"
+        },
+        "title": {
+          "label": "Very slow and always crashes down"
+        },
+        "content": {
+          "label": "We use this app and its a waste of money for the company as its always crashes down and we always need to delete it and download it again!!!! Imagine in a busy day and the covermanager is not working",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id328126728"
+          },
+          "name": {
+            "label": "Eazzou"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-06-10T21:58:58+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.8"
+        },
+        "id": {
+          "label": "10020190838"
+        },
+        "title": {
+          "label": "No se abre"
+        },
+        "content": {
+          "label": "Fatal ,da muchísimos fallos,  no la recomiendo por lo que cuesta , voy a cambiar de programa de gestión de reservas",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id999894964"
+          },
+          "name": {
+            "label": "PocholoDiaz"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-06-09T01:11:30+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.8"
+        },
+        "id": {
+          "label": "10013630048"
+        },
+        "title": {
+          "label": "MALISIMAAA"
+        },
+        "content": {
+          "label": "Muy mala, antes iba un poco mejor pero desde la actualización va FATAAAAL.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1298035163"
+          },
+          "name": {
+            "label": "Messylove93"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-06-04T11:58:51+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.8"
+        },
+        "id": {
+          "label": "9997812671"
+        },
+        "title": {
+          "label": "Muy mala"
+        },
+        "content": {
+          "label": "Ahora también en iOS no se abre … y uno tiene que pagar para vuestro servicio… muy malo… no descargarla no funciona",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id321375173"
+          },
+          "name": {
+            "label": "Chan-pu"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-06-03T12:58:34+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.8"
+        },
+        "id": {
+          "label": "9994433126"
+        },
+        "title": {
+          "label": "Inutil"
+        },
+        "content": {
+          "label": "Ya ni se abre en ios. Cada vez que actualizan un dallo nuevo añadido a los ya numerosos.\nTipica aplicacion inutil que acabas por desinstalar.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id1331910578"
+          },
+          "name": {
+            "label": "Todo bien gracias por su juego"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-06-02T23:37:34+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.8"
+        },
+        "id": {
+          "label": "9992633993"
+        },
+        "title": {
+          "label": "Fatal"
+        },
+        "content": {
+          "label": "El peor  programa de reservas nunca funciona",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id997639975"
+          },
+          "name": {
+            "label": "parrrrrh"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-05-24T14:51:35+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.8"
+        },
+        "id": {
+          "label": "9960385634"
+        },
+        "title": {
+          "label": "No funciona."
+        },
+        "content": {
+          "label": "En iOS directamente ni se abre.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/es/reviews/id86743021"
+          },
+          "name": {
+            "label": "Piinxo"
+          },
+          "label": ""
+        },
+        "updated": {
+          "label": "2023-05-15T00:50:55+02:00"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "im:version": {
+          "label": "2.4.5"
+        },
+        "id": {
+          "label": "9927563722"
+        },
+        "title": {
+          "label": "Paupérrimo funcionamiento"
+        },
+        "content": {
+          "label": "Inestable y con muchos fallos. Pese a constantes actualizaciones sigue sin tener fluidez.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/es/review?id=1289393829&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Aplicación"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      }
+    ],
+    "updated": {
+      "label": "2026-09-28T22:08:48+02:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Reseñas de los clientes"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=es&id=651"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/es/rss/customerreviews/id=1289393829/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "first",
+          "href": "https://itunes.apple.com/es/rss/customerreviews/page=1/id=1289393829/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1289393829/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "last",
+          "href": "https://itunes.apple.com/es/rss/customerreviews/page=2/id=1289393829/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1289393829/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "previous",
+          "href": "https://itunes.apple.com/es/rss/customerreviews/page=1/id=1289393829/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1289393829/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "next",
+          "href": "https://itunes.apple.com/es/rss/customerreviews/page=2/id=1289393829/sortby=mostrecent/xml?urlDesc=/customerreviews/id=1289393829/sortBy=mostRecent/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/es/rss/customerreviews/id=1289393829/sortBy=mostRecent/json"
+    }
+  }
+}

@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valiris — Definición funcional · Storefront + Digital Menu</title>
+<meta name="description" content="Definición funcional del módulo Valiris Storefront + Digital Menu, representada como una carta: presencia, oferta, consulta, publicación, idiomas, distribución y medición.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Spline+Sans+Mono:wght@400..600&display=swap" rel="stylesheet">
+<style>
+/* ————————————————————————————————————————————————
+   VALIRIS · definición funcional representada como carta
+   Una sola fuente de contenido, varias presentaciones.
+   ———————————————————————————————————————————————— */
+
+:root{
+  --paper:#f5efe2;
+  --paper-2:#efe7d4;
+  --ink:#211c13;
+  --soft:#6b6252;
+  --line:#d9cfba;
+  --line-2:#c4b795;
+  --carmine:#8e2c1c;
+  --ochre:#9a6b00;
+  --green:#3f5d46;
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
+  --disp:"Fraunces", "Newsreader", Georgia, serif;
+  --mono:"Spline Sans Mono", "Consolas", monospace;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:17.5px;
+  line-height:1.62;
+  font-optical-sizing:auto;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--carmine);color:var(--paper)}
+a{color:var(--carmine);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--ink)}
+p{max-width:68ch}
+strong{font-weight:600}
+em{font-style:italic}
+
+/* ——— marcas de tratamiento (iconos svg en línea) ——— */
+.mk{
+  width:15px;height:15px;display:inline-block;flex:none;
+  background-repeat:no-repeat;background-size:contain;background-position:center;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact;
+}
+.mk-rec{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.4' fill='%238e2c1c'/%3E%3C/svg%3E")}
+.mk-conf{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 1.6A6.4 6.4 0 0 0 8 14.4Z' fill='%239a6b00'/%3E%3Ccircle cx='8' cy='8' r='6.4' fill='none' stroke='%23211c13' stroke-width='1.4'/%3E%3C/svg%3E")}
+.mk-op{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='5.6' fill='none' stroke='%23211c13' stroke-width='1.4'/%3E%3C/svg%3E")}
+.mk-con{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='5.7' cy='8' r='4.2' fill='none' stroke='%233f5d46' stroke-width='1.4'/%3E%3Ccircle cx='10.3' cy='8' r='4.2' fill='none' stroke='%233f5d46' stroke-width='1.4'/%3E%3C/svg%3E")}
+.mk-mod{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 8h10M9 4.6 12.4 8 9 11.4' fill='none' stroke='%23211c13' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+
+/* ——— barra de progreso de lectura ——— */
+#progress{position:fixed;top:0;left:0;height:3px;width:100%;z-index:90;background:transparent;pointer-events:none}
+#progress i{display:block;height:100%;width:100%;background:var(--carmine);transform-origin:0 50%;transform:scaleX(0)}
+
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);padding:10px 16px;font-family:var(--mono);font-size:12px;z-index:100}
+.skip:focus{left:12px;top:12px}
+
+/* ———————————————————— PORTADA ———————————————————— */
+.cover{
+  min-height:96vh;display:flex;align-items:center;justify-content:center;
+  padding:clamp(20px,4vw,56px);
+}
+.cover-frame{
+  width:min(880px,100%);text-align:center;
+  border:1px solid var(--ink);padding:clamp(34px,7vw,84px) clamp(20px,6vw,72px);
+  position:relative;
+}
+.cover-frame::before{
+  content:"";position:absolute;inset:7px;border:1px solid var(--line-2);pointer-events:none;
+}
+.cover-mono{margin-bottom:26px}
+.cover-kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--soft);margin-bottom:18px;
+}
+.cover h1{
+  font-family:var(--disp);font-weight:420;
+  font-size:clamp(52px,12vw,128px);
+  letter-spacing:.14em;line-height:1;margin-right:-.14em;
+}
+.cover-sub{
+  font-family:var(--disp);font-style:italic;font-weight:430;
+  font-size:clamp(19px,3.2vw,27px);margin-top:14px;color:var(--ink);
+}
+.cover-rule{
+  width:64px;height:1px;background:var(--ink);margin:30px auto;border:0;position:relative;
+}
+.cover-rule::after{
+  content:"✦";position:absolute;top:-11px;left:50%;transform:translateX(-50%);
+  background:var(--paper);padding:0 10px;font-size:12px;color:var(--carmine);
+}
+.cover-meta{
+  font-family:var(--mono);font-size:11.5px;line-height:2;letter-spacing:.06em;
+  color:var(--soft);text-transform:uppercase;
+}
+.cover-meta b{color:var(--ink);font-weight:600}
+.epigraph{
+  margin:34px auto 0;max-width:52ch;font-style:italic;
+  font-size:clamp(17px,2.4vw,20px);line-height:1.7;color:var(--ink);
+}
+.epigraph::before,.epigraph::after{content:" — ";color:var(--carmine);font-style:normal}
+.cover-cue{
+  display:inline-block;margin-top:40px;font-family:var(--mono);font-size:10.5px;
+  letter-spacing:.28em;text-transform:uppercase;color:var(--soft);text-decoration:none;
+}
+.cover-cue:hover{color:var(--carmine)}
+
+/* ———————————————————— LAYOUT ———————————————————— */
+.layout{
+  display:grid;grid-template-columns:236px minmax(0,1fr);
+  max-width:1240px;margin:0 auto;gap:clamp(28px,4vw,64px);
+  padding:0 clamp(18px,3.5vw,44px) 0 0;
+}
+main{min-width:0;padding-bottom:40px}
+
+/* ——— índice lateral ——— */
+.rail{position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto;padding:44px 0 30px 6px}
+.rail-title{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--soft);padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:10px;
+}
+.rail ol{list-style:none}
+.rail a{
+  display:flex;gap:10px;align-items:baseline;padding:4.5px 8px 4.5px 0;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;
+  color:var(--soft);text-decoration:none;border-left:2px solid transparent;padding-left:8px;
+}
+.rail a i{font-style:normal;font-size:10px;color:var(--line-2);width:18px;flex:none}
+.rail a:hover{color:var(--ink)}
+.rail a.active{color:var(--carmine);border-left-color:var(--carmine)}
+.rail a.active i{color:var(--carmine)}
+.rail-note{font-family:var(--mono);font-size:9.5px;color:var(--line-2);margin-top:14px;letter-spacing:.06em;line-height:1.7;padding-left:10px}
+
+/* ——— barra de filtro ——— */
+.filterbar{
+  position:sticky;top:0;z-index:60;
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+  margin:0 0 8px;padding:10px 0;
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.filterbar .flabel{
+  font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--soft);margin-right:2px;
+}
+.chip{
+  display:inline-flex;align-items:center;gap:7px;cursor:pointer;
+  font-family:var(--mono);font-size:11px;letter-spacing:.04em;
+  color:var(--ink);background:transparent;border:1px solid var(--line-2);
+  border-radius:999px;padding:5px 12px;transition:all .15s ease;
+}
+.chip b{font-weight:400;color:var(--soft);font-size:10px}
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip[aria-pressed="true"] b{color:var(--paper);opacity:.66}
+.fcount{
+  margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--soft);letter-spacing:.05em;
+}
+.printbtn{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  background:transparent;border:1px solid var(--line-2);color:var(--soft);
+  padding:5px 12px;border-radius:999px;cursor:pointer;
+}
+.printbtn:hover{color:var(--carmine);border-color:var(--carmine)}
+
+/* ———————————————————— SECCIONES ———————————————————— */
+section{padding:clamp(48px,8vw,92px) 0 clamp(40px,6vw,72px);border-top:1px solid var(--line)}
+section:first-of-type{border-top:0;padding-top:clamp(36px,5vw,60px)}
+.kicker{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--carmine);margin-bottom:14px;
+}
+.kicker .dim{color:var(--soft)}
+h2{
+  font-family:var(--disp);font-weight:520;font-size:clamp(27px,4.4vw,40px);
+  line-height:1.14;letter-spacing:-.005em;margin-bottom:22px;max-width:22ch;
+}
+.lead{font-size:clamp(17.5px,2vw,19.5px);color:var(--ink)}
+section > p, .prose p{margin-bottom:1.1em;max-width:68ch}
+.prose{margin-top:8px}
+
+/* letra capitular en la apertura de cada bloque */
+.dropcap::first-letter{
+  font-family:var(--disp);font-weight:500;color:var(--carmine);
+  float:left;font-size:3.45em;line-height:.82;padding:.08em .12em 0 0;
+}
+
+/* cita destacada */
+.pull{
+  font-family:var(--disp);font-style:italic;font-weight:430;
+  font-size:clamp(19px,2.8vw,24px);line-height:1.42;color:var(--carmine);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:26px 8px;margin:34px 0;max-width:56ch;
+}
+
+/* subsecciones en margen (reglas, decisiones…) */
+.note{border-left:2px solid var(--line-2);padding-left:clamp(16px,2.6vw,26px);margin:38px 0 8px}
+.note-tag{
+  display:flex;align-items:center;gap:12px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--ink);margin-bottom:14px;
+}
+.note-tag::after{content:"";height:1px;background:var(--line);flex:1;min-width:30px}
+.note p{margin-bottom:1em}
+
+/* ——— leyenda de tratamientos ——— */
+.legend{list-style:none;margin:30px 0 8px;border-top:1px solid var(--line)}
+.legend button{
+  width:100%;display:grid;grid-template-columns:30px 148px 1fr;gap:14px;align-items:baseline;
+  background:none;border:0;border-bottom:1px solid var(--line);
+  padding:15px 4px;text-align:left;cursor:pointer;font-family:var(--serif);
+}
+.legend button:hover{background:var(--paper-2)}
+.legend .lg-name{font-family:var(--disp);font-weight:560;font-size:17px;display:flex;align-items:center;gap:9px}
+.legend .lg-def{font-size:15px;color:var(--soft);line-height:1.55;font-style:italic}
+
+/* ——— placa índice: las 72 capacidades ——— */
+.matrix{margin:42px 0 6px}
+.matrix-row{display:flex;align-items:center;gap:14px;padding:9px 0;border-bottom:1px dotted var(--line)}
+.matrix-row .m-label{
+  font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--soft);width:158px;flex:none;
+}
+.matrix-dots{display:flex;flex-wrap:wrap;gap:6px}
+.dot{
+  width:11px;height:11px;border-radius:50%;display:inline-block;flex:none;
+  transition:opacity .2s ease, transform .15s ease;
+}
+.dot.d-rec{background:var(--carmine)}
+.dot.d-conf{background:var(--ochre)}
+.dot.d-op{background:transparent;border:1.5px solid var(--ink)}
+.dot.d-con{background:var(--green)}
+a.dot:hover{transform:scale(1.45)}
+.matrix-note,.figure-note{
+  font-family:var(--mono);font-size:10px;color:var(--soft);letter-spacing:.05em;
+  line-height:1.8;margin-top:14px;max-width:70ch;
+}
+.matrix-total{
+  font-family:var(--disp);font-style:italic;font-size:16px;color:var(--soft);
+  margin-top:8px;
+}
+
+/* ———————————————————— BLOQUES ———————————————————— */
+.block-head{margin-bottom:30px}
+.dist{display:flex;gap:3px;height:5px;max-width:340px;margin-top:18px}
+.dist i{display:block;height:100%;border-radius:2px}
+.dist .s-rec{background:var(--carmine)}
+.dist .s-conf{background:var(--ochre)}
+.dist .s-op{background:transparent;border:1px solid var(--ink)}
+.dist .s-con{background:var(--green)}
+.dist-legend{
+  font-family:var(--mono);font-size:9.5px;color:var(--soft);letter-spacing:.05em;margin-top:8px;
+}
+
+/* capacidades estilo carta: nombre ······ marca */
+.caps{margin:30px 0 6px;border-top:1px solid var(--line-2)}
+.cap{
+  padding:17px 0 15px;border-bottom:1px solid var(--line);
+  transition:opacity .22s ease;break-inside:avoid;
+}
+.cap-top{display:flex;align-items:baseline;gap:10px}
+.cap-name{
+  font-family:var(--disp);font-weight:560;font-size:18.5px;letter-spacing:.002em;
+}
+.lead-dots{flex:1;border-bottom:2px dotted var(--line-2);transform:translateY(-4px);min-width:24px}
+.cap-t{display:flex;align-items:center;gap:8px;flex:none;max-width:46%;justify-content:flex-end}
+.cap-t .t-label{
+  font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--soft);text-align:right;line-height:1.5;
+}
+.cap-desc{font-size:15.5px;color:var(--soft);line-height:1.58;margin-top:6px;max-width:64ch;font-style:italic}
+
+/* filtrado */
+body[data-f="rec"] .cap:not([data-t="rec"]),
+body[data-f="conf"] .cap:not([data-t="conf"]),
+body[data-f="op"] .cap:not([data-t="op"]),
+body[data-f="con"] .cap:not([data-t="con"]){opacity:.16}
+body[data-f="rec"] .dot:not(.d-rec),
+body[data-f="conf"] .dot:not(.d-conf),
+body[data-f="op"] .dot:not(.d-op),
+body[data-f="con"] .dot:not(.d-con){opacity:.1}
+body[data-f="rec"] .dist i:not(.s-rec),
+body[data-f="conf"] .dist i:not(.s-conf),
+body[data-f="op"] .dist i:not(.s-op),
+body[data-f="con"] .dist i:not(.s-con){opacity:.15}
+
+/* ——— libros mayores (entrega, investigación, límites) ——— */
+.ledger{border-top:2px solid var(--ink);margin-top:30px}
+.ledger-head,.ledger-row{
+  display:grid;grid-template-columns:190px 1fr 1fr;gap:clamp(16px,3vw,40px);
+}
+.ledger-head{
+  font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--soft);padding:12px 0 10px;border-bottom:1px solid var(--line);
+}
+.ledger-row{padding:22px 0;border-bottom:1px solid var(--line);break-inside:avoid}
+.ledger-row h3,.ledger-row .lg-sit{
+  font-family:var(--disp);font-weight:560;font-size:18px;line-height:1.3;
+}
+.ledger-row p{font-size:15.5px;color:var(--soft);line-height:1.58;max-width:none}
+.ledger-row .cl{
+  display:block;font-family:var(--mono);font-style:normal;font-size:9.5px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--carmine);margin-bottom:6px;
+}
+.ref-src{font-family:var(--mono);font-size:10px;color:var(--soft);letter-spacing:.06em;display:block;margin-top:6px;text-transform:uppercase}
+
+/* límites: resuelve / continúa */
+.limit-row .cell-res{border-left:2px solid var(--green);padding-left:14px}
+.limit-row .cell-con{border-left:2px solid var(--carmine);padding-left:14px}
+
+/* ——— escenarios ——— */
+.esc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:0 clamp(28px,4vw,56px);margin-top:34px;border-top:2px solid var(--ink)}
+.esc{padding:22px 0 26px;border-bottom:1px solid var(--line);break-inside:avoid}
+.esc-num{
+  font-family:var(--mono);font-size:10.5px;color:var(--carmine);letter-spacing:.2em;
+}
+.esc h3{font-family:var(--disp);font-weight:560;font-size:18.5px;line-height:1.3;margin:7px 0 14px}
+.esc-line{display:flex;gap:10px;font-size:15px;line-height:1.55;margin-bottom:9px}
+.esc-line .sg{font-family:var(--mono);flex:none;font-size:13px;line-height:1.7}
+.esc-line.ok{color:var(--ink)}
+.esc-line.ok .sg{color:var(--green)}
+.esc-line.ko{color:var(--soft)}
+.esc-line.ko .sg{color:var(--carmine)}
+.esc-line b{
+  font-family:var(--mono);font-weight:500;font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;display:block;margin-bottom:2px;color:var(--soft);
+}
+.warn{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ochre);border:1px solid var(--line-2);display:inline-block;
+  padding:7px 14px;margin-top:8px;
+}
+
+/* ——— calidad transversal ——— */
+.checks{columns:2;column-gap:clamp(28px,4vw,56px);margin-top:26px;border-top:2px solid var(--ink);padding-top:8px}
+.checks li{
+  list-style:none;break-inside:avoid;margin:0;padding:15px 0 13px;border-bottom:1px solid var(--line);
+  font-size:15.5px;line-height:1.6;color:var(--ink);text-indent:-1.2em;padding-left:1.2em;
+}
+.checks li::before{content:"— ";color:var(--carmine)}
+
+/* ——— compromisos ——— */
+.commitments{margin-top:34px;border-top:2px solid var(--ink)}
+.commit{
+  display:grid;grid-template-columns:74px 1fr;gap:clamp(14px,3vw,34px);align-items:baseline;
+  padding:26px 0;border-bottom:1px solid var(--line);
+}
+.commit .cn{
+  font-family:var(--disp);font-style:italic;font-size:clamp(30px,4vw,44px);
+  color:var(--carmine);line-height:1;
+}
+.commit p{font-family:var(--disp);font-weight:480;font-size:clamp(19px,2.6vw,24px);line-height:1.42;max-width:30ch}
+.contrast-list{margin-top:34px;border-top:1px solid var(--line);padding-top:20px}
+.contrast-list h3{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--soft);margin-bottom:16px;font-weight:500;
+}
+.contrast-list ol{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px 40px}
+.contrast-list li{
+  font-family:var(--disp);font-style:italic;font-size:17.5px;line-height:1.5;
+  border-left:2px solid var(--line-2);padding-left:14px;
+}
+.contrast-list li i{font-family:var(--mono);font-style:normal;font-size:10px;color:var(--carmine);display:block;letter-spacing:.2em;margin-bottom:4px}
+
+/* ——— evidencia ——— */
+.src{border-top:2px solid var(--ink);margin-top:30px}
+.src-row{display:grid;grid-template-columns:56px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.src-row .sid{font-family:var(--mono);font-size:11px;color:var(--carmine);letter-spacing:.1em;padding-top:3px}
+.src-row p{font-size:15.5px;color:var(--soft);line-height:1.6;max-width:none}
+.src-row a{font-style:italic}
+.prev-docs{margin-top:34px}
+.prev-docs h3,.status h3{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--soft);margin-bottom:14px;font-weight:500;
+}
+.prev-docs li{
+  list-style:none;padding:11px 0 11px 0;border-bottom:1px dotted var(--line);
+  font-size:15.5px;color:var(--soft);text-indent:-1.2em;padding-left:1.2em;
+}
+.prev-docs li::before{content:"· ";color:var(--carmine);font-weight:700}
+.status{margin-top:42px}
+.status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.status-cell{background:var(--paper);padding:22px 20px 24px}
+.status-cell .st-head{display:flex;align-items:center;gap:9px;margin-bottom:14px}
+.status-cell .st-head span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;line-height:1.5}
+.status-cell ul{list-style:none}
+.status-cell li{
+  font-size:14.5px;line-height:1.5;color:var(--soft);padding:5px 0;
+  border-bottom:1px dotted var(--line);
+}
+.status-cell li:last-child{border-bottom:0}
+.status-cell.st-agree .st-head span{color:var(--carmine)}
+.status-cell.st-rec .st-head span{color:var(--ochre)}
+.status-cell.st-open .st-head span{color:var(--soft)}
+.status-cell.st-no .st-head span{color:var(--ink)}
+
+/* ——— colofón ——— */
+footer.colophon{
+  border-top:1px solid var(--ink);margin-top:20px;padding:40px 0 60px;text-align:center;
+}
+.colophon .orn{color:var(--carmine);font-size:13px;letter-spacing:.6em;margin-bottom:20px}
+.colophon p{max-width:none;font-size:14.5px;color:var(--soft);font-style:italic;line-height:1.8}
+.colophon .c-meta{
+  font-family:var(--mono);font-style:normal;font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;margin-top:18px;color:var(--line-2);
+}
+
+/* ———————————————————— RESPONSIVE ———————————————————— */
+@media (max-width:1180px){
+  .layout{grid-template-columns:1fr;padding:0 clamp(16px,4vw,40px)}
+  .rail{display:none}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .ledger-head{display:none}
+  .ledger-row{grid-template-columns:1fr;gap:14px;padding:20px 0}
+  .ledger-row .cl{display:block}
+  .cap-t{max-width:52%}
+  .checks{columns:1}
+  .commit{grid-template-columns:1fr;gap:6px}
+  .matrix-row{flex-wrap:wrap}
+  .matrix-row .m-label{width:100%}
+  .status-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:520px){
+  .cap-top{flex-wrap:wrap}
+  .lead-dots{display:none}
+  .cap-t{max-width:100%;justify-content:flex-start;margin-top:6px}
+  .status-grid{grid-template-columns:1fr}
+  .legend button{grid-template-columns:26px 1fr;gap:8px}
+  .legend .lg-def{grid-column:2}
+}
+
+/* ———————————————————— IMPRENTA ———————————————————— */
+@media print{
+  :root{--paper:#fff;--paper-2:#fff;--line:#bbb;--line-2:#999;--soft:#444}
+  body{font-size:11pt;background:#fff}
+  #progress,.filterbar,.rail,.cover-cue,.skip,.printbtn{display:none !important}
+  .layout{display:block;max-width:none;padding:0;margin:0}
+  main{padding:0}
+  .cover{min-height:auto;padding:24pt}
+  section{break-before:page;padding:0 0 10pt}
+  section:first-of-type{break-before:auto}
+  .cap,.esc,.ledger-row,.status-cell,.src-row,.commit{break-inside:avoid}
+  .pull{break-inside:avoid}
+  a{color:inherit;text-decoration:none}
+  .dot{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none !important}
+}
+</style>
+</head>
+<body data-f="">
+<div id="progress" aria-hidden="true"><i></i></div>
+<a class="skip" href="#s1">Saltar al contenido</a>
+
+<!-- ——————————————— PORTADA ——————————————— -->
+<header class="cover" id="portada">
+  <div class="cover-frame">
+    <div class="cover-mono" aria-hidden="true">
+      <svg width="76" height="76" viewBox="0 0 76 76">
+        <circle cx="38" cy="38" r="36" fill="none" stroke="#211c13" stroke-width="1"/>
+        <circle cx="38" cy="38" r="30.5" fill="none" stroke="#c4b795" stroke-width="1"/>
+        <text x="38" y="48" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-style="italic" font-size="30" fill="#211c13">V</text>
+      </svg>
+    </div>
+    <p class="cover-kicker">Presencia y carta &nbsp;·&nbsp; conocer el local &nbsp;·&nbsp; consultar qué tomar</p>
+    <h1>VALIRIS</h1>
+    <p class="cover-sub">Definición funcional de Storefront + Digital&nbsp;Menu</p>
+    <hr class="cover-rule">
+    <p class="cover-meta">
+      <b>30 de septiembre de 2026</b><br>
+      Propuesta de producto para discutir — no especificación de software ni compromiso de entrega
+    </p>
+    <p class="epigraph">una presencia con personalidad, una oferta comprensible y actualizada, y herramientas que permitan al restaurante sostener ambas sin trabajo duplicado.</p>
+    <br>
+    <a class="cover-cue" href="#s1">▾ &nbsp;se sirve a continuación</a>
+  </div>
+</header>
+
+<div class="layout">
+
+<!-- ——————————————— ÍNDICE LATERAL ——————————————— -->
+<nav class="rail" aria-label="Índice del documento">
+  <p class="rail-title">La carta</p>
+  <ol>
+    <li><a href="#s1"><i>01</i>Dirección acordada</a></li>
+    <li><a href="#s2"><i>02</i>Qué significa completo</a></li>
+    <li><a href="#s3"><i>03</i>B1 · Presencia e identidad</a></li>
+    <li><a href="#s4"><i>04</i>B2 · Oferta y contexto</a></li>
+    <li><a href="#s5"><i>05</i>B3 · Encontrar y elegir</a></li>
+    <li><a href="#s6"><i>06</i>B4 · Preparar y publicar</a></li>
+    <li><a href="#s7"><i>07</i>B5 · Idiomas y confianza</a></li>
+    <li><a href="#s8"><i>08</i>B6 · Acceso y distribución</a></li>
+    <li><a href="#s9"><i>09</i>B7 · Medición y oferta</a></li>
+    <li><a href="#s10"><i>10</i>Modelo de entrega</a></li>
+    <li><a href="#s11"><i>11</i>Límites y conexiones</a></li>
+    <li><a href="#s12"><i>12</i>Calidad transversal</a></li>
+    <li><a href="#s13"><i>13</i>Escenarios</a></li>
+    <li><a href="#s14"><i>14</i>Investigación</a></li>
+    <li><a href="#s15"><i>15</i>Discusión</a></li>
+    <li><a href="#s16"><i>16</i>Evidencia</a></li>
+  </ol>
+  <p class="rail-note">B1–B7: los siete bloques de la definición. Las marcas ● ◐ ○ indican el tratamiento de cada capacidad.</p>
+</nav>
+
+<main id="main">
+
+  <!-- ——— barra de vista / filtro ——— -->
+  <div class="filterbar" role="group" aria-label="Filtrar capacidades por tratamiento">
+    <span class="flabel">Vista</span>
+    <button class="chip" data-f="" aria-pressed="true">Todas <b id="c-all"></b></button>
+    <button class="chip" data-f="rec" aria-pressed="false"><i class="mk mk-rec"></i>Recomendada <b id="c-rec"></b></button>
+    <button class="chip" data-f="conf" aria-pressed="false"><i class="mk mk-conf"></i>Configurable <b id="c-conf"></b></button>
+    <button class="chip" data-f="op" aria-pressed="false"><i class="mk mk-op"></i>Oportunidad <b id="c-op"></b></button>
+    <button class="chip" data-f="con" aria-pressed="false"><i class="mk mk-con"></i>Conectada <b id="c-con"></b></button>
+    <span class="fcount" id="fcount" aria-live="polite"></span>
+    <button class="printbtn" id="printbtn" type="button">Imprimir</button>
+  </div>
+
+  <!-- ——————————————— 1 · DIRECCIÓN ACORDADA ——————————————— -->
+  <section id="s1" data-short="Dirección acordada">
+    <p class="kicker">Sección 01 <span class="dim">· Prólogo</span></p>
+    <h2>Dirección acordada y cambio de enfoque</h2>
+    <div class="prose">
+      <p>El módulo representa públicamente al restaurante y permite entender su oferta antes y durante la visita. El QR es una forma de entrada, junto al enlace, la web del restaurante y sus canales públicos. La carta y la presencia comparten información, pero sus entradas responden a intenciones distintas: conocer el local y consultar qué tomar.</p>
+      <p>El usuario ha aceptado desarrollar siete direcciones: identidad, contexto de la oferta, consulta, automatización, idiomas y confianza, distribución y medición. Ha precisado un modelo comercial de <strong>plantillas base y diseño propio realizado por el estudio, también de pago</strong>. Tiene capacidad para abordar funciones ambiciosas y no quiere que se descarten por su dificultad técnica.</p>
+      <p>Esta propuesta sustituye las restricciones de amplitud del cierre anterior. Importación, búsqueda, filtros, programación y formatos múltiples forman parte de la definición cuando resuelven una situación concreta. El documento anterior se conserva como razonamiento histórico, no como techo funcional.</p>
+      <p>La aprobación de estas direcciones no significa que se hayan aprobado todos los detalles siguientes. Las capacidades y comportamientos que aquí se concretan son recomendaciones del diseñador. Sus beneficios son esperados; no proceden de pruebas de Valiris con clientes.</p>
+    </div>
+    <blockquote class="pull">La carta y la presencia comparten información, pero sus entradas responden a intenciones distintas: conocer el local y consultar qué tomar.</blockquote>
+  </section>
+
+  <!-- ——————————————— 2 · QUÉ SIGNIFICA COMPLETO ——————————————— -->
+  <section id="s2" data-short="Qué significa completo">
+    <p class="kicker">Sección 02 <span class="dim">· Cómo leer esta carta</span></p>
+    <h2>Qué significa completo</h2>
+    <div class="prose">
+      <p class="lead">Completo significa cubrir el recorrido de principio a fin: preparar contenido, revisarlo, publicarlo, consultarlo, actualizarlo, distribuirlo, corregir errores y conservarlo al terminar el servicio. La amplitud se adapta a cada negocio; no exige mostrarle todas las opciones a cada comensal ni configurar todas las capacidades a cada operador.</p>
+      <p>Una cafetería con una carta estable puede utilizar el mismo producto que un restaurante con menú diario y terraza, con una experiencia de gestión más corta. No estamos definiendo dos productos ni una versión de calidad inferior para el primero.</p>
+    </div>
+
+    <ul class="legend" id="legend">
+      <li><button type="button" data-f="rec">
+        <i class="mk mk-rec" aria-hidden="true"></i>
+        <span class="lg-name">Recomendada</span>
+        <span class="lg-def">Capacidad que considero parte de la oferta funcional del módulo. Su diseño concreto sigue abierto.</span>
+      </button></li>
+      <li><button type="button" data-f="conf">
+        <i class="mk mk-conf" aria-hidden="true"></i>
+        <span class="lg-name">Configurable</span>
+        <span class="lg-def">Capacidad disponible que se activa cuando la oferta o el funcionamiento del establecimiento lo requieren.</span>
+      </button></li>
+      <li><button type="button" data-f="op">
+        <i class="mk mk-op" aria-hidden="true"></i>
+        <span class="lg-name">Oportunidad</span>
+        <span class="lg-def">Idea con una utilidad plausible que todavía requiere un caso convincente antes de incorporarse como compromiso.</span>
+      </button></li>
+      <li><button type="button" data-f="con">
+        <i class="mk mk-con" aria-hidden="true"></i>
+        <span class="lg-name">Conectada</span>
+        <span class="lg-def">Capacidad que necesita una relación efectiva con otro módulo, proveedor o canal, además de autorización y datos adecuados.</span>
+      </button></li>
+      <li><div style="display:grid;grid-template-columns:30px 148px 1fr;gap:14px;align-items:baseline;padding:15px 4px">
+        <i class="mk mk-mod" aria-hidden="true"></i>
+        <span class="lg-name">Otro módulo</span>
+        <span class="lg-def">Trabajo cuya ejecución pertenece a reservas, pedidos, pagos, TPV, reparto, facturación u otra área de Valiris.</span>
+      </div></li>
+    </ul>
+    <div class="prose">
+      <p>Estos tratamientos no son fases de ingeniería ni equivalen a «ahora / nunca». Permiten decidir con claridad sin convertir una lista extensa en una interfaz extensa.</p>
+    </div>
+
+    <div class="matrix" id="matrix" aria-label="Visión general de todas las capacidades por bloque y tratamiento">
+      <p class="matrix-total" id="matrix-total"></p>
+      <!-- filas generadas por secuencia -->
+    </div>
+    <p class="matrix-note">Cada punto es una capacidad; el color indica su tratamiento y el punto enlaza con su entrada en la carta. Las capacidades con matiz (p.&nbsp;ej. «Configurable / conectada») se agrupan aquí por su primer tratamiento.</p>
+  </section>
+
+  <!-- ——————————————— 3 · BLOQUE 1 ——————————————— -->
+  <section id="s3" data-short="B1 · Presencia e identidad">
+    <header class="block-head">
+      <p class="kicker">Sección 03 <span class="dim">·</span> Bloque 1</p>
+      <h2>Presencia, identidad y personalización</h2>
+      <div class="dist" data-dist="1"></div>
+      <p class="dist-legend" data-dist-legend="1"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">El visitante debe reconocer el restaurante, entender su propuesta y preparar una visita. El comprador debe poder elegir cómo quiere estar representado y cuánto trabajo quiere delegar en el estudio.</p>
+
+    <div class="caps" data-block="1" data-label="B1 · Presencia">
+      <article class="cap" id="cap-1" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Página pública del local</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Nombre, concepto, presentación y acceso claro a la oferta y a la información de visita.</p>
+      </article>
+      <article class="cap" id="cap-2" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Información para visitar</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Dirección, mapa, contacto, horarios del local y de cocina, cierres excepcionales y condiciones relevantes.</p>
+      </article>
+      <article class="cap" id="cap-3" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Atributos del establecimiento</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Terraza, acceso, opciones para grupos u otras condiciones declaradas por el negocio; información concreta cuando la etiqueta resulte ambigua.</p>
+      </article>
+      <article class="cap" id="cap-4" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Historia y contenido editorial</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Equipo, origen, producto, proveedores, noticias o eventos informativos cuando expresen una propuesta real.</p>
+      </article>
+      <article class="cap" id="cap-5" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Identidad visual</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Marca, tipografía, composición, tono, fotografías y recursos propios en presencia y carta.</p>
+      </article>
+      <article class="cap" id="cap-6" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Plantillas base</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Composiciones cuidadas, utilizables con materiales modestos y con fotografías selectivas o sin fotografías.</p>
+      </article>
+      <article class="cap" id="cap-7" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Diseño propio por el estudio</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Experiencia y dirección visual contratadas, con alcance y revisiones definidos; gestión cotidiana independiente del diseñador.</p>
+      </article>
+      <article class="cap" id="cap-8" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Dominio, vista al compartir y contenido descubrible</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada; dominio propio según oferta</span></span></div>
+        <p class="cap-desc">Dirección reconocible, títulos, información pública y presentación de enlaces coherentes. Favorecer descubrimiento sin garantizar posiciones en buscadores.</p>
+      </article>
+      <article class="cap" id="cap-9" data-t="con">
+        <div class="cap-top"><h4 class="cap-name">Conexión con reservas</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-con"></i><span class="t-label">Conectada</span></span></div>
+        <p class="cap-desc">Acceso contextual a la experiencia de reserva, conservando la identidad del local.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Decisión de producto que recomiendo</p>
+      <p>La personalización debe cambiar la expresión del restaurante y puede cambiar la composición de su experiencia. El catálogo, la publicación, las traducciones y los cambios habituales deberían seguir utilizándose de manera común. Un restaurante con diseño propio debe poder corregir un precio por sí mismo.</p>
+      <p>No se ha acordado un editor libre para que el dueño diseñe cada pantalla. Es una posibilidad distinta del servicio de diseño del estudio y necesitaría una demanda específica. Recomiendo ofrecer al operador controles útiles de contenido y marca, mientras el estudio realiza la composición a medida.</p>
+      <p>La lectura, los precios comprensibles y el acceso al contenido son calidad básica en ambas vías. El servicio propio cobra trabajo de diseño y representación singular, no la eliminación de fricciones que perjudicarían a los clientes de las plantillas.</p>
+      <p>La portada puede tener riqueza editorial. Una entrada destinada a consultar la carta debe respetar esa intención y evitar una portada o promoción obligatorias. Este principio conserva lo útil de las referencias estudiadas sin copiar sus interrupciones.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 4 · BLOQUE 2 ——————————————— -->
+  <section id="s4" data-short="B2 · Oferta y contexto">
+    <header class="block-head">
+      <p class="kicker">Sección 04 <span class="dim">·</span> Bloque 2</p>
+      <h2>Oferta, formatos y contexto</h2>
+      <div class="dist" data-dist="2"></div>
+      <p class="dist-legend" data-dist-legend="2"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">El restaurante debe expresar lo que realmente sirve y sus condiciones. El comensal debe distinguir entre la oferta general, la prevista para una visita y la declarada disponible en el momento.</p>
+
+    <div class="caps" data-block="2" data-label="B2 · Oferta">
+      <article class="cap" id="cap-10" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Catálogo de productos y categorías</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Nombres, descripciones, ingredientes declarados, fotografías opcionales, orden y pertenencia a diferentes cartas.</p>
+      </article>
+      <article class="cap" id="cap-11" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Formatos y variantes</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Tapa, media ración, ración, tamaño, copa/botella o alternativa; cada formato identificado junto a su precio.</p>
+      </article>
+      <article class="cap" id="cap-12" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Complementos y condiciones</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Suplementos, mínimos de personas, unidades, precio por peso o condiciones que afecten a la elección.</p>
+      </article>
+      <article class="cap" id="cap-13" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Menús compuestos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Menú diario, degustación o combinado: precio, inclusiones, elecciones, suplementos y vigencia.</p>
+      </article>
+      <article class="cap" id="cap-14" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Varias cartas</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Desayunos, principal, bebidas, vinos, infantil, temporada u otros conjuntos pertinentes.</p>
+      </article>
+      <article class="cap" id="cap-15" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Programación por servicio y fechas</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Preparar cambios, indicar periodos de validez y publicar una oferta al comenzar su periodo.</p>
+      </article>
+      <article class="cap" id="cap-16" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Oferta por zona o sede</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Diferencias reales de producto, formato, precio o servicio; contexto visible y posibilidad de cambiarlo.</p>
+      </article>
+      <article class="cap" id="cap-17" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Disponibilidad durante el servicio</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Marcar agotado, ocultar lo retirado, recuperar disponibilidad y deshacer acciones accidentales.</p>
+      </article>
+      <article class="cap" id="cap-18" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Excepción manual</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Un cierre, cambio de servicio o retirada temporal puede prevalecer sobre la programación habitual, con vigencia clara.</p>
+      </article>
+      <article class="cap" id="cap-19" data-t="con">
+        <div class="cap-top"><h4 class="cap-name">Datos recibidos de sistemas operativos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-con"></i><span class="t-label">Conectada</span></span></div>
+        <p class="cap-desc">Reutilizar catálogo o disponibilidad donde evite trabajo duplicado y el origen sea fiable.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Reglas de coherencia</p>
+      <p>Reutilizar un plato no debería obligar a mantener varias copias. Cuando su precio cambie en terraza, esa diferencia debe mostrarse como condición del contexto; cuando sea un plato distinto, no debe ocultarse esa diferencia bajo una supuesta reutilización.</p>
+      <p>La elección de contexto debe ser comprensible: «Carta de terraza» o «Desayunos, hasta las 12:00». Un QR puede resolver parte del contexto, pero el comensal debe poder comprobarlo y corregirlo.</p>
+      <blockquote class="pull">No necesitamos un QR por mesa si la mesa no cambia la oferta ni una tarea útil del módulo.</blockquote>
+      <p>Antes de visitar, debe ser posible consultar una oferta aunque ese servicio esté cerrado. La programación orienta sobre lo previsto; no garantiza existencias al llegar. Durante el servicio se muestra el estado que el restaurante o su fuente autorizada comunique.</p>
+      <p>Al iniciar una jornada conviene revisar los agotados anteriores; no volver a declarar disponible un producto silenciosamente sin una regla elegida por el negocio. Las excepciones deben tener final comprensible para evitar que una retirada de hoy siga afectando la semana siguiente.</p>
+      <p>Cuando dos reglas se contradigan, el operador debe ver el conflicto antes de publicar: por ejemplo, menú de lunes a viernes y cierre excepcional del miércoles. Debe poder previsualizar qué verá el visitante para una fecha, servicio y zona concretos. Es un problema de comprensión y control, independientemente de cómo se resuelva técnicamente.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 5 · BLOQUE 3 ——————————————— -->
+  <section id="s5" data-short="B3 · Encontrar y elegir">
+    <header class="block-head">
+      <p class="kicker">Sección 05 <span class="dim">·</span> Bloque 3</p>
+      <h2>Encontrar, entender y elegir</h2>
+      <div class="dist" data-dist="3"></div>
+      <p class="dist-legend" data-dist-legend="3"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">El comensal necesita orientarse a su ritmo: recorrer una carta corta, encontrar algo concreto, entender un plato desconocido o reducir una oferta extensa. La identidad debe acompañar esas tareas.</p>
+
+    <div class="caps" data-block="3" data-label="B3 · Consulta">
+      <article class="cap" id="cap-20" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Navegación por categorías</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Orientación clara, acceso a secciones y retorno sin perder el punto de lectura.</p>
+      </article>
+      <article class="cap" id="cap-21" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Búsqueda</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable según carta</span></span></div>
+        <p class="cap-desc">Encontrar productos por nombre y descripción, con términos pertinentes al idioma mostrado.</p>
+      </article>
+      <article class="cap" id="cap-22" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Filtros útiles</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Preferencias declaradas, nivel de picante, formatos u otras dimensiones reales de la oferta; estados activos y limpieza fáciles.</p>
+      </article>
+      <article class="cap" id="cap-23" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Consulta de alérgenos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Leer información declarada; distinguir información pendiente y facilitar conversación con el personal.</p>
+      </article>
+      <article class="cap" id="cap-24" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Detalle gradual</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Información breve para comparar y más contexto para quien lo necesite, sin esconder condiciones esenciales.</p>
+      </article>
+      <article class="cap" id="cap-25" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Explicación de platos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Nombres originales acompañados de explicación, preparación, tamaño o forma de consumo cuando ayuden a entender.</p>
+      </article>
+      <article class="cap" id="cap-26" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Destacados del restaurante</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Especialidades, novedades o recomendaciones identificadas y gestionadas por el negocio.</p>
+      </article>
+      <article class="cap" id="cap-27" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Enlaces a platos y cartas</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Compartir o regresar directamente a un contenido; mostrar su vigencia si ha cambiado.</p>
+      </article>
+      <article class="cap" id="cap-28" data-t="op">
+        <div class="cap-top"><h4 class="cap-name">Lista personal para comparar</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-op"></i><span class="t-label">Oportunidad</span></span></div>
+        <p class="cap-desc">Guardar temporalmente opciones sin cuenta ni confundirlas con un pedido.</p>
+      </article>
+      <article class="cap" id="cap-29" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Maridajes o relaciones entre productos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Recomendaciones explícitas del local que ayuden a elegir, sin fingir personalización individual.</p>
+      </article>
+      <article class="cap" id="cap-30" data-t="op">
+        <div class="cap-top"><h4 class="cap-name">Vídeo, explicación sonora o presentación 3D</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-op"></i><span class="t-label">Oportunidad</span></span></div>
+        <p class="cap-desc">Utilidad específica para explicar preparación, porciones o una propuesta singular.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Decisión de experiencia que recomiendo</p>
+      <p>Buscar y filtrar son capacidades disponibles, no elementos obligatorios en todas las cartas. En una carta de diez referencias quizá baste recorrer categorías; en una carta extensa de vinos puede tener sentido filtrar y buscar. El diseño debe activarlas según contenido y tarea, no según el deseo de enseñar funciones.</p>
+      <p>Recomiendo empezar la consulta alimentaria por información declarada comprensible. Si ofrecemos un filtro para excluir ingredientes o alérgenos, los productos sin información suficiente deben quedar claramente separados; no entrar silenciosamente en resultados que parezcan seguros. Tampoco conviene que desaparezcan sin explicar que falta información.</p>
+      <p>Las preferencias como «vegetariano» y los alérgenos responden a preguntas diferentes. No deben confluir en un indicador de aptitud universal. Una modificación posible bajo petición requiere confirmación del establecimiento, no una garantía automática de Valiris.</p>
+      <blockquote class="pull">No llamaremos «más vendido» a algo sin datos que sostengan esa afirmación.</blockquote>
+      <p>Los destacados son una oportunidad comercial útil para el restaurante, pero deben conservar precio, condiciones y navegación claros. Un sistema de recomendación individual es una oportunidad distinta, cuya ventaja frente a una selección del propio local tendría que demostrarse.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 6 · BLOQUE 4 ——————————————— -->
+  <section id="s6" data-short="B4 · Preparar y publicar">
+    <header class="block-head">
+      <p class="kicker">Sección 06 <span class="dim">·</span> Bloque 4</p>
+      <h2>Preparar, actualizar y publicar</h2>
+      <div class="dist" data-dist="4"></div>
+      <p class="dist-legend" data-dist-legend="4"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">El restaurante debe pasar de los materiales que ya posee a una oferta revisada, mantenerla durante el servicio y corregir errores con confianza. La automatización aporta valor si reduce trabajo total, incluido el tiempo de revisión.</p>
+
+    <div class="caps" data-block="4" data-label="B4 · Publicación">
+      <article class="cap" id="cap-31" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Importar cartas</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">PDF, fotografía, hoja de datos o fuente estructurada; propuesta editable junto al material original.</p>
+      </article>
+      <article class="cap" id="cap-32" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Revisión de importación</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Señalar dudas, omisiones y formatos ambiguos; comprobar especialmente precios y contenido alimentario.</p>
+      </article>
+      <article class="cap" id="cap-33" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Edición desde móvil</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Cambios habituales sin rehacer el diseño ni recorrer configuración irrelevante.</p>
+      </article>
+      <article class="cap" id="cap-34" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Edición conjunta y duplicación</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Reordenar, reutilizar menús y cambiar conjuntos de productos con vista previa del alcance.</p>
+      </article>
+      <article class="cap" id="cap-35" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Borradores y previsualización</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Ver carta pública, contextos y traducciones antes de hacerlos visibles.</p>
+      </article>
+      <article class="cap" id="cap-36" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Publicación controlada</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Publicar cambios seleccionados; separar un agotado urgente de otros borradores pendientes.</p>
+      </article>
+      <article class="cap" id="cap-37" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Publicación programada</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Preparar precios, temporada o menú próximo; comprobar el momento y el contenido previstos.</p>
+      </article>
+      <article class="cap" id="cap-38" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Historial y recuperación</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Saber qué se cambió, por quién, y corregir o recuperar una versión sin perder toda la carta.</p>
+      </article>
+      <article class="cap" id="cap-39" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Responsabilidades del equipo</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Diferenciar quien modifica disponibilidad, edita contenido y publica, cuando el equipo lo necesita.</p>
+      </article>
+      <article class="cap" id="cap-40" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Asistencia de texto e imágenes</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Preparar descripciones, traducciones o mejoras de material; revisar fidelidad antes de publicar.</p>
+      </article>
+      <article class="cap" id="cap-41" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Revisión del contenido afectado</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Un cambio de ingrediente puede afectar descripción, etiquetas, alérgenos y traducciones.</p>
+      </article>
+      <article class="cap" id="cap-42" data-t="con">
+        <div class="cap-top"><h4 class="cap-name">Fuente externa como origen de cambios</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-con"></i><span class="t-label">Conectada</span></span></div>
+        <p class="cap-desc">Definir qué información se mantiene allí y qué puede editarse en Valiris; comunicar conflictos y fallos.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Automatización con valor concreto</p>
+      <p>Importar debe ahorrar transcripción, no transferir al dueño una carta aparentemente terminada llena de errores difíciles de detectar. Propongo conservar la referencia al original durante la revisión y agrupar las incertidumbres por producto y tipo de dato.</p>
+      <p>Una fotografía con «24 / 34» puede sugerir dos formatos, pero no demuestra sus nombres. El sistema puede proponer una estructura pendiente; el responsable confirma qué significa cada importe. La ausencia de una mención de alérgenos no demuestra ausencia de alérgenos.</p>
+      <p>La asistencia puede reescribir información suministrada y mejorar la lectura. No debería inventar ingredientes, procedencia, denominaciones, certificaciones o imágenes que representen falsamente el plato servido. Una fotografía generada puede resultar atractiva y aun así ser una mala representación del restaurante.</p>
+      <p>Los cambios urgentes y los editoriales son tareas distintas. Marcar un producto agotado debe ser rápido y recuperable; no publicar a la vez una descripción que otro empleado está redactando. El historial debe permitir entender lo ocurrido, sin obligar a un pequeño negocio a adoptar un proceso de aprobación complejo.</p>
+      <p>Los permisos de las personas y de la empresa pertenecen al sistema común de Valiris; aquí definimos qué acciones del módulo se distinguen. El flujo de carta no debe duplicar toda la administración de usuarios.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 7 · BLOQUE 5 ——————————————— -->
+  <section id="s7" data-short="B5 · Idiomas y confianza">
+    <header class="block-head">
+      <p class="kicker">Sección 07 <span class="dim">·</span> Bloque 5</p>
+      <h2>Idiomas, información y confianza</h2>
+      <div class="dist" data-dist="5"></div>
+      <p class="dist-legend" data-dist-legend="5"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">Comprender la misma oferta en diferentes idiomas, con precios y condiciones coherentes, y reconocer qué información está confirmada. Confianza también significa no presentar una conclusión que los datos no permiten.</p>
+
+    <div class="caps" data-block="5" data-label="B5 · Idiomas">
+      <article class="cap" id="cap-43" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Idiomas de presencia y carta</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Elegir idioma y conservarlo durante la consulta; también traducir horarios, avisos y condiciones.</p>
+      </article>
+      <article class="cap" id="cap-44" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Traducción asistida y revisión</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada si se ofrecen idiomas</span></span></div>
+        <p class="cap-desc">Preparar versiones, comprobarlas y publicar con un responsable identificado internamente.</p>
+      </article>
+      <article class="cap" id="cap-45" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Glosario del restaurante</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Conservar nombres propios y unificar términos, ingredientes y tono.</p>
+      </article>
+      <article class="cap" id="cap-46" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Coherencia de datos comunes</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Precio, disponibilidad, formato y vigencia no se mantienen por separado en cada traducción.</p>
+      </article>
+      <article class="cap" id="cap-47" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Traducción pendiente de actualización</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Identificar contenido afectado; mostrar alternativa explícita o retirar la versión afectada según relevancia.</p>
+      </article>
+      <article class="cap" id="cap-48" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Ingredientes y alérgenos por variante</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada; detalle según oferta</span></span></div>
+        <p class="cap-desc">Registrar lo declarado y sus diferencias por formato, con estado de revisión.</p>
+      </article>
+      <article class="cap" id="cap-49" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Indicaciones del establecimiento</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Separar ingredientes declarados, advertencias sobre elaboración y adaptaciones bajo petición.</p>
+      </article>
+      <article class="cap" id="cap-50" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Registro y salida para el personal</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Facilitar consulta interna y generación de información revisada, sin reducirla a iconos públicos.</p>
+      </article>
+      <article class="cap" id="cap-51" data-t="op">
+        <div class="cap-top"><h4 class="cap-name">Información nutricional</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-op"></i><span class="t-label">Oportunidad</span></span></div>
+        <p class="cap-desc">Publicar valores aportados con origen y alcance adecuados cuando el negocio pueda sostenerlos.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Reglas que recomiendo sostener</p>
+      <p>Una traducción no es otra carta independiente. Si el plato cambia de precio, el importe debe cambiar en todos los idiomas. Si cambia de ingredientes, no debe seguir apareciendo silenciosamente una descripción anterior en inglés como si estuviera vigente. Las advertencias afectan al contenido concreto; no todo cambio requiere detener el sitio entero.</p>
+      <p>La detección del idioma puede sugerir una versión, pero el visitante debe poder elegir. Los nombres locales pueden conservarse acompañados de explicación; traducir literalmente puede quitar información en vez de añadirla.</p>
+      <p>Para los alérgenos, recomendamos estados explícitos de información declarada y de revisión pendiente. El restaurante sigue siendo la fuente de sus ingredientes y procesos.</p>
+      <blockquote class="pull">No se infiere seguridad desde el nombre de un plato ni se publica una afirmación de ausencia cuando falta el dato.</blockquote>
+      <p><strong>Base verificable:</strong> el artículo 6.5 del Real Decreto 126/2015 contempla comunicación oral bajo condiciones, entre ellas un registro escrito o electrónico accesible y la indicación de dónde obtener la información cuando corresponde. Esto fundamenta prestar atención al proceso del establecimiento además de la carta pública; no acredita cumplimiento automático por usar Valiris. <a class="src-link" href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-2293" target="_blank" rel="noopener">[S1]</a></p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 8 · BLOQUE 6 ——————————————— -->
+  <section id="s8" data-short="B6 · Acceso y distribución">
+    <header class="block-head">
+      <p class="kicker">Sección 08 <span class="dim">·</span> Bloque 6</p>
+      <h2>Acceso, impresión y distribución</h2>
+      <div class="dist" data-dist="6"></div>
+      <p class="dist-legend" data-dist-legend="6"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">La oferta debe estar al alcance del comensal donde la encuentra y del equipo donde la necesita. Una presentación digital no elimina la necesidad de alternativas o materiales físicos.</p>
+
+    <div class="caps" data-block="6" data-label="B6 · Distribución">
+      <article class="cap" id="cap-52" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Enlace y QR estables</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Cambiar contenidos sin sustituir el material que enlaza a la misma dirección.</p>
+      </article>
+      <article class="cap" id="cap-53" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Entradas con intención</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Portada para conocer el local; carta directa para consultar; contexto cuando cambia la oferta.</p>
+      </article>
+      <article class="cap" id="cap-54" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Acceso sin cuenta ni instalación</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Consulta pública sin barreras que no aporten a esa tarea.</p>
+      </article>
+      <article class="cap" id="cap-55" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Material para compartir</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Enlaces, QR descargables y composición de soportes físicos con identidad legible.</p>
+      </article>
+      <article class="cap" id="cap-56" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Formatos imprimibles</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Generar cartas, menú diario y hojas pertinentes con composición específica para papel.</p>
+      </article>
+      <article class="cap" id="cap-57" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Versiones por idioma y uso</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Misma información revisada en diferentes salidas, incluidas hojas para el personal.</p>
+      </article>
+      <article class="cap" id="cap-58" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Presencia en una web existente</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable / conectada</span></span></div>
+        <p class="cap-desc">Enlazar o integrar la consulta donde el restaurante ya tiene una presencia útil.</p>
+      </article>
+      <article class="cap" id="cap-59" data-t="con">
+        <div class="cap-top"><h4 class="cap-name">Canales externos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-con"></i><span class="t-label">Conectada para sincronización</span></span></div>
+        <p class="cap-desc">Compartir enlaces y, cuando la conexión lo permita, distribuir datos y comprobar resultados.</p>
+      </article>
+      <article class="cap" id="cap-60" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Pantallas y soportes de sala</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable / conectada</span></span></div>
+        <p class="cap-desc">Reutilizar oferta para pizarra digital u otros soportes cuando reduzca trabajo real.</p>
+      </article>
+      <article class="cap" id="cap-61" data-t="op">
+        <div class="cap-top"><h4 class="cap-name">Consulta con conexión interrumpida</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-op"></i><span class="t-label">Oportunidad</span></span></div>
+        <p class="cap-desc">Recuperar contenido previamente cargado, indicando su antigüedad y limitaciones de actualización.</p>
+      </article>
+      <article class="cap" id="cap-62" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Exportación y continuidad</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Recuperar contenido del restaurante y entender dominio, materiales y acceso al terminar el contrato.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Una fuente mantenida, distintas presentaciones</p>
+      <p>La versión en papel merece una composición propia: jerarquía, saltos de página, densidad y contenido pertinentes a su uso. No basta imprimir una captura de la pantalla móvil. Generarla desde la carta vigente reduce duplicación, pero no modifica automáticamente las hojas ya impresas.</p>
+      <p>El operador debe poder distinguir una salida recién generada de otra que ha quedado antigua. También debe decidir qué cambios exigen reimprimir. Podemos facilitar fechas y avisos; no controlar por software qué documento físico sigue en una mesa.</p>
+      <p>Compartir el enlace en Instagram o Google es distinto de actualizar automáticamente sus datos. La sincronización requiere una capacidad real del destino y un alcance comprobado. La ayuda oficial de Google indica que los cambios en su editor de menú pueden tardar entre 24 y 48 horas en aparecer. Por eso una promesa de actualización simultánea en todos los canales sería excesiva. <a class="src-link" href="https://support.google.com/business/answer/9455840?hl=es" target="_blank" rel="noopener">[S2]</a></p>
+      <p>Una conexión debe explicar destino, contenido enviado, última actualización y problemas pendientes. Si falla un canal externo, la carta propia puede seguir funcionando y el operador necesita saber qué ha quedado desactualizado.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 9 · BLOQUE 7 ——————————————— -->
+  <section id="s9" data-short="B7 · Medición y oferta">
+    <header class="block-head">
+      <p class="kicker">Sección 09 <span class="dim">·</span> Bloque 7</p>
+      <h2>Medición y oferta comercial</h2>
+      <div class="dist" data-dist="7"></div>
+      <p class="dist-legend" data-dist-legend="7"></p>
+    </header>
+    <h3 class="note-tag" style="margin-bottom:16px">Trabajo que debe resolver</h3>
+    <p class="dropcap">El dueño necesita señales que le ayuden a mantener y presentar mejor su oferta. Valiris necesita vender una prestación concreta y entender cuánto trabajo cuesta entregarla.</p>
+
+    <div class="caps" data-block="7" data-label="B7 · Medición">
+      <article class="cap" id="cap-63" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Consultas de presencia y carta</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Entender qué recorridos digitales se utilizan; distinguirlos de clientes físicos.</p>
+      </article>
+      <article class="cap" id="cap-64" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Origen del acceso</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Comparar enlace compartido, campañas y soportes QR identificados, dentro de lo que pueda medirse.</p>
+      </article>
+      <article class="cap" id="cap-65" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Uso de categorías, búsqueda y filtros</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Detectar dificultad de localización, términos sin resultado o información que falta.</p>
+      </article>
+      <article class="cap" id="cap-66" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Interés en platos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Observar consultas y combinarlas con contexto antes de cambiar el orden o los destacados.</p>
+      </article>
+      <article class="cap" id="cap-67" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Acciones hacia la visita</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Medir clics en mapa, teléfono o reserva como acciones digitales, sin llamarlos visitas o reservas confirmadas.</p>
+      </article>
+      <article class="cap" id="cap-68" data-t="con">
+        <div class="cap-top"><h4 class="cap-name">Resultados de otros módulos</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-con"></i><span class="t-label">Conectada</span></span></div>
+        <p class="cap-desc">Relacionar reservas u otros resultados reales cuando exista la conexión y un alcance de atribución definido.</p>
+      </article>
+      <article class="cap" id="cap-69" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Calidad y mantenimiento</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Localizar traducciones pendientes, importaciones sin revisar, estados temporales antiguos y salidas desactualizadas.</p>
+      </article>
+      <article class="cap" id="cap-70" data-t="op">
+        <div class="cap-top"><h4 class="cap-name">Comparación de cambios</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-op"></i><span class="t-label">Oportunidad</span></span></div>
+        <p class="cap-desc">Comprobar una mejora con una pregunta concreta y suficiente actividad; evitar conclusiones de muestras mínimas.</p>
+      </article>
+      <article class="cap" id="cap-71" data-t="rec">
+        <div class="cap-top"><h4 class="cap-name">Servicio de alta y diseño</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-rec"></i><span class="t-label">Recomendada</span></span></div>
+        <p class="cap-desc">Comercializar preparación de contenido, implantación y representación visual con entregables claros.</p>
+      </article>
+      <article class="cap" id="cap-72" data-t="conf">
+        <div class="cap-top"><h4 class="cap-name">Actualizaciones delegadas</h4><span class="lead-dots"></span>
+          <span class="cap-t"><i class="mk mk-conf"></i><span class="t-label">Configurable</span></span></div>
+        <p class="cap-desc">Ofrecer atención del estudio con volumen, tiempos y tipos de cambios pactados.</p>
+      </article>
+    </div>
+
+    <div class="note">
+      <p class="note-tag">Cómo convertir señales en utilidad</p>
+      <p>Si se consulta mucho la categoría de desayunos, eso puede justificar comprobar su visibilidad y comprensión; no demuestra ventas de desayunos. Si la búsqueda contiene términos sin resultado, puede faltar contenido o haber una denominación que el visitante no entiende. Si aparecen muchas consultas de alérgenos, puede existir interés o dificultad; no prueba que el producto sea fiable.</p>
+      <p>La información de mantenimiento es accionable incluso con poco tráfico: «esta traducción requiere revisión» ayuda a corregir una situación. La analítica comercial necesita más cuidado y contexto. El panel debe mostrar decisiones posibles, periodo y limitaciones, en vez de inventar un retorno económico.</p>
+      <p>La consulta pública no necesita identificar individualmente al comensal. Recomiendo medir lo necesario para las tareas elegidas, con transparencia y las condiciones aplicables a la solución de medición que después se seleccione. No se define aquí una tecnología de seguimiento ni se asume autorización para cualquier recogida de datos.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 10 · MODELO DE ENTREGA ——————————————— -->
+  <section id="s10" data-short="Modelo de entrega">
+    <p class="kicker">Sección 10 <span class="dim">· Servicio del estudio</span></p>
+    <h2>Modelo de entrega del estudio</h2>
+    <div class="prose">
+      <p>El usuario ha acordado las dos vías de diseño. La separación económica siguiente es una recomendación pendiente de concretar, no una tarifa aprobada.</p>
+    </div>
+    <div class="ledger">
+      <div class="ledger-head"><span>Componente</span><span>Qué compra el restaurante</span><span>Qué debe quedar definido</span></div>
+      <div class="ledger-row">
+        <h3>Servicio de producto</h3>
+        <div><em class="cl">Qué compra</em><p>Presencia publicada, carta gestionable y capacidades contratadas.</p></div>
+        <div><em class="cl">Qué definir</em><p>Servicio continuo, soporte y condiciones de acceso.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Puesta en marcha</h3>
+        <div><em class="cl">Qué compra</em><p>Preparación/importación, revisión con el local y entrega lista para uso.</p></div>
+        <div><em class="cl">Qué definir</em><p>Material recibido, volumen de contenido, revisiones y responsable de validar.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Aplicación de plantilla</h3>
+        <div><em class="cl">Qué compra</em><p>Representación cuidada a partir de una composición existente.</p></div>
+        <div><em class="cl">Qué definir</em><p>Opciones de marca y contenido incluidas.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Diseño propio</h3>
+        <div><em class="cl">Qué compra</em><p>Trabajo del estudio para una identidad y experiencia particulares.</p></div>
+        <div><em class="cl">Qué definir</em><p>Alcance, entregables, revisiones, conservación de gestión autónoma y mantenimiento posterior.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Actualización delegada</h3>
+        <div><em class="cl">Qué compra</em><p>El estudio realiza cambios por encargo del negocio.</p></div>
+        <div><em class="cl">Qué definir</em><p>Tipos de cambios, frecuencia, plazo y atención durante servicio.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Evolución del diseño</h3>
+        <div><em class="cl">Qué compra</em><p>Nueva composición o ampliación del encargo ya entregado.</p></div>
+        <div><em class="cl">Qué definir</em><p>Qué es cambio cotidiano y qué es un nuevo trabajo de diseño.</p></div>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:30px">
+      <p>La viabilidad no se demuestra porque todos reciban algo valioso. Debemos comprobar trabajo real de alta, revisiones, soporte, permanencia y adquisición. La hipótesis de beneficio mutuo es razonable si el restaurante recibe valor que entiende y el estudio cobra el trabajo que efectivamente realiza.</p>
+      <p>El diseño propio puede elevar el ingreso y la diferenciación. También puede consumir margen si se vende sin límites claros de revisión o si cada actualización necesita al diseñador. Eso es una decisión de servicio comercial, no una razón para renunciar al diseño propio.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 11 · LÍMITES ——————————————— -->
+  <section id="s11" data-short="Límites y conexiones">
+    <p class="kicker">Sección 11 <span class="dim">· Dónde termina esta carta</span></p>
+    <h2>Límites del módulo y conexiones</h2>
+    <div class="ledger">
+      <div class="ledger-head"><span>Situación</span><span>Resuelve este módulo</span><span>Dónde continúa</span></div>
+      <div class="ledger-row limit-row">
+        <div class="lg-sit">Quiero reservar tras ver la carta</div>
+        <div class="cell-res"><p>Información pertinente y acceso a la reserva.</p></div>
+        <div class="cell-con"><p>Módulo de reservas; disponibilidad y confirmación de mesa.</p></div>
+      </div>
+      <div class="ledger-row limit-row">
+        <div class="lg-sit">He elegido lo que quiero tomar</div>
+        <div class="cell-res"><p>Consulta, comparación y explicación de la oferta.</p></div>
+        <div class="cell-con"><p>Personal o módulo de pedidos; una lista personal no es un pedido.</p></div>
+      </div>
+      <div class="ledger-row limit-row">
+        <div class="lg-sit">Quiero pagar</div>
+        <div class="cell-res"><p>Mantener clara la oferta y sus precios.</p></div>
+        <div class="cell-con"><p>Módulo de pagos y operación.</p></div>
+      </div>
+      <div class="ledger-row limit-row">
+        <div class="lg-sit">El TPV ya tiene el catálogo</div>
+        <div class="cell-res"><p>Presentación y datos que realmente se puedan reutilizar.</p></div>
+        <div class="cell-con"><p>Conexión autorizada; no convertir este módulo en TPV.</p></div>
+      </div>
+      <div class="ledger-row limit-row">
+        <div class="lg-sit">El restaurante tiene varias sedes</div>
+        <div class="cell-res"><p>Identificar sede y mostrar la oferta adecuada.</p></div>
+        <div class="cell-con"><p>Administración común del negocio para sedes y equipos.</p></div>
+      </div>
+      <div class="ledger-row limit-row">
+        <div class="lg-sit">Quiero conocer reseñas o fidelización</div>
+        <div class="cell-res"><p>Punto de conexión contextual si aporta al recorrido.</p></div>
+        <div class="cell-con"><p>Sus módulos; evitar un panel de funciones ajenas dentro de la carta.</p></div>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:30px">
+      <p>El carácter modular preserva recorridos completos dentro de cada responsabilidad y permite conexiones claras. No justifica omitir el mantenimiento o la corrección de errores, que sí pertenecen a este módulo.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 12 · CALIDAD ——————————————— -->
+  <section id="s12" data-short="Calidad transversal">
+    <p class="kicker">Sección 12 <span class="dim">· Lo que no se negocia</span></p>
+    <h2>Calidad transversal</h2>
+    <div class="prose">
+      <p>La calidad se evalúa con contenido real: carta corta, carta extensa, texto largo, fotografías parciales, varios idiomas, precios por formatos, avisos y contexto cambiante.</p>
+    </div>
+    <ul class="checks">
+      <li>Lectura móvil, ampliación de texto, contraste, foco, controles comprensibles y navegación con teclado y tecnologías de asistencia son requisitos de diseño y comprobación. Este documento no acredita accesibilidad ya conseguida.</li>
+      <li>La información esencial debe entenderse con texto, no solo iconos o color. La identidad no debe dificultar precio, formato, condición o retorno al recorrido.</li>
+      <li>La consulta debe seguir siendo útil sin fotografías; fotografías selectivas no deben parecer errores de contenido.</li>
+      <li>Los avisos se muestran según relevancia; una promoción no debe impedir consultar la carta.</li>
+      <li>El trabajo cotidiano del operador debe poder completarse con controles pertinentes, resultados visibles y recuperación de errores.</li>
+      <li>La disponibilidad, la vigencia y el idioma deben expresar lo conocido sin transmitir una certeza mayor.</li>
+    </ul>
+  </section>
+
+  <!-- ——————————————— 13 · ESCENARIOS ——————————————— -->
+  <section id="s13" data-short="Escenarios">
+    <p class="kicker">Sección 13 <span class="dim">· Mesa de pruebas</span></p>
+    <h2>Escenarios para comprobar la propuesta</h2>
+    <p class="warn">Escenarios de diseño — no pruebas ya realizadas</p>
+    <div class="prose">
+      <p>Permiten juzgar si las capacidades forman un producto coherente.</p>
+    </div>
+    <div class="esc-grid">
+      <div class="esc"><span class="esc-num">01</span><h3>Cafetería con diez productos y sin fotos</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Carta cuidada y cambios directos; opciones avanzadas fuera del recorrido habitual.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Configurar servicios y filtros para poder publicar una carta sencilla.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">02</span><h3>Restaurante con carta extensa de vinos</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Búsqueda y filtros ayudan a reducir opciones sin perder precios por copa/botella.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Más trabajo para usar filtros que para recorrer la carta.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">03</span><h3>Enlace antes de visitar</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Conocer local, condiciones y oferta; poder consultar otro servicio previsto.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Solo ver «cerrado» y no acceder a la información de planificación.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">04</span><h3>QR de terraza</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Contexto visible, precios pertinentes y posibilidad de volver a la oferta general.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Cambiar de precio sin indicar por qué.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">05</span><h3>Menú diario preparado el día anterior</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Publicación en su periodo y distinción de inclusiones, elecciones y suplementos.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Quedar publicado fuera de vigencia o exigir duplicar precios.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">06</span><h3>Se agota un producto durante el servicio</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Cambiar ese estado con rapidez, ver el resultado y deshacer.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Publicar también borradores ajenos o mantener agotado indefinidamente.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">07</span><h3>Importar una carta con formatos ambiguos</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>La duda queda localizada y el responsable confirma antes de publicar.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Inventar nombres de formatos y aparentar revisión completa.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">08</span><h3>Cambiar ingrediente</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Revisar información alimentaria y traducciones afectadas.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Precio correcto pero descripción anterior silenciosa en otro idioma.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">09</span><h3>Consultar alérgenos con información pendiente</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Comprender la falta y cómo consultar al personal.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Interpretar ausencia de dato como aptitud o garantía de seguridad.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">10</span><h3>Usar diseño propio del estudio</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Mantener precios, fotos, avisos y carta sin una intervención de diseño cotidiana.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Tener que contratarnos para cualquier cambio de contenido.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">11</span><h3>Imprimir tras cambiar precios</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Generar una salida nueva y reconocer qué materiales anteriores requieren revisión.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Creer que la carta de mesa ya impresa se ha actualizado.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">12</span><h3>Falla la actualización externa</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Carta propia vigente y destino externo pendiente claramente identificado.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Prometer que todos los canales están actualizados.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">13</span><h3>Ver muchas consultas de un plato</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Interpretarlas como interés digital y contrastar antes de concluir ventas.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Panel que presenta visitas o ingresos sin datos que los acrediten.</span></div>
+      </div>
+      <div class="esc"><span class="esc-num">14</span><h3>Finalizar contrato</h3>
+        <div class="esc-line ok"><span class="sg">✓</span><span><b>Debería ocurrir</b>Recuperar contenido y entender dominio, enlaces y servicios que terminan.</span></div>
+        <div class="esc-line ko"><span class="sg">✗</span><span><b>Nos haría revisar</b>Condiciones de continuidad desconocidas hasta la salida.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——————————————— 14 · INVESTIGACIÓN ——————————————— -->
+  <section id="s14" data-short="Investigación">
+    <p class="kicker">Sección 14 <span class="dim">· Referencias conservadas</span></p>
+    <h2>Qué aprovechamos de la investigación</h2>
+    <div class="prose">
+      <p>Se conserva la investigación maestra y la comparación enfocada. No se realiza en este documento una nueva auditoría competitiva. Las observaciones de páginas públicas y las capacidades publicadas por proveedores no demuestran usabilidad de sus paneles ni beneficios comerciales para Valiris.</p>
+    </div>
+    <div class="ledger">
+      <div class="ledger-head"><span>Referencia</span><span>Principio aprovechable</span><span>Desarrollo propuesto para Valiris</span></div>
+      <div class="ledger-row">
+        <h3>BentoBox <span class="ref-src">Union Square Cafe</span></h3>
+        <div><em class="cl">Principio</em><p>Identidad consistente y carta textual con carácter.</p></div>
+        <div><em class="cl">Desarrollo</em><p>Plantillas y diseño propio con precios y formatos explícitos y entrada directa.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Sociavore <span class="ref-src">PAI</span></h3>
+        <div><em class="cl">Principio</em><p>Explicación de platos, variantes y relación entre presencia y oferta.</p></div>
+        <div><em class="cl">Desarrollo</em><p>Detalle gradual, condiciones fuera de títulos excesivos y contexto comprensible.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>BuonMenu</h3>
+        <div><em class="cl">Principio</em><p>Facilidad de acceso e importación de contenido.</p></div>
+        <div><em class="cl">Desarrollo</em><p>Preparación asistida con revisión clara del material original.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Menutech</h3>
+        <div><em class="cl">Principio</em><p>Idiomas y formatos impresos/digitales.</p></div>
+        <div><em class="cl">Desarrollo</em><p>Traducciones mantenidas, registro revisado y composición adecuada para cada salida.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>MustHaveMenus</h3>
+        <div><em class="cl">Principio</em><p>Contenido reutilizado en varias presentaciones.</p></div>
+        <div><em class="cl">Desarrollo</em><p>Distinción entre publicación propia, salidas generadas y sincronización externa.</p></div>
+      </div>
+      <div class="ledger-row">
+        <h3>Zenchef</h3>
+        <div><em class="cl">Principio</em><p>Continuidad de presencia hacia reserva.</p></div>
+        <div><em class="cl">Desarrollo</em><p>Conexión con reservas conservando su responsabilidad modular.</p></div>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:30px">
+      <p>Popmenu no es una referencia seleccionada para esta dirección. La investigación histórica se conserva sin convertir cada competidor en un patrón que debamos copiar.</p>
+      <p>Las modificaciones propuestas son hipótesis de mejora de tareas concretas, no una prueba de que Valiris supere a estos productos o sea el mejor de España.</p>
+    </div>
+  </section>
+
+  <!-- ——————————————— 15 · DISCUSIÓN ——————————————— -->
+  <section id="s15" data-short="Discusión">
+    <p class="kicker">Sección 15 <span class="dim">· Siguiente trabajo</span></p>
+    <h2>Discusión recomendada y siguiente trabajo</h2>
+    <div class="prose">
+      <p>Recomiendo discutir el conjunto antes de fragmentarlo en pantallas o tickets. No necesitamos elegir todas las opciones de cada restaurante ahora. Sí necesitamos detectar si falta un trabajo importante, si una regla contradice el funcionamiento de un negocio real o si una capacidad no tiene una utilidad suficiente.</p>
+      <p>Mi recomendación concreta es sostener tres compromisos. Con ellos podemos explorar una experiencia ambiciosa sin convertir la amplitud en carga para el usuario.</p>
+    </div>
+    <div class="commitments">
+      <div class="commit"><span class="cn">i</span><p>Personalización con gestión autónoma.</p></div>
+      <div class="commit"><span class="cn">ii</span><p>Contexto y actualización sin contradicciones.</p></div>
+      <div class="commit"><span class="cn">iii</span><p>Automatización que conserva revisión y control de lo publicado.</p></div>
+    </div>
+    <div class="contrast-list">
+      <h3>Primeras comprobaciones — tres cartas reales como contraste</h3>
+      <ol>
+        <li><i>I</i>Cafetería sencilla</li>
+        <li><i>II</i>Restaurante con variantes y zonas</li>
+        <li><i>III</i>Restaurante con menú diario e idiomas</li>
+      </ol>
+      <div class="prose" style="margin-top:26px">
+        <p>Esos contenidos ayudarán a corregir esta definición y después a prototipar sin código los recorridos públicos y del operador. No se propone otra ronda general de exploración competitiva.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——————————————— 16 · EVIDENCIA ——————————————— -->
+  <section id="s16" data-short="Evidencia">
+    <p class="kicker">Sección 16 <span class="dim">· Continuidad</span></p>
+    <h2>Evidencia y continuidad</h2>
+
+    <div class="src">
+      <div class="src-row"><span class="sid">S1</span>
+        <p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-2293" target="_blank" rel="noopener">BOE — Real Decreto 126/2015, artículo 6.5</a> — condiciones de disponibilidad y comunicación de información alimentaria. Consulta: 30/09/2026. El registro propuesto no constituye una certificación de cumplimiento.</p>
+      </div>
+      <div class="src-row"><span class="sid">S2</span>
+        <p><a href="https://support.google.com/business/answer/9455840?hl=es" target="_blank" rel="noopener">Google — Acerca del editor de menú</a> — contenido del perfil y plazo declarado de 24–48 horas para cambios. Consulta: 30/09/2026. No prueba que una futura conexión de Valiris esté disponible ni autorizada.</p>
+      </div>
+    </div>
+
+    <div class="prev-docs">
+      <h3>Documentos previos preservados</h3>
+      <ul>
+        <li>Investigación maestra de Storefront + Digital Menu: muestra competitiva y fuentes por regiones.</li>
+        <li>Fase 2D: síntesis y decisiones de enfoque históricas.</li>
+        <li>Informe BentoBox / Sociavore: observaciones y capturas públicas.</li>
+        <li>Cierre de investigación y propuesta integral: razonamiento previo, con restricciones de amplitud ahora sustituidas por esta dirección.</li>
+      </ul>
+    </div>
+
+    <div class="status">
+      <h3>Estado de decisiones</h3>
+      <div class="status-grid">
+        <div class="status-cell st-agree">
+          <div class="st-head"><i class="mk mk-rec"></i><span>Acordado por el usuario</span></div>
+          <ul>
+            <li>Siete direcciones</li>
+            <li>Capacidad para funciones de valor</li>
+            <li>Enfoque modular</li>
+            <li>Plantillas base y diseño propio de pago</li>
+            <li>Equilibrio comensal · restaurante · Valiris</li>
+            <li>QR como entrada</li>
+            <li>Investigación competitiva cerrada</li>
+          </ul>
+        </div>
+        <div class="status-cell st-rec">
+          <div class="st-head"><i class="mk mk-conf"></i><span>Recomendado en este documento</span></div>
+          <ul>
+            <li>Capacidades y tratamientos</li>
+            <li>Reglas de coherencia</li>
+            <li>Calidad transversal</li>
+            <li>Estructura comercial detallada</li>
+            <li>Pendiente de discusión y ajustes</li>
+          </ul>
+        </div>
+        <div class="status-cell st-open">
+          <div class="st-head"><i class="mk mk-op"></i><span>Todavía no demostrado</span></div>
+          <ul>
+            <li>Comprensión por comensales</li>
+            <li>Facilidad de mantenimiento</li>
+            <li>Ahorro neto de tiempo</li>
+            <li>Disposición a pagar</li>
+            <li>Márgenes</li>
+            <li>Ventaja competitiva global</li>
+          </ul>
+        </div>
+        <div class="status-cell st-no">
+          <div class="st-head"><i class="mk mk-mod"></i><span>No realizado</span></div>
+          <ul>
+            <li>Implementación</li>
+            <li>Prototipos de producto</li>
+            <li>Pruebas con usuarios</li>
+            <li>Integración con canales externos</li>
+            <li>Tarifas definitivas</li>
+            <li>Contacto con terceros</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——————————————— COLOFÓN ——————————————— -->
+  <footer class="colophon">
+    <p class="orn">✦ ✦ ✦</p>
+    <p>Este documento se ha compuesto como aquello que describe:<br>una sola fuente de contenido, varias presentaciones — pantalla, filtro e imprenta.</p>
+    <p class="c-meta">Valiris · Definición funcional de Storefront + Digital Menu · 30 de septiembre de 2026</p>
+  </footer>
+
+</main>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var T = {
+    rec:{name:"Recomendada",  cls:"rec", dot:"d-rec", seg:"s-rec"},
+    conf:{name:"Configurable", cls:"conf",dot:"d-conf",seg:"s-conf"},
+    op:{name:"Oportunidad",   cls:"op",  dot:"d-op",  seg:"s-op"},
+    con:{name:"Conectada",    cls:"con", dot:"d-con", seg:"s-con"}
+  };
+  var caps = Array.prototype.slice.call(document.querySelectorAll(".cap"));
+  var total = caps.length;
+
+  /* ——— recuentos ——— */
+  var counts = {rec:0, conf:0, op:0, con:0};
+  caps.forEach(function(c){ counts[c.dataset.t]++; });
+  document.getElementById("c-all").textContent = total;
+  Object.keys(T).forEach(function(k){
+    document.getElementById("c-" + k).textContent = counts[k];
+  });
+
+  /* ——— barra de distribución por bloque ——— */
+  document.querySelectorAll(".caps[data-block]").forEach(function(group){
+    var b = group.dataset.block;
+    var n = {rec:0, conf:0, op:0, con:0}, t = 0;
+    group.querySelectorAll(".cap").forEach(function(c){ n[c.dataset.t]++; t++; });
+    var bar = document.querySelector('[data-dist="' + b + '"]');
+    var leg = document.querySelector('[data-dist-legend="' + b + '"]');
+    if (bar){
+      ["rec","conf","op","con"].forEach(function(k){
+        if(!n[k]) return;
+        var i = document.createElement("i");
+        i.className = T[k].seg;
+        i.style.width = (n[k]/t*100) + "%";
+        bar.appendChild(i);
+      });
+      bar.title = "Recomendada " + n.rec + " · Configurable " + n.conf + " · Oportunidad " + n.op + " · Conectada " + n.con;
+    }
+    if (leg){
+      leg.textContent = "● " + n.rec + "  ·  ◐ " + n.conf + "  ·  ○ " + n.op + "  ·  ⊘ " + n.con + " capacidades";
+    }
+  });
+
+  /* ——— placa índice: un punto por capacidad ——— */
+  var matrix = document.getElementById("matrix");
+  var mt = document.getElementById("matrix-total");
+  if (matrix && mt){
+    mt.textContent = total + " capacidades en 7 bloques";
+    document.querySelectorAll(".caps[data-block]").forEach(function(group){
+      var row = document.createElement("div");
+      row.className = "matrix-row";
+      var label = document.createElement("span");
+      label.className = "m-label";
+      label.textContent = group.dataset.label;
+      var dots = document.createElement("span");
+      dots.className = "matrix-dots";
+      group.querySelectorAll(".cap").forEach(function(c){
+        var a = document.createElement("a");
+        a.className = "dot " + T[c.dataset.t].dot;
+        a.href = "#" + c.id;
+        a.title = c.querySelector(".cap-name").textContent + " — " +
+                  c.querySelector(".t-label").textContent;
+        dots.appendChild(a);
+      });
+      row.appendChild(label); row.appendChild(dots);
+      matrix.appendChild(row);
+    });
+  }
+
+  /* ——— filtrado por tratamiento ——— */
+  var fcount = document.getElementById("fcount");
+  function setFilter(f){
+    document.body.dataset.f = f;
+    document.querySelectorAll(".chip").forEach(function(ch){
+      var on = ch.dataset.f === f;
+      ch.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    document.querySelectorAll("#legend button").forEach(function(b){
+      var on = b.dataset.f === f;
+      b.style.background = on ? "var(--paper-2)" : "";
+    });
+    if (fcount){
+      fcount.textContent = f ? (counts[f] + " de " + total + " capacidades") : (total + " capacidades");
+    }
+  }
+  document.querySelectorAll(".chip, #legend button").forEach(function(b){
+    b.addEventListener("click", function(){ setFilter(b.dataset.f === document.body.dataset.f ? "" : b.dataset.f); });
+  });
+  setFilter("");
+
+  /* ——— imprimir ——— */
+  document.getElementById("printbtn").addEventListener("click", function(){ window.print(); });
+
+  /* ——— índice activo al desplazar ——— */
+  var links = Array.prototype.slice.call(document.querySelectorAll(".rail a"));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute("href").slice(1)] = a; });
+  var spy = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting){
+        links.forEach(function(a){ a.classList.remove("active"); });
+        var a = map[e.target.id];
+        if (a) a.classList.add("active");
+      }
+    });
+  }, {rootMargin:"-30% 0px -60% 0px"});
+  document.querySelectorAll("section[id]").forEach(function(s){ spy.observe(s); });
+
+  /* ——— progreso de lectura ——— */
+  var bar = document.querySelector("#progress i");
+  function onScroll(){
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    bar.style.transform = "scaleX(" + (max > 0 ? h.scrollTop / max : 0) + ")";
+  }
+  document.addEventListener("scroll", onScroll, {passive:true});
+  onScroll();
+})();
+</script>
+</body>
+</html>

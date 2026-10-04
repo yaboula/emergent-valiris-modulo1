@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "status": "Conceptual proposal, pending founder selection; character style and flexible direction received",
+  "baseline": "8faea11f95f272ea6ebe4da222d3da5f2f686034",
+  "upstream": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+  "branch": "docs/m1-g2-06-lettering-refinement",
+  "scope": "Written line mark, character-free graphic expression, bounded first-model identity contrast; not a full site or UI system",
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "file": "01-marca-escrita.png",
+      "role": "Wordmark/lockup studies; visual lettering approximation",
+      "source": "exec-c941c6a6-ea92-4ce0-aadc-4c443b4fd55f.png",
+      "prompt": "Use case: logo-brand. Generate ONE refined 1536x1024 art-director's wordmark exploration board for the studio product/marketing line VALIRIS RESTAURANTS. First image is its chosen colour/compositional grammar; second is a TYPE SHAPE reference only. Do not copy either composition or Marshmallow name/logo. NO characters, faces, eyes, food photography or restaurant hero here. The entire task is the written mark of the line, not its relationship to a parent brand.\n\nWarm ivory board with black broad geometric lettering, circular bowls, single-storey a, sharp square stems and crisp diagonal open terminals similar to reference typography. Adult, confident, vivid, precise; absolutely no condensed serif, chef-hat logo, bubble font or fake brand names. Top tiny heading \"Valiris Restaurants · estudio de marca\". Main upper area: a beautifully crafted large single-line black wordmark \"Valiris Restaurants\" on ivory, full name readable, BOTH words belonging to one line identity. Custom lettering nuances in V, r and s can echo a curve, short cut and generous bowl without literal cutlery letters; natural wide proportions and careful kerning. Do not make a detached icon stand in for the name. A short vivid coral curved sweep under the last part of the mark can suggest serving, a proposed gesture, not a mandatory colour.\n\nBelow: THREE distinct treatments of this same full wordmark shown generously, not crowded. Left ivory tile labelled \"01 / Continuo\" holds full name on one line, compact and equal-weight geometric bold. Middle bright yellow tile labelled \"02 / Apilado\" holds \"Valiris\" over \"Restaurants\" in the same visual weight, a practical narrow-format lockup. Right rich cobalt tile labelled \"03 / Con gesto\" holds full name in ivory plus one coral open curved gesture extending to the side. The gesture is deliberately open, no container, no generic swoosh replacing the wordmark. These are layout/gesture studies, not separate brands. Small clean bottom strip shows the wordmark once at a modest size and sample \"Oferta · Productos · Diseño\" for tonal context only. Avoid a product menu or restaurant signage. Finish tiny footer \"Exploración conceptual · no branding definitivo\". All lettering visually approximated; not an exact licensed font specimen. Clear hierarchy, bold editorial design, minimal shallow paper shadows only in tiles.",
+      "sha256": "1a97f6752da2bc4cffe200465f29bb3151045ae7ebe92ecaa192a87adeb87437",
+      "bytes": 1255470,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-expresion-abstracta-inicial.png",
+      "role": "Intermediate abstract expression; retained to explain a refinement, not the recommended final study",
+      "source": "exec-3779af11-af19-4db1-b3e2-f1712f5982b1.png",
+      "prompt": "Use case: logo-brand. Generate ONE spectacular 1536x1024 visual expression study for Valiris Restaurants WITHOUT CHARACTERS. First input image gives the accepted shared style; second gives the broad geometric crisp-terminal typography target. No faces, eyes, limbs, mascots, literal food photographs, interface menus or full websites. Show how the identity has life through type, curves, composition and soft depth alone.\n\nA highly designed triptych of THREE unequal editorial panels joined into one composition, with a quiet ivory header carrying \"Valiris Restaurants\" in the same broad geometric bold sans. Across the header small title \"Una dirección. Muchas combinaciones.\" Main first panel occupies 48%: saturated coral-red background, a bold black headline \"Tu carta.\" then \"Con carácter.\" on a generous ivory cut-out field, oversized cobalt open curved stroke looping around one edge, and a yellow shallow matte folded plane suggesting the theatre geometry without a face. Main second panel occupies 28%: rich violet background with ivory headline \"Dar forma.\" and tangerine and bright lime cut-out shapes, confident overlapping and real negative space. No dark mode; vivid violet is an editorial colour plane. Third panel occupies 24%: luminous mint background with black heading \"Dar vida.\", raspberry rounded plane and warm cream sculptural arc with a subtle contact shadow. No one fixed palette; vivid colours relate through dominant/accent/reading field rather than repeated four swatches. Use colours artfully, not a palette diagram.\n\nOne open gesture motif can change hue across panels (blue / tangerine / raspberry) but retains a curved tension and a crisp end. At most one or two strong gestures per panel; discipline, not squiggle confetti. At lower edge a calm wide ivory stripe reading \"Oferta · Productos · Diseño\", quiet black \"Explorar →\" control at right. Tiny footer \"Exploración conceptual · no branding definitivo\". Precise wide geometric typography, rounded bowls with firm terminals, adult contemporary branding and editorial wit. Every word fully legible, no text over noisy material. This is an art-direction composition, not evidence of a functional UI or native font.",
+      "sha256": "ddc326b305d3415fe3fb99a5ff8fe3a88c4f7743a74c068e6627ce9dab0616cc",
+      "bytes": 1596620,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-orilla-contraste-propuesto.png",
+      "role": "New candidate derived from direction references; NOT the original/selected ORILLA",
+      "source": "exec-f6a5fa74-55c6-4058-9b09-8cfade31489e.png",
+      "prompt": "Use case: ui-mockup, bounded art-direction fragment. Generate ONE 1536x1024 proposed identity contrast for fictional Mediterranean restaurant ORILLA, exploring a FIRST STOREFRONT MODEL visually close to the Valiris Restaurants line. INPUT 1 is the accepted Valiris colour/character/soft-depth style. INPUT 2 is the preserved ORIGINAL ORILLA source for name, restaurant-first hierarchy and food prominence only. INPUT 3 is a typography shape reference. DO NOT recreate or label any generated part as the unchanged original. Produce only the NEW CANDIDATE. No full Home, lower sections, navigation system, components or responsive layout.\n\nThis single opening composition is entirely the restaurant's presentation: a small \"ORILLA\" at top left and very quiet \"Exploración del primer modelo\" at top right. Huge black \"ORILLA\" in a broad geometric bold with circular bowls and crisp stems fills the upper-middle, crisp and readable; use the same warm modern letterform family as the line, not the original dense condensed poster font. Under it exact descriptor \"Cocina mediterránea para compartir.\" Then a prominent black \"Ver carta →\" control on a calm ivory reading field. Keep these central and unobstructed.\n\nBottom half is a bold asymmetric still-life stage with a vivid coral shallow tabletop, a large cobalt matte side plane entering right, and a warm ivory background. A beautifully composed conceptual GENERAT​ED ceramic plate with a fictional illustrated rice-based dish is central, appetizing but visibly art-directed, without labels of actual ingredients, price, allergy or origin. The food remains a major subject. On the left, a lively purple AUBERGINE character with cream hands and dark limbs presents the plate with an open gesture; on the right a cream SPOON character leans from the cobalt plane, looking toward the food. Their appearance must follow the first image's expressive object forms and soft shading. These actors are chosen for this scene, not ORILLA-specific fixed mascots or representatives of cuisine. Keep their scale below the name and do not cover the menu action. Add one restrained cobalt gesture line near the aubergine's hand, not decorative clutter. Warm directional light, soft contact shadows, shallow depth; no actual interactive 3D.\n\nAt the bottom on a quiet ivory strip show exact attribution \"Powered by Valiris Restaurants\" in small clean geometric medium type, plus tiny footer \"Propuesta de contraste · imágenes generadas · no sustituye ORILLA original\". No \"Valiris Model Design\" name, no umbrella brand decision, invented address/hours or business claims. This is a new conceptual restaurant-brand expression inspired by the line, not a selected replacement, real restaurant evidence or full UI delivery.",
+      "sha256": "8d636a75e24d2d59044b4936598597b8d3081a981cfeb3d4c3392e2622a18a8b",
+      "bytes": 1754526,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-expresion-sin-personajes.png",
+      "role": "Refined kitchen-derived graphic expression without characters; colour combinations are examples",
+      "prompt": "Edit the supplied 1536x1024 Valiris Restaurants triptych. KEEP the exact three-panel editorial layout, all Spanish wording, colour combinations, crisp broad geometric letterforms, warm ivory header/footer, lighting, shallow depth and text readability. Preserve \"Una dirección. Muchas combinaciones.\", \"Tu carta. Con carácter.\", \"Dar forma.\", \"Dar vida.\", \"Oferta · Productos · Diseño\", \"Explorar →\", \"Exploración conceptual · no branding definitivo\". This is one targeted art-direction correction: replace generic abstract lower shapes with unmistakable overscaled KITCHEN/TABLE SILHOUETTES that retain sculptural precision. NO faces, eyes, limbs, smiling objects or characters.\n\nLEFT coral panel: replace the blue generic curved arc with a giant COBALT SPOON, its recognizable oval concave bowl entering from the left and a short broad handle sweeping diagonally toward the center; cropped confidently, shallow matte surface, no metallic realism. Replace the yellow abstract fold with a crisp YELLOW FOLDED NAPKIN resting on the coral steps, visibly cloth-like paper folds but restrained texture. Text remains entirely on its clear ivory reading field.\n\nMIDDLE violet panel: replace the orange generic arch with a large TANGERINE FORK HEAD, three or four clearly separated long tines, leaning diagonally across the lower panel. Make the fork a bold sculptural graphic silhouette, not an arch or a character. Behind it place a small bright lime folded napkin edge, with purposeful overlap and contact shadow. Keep \"Dar forma.\" readable on its calm violet field.\n\nRIGHT mint panel: replace the cream generic arch with a large cropped IVORY PLATE RIM, a clear circular plate/cup-like concave surface presented in a shallow oblique view, occupying lower-right while leaving headline visible. The raspberry plane behind can become a flat folded table runner corner. It is tableware, not a rainbow arch.\n\nThese kitchen-derived shapes are part of the line's graphic world without characters. Artful vivid colour and editorial cropping, light-mode, precise warm shadows, soft matte depth. Keep type and objects related through generous curves and crisp cuts. Align the header brand to one coherent geometric BOLD wordmark \"Valiris Restaurants\", both words in the same weight, full name legible; do not decide umbrella hierarchy. No new labels, logos, icons, ingredients, menu mockups or sales claims. Deliver one polished conceptual visual; not native font/production assets.",
+      "source": "exec-8aaf9bc2-bc90-487d-93bb-46473f14d147.png",
+      "sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb",
+      "bytes": 1708076,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "original_orilla": {
+    "file": "../../../g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+    "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+    "node": "9:15",
+    "figma": "https://www.figma.com/design/miM4ul2l4Q6ZwJNfAJeN38?node-id=9-15",
+    "status": "Preserved selected reference; not regenerated or overwritten"
+  },
+  "rights": {
+    "generated": "Generated conceptual assets; no exclusivity or third-party clearance claimed",
+    "type_reference": "User-provided Marshmallow appearance reference; exact production font rights/versions not established",
+    "food": "Fictional/generated imagery; not real ORILLA dishes or ingredient evidence"
+  },
+  "notes": [
+    "All labels are internal studies, not product/model names or fixed character jobs",
+    "No compulsory palette, accent hue or character roster",
+    "Wordmark drawings are raster concepts, not editable production lettering",
+    "Prompt 03 describes original typography as condensed imprecisely; the preserved original visibly has a heavy broad uppercase name. Contrast the actual source, not that prompt phrase.",
+    "ORILLA original and shared G1/v2 files remain unchanged"
+  ],
+  "pending": [
+    "Actual production font and editable wordmark",
+    "Production drawing/assets from G2.08",
+    "Client-specific identity/content and model implementation by their owners",
+    "Independent G4 review; no accessibility/interaction/user research claim"
+  ],
+  "recommendation": {
+    "wordmark": "Continuous full-name wordmark as a proposed primary; stacked lockup for narrow formats; gesture remains composition rather than compulsory logo symbol",
+    "graphic": "Kitchen/table silhouettes and textiles without characters; open colour combinations",
+    "first_model": "New ORILLA candidate illustrates strong visual proximity; restaurant-led identity in this sample remains a proposal, original intact"
+  },
+  "input_references": [
+    {
+      "file": "../scene-exploration/01-carta-en-escena.png",
+      "role": "Founder-desired culinary character/colour/depth grammar"
+    },
+    {
+      "file": "../lettering-study/references/user-marshmallow-headline.png",
+      "role": "User-supplied typography appearance target; no font binary used"
+    },
+    {
+      "file": "../../../g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "role": "Preserved selected ORILLA reference; name/descriptor/food hierarchy"
+    }
+  ]
+}

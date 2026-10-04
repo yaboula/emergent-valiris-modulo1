@@ -1,0 +1,50 @@
+# G1 product review — J8/J9 service and maintenance
+
+2 October 2026. Reviewed commit `9cfe77ba652d8b22b412f69a93d24987a9201098`, PR #21 OPEN/draft, M1 #5 OPEN. G1 is the project's single combined Direction/Product consolidator. Independent G4 is a quality responsibility, not a second PM. The founder retains material strategy/investment/commitment decisions.
+
+**G1 result: no reproducible material contradiction requiring a G2 correction was identified in these written branches.** Read all 384 lines and 22 state cards, complete ADR-0012, seven original criteria, 14 affected capability rows, 26 SC contrasts and five walkthroughs. Necessary adjacent publication, CP, current-offer, physical-output and measurement/attribution contracts were contrasted; this does not redo those packages globally.
+
+## Baseline and scope
+
+The branch advanced from 2eb8e86 to c5e0a5b and 9cfe77b before this review. Those commits add public-presence/pairing work and incoming CP review references. J8/J9 state bodies and all SC rows remain unchanged from 2eb8e86; the new continuity record is retained. The public-presence package is a delivered description with separate independent review pending, not accepted by its reference from J8/J9.
+
+Current common context, protocol, instructions, full functional definition and roadmap had already been read and are reused. This task inspects the relevant service/export/maintenance/measurement sections, source criteria, matrix and current operational map. The owner-selected per-assignment confirmation stands; ADR-0012 remains proposed under its review/integration process. No contract, spend, staff capacity, provider or implementation approval is inferred.
+
+## Connected contrasts
+
+Line numbers identify [the frozen J8/J9 source](m1-service-and-maintenance.snapshot.md) at this commit. SA1/DA1/EX1/EN1 and all input outcomes are explicitly hypothetical; no actual customer, material, request, export or traffic is supplied. Reset fixtures between contrasts.
+
+| Contrast group | G1 challenge and written resolution | Evidence |
+| --- | --- | --- |
+| SC01–SC06 / SW01 | Provisional service components and unresolved D3 terms do not become a final agreement or free/unlimited support. Intake, restaurant fact confirmation, publication, handover and actual staff practice remain distinct. Material receipt does not confirm food/rights; changed recipe/context requires relevant reconfirmation. Both template/bespoke support the same ordinary controls; reading a guide is not training completed. | 31–33, S01–S06 lines 43–101 |
+| SC07–SC09 / SW02 | Confirmation per DA1 identifies current/proposed fields, exact item/context/service and private versus publication intent. Requester confirmation cannot create worker Core permission. Draft-only returns restaurant review; explicit publication still uses current O05 dependencies/authority. New 2.10 draft, common-use/recipe change or cancellation race cannot reuse old 2.00 scope blindly; unknown original action is reconciled before retry/undo. Urgent service uses O07 rather than publishing croissant/D11. | 105–111, 241–267; ADR-0012 |
+| SC10–SC11 | Missing help channel yields a prepared unsent description. Known receipt/status needs an actual reference; lost acknowledgement is not a ticket/ETA. Replies/proposals and viewed drafts do not resolve the underlying correction. Attachments remain within permitted venue scope; self-service remains available. | 115–121, 177–183, 251–267 |
+| SC12–SC14 / SW03 | Export has a coherent snapshot and shared/placement relationships, contextual amounts/conditions, validity, maintained languages and declared/pending facts. Optional private drafts are explicit; actual rights/omissions separate facts, private evidence, permitted original/derivative assets and excluded profiles/credentials/logs. Partial cannot be labelled complete. Lost preparation/download and later source changes preserve original outcome and labelled historical snapshot or fresh reviewed export, never a mixed file or blind duplicate. | 34, 125–131, 243, 251–257 |
+| SC15–SC16 | Export, hosted termination, domain mapping/control, studio access revocation and diner account deletion are distinct. Known future end differs from stopped service; unsubmitted cancel differs from execution race. Owned domain cannot guarantee replacement hosting, redirected QR or third-party website transfer. Pending export and actual end conditions stay visible before action; no invented retention/grace period or promised later access. | 35, 135–151, 253–267 |
+| SC17–SC20 / SW04 | Maintenance remains actionable without traffic, with source/context/revision and corrective destination. Failed fetch is limited known coverage, not all-clear. Removed source/context requires checked applicability across remaining uses, not automatic closure. A saved draft, note, view/dismissal or old successful response cannot clear a current public factual issue. Regenerated file differs from operator-declared physical replacement and actual observed display; no configured output is not an updated output. | 36, 157–193, 241–267 |
+| SC21–SC23 / SW05 | Signal definitions, permitted source, period/time zone/context/coverage precede interpretation. Consultations/detail/map/contact/booking clicks remain event counts, not unique diners, calls, visits or bookings. Known origins do not allocate unknown routes. Historical withdrawn items remain historical. Search/filter friction is a privacy-reviewed aggregate question, not a raw profile-linked log or invented new product; illustrative Merlot remains fictional. | 37, 199–225, J14-C06 |
+| SC24–SC26 | Uncollected, unavailable query, partial, unknown origin and insufficient exposure remain distinct from conditional fully observed zero. Unknown/zero denominator supplies no rate; changed event definitions/intervals/overlap remain separately labelled. No causal lift, sales/ROI or backfilled history. Old query/request/export response must retain its original scope; revocation hides private venue information and cannot infer no effect. | 215, 229–267, J13-O01–O03 |
+
+## Original criteria and affected capabilities
+
+| Criterion | Compared written behavior / evidence still missing |
+| --- | --- |
+| J8.1 | S01/S02/S08 separate continuing product, setup/template, bespoke, delegation and evolution; pending prices/revisions/support are visible. Actual agreed scope and buyer comprehension remain unproven. |
+| J8.2 | S03/S04/O05/O06/S05/S06 record current factual responsibility, known publication versus handover/training and common autonomy. Real restaurant confirmation/materials/practice remain absent. |
+| J8.3 | S06/S07/S08/X01–X03 provide ordinary correction/help and explicit per-assignment authority/result through existing CP/O flows. Actual studio authority, channel, enforcement and support response are not demonstrated. |
+| J8.4 | S09–S11 preserve usable content/relationship/asset scope and explicit rights/omissions, separating export/control/hosted exit/third-party access. Actual file/rights/domain/end/retention conditions remain pending. |
+| J9.1 | M01–M04 identify each pending source and correction/current result independent of traffic; private/public/physical outcomes and uncertain tasks remain distinct. Actual queue reconciliation and paper/device evidence remain pending. |
+| J9.2 | U01/U02/U04 expose period/source/context/event definitions and missing/partial/unknown/conditional zero. No event→customer/reservation/sales inference. Actual permitted observation/query evidence remains absent. |
+| J9.3 | U03/U04/J13/J14 support anonymous aggregate questions and source-dependent outcome attribution/comparison; no private profile, raw sensitive queries or unsupported causal result. Real privacy/source/exposure/comprehension checks remain pending. |
+
+The 14 rows B1.06–B1.08, B6.11 and B7.01–B7.10 match their affected accepted scope. B1.08 describes domain/continuity here, not completed SEO/discovery/link preview; B7.06 retains actual connection-dependent outcome data; B7.08 reuses the already described J13 comparison with real metric/exposure evidence still absent. Staff/public/full-output/calendar/visual/interaction work remains in its existing packages, not dropped or counted complete.
+
+## Integrity, limits and continuity
+
+[Recorded checks](document-checks.json) and [checker](check-documents.py): 46 local/internal link occurrences across service/ADR-0012 resolve; 22 unique cards with required fields, seven exact original-criterion mappings, 14 capability rows, 26 SC and five SW. Snapshots are Git LF bytes; normalized checkout content matches. J8/J9 cards and SC are unchanged from 2eb8e86; source criteria, matrix, original definition, accepted ADR-0008/0009 and ADR-0012 are unchanged. Matrix remains 72 parents, 36/30/6; whitespace and clean checkout checked.
+
+Historical pending-review statements are expressly superseded by subsequent continuity; they are not reopened findings. G4-01/G4-J15-01 and CP acceptance retain their own scope. G1 consolidates the independent G4 result separately; no G2 author claim is counted as independent review.
+
+No UX/accessibility/security/compliance, real software/service/analytics/export/domain/food review or participant evidence was produced. M2 #4 retains authority/version/result, storage/export/rights/lifecycle and measurement/privacy contracts. Concrete D3 conditions remain founder/G1 with G5/G6 work; G5/G2 supply actual material, responsibility and autonomy practice; G2/G4 evaluate rendered interaction, comprehension and physical outputs.
+
+Next independent review: PV/J1–J2 public presence, consultation, highlights and directed pairings at its actual delivery revision. In parallel, G2's existing operational map continues J4/J5 calendar/service consolidation, then J6/J7 register/outputs; neither is reviewed merely by this recommendation. No new backlog, role/PM, source/configuration/tracker edit, prototype, implementation, merge, M1 closure or G2-chat message is created by this review.

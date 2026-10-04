@@ -1,0 +1,15 @@
+{
+  "documentationFiles": 10,
+  "handoffFiles": 1,
+  "localTargets": 99,
+  "sourceRows": 72,
+  "treatments": [
+    36,
+    30,
+    6
+  ],
+  "preservedHistorySections": 18,
+  "result": "PASS",
+  "scopeAndCriteriaUnchanged": true,
+  "sourcesAndADRsUnchanged": true
+}

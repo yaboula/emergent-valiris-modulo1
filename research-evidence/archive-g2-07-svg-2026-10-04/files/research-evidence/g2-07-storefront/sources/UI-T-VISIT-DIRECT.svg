@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 2099" width="390" height="2099" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-T-VISIT-DIRECT · ORILLA · static editable partial visit bridge; not complete Digital Menu · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. SCENARIO-01. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="390" height="2099" fill="#FFF8EC"/>
+<g id="composition-UI-T-VISIT-DIRECT" data-source="">
+<g id="H01-recognition" data-source="ORI-COPY-H01-01/05/06">
+<text id="UI-T-VISIT-DIRECT-e1" data-source="ORI-COPY-H01-01" x="24" y="56" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="24" y="56.0">ORILLA</tspan>
+</text>
+<g id="UI-T-VISIT-DIRECT-e2-action" data-source="ORI-COPY-H01-05">
+<rect id="UI-T-VISIT-DIRECT-e3" x="234" y="24" width="132" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-T-VISIT-DIRECT-e4" data-source="ORI-COPY-H01-05" x="254" y="52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="254" y="52.0">Ver carta</tspan>
+</text>
+</g>
+<text id="UI-T-VISIT-DIRECT-e5" data-source="ORI-COPY-H01-06" x="24" y="108" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="108.0">ORILLA es un restaurante ficticio creado para</tspan>
+<tspan x="24" y="131.2">esta demostración.</tspan>
+</text>
+</g>
+<rect id="UI-T-VISIT-DIRECT-e6" x="24" y="154.4" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-DIRECT-e7" data-source="ORI-COPY-H01-02" x="24" y="212.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="212.4">Cocina mediterránea en Alcoy (Alicante)</tspan>
+</text>
+<rect id="UI-T-VISIT-DIRECT-e41" x="0" y="240.5" width="390" height="1668.3000000000002" fill="#F3DE8A"/>
+<g id="H04-visit" data-source="ORI-COPY-H04-01–11; ORI-VISIT-01–03">
+<text id="UI-T-VISIT-DIRECT-e8" data-source="ORI-COPY-H04-01" x="24" y="320.5" font-family="Arial Black" font-size="36" font-weight="900" fill="#20251E">
+<tspan x="24" y="320.5">Horarios y visita</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e9" data-source="ORI-COPY-H04-02" x="24" y="369.9" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="24" y="369.9">Alcoy (Alicante)</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e10" data-source="ORI-COPY-H04-03" x="24" y="406.7" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="406.7">Dirección y contacto de ejemplo no</tspan>
+<tspan x="24" y="432.8">disponibles.</tspan>
+</text>
+<rect id="UI-T-VISIT-DIRECT-e11" x="24" y="468.9" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-DIRECT-e12" data-source="ORI-VISIT-01" x="24" y="510.9" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="510.9">Lunes</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e13" data-source="ORI-COPY-H04-04" x="24" y="548.8" font-family="Segoe UI" font-size="16" font-weight="700" fill="#20251E">
+<tspan x="24" y="548.8">Horario del local</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e14" data-source="ORI-VISIT-01" x="24" y="580.0" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="24" y="580.0">Cerrado</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e15" data-source="ORI-COPY-H04-04" x="24" y="621.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#20251E">
+<tspan x="24" y="621.0">Horario de cocina</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e16" data-source="ORI-VISIT-01" x="24" y="652.2" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="24" y="652.2">Cerrada</tspan>
+</text>
+<rect id="UI-T-VISIT-DIRECT-e17" x="24" y="685.2" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-DIRECT-e18" data-source="ORI-VISIT-01" x="24" y="727.2" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="727.2">Martes a jueves y domingo</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e19" data-source="ORI-COPY-H04-04" x="24" y="765.1" font-family="Segoe UI" font-size="16" font-weight="700" fill="#20251E">
+<tspan x="24" y="765.1">Horario del local</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e20" data-source="ORI-VISIT-01" x="24" y="796.3" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="24" y="796.3">12:30–17:00</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e21" data-source="ORI-COPY-H04-04" x="24" y="837.3" font-family="Segoe UI" font-size="16" font-weight="700" fill="#20251E">
+<tspan x="24" y="837.3">Horario de cocina</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e22" data-source="ORI-VISIT-01" x="24" y="868.5" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="24" y="868.5">13:00–15:30</tspan>
+</text>
+<rect id="UI-T-VISIT-DIRECT-e23" x="24" y="901.5000000000001" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-DIRECT-e24" data-source="ORI-VISIT-01" x="24" y="943.5" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="943.5">Viernes y sábado</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e25" data-source="ORI-COPY-H04-04" x="24" y="981.4" font-family="Segoe UI" font-size="16" font-weight="700" fill="#20251E">
+<tspan x="24" y="981.4">Horario del local</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e26" data-source="ORI-VISIT-01" x="24" y="1012.6" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="24" y="1012.6">12:30–17:00 y 19:30–23:00</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e27" data-source="ORI-COPY-H04-04" x="24" y="1053.6" font-family="Segoe UI" font-size="16" font-weight="700" fill="#20251E">
+<tspan x="24" y="1053.6">Horario de cocina</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e28" data-source="ORI-VISIT-01" x="24" y="1084.8" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="24" y="1084.8">13:00–15:30 y 20:00–22:00</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e29" data-source="ORI-COPY-H04-06" x="24" y="1155.8" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1155.8">Puedes consultar la carta cuando la</tspan>
+<tspan x="24" y="1181.9">cocina está cerrada. Las bebidas se sirven</tspan>
+<tspan x="24" y="1208.0">durante el horario del local. La</tspan>
+<tspan x="24" y="1234.1">disponibilidad de los platos se confirma</tspan>
+<tspan x="24" y="1260.2">para cada servicio.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e30" data-source="ORI-COPY-H04-07" x="24" y="1318.3" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="1318.3">Mesas pequeñas y una mesa de seis.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e31" data-source="ORI-COPY-H04-07" x="24" y="1352.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1352.4">Para grupos de hasta seis, la distribución</tspan>
+<tspan x="24" y="1378.5">necesita confirmación.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e32" data-source="ORI-COPY-H04-08" x="24" y="1432.6" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="1432.6">Hay un escalón en la entrada.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e33" data-source="ORI-COPY-H04-08" x="24" y="1466.7" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1466.7">Las medidas de paso y del aseo están</tspan>
+<tspan x="24" y="1492.8">pendientes.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e34" data-source="ORI-COPY-H04-09" x="24" y="1546.9" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="1546.9">Las condiciones para venir con</tspan>
+<tspan x="24" y="1573.0">animales están pendientes.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e35" data-source="ORI-VISIT-03C" x="24" y="1623.1" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1623.1">No hay terraza en este caso de ejemplo.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e36" data-source="ORI-VISIT-03E" x="24" y="1665.2" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1665.2">No hay servicio de pedidos para llevar en</tspan>
+<tspan x="24" y="1691.3">este caso.</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e37" data-source="ORI-COPY-H04-10" x="24" y="1749.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1749.4">Esta demostración no permite llamar,</tspan>
+<tspan x="24" y="1775.5">abrir un mapa ni reservar una mesa.</tspan>
+</text>
+<g id="UI-T-VISIT-DIRECT-e38-action" data-source="ORI-COPY-H04-11">
+<rect id="UI-T-VISIT-DIRECT-e39" x="24" y="1815.6000000000001" width="240" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-T-VISIT-DIRECT-e40" data-source="ORI-COPY-H04-11" x="44" y="1843.6" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="44" y="1843.6">Ver carta</tspan>
+</text>
+</g>
+</g>
+<rect id="UI-T-VISIT-DIRECT-e42" x="24" y="1944.8000000000002" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-DIRECT-e43" data-source="ORI-COPY-H01-01" x="24" y="1994.8" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="1994.8">ORILLA</tspan>
+</text>
+<text id="UI-T-VISIT-DIRECT-e44" data-source="ADR-0003; attribution only" x="24" y="2036.5" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="2036.5">Powered by Valiris Restaurants</tspan>
+</text>
+</g>
+</svg>

@@ -1,0 +1,2501 @@
+[
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 163,
+    "case": "VC01",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 288
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 163,
+    "case": "VC02",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 289
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 164,
+    "case": "VC03",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 290
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 164,
+    "case": "VC04",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 291
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 164,
+    "case": "TC04",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 340
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 164,
+    "case": "TC14",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 350
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 165,
+    "case": "VC07",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 294
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 166,
+    "case": "VC21",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 308
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 167,
+    "case": "VC01",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 288
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 167,
+    "case": "VC02",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 289
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 168,
+    "case": "SC02",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 315
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 168,
+    "case": "SC06",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 169,
+    "case": "SC01",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 169,
+    "case": "SC02",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 315
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 170,
+    "case": "VC22",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 309
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 170,
+    "case": "VC23",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 310
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 170,
+    "case": "SC15",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 328
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 171,
+    "case": "VC06",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 293
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 171,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 171,
+    "case": "Q13",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 507
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 172,
+    "case": "PC01",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 396
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 172,
+    "case": "PC14",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 409
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 172,
+    "case": "PC18",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 413
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 173,
+    "case": "PC05",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 400
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 173,
+    "case": "VC08",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 295
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 173,
+    "case": "FC03",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 316
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 174,
+    "case": "VC09",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 296
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 174,
+    "case": "FC13",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 326
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 175,
+    "case": "PC06",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 401
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 175,
+    "case": "TC03",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 339
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 175,
+    "case": "FC12",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 325
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 176,
+    "case": "PC18",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 413
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 176,
+    "case": "VC05",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 292
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 177,
+    "case": "TC03",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 339
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 177,
+    "case": "TC05",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 341
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 177,
+    "case": "TC08",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 344
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 177,
+    "case": "TC28",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 364
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 178,
+    "case": "VC08",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 295
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 178,
+    "case": "TC19",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 355
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 179,
+    "case": "TC17",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 353
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 179,
+    "case": "TC20",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 356
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 179,
+    "case": "TC23",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 359
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 180,
+    "case": "TC04",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 340
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 180,
+    "case": "TC07",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 343
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 180,
+    "case": "TC14",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 350
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 181,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 181,
+    "case": "Q13",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 507
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 182,
+    "case": "VC01",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 288
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 182,
+    "case": "VC12",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 299
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 183,
+    "case": "VC10",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 297
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 183,
+    "case": "VC13",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 300
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 184,
+    "case": "VC10",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 297
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 184,
+    "case": "VC11",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 298
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 185,
+    "case": "VC11",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 298
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 185,
+    "case": "FC01",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 185,
+    "case": "FC04",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 317
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 186,
+    "case": "VC09",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 296
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 186,
+    "case": "VC12",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 299
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 187,
+    "case": "VC21",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 308
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 187,
+    "case": "PC09",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 404
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 188,
+    "case": "VC14",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 301
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 188,
+    "case": "VC20",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 307
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 189,
+    "case": "VC22",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 309
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 189,
+    "case": "VC23",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 310
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 190,
+    "case": "Q01",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 495
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 190,
+    "case": "Q04",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 498
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 191,
+    "case": "VC15",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 302
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 191,
+    "case": "VC16",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 303
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 191,
+    "case": "VC17",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 304
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 191,
+    "case": "VC19",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 306
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 191,
+    "case": "VC20",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 307
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 192,
+    "case": "Q02",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 496
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 193,
+    "case": "PC02",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 397
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 193,
+    "case": "PC03",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 398
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 193,
+    "case": "PC04",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 399
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 193,
+    "case": "PC06",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 401
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 194,
+    "case": "PC05",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 400
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 194,
+    "case": "PC07",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 402
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 194,
+    "case": "PC08",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 403
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 195,
+    "case": "PC19",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 414
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 195,
+    "case": "TC17",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 353
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 195,
+    "case": "SC02",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 315
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 196,
+    "case": "PC17",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 412
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 196,
+    "case": "PC18",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 413
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 196,
+    "case": "PC20",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 415
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 196,
+    "case": "PC21",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 416
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 196,
+    "case": "PC23",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 418
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 197,
+    "case": "DS01",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 458
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 197,
+    "case": "DS02",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 459
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 197,
+    "case": "TC01",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 197,
+    "case": "FC11",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 198,
+    "case": "TC01",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 198,
+    "case": "TC11",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 347
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 198,
+    "case": "DS04",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 461
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 199,
+    "case": "TC06",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 342
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 199,
+    "case": "TC09",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 345
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 199,
+    "case": "TC12",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 348
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 199,
+    "case": "TC29",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 365
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 200,
+    "case": "PC23",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 418
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 200,
+    "case": "TC21",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 357
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 200,
+    "case": "TC25",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 361
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 201,
+    "case": "DS04",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 461
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 201,
+    "case": "TC22",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 358
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 201,
+    "case": "FC21",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 334
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 202,
+    "case": "PC09",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 404
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 202,
+    "case": "PC10",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 405
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 202,
+    "case": "PC11",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 406
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 202,
+    "case": "PC12",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 407
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 203,
+    "case": "PC15",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 410
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 203,
+    "case": "PC16",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 411
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 203,
+    "case": "FC05",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 318
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 203,
+    "case": "FC06",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 203,
+    "case": "FC07",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 320
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 203,
+    "case": "TC06",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 342
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 204,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 204,
+    "case": "Q13",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 507
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 205,
+    "case": "VC13",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 300
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 205,
+    "case": "FC09",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 205,
+    "case": "FC15",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 328
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 206,
+    "case": "PC10",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 405
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 206,
+    "case": "FC09",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 207,
+    "case": "PC13",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 408
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 207,
+    "case": "FC07",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 320
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 208,
+    "case": "FC08",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 321
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 208,
+    "case": "TC17",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 353
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 209,
+    "case": "VC13",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 300
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 209,
+    "case": "FC09",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 210,
+    "case": "FC01",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 210,
+    "case": "FC02",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 315
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 210,
+    "case": "FC03",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 316
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 210,
+    "case": "FC05",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 318
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 211,
+    "case": "VC07",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 294
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 211,
+    "case": "FC04",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 317
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 211,
+    "case": "FC10",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 323
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 211,
+    "case": "Q18",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 512
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 212,
+    "case": "FC10",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 323
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 212,
+    "case": "FC11",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 212,
+    "case": "FC12",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 325
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 213,
+    "case": "Q05",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 499
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 213,
+    "case": "Q06",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 500
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 213,
+    "case": "FC06",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 214,
+    "case": "FC22",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 214,
+    "case": "FC23",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 336
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 215,
+    "case": "VC01",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 288
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 215,
+    "case": "FC22",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 216,
+    "case": "VC01",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 288
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 216,
+    "case": "Q15",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 509
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 216,
+    "case": "FC24",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 217,
+    "case": "FC18",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 331
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 217,
+    "case": "FC20",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 333
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 217,
+    "case": "FC22",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 218,
+    "case": "FC12",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 325
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 218,
+    "case": "FC13",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 326
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 218,
+    "case": "FC14",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 327
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 218,
+    "case": "FC18",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 331
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 219,
+    "case": "FC09",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 219,
+    "case": "FC11",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 219,
+    "case": "FC15",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 328
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 220,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 220,
+    "case": "Q13",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 507
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 221,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 221,
+    "case": "Q13",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 507
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 222,
+    "case": "Q07",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 501
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 222,
+    "case": "Q08",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 502
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 222,
+    "case": "Q09",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 503
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 223,
+    "case": "Q03",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 497
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 223,
+    "case": "Q04",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 498
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 223,
+    "case": "FC24",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 224,
+    "case": "SC12",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 325
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 224,
+    "case": "SC13",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 326
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 224,
+    "case": "SC14",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 327
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 224,
+    "case": "SC15",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 328
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 224,
+    "case": "SC16",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 329
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 225,
+    "case": "SC21",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 334
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 225,
+    "case": "SC24",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 226,
+    "case": "SC21",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 334
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 226,
+    "case": "SC24",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 227,
+    "case": "SC23",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 336
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 227,
+    "case": "SC24",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 228,
+    "case": "SC21",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 334
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 228,
+    "case": "SC25",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 338
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 229,
+    "case": "VC06",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 293
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 229,
+    "case": "SC22",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 230,
+    "case": "Q14",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 508
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 230,
+    "case": "SC22",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 231,
+    "case": "SC17",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 330
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 231,
+    "case": "SC18",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 331
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 231,
+    "case": "SC19",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 332
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 231,
+    "case": "SC20",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 333
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 231,
+    "case": "FC19",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 332
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 232,
+    "case": "Q10",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 504
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 232,
+    "case": "Q11",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 505
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 232,
+    "case": "SC25",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 338
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 233,
+    "case": "SC01",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 233,
+    "case": "SC03",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 316
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 233,
+    "case": "SC04",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 317
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 233,
+    "case": "SC05",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 318
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 233,
+    "case": "SC06",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 234,
+    "case": "SC07",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 320
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 234,
+    "case": "SC08",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 321
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 234,
+    "case": "SC09",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 234,
+    "case": "SC10",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 323
+  },
+  {
+    "source": "docs/design/m1-connected-journey.md",
+    "source_line": 234,
+    "case": "SC11",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 23,
+    "case": "VC02",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 289
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 23,
+    "case": "VC03",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 290
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 23,
+    "case": "VC04",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 291
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 24,
+    "case": "VC03",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 290
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 24,
+    "case": "VC05",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 292
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 24,
+    "case": "TC03",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 339
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 25,
+    "case": "VC09",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 296
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 25,
+    "case": "FC01",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 26,
+    "case": "VC06",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 293
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 26,
+    "case": "VC13",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 300
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 26,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 27,
+    "case": "VC22",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 309
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 27,
+    "case": "VC23",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 310
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 28,
+    "case": "VC01",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 288
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 29,
+    "case": "VC08",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 295
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 29,
+    "case": "VC16",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 303
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 30,
+    "case": "VC10",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 297
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 30,
+    "case": "VC13",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 300
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 31,
+    "case": "VC11",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 298
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 31,
+    "case": "FC04",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 317
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 32,
+    "case": "VC12",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 299
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 32,
+    "case": "VC14",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 301
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 32,
+    "case": "VC17",
+    "target": "docs/design/m1-public-presence-and-discovery.md",
+    "target_line": 304
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 33,
+    "case": "Q03",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 497
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 33,
+    "case": "Q04",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 498
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 34,
+    "case": "PC01",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 396
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 34,
+    "case": "PC19",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 414
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 34,
+    "case": "SC02",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 315
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 35,
+    "case": "PC02",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 397
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 35,
+    "case": "PC03",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 398
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 35,
+    "case": "PC04",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 399
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 36,
+    "case": "PC05",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 400
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 36,
+    "case": "PC08",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 403
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 36,
+    "case": "PC14",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 409
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 36,
+    "case": "PC17",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 412
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 37,
+    "case": "PC07",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 402
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 37,
+    "case": "PC15",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 410
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 37,
+    "case": "FC01",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 37,
+    "case": "FC05",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 318
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 38,
+    "case": "PC09",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 404
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 38,
+    "case": "PC10",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 405
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 38,
+    "case": "PC11",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 406
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 38,
+    "case": "PC12",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 407
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 39,
+    "case": "PC06",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 401
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 39,
+    "case": "TC02",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 338
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 40,
+    "case": "TC01",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 40,
+    "case": "TC02",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 338
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 40,
+    "case": "TC22",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 358
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 41,
+    "case": "TC03",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 339
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 41,
+    "case": "TC06",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 342
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 41,
+    "case": "TC07",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 343
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 41,
+    "case": "TC08",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 344
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 42,
+    "case": "TC09",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 345
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 42,
+    "case": "TC10",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 346
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 42,
+    "case": "TC11",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 347
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 42,
+    "case": "TC12",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 348
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 42,
+    "case": "TC15",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 351
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 42,
+    "case": "TC29",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 365
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 43,
+    "case": "DS01",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 458
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 43,
+    "case": "DS02",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 459
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 43,
+    "case": "DS03",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 460
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 43,
+    "case": "DS04",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 461
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 43,
+    "case": "TC16",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 352
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 44,
+    "case": "TC17",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 353
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 44,
+    "case": "TC18",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 354
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 45,
+    "case": "TC19",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 355
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 45,
+    "case": "TC20",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 356
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 45,
+    "case": "TC21",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 357
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 45,
+    "case": "TC22",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 358
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 46,
+    "case": "TC23",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 359
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 46,
+    "case": "TC24",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 360
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 46,
+    "case": "TC14",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 350
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 47,
+    "case": "TC18",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 354
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 47,
+    "case": "TC21",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 357
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 47,
+    "case": "TC25",
+    "target": "docs/design/m1-scheduling-and-service-continuity.md",
+    "target_line": 361
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 47,
+    "case": "PC23",
+    "target": "docs/design/m1-content-preparation.md",
+    "target_line": 418
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 48,
+    "case": "FC08",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 321
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 49,
+    "case": "FC01",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 49,
+    "case": "FC05",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 318
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 49,
+    "case": "FC06",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 49,
+    "case": "FC09",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 50,
+    "case": "FC07",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 320
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 50,
+    "case": "FC10",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 323
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 50,
+    "case": "FC11",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 51,
+    "case": "FC12",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 325
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 51,
+    "case": "FC13",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 326
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 51,
+    "case": "FC14",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 327
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 52,
+    "case": "FC11",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 52,
+    "case": "FC15",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 328
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 52,
+    "case": "FC16",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 329
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 52,
+    "case": "FC17",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 330
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 52,
+    "case": "FC18",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 331
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 53,
+    "case": "FC19",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 332
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 53,
+    "case": "FC20",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 333
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 53,
+    "case": "FC21",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 334
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 54,
+    "case": "FC22",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 54,
+    "case": "FC23",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 336
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 54,
+    "case": "FC24",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 55,
+    "case": "SC01",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 314
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 56,
+    "case": "SC02",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 315
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 56,
+    "case": "SC03",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 316
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 56,
+    "case": "SC04",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 317
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 56,
+    "case": "SC05",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 318
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 56,
+    "case": "SC06",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 57,
+    "case": "SC07",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 320
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 57,
+    "case": "SC08",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 321
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 57,
+    "case": "SC09",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 322
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 57,
+    "case": "SC10",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 323
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 57,
+    "case": "SC11",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 324
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 58,
+    "case": "SC12",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 325
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 58,
+    "case": "SC13",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 326
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 58,
+    "case": "SC14",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 327
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 58,
+    "case": "SC15",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 328
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 58,
+    "case": "SC16",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 329
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 59,
+    "case": "SC17",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 330
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 59,
+    "case": "SC18",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 331
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 59,
+    "case": "SC19",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 332
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 59,
+    "case": "SC20",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 333
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 60,
+    "case": "SC21",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 334
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 60,
+    "case": "SC22",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 335
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 60,
+    "case": "SC24",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 61,
+    "case": "SC23",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 336
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 61,
+    "case": "SC24",
+    "target": "docs/design/m1-service-and-maintenance.md",
+    "target_line": 337
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 61,
+    "case": "Q14",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 508
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 62,
+    "case": "Q01",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 495
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 63,
+    "case": "Q02",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 496
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 64,
+    "case": "Q03",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 497
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 65,
+    "case": "Q04",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 498
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 66,
+    "case": "Q05",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 499
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 67,
+    "case": "Q06",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 500
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 67,
+    "case": "FC06",
+    "target": "docs/design/m1-food-register-and-outputs.md",
+    "target_line": 319
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 68,
+    "case": "Q07",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 501
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 69,
+    "case": "Q08",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 502
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 70,
+    "case": "Q09",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 503
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 71,
+    "case": "Q10",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 504
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 72,
+    "case": "Q11",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 505
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 73,
+    "case": "Q12",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 506
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 74,
+    "case": "Q13",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 507
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 75,
+    "case": "Q14",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 508
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 76,
+    "case": "Q15",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 509
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 77,
+    "case": "Q16",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 510
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "Q17",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 511
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "LC01",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 532
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "LC02",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 533
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "LC03",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 534
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "LC04",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 535
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "LC05",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 536
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 78,
+    "case": "LC06",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 537
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 79,
+    "case": "Q18",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 512
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 79,
+    "case": "LC04",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 535
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 79,
+    "case": "LC05",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 536
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 80,
+    "case": "Q19",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 513
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 80,
+    "case": "LC06",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 537
+  },
+  {
+    "source": "docs/design/m1-coverage-and-evidence.md",
+    "source_line": 81,
+    "case": "Q20",
+    "target": "docs/design/m1-extended-journeys.md",
+    "target_line": 514
+  }
+]

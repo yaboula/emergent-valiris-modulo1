@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "status": "Three conceptual alternatives inside the founder-selected direction; no final identity approval",
+  "request": "Founder asked for creative ideas beyond a font substitution",
+  "baseline": "5aad9a8991afd5018dbff2322b1a83db70c95116",
+  "upstream_consolidation": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+  "branch": "docs/m1-g2-06-lettering-refinement",
+  "source_style": "../lettering-study/02-geometric-refinement.png",
+  "tool": "image_gen.imagegen",
+  "method": "New scene generation using the selected scene only as a shared visual grammar reference",
+  "assets": [
+    {
+      "file": "01-carta-en-escena.png",
+      "concept": "Fold-out menu theatre",
+      "changes": [
+        "Oblique fold-out product staging",
+        "Coral stepped plinth",
+        "Aubergine pulls panels open; fork holds a ribbon"
+      ],
+      "prompt": "Create ONE new 1536x1024 high-end art-directed concept image for Valiris Restaurants, food/restaurant line of a design studio. The supplied image is ONLY a reference for the shared brand grammar, not a layout to reproduce. Adult playful branding, character-driven identity, playful minimalism, Modern Product-Centric Web Design with bold graphic editorial composition and soft shallow depth. Broad geometric bold sans lettering, round bowls, crisp straight terminals, generous counters and single-storey a. VISUAL approximation only, not a real font specimen. Food and kitchen objects become expressive characters with a consistent family grammar: natural recognizable object silhouettes, confident eyes with a gaze, flexible dark limbs and cream hands; they act and relate to each other rather than just smile at the viewer. Main characters predominantly illustrated 2D with restrained tonal shading; shallow dimensional stages and warm shadows. Intentional scale, negative space and clear hierarchy, no clutter. A single conceptual hero/brand scene, no full website or long page. Spanish copy exactly as specified. Small \"Valiris Restaurants\" brand at upper left, quiet tiny \"Explorar\" button upper right. Tiny footer exactly \"Exploración conceptual · no branding definitivo\". Fictional restaurant Casa Naranja; all food/object illustrations conceptual, not photos of real dishes. No sales, performance or nutritional claims. No copying Marshmallow or other reference characters/wordmarks. Do not reuse the giant red background circle, diagonal blue border or centered single floating menu from the reference.\nCONCEPT A — THE FOLD-OUT MENU THEATRE. Main composition is boldly asymmetric: left 38% holds a monumental two-line headline \"Tu carta.\" / \"En escena.\" in black geometric bold on warm ivory, with a small hand-drawn cobalt bracket connecting the text to the scene. Right 62% is an unexpected sculptural accordion of THREE tall cream menu panels opening toward the viewer on a saturated coral stepped plinth. Panels share a hinge/fold but look like a conceptual digital-menu presentation rather than a literal paper-only product. Left panel shows \"Casa Naranja\" then \"Entrantes\", middle \"Platos\", right \"Postres\". The front-most readable panel includes a visible black \"Ver carta →\" control. No invented dish prices or labels. Show only simple category motifs, limited clean text. A confident dark violet AUBERGINE character stands low foreground right, one cream hand pulling the accordion open. A mischievous slim cobalt FORK character leans down from an upper panel and holds a small illustrated ribbon; recognizable metal fork head rendered graphic, not robot. A tiny lemon wedge (without face) becomes a bright accent caught on the fold. The characters make the opening action readable. This is a fresh staging of the product. Saturated coral scene, vivid yellow fold edges and tiny cobalt details, plenty of warm ivory reading space. Unusual oblique viewpoint; panels stagger in depth, controlled warm contact shadows, strong modern product shot with flat illustrated actors. Fine sophisticated illustration, not childish mascots, not generic stock SaaS cards.",
+      "generated_source_file": "exec-7874dbc9-3648-4b2a-b4f1-c548f752ae7f.png",
+      "sha256": "8ee3d1df08beca799450b44abf14132b95a64b8c216616b31af3f54b05e59f57",
+      "bytes": 1524154,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-mesa-editorial.png",
+      "concept": "Editorial overhead table",
+      "changes": [
+        "Overhead viewpoint",
+        "Typography/tabletop arrangement",
+        "Lemon, ravioli and glass in a social scene"
+      ],
+      "prompt": "Create ONE new 1536x1024 high-end art-directed concept image for Valiris Restaurants, food/restaurant line of a design studio. The supplied image is ONLY a reference for the shared brand grammar, not a layout to reproduce. Adult playful branding, character-driven identity, playful minimalism, Modern Product-Centric Web Design with bold graphic editorial composition and soft shallow depth. Broad geometric bold sans lettering, round bowls, crisp straight terminals, generous counters and single-storey a. VISUAL approximation only, not a real font specimen. Food and kitchen objects become expressive characters with a consistent family grammar: natural recognizable object silhouettes, confident eyes with a gaze, flexible dark limbs and cream hands; they act and relate to each other rather than just smile at the viewer. Main characters predominantly illustrated 2D with restrained tonal shading; shallow dimensional stages and warm shadows. Intentional scale, negative space and clear hierarchy, no clutter. A single conceptual hero/brand scene, no full website or long page. Spanish copy exactly as specified. Small \"Valiris Restaurants\" brand at upper left, quiet tiny \"Explorar\" button upper right. Tiny footer exactly \"Exploración conceptual · no branding definitivo\". Fictional restaurant Casa Naranja; all food/object illustrations conceptual, not photos of real dishes. No sales, performance or nutritional claims. No copying Marshmallow or other reference characters/wordmarks. Do not reuse the giant red background circle, diagonal blue border or centered single floating menu from the reference.\nCONCEPT B — AN EDITORIAL TABLE THAT TALKS. A completely different camera and composition: a graphic overhead/tabletop scene, contemporary magazine-cover energy. Warm ivory fills most of the canvas. A wide cobalt woven-looking strip runs vertically off-center as a table runner; a huge crisp coral plate cropped at the right edge creates a graphic circle. Black headline \"A la mesa\" / \"con carácter.\" occupies the upper-left and center with editorial line breaks and air; don't overlap important lettering. Lower center is a cream menu sheet/digital-menu concept shown from overhead and rotated only slightly, not a floating perspective screen. \"Casa Naranja\" at its top, neat separated rows \"Entrantes\", \"Platos\", \"Postres\", and a clear \"Ver carta →\" control. Three expressive food/table characters participate in a little scene: a large bright yellow LEMON near the left edge extends one arm to point to the menu; a cream RAVIOLI with a scalloped pasta edge and dark legs on the right plate proudly presents the menu; a translucent pale turquoise WATER GLASS character at top right leans its gaze toward them. Same eyes/hands grammar, visibly different object silhouettes. A spoon makes an underline near the headline; cobalt hand-drawn gesture marks are sparse. Character scale varies dramatically, one object cropped confidently like an editorial photograph. Primary medium flat precise 2D illustration with soft object contact shadows and a hint of translucent glass; no photoreal food, no full 3D toys. Bright coral/cobalt/yellow, warm ivory calm, the typography itself is an active part of the arrangement. Plenty of sophistication, restraint and wit.",
+      "generated_source_file": "exec-f7bd003b-15dd-4988-b187-93b83c413e14.png",
+      "sha256": "9be8a08c2174a16a07386ac32bfac9ef3011765e217af44607fdfe45435f3d5f",
+      "bytes": 2128066,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-cocina-viva.png",
+      "concept": "Lively kitchen pass",
+      "changes": [
+        "Panoramic foreground/background",
+        "Warm service-lamp pool",
+        "Chilli, stockpot and mushroom interact"
+      ],
+      "prompt": "Create ONE new 1536x1024 high-end art-directed concept image for Valiris Restaurants, food/restaurant line of a design studio. The supplied image is ONLY a reference for the shared brand grammar, not a layout to reproduce. Adult playful branding, character-driven identity, playful minimalism, Modern Product-Centric Web Design with bold graphic editorial composition and soft shallow depth. Broad geometric bold sans lettering, round bowls, crisp straight terminals, generous counters and single-storey a. VISUAL approximation only, not a real font specimen. Food and kitchen objects become expressive characters with a consistent family grammar: natural recognizable object silhouettes, confident eyes with a gaze, flexible dark limbs and cream hands; they act and relate to each other rather than just smile at the viewer. Main characters predominantly illustrated 2D with restrained tonal shading; shallow dimensional stages and warm shadows. Intentional scale, negative space and clear hierarchy, no clutter. A single conceptual hero/brand scene, no full website or long page. Spanish copy exactly as specified. Small \"Valiris Restaurants\" brand at upper left, quiet tiny \"Explorar\" button upper right. Tiny footer exactly \"Exploración conceptual · no branding definitivo\". Fictional restaurant Casa Naranja; all food/object illustrations conceptual, not photos of real dishes. No sales, performance or nutritional claims. No copying Marshmallow or other reference characters/wordmarks. Do not reuse the giant red background circle, diagonal blue border or centered single floating menu from the reference.\nCONCEPT C — A WINDOW INTO A LIVELY KITCHEN. An immersive panoramic scene with a foreground and a background, not isolated mascots around a single card. Top left headline \"Aquí se cocina\" / \"el carácter.\" in huge crisp black geometric bold, balanced with airy ivory around it. Lower two-thirds is a highly designed imaginary kitchen pass: a long soft cream counter enters from lower-left toward center-right, a vivid cobalt rounded shelf and coral vertical wall section form the background, a yellow service lamp casts a soft warm oval pool on the countertop. Keep bright light-mode lighting, no dark background. A small FRONT-FACING cream menu-display rectangle rests visibly on the counter at center-right, text \"Casa Naranja\", \"Entrantes\", \"Platos\", \"Postres\", black \"Ver carta →\" control. Make product labels clean and unobstructed. A coral-red CHILLI character with long curved body and green stem strides across the counter toward that display, carrying a tiny conceptual white plate (empty, no food claim). A silver/cream STOCKPOT character behind the pass raises its lid like a friendly greeting; decorative steam becomes a restrained cobalt line that curls between the characters, no face on the steam. A compact cream MUSHROOM character perched on the shelf reacts with a curious tilted gaze. Their interaction stages anticipation and welcome, not industrial food production. The environment is sculptural soft-depth matte geometry and subtle light, while the actors are 2D editorial illustrations consistent with the supplied family. This contrast must look deliberate and beautifully integrated. Vivid palette in spatial planes, adult warm hospitality, strong contemporary creative direction. One complete atmosphere that works in a static frame, no motion dependencies, no new functionality.",
+      "generated_source_file": "exec-ce17f642-7158-4dc2-961c-ac5cfcb9a933.png",
+      "sha256": "afe5fded3a9e580d697eae268c2e1c21df366d985f4f95438acb1fd1c4b4a086",
+      "bytes": 1633519,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "rights": {
+    "outputs": "Generated concept images; no exclusivity or third-party clearance claimed",
+    "inherited_reference": "Earlier generated Valiris concept; authorship context recorded in the lettering-study manifest",
+    "typography": "Visual approximation of broad geometric bold; not typeset with Marshmallow Youth"
+  },
+  "limits": [
+    "Fictional Casa Naranja and generated/illustrated food, no real dishes claimed",
+    "Single static scene per alternative; no functioning interface or motion",
+    "No fixed repertoire, final palette, production asset or font approval",
+    "Public restaurant hierarchy not settled by line-brand presentation",
+    "No user research, conversion evidence or independent review"
+  ],
+  "ownership": "G2.06 concept/coherence; G2.08 production drawing/assets; G2.07 UI; G2.03 behaviour/integration",
+  "observed_departures": [
+    "The fold-out image adds an architectural arch and category food drawings beyond its prompt, retained as conceptual scenery.",
+    "Editorial tabletop uses substantial object/material shading; it is a hybrid direction rather than a pure flat-2D specimen.",
+    "Kitchen pass uses a detailed generated spatial environment and more volumetric rendering; it does not establish production medium or interactive 3D."
+  ]
+}

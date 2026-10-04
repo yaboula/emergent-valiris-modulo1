@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-03",
+  "status": "PASS",
+  "scope": "Two raster refinements and documentary traceability",
+  "outputs": 2,
+  "dimensions_each": [
+    1536,
+    1024
+  ],
+  "source_copy_hashes_equal": true,
+  "attachment_copies_equal_previous_versions": true,
+  "author_visual_review": "Visible wording, retained character action, product framing and recognisable fork inspected inline",
+  "limits": [
+    "Static conceptual art only",
+    "No exact font, editable resources, full accessibility, interaction, quantitative resizing/contrast, motion, localisation, user research or independent G4 review",
+    "No further founder approval claimed"
+  ],
+  "local_targets_checked": 37,
+  "orilla_original_sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+  "sabor_original_sha256": "762dc99f875d574ee44a25101338b8786a5e60371a91407701e9fabad1c88d15",
+  "whitespace_check": "PASS"
+}

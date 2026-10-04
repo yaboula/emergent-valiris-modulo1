@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "status": "conceptual direction; no final brand approval",
+  "scope": "Founder-requested typography exploration only; wider PM refinement contract remains open",
+  "baseline": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+  "branch": "docs/m1-g2-06-lettering-refinement",
+  "source_base_commit": "3ea85c588b9452fd517921f44e2e282164e6ba53",
+  "generation_tool": "image_gen.imagegen",
+  "font_status": "Visual approximation; not typeset with Marshmallow Youth; font binary not downloaded",
+  "prompts": [
+    {
+      "asset": "01-rounded-trial.png",
+      "prompt": "Edit the FIRST supplied image, the Valiris Restaurants \"Tu carta. Con carácter.\" concept. The second and third images are TYPOGRAPHY REFERENCES ONLY. Make one highly polished 1536x1024 typography refinement of the selected composition. Preserve the existing coral red and cobalt blue graphic shapes, warm ivory canvas, welcome tomato and spoon characters, their anatomy and exact interactions with the floating Casa Naranja digital menu, the soft shallow dimensionality and warm shadows. Keep the existing screen composition and all words, category graphics, button and tiny conceptual footer. Do not add new sections, objects or characters. The ONLY substantive change is typography.\n\nReplace the condensed towering headline with a much wider, warm geometric heavy sans style visually informed by the reference headline \"We insure difference\": generous round counters, monoline mass, confident straight stems with curved bowls, distinctive diagonal-cut open terminals on c and e, single-storey a, rounded and lively but adult and professional. Not a bubbly children's font, not a serif, not narrow or condensed, no horizontal distortion. Typeset the exact Spanish headline \"Tu carta. Con carácter.\" as one clean readable line across the top with generous enough height and size to remain dominant, fitting within the page at natural wide proportions (reduce point size to fit if needed, never squeeze letters). Preserve the accented á and punctuation. It must feel purpose-designed and contemporary. Use the same warm geometric character at a lighter visual intensity for \"Casa Naranja\", \"Entrantes\", \"Platos\", \"Postres\" and \"Ver carta\", retaining clear distinctions between brand headline and functional labels. Keep the small navigation quietly legible. The logo remains the exact name \"Valiris Restaurants\" with geometric weight pairing, no copying the Marshmallow wordmark or any pink marshforms. This is a VISUAL approximation of typographic direction, not an exact licensed font specimen. Keep bottom footer exactly \"Exploración conceptual · no branding definitivo\". High fidelity art direction, sharp lettering, coherent curves, readable content."
+    },
+    {
+      "asset": "02-geometric-refinement.png",
+      "prompt": "Refine the FIRST supplied Valiris Restaurants image, using the SECOND pink \"We insure difference\" image ONLY as a letterform reference. Preserve the entire scene: composition, exact food/utensil characters, shapes, palette, floating Casa Naranja card, category graphics, warm shadow depth, all wording and footer. This is a typography-only fine adjustment.\n\nThe current headline and category lettering is too soft, with visibly rounded corners. Replace this lettering with a more disciplined geometric grotesk visually close to the second reference: STRAIGHT, CRISP, SQUARE-ENDED stems and horizontal bars, flat-ended T and t, no pill-shaped stroke endings, no rounded corners at stem tips. Keep full circular bowls, natural broad proportions, a single-storey a with a straight right stem, a circular e counter with crisp diagonal-cut open terminal, c with diagonal cut ends. W and u can have rounded inner curves but keep squared outer terminals. Reduce extreme black weight slightly to a confident heavy BOLD comparable to the reference; allow generous open counters. The intended result is warm adult modern graphic branding, precise rather than bubble lettering. Exact headline \"Tu carta. Con carácter.\" stays ONE line across the top. Keep the á accent, punctuation and natural widths. Menu \"Casa Naranja\", labels \"Entrantes\", \"Platos\", \"Postres\" also use that straight-stem, round-bowl grammar at a restrained bold weight; the \"Ver carta\" button label and small navigation use a clean medium-weight version. Retain exact \"Valiris Restaurants\" branding at top left and footer \"Exploración conceptual · no branding definitivo\". No copy of Marshmallow's name, characters, icon or pink palette. Deliver one polished 1536x1024 concept, typographic visual approximation only, sharp readable lettering, no new elements."
+    }
+  ],
+  "rights": {
+    "generated": "Generated conceptual assets; no exclusivity or third-party clearance claimed",
+    "references": "User-provided visual references; third-party authorship/rights not established by submission; not production assets",
+    "font": "Public CSS declaration inspected; reusable licence, foundry and availability unverified"
+  },
+  "generated_assets": [
+    {
+      "file": "00-selected-base.png",
+      "role": "Frozen founder-selected generated scene; preserve for comparison",
+      "source_commit": "3ea85c588b9452fd517921f44e2e282164e6ba53"
+    },
+    {
+      "file": "01-rounded-trial.png",
+      "role": "Intermediate trial; overly rounded stem tips",
+      "default_tool_file": "exec-a76a8caa-93e5-4f23-be51-0ba1b6364ff8.png"
+    },
+    {
+      "file": "02-geometric-refinement.png",
+      "role": "Recommended visual typography study; not final branding",
+      "default_tool_file": "exec-f4b0ff22-f6ce-439d-97ef-93ab4245ef67.png"
+    }
+  ],
+  "reference_assets": [
+    {
+      "file": "references/user-marshmallow-headline.png",
+      "user_attachment": "codex-clipboard-4a7a34c9-19bf-460c-ae8e-a204b173b033.png",
+      "role": "Typographic appearance reference; not a Valiris asset"
+    },
+    {
+      "file": "references/user-marshmallow-wordmark.png",
+      "user_attachment": "codex-clipboard-3c9195d6-a88c-4099-b817-669be61b6191.png",
+      "role": "Wordmark appearance reference; not evidence of reusable font rights"
+    }
+  ],
+  "constraints": [
+    "Open culinary repertoire; not four fixed characters",
+    "No client hierarchy approval",
+    "No original v2 or ORILLA modification",
+    "No final font, palette or production approval",
+    "No real food claims",
+    "No implementation, external contacts or chat messages"
+  ],
+  "integrity": [
+    {
+      "file": "00-selected-base.png",
+      "sha256": "cbf1d19f0c2efc08dacc733bb9f6147f766008eab6e4157fafa7c9f7b3e9221b",
+      "bytes": 1394618
+    },
+    {
+      "file": "01-rounded-trial.png",
+      "sha256": "772cac2caddc37f830265f11d775b1dfa082d1dcee5622587ef2e5d5e021edd7",
+      "bytes": 1425730
+    },
+    {
+      "file": "02-geometric-refinement.png",
+      "sha256": "3e7ae823b8d66628fe9c6fa5e5bcbd89bc5c4f19cc8ea7ca4cf59a1bf3285219",
+      "bytes": 1425587
+    },
+    {
+      "file": "references/user-marshmallow-headline.png",
+      "sha256": "5dbf0c14f7ef698b1454a2993ae56a35a029c3d7a5c295144a274753f0e2130b",
+      "bytes": 250678
+    },
+    {
+      "file": "references/user-marshmallow-wordmark.png",
+      "sha256": "c6effae6e66cc3aca0f99218554b69a1eabe6be2d8b1df56fe7acf9f7371bd3a",
+      "bytes": 89966
+    }
+  ]
+}

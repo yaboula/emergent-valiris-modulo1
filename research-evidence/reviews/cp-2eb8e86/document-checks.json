@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-02",
+  "baseline": "2eb8e86831c4c00315078b5442e20fc5273150c9",
+  "source_sha256": {
+    "docs/design/m1-content-preparation.md": "629b3d91836fe80fa4007cf2b2a432e5defca25175b49828f442e5ef7923ba29",
+    "docs/adr/0011-shared-menu-content-and-contextual-maintenance.md": "d65b8a568dc798614cd1437869af969160e55832d45de4900b89e7124c2a0651",
+    "docs/product/m0-journeys-and-criteria.md": "facbc24b73a66f7a0cb30f56436dd6650fe1497ada34a77e2b9471fa98ee93b8",
+    "docs/design/m1-connected-journey.md": "0e9e56b4db934665ed50b1c52aaa6c8a73c4b521c2f1a12054b10a10ea6ace96",
+    "docs/design/m1-extended-journeys.md": "bdf25f202f835f4569ffc18980c6d04128038dab5d2963d5cc0bfdb61cca3a0f",
+    "docs/product/m0-capability-matrix.md": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc",
+    "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+  },
+  "checkout_matches_git_after_line_ending_normalization": true,
+  "local_link_occurrences_cp_and_adr": 61,
+  "states": 27,
+  "criterion_mappings": [
+    "J3.1",
+    "J3.2",
+    "J3.3",
+    "J3.4",
+    "J3.5",
+    "J3.6",
+    "J4.1",
+    "J4.4",
+    "J5.2",
+    "J5.4",
+    "J6.1",
+    "J6.2",
+    "J6.3",
+    "J7.3"
+  ],
+  "affected_capability_rows": [
+    "B4.01",
+    "B4.02",
+    "B4.03",
+    "B4.04",
+    "B4.05",
+    "B4.06",
+    "B4.07",
+    "B4.08",
+    "B4.09",
+    "B4.10",
+    "B4.11",
+    "B5.02",
+    "B5.03",
+    "B5.04",
+    "B5.05",
+    "B5.06",
+    "B5.07",
+    "B5.08",
+    "B5.09"
+  ],
+  "pc": 24,
+  "walkthroughs": 5,
+  "ds": 4,
+  "cp_state_bodies_unchanged_from_c4f219c": true,
+  "matrix_parents": 72,
+  "scope_counts": {
+    "Included": 36,
+    "Configurable": 30,
+    "Connection-dependent": 6
+  },
+  "protected_sources_unchanged": true,
+  "repo_clean": true,
+  "whitespace_check": true,
+  "scope": "Document integrity. Manual independent G4 and G1 reasoning recorded separately; no software, UX or capability completion.",
+  "final_readback": {
+    "local_report_links_valid": 11,
+    "snapshots_hash_match": true,
+    "pr_21": {
+      "headRefOid": "2eb8e86831c4c00315078b5442e20fc5273150c9",
+      "isDraft": true,
+      "state": "OPEN"
+    },
+    "issue_5": {
+      "state": "OPEN"
+    },
+    "repo_clean": true,
+    "handoff_cp_current_result_and_next_j8_j9": true,
+    "g1_result": "No required correction in written branches",
+    "g4_result": "No required correction in written branches"
+  }
+}

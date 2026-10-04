@@ -1,0 +1,268 @@
+{
+  "checks": [
+    {
+      "id": "2:2",
+      "name": "01 · A · HACER SITIO",
+      "width": 1440,
+      "height": 1216,
+      "textCount": 18,
+      "minimumTextContrast": 6.91,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    },
+    {
+      "id": "2:46",
+      "name": "02 · B · SOBREMESA TIPOGRÁFICA",
+      "width": 1440,
+      "height": 1216,
+      "textCount": 18,
+      "minimumTextContrast": 5.1,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    },
+    {
+      "id": "2:89",
+      "name": "03 · C · COMPÁS DE SALA",
+      "width": 1440,
+      "height": 1190,
+      "textCount": 18,
+      "minimumTextContrast": 6.28,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    },
+    {
+      "id": "4:2",
+      "name": "04 · Brand hierarchy",
+      "width": 1440,
+      "height": 1133,
+      "textCount": 26,
+      "minimumTextContrast": 9.06,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    },
+    {
+      "id": "4:39",
+      "name": "05 · Bounded stress specimens",
+      "width": 1440,
+      "height": 1242,
+      "textCount": 31,
+      "minimumTextContrast": 9.06,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    },
+    {
+      "id": "4:85",
+      "name": "06 · ORILLA coexistence comparison",
+      "width": 1440,
+      "height": 1202,
+      "textCount": 11,
+      "minimumTextContrast": 9.06,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    },
+    {
+      "id": "8:2",
+      "name": "07 · Base and bespoke identity",
+      "width": 1440,
+      "height": 1199,
+      "textCount": 22,
+      "minimumTextContrast": 7.65,
+      "failures": [],
+      "exportSettings": [
+        {
+          "format": "SVG",
+          "suffix": "",
+          "contentsOnly": true,
+          "colorProfile": "DOCUMENT",
+          "svgOutlineText": true,
+          "svgIdAttribute": false,
+          "svgSimplifyStroke": true
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "foreground": "#164B3B",
+      "background": "#F7F4E8",
+      "ratio": 9.06
+    },
+    {
+      "foreground": "#F7F4E8",
+      "background": "#164B3B",
+      "ratio": 9.06
+    },
+    {
+      "foreground": "#164B3B",
+      "background": "#E6F07A",
+      "ratio": 8.13
+    },
+    {
+      "foreground": "#164B3B",
+      "background": "#CBD7F1",
+      "ratio": 6.91
+    },
+    {
+      "foreground": "#164B3B",
+      "background": "#FFFFFF",
+      "ratio": 9.98
+    },
+    {
+      "foreground": "#B53C26",
+      "background": "#FFF0C8",
+      "ratio": 5.1
+    },
+    {
+      "foreground": "#FFF0C8",
+      "background": "#B53C26",
+      "ratio": 5.1
+    },
+    {
+      "foreground": "#2C2A49",
+      "background": "#ECA593",
+      "ratio": 6.76
+    },
+    {
+      "foreground": "#FFF0C8",
+      "background": "#2C2A49",
+      "ratio": 12.09
+    },
+    {
+      "foreground": "#B53C26",
+      "background": "#FFFFFF",
+      "ratio": 5.77
+    },
+    {
+      "foreground": "#244BDD",
+      "background": "#F5F7FF",
+      "ratio": 6.28
+    },
+    {
+      "foreground": "#F5F7FF",
+      "background": "#244BDD",
+      "ratio": 6.28
+    },
+    {
+      "foreground": "#17224C",
+      "background": "#ECA593",
+      "ratio": 7.57
+    },
+    {
+      "foreground": "#F5F7FF",
+      "background": "#17224C",
+      "ratio": 14.33
+    },
+    {
+      "foreground": "#244BDD",
+      "background": "#FFFFFF",
+      "ratio": 6.72
+    },
+    {
+      "foreground": "#583D52",
+      "background": "#F1E4DB",
+      "ratio": 7.65
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Source Sans 3",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700
+      }
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "style": "ExtraBold",
+      "variationSettings": {
+        "wght": 800,
+        "wdth": 100,
+        "opsz": 14
+      }
+    },
+    {
+      "family": "Source Sans 3",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    {
+      "family": "Fraunces",
+      "style": "Black",
+      "variationSettings": {
+        "wght": 900,
+        "WONK": 1,
+        "SOFT": 0
+      }
+    },
+    {
+      "family": "Space Grotesk",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700
+      }
+    }
+  ],
+  "scope": "Opaque solid text/background pairs and immediate-parent bounds only. No UI accessibility audit."
+}

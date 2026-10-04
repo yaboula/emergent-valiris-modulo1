@@ -1,0 +1,762 @@
+{
+  "pageId": "20:2",
+  "pageName": "G2.06 · Proposals v2 · Open kitchen family · Not final branding",
+  "directionDeclarations": [
+    {
+      "id": "20:52",
+      "characters": "Plato, pera, berenjena y taza son cuatro ejemplos. Repertorio abierto a comida, cocina y restaurante, con un lenguaje visual compartido."
+    },
+    {
+      "id": "20:56",
+      "characters": "Idea de dirección, no branding definitivo. Personajes, colores y detalles exploratorios; el repertorio no se limita a estos cuatro ejemplos."
+    },
+    {
+      "id": "20:107",
+      "characters": "Cualquier elemento de comida, cocina o restaurante puede entrar en la familia. Estos cuatro son muestras; silueta, gesto y expresión conservan parentesco."
+    },
+    {
+      "id": "20:108",
+      "characters": "Idea de dirección, no familia final. Anatomía y detalles se ajustarán después. Los personajes no indican dieta, disponibilidad ni alérgenos. G2.08 desarrolla producción."
+    },
+    {
+      "id": "20:166",
+      "characters": "Paleta, lettering y fuentes exploratorios: no branding definitivo. OFL conservadas; binarios de Figma no identificados. Producción y ajuste óptico posteriores."
+    }
+  ],
+  "checks": [
+    {
+      "id": "20:3",
+      "name": "01 · APRENDER SIN COPIAR",
+      "width": 1920,
+      "height": 1933,
+      "textCount": 13,
+      "minimumTextContrast": 15.84,
+      "failures": []
+    },
+    {
+      "id": "20:29",
+      "name": "02 · A / CARÁCTER A LA MESA",
+      "width": 1920,
+      "height": 1164,
+      "textCount": 9,
+      "minimumTextContrast": 11.23,
+      "failures": []
+    },
+    {
+      "id": "20:57",
+      "name": "03 · B / SALA VIVA",
+      "width": 1920,
+      "height": 1195,
+      "textCount": 9,
+      "minimumTextContrast": 9.29,
+      "failures": []
+    },
+    {
+      "id": "20:84",
+      "name": "04 · UNA FAMILIA ABIERTA",
+      "width": 1920,
+      "height": 1953,
+      "textCount": 15,
+      "minimumTextContrast": 15.84,
+      "failures": []
+    },
+    {
+      "id": "20:109",
+      "name": "05 · DE LOS CONTORNOS A LAS LETRAS",
+      "width": 1920,
+      "height": 1519.15380859375,
+      "textCount": 22,
+      "minimumTextContrast": 4.72,
+      "failures": []
+    },
+    {
+      "id": "20:167",
+      "name": "06 · DOS INTENSIDADES. LOS MISMOS HECHOS",
+      "width": 1920,
+      "height": 1829,
+      "textCount": 22,
+      "minimumTextContrast": 11.23,
+      "failures": []
+    },
+    {
+      "id": "20:196",
+      "name": "07 · UN MUNDO EN VOLUMEN. UN GESTO CON SENTIDO",
+      "width": 1920,
+      "height": 2823,
+      "textCount": 10,
+      "minimumTextContrast": 15.84,
+      "failures": []
+    },
+    {
+      "id": "20:213",
+      "name": "08 · EL LOCAL SIGUE SIENDO EL LOCAL",
+      "width": 1920,
+      "height": 2357,
+      "textCount": 29,
+      "minimumTextContrast": 9.29,
+      "failures": []
+    }
+  ],
+  "pairs": [
+    {
+      "foreground": "#251E2E",
+      "background": "#FFFDF8",
+      "ratio": 15.84
+    },
+    {
+      "foreground": "#251E2E",
+      "background": "#FFD33E",
+      "ratio": 11.23
+    },
+    {
+      "foreground": "#251E2E",
+      "background": "#24DCC5",
+      "ratio": 9.29
+    },
+    {
+      "foreground": "#FFFDF8",
+      "background": "#6C55FF",
+      "ratio": 4.72
+    },
+    {
+      "foreground": "#FFFDF8",
+      "background": "#251E2E",
+      "ratio": 15.84
+    }
+  ],
+  "texts": [
+    {
+      "id": "20:176",
+      "name": "Direct menu label",
+      "characters": "Ver carta",
+      "fontSize": 30
+    },
+    {
+      "id": "20:177",
+      "name": "Fixture item",
+      "characters": "Café con leche",
+      "fontSize": 34
+    },
+    {
+      "id": "20:178",
+      "name": "Fixture context and price",
+      "characters": "Carta general · 1,90 €",
+      "fontSize": 32
+    },
+    {
+      "id": "20:179",
+      "name": "Declared positive",
+      "characters": "Contiene leche declarada.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:180",
+      "name": "Unknown is not absence",
+      "characters": "Resto de información alimentaria pendiente. Consulta al personal antes de elegir.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:181",
+      "name": "Attribution",
+      "characters": "Powered by Valiris Restaurants",
+      "fontSize": 24
+    },
+    {
+      "id": "20:186",
+      "name": "Direct menu label",
+      "characters": "Ver carta",
+      "fontSize": 30
+    },
+    {
+      "id": "20:188",
+      "name": "Fixture item",
+      "characters": "Café con leche",
+      "fontSize": 34
+    },
+    {
+      "id": "20:189",
+      "name": "Fixture context and price",
+      "characters": "Carta general · 1,90 €",
+      "fontSize": 32
+    },
+    {
+      "id": "20:190",
+      "name": "Declared positive",
+      "characters": "Contiene leche declarada.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:191",
+      "name": "Unknown is not absence",
+      "characters": "Resto de información alimentaria pendiente. Consulta al personal antes de elegir.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:192",
+      "name": "Attribution",
+      "characters": "Powered by Valiris Restaurants",
+      "fontSize": 24
+    },
+    {
+      "id": "20:229",
+      "name": "Long fictional restaurant name",
+      "characters": "Casa del Patio y de la Huerta Mediterránea de San Sebastián",
+      "fontSize": 58
+    },
+    {
+      "id": "20:231",
+      "name": "Direct menu label",
+      "characters": "Ver carta",
+      "fontSize": 30
+    },
+    {
+      "id": "20:232",
+      "name": "Fixture item",
+      "characters": "Café con leche",
+      "fontSize": 34
+    },
+    {
+      "id": "20:233",
+      "name": "Fixture context and price",
+      "characters": "Carta general · 1,90 €",
+      "fontSize": 32
+    },
+    {
+      "id": "20:234",
+      "name": "Declared positive",
+      "characters": "Contiene leche declarada.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:235",
+      "name": "Unknown is not absence",
+      "characters": "Resto de información alimentaria pendiente. Consulta al personal antes de elegir.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:236",
+      "name": "Exact attribution",
+      "characters": "Powered by Valiris Restaurants",
+      "fontSize": 24
+    },
+    {
+      "id": "20:239",
+      "name": "Long fictional restaurant name",
+      "characters": "Casa del Patio y de la Huerta Mediterránea de San Sebastián",
+      "fontSize": 58
+    },
+    {
+      "id": "20:241",
+      "name": "Direct menu label",
+      "characters": "Ver carta",
+      "fontSize": 30
+    },
+    {
+      "id": "20:242",
+      "name": "Fixture item",
+      "characters": "Café con leche",
+      "fontSize": 34
+    },
+    {
+      "id": "20:243",
+      "name": "Fixture context and price",
+      "characters": "Carta general · 1,90 €",
+      "fontSize": 32
+    },
+    {
+      "id": "20:244",
+      "name": "Declared positive",
+      "characters": "Contiene leche declarada.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:245",
+      "name": "Unknown is not absence",
+      "characters": "Resto de información alimentaria pendiente. Consulta al personal antes de elegir.",
+      "fontSize": 28
+    },
+    {
+      "id": "20:246",
+      "name": "Exact attribution",
+      "characters": "Powered by Valiris Restaurants",
+      "fontSize": 24
+    },
+    {
+      "id": "20:247",
+      "name": "Localisation contrast",
+      "characters": "ES: Ver carta / Información alimentaria pendiente.\nDE: Speisekarte ansehen / Weitere Allergeninformationen stehen noch aus.\nÑ · á · ü · ß · 1,90 € · 26,00 € — muestra ilustrativa, no traducción aprobada.",
+      "fontSize": 30
+    }
+  ],
+  "images": [
+    {
+      "id": "20:9",
+      "name": "Supplied reference — not our asset",
+      "width": 568,
+      "height": 640,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "2f39b2d8b828d10fd3f88c9aa05b19f0f0579951"
+        }
+      ]
+    },
+    {
+      "id": "20:13",
+      "name": "Supplied reference — not our asset",
+      "width": 568,
+      "height": 640,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "f2acdcf7b800fe25e3445357fd82f67dcdab3b01"
+        }
+      ]
+    },
+    {
+      "id": "20:17",
+      "name": "Supplied reference — not our asset",
+      "width": 568,
+      "height": 640,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "de18d923d070468db4ca7e508c99c69d8a5a997f"
+        }
+      ]
+    },
+    {
+      "id": "20:22",
+      "name": "Observed frame — approximate time",
+      "width": 868,
+      "height": 488,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "b85191f8bbb1354f422bbca3bbde5f5e94224904"
+        }
+      ]
+    },
+    {
+      "id": "20:26",
+      "name": "Observed frame — approximate time",
+      "width": 868,
+      "height": 488,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "ec060c1113063f2a1417991331681311529def56"
+        }
+      ]
+    },
+    {
+      "id": "20:48",
+      "name": "Kitchen family — selected conceptual scene",
+      "width": 1136,
+      "height": 757,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "a0ddfe60ec9ab21f36dd6da19a3e8e26dc64899a"
+        }
+      ]
+    },
+    {
+      "id": "20:75",
+      "name": "Social family — alternative scene",
+      "width": 1136,
+      "height": 757,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "7cc4eeeb57a71e50032c5da7278729f431e5ca9f"
+        }
+      ]
+    },
+    {
+      "id": "20:87",
+      "name": "Four silhouettes and acting study",
+      "width": 1776,
+      "height": 1184,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "db30b3f44c2229439a9234827ea14f6986489cdb"
+        }
+      ]
+    },
+    {
+      "id": "20:174",
+      "name": "Selective conceptual kitchen illustration",
+      "width": 796,
+      "height": 531,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "a0ddfe60ec9ab21f36dd6da19a3e8e26dc64899a"
+        }
+      ]
+    },
+    {
+      "id": "20:199",
+      "name": "One conceptual 3D hospitality scene",
+      "width": 1776,
+      "height": 1184,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "b2433ac97ff7383a21dffe6e4096d8555392f07c"
+        }
+      ]
+    },
+    {
+      "id": "20:201",
+      "name": "Three plate acting keyframes",
+      "width": 1776,
+      "height": 888,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "321da7679500c6fe1f16ce31fa75bc532782a2bb"
+        }
+      ]
+    },
+    {
+      "id": "20:250",
+      "name": "ORILLA v0.2 — untouched source",
+      "width": 868,
+      "height": 675,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "af178fb12cc73fe3fdbd0b2df1f79cdf642a5dd7"
+        }
+      ]
+    }
+  ],
+  "scope": "Native solid text, immediate-parent bounds and filled content-image nodes only; raster reference/generated text excluded. Not full accessibility or interaction."
+}

@@ -61,5 +61,5 @@ The [ledger](review-ledger.md) provides the record locators. Capterra product su
 
 - Before Gate 2, refresh public tariffs and carry unresolved plan/segment assumptions into requirements.
 - Before live M2/M3/M6/M7 activation, recheck the relevant laws, policies and contracts; the [legal register](legal.md) assigns implementation checks.
-- Working feeds and retrieval notes remain outside the repository. Repo evidence is limited to source links, minimal public locators and short paraphrases. Live pages may reorder or disappear.
+- Working feeds and retrieval notes were outside the repository at collection; their unchanged originals are now versioned in root `research-evidence/` under the owner’s 3 October Git decision. The analytical documents retain source links, minimal public locators and short paraphrases. Live pages may reorder or disappear. See the [migration inventory](../../coordination/storage-migration-2026-10-03.json).
 - Do not present fictional profiles, the illustrative no-show calculation or candidate product outcomes as observed results.

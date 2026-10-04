@@ -1,0 +1,24 @@
+{
+  "headRefOid": "120903f138a798e957b26498f2a3efb5d5e6521a",
+  "title": "docs(product): describe M1 public, management and service journeys",
+  "isDraft": true,
+  "state": "OPEN",
+  "url": "https://github.com/yaboula/valiris-restaurants/pull/21",
+  "m1Issue": {
+    "state": "OPEN",
+    "url": "https://github.com/yaboula/valiris-restaurants/issues/5"
+  },
+  "clean": true,
+  "synchronised": true,
+  "author": "Yahya <yaboula@epsa.upv.es>",
+  "trailers": [],
+  "bodyMatches": true,
+  "handoffHistoryPreserved": true,
+  "documentaryOnly": true,
+  "links": 431,
+  "states": 21,
+  "criteria": 8,
+  "capabilityRows": 20,
+  "contrasts": 30,
+  "priorContrastsPreserved": 122
+}

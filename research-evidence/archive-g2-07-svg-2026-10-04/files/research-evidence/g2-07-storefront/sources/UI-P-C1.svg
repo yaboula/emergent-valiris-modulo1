@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1668" width="1440" height="1668" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-P-C1 · ORILLA · static editable separate C1 content contrast · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. C1 separate reset. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="1440" height="1668" fill="#FFF8EC"/>
+<g id="composition-UI-P-C1" data-source="">
+<text id="UI-P-C1-e1" data-source="m1-connected-journey.md#c1" x="72" y="44" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="72" y="44.0">Caso ficticio de contraste C1. No es contenido de ORILLA.</tspan>
+</text>
+<text id="UI-P-C1-e2" data-source="m1-connected-journey.md#c1" x="72" y="131.2" font-family="Arial Black" font-size="52" font-weight="900" fill="#20251E">
+<tspan x="72" y="131.2">Café Linde</tspan>
+</text>
+<rect id="UI-P-C1-e3" x="72" y="161.44" width="1296" height="58.099999999999994" rx="12" fill="#DDEBBE"/>
+<text id="UI-P-C1-e4" data-source="m1-connected-journey.md#c1" x="88" y="193.44" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="88" y="193.44">Ingredientes y alérgenos de ejemplo. Los datos declarados no confirman la ausencia de otros alérgenos.</tspan>
+</text>
+<text id="UI-P-C1-e5" data-source="m1-connected-journey.md#c1" x="72" y="271.54" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="72" y="271.54">Carta · consulta sin fotografías ni relato</tspan>
+</text>
+<text id="UI-P-C1-e6" data-source="m1-connected-journey.md#c1" x="72" y="320.34" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="320.34">Local: lunes a sábado, 08:00–17:00. Desayunos: 08:00–12:00. Caso fijado: 1 de octubre de 2026, 10:00.</tspan>
+</text>
+<text id="UI-P-C1-e7" data-source="m1-connected-journey.md#c1" x="72" y="376.44" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="72" y="376.44">Cafés</tspan>
+</text>
+<rect id="UI-P-C1-e8" x="72" y="405.04" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e9" data-source="m1-connected-journey.md#c1" x="72" y="443.04" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="443.04">Espresso · 1,60 €</tspan>
+</text>
+<text id="UI-P-C1-e10" data-source="m1-connected-journey.md#c1" x="72" y="482.94" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="482.94">Información alimentaria pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e11" x="72" y="515.04" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e12" data-source="m1-connected-journey.md#c1" x="72" y="553.04" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="553.04">Café con leche · 1,90 €</tspan>
+</text>
+<text id="UI-P-C1-e13" data-source="m1-connected-journey.md#c1" x="72" y="592.94" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="592.94">Declarado en el ejemplo: leche. Resto de información pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e14" x="72" y="625.04" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e15" data-source="m1-connected-journey.md#c1" x="72" y="663.04" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="663.04">Café con hielo · 1,80 €</tspan>
+</text>
+<text id="UI-P-C1-e16" data-source="m1-connected-journey.md#c1" x="72" y="702.94" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="702.94">Información alimentaria pendiente.</tspan>
+</text>
+<text id="UI-P-C1-e17" data-source="m1-connected-journey.md#c1" x="72" y="763.04" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="72" y="763.04">Desayunos</tspan>
+</text>
+<rect id="UI-P-C1-e18" x="72" y="791.64" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e19" data-source="m1-connected-journey.md#c1" x="72" y="829.64" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="829.64">Tostada de tomate · 2,80 €</tspan>
+</text>
+<text id="UI-P-C1-e20" data-source="m1-connected-journey.md#c1" x="72" y="869.54" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="869.54">Declarado en el ejemplo: trigo (gluten). Resto de información pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e21" x="72" y="901.64" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e22" data-source="m1-connected-journey.md#c1" x="72" y="939.64" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="939.64">Tostada de mantequilla · 2,60 €</tspan>
+</text>
+<text id="UI-P-C1-e23" data-source="m1-connected-journey.md#c1" x="72" y="979.54" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="979.54">Declarado en el ejemplo: trigo (gluten) y leche. Resto de información pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e24" x="72" y="1011.64" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e25" data-source="m1-connected-journey.md#c1" x="72" y="1049.64" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1049.64">Croissant · 2,20 €</tspan>
+</text>
+<text id="UI-P-C1-e26" data-source="m1-connected-journey.md#c1" x="72" y="1089.54" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1089.54">Información alimentaria pendiente.</tspan>
+</text>
+<text id="UI-P-C1-e27" data-source="m1-connected-journey.md#c1" x="72" y="1149.64" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="72" y="1149.64">Bebidas</tspan>
+</text>
+<rect id="UI-P-C1-e28" x="72" y="1178.2399999999998" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e29" data-source="m1-connected-journey.md#c1" x="72" y="1216.24" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1216.24">Zumo de naranja · 3,00 €</tspan>
+</text>
+<text id="UI-P-C1-e30" data-source="m1-connected-journey.md#c1" x="72" y="1256.14" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1256.14">Información alimentaria pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e31" x="72" y="1288.2399999999998" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e32" data-source="m1-connected-journey.md#c1" x="72" y="1326.24" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1326.24">Té · 1,80 €</tspan>
+</text>
+<text id="UI-P-C1-e33" data-source="m1-connected-journey.md#c1" x="72" y="1366.14" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1366.14">Información alimentaria pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e34" x="72" y="1398.2399999999998" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e35" data-source="m1-connected-journey.md#c1" x="72" y="1436.24" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1436.24">Agua · 1,50 €</tspan>
+</text>
+<text id="UI-P-C1-e36" data-source="m1-connected-journey.md#c1" x="72" y="1476.14" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1476.14">Información alimentaria pendiente.</tspan>
+</text>
+<rect id="UI-P-C1-e37" x="72" y="1508.2399999999998" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C1-e38" data-source="m1-connected-journey.md#c1" x="72" y="1546.24" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1546.24">Chocolate caliente · 2,80 €</tspan>
+</text>
+<text id="UI-P-C1-e39" data-source="m1-connected-journey.md#c1" x="72" y="1586.14" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1586.14">Declarado en el ejemplo: leche. Resto de información pendiente.</tspan>
+</text>
+</g>
+</svg>

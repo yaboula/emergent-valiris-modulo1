@@ -1,0 +1,119 @@
+{
+  "owner": "G2.06 - Identity and art direction",
+  "version": "0.1",
+  "date": "2026-10-03",
+  "timezone": "Europe/Madrid",
+  "state": "All three concepts rejected by Yahya on 2026-10-03; historical assets retained, not candidates for development",
+  "baseline": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+  "figma": {
+    "team": "Valiris",
+    "planKey": "team::1632654810404781734",
+    "seat": "Full",
+    "role": "admin",
+    "fileKey": "miM4ul2l4Q6ZwJNfAJeN38",
+    "url": "https://www.figma.com/design/miM4ul2l4Q6ZwJNfAJeN38?node-id=3-2",
+    "pageId": "0:1",
+    "boardId": "3:2",
+    "boardSize": {
+      "width": 4592,
+      "height": 1526
+    },
+    "operationsVerified": [
+      "create_file",
+      "read_file",
+      "edit_canvas_nodes",
+      "load_fonts",
+      "upload_and_place_images",
+      "read_back_image_fills",
+      "capture_and_inspect_render"
+    ]
+  },
+  "requestedDimensions": {
+    "width": 1440,
+    "height": 1024
+  },
+  "actualDimensions": {
+    "width": 1487,
+    "height": 1058
+  },
+  "placement": "Native resolution; FIT; no stretching",
+  "generator": "Built-in image_gen.imagegen",
+  "rasterUiIsEditable": false,
+  "figmaAnnotationsAreEditable": true,
+  "fictionalCase": "Mesa del Patio (C2)",
+  "selectedDirection": null,
+  "provisionalRecommendation": null,
+  "decisionUpdate": {
+    "date": "2026-10-03",
+    "owner": "Yahya - founder",
+    "decision": "Reject all three concepts and change the fictional restaurant",
+    "nextScope": "Storefront only; Digital Menu remains a separate principal view",
+    "authorCorrection": "Previous recommendation withdrawn: conventional restaurant compositions did not demonstrate the agreed graphic, editorial and soft-depth direction",
+    "continuation": "storefront-v0.2/REVIEW.es.md"
+  },
+  "assets": [
+    {
+      "visibleOrder": 1,
+      "name": "Patio abierto",
+      "file": "01-patio-abierto-v0.1.png",
+      "nodeId": "3:10",
+      "source": "C:\\Users\\aboul\\.codex\\generated_images\\01a10111-e241-79a0-a7b1-791d4f900f02\\exec-ccdf5edd-ba36-4731-8828-b875c670e0a2.png",
+      "bytes": 2140448,
+      "sha256": "9A0A4558C89F806BDF9CC559A95202DEDB220173D46F00358755C46EE3E45C19",
+      "imageHash": "0950514d014dd8d3a371a3e806caeb0059fd056c"
+    },
+    {
+      "visibleOrder": 2,
+      "name": "Cuaderno de cocina",
+      "file": "02-cuaderno-de-cocina-v0.1.png",
+      "nodeId": "3:15",
+      "source": "C:\\Users\\aboul\\.codex\\generated_images\\01a10111-e241-79a0-a7b1-791d4f900f02\\exec-84560bab-fcd9-4720-b598-d43f094d2453.png",
+      "bytes": 1871929,
+      "sha256": "DF9289DF07C8F04E65A9B3D8B9ECD5C8AA6CC19844A59E5A744BBFE774C8A428",
+      "imageHash": "f9f3b4e640e72374fbed5937a69ad4e556ca1e81"
+    },
+    {
+      "visibleOrder": 3,
+      "name": "Mercado al mediodia",
+      "file": "03-mercado-al-mediodia-v0.1.png",
+      "nodeId": "3:20",
+      "source": "C:\\Users\\aboul\\.codex\\generated_images\\01a10111-e241-79a0-a7b1-791d4f900f02\\exec-9ce986e7-daaf-422a-9953-05be10a95d67.png",
+      "bytes": 1836033,
+      "sha256": "5E814C92790052C30576A338090A2DB303940568FFC995E871A1832156F18FB6",
+      "imageHash": "8e8347fde5982995e318be3a619ca76e11a21015"
+    }
+  ],
+  "referencesRoot": "D:\\the next level\\research-evidence\\style-review-2026-10-03",
+  "referenceAttachments": {
+    "patio": [
+      "gastrometro-scroll-01.jpg",
+      "eat-curious-overview.png",
+      "scroll-03.jpg"
+    ],
+    "cuaderno": [
+      "gastrometro-scroll-08.jpg",
+      "eat-curious-overview.png",
+      "scroll-03.jpg"
+    ],
+    "mercado": [
+      "eat-curious-overview.png",
+      "gastrometro-scroll-02.jpg",
+      "scroll-03.jpg"
+    ]
+  },
+  "inspection": {
+    "boardScreenshot": "figma-board-v0.1.png",
+    "screenshotSize": {
+      "width": 3600,
+      "height": 1197
+    },
+    "imageFillsVerified": 3,
+    "nativeTextBlocksWithinParentWidth": 13,
+    "independentReview": false,
+    "participants": false,
+    "interaction": false,
+    "mobile": false,
+    "noPhoto": false,
+    "fullCycleComplete": false
+  }
+}

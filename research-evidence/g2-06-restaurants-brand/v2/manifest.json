@@ -1,0 +1,1122 @@
+{
+  "schemaVersion": 2,
+  "edition": "2026-10-03 / v2",
+  "status": "General creative direction idea, not definitive branding; positive founder feedback on direction; palette, details, hierarchy and final identity approval pending",
+  "recommendation": {
+    "direction": "A / Carácter a la mesa — kitchen family",
+    "sampleCharacters": [
+      "Plate",
+      "Pear",
+      "Aubergine",
+      "Cup"
+    ],
+    "repertoire": "Freely open to any food, cooking or restaurant-related subject; no numerical limit or fixed cast",
+    "alternative": "B / Sala viva",
+    "hierarchy": "R1 / restaurant-led endorsement"
+  },
+  "founderSteering": "General idea positively received and direction clear; current colors imperfect; many details to refine. Explicit request: direction idea, not definitive branding; repertoire freely open beyond four samples. No final identity/palette/hierarchy approval inferred.",
+  "history": {
+    "v1": "Rejected; recommendation withdrawn; old assets retained",
+    "sensoryExploration": "Superseded after founder kitchen steering; retained as process evidence"
+  },
+  "git": {
+    "branch": "docs/m1-g2-06-restaurants-brand",
+    "baseline": "27861fd94dafd51889e2f223000320d66fd39dae",
+    "revisionStart": "d44942ea7eee6471c8d6933dab91dcd9f6b37009",
+    "pullRequest": "https://github.com/yaboula/valiris-restaurants/pull/26",
+    "basePullRequest": "https://github.com/yaboula/valiris-restaurants/pull/25",
+    "ownedPaths": [
+      "docs/design/valiris-restaurants-brand-direction.md",
+      "research-evidence/g2-06-restaurants-brand/"
+    ],
+    "publicationRecord": "publication.json"
+  },
+  "figma": {
+    "fileKey": "uJSv4mj3oi9Br8Za9WuZAz",
+    "team": "Valiris",
+    "page": "20:2",
+    "url": "https://www.figma.com/design/uJSv4mj3oi9Br8Za9WuZAz?node-id=20-2",
+    "pageName": "G2.06 · Proposals v2 · Open kitchen family · Not final branding",
+    "directionDeclarations": [
+      {
+        "id": "20:52",
+        "characters": "Plato, pera, berenjena y taza son cuatro ejemplos. Repertorio abierto a comida, cocina y restaurante, con un lenguaje visual compartido."
+      },
+      {
+        "id": "20:56",
+        "characters": "Idea de dirección, no branding definitivo. Personajes, colores y detalles exploratorios; el repertorio no se limita a estos cuatro ejemplos."
+      },
+      {
+        "id": "20:107",
+        "characters": "Cualquier elemento de comida, cocina o restaurante puede entrar en la familia. Estos cuatro son muestras; silueta, gesto y expresión conservan parentesco."
+      },
+      {
+        "id": "20:108",
+        "characters": "Idea de dirección, no familia final. Anatomía y detalles se ajustarán después. Los personajes no indican dieta, disponibilidad ni alérgenos. G2.08 desarrolla producción."
+      },
+      {
+        "id": "20:166",
+        "characters": "Paleta, lettering y fuentes exploratorios: no branding definitivo. OFL conservadas; binarios de Figma no identificados. Producción y ajuste óptico posteriores."
+      }
+    ],
+    "boards": [
+      {
+        "id": "20:3",
+        "name": "01 · APRENDER SIN COPIAR",
+        "width": 1920,
+        "height": 1933,
+        "textCount": 13,
+        "minimumTextContrast": 15.84,
+        "failures": []
+      },
+      {
+        "id": "20:29",
+        "name": "02 · A / CARÁCTER A LA MESA",
+        "width": 1920,
+        "height": 1164,
+        "textCount": 9,
+        "minimumTextContrast": 11.23,
+        "failures": []
+      },
+      {
+        "id": "20:57",
+        "name": "03 · B / SALA VIVA",
+        "width": 1920,
+        "height": 1195,
+        "textCount": 9,
+        "minimumTextContrast": 9.29,
+        "failures": []
+      },
+      {
+        "id": "20:84",
+        "name": "04 · UNA FAMILIA ABIERTA",
+        "width": 1920,
+        "height": 1953,
+        "textCount": 15,
+        "minimumTextContrast": 15.84,
+        "failures": []
+      },
+      {
+        "id": "20:109",
+        "name": "05 · DE LOS CONTORNOS A LAS LETRAS",
+        "width": 1920,
+        "height": 1519.15380859375,
+        "textCount": 22,
+        "minimumTextContrast": 4.72,
+        "failures": []
+      },
+      {
+        "id": "20:167",
+        "name": "06 · DOS INTENSIDADES. LOS MISMOS HECHOS",
+        "width": 1920,
+        "height": 1829,
+        "textCount": 22,
+        "minimumTextContrast": 11.23,
+        "failures": []
+      },
+      {
+        "id": "20:196",
+        "name": "07 · UN MUNDO EN VOLUMEN. UN GESTO CON SENTIDO",
+        "width": 1920,
+        "height": 2823,
+        "textCount": 10,
+        "minimumTextContrast": 15.84,
+        "failures": []
+      },
+      {
+        "id": "20:213",
+        "name": "08 · EL LOCAL SIGUE SIENDO EL LOCAL",
+        "width": 1920,
+        "height": 2357,
+        "textCount": 29,
+        "minimumTextContrast": 9.29,
+        "failures": []
+      }
+    ],
+    "nativeTextCount": 129,
+    "contentImages": 12,
+    "oldPage": "0:1 / rejected; preserved",
+    "fontBinaryVersions": "Unavailable; native Gabarito Black/Bold and Source Sans 3 Regular/Bold loaded; no binaries distributed"
+  },
+  "orilla": {
+    "sourcePath": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+    "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+    "bytes": 1862288,
+    "dimensions": [
+      1422,
+      1106
+    ],
+    "version": "Original v0.2 / node 9:15",
+    "sourceGuideCommit": "4f97693bbdb207e910146be74330ea852d5b6861",
+    "use": "Unchanged raster in separate comparison; no original/application modification.",
+    "rightsStatus": "Prior generated conceptual image, fictional food; original evidence governs. No new rights clearance or real dish claim."
+  },
+  "repositorySources": [
+    {
+      "path": "AGENTS.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "bytes": 16927,
+      "sha256": "419d5210ae5e303ab91e4ad0a3435295fa01fd48043d1d37dadf81bf95eb0126"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "bytes": 5369,
+      "sha256": "4924af46b2caff26e232c74202924b0422a1de20478e6c3835d774603f5bef8f"
+    },
+    {
+      "path": "HANDOFF.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "53010c027db7c15b55ff560af63323acfb245be4",
+      "bytes": 122121,
+      "sha256": "d9b0398ee7760436f49fa42e83a84ec1fefa94b0aafd80b49836a0ae9da82fac"
+    },
+    {
+      "path": "coordination/README.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "c8f66582811e8af7129b17fb37cdfadbacba6ae1",
+      "bytes": 5207,
+      "sha256": "ddc023362d368f0a424212bc6dd302a3025152cf7cf998112f95be68cd4373e7"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "883fbe11aaf82ec7c8558c588146b998e1f53088",
+      "bytes": 16706,
+      "sha256": "704d24ef30b60daf3da1e2d5fc0f7e08bc20d99d2e66f491b52803afc7da921f"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Organizacion_Protocolo_Agentes.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "6189d8cdb8173f6f13ab595e8e03a90c5ddb0819",
+      "bytes": 38771,
+      "sha256": "cbca9145ae6bec2c65f699f1b137c520c2c17b72ecbeae5810557177873f26d3"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_G2_Brief_Arranque_Diseno.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "cbe92eb2c52b6bee8498e0b419dea9b212becba4",
+      "bytes": 11819,
+      "sha256": "c5118637e0f2eb15c3151be70c61a8b423f6b8adb57a5ff03f75f817d6a0d0f0"
+    },
+    {
+      "path": "coordination/valiris-restaurants/G2_06_Branding_Valiris_Restaurants_Prompt.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "a7daab0f5323c69c2b312aa5135f21d31835924a",
+      "bytes": 8568,
+      "sha256": "8294e843f454db0759eed49c9422f6a13076e4f0b72d2a89e7db5c1c07eefd75"
+    },
+    {
+      "path": "docs/project/roadmap.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "c60d358e791fba60f1337f99ae4d24565c22fe9c",
+      "bytes": 28942,
+      "sha256": "f23e89087287b0f2cbca779b310f260a183953120dd4b9f59bf861c6cc43bda8"
+    },
+    {
+      "path": "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "bytes": 36890,
+      "sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    {
+      "path": "docs/project/valiris-restaurants-brand-foundation-brief.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "4affd72dd2e80910091189beb4efa6f5fc01671d",
+      "bytes": 9132,
+      "sha256": "766f07d78b20f10425dff57d63e11c02f47e22eca66cbd72c09ff4115d6c0f76"
+    },
+    {
+      "path": "docs/adr/0002-studio-brand-valiris.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "dce271ca2013b99abacfdaa77795ee752389136a",
+      "bytes": 3353,
+      "sha256": "fb118f8916909424245e4bc49705c74fdbc237db29dd3024ec787847900c971f"
+    },
+    {
+      "path": "docs/adr/0003-product-name.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "51836d2a3b9970e033415349f8a0500c49e0998e",
+      "bytes": 2361,
+      "sha256": "16763b7800e9fb60e58834e84e40eeddd6e3c30359c3ea38c1bbe2eec7c1bd6a"
+    },
+    {
+      "path": "docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "62ae654d20c7c91cfea0561555ef2bbabf4d301f",
+      "bytes": 4671,
+      "sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    },
+    {
+      "path": "docs/design/m1-storefront-visual-direction.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "33494148c76ce0a418af62108cfc167d1df0a671",
+      "bytes": 7201,
+      "sha256": "300356abfea83fae12423c351926575e3c500e5a6ed288e1d8c637b85fb858b2"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-direction-4f97693/g1-review.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "70ebf6afdfefab41436bf2185cb32b5f91b3b593",
+      "bytes": 6709,
+      "sha256": "15b62e8609b2a382e5ddef7be5dcacef4dfadcff11e6884fc3edfc9c027ffc48"
+    },
+    {
+      "path": "docs/design/m1-connected-journey.md",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "bytes": 139448,
+      "sha256": "d977d26db2a2f094e448eaa197f1857f405f377edac49daffe211de2544be835"
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "commit": "27861fd94dafd51889e2f223000320d66fd39dae",
+      "gitBlob": "6aa0f221b2842472ee2146fbd23d0df0c86cb5f6",
+      "bytes": 1862288,
+      "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989"
+    },
+    {
+      "path": "docs/design/m1-storefront-visual-direction.md",
+      "commit": "4f97693bbdb207e910146be74330ea852d5b6861",
+      "gitBlob": "332495565f016feeb3ec984a02120197060db533",
+      "bytes": 13350,
+      "sha256": "82f01230bc802bc4fe6a44fdf084b1658abeb7eb40084cfc27d834a174283141"
+    }
+  ],
+  "providedOriginals": [
+    {
+      "name": "screencapture-eat-curious-2026-10-03-17_04_54.pdf",
+      "bytes": 4651690,
+      "sha256": "7374e114355ca2dcb9717401e59ec09cafc9dcb211478a6bf82a904ba8fb7461",
+      "review": "All 3 pages rendered and inspected"
+    },
+    {
+      "name": "screencapture-duolingo-2026-10-03-17_07_05.pdf",
+      "bytes": 2440590,
+      "sha256": "634044da11fb71a4b1855896210615a2fd57c85ab68dfadd1a33c7a2e4a04e29",
+      "review": "All 4 pages rendered and inspected"
+    },
+    {
+      "name": "scroll-recording-1791039658228.webm",
+      "bytes": 11707828,
+      "sha256": "026529e3e6450cc2f39a6b420d647519a7639735930a2922956e2dc22154d8eb",
+      "durationSecondsApprox": 41.29,
+      "decodedFrames": 1217,
+      "review": "Full timeline at 0.5-second sampling; logo and type sequences at 0.125 seconds; VP9 1920x1080, no audio"
+    },
+    {
+      "name": "scroll-recording-1791039983148.webm",
+      "bytes": 7533263,
+      "sha256": "012a7abd78e49c85743dfb42a93f0c102af5c236beea1b44bbcef869bc5eebe8",
+      "durationSecondsApprox": 25.869,
+      "decodedFrames": 777,
+      "review": "Full timeline at 0.5-second sampling; chat and footer sequences at 0.125 seconds; VP9 1920x1080, no audio"
+    },
+    {
+      "name": "codex-clipboard-2ff12ceb-c0dc-488e-b86d-e092da4ac596.png",
+      "bytes": 822694,
+      "sha256": "4bd9e3f8edd316fb6d5d71ca8be7c227f7d946dfb6e72bd01dc9a874e7531ed6",
+      "dimensions": [
+        1200,
+        1370
+      ],
+      "review": "Gorilla anatomy/pose sheet; authorship and production rights unknown"
+    }
+  ],
+  "referenceAvailability": "Original supplied PDF/WebM files remain local outside Git; all page renders/contact sheets and selected frames are archived here. Derivatives support visual review, not implementation/interaction claims.",
+  "fontSources": {
+    "googleFontsCommit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "projects": [
+      {
+        "family": "Gabarito",
+        "project": "https://github.com/naipefoundry/gabarito",
+        "licenseSource": "https://github.com/google/fonts/blob/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/gabarito/OFL.txt"
+      },
+      {
+        "family": "Source Sans 3",
+        "project": "https://github.com/adobe-fonts/source-sans",
+        "licenseSource": "https://github.com/google/fonts/blob/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/sourcesans3/OFL.txt"
+      }
+    ],
+    "license": "Retained notices state SIL OFL 1.1; LF/trailing-space normalization only; identify/check production binaries later",
+    "binaryDistribution": false
+  },
+  "generation": {
+    "tool": "image_gen.imagegen (built-in)",
+    "prompts": "prompts.json",
+    "outputs": 11,
+    "rights": "Concept images identified as generated; no real dishes/restaurants, precise regeneration or rights clearance claimed"
+  },
+  "pending": [
+    "Founder A/B and R1/R2/R3 selection",
+    "G1 consolidation",
+    "G6 offer truthfulness",
+    "G2.04 copy/SEO/GEO same version",
+    "G2.05 actual localisation",
+    "G2.08 production/rights",
+    "G2.07/G2.03 applications/behaviour",
+    "G2.09 purposeful motion",
+    "G4 independent application review"
+  ],
+  "assets": [
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/a-kitchen-3d.png",
+      "kind": "generated-concept-raster",
+      "bytes": 2232638,
+      "sha256": "05b5a3b86fe303aba9f0557e072cb2f2842cfddefdc85fbfd2499e79fab00319",
+      "state": "Selected A conceptual render",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/a-kitchen-scene.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1429006,
+      "sha256": "53eeefa845d5d81d333ecf42fcbba41970361de2d10464925059a2f88a64daf6",
+      "state": "Selected A",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/a-kitchen-study.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1319107,
+      "sha256": "6ccd667b03cc5837e9479ed4f5d1e139e9b1b596ea3ee3ecdf128e39f5c73db2",
+      "state": "Selected A conceptual construction/acting",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/a-plate-storyboard.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1022361,
+      "sha256": "9d84815ce3c37fea6f18a4ec22efc1508f1af747d141b4bf0e5c314a71cee1ca",
+      "state": "Selected A static keyframes; not animation",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/b-sala-viva-scene.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1434963,
+      "sha256": "e5417e3e3c89d081a678baef512a28bfa8a22d3b0eeeb80c81f7d034078015e6",
+      "state": "Selected alternative B",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/exploration-b-before-refinement.png",
+      "kind": "generated-concept-raster",
+      "bytes": 2469340,
+      "sha256": "07984898fa04af90ed7545bcfaa599ec00628ce4bb13fe6688a6e73196095245",
+      "state": "Intermediate",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/exploration-sensory-2d-initial.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1366565,
+      "sha256": "63ce4da23ca7b5107c5ac08dbf3ce29a8db9bf070bca88b4f56d57ec3eb06fb2",
+      "state": "Intermediate",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/exploration-sensory-2d.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1395925,
+      "sha256": "8df745e2834e378903aaa39850f1ace3dc81c78668dd1b67a27e75d259af697a",
+      "state": "Superseded after kitchen steering",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/exploration-sensory-3d.png",
+      "kind": "generated-concept-raster",
+      "bytes": 2300082,
+      "sha256": "5d7641f3780dc23bfeb0f467119ffe911a8ff6ca90c09507f57a5ea37a455487",
+      "state": "Superseded",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/exploration-sensory-storyboard.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1015097,
+      "sha256": "31fdb8d21b9a2b2f7f3177c2404d47a7541d9298202c9eb24612f8a7fd37fef5",
+      "state": "Superseded",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/exploration-sensory-study.png",
+      "kind": "generated-concept-raster",
+      "bytes": 1290280,
+      "sha256": "baf092a588577b52dce042d2adc594c2b71dbea29043176afda9448597a68d3b",
+      "state": "Superseded",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/valiris-lettering-a.svg",
+      "kind": "authored-lettering-vector",
+      "bytes": 898,
+      "sha256": "7807283508e120e885c294104e326a1a8a8bd5c464afe4ac790c081f4db58173",
+      "state": "Authored lettering concept; optical production pending",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/assets/valiris-lettering-b.svg",
+      "kind": "authored-lettering-vector",
+      "bytes": 722,
+      "sha256": "5d1eeb415c31a5e0922411f2f75317bfb747237437d133fd5e382dc96c1bc04a",
+      "state": "Authored lettering concept; optical production pending",
+      "rights": "AI-assisted evaluation concept; no exclusivity, trademark clearance or production approval asserted",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/01-reference-analysis.png",
+      "kind": "figma-board-export",
+      "bytes": 936706,
+      "sha256": "91a3b73673c4f06ecd48a5b92f45c669aaee90facff44ba26927c92d7eb3d778",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        1933
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/02-a-caracter-a-la-mesa.png",
+      "kind": "figma-board-export",
+      "bytes": 991336,
+      "sha256": "800cfc2b1d17dc98c62ce205fdd26e4533e8d59479b21e55d728bce7ff11468a",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        1164
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/03-b-sala-viva.png",
+      "kind": "figma-board-export",
+      "bytes": 988593,
+      "sha256": "367d2312d49bdd1a4602db639f816d465d392c2a190ed4f4d098a1f0abfd1610",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        1195
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/04-kitchen-family.png",
+      "kind": "figma-board-export",
+      "bytes": 1647665,
+      "sha256": "a16fab4968322522dbc7fbeb756aba2b6f323ff01beaa14eefc10ec901276cb6",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        1953
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/05-lettering-color.png",
+      "kind": "figma-board-export",
+      "bytes": 195333,
+      "sha256": "0100682eb18789b669adbc1edc06ed3487e20d5fc60e581fff6b6b37dc2d7fb7",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        1520
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/06-two-intensities.png",
+      "kind": "figma-board-export",
+      "bytes": 676641,
+      "sha256": "04c49b8b12facd8e151103cc4ad705ca05c31c64879478d9a71d87daa21a5103",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        1829
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/07-3d-motion.png",
+      "kind": "figma-board-export",
+      "bytes": 4329921,
+      "sha256": "ad3af5958c68172eb024e01b0aa33029aa6f7c0148d74dfed057339d674fb567",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        2823
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/boards/08-contrasts-handoff.png",
+      "kind": "figma-board-export",
+      "bytes": 1224486,
+      "sha256": "1b1406fe074c914316ae1d6facb47c7eb1a9770800c798e5f72ab1e64c7a00a9",
+      "state": "Author-reviewed v2 proposal; not approved",
+      "rights": "Mixed authored layout, generated concepts and identified reference quotations; see individual source states",
+      "dimensions": [
+        1920,
+        2357
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/a-logo-detail-contact-01.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 297254,
+      "sha256": "6f756e4fbd01c51617c7e81b4b16306ce1e7d0dad9d77e6e615893e311f7a324",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/a-logo-detail-contact-02.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 153514,
+      "sha256": "81caa8d9bf855be90431b532a24058c147363b01bbb05b9993da7276a9604206",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/a-type-detail-contact-01.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 448368,
+      "sha256": "744187b142f3ffc634378d0d8e3a0aa26c1b6d20bca33a4471b31f185c2ba843",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/a-type-detail-contact-02.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 376195,
+      "sha256": "8deaea0966dc2b2a4ded3c66dce052030099cccee0e7c92c3c7dcdf9d4c0ffb7",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/a-type-detail-contact-03.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 191859,
+      "sha256": "f86deee0b7dddc1bbbe06a74c570b7a4f3990a5c81ef1383608bed255402e42f",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/b-chat-detail-contact-01.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 329728,
+      "sha256": "3bf8e0e454c965828144f0a52c21efc980a77f5568a7720df6067e3df453bce1",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/b-chat-detail-contact-02.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 314547,
+      "sha256": "43f843515bd1c02ed0fa675d00dd2102c957b52cac5da9c9dd1805f41c63af20",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/b-footer-detail-contact-01.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 301361,
+      "sha256": "c5e01218d8d637fea308461b53dab9875d34eeee2554d351fba3e5843509d544",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/b-footer-detail-contact-02.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 311836,
+      "sha256": "2712bd25e2a07f06ef3fb2bcba44a5798b27e1b97e5befd60e9b79e4b75f7671",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/b-footer-detail-contact-03.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 383068,
+      "sha256": "04e3820146ff970f78b439437e18b6239c9fd71890818f8c2a01cd9f30dfd756",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/b-footer-detail-contact-04.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 244580,
+      "sha256": "74450b1e6a83888bd0a3ad8540f71e81f09439cb866c52bf2e8249990b5860ea",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/duolingo-1.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 323468,
+      "sha256": "e34eacf2ad63962618369ac1de0b68ffe8e3c8a0b2b7fccf7c2e73ea1b90cc19",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/duolingo-2.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 359720,
+      "sha256": "c9ffdeb9fc1b699efd435831328f2c2b466a30e4a5ca55ec35f5028159bd7db5",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/duolingo-3.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 298236,
+      "sha256": "b0e351d829140e513e0c796f94a935669f4481e07cb1e90212543b0d092045c0",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/duolingo-4.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 84854,
+      "sha256": "8d97fbae8d10b7da776c804214dfbc4c2a0b9d895fb07e8128d327fa6d345397",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/eat-curious-1.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 1676870,
+      "sha256": "7db2c15f17367d5cfbf915c967e992b26c983c88c4a2ecfd97c1d2d9026c5db7",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/eat-curious-2.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 672296,
+      "sha256": "cd9c1884df7e0b56a501ce9838df04ce975165eff0119da03ab6ae7961bebc86",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/eat-curious-3.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 87385,
+      "sha256": "58c2f827062de66e5f0a191f14e5ec3b8f73ac44d0eae6e987a72a76e5972697",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1536,
+        1988
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/gorilla-user-reference.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 822694,
+      "sha256": "4bd9e3f8edd316fb6d5d71ca8be7c227f7d946dfb6e72bd01dc9a874e7531ed6",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        1200,
+        1370
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/headspace-frame-approx-20s.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 74017,
+      "sha256": "bf40ef1b02f370e158435930fb0fa9aa5f87f1b0b47714cfa26fa9e2db92212a",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/marshmallow-frame-approx-18-5s.png",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 175506,
+      "sha256": "1be895fd00399f3e3572999e442b0f1642d51a23e638353dcf30292536060194",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown",
+      "dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-01.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 572880,
+      "sha256": "fe0c1d760378fbbe590ec269408b747b0e84d9a8893ce0e5509005a37bdcc6df",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-02.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 605900,
+      "sha256": "1a240a4b55d5126c107c67f7cd9765a20b4583b01513aabea283b1f8c8a4f9dd",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-03.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 481906,
+      "sha256": "8cc9e49b50e82dacea19ade23a84c02920a6d5472cd4d3bffe5dbc160af71697",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-04.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 513390,
+      "sha256": "8d723a9f88b9a0d878abde1c7bcd45188261f2ef89436fdb8752043f444cd99e",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-05.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 522826,
+      "sha256": "79c3d87823e9709eb88857f8871e8c0d8d50d9bd668ab6d6e8383c2c6d33f247",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-06.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 422105,
+      "sha256": "524eae0db6b11a03828375ea4029b800f63d36331c4d15edc9d663f8297050f6",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-a-contact-07.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 336944,
+      "sha256": "9b95b449088d7d34c33854349600f2dde17370da50c9ce70dc2b70fcab0d248a",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-b-contact-01.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 525405,
+      "sha256": "046f5b11cf3cefd662d925a0e1850587c15abbaaf43507fd2655bb7aa503c60f",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-b-contact-02.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 450693,
+      "sha256": "12dfd1ec384fd689ec8f3546c907ec22b78db0f87a0d4eb6e2c76358e1bebe87",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-b-contact-03.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 551434,
+      "sha256": "d7d3199739247979ea15d8186bd54a57ec45da9db59c501bcb9ae91b4d646afb",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-b-contact-04.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 431638,
+      "sha256": "718190d1b2502c53481bc602a6a1d43d3e4ca4d1d8ce26f30dc1700973145e41",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-evidence/video-b-contact-05.jpg",
+      "kind": "supplied-reference-review-derivative",
+      "bytes": 179038,
+      "sha256": "357d2532483b3f41f79c55d26e9ef55a605991ab760914bb07611e20f5024fb0",
+      "state": "Evaluation reference only; not an owned production resource",
+      "rights": "Reference authors retain rights; production permission/clearance not established; Gorilla authorship unknown"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/sources/gabarito-OFL.txt",
+      "kind": "font-source-license-notice",
+      "bytes": 4390,
+      "sha256": "24cee6651b08e75e50866dc4104ce233412be3551025ee9163d6d042d9618703",
+      "state": "Verified source notice, not a font binary",
+      "rights": "Retained SIL Open Font License 1.1 source notice; actual Figma binary version unknown",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/sources/source-sans-3-OFL.txt",
+      "kind": "font-source-license-notice",
+      "bytes": 4485,
+      "sha256": "7fac2f6c6bc47144e2c35e8f41147b3c8c895490d44b46266a5312fe93364d2e",
+      "state": "Verified source notice, not a font binary",
+      "rights": "Retained SIL Open Font License 1.1 source notice; actual Figma binary version unknown",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    }
+  ],
+  "documents": [
+    {
+      "path": "docs/design/valiris-restaurants-brand-direction.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 20236,
+      "sha256": "2a2e602aa4a3623f097530ea9c1a77580347ddc4d87ec8fcad174741970c568f",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/README.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 1804,
+      "sha256": "75aa4382510f1bdd3cca2beb16f664f0cbff94c06604771104afc2ae8421c165",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/RETORNO_G1.es.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 1324,
+      "sha256": "98334d2df1189fced2944e1af382870763ef9f6b58fe62a1c5238d01307b9871",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/author-review.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 4890,
+      "sha256": "3365f538faa3acdd7b71875b59fceba3ce6d8fdfeb2c0418a138351015a594f4",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-audit.js",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 2363,
+      "sha256": "93a35b0114974d868cea37e5cd9a8d812b9d342b578d92f8a0a74812b57814b9",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-build.js",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 16853,
+      "sha256": "8f304ff170355cdc8ad51b1c8f4c64d4c367d13335e384f72d43d79c9451e5a7",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-construction.json",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 7904,
+      "sha256": "cbbe6525ecdf1f450950a8704c8b5bd8089faf922fee651da4481d575798dc18",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-fixes.js",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 1719,
+      "sha256": "42cf9e6533612f31c925fbd9062f86670d27a3955efd35369bd7be35e932daf6",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-open-family-result.json",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 2606,
+      "sha256": "f6f16b524823786a9a79d95b9e87462e2b25bbef7f6ad375178dcf381f431859",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-open-family.js",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 2628,
+      "sha256": "5766e1a6e1162078061de3dc4be8ee9052ceffcf8019f5505eaa7bccb15be1df",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/figma-validation.json",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 18201,
+      "sha256": "be76ab640a0c288b8666cae14832445034a10098b97d37e0ee05af99784b530a",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/founder-clarification.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 1552,
+      "sha256": "47a5f28b1c9b4cd3b201b5312e2a577e62307f617b540d89136be6c1a6e47c85",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/pr26-body.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 3239,
+      "sha256": "ae5466ca1293aba6112ec3c45bddc668a95fe48ffc11d5da0143bf5de361125c",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/prompts.json",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 19125,
+      "sha256": "92aed69a976edef1d02db2416d71077835861bf464a67444de0ff2ee23c36b07",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/publication-initial-v2.json",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 2574,
+      "sha256": "ae3d429da5b220dc305ed337c684a595494278fd3f8962e7847f254f26e856a9",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/README.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 4780,
+      "sha256": "d026e4811fefec7bcdc7663487c2c4cd770fe8d2bf1c4557a6f4fcd86422201b",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/reference-analysis.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 13420,
+      "sha256": "1dc8603bfed71f72da2b07089c4bf545c6d5cdafccd9d0eab10a78cd509b7cab",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/refresh-manifest.py",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 9790,
+      "sha256": "fb2bedab868e4f1afcb6047d04cb0d86fb5a9ae248e9ae4971cd6052b64fa4ec",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/RETORNO_G1.es.md",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 4889,
+      "sha256": "ce41fa9426b7e6ced1482aa52fcaf84610ec53ff38c49b2341b0f9e5ea2f5596",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/v2/verify.py",
+      "kind": "proposal-document-or-construction-evidence",
+      "bytes": 10901,
+      "sha256": "cbbe1849d0c01b4255bde1e4262ce30a77b253b08f0f4bcd9d49a70ebc37053c",
+      "state": "Revised author evidence",
+      "rights": "Authored evaluation material; source/asset rights remain as individually stated",
+      "hashPolicy": "UTF-8, LF-equivalent text; binaries hashed exactly"
+    }
+  ],
+  "dynamicRecordsExcludedFromInventory": [
+    "manifest.json (self)",
+    "checks.json (generated report)",
+    "publication.json (post-content-commit snapshot)"
+  ],
+  "limits": "Author evidence only. No full accessibility, interaction, user research, translation, legal/exclusivity, conversion or implementation test."
+}

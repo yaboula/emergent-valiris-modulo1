@@ -1,0 +1,61 @@
+{
+  "commit": "d803949",
+  "clean_and_synced": true,
+  "prs": [
+    {
+      "baseRefName": "main",
+      "headRefName": "docs/m0-kickoff",
+      "milestone": {
+        "number": 1,
+        "title": "M0 - Align execution",
+        "description": "Launch commitment, capability treatment, responsibilities, dependencies and first-prototype briefs. No usable-application release or demand validation implied.",
+        "dueOn": null
+      },
+      "number": 7,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/7"
+    },
+    {
+      "baseRefName": "docs/m0-kickoff",
+      "headRefName": "docs/m0-discovery",
+      "milestone": {
+        "number": 1,
+        "title": "M0 - Align execution",
+        "description": "Launch commitment, capability treatment, responsibilities, dependencies and first-prototype briefs. No usable-application release or demand validation implied.",
+        "dueOn": null
+      },
+      "number": 8,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/8"
+    },
+    {
+      "baseRefName": "docs/m0-discovery",
+      "headRefName": "docs/m0-launch-roadmap",
+      "milestone": {
+        "number": 1,
+        "title": "M0 - Align execution",
+        "description": "Launch commitment, capability treatment, responsibilities, dependencies and first-prototype briefs. No usable-application release or demand validation implied.",
+        "dueOn": null
+      },
+      "number": 16,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/pull/16"
+    }
+  ],
+  "active_milestones": 8,
+  "historical_m8_closed": true,
+  "issue_assignments_verified": {
+    "2": 1,
+    "3": 1,
+    "4": 3,
+    "5": 2,
+    "6": 1,
+    "9": 1,
+    "10": 4,
+    "11": 5,
+    "12": 6,
+    "13": 7,
+    "14": 8,
+    "15": 1
+  }
+}

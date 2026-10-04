@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1386" width="1440" height="1386" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-P-C3 · ORILLA · static editable separate C3 content contrast · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. C3 separate reset. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="1440" height="1386" fill="#FFF8EC"/>
+<g id="composition-UI-P-C3" data-source="">
+<text id="UI-P-C3-e1" data-source="m1-connected-journey.md#c3" x="72" y="44" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="72" y="44.0">Caso ficticio de contraste C3. No es contenido de ORILLA.</tspan>
+</text>
+<text id="UI-P-C3-e2" data-source="m1-connected-journey.md#c3" x="72" y="131.2" font-family="Arial Black" font-size="52" font-weight="900" fill="#20251E">
+<tspan x="72" y="131.2">Casa del Mediodía</tspan>
+</text>
+<rect id="UI-P-C3-e3" x="72" y="161.44" width="1296" height="58.099999999999994" rx="12" fill="#DDEBBE"/>
+<text id="UI-P-C3-e4" data-source="m1-connected-journey.md#c3" x="88" y="193.44" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="88" y="193.44">Ingredientes y alérgenos de ejemplo. Los datos declarados no confirman la ausencia de otros alérgenos.</tspan>
+</text>
+<text id="UI-P-C3-e5" data-source="m1-connected-journey.md#c3" x="72" y="273.54" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="72" y="273.54">Menú del día · 1 de octubre de 2026 · comidas</tspan>
+</text>
+<text id="UI-P-C3-e6" data-source="m1-connected-journey.md#c3" x="72" y="320.74" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="72" y="320.74">16,50 € / persona</tspan>
+</text>
+<text id="UI-P-C3-e7" data-source="m1-connected-journey.md#c3" x="72" y="363.54" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="363.54">Un primero, un segundo y un postre. Pan y agua incluidos. Café +1,50 €.</tspan>
+</text>
+<text id="UI-P-C3-e8" data-source="m1-connected-journey.md#c3" x="72" y="413.64" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="413.64">Horario del local · 12:30–17:00</tspan>
+<tspan x="72" y="442.64">Horario de cocina · 13:00–15:30</tspan>
+</text>
+<rect id="UI-P-C3-e9" x="72" y="471.64000000000004" width="1296" height="58.099999999999994" rx="12" fill="#DDEBBE"/>
+<text id="UI-P-C3-e10" data-source="m1-connected-journey.md#c3 / L10c fallback" x="88" y="503.64" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="88" y="503.64">Este contenido se muestra en español mientras revisamos la traducción.</tspan>
+</text>
+<text id="UI-P-C3-e11" data-source="m1-connected-journey.md#c3" x="72" y="581.74" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="72" y="581.74">Primeros</tspan>
+</text>
+<text id="UI-P-C3-e12" data-source="m1-connected-journey.md#c3" x="72" y="632.34" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="632.34">Crema de calabaza</tspan>
+</text>
+<text id="UI-P-C3-e13" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="668.24" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="668.24">Declarado en el ejemplo: leche (yogur). Traducción afectada pendiente; resto de información alimentaria</tspan>
+<tspan x="72" y="694.34">pendiente.</tspan>
+</text>
+<text id="UI-P-C3-e14" data-source="m1-connected-journey.md#c3" x="72" y="748.44" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="748.44">Ensalada</tspan>
+</text>
+<text id="UI-P-C3-e15" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="784.34" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="784.34">Información alimentaria pendiente.</tspan>
+</text>
+<text id="UI-P-C3-e16" data-source="m1-connected-journey.md#c3" x="72" y="844.44" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="72" y="844.44">Segundos</tspan>
+</text>
+<text id="UI-P-C3-e17" data-source="m1-connected-journey.md#c3" x="72" y="895.04" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="895.04">Pollo al horno</tspan>
+</text>
+<text id="UI-P-C3-e18" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="930.94" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="930.94">Información alimentaria pendiente.</tspan>
+</text>
+<text id="UI-P-C3-e19" data-source="m1-connected-journey.md#c3" x="72" y="985.04" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="985.04">Arroz de verduras</tspan>
+</text>
+<text id="UI-P-C3-e20" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="1020.94" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1020.94">Información alimentaria pendiente.</tspan>
+</text>
+<text id="UI-P-C3-e21" data-source="m1-connected-journey.md#c3" x="72" y="1081.04" font-family="Arial Black" font-size="28" font-weight="900" fill="#20251E">
+<tspan x="72" y="1081.04">Postres</tspan>
+</text>
+<text id="UI-P-C3-e22" data-source="m1-connected-journey.md#c3" x="72" y="1131.64" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1131.64">Flan</tspan>
+</text>
+<text id="UI-P-C3-e23" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="1167.54" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1167.54">Declarado en el ejemplo: leche y huevo. Resto de información pendiente.</tspan>
+</text>
+<text id="UI-P-C3-e24" data-source="m1-connected-journey.md#c3" x="72" y="1221.64" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1221.64">Fruta</tspan>
+</text>
+<text id="UI-P-C3-e25" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="1257.54" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1257.54">Información alimentaria pendiente.</tspan>
+</text>
+<text id="UI-P-C3-e26" data-source="m1-connected-journey.md#c3 / L10c" x="72" y="1305.64" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="72" y="1305.64">Referencia L10c · fuente publicada del 1 de octubre. Sin datos de borradores futuros.</tspan>
+</text>
+</g>
+</svg>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 1542" width="390" height="1542" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-T-VISIT-PENDING · ORILLA · static editable partial visit bridge; not complete Digital Menu · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. S12. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="390" height="1542" fill="#FFF8EC"/>
+<g id="composition-UI-T-VISIT-PENDING" data-source="">
+<g id="H01-recognition" data-source="ORI-COPY-H01-01/05/06">
+<text id="UI-T-VISIT-PENDING-e1" data-source="ORI-COPY-H01-01" x="24" y="56" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="24" y="56.0">ORILLA</tspan>
+</text>
+<g id="UI-T-VISIT-PENDING-e2-action" data-source="ORI-COPY-H01-05">
+<rect id="UI-T-VISIT-PENDING-e3" x="234" y="24" width="132" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-T-VISIT-PENDING-e4" data-source="ORI-COPY-H01-05" x="254" y="52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="254" y="52.0">Ver carta</tspan>
+</text>
+</g>
+<text id="UI-T-VISIT-PENDING-e5" data-source="ORI-COPY-H01-06" x="24" y="108" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="108.0">ORILLA es un restaurante ficticio creado para</tspan>
+<tspan x="24" y="131.2">esta demostración.</tspan>
+</text>
+</g>
+<rect id="UI-T-VISIT-PENDING-e6" x="24" y="154.4" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-PENDING-e7" data-source="ORI-COPY-H01-02" x="24" y="212.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="212.4">Cocina mediterránea en Alcoy (Alicante)</tspan>
+</text>
+<rect id="UI-T-VISIT-PENDING-e25" x="0" y="240.5" width="390" height="1111.2" fill="#F3DE8A"/>
+<g id="H04-visit" data-source="ORI-COPY-H04-01–11; ORI-VISIT-01–03">
+<text id="UI-T-VISIT-PENDING-e8" data-source="ORI-COPY-H04-01" x="24" y="320.5" font-family="Arial Black" font-size="36" font-weight="900" fill="#20251E">
+<tspan x="24" y="320.5">Horarios y visita</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e9" data-source="ORI-COPY-H04-02" x="24" y="369.9" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="24" y="369.9">Alcoy (Alicante)</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e10" data-source="ORI-COPY-H04-03" x="24" y="406.7" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="406.7">Dirección y contacto de ejemplo no</tspan>
+<tspan x="24" y="432.8">disponibles.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e11" data-source="ORI-COPY-S12" x="24" y="490.9" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="490.9">Horario del local pendiente.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e12" data-source="ORI-COPY-S12" x="24" y="536.8" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="536.8">Horario de cocina pendiente.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e13" data-source="ORI-COPY-H04-06" x="24" y="598.7" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="598.7">Puedes consultar la carta cuando la</tspan>
+<tspan x="24" y="624.8">cocina está cerrada. Las bebidas se sirven</tspan>
+<tspan x="24" y="650.9">durante el horario del local. La</tspan>
+<tspan x="24" y="677.0">disponibilidad de los platos se confirma</tspan>
+<tspan x="24" y="703.1">para cada servicio.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e14" data-source="ORI-COPY-H04-07" x="24" y="761.2" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="761.2">Mesas pequeñas y una mesa de seis.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e15" data-source="ORI-COPY-H04-07" x="24" y="795.3" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="795.3">Para grupos de hasta seis, la distribución</tspan>
+<tspan x="24" y="821.4">necesita confirmación.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e16" data-source="ORI-COPY-H04-08" x="24" y="875.5" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="875.5">Hay un escalón en la entrada.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e17" data-source="ORI-COPY-H04-08" x="24" y="909.6" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="909.6">Las medidas de paso y del aseo están</tspan>
+<tspan x="24" y="935.7">pendientes.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e18" data-source="ORI-COPY-H04-09" x="24" y="989.8" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="24" y="989.8">Las condiciones para venir con</tspan>
+<tspan x="24" y="1015.9">animales están pendientes.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e19" data-source="ORI-VISIT-03C" x="24" y="1066.0" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1066.0">No hay terraza en este caso de ejemplo.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e20" data-source="ORI-VISIT-03E" x="24" y="1108.1" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1108.1">No hay servicio de pedidos para llevar en</tspan>
+<tspan x="24" y="1134.2">este caso.</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e21" data-source="ORI-COPY-H04-10" x="24" y="1192.3" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1192.3">Esta demostración no permite llamar,</tspan>
+<tspan x="24" y="1218.4">abrir un mapa ni reservar una mesa.</tspan>
+</text>
+<g id="UI-T-VISIT-PENDING-e22-action" data-source="ORI-COPY-H04-11">
+<rect id="UI-T-VISIT-PENDING-e23" x="24" y="1258.5" width="240" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-T-VISIT-PENDING-e24" data-source="ORI-COPY-H04-11" x="44" y="1286.5" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="44" y="1286.5">Ver carta</tspan>
+</text>
+</g>
+</g>
+<rect id="UI-T-VISIT-PENDING-e26" x="24" y="1387.7" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-VISIT-PENDING-e27" data-source="ORI-COPY-H01-01" x="24" y="1437.7" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="1437.7">ORILLA</tspan>
+</text>
+<text id="UI-T-VISIT-PENDING-e28" data-source="ADR-0003; attribution only" x="24" y="1479.4" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="1479.4">Powered by Valiris Restaurants</tspan>
+</text>
+</g>
+</svg>

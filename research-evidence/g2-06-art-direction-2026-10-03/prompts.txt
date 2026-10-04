@@ -1,0 +1,66 @@
+=== 1 / Patio abierto ===
+
+Use case: ui-mockup. Create a realistic, production-quality desktop restaurant storefront UI for the clearly fictional Spanish Mediterranean restaurant "Mesa del Patio". This is the distinct art-direction concept "Patio abierto". Target dimensions 1440 x 1024 pixels, one screen only, app content only, straight-on flat website screenshot. No device, browser chrome, perspective mockup, moodboard or collage of screens.
+Attached reference images are inspiration only: Gastrometro for bright food photography, breathing room and scale; Eat Curious for the unity of product, graphic type and color; Marshmallow for editorial pacing. Do not copy their brands, words, characters or dark backgrounds.
+
+Visual idea: contemporary Mediterranean hospitality expressed through the shared table. Memorable, confidently composed, modern and luminous, with a strong graphic voice that becomes calmer at the bottom as a real menu starts. White base, ink #202520, cobalt #184EC6 as the main brand accent, tomato #B73B31 as a restrained second accent, pale citrus #EAEBA8 sparingly. Avoid beige/tan/cream/terracotta/olive cliches, dominant dark backgrounds, gradients, decorative orbs, decorative generic cards.
+
+Typography: expressive Bricolage Grotesque-like display, humanist Source Sans 3-like text. At most two fonts. Letter spacing zero. Realistic readable 16-18px body, clear 18px menu items. Keep all text upright, unwarped, complete and highly legible. Bold display name approximately 110px, precisely placed.
+
+Layout: a slim white masthead about 88px high with restaurant name at left, simple navigation "El restaurante", "La carta", "Visita", and "ES" at right. Below, a full-width bright photographic hero around 610px tall, no framing card. Authentic natural overhead editorial photograph of a shared Mediterranean table with white tablecloth, clear textured ceramic plates, a vegetable rice pan, rustic bread, sliced cheese and small drinking glasses. Photography is AI-generated conceptual imagery, not a claim of faithful food photography of a real venue. Show actual recognizable dishes and portions, no blurry generic atmosphere. Compose the image with useful bright empty tablecloth toward upper left, food concentrated lower/right without sacrificing the actual food. The restaurant name is the first-viewport dominant signal, overlaid across the clear part of the photo in cobalt: "Mesa del Patio". Supporting copy exact: "Cocina mediterránea para compartir." One obvious compact action "Ver carta" and a quiet supporting text link "Información para visitar". No darkening overlay or split text/photo card layout.
+Allow the bright dishes to overlap visually with the generous title zone but NEVER obscure text or buttons. Natural physical shadows within photograph only, minimal graphic elevation.
+
+The lower 250-300px shows the beginning of the next section, so the screen already hints at the actual consultation experience: open white surface, left aligned heading "La carta", tiny contextual line "Carta general", two clear unframed menu summaries separated by a light rule. Verbatim data:
+"Tabla de quesos artesanos de leche cruda, membrillo y pan de masa madre"
+"Media tabla 24,00 € · Tabla completa 34,00 €"
+"Arroz de verduras"
+"18,00 € / persona · Mínimo 2 personas"
+Allow the long dish name to wrap naturally, keep formats and prices adjacent. This menu glimpse is quiet and careful, no per-item floating card or shopping CTA.
+
+Focus on recognition, hospitality, believable food, composition, strong type and simple clear entry to menu. No orders, carts, payments, review ratings, fake endorsements, invented location/contact, "más vendido", marketing feature explanation or generic slogan. No clipped content, illegible small text, text over busy food, layout errors, nested cards or rounded pill navigation. Today is 3 October 2026, Europe/Madrid; this mock shows no time-sensitive live status and no dates.
+
+=== 2 / Cuaderno de cocina ===
+
+Use case: ui-mockup. Create a realistic, production-quality desktop restaurant storefront UI for the clearly fictional Spanish Mediterranean restaurant "Mesa del Patio". This is the distinctly different art-direction concept "Cuaderno de cocina". Target dimensions 1440 x 1024 pixels, one primary screen only, app content only, flat front-facing website screenshot. No phone/device/browser, no multiple screens, no collage, no moodboard.
+References attached are inspiration only: the luminous space and food scale of Gastrometro, type/image coherence of Eat Curious, and calm editorial rhythm from Marshmallow. Do not copy their design, colors, brands or text.
+
+Concept: a contemporary culinary journal, hospitality communicated through authored typographic rhythm and beautiful but selective food photography. Visually very different from a huge sans-serif blue hero. Refined but confident editorial serif in the character of Fraunces for the restaurant name and headings; Source Sans 3-like humanist sans for practical information. Exactly two families maximum, no negative letter spacing, no tightly condensed body. White base #FFFFFF, nearly black plum ink #322634, muted coral accent #CB4E55, pale cool celadon #DDECE7 for a small contextual plane. Avoid dominant beige, cream, brown, orange or dark palettes. No purple/blue gradients, no shadows as decoration, no orbs, no floating card sections.
+
+Screen layout: a slender white masthead with a small left-aligned readable name "Mesa del Patio", a centered editorial navigation "El restaurante", "La carta", "Visita", "ES" at right, a fine ink rule below. Below is one unframed full-width editorial cover using a beautiful high-resolution conceptual still-life photograph as actual background, around 580px tall: a bright modern shared Mediterranean table with white cloth, ceramic dishes containing vegetable rice and cheeses with quince and bread. Compose clearly recognizable food in a restrained horizontal band along the LOWER THIRD; most upper area is luminous light cloth providing genuine blank space, not a fake blur. Light natural daylight, realistic color. No dark overlays, photo-frame card or split side-by-side photo and text panels.
+Large elegant serif name "Mesa del Patio" around 88px centered in the upper half of this photographic cover, visibly the brand name and first-viewport signal, not tiny nav only. Centered supporting line below it, exact: "Cocina mediterránea para compartir." Compact primary command "Ver carta", coral rectangle maximum 4px corner radius, and quiet secondary text link "Información para visitar". Avoid excessive typographic spectacle: intentional asymmetric small editorial accent such as the dish placement and one short fine divider, but keep all text horizontal and upright. Do NOT add generic brand manifesto, story paragraphs, fake chefs, awards, food-origin claims or invented location/hours. The design gets its personality from its type and composition rather than filling Home with copy.
+
+In the lower 300px, visibly start the actual menu as an elegant editorial table on white, not cards: heading "La carta" aligned left, small "Carta general", one large clean column of two summaries with names on left and explicit formats next to amounts at right, use quiet hairline separators. Exact text:
+"Tabla de quesos artesanos de leche cruda, membrillo y pan de masa madre"
+"Media tabla 24,00 € · Tabla completa 34,00 €"
+"Arroz de verduras"
+"18,00 € / persona · Mínimo 2 personas"
+Let the long dish name wrap naturally at readable size; no tiny text. Choose actual layout positions so everything fits within 1440x1024, no clipping or collisions, and show at least these two complete menu summaries. Body 16-18px, menu names 18-20px, restrained serif category title. The same serif family persists as accents in menu so both intensities clearly share identity.
+
+Only one primary action and at most two supporting navigation/content areas. No e-commerce carts, payments, ordering, ratings, made-up facts, service status, user accounts gate or CTA piles. The food imagery is generated conceptual imagery of a fictional restaurant, not a claim of authentic dishes from a supplied client. Today is 3 October 2026, Europe/Madrid; no live date or availability should be invented. Render Spanish exact copy crisply.
+
+=== 3 / Mercado al mediodia ===
+
+Use case: ui-mockup. Create a realistic, production-quality desktop storefront for the clearly fictional Mediterranean Spanish restaurant "Mesa del Patio". Distinct art direction "Mercado al mediodía". Target dimensions 1440 x 1024 pixels. One primary screen only, flat app/website content only, no device or browser chrome, no multiple options, no collage.
+Attached references are inspirational: graphic typographic confidence and product presentation from Eat Curious, scale and breathing room from Gastrometro, authored rhythm from Marshmallow. Do not clone their branding or repeat the prior compositions. The variation must meaningfully change hierarchy, layout and visual density, not only colors.
+
+Idea: contemporary Mediterranean market signage translated into an elegant lively restaurant storefront. Graphic and appetite-led, friendly everyday confidence, typographic labels and horizontal rhythm, closer coupling between first impression and the actual menu. Bright white, tomato red #B73B31, ink #202520, small lively lemon-yellow #F5E85B accents, a little cool gray. No beige/tan/cream dominant palette, no brown/espresso overall mood, no olive-rust cliche, no gradients, no orbs, no dark mode. Shadow only if naturally part of a photograph.
+Typography: Archivo Black-like crisp heavy grotesque for the huge restaurant name and SHORT titles, Source Sans 3-like humanist regular for all body/menu text, at most two fonts. No negative tracking, no warped type, no hand lettering, no uppercase long dish names. All copy crisp, accurate and at realistic readable sizes.
+
+Layout unlike a tall leisurely hero: a WHITE slender 72px masthead with a small left name, right navigation exact "El restaurante", "La carta", "Visita", "ES". Then a lively full-bleed conceptual editorial photograph 430-450px high, a high-angle modern shared Mediterranean table on white tile/cloth, selective ceramic plates of vegetable rice, slices of cheese with quince and sourdough bread, cut lemon, ordinary water glasses. Recognizable actual food, bright daylight, no generic blurry atmosphere. Image must fill entire hero; no split card composition or separate photo box. Photo is conceptual generated imagery, NOT faithful photography of a real supplied restaurant.
+The photograph composition leaves strong pale clear middle space, with food arranged in a thin strip along the upper edge and lower-right edge. Place one huge SHORT brand line "MESA DEL PATIO" in tomato red across the lower left/middle at roughly 96px bold, complete and unclipped. A narrow white navigation/content band integrated at the lower edge of this image carries readable supporting copy exact "Cocina mediterránea para compartir." left, and the primary action "Ver carta" right as compact red rectangle maximum 4px radius. A quiet text link "Información para visitar" may accompany it. No description cards. Keep name dominant, never cover it with dishes or food. Make the hero lively but very precisely aligned.
+
+Below hero, a denser but highly readable unframed menu area occupies almost half the screen. In one heading row: "La carta" bold 42px at left, "Carta general" at right in 16px normal type. A thin rule follows. Show two substantial horizontal menu rows, with modest intentional repeated geometric alignment rather than boxes. Long dish name and food-fact notice left, format/price rows right; use regular 18-20px names and 17px formats so the menu does not shout.
+Exact complete content:
+"Tabla de quesos artesanos de leche cruda, membrillo y pan de masa madre"
+"Media tabla" "24,00 €"
+"Tabla completa" "34,00 €"
+"Extra de pan +2,00 €"
+"Leche y trigo/gluten declarados. Información restante pendiente."
+Second row:
+"Arroz de verduras"
+"18,00 € / persona"
+"Mínimo 2 personas"
+"Información de alérgenos pendiente. Consulta al personal."
+Use narrow repeated alignment in the formats column so each format is adjacent to its exact price; the first row must not suggest 24 or34 are unlabeled. Food text is readable ink, NOT green safety icon or icon-only. This is the confirmed General fixture, not an actual food review or guaranteed suitability. Use a tiny lemon accent line at one heading only, not labels around everything. Clear white breathing space around each row and very light dividers. No rounded item cards, card grids, shopping buttons or feature inventory.
+
+The screen should feel like a distinct confident graphic product design, with more actual consultation visible than the two other concepts. No fictional awards, chef/story/promises, false live availability, location, map, bookings, order/cart/payment UI or user account gating. The restaurant name must be first-viewport signal and both full menu summaries must fit with no clipping/overlap. Date anchor: 3 October 2026, Europe/Madrid; show no live dates.

@@ -1,0 +1,1 @@
+Adopt the first-product M0-M7 sequence with Storefront + Digital Menu and necessary Core. Retain historical inputs, current evidence limits and outcome-based delivery without invented dates.

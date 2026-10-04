@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1235" width="1440" height="1235" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-P-C2 · ORILLA · static editable separate C2 content contrast · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. C2 separate reset. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="1440" height="1235" fill="#FFF8EC"/>
+<g id="composition-UI-P-C2" data-source="">
+<text id="UI-P-C2-e1" data-source="m1-connected-journey.md#c2" x="72" y="44" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="72" y="44.0">Caso ficticio de contraste C2. No es contenido de ORILLA.</tspan>
+</text>
+<text id="UI-P-C2-e2" data-source="m1-connected-journey.md#c2" x="72" y="131.2" font-family="Arial Black" font-size="52" font-weight="900" fill="#20251E">
+<tspan x="72" y="131.2">Mesa del Patio</tspan>
+</text>
+<rect id="UI-P-C2-e3" x="72" y="161.44" width="1296" height="58.099999999999994" rx="12" fill="#DDEBBE"/>
+<text id="UI-P-C2-e4" data-source="m1-connected-journey.md#c2" x="88" y="193.44" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="88" y="193.44">Ingredientes y alérgenos de ejemplo. Los datos declarados no confirman la ausencia de otros alérgenos.</tspan>
+</text>
+<text id="UI-P-C2-e5" data-source="m1-connected-journey.md#c2" x="72" y="271.54" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="72" y="271.54">Carta general</tspan>
+</text>
+<g id="UI-P-C2-e6-action" data-source="m1-connected-journey.md#c2">
+<rect id="UI-P-C2-e7" x="72" y="294.34" width="250" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-P-C2-e8" data-source="m1-connected-journey.md#c2" x="92" y="322.34" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="92" y="322.34">Cambiar carta</tspan>
+</text>
+</g>
+<rect id="UI-P-C2-e9" x="72" y="371.53999999999996" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C2-e10" data-source="m1-connected-journey.md#c2" x="72" y="419.54" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="72" y="419.54">Tabla de quesos artesanos de leche cruda, membrillo y pan</tspan>
+<tspan x="72" y="450.74">de masa madre</tspan>
+</text>
+<text id="UI-P-C2-e11" data-source="m1-connected-journey.md#c2" x="72" y="493.94" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="493.94">Media tabla · 24,00 €</tspan>
+<tspan x="72" y="525.84">Tabla completa · 34,00 €</tspan>
+</text>
+<text id="UI-P-C2-e12" data-source="m1-connected-journey.md#c2" x="72" y="569.74" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="569.74">Pan adicional · +2,00 €. Declarado en el ejemplo: leche y trigo (gluten). Resto de información pendiente.</tspan>
+</text>
+<rect id="UI-P-C2-e13" x="72" y="607.8399999999999" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C2-e14" data-source="m1-connected-journey.md#c2" x="72" y="655.84" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="72" y="655.84">Arroz de verduras</tspan>
+</text>
+<text id="UI-P-C2-e15" data-source="m1-connected-journey.md#c2" x="72" y="699.04" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="699.04">18,00 € / persona</tspan>
+</text>
+<text id="UI-P-C2-e16" data-source="m1-connected-journey.md#c2" x="72" y="742.94" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="742.94">Mínimo 2 personas. Información alimentaria pendiente.</tspan>
+</text>
+<rect id="UI-P-C2-e17" x="72" y="781.04" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C2-e18" data-source="m1-connected-journey.md#c2" x="72" y="829.04" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="72" y="829.04">Pescado del mercado</tspan>
+</text>
+<text id="UI-P-C2-e19" data-source="m1-connected-journey.md#c2" x="72" y="872.24" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="872.24">6,50 € / 100 g</tspan>
+</text>
+<text id="UI-P-C2-e20" data-source="m1-connected-journey.md#c2" x="72" y="916.14" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="916.14">Peso y total por confirmar con el personal. Declarado en el ejemplo: pescado. Resto de información</tspan>
+<tspan x="72" y="942.24">pendiente.</tspan>
+</text>
+<rect id="UI-P-C2-e21" x="72" y="980.34" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-C2-e22" data-source="m1-connected-journey.md#c2" x="72" y="1028.34" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="72" y="1028.34">Vino de la casa</tspan>
+</text>
+<text id="UI-P-C2-e23" data-source="m1-connected-journey.md#c2" x="72" y="1071.54" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="72" y="1071.54">Copa · 3,50 €</tspan>
+<tspan x="72" y="1103.44">Botella · 19,00 €</tspan>
+</text>
+<text id="UI-P-C2-e24" data-source="m1-connected-journey.md#c2" x="72" y="1147.34" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1147.34">Declarado en el ejemplo: sulfitos. Resto de información pendiente.</tspan>
+</text>
+</g>
+</svg>

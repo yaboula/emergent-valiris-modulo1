@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-03",
+  "status": "PASS",
+  "scope": "Bounded generated-artifact integrity and documentary coherence",
+  "png_count": 3,
+  "dimensions_each": [
+    1536,
+    1024
+  ],
+  "source_copy_hashes_equal": true,
+  "manifest_metadata_recorded": true,
+  "local_targets_checked": 35,
+  "orilla_original_hash": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+  "whitespace_check": "PASS",
+  "author_visual_review": "Generated outputs inspected inline: wording, scene mechanisms, product hierarchy and two-character action",
+  "limits": [
+    "No exact font or editable resource produced",
+    "No implementation, full accessibility, quantitative contrast, user research, motion or independent G4 review",
+    "No new founder approval claimed"
+  ]
+}

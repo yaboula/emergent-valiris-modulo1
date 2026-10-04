@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-02",
+  "baseline": "9cfe77ba652d8b22b412f69a93d24987a9201098",
+  "hashes": {
+    "docs/design/m1-public-presence-and-discovery.md": {
+      "git_sha256": "db1a922be8bb42150e9089fe2adf152a17e4d7937100732d554150e7dea01ece",
+      "checkout_sha256": "db1a922be8bb42150e9089fe2adf152a17e4d7937100732d554150e7dea01ece"
+    },
+    "docs/product/m0-journeys-and-criteria.md": {
+      "git_sha256": "41e7e487e2a59d36c889345a65f59a31c254ec241ef4f7207ff5c7a303337734",
+      "checkout_sha256": "c1af16ea5da6ad27d4fbdd85ddfe748fa29b154eb8d9cad31378171308162533"
+    },
+    "docs/product/m0-capability-matrix.md": {
+      "git_sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc",
+      "checkout_sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    "docs/design/m1-connected-journey.md": {
+      "git_sha256": "78a7e4fc39b243df7e3e619cc017377bbe6aa788d13fa3965f095c6134364f94",
+      "checkout_sha256": "c81f51dfb540323fbc240ab1cdc1d15830be29f2ac519faa674b1d409a221e2d"
+    },
+    "docs/design/m1-content-preparation.md": {
+      "git_sha256": "6cfe7d6e7e4b6fa6f382a7a437fb9362b42711e10ed8ceae7ed3d0a09031ba7d",
+      "checkout_sha256": "6cfe7d6e7e4b6fa6f382a7a437fb9362b42711e10ed8ceae7ed3d0a09031ba7d"
+    },
+    "docs/design/m1-extended-journeys.md": {
+      "git_sha256": "56b6d2f7e4262da871a4e9cb91bcb41884858068467a6f8593944303d554858f",
+      "checkout_sha256": "56b6d2f7e4262da871a4e9cb91bcb41884858068467a6f8593944303d554858f"
+    },
+    "docs/design/m1-service-and-maintenance.md": {
+      "git_sha256": "545c27f66f9606033325e26b0df8de79bd2ee30a5de4cfa4c84faa03affa7335",
+      "checkout_sha256": "545c27f66f9606033325e26b0df8de79bd2ee30a5de4cfa4c84faa03affa7335"
+    },
+    "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md": {
+      "git_sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c",
+      "checkout_sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    "docs/adr/0005-repository-and-product-language.md": {
+      "git_sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57",
+      "checkout_sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57"
+    },
+    "docs/adr/0008-first-launch-capability-commitment.md": {
+      "git_sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa",
+      "checkout_sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa"
+    },
+    "docs/adr/0009-studio-design-and-registered-diner-personalisation.md": {
+      "git_sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b",
+      "checkout_sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    }
+  },
+  "normalized_checkout_matches_git_by_file": {
+    "docs/design/m1-public-presence-and-discovery.md": true,
+    "docs/product/m0-journeys-and-criteria.md": false,
+    "docs/product/m0-capability-matrix.md": true,
+    "docs/design/m1-connected-journey.md": false,
+    "docs/design/m1-content-preparation.md": true,
+    "docs/design/m1-extended-journeys.md": true,
+    "docs/design/m1-service-and-maintenance.md": true,
+    "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md": true,
+    "docs/adr/0005-repository-and-product-language.md": true,
+    "docs/adr/0008-first-launch-capability-commitment.md": true,
+    "docs/adr/0009-studio-design-and-registered-diner-personalisation.md": true
+  },
+  "pv_local_links": 32,
+  "states": [
+    "PV-P01",
+    "PV-P02",
+    "PV-P03",
+    "PV-P04",
+    "PV-P05",
+    "PV-P06",
+    "PV-P07",
+    "PV-P08",
+    "PV-P09",
+    "PV-P10",
+    "PV-P11",
+    "PV-O01",
+    "PV-O02",
+    "PV-O03",
+    "PV-O04",
+    "PV-O05",
+    "PV-X01"
+  ],
+  "criterion_mappings": [
+    "J1.1",
+    "J1.2",
+    "J1.3",
+    "J1.4",
+    "J1.5",
+    "J2.1",
+    "J2.2",
+    "J2.3",
+    "J2.4",
+    "J2.5",
+    "J2.6"
+  ],
+  "affected_capability_rows": [
+    "B1.01",
+    "B1.02",
+    "B1.03",
+    "B1.04",
+    "B1.05",
+    "B1.08",
+    "B1.09",
+    "B3.01",
+    "B3.02",
+    "B3.03",
+    "B3.04",
+    "B3.05",
+    "B3.06",
+    "B3.07",
+    "B3.08",
+    "B3.10",
+    "B5.01",
+    "B5.04",
+    "B5.05",
+    "B5.07",
+    "B6.01",
+    "B6.02",
+    "B6.03"
+  ],
+  "vc": 26,
+  "vw": 6,
+  "vf": 4,
+  "state_bodies_unchanged_from_c5e0a5b": true,
+  "source_criterion_rows_unchanged_from_2eb8e86": true,
+  "matrix_functional_definition_and_accepted_adrs_unchanged_from_2eb8e86": true,
+  "matrix_parents": 72,
+  "scope_counts": {
+    "Included": 36,
+    "Configurable": 30,
+    "Connection-dependent": 6
+  },
+  "whitespace_check": true,
+  "observed_git_status": "M CHANGELOG.md\n M docs/README.md\n M docs/design/m1-connected-journey.md\n M docs/product/m0-journeys-and-criteria.md\n M docs/product/m1-design-briefs.md\n M docs/project/roadmap.md\n?? docs/design/m1-scheduling-and-service-continuity.md",
+  "scope": "Document integrity only. No software/UX/accessibility/real-use validation. Concurrent work preserved."
+}

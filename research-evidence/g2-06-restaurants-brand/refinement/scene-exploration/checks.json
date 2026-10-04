@@ -1,0 +1,89 @@
+{
+  "scope": "Generated static concepts: integrity and visual direction review only",
+  "status": "PASS",
+  "png_files": [
+    {
+      "file": "01-carta-en-escena.png",
+      "png_signature": true,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8ee3d1df08beca799450b44abf14132b95a64b8c216616b31af3f54b05e59f57"
+    },
+    {
+      "file": "02-mesa-editorial.png",
+      "png_signature": true,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9be8a08c2174a16a07386ac32bfac9ef3011765e217af44607fdfe45435f3d5f"
+    },
+    {
+      "file": "03-cocina-viva.png",
+      "png_signature": true,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "afe5fded3a9e580d697eae268c2e1c21df366d985f4f95438acb1fd1c4b4a086"
+    }
+  ],
+  "manual_review": [
+    "Three distinct viewpoints/staging methods: fold-out theatre, overhead editorial table, kitchen pass",
+    "Actors share gaze/limb/hand vocabulary but expand to produce, utensils, prepared food, glassware and cookware",
+    "Spanish headlines and essential menu labels inspected at native 1536x1024; concept footer and visible Ver carta retained",
+    "No invented prices, nutritional labels, performance claims or photographed real dishes",
+    "A gives strongest product hierarchy; B introduces tabletop/material texture; C gives most atmosphere and weakest product scale",
+    "B headline crosses the runner boundary; a calm reading field remains a composition follow-up",
+    "B/C use more volumetric shading than the flat-2D aspiration; medium remains an explicit comparison question"
+  ],
+  "limits": [
+    "No exact font binary or licensed type specimen",
+    "No functional interface, interaction or mobile proof",
+    "No full accessibility or localisation audit",
+    "No public recognition/conversion evidence",
+    "No G4 review or final identity approval"
+  ],
+  "local_guide_links": [
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/01-carta-en-escena.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/02-mesa-editorial.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/03-cocina-viva.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/manifest.json",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/checks.json",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/00-selected-base.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/01-rounded-trial.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/02-geometric-refinement.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/font-source.json",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/manifest.json",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/checks.json",
+      "exists": true
+    }
+  ]
+}

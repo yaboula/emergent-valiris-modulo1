@@ -1,0 +1,183 @@
+{
+  "checked_on": "2026-10-04",
+  "scope": "Author documentary integrity before delivery commit; semantic source comparison in DC01-DC14; no rendered or runtime test.",
+  "operating_baseline": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+  "reviewed_content_sha": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+  "reviewed_architecture_sha": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+  "status": "pass",
+  "checks": [
+    {
+      "check": "isolated_branch",
+      "status": "pass",
+      "detail": {
+        "expected": "docs/m1-seo-orilla-content-review",
+        "actual": "docs/m1-seo-orilla-content-review"
+      }
+    },
+    {
+      "check": "preserved_blob:docs/design/orilla-case.md",
+      "status": "pass",
+      "detail": {
+        "5bd3184ca48be8d579e3f82d3361dbf5de0ed228": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+        "81f72e68aac5b6fd92a3511ac684edc288f739cc": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+        "HEAD": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+        "6ce8634e98da3d975a376a265de77b940ed22f37": "bade7126a2d4222227095a1f8e9fa6ae85c5c687"
+      }
+    },
+    {
+      "check": "unchanged_working_source:docs/design/orilla-case.md",
+      "status": "pass",
+      "detail": "unchanged"
+    },
+    {
+      "check": "preserved_blob:docs/design/m1-storefront-content-and-copy.md",
+      "status": "pass",
+      "detail": {
+        "5bd3184ca48be8d579e3f82d3361dbf5de0ed228": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+        "81f72e68aac5b6fd92a3511ac684edc288f739cc": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+        "HEAD": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+        "6ce8634e98da3d975a376a265de77b940ed22f37": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf"
+      }
+    },
+    {
+      "check": "unchanged_working_source:docs/design/m1-storefront-content-and-copy.md",
+      "status": "pass",
+      "detail": "unchanged"
+    },
+    {
+      "check": "preserved_blob:docs/design/m1-storefront-information-architecture.md",
+      "status": "pass",
+      "detail": {
+        "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b": "8c8a56aa5ce22def06f659398ad9900bce7a78bf",
+        "81f72e68aac5b6fd92a3511ac684edc288f739cc": "8c8a56aa5ce22def06f659398ad9900bce7a78bf",
+        "HEAD": "8c8a56aa5ce22def06f659398ad9900bce7a78bf"
+      }
+    },
+    {
+      "check": "unchanged_working_source:docs/design/m1-storefront-information-architecture.md",
+      "status": "pass",
+      "detail": "unchanged"
+    },
+    {
+      "check": "six_request_answers",
+      "status": "pass",
+      "detail": [
+        "XR02",
+        "ORI-SEO-Q01",
+        "ORI-SEO-Q02",
+        "ORI-SEO-Q03",
+        "ORI-SEO-Q04",
+        "ORI-SEO-Q05"
+      ]
+    },
+    {
+      "check": "recommendation_records",
+      "status": "pass",
+      "detail": [
+        "SEO-R01",
+        "SEO-R02",
+        "SEO-R03",
+        "SEO-R04",
+        "SEO-R05",
+        "SEO-R06",
+        "SEO-R07",
+        "SEO-R08",
+        "SEO-R09",
+        "SEO-R10",
+        "SEO-R11",
+        "SEO-R12"
+      ]
+    },
+    {
+      "check": "recommendation_fields_and_pending_status",
+      "status": "pass",
+      "detail": []
+    },
+    {
+      "check": "technical_questions",
+      "status": "pass",
+      "detail": [
+        "SEO-T01",
+        "SEO-T02",
+        "SEO-T03",
+        "SEO-T04",
+        "SEO-T05",
+        "SEO-T06",
+        "SEO-T07",
+        "SEO-T08"
+      ]
+    },
+    {
+      "check": "documentary_contrasts",
+      "status": "pass",
+      "detail": [
+        "DC01",
+        "DC02",
+        "DC03",
+        "DC04",
+        "DC05",
+        "DC06",
+        "DC07",
+        "DC08",
+        "DC09",
+        "DC10",
+        "DC11",
+        "DC12",
+        "DC13",
+        "DC14"
+      ]
+    },
+    {
+      "check": "exact_frozen_source_ids",
+      "status": "pass",
+      "detail": {
+        "cited_unique": 123,
+        "unmatched": []
+      }
+    },
+    {
+      "check": "local_files_and_fragments",
+      "status": "pass",
+      "detail": {
+        "checked": 19,
+        "errors": []
+      }
+    },
+    {
+      "check": "markdown_table_widths",
+      "status": "pass",
+      "detail": {
+        "tables": 7,
+        "errors": []
+      }
+    },
+    {
+      "check": "only_owned_routes",
+      "status": "pass",
+      "detail": {
+        "changed_paths": [
+          "docs/design/m1-storefront-discovery-content.md",
+          "research-evidence/seo-storefront/checks.json",
+          "research-evidence/seo-storefront/delivery.md",
+          "research-evidence/seo-storefront/documentary-contrasts.md",
+          "research-evidence/seo-storefront/primary-sources.md",
+          "research-evidence/seo-storefront/source-manifest.json",
+          "research-evidence/seo-storefront/verify.py"
+        ],
+        "outside_scope": []
+      }
+    },
+    {
+      "check": "git_diff_check",
+      "status": "pass",
+      "detail": "clean"
+    }
+  ],
+  "pending": [
+    "Consolidator acceptance and receipt",
+    "PC/phone compositions and applied behaviour",
+    "Linguistic review",
+    "G3/M2 technical and access policies",
+    "Independent G4 application review"
+  ]
+}

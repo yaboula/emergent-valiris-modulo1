@@ -1,0 +1,42 @@
+--- b63b454-preliminary
++++ a0583e0-final
+@@ -2,7 +2,7 @@
+ 
+ 2 October 2026 · G2 Product Design · Descriptive continuation under [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5), draft PR #21.
+ 
+-**Status:** descriptive proposal for author checking and independent review. English documentation/Spanish interface copy; fixtures are fictional. No software, Figma, actual file generation, printing, QR encoding/scanning or claim of food/legal/accessibility compliance. Actual technical contracts stay in [M2 #4](https://github.com/yaboula/valiris-restaurants/issues/4); M1 remains open.
++**Status:** descriptive proposal checked documentarily by its author; independent FO review and actual evidence remain pending. English documentation/Spanish interface copy; fixtures are fictional. No software, Figma, actual file generation, printing, QR encoding/scanning or claim of food/legal/accessibility compliance. Actual technical contracts stay in [M2 #4](https://github.com/yaboula/valiris-restaurants/issues/4); M1 remains open.
+ 
+ ## 1. Assignment, sources and evidence boundaries
+ 
+@@ -10,7 +10,7 @@
+ 
+ Reuse [C1–C3](m1-connected-journey.md), [content preparation](m1-content-preparation.md), [extended journeys](m1-extended-journeys.md), [service/maintenance](m1-service-and-maintenance.md), [public presence/discovery](m1-public-presence-and-discovery.md), [scheduling/service continuity](m1-scheduling-and-service-continuity.md), [briefs](../product/m1-design-briefs.md), [roadmap](../project/roadmap.md), [matrix](../product/m0-capability-matrix.md), [functional definition](../research/storefront-digital-menu/functional-definition/functional-definition.es.md), and ADRs [0005](../adr/0005-repository-and-product-language.md), [0008](../adr/0008-first-launch-capability-commitment.md), [0009](../adr/0009-studio-design-and-registered-diner-personalisation.md), [0010](../adr/0010-diner-account-and-display-recovery.md), [0011](../adr/0011-shared-menu-content-and-contextual-maintenance.md), [0012](../adr/0012-confirm-delegated-updates-per-assignment.md). Sources previously read remain usable; no benchmark or new regulatory interpretation is introduced.
+ 
+-**Independent continuity:** G1/G4 resolved G4-01 on c4f219c, G4-J15-01 on 2eb8e86, and requested no correction in CP on 2eb8e86 or J8/J9 on 9cfe77b. The actual consolidated PV/J1–J2 return on 9cfe77b likewise requests no correction in its bounded written branches; its scope/limits have been read. JT/J4–J5 review on 120903f is pending until a real consolidated return. None approves this FO package, proves real food sources/rights, rendered readability or working generation/scanning. No specialist activation or message is performed by this delivery.
++**Independent continuity:** G1/G4 resolved G4-01 on c4f219c, G4-J15-01 on 2eb8e86, and requested no correction in CP on 2eb8e86 or J8/J9 on 9cfe77b. The actual consolidated PV/J1–J2 return on 9cfe77b and JT/J4–J5 return on 120903f likewise request no correction in their bounded written branches; their scope/limits have been read. JT covers 21 cards/eight criteria/30 contrasts, not actual scheduling or all earlier cases independently. None approves this FO package, proves real food sources/rights, rendered readability or working generation/scanning. No specialist activation or message is performed by this delivery.
+ 
+ **Value/cost hypothesis:** diners receive comprehensible declared/pending facts and usable paper alternatives; staff can locate the correct contextual record and identify unconfirmed information; operators can correct sources and maintain outputs; Valiris must support permissions, dependency review, generation and physical replacement training. No saved time, food safety, commercial return or support-effort reduction is measured by this proposal. C1 keeps one short menu without required photos, multilingual setup, nutrition or advanced output configuration.
+ 
+@@ -336,9 +336,9 @@
+ | FC23 | Wrong/withdrawn/caducado/changed host or private target | FO-Q01/FO-Q03 public applicable recovery/material re-review, private destination rejected; no working QR/redirect/perpetual-host claim. |
+ | FC24 | Offline loaded public content versus unloaded/private staff record | FO-Q03/J10 coverage/time/food limits, unloaded absent; FO-X03 no assumed private cache/profile or false current source. |
+ 
+-**Regression:** all 152 earlier V01–V16/Q01–Q20/PC01–PC24/DS01–DS04/SC01–SC26/LC01–LC06/VC01–VC26/TC01–TC30 must be read against FO and preserved against 120903f. Critical source/price/context/private-draft/urgent/scheduled/food/factual-language/physical-paper/original-operation/access/late-response/privacy invariants remain. Food review/output generation cannot modify private tastes, restore retired categories, mutate measurement history or declare all external channels updated. Earlier independent returns keep their exact reviewed scope; author regression gives no new independent credit.
+-
+-Author refinements found by actual structural/behavioral checks will be recorded with correction/evidence below or in the dated external record, not invented or represented as runtime validation.
++**Regression:** all 152 earlier V01–V16/Q01–Q20/PC01–PC24/DS01–DS04/SC01–SC26/LC01–LC06/VC01–VC26/TC01–TC30 were re-read against FO and preserved against 120903f. Critical source/price/context/private-draft/urgent/scheduled/food/factual-language/physical-paper/original-operation/access/late-response/privacy invariants remain. Food review/output generation cannot modify private tastes, restore retired categories, mutate measurement history or declare all external channels updated. Earlier independent returns keep their exact reviewed scope; author regression gives no new independent credit.
++
++**Author refinement:** qualify every FO family in the independent-review scope below; shorthand O/Q/X ranges could otherwise be mistaken for inherited states. Structural checks validate all 18 cards, exact criteria/capability contributions, destinations and local links; source comparison preserves the original cards/cases/criteria/matrix/definition/ADRs. Five FW paths and 24 FC contrasts were read against the actual described destinations. The dated external author record retains check outputs and review scope; none is runtime validation.
+ 
+ ## 8. Dependencies and completion boundary
+ 
+@@ -346,7 +346,7 @@
+ | --- | --- |
+ | G3/G1, M2/#4 | Source/variant/current-service authority, original-action result and per-group consistency, factual review/current publication versus private proposals, language/food dependencies, source-read/generate/retrieve permissions, coherent file manifests, local private retention and hosting/target resolution. No API/types/storage/file format or provider implementation selected. |
+ | G5 with G2 | Supplied ingredients/preparation/adaptation/nutrition source/basis/review responsibility, exact current served recipe and staff procedure/contact, rights/actual languages, authorised public URLs/domain/material placement scope. Missing material blocks real delivery claims, not fictional design. |
+-| G4 independent | FO-F01–FO-F06/O01–O06/Q01–Q03/X01–X03 and FC01–FC24 on immutable delivery commit; actual independent findings incorporated later. Not approved by earlier PV/CP/JT review. |
++| G4 independent | FO-F01–FO-F06, FO-O01–FO-O06, FO-Q01–FO-Q03 and FO-X01–FO-X03; FC01–FC24 on immutable delivery commit; actual independent findings incorporated later. Not approved by earlier PV/CP/JT review. |
+ | G2 visual/G4/G5 and real devices/participants | Render A4 public/daily/staff long-text/page breaks/reference/notices, actual mobile/keyboard/focus/reflow/read order, print legibility and physical replacement, public QR encoding/scan/accessibility and actual staff/consumer comprehension. Markdown cannot prove these. |
+ 
+ **Descriptive delivery:** 18 full state cards, seven exact unchanged criteria, 22 individual affected capability rows, five connected walkthroughs and 24 contrasts, with permitted current-source/public/private/output recovery. Author checks include identifiers/links/destinations/versions/coverage and 152 previous-case regressions; no software suites. Separate designed/author-checked, proposed technical contract, pending independent/actual-material/visual/interaction evidence.

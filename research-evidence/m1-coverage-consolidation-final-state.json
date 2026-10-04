@@ -1,0 +1,24 @@
+{
+  "commit": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+  "branch": "docs/m1-connected-journey",
+  "clean": true,
+  "upstreamMatch": true,
+  "author": "Yahya <yaboula@epsa.upv.es>",
+  "trailers": [],
+  "PR": {
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/21",
+    "title": "docs(product): describe M1 public, management and service journeys",
+    "headRefOid": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+    "state": "OPEN",
+    "isDraft": true
+  },
+  "bodyMatch": true,
+  "M1": {
+    "state": "OPEN",
+    "url": "https://github.com/yaboula/valiris-restaurants/issues/5"
+  },
+  "sourceSHA256": {
+    "docs\\design\\m1-connected-journey.md": "d977d26db2a2f094e448eaa197f1857f405f377edac49daffe211de2544be835",
+    "docs\\design\\m1-coverage-and-evidence.md": "35aa489acddce201dc47debd623d7fbfaaec0a4570a100bdd9dd6408b3e13d5a"
+  }
+}

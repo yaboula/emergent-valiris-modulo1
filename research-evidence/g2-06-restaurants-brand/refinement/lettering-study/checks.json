@@ -1,0 +1,87 @@
+{
+  "scope": "Artifact integrity and bounded manual visual inspection only",
+  "status": "PASS",
+  "png_files": [
+    {
+      "file": "00-selected-base.png",
+      "sha256_matches": true,
+      "byte_count_matches": true,
+      "png_signature": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "01-rounded-trial.png",
+      "sha256_matches": true,
+      "byte_count_matches": true,
+      "png_signature": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "02-geometric-refinement.png",
+      "sha256_matches": true,
+      "byte_count_matches": true,
+      "png_signature": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "references/user-marshmallow-headline.png",
+      "sha256_matches": true,
+      "byte_count_matches": true,
+      "png_signature": true,
+      "width": 1573,
+      "height": 601
+    },
+    {
+      "file": "references/user-marshmallow-wordmark.png",
+      "sha256_matches": true,
+      "byte_count_matches": true,
+      "png_signature": true,
+      "width": 1549,
+      "height": 273
+    }
+  ],
+  "local_guide_links": [
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/00-selected-base.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/01-rounded-trial.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/02-geometric-refinement.png",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/font-source.json",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/manifest.json",
+      "exists": true
+    },
+    {
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/checks.json",
+      "exists": true
+    }
+  ],
+  "manual_review": [
+    "All essential displayed Spanish text is legible at native image size, including accented á and the concept footer",
+    "Selected layout, culinary interactions, category order and visible Ver carta preserved",
+    "First trial rounds terminals too far; final candidate returns firm stem ends and full geometric bowls",
+    "Category labels and CTA remain distinguishable; actual editable type and smaller sizes require later composition review",
+    "Fictional Casa Naranja and category imagery do not substantiate food, price or allergen claims"
+  ],
+  "not_audit": [
+    "No implementation or interaction checks",
+    "No font binary used or exact-font claim",
+    "No responsive or localisation validation",
+    "No integral accessibility review",
+    "No G4 review",
+    "No final identity approval"
+  ]
+}

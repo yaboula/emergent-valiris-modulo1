@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 1514" width="390" height="1514" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-T-C2 · ORILLA · static editable separate C2 content contrast · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. C2 separate reset. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="390" height="1514" fill="#FFF8EC"/>
+<g id="composition-UI-T-C2" data-source="">
+<text id="UI-T-C2-e1" data-source="m1-connected-journey.md#c2" x="24" y="44" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="24" y="44.0">Caso ficticio de contraste C2. No es contenido</tspan>
+<tspan x="24" y="67.2">de ORILLA.</tspan>
+</text>
+<text id="UI-T-C2-e2" data-source="m1-connected-journey.md#c2" x="24" y="140.4" font-family="Arial Black" font-size="38" font-weight="900" fill="#20251E">
+<tspan x="24" y="140.4">Mesa del Patio</tspan>
+</text>
+<rect id="UI-T-C2-e3" x="24" y="168.96" width="342" height="110.3" rx="12" fill="#DDEBBE"/>
+<text id="UI-T-C2-e4" data-source="m1-connected-journey.md#c2" x="40" y="200.96" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="40" y="200.96">Ingredientes y alérgenos de ejemplo.</tspan>
+<tspan x="40" y="227.06">Los datos declarados no confirman la</tspan>
+<tspan x="40" y="253.16">ausencia de otros alérgenos.</tspan>
+</text>
+<text id="UI-T-C2-e5" data-source="m1-connected-journey.md#c2" x="24" y="331.26" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="24" y="331.26">Carta de terraza</tspan>
+</text>
+<g id="UI-T-C2-e6-action" data-source="m1-connected-journey.md#c2">
+<rect id="UI-T-C2-e7" x="24" y="354.06" width="250" height="49.2" rx="24.6" fill="#FFF8EC" stroke="#20251E"/>
+<text id="UI-T-C2-e8" data-source="m1-connected-journey.md#c2" x="44" y="382.06" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="44" y="382.06">Cambiar carta</tspan>
+</text>
+</g>
+<rect id="UI-T-C2-e9" x="24" y="431.26" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-C2-e10" data-source="m1-connected-journey.md#c2" x="24" y="479.26" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="479.26">Tabla de quesos</tspan>
+<tspan x="24" y="510.46">artesanos de leche</tspan>
+<tspan x="24" y="541.66">cruda, membrillo y pan</tspan>
+<tspan x="24" y="572.86">de masa madre</tspan>
+</text>
+<text id="UI-T-C2-e11" data-source="m1-connected-journey.md#c2" x="24" y="616.06" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="616.06">Media tabla · 26,00 €</tspan>
+<tspan x="24" y="647.96">Tabla completa · 36,00 €</tspan>
+</text>
+<text id="UI-T-C2-e12" data-source="m1-connected-journey.md#c2" x="24" y="691.86" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="691.86">Pan adicional · +2,20 €. Declarado en el</tspan>
+<tspan x="24" y="717.96">ejemplo: leche y trigo (gluten). Resto de</tspan>
+<tspan x="24" y="744.06">información pendiente.</tspan>
+</text>
+<rect id="UI-T-C2-e13" x="24" y="782.1599999999999" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-C2-e14" data-source="m1-connected-journey.md#c2" x="24" y="830.16" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="830.16">Arroz de verduras</tspan>
+</text>
+<text id="UI-T-C2-e15" data-source="m1-connected-journey.md#c2" x="24" y="873.36" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="873.36">19,50 € / persona</tspan>
+</text>
+<text id="UI-T-C2-e16" data-source="m1-connected-journey.md#c2" x="24" y="917.26" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="917.26">Mínimo 2 personas. Información</tspan>
+<tspan x="24" y="943.36">alimentaria pendiente.</tspan>
+</text>
+<rect id="UI-T-C2-e17" x="24" y="981.4599999999999" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-C2-e18" data-source="m1-connected-journey.md#c2" x="24" y="1029.46" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="1029.46">Pescado del mercado</tspan>
+</text>
+<text id="UI-T-C2-e19" data-source="m1-connected-journey.md#c2" x="24" y="1072.66" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="1072.66">7,00 € / 100 g</tspan>
+</text>
+<text id="UI-T-C2-e20" data-source="m1-connected-journey.md#c2" x="24" y="1116.56" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1116.56">Peso y total por confirmar con el</tspan>
+<tspan x="24" y="1142.66">personal. Declarado en el ejemplo:</tspan>
+<tspan x="24" y="1168.76">pescado. Resto de información</tspan>
+<tspan x="24" y="1194.86">pendiente.</tspan>
+</text>
+<rect id="UI-T-C2-e21" x="24" y="1232.96" width="342" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-T-C2-e22" data-source="m1-connected-journey.md#c2" x="24" y="1280.96" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="24" y="1280.96">Vino de la casa</tspan>
+</text>
+<text id="UI-T-C2-e23" data-source="m1-connected-journey.md#c2" x="24" y="1324.16" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="24" y="1324.16">Copa · 3,80 €</tspan>
+<tspan x="24" y="1356.06">Botella · 21,00 €</tspan>
+</text>
+<text id="UI-T-C2-e24" data-source="m1-connected-journey.md#c2" x="24" y="1399.96" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="24" y="1399.96">Declarado en el ejemplo: sulfitos. Resto</tspan>
+<tspan x="24" y="1426.06">de información pendiente.</tspan>
+</text>
+</g>
+</svg>

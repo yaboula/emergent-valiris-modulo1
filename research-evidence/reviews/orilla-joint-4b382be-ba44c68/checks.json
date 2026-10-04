@@ -1,0 +1,129 @@
+{
+  "observed_on": "2026-10-04",
+  "scope": "G1 documentary receipt and source compatibility; not independent G4, user, linguistic, food, UI, software or crawler validation.",
+  "operating_branch": "docs/m1-g1-orilla-joint-handoff",
+  "joined_sources_commit": "6064648a08a15f7604d099b406e7dd8439aeb333",
+  "author_frozen_sources": {
+    "content_pair": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+    "content_evidence_head": "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4",
+    "architecture": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+    "seo": "0c17480bdc2b6ff8037022228ebc4599a704e702"
+  },
+  "reproductions": {
+    "content": {
+      "status": "passed",
+      "source_records": 61,
+      "local_links": 32,
+      "method": "Author script inspected and evaluated at its unchanged author checkout, redirecting only two output writes to G1 cache.",
+      "outputs": {
+        "checks.json": {
+          "byte_identical": true,
+          "sha256": "10c4637ff55d8aad950dc243e60cfd75a0d7cafcfeb8e5f509e2d62dee979125"
+        },
+        "source-manifest.json": {
+          "byte_identical": true,
+          "sha256": "c4837eb62caf33d88ff624adaaab53888c45300e882bd7f1312019cbbdeb4cb5"
+        }
+      }
+    },
+    "architecture": {
+      "status": "pass",
+      "source_records": 42,
+      "local_links": 60,
+      "method": "Author script inspected and evaluated at its unchanged author checkout, redirecting only two output writes to G1 cache.",
+      "outputs": {
+        "checks.json": {
+          "byte_identical": true,
+          "sha256": "2c2bbbfc27fc38cc85bf38c0d312da1674e9cbd21a1199fbab9d39ee3e153976"
+        },
+        "sources.json": {
+          "byte_identical": true,
+          "sha256": "ffaf6468a207cfed1b7568d3a8c51610bce5b7c35f69219caf2e336b07f50cf8"
+        }
+      }
+    }
+  },
+  "preserved_sources": {
+    "docs/design/orilla-case.md": {
+      "sha": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "git_blob": "ad0f42fc461396e1d28191c667b077c060195a38",
+      "sha256": "b6ab6e968ecdf1d75b22f725b29051460e6aff1bea439a087ea75e288c4ed61c"
+    },
+    "docs/design/m1-storefront-content-and-copy.md": {
+      "sha": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "git_blob": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+      "sha256": "67454712ecda58e44dd2bd07dde77b35dbd110b815e28a4b1c85a5e51a14cdb8"
+    },
+    "docs/design/m1-storefront-information-architecture.md": {
+      "sha": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+      "git_blob": "297d25f2869970b268bc1e8671bd0cbe74c477fd",
+      "sha256": "dd5baa3a0a4b154a0be5ac3ad79f5f5957eef4e372e8c7b2ed47524f968b4249"
+    },
+    "docs/design/m1-storefront-discovery-content.md": {
+      "sha": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+      "git_blob": "57345211d68b3d67be7bfe5ff726ba718b041e78",
+      "sha256": "fa1e9fdccf25d5f6cde2f4c04ab7cc525679e6e023bedcafe6a1cdb767488fa3"
+    }
+  },
+  "github_readback": {
+    "39": {
+      "head": "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4",
+      "state": "OPEN",
+      "draft": true,
+      "base": "docs/m1-g1-orilla-seo-handoff",
+      "reviews": 0,
+      "checks": 0
+    },
+    "40": {
+      "head": "ba44c6809516d8d078d192f5f6a423b12cd8b673",
+      "state": "OPEN",
+      "draft": true,
+      "base": "docs/m1-g1-orilla-seo-handoff",
+      "reviews": 0,
+      "checks": 0
+    },
+    "issues": {
+      "5": "OPEN",
+      "4": "OPEN",
+      "15": "OPEN"
+    },
+    "linear": "Not rechecked/changed."
+  },
+  "pending": [
+    "Scoped SEO re-reading of 1.1 and IA adoption",
+    "G2.02 explicit adoption of pair 1.1",
+    "PC and deliberate phone composition",
+    "G2.03 applied interaction",
+    "G2.05 linguistic review",
+    "Resources/typeface/rights",
+    "M2 technical decisions T01-T08",
+    "G4 application review",
+    "Real participant/usage evidence"
+  ],
+  "messages": "Prepared, not sent. No new specialist activated.",
+  "source_version_difference": "IA v0.3 consumed CASE/COPY 1.0; G1 checks source compatibility for preliminary composition with whole 1.1 pair, without asserting G2.02 adoption or SEO re-reading.",
+  "storage_verification": {
+    "date": "2026-10-03",
+    "preserved_original_files": 475,
+    "inventory_records": 487,
+    "operating_files_checked": 89,
+    "local_link_targets_checked": 2494,
+    "failures": [],
+    "secret_pattern_file_count": 0,
+    "protected_source_changes": [],
+    "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+  },
+  "storage_date_note": "Original verifier migration date remains 2026-10-03; execution observed 2026-10-04.",
+  "joint_operating_checks": {
+    "result": "pass",
+    "own_paths_only": true,
+    "source_deliveries_byte_preserved": 17,
+    "inventory_original_fields": "unchanged",
+    "link_documents": 14,
+    "local_targets": 322,
+    "fragments": 17,
+    "category_mapping_matches": 4,
+    "story_link_and_exception_date": "compatible with IA intent",
+    "whitespace": "pass"
+  }
+}

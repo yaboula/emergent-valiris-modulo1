@@ -1,0 +1,7 @@
+// Add A's separately applied correction to the reproducible correction record.
+const a = await figma.getNodeByIdAsync("2:2");
+const aLabel = a.findAllWithCriteria({types:["TEXT"]}).find(t => t.characters === "#CBD7F1");
+for (const segment of aLabel.getStyledTextSegments(["fontName"])) await figma.loadFontAsync(segment.fontName);
+aLabel.fills = [{type:"SOLID", color:{r:22/255,g:75/255,b:59/255}}];
+// The following step records B/C and hierarchy corrections applied afterwards.
+const ids=[];for(const [rootId,hex,ink] of [["2:46","#ECA593","#2C2A49"],["2:89","#ECA593","#17224C"]]){const n=await figma.getNodeByIdAsync(rootId);const labels=n.findAllWithCriteria({types:["TEXT"]}).filter(t=>t.characters===hex);for(const t of labels){for(const s of t.getStyledTextSegments(["fontName"]))await figma.loadFontAsync(s.fontName);t.fills=[{type:"SOLID",color:{r:parseInt(ink.slice(1,3),16)/255,g:parseInt(ink.slice(3,5),16)/255,b:parseInt(ink.slice(5,7),16)/255}}];ids.push(t.id);}}const h=await figma.getNodeByIdAsync("4:2");const t=h.findAllWithCriteria({types:["TEXT"]}).find(t=>t.characters.startsWith("Más recuerdo"));for(const s of t.getStyledTextSegments(["fontName"]))await figma.loadFontAsync(s.fontName);t.characters="Más presencia de Valiris; riesgo de competencia entre nombres y más acuerdos de convivencia.";ids.push(t.id);for(const id of ["2:46","2:89","4:2"])await(await figma.getNodeByIdAsync(id)).screenshot({scale:0.72});return {mutatedNodeIds:ids,reason:"Contrast on coral swatches; presence rather than unmeasured brand recall"};

@@ -1,0 +1,94 @@
+{
+  "observed_date": "2026-10-04",
+  "role": "G1 PM; not independent G4",
+  "content_sha": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+  "author_evidence_head": "6ce8634e98da3d975a376a265de77b940ed22f37",
+  "architecture_sha": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+  "frozen_blobs": {
+    "docs/design/orilla-case.md": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+    "docs/design/m1-storefront-content-and-copy.md": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf"
+  },
+  "reproduction": "Author verifier against frozen clean author checkout, only output writes redirected to G1 cache; checks/manifest equal published bytes; author checkout unchanged.",
+  "checks_reproduced": {
+    "status": "passed",
+    "scope": "author documentary integrity/relationships, no product tests",
+    "operating_baseline": "6046327ee9216e26ed56aeac81c346f7299735d8",
+    "branch": "docs/m1-g2-04-orilla-content",
+    "source_records_preserved": 44,
+    "local_links": 18,
+    "tables": 28,
+    "unique_copy_ids": 83,
+    "dishes": 11,
+    "offers": 13,
+    "categories": 4,
+    "food_records": 12,
+    "scenarios": 11,
+    "long_dish_name_characters": 61,
+    "clock_states_local_kitchen": {
+      "10:30": [
+        false,
+        false
+      ],
+      "12:45": [
+        true,
+        false
+      ],
+      "14:00": [
+        true,
+        true
+      ],
+      "15:30": [
+        true,
+        false
+      ],
+      "17:00": [
+        false,
+        false
+      ]
+    },
+    "fictional_date_weekdays": "4 October Sunday; 6 October Tuesday",
+    "unchanged_architecture_requests": true,
+    "owned_paths_only": true,
+    "not_checked": [
+      "real food",
+      "translations",
+      "SEO/GEO applied review",
+      "UI/render/accessibility",
+      "participants",
+      "runtime/stock/publication",
+      "rights",
+      "independent application review"
+    ]
+  },
+  "github_states": {
+    "35": "OPEN/draft",
+    "5": "OPEN",
+    "4": "OPEN",
+    "15": "OPEN"
+  },
+  "limits": "Scoped documentary/source reading only; no UX, SEO in operation, food validation, software or G4 acceptance.",
+  "handoff_checks": {
+    "observed_date": "2026-10-04",
+    "owned_paths_only": true,
+    "frozen_content_architecture_author_evidence_unchanged": true,
+    "original_migration_fields_unchanged": true,
+    "local_targets_in_changed_markdown": 277,
+    "capability_parents": 72,
+    "treatments": {
+      "Included": 36,
+      "Configurable": 30,
+      "Connection-dependent": 6
+    },
+    "storage_integrity": {
+      "date": "2026-10-03",
+      "preserved_original_files": 475,
+      "inventory_records": 487,
+      "operating_files_checked": 88,
+      "local_link_targets_checked": 2459,
+      "failures": [],
+      "secret_pattern_file_count": 0,
+      "protected_source_changes": [],
+      "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+    }
+  }
+}

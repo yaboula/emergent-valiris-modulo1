@@ -1,0 +1,25 @@
+{
+  "observed_date": "2026-10-04",
+  "baseline": "a1c39bf402907781829e3866e9706b289c59c39a",
+  "storage_checker": {
+    "date": "2026-10-03",
+    "preserved_original_files": 475,
+    "inventory_records": 487,
+    "operating_files_checked": 86,
+    "local_link_targets_checked": 2395,
+    "failures": [],
+    "secret_pattern_file_count": 0,
+    "protected_source_changes": [],
+    "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+  },
+  "protected_source_changes": [],
+  "manual_coherence_review": {
+    "fixed_identity": "ORILLA; fictional Alcoy (Alicante); Mediterranean direction retained.",
+    "single_case_owner": "G2.04 edits common case and derived placed copy; architecture/SEO/UI comment by source version and case IDs.",
+    "fiction_permission": "Blanket no-invented-details rule replaced with authorised fictional development; no real person/business attribution or verified food-example claims.",
+    "case_delivery_boundary": "Initial shared source records fixed identity and commissioned detail; full story/menu/visit content is not declared delivered.",
+    "representative_content": "Dish descriptions, price/unit/category/variant and temporary-unavailability scenario required from one version before real composition.",
+    "scope_and_method": "Desktop then phone adaptation, original visual assets, product criteria and frozen review evidence unchanged."
+  },
+  "limits": "Document integrity/local target verification and manual contract coherence only; no new UX, software, independent G4, live SEO, food-safety or licence validation."
+}

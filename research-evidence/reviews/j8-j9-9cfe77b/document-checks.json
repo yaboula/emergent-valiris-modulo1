@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-02",
+  "baseline": "9cfe77ba652d8b22b412f69a93d24987a9201098",
+  "git_lf_source_sha256": {
+    "docs/design/m1-service-and-maintenance.md": "545c27f66f9606033325e26b0df8de79bd2ee30a5de4cfa4c84faa03affa7335",
+    "docs/adr/0012-confirm-delegated-updates-per-assignment.md": "654b100f43065e446bfd52586b20bcf82d9bdb98c8174f61b603245563a8ddfd",
+    "docs/product/m0-journeys-and-criteria.md": "41e7e487e2a59d36c889345a65f59a31c254ec241ef4f7207ff5c7a303337734",
+    "docs/design/m1-connected-journey.md": "78a7e4fc39b243df7e3e619cc017377bbe6aa788d13fa3965f095c6134364f94",
+    "docs/design/m1-content-preparation.md": "6cfe7d6e7e4b6fa6f382a7a437fb9362b42711e10ed8ceae7ed3d0a09031ba7d",
+    "docs/design/m1-extended-journeys.md": "56b6d2f7e4262da871a4e9cb91bcb41884858068467a6f8593944303d554858f",
+    "docs/product/m0-capability-matrix.md": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+  },
+  "checkout_sha256": {
+    "docs/design/m1-service-and-maintenance.md": "545c27f66f9606033325e26b0df8de79bd2ee30a5de4cfa4c84faa03affa7335",
+    "docs/adr/0012-confirm-delegated-updates-per-assignment.md": "654b100f43065e446bfd52586b20bcf82d9bdb98c8174f61b603245563a8ddfd",
+    "docs/product/m0-journeys-and-criteria.md": "41e7e487e2a59d36c889345a65f59a31c254ec241ef4f7207ff5c7a303337734",
+    "docs/design/m1-connected-journey.md": "78a7e4fc39b243df7e3e619cc017377bbe6aa788d13fa3965f095c6134364f94",
+    "docs/design/m1-content-preparation.md": "6cfe7d6e7e4b6fa6f382a7a437fb9362b42711e10ed8ceae7ed3d0a09031ba7d",
+    "docs/design/m1-extended-journeys.md": "56b6d2f7e4262da871a4e9cb91bcb41884858068467a6f8593944303d554858f",
+    "docs/product/m0-capability-matrix.md": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+  },
+  "normalized_checkout_matches_git": true,
+  "local_links_service_and_adr12": 46,
+  "states": 22,
+  "criterion_mappings": [
+    "J8.1",
+    "J8.2",
+    "J8.3",
+    "J8.4",
+    "J9.1",
+    "J9.2",
+    "J9.3"
+  ],
+  "affected_capability_rows": [
+    "B1.06",
+    "B1.07",
+    "B1.08",
+    "B6.11",
+    "B7.01",
+    "B7.02",
+    "B7.03",
+    "B7.04",
+    "B7.05",
+    "B7.06",
+    "B7.07",
+    "B7.08",
+    "B7.09",
+    "B7.10"
+  ],
+  "sc": 26,
+  "sw": 5,
+  "states_and_sc_unchanged_from_2eb8e86": true,
+  "criteria_and_protected_sources_unchanged": true,
+  "matrix_parents": 72,
+  "scope_counts": {
+    "Included": 36,
+    "Configurable": 30,
+    "Connection-dependent": 6
+  },
+  "repo_clean": true,
+  "whitespace_check": true,
+  "scope": "Document integrity only. G1/G4 manual reasoning is separate; no software, service, UX or capability completion.",
+  "final_readback": {
+    "report_local_links_valid": 14,
+    "snapshots_match": true,
+    "repo_clean": true,
+    "pr_21": {
+      "headRefOid": "9cfe77ba652d8b22b412f69a93d24987a9201098",
+      "isDraft": true,
+      "state": "OPEN"
+    },
+    "issue_states": {
+      "5": "OPEN",
+      "4": "OPEN"
+    },
+    "handoff_single_pm_and_j8_j9_result_and_next_pv": true,
+    "g4_independent_result": "No required documentary correction",
+    "g1_result": "No required documentary correction"
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="190" viewBox="0 0 650 190" role="img" aria-label="Valiris, conceptual custom lettering for route A">
+<g fill="none" stroke="#251E2E" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+<path d="M28 34 L75 148 Q78 156 83 145 L128 28"/>
+<path d="M209 83 C179 55 147 74 147 112 C147 151 184 170 210 139 M212 78 L212 151"/>
+<path d="M264 29 L264 139 Q264 157 281 152"/>
+<path d="M324 82 L324 151"/>
+<path d="M371 151 L371 83 M373 104 Q390 69 419 83"/>
+<path d="M463 82 L463 151"/>
+<path d="M564 85 C536 65 504 77 508 96 C512 119 565 113 568 135 C571 158 535 170 504 148"/>
+</g>
+<path d="M309 28 Q309 21 316 21 H337 L329 46 H316 Q309 46 309 39Z M448 28 Q448 21 455 21 H476 L468 46 H455 Q448 46 448 39Z" fill="#251E2E"/>
+<path d="M107 14 L133 14 L121 40Z M409 67 L433 73 L420 95Z M549 66 L579 74 L566 97Z" fill="#FFFDF8"/>
+</svg>

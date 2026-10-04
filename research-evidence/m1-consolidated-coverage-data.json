@@ -1,0 +1,650 @@
+[
+  {
+    "id": "B1.01",
+    "status": "S",
+    "states": "PV-P01 PV-O02 PV-O05",
+    "criteria": "J1.1 J2.1",
+    "cases": "VC01 VC02",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05"
+  },
+  {
+    "id": "B1.02",
+    "status": "S",
+    "states": "PV-P02 PV-O01 JT-O02 JT-O09",
+    "criteria": "J1.1 J1.2 J4.2",
+    "cases": "VC03 VC04 TC04 TC14",
+    "reviews": "RV05 RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B1.03",
+    "status": "S",
+    "states": "PV-P02 PV-O01",
+    "criteria": "J1.1",
+    "cases": "VC07",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05"
+  },
+  {
+    "id": "B1.04",
+    "status": "S",
+    "states": "PV-P01 PV-O02 PV-O05",
+    "criteria": "J1.1 J3.5",
+    "cases": "VC21",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05"
+  },
+  {
+    "id": "B1.05",
+    "status": "P",
+    "states": "PV-P01 PV-P04 PV-O02",
+    "criteria": "J1.1 J2.1",
+    "cases": "VC01 VC02",
+    "reviews": "RV05",
+    "gaps": "CG01 CG04 CG05"
+  },
+  {
+    "id": "B1.06",
+    "status": "P",
+    "states": "J8-S01 J8-S05 J8-S06",
+    "criteria": "J3.1 J8.2",
+    "cases": "SC02 SC06",
+    "reviews": "RV04",
+    "gaps": "CG02 CG05 CG10"
+  },
+  {
+    "id": "B1.07",
+    "status": "P",
+    "states": "J8-S01 J8-S02 J8-S06",
+    "criteria": "J3.1 J8.1 J8.2",
+    "cases": "SC01 SC02",
+    "reviews": "RV04",
+    "gaps": "CG03 CG05 CG10"
+  },
+  {
+    "id": "B1.08",
+    "status": "S",
+    "states": "PV-P09 PV-O04 J8-S11",
+    "criteria": "J1.5 J7.4 J8.4",
+    "cases": "VC22 VC23 SC15",
+    "reviews": "RV05 RV04",
+    "gaps": "CG04 CG05 CG08 CG10 CG12"
+  },
+  {
+    "id": "B1.09",
+    "status": "S",
+    "states": "PV-P02 J14-C01 J14-O02",
+    "criteria": "J1.4 J14.1 J14.2",
+    "cases": "VC06 Q12 Q13",
+    "reviews": "RV05 RV02",
+    "gaps": "CG05 CG08 CG09.1"
+  },
+  {
+    "id": "B2.01",
+    "status": "S",
+    "states": "CP-S01 CP-S04 PV-P05 JT-O04",
+    "criteria": "J3.1 J3.3 J2.1",
+    "cases": "PC01 PC14 PC18",
+    "reviews": "RV03 RV05 RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.02",
+    "status": "S",
+    "states": "CP-R01 PV-P06 FO-F02",
+    "criteria": "J1.3 J2.2 J3.3",
+    "cases": "PC05 VC08 FC03",
+    "reviews": "RV03 RV05 RV07",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.03",
+    "status": "S",
+    "states": "PV-P06 FO-O02",
+    "criteria": "J1.3 J2.2 J7.1",
+    "cases": "VC09 FC13",
+    "reviews": "RV05 RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B2.04",
+    "status": "S",
+    "states": "CP-I02 CP-R03 JT-P01 FO-O02",
+    "criteria": "J1.2 J3.6 J7.1",
+    "cases": "PC06 TC03 FC12",
+    "reviews": "RV03 RV06 RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B2.05",
+    "status": "S",
+    "states": "CP-S04 PV-P04 JT-P01",
+    "criteria": "J3.1 J2.2 J1.5",
+    "cases": "PC18 VC05",
+    "reviews": "RV03 RV05 RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.06",
+    "status": "S",
+    "states": "JT-O02 JT-O05 JT-O07 JT-X04",
+    "criteria": "J4.2 J4.3 J1.2",
+    "cases": "TC03 TC05 TC08 TC28",
+    "reviews": "RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.07",
+    "status": "S",
+    "states": "PV-P04 PV-P06 JT-O11",
+    "criteria": "J2.2 J5.2",
+    "cases": "VC08 TC19",
+    "reviews": "RV05 RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.08",
+    "status": "S",
+    "states": "JT-O10 JT-O12 JT-O14 JT-P02",
+    "criteria": "J5.1 J5.2 J5.3",
+    "cases": "TC17 TC20 TC23",
+    "reviews": "RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.09",
+    "status": "S",
+    "states": "JT-O03 JT-O09 JT-P01",
+    "criteria": "J4.2 J5.3 J1.1",
+    "cases": "TC04 TC07 TC14",
+    "reviews": "RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B2.10",
+    "status": "S",
+    "states": "J14-C02 J14-O01 J14-O02",
+    "criteria": "J14.1 J14.2",
+    "cases": "Q12 Q13",
+    "reviews": "RV02",
+    "gaps": "CG05 CG08 CG09.2"
+  },
+  {
+    "id": "B3.01",
+    "status": "S",
+    "states": "PV-P05 PV-P06",
+    "criteria": "J2.1 J2.5",
+    "cases": "VC01 VC12",
+    "reviews": "RV05",
+    "gaps": "CG05"
+  },
+  {
+    "id": "B3.02",
+    "status": "S",
+    "states": "PV-P05 PV-P10",
+    "criteria": "J2.3",
+    "cases": "VC10 VC13",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05 CG06 CG08"
+  },
+  {
+    "id": "B3.03",
+    "status": "S",
+    "states": "PV-P05 PV-P06",
+    "criteria": "J2.3 J2.4",
+    "cases": "VC10 VC11",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B3.04",
+    "status": "S",
+    "states": "PV-P05 PV-P06 FO-F02",
+    "criteria": "J2.4 J3.4",
+    "cases": "VC11 FC01 FC04",
+    "reviews": "RV05 RV07",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B3.05",
+    "status": "S",
+    "states": "PV-P06",
+    "criteria": "J2.5",
+    "cases": "VC09 VC12",
+    "reviews": "RV05",
+    "gaps": "CG05"
+  },
+  {
+    "id": "B3.06",
+    "status": "S",
+    "states": "PV-P06 PV-O02 CP-A02",
+    "criteria": "J1.3 J3.5",
+    "cases": "VC21 PC09",
+    "reviews": "RV05 RV03",
+    "gaps": "CG04 CG05 CG06"
+  },
+  {
+    "id": "B3.07",
+    "status": "S",
+    "states": "PV-P07 PV-O03 PV-O05",
+    "criteria": "J2.5 J4.1",
+    "cases": "VC14 VC20",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B3.08",
+    "status": "S",
+    "states": "PV-P09 PV-P11 PV-O04",
+    "criteria": "J1.5 J2.5",
+    "cases": "VC22 VC23",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05 CG08 CG12"
+  },
+  {
+    "id": "B3.09",
+    "status": "S",
+    "states": "J10-P01 J10-P02 J10-P05",
+    "criteria": "J10.1 J10.4",
+    "cases": "Q01 Q04",
+    "reviews": "RV02",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B3.10",
+    "status": "S",
+    "states": "PV-P08 PV-O03 PV-O05",
+    "criteria": "J2.2 J2.5 J4.1",
+    "cases": "VC15 VC16 VC17 VC19 VC20",
+    "reviews": "RV05",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B3.11",
+    "status": "S",
+    "states": "J10-P03 J10-O01",
+    "criteria": "J10.2",
+    "cases": "Q02",
+    "reviews": "RV02",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B4.01",
+    "status": "S",
+    "states": "CP-I01 CP-I02 CP-I03 CP-I04 CP-I07",
+    "criteria": "J3.2",
+    "cases": "PC02 PC03 PC04 PC06",
+    "reviews": "RV03",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B4.02",
+    "status": "S",
+    "states": "CP-I05 CP-R01 CP-R02",
+    "criteria": "J3.3 J3.4",
+    "cases": "PC05 PC07 PC08",
+    "reviews": "RV03",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B4.03",
+    "status": "S",
+    "states": "CP-M01 JT-O10",
+    "criteria": "J3.1 J5.1 J8.2",
+    "cases": "PC19 TC17 SC02",
+    "reviews": "RV03 RV06 RV04",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B4.04",
+    "status": "S",
+    "states": "CP-S03 CP-S04 CP-B02 CP-B03 CP-B04",
+    "criteria": "J3.3 J5.2 J5.4",
+    "cases": "PC17 PC18 PC20 PC21 PC23",
+    "reviews": "RV03",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B4.05",
+    "status": "S",
+    "states": "CP-R03 JT-O04 FO-F05",
+    "criteria": "J3.6 J4.1",
+    "cases": "DS01 DS02 TC01 FC11",
+    "reviews": "RV01 RV03 RV06 RV07",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B4.06",
+    "status": "S",
+    "states": "O05 O06 JT-O04 JT-X02",
+    "criteria": "J4.1 J4.3",
+    "cases": "TC01 TC11 DS04",
+    "reviews": "RV01 RV06",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B4.07",
+    "status": "S",
+    "states": "JT-O05 JT-O06 JT-O07 JT-O08",
+    "criteria": "J4.2 J4.3",
+    "cases": "TC06 TC09 TC12 TC29",
+    "reviews": "RV06",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B4.08",
+    "status": "S",
+    "states": "CP-B04 JT-O13 JT-O15",
+    "criteria": "J5.4 J4.4",
+    "cases": "PC23 TC21 TC25",
+    "reviews": "RV03 RV06",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B4.09",
+    "status": "S",
+    "states": "CP-X03 JT-X03 FO-X03",
+    "criteria": "J4.1 J5.2",
+    "cases": "DS04 TC22 FC21",
+    "reviews": "RV03 RV06 RV07",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B4.10",
+    "status": "S",
+    "states": "CP-A01 CP-A02 CP-A03",
+    "criteria": "J3.5",
+    "cases": "PC09 PC10 PC11 PC12",
+    "reviews": "RV03",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B4.11",
+    "status": "S",
+    "states": "CP-S02 FO-F03 FO-F04 JT-O06",
+    "criteria": "J3.4 J6.2 J6.3",
+    "cases": "PC15 PC16 FC05 FC06 FC07 TC06",
+    "reviews": "RV03 RV07 RV06",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B4.12",
+    "status": "S",
+    "states": "J14-C03 J14-O02",
+    "criteria": "J14.1 J14.2",
+    "cases": "Q12 Q13",
+    "reviews": "RV02",
+    "gaps": "CG05 CG08 CG09.3"
+  },
+  {
+    "id": "B5.01",
+    "status": "S",
+    "states": "PV-P10 FO-F04 FO-O01",
+    "criteria": "J1.4 J6.1 J7.2",
+    "cases": "VC13 FC09 FC15",
+    "reviews": "RV05 RV07",
+    "gaps": "CG04 CG05 CG06 CG08"
+  },
+  {
+    "id": "B5.02",
+    "status": "S",
+    "states": "CP-A02 CP-R02 FO-F04",
+    "criteria": "J3.5 J6.2",
+    "cases": "PC10 FC09",
+    "reviews": "RV03 RV07",
+    "gaps": "CG04 CG05 CG06 CG08"
+  },
+  {
+    "id": "B5.03",
+    "status": "S",
+    "states": "CP-G01 CP-G02 FO-F04",
+    "criteria": "J6.3",
+    "cases": "PC13 FC07",
+    "reviews": "RV03 RV07",
+    "gaps": "CG04 CG05 CG06 CG08"
+  },
+  {
+    "id": "B5.04",
+    "status": "S",
+    "states": "FO-F04 FO-F05 JT-P02",
+    "criteria": "J6.1 J5.1",
+    "cases": "FC08 TC17",
+    "reviews": "RV07 RV06",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B5.05",
+    "status": "S",
+    "states": "PV-P10 FO-F04 FO-F05",
+    "criteria": "J6.2 J7.2",
+    "cases": "VC13 FC09",
+    "reviews": "RV05 RV07",
+    "gaps": "CG04 CG05 CG06 CG08"
+  },
+  {
+    "id": "B5.06",
+    "status": "S",
+    "states": "FO-F01 FO-F02 FO-F03",
+    "criteria": "J3.4 J6.2",
+    "cases": "FC01 FC02 FC03 FC05",
+    "reviews": "RV07",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B5.07",
+    "status": "S",
+    "states": "PV-P02 FO-F02 FO-F06 J15-O01",
+    "criteria": "J2.4 J6.3 J15.4",
+    "cases": "VC07 FC04 FC10 Q18",
+    "reviews": "RV05 RV07 RV02",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B5.08",
+    "status": "S",
+    "states": "FO-F01 FO-F06 FO-O01 FO-O02",
+    "criteria": "J6.3 J7.2",
+    "cases": "FC10 FC11 FC12",
+    "reviews": "RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B5.09",
+    "status": "S",
+    "states": "J11-O01 J11-O02 J11-P01 J11-O03",
+    "criteria": "J11.1 J11.2",
+    "cases": "Q05 Q06 FC06",
+    "reviews": "RV02 RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B6.01",
+    "status": "S",
+    "states": "FO-Q01 FO-Q02 FO-Q03",
+    "criteria": "J7.4",
+    "cases": "FC22 FC23",
+    "reviews": "RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B6.02",
+    "status": "S",
+    "states": "PV-P01 PV-P04 FO-Q01",
+    "criteria": "J2.1 J7.4",
+    "cases": "VC01 FC22",
+    "reviews": "RV05 RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B6.03",
+    "status": "S",
+    "states": "PV-P04 FO-Q03 J15-P01",
+    "criteria": "J2.1 J15.1",
+    "cases": "VC01 Q15 FC24",
+    "reviews": "RV05 RV02 RV07",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B6.04",
+    "status": "S",
+    "states": "FO-Q02 FO-O04 FO-O06",
+    "criteria": "J7.2 J7.4",
+    "cases": "FC18 FC20 FC22",
+    "reviews": "RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B6.05",
+    "status": "S",
+    "states": "FO-O01 FO-O02 FO-O04",
+    "criteria": "J7.1 J7.2",
+    "cases": "FC12 FC13 FC14 FC18",
+    "reviews": "RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B6.06",
+    "status": "S",
+    "states": "FO-F04 FO-O01 FO-O02",
+    "criteria": "J7.1 J7.2",
+    "cases": "FC09 FC11 FC15",
+    "reviews": "RV07",
+    "gaps": "CG04 CG05 CG06 CG07 CG08"
+  },
+  {
+    "id": "B6.07",
+    "status": "S",
+    "states": "J14-C04 J14-O02",
+    "criteria": "J14.1 J14.2",
+    "cases": "Q12 Q13",
+    "reviews": "RV02",
+    "gaps": "CG05 CG08 CG09.4"
+  },
+  {
+    "id": "B6.08",
+    "status": "S",
+    "states": "J14-C05 J14-O02",
+    "criteria": "J14.1 J14.2",
+    "cases": "Q12 Q13",
+    "reviews": "RV02",
+    "gaps": "CG05 CG08 CG09.5"
+  },
+  {
+    "id": "B6.09",
+    "status": "S",
+    "states": "J12-O01 J12-P01 J12-O02 J12-P02",
+    "criteria": "J12.1 J12.2 J12.3",
+    "cases": "Q07 Q08 Q09",
+    "reviews": "RV02",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B6.10",
+    "status": "S",
+    "states": "J10-P04 J10-P05 FO-Q03",
+    "criteria": "J2.6 J10.3 J10.4",
+    "cases": "Q03 Q04 FC24",
+    "reviews": "RV02 RV07",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B6.11",
+    "status": "S",
+    "states": "J8-S09 J8-S10 J8-S11",
+    "criteria": "J8.4",
+    "cases": "SC12 SC13 SC14 SC15 SC16",
+    "reviews": "RV04",
+    "gaps": "CG04 CG05 CG08 CG10"
+  },
+  {
+    "id": "B7.01",
+    "status": "S",
+    "states": "J9-U01 J9-U02 J9-U04",
+    "criteria": "J9.2",
+    "cases": "SC21 SC24",
+    "reviews": "RV04",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B7.02",
+    "status": "S",
+    "states": "J9-U02 J9-U04",
+    "criteria": "J9.2",
+    "cases": "SC21 SC24",
+    "reviews": "RV04",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B7.03",
+    "status": "S",
+    "states": "J9-U03 J9-U04",
+    "criteria": "J9.3",
+    "cases": "SC23 SC24",
+    "reviews": "RV04",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B7.04",
+    "status": "S",
+    "states": "J9-U02 J9-U04",
+    "criteria": "J9.2",
+    "cases": "SC21 SC25",
+    "reviews": "RV04",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B7.05",
+    "status": "S",
+    "states": "PV-P02 J9-U02",
+    "criteria": "J1.4 J9.2",
+    "cases": "VC06 SC22",
+    "reviews": "RV05 RV04",
+    "gaps": "CG04 CG05 CG08"
+  },
+  {
+    "id": "B7.06",
+    "status": "S",
+    "states": "J14-C06 J14-O02 J9-U04",
+    "criteria": "J14.3 J9.3",
+    "cases": "Q14 SC22",
+    "reviews": "RV02 RV04",
+    "gaps": "CG05 CG08 CG09.6"
+  },
+  {
+    "id": "B7.07",
+    "status": "S",
+    "states": "J9-M01 J9-M02 J9-M03 J9-M04 FO-O05",
+    "criteria": "J9.1 J7.3",
+    "cases": "SC17 SC18 SC19 SC20 FC19",
+    "reviews": "RV04 RV07",
+    "gaps": "CG04 CG05 CG07 CG08"
+  },
+  {
+    "id": "B7.08",
+    "status": "S",
+    "states": "J13-O01 J13-O02 J13-O03",
+    "criteria": "J13.1 J13.2",
+    "cases": "Q10 Q11 SC25",
+    "reviews": "RV02 RV04",
+    "gaps": "CG05 CG08"
+  },
+  {
+    "id": "B7.09",
+    "status": "S",
+    "states": "J8-S01 J8-S03 J8-S04 J8-S05 J8-S06",
+    "criteria": "J8.1 J8.2 J8.3",
+    "cases": "SC01 SC03 SC04 SC05 SC06",
+    "reviews": "RV04",
+    "gaps": "CG04 CG05 CG10"
+  },
+  {
+    "id": "B7.10",
+    "status": "S",
+    "states": "J8-S07 J8-S08 J9-X02",
+    "criteria": "J8.3",
+    "cases": "SC07 SC08 SC09 SC10 SC11",
+    "reviews": "RV04",
+    "gaps": "CG05 CG08 CG10"
+  }
+]

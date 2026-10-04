@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-03",
+  "preserved_original_files": 475,
+  "inventory_records": 487,
+  "operating_files_checked": 79,
+  "local_link_targets_checked": 2232,
+  "failures": [],
+  "secret_pattern_file_count": 0,
+  "protected_source_changes": [],
+  "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+}

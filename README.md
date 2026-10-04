@@ -1,3 +1,5 @@
+Current M1 documentation and design work is consolidated through the owner-authorised main integration. See the [operating handoff](HANDOFF.md) and [source/review register](research-evidence/reviews/main-integration-2026-10-04/README.md). This repository contains planning, fictional ORILLA content, retained source evidence and visual proposals; it is not yet a usable application or completed M1 release.
+
 # Valiris Restaurants
 
 > Public presence and a living digital menu for independent restaurants — built by **Valiris**, with a modular product vision.
@@ -17,6 +19,7 @@ Shared responsibilities will evolve with actual product needs. Future verticals 
 
 **M0 is integrated and closed; G2's active assignment is [M1 #5](https://github.com/yaboula/valiris-restaurants/issues/5).** Launch scope and first-prototype briefs are delivered. Start with the [public and operator design briefs](docs/product/m1-design-briefs.md); the [closeout](docs/project/m0-closeout.md) records completed integration and pending delivery dependencies. M1 covers no-code experience design, M2 construction preparation, M3–M5 implementation, M6 a real pilot, and M7 launch. No completed prototype, application implementation or commercial validation is claimed.
 
+- Operating entry point: [HANDOFF.md](HANDOFF.md), [AGENTS.md](AGENTS.md) and [assignment/evidence index](coordination/README.md)
 - Roadmap: [`docs/project/roadmap.md`](docs/project/roadmap.md)
 - Project charter (philosophy, quality bar, standards, roles, risks): [`docs/project/charter.md`](docs/project/charter.md)
 - Research inputs and historical evidence: [`docs/research/`](docs/research/README.md)
@@ -26,6 +29,10 @@ Shared responsibilities will evolve with actual product needs. Future verticals 
 ## Repository layout
 
 ```text
+AGENTS.md        Shared project instructions and mandatory Git workflow
+HANDOFF.md       Current operating state with retained history
+coordination/    Specialist assignments, protocol and storage provenance
+research-evidence/ Immutable source/review records and delivery assets
 docs/            Documentation as code (research, product, architecture, ADRs, testing)
 .github/         Issue/PR templates and repository automation
 scripts/         Repository tooling (e.g. GitHub label sync)

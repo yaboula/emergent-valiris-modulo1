@@ -1,0 +1,338 @@
+{
+  "operating_baseline": "b30dada1ac8fa5be01d07092ec6c7dbfe80a0439",
+  "reviewed_pair_1_0": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+  "received_seo": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+  "frozen_architecture": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+  "preserved_sources": [
+    {
+      "path": "AGENTS.md",
+      "baseline_git_blob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "baseline_sha256": "419d5210ae5e303ab91e4ad0a3435295fa01fd48043d1d37dadf81bf95eb0126"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "baseline_git_blob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "baseline_sha256": "4924af46b2caff26e232c74202924b0422a1de20478e6c3835d774603f5bef8f"
+    },
+    {
+      "path": "HANDOFF.md",
+      "baseline_git_blob": "a3049b46b54c8e353f4d0bd95d7047267f331cbf",
+      "baseline_sha256": "a9f1916694ad01f8c1e01d69464955cfedb984112f57a247f3f71b85d5c1d6be"
+    },
+    {
+      "path": "coordination/README.md",
+      "baseline_git_blob": "126004bfc3bee77612dc35d375cb6e6cd2deb2fc",
+      "baseline_sha256": "16a082629701fae27d6d940ccb8bc2cdec48fd6e9acb2b0f1c3a9948297ff00c"
+    },
+    {
+      "path": "coordination/valiris-restaurants/G2_04_Contenido_Storefront_ORILLA_Prompt.md",
+      "baseline_git_blob": "4de90d643f9f91834ed2dc690744f0d401cf736e",
+      "baseline_sha256": "d5a28267f4ba43f4dd564dbb8ce7721662901c29adb69522be527b4011ac0a88"
+    },
+    {
+      "path": "coordination/valiris-restaurants/SEO_Estrategia_Contenido_Prompt.md",
+      "baseline_git_blob": "04ad8315b8e0866503b9a9313f857036ad26d4a3",
+      "baseline_sha256": "b71d741438dd928ccc32b17427edef266a70d5ff0b87ef3b53517202f7ad145d"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md",
+      "baseline_git_blob": "0c3dfdeac265839f5f69a0d5e753b6f1360fbacd",
+      "baseline_sha256": "6435f74dd3cab4594799d2cb4ab0003e983ff197869f4d4e36906c0590370779"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_G2_Brief_Arranque_Diseno.md",
+      "baseline_git_blob": "05402afe09bbc3f5cdf00c6665d5314267703c69",
+      "baseline_sha256": "7e8146506fdc843657cbaebc105deeb8ee85d925e27e46dd299584f65ddfaa23"
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Organizacion_Protocolo_Agentes.md",
+      "baseline_git_blob": "3a39e3220af52ad6925db9f7b4546cc0b8a58e11",
+      "baseline_sha256": "35e0558c7c81004836f187f4c257c4eaebdf667795f3f96b57cb913c5f3e6e95"
+    },
+    {
+      "path": "coordination/valiris-restaurants/workspace-working-agreement-2026-10-01.md",
+      "baseline_git_blob": "4dd053b64dc89b9479b46ed475c21b299616b2dd",
+      "baseline_sha256": "9affecd74f8bbb08c67f592ed5160d4c5c22645eee55b66bfbc1d70b15ddf226"
+    },
+    {
+      "path": "docs/adr/0001-record-architecture-decisions.md",
+      "baseline_git_blob": "4a7fd223fc644d03a33c6dbc9bdb14c24832f6dc",
+      "baseline_sha256": "3303ed4ddd0e8eccb3c42a929823fe0066b022587e0a0a20ed735fc4b98808ab"
+    },
+    {
+      "path": "docs/adr/0002-studio-brand-valiris.md",
+      "baseline_git_blob": "dce271ca2013b99abacfdaa77795ee752389136a",
+      "baseline_sha256": "fb118f8916909424245e4bc49705c74fdbc237db29dd3024ec787847900c971f"
+    },
+    {
+      "path": "docs/adr/0003-product-name.md",
+      "baseline_git_blob": "51836d2a3b9970e033415349f8a0500c49e0998e",
+      "baseline_sha256": "16763b7800e9fb60e58834e84e40eeddd6e3c30359c3ea38c1bbe2eec7c1bd6a"
+    },
+    {
+      "path": "docs/adr/0004-repository-visibility-and-license.md",
+      "baseline_git_blob": "54d78e02c334b5f34b2476feed07c5ed746b31f7",
+      "baseline_sha256": "704191f4434a65315ecf2662b04ff0c63729459545fcac00e1db9626d89466b9"
+    },
+    {
+      "path": "docs/adr/0005-repository-and-product-language.md",
+      "baseline_git_blob": "ab739d3c33159bdfc8f55ce20231fddce845106e",
+      "baseline_sha256": "856afae4cffe2c10ae566e7159766e5ebdfaecfc57e5a40fad487a2df5cb2f57"
+    },
+    {
+      "path": "docs/adr/0006-discovery-evidence-boundary.md",
+      "baseline_git_blob": "43123fe0694c25d811ed6ae0df6f7b3fa8ad537c",
+      "baseline_sha256": "1e03486d2c1a397e816e422c961b7903f5fe8106f189642f7ac543a1c97b8e41"
+    },
+    {
+      "path": "docs/adr/0007-first-product-launch-roadmap.md",
+      "baseline_git_blob": "9166f8604125b53f0721df7e2666aa04324c8f12",
+      "baseline_sha256": "7604246595810591202caa9ae9e3c17c14fd3b8352b8b1204c09f99a40f98ee6"
+    },
+    {
+      "path": "docs/adr/0008-first-launch-capability-commitment.md",
+      "baseline_git_blob": "2f4c01233df5e4bfedb88dc8f609f6e3ce1271a1",
+      "baseline_sha256": "4a09e8f79694c1b361d504320bb92492e7672d2bce7595d80b02c5be9bef23aa"
+    },
+    {
+      "path": "docs/adr/0009-studio-design-and-registered-diner-personalisation.md",
+      "baseline_git_blob": "62ae654d20c7c91cfea0561555ef2bbabf4d301f",
+      "baseline_sha256": "678cc8984ed52bd3f2daf3f24f0b712918dadb0c2396a8e5ec168572798b8e5b"
+    },
+    {
+      "path": "docs/adr/0010-diner-account-and-display-recovery.md",
+      "baseline_git_blob": "ecab7f52735ae8b1550c6b33a84833aaea7333d8",
+      "baseline_sha256": "d6af1a3d6c08f8e164f81b70a3ecbd3690db19536b8a9120843b8f864faec9c6"
+    },
+    {
+      "path": "docs/adr/0011-shared-menu-content-and-contextual-maintenance.md",
+      "baseline_git_blob": "b7ed9c662c9602732542d0ba195702aaac8a8f2c",
+      "baseline_sha256": "d65b8a568dc798614cd1437869af969160e55832d45de4900b89e7124c2a0651"
+    },
+    {
+      "path": "docs/adr/0012-confirm-delegated-updates-per-assignment.md",
+      "baseline_git_blob": "dd19bd5f4f0e27411e8eb52453946849e170a203",
+      "baseline_sha256": "654b100f43065e446bfd52586b20bcf82d9bdb98c8174f61b603245563a8ddfd"
+    },
+    {
+      "path": "docs/adr/README.md",
+      "baseline_git_blob": "c4b2bf5995a3331197e2376a0d88d4d50db94499",
+      "baseline_sha256": "224762d0eb07c77341f799ca0eddbc9d385d1ff2a22a2097e6e698e7e01046a5"
+    },
+    {
+      "path": "docs/adr/template.md",
+      "baseline_git_blob": "1bdf842e54726feafdb1210ff2a994f2432d776f",
+      "baseline_sha256": "b045dcd711b4095bd688d36a1351fbfc073457f621beacf86423b3a30587b84c"
+    },
+    {
+      "path": "docs/design/m1-connected-journey.md",
+      "baseline_git_blob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "baseline_sha256": "d977d26db2a2f094e448eaa197f1857f405f377edac49daffe211de2544be835"
+    },
+    {
+      "path": "docs/design/m1-coverage-and-evidence.md",
+      "baseline_git_blob": "4e10dab5c6bc4be3d7f5bae19d05dcb1939b28bc",
+      "baseline_sha256": "e98e0810674e8ce4b8f12675aca1af72e63bf82eca3c4511a13317e7a5fe7485"
+    },
+    {
+      "path": "docs/design/m1-public-presence-and-discovery.md",
+      "baseline_git_blob": "4e84997d2240cc97d6fd82b53ca75aaf008f78ea",
+      "baseline_sha256": "721f7551284857fa2ccd24c26ee1ad2bd1bd02cb0b066dac4e5d16560f44fa02"
+    },
+    {
+      "path": "docs/design/m1-storefront-discovery-content.md",
+      "baseline_git_blob": "57345211d68b3d67be7bfe5ff726ba718b041e78",
+      "baseline_sha256": "fa1e9fdccf25d5f6cde2f4c04ab7cc525679e6e023bedcafe6a1cdb767488fa3"
+    },
+    {
+      "path": "docs/design/m1-storefront-information-architecture.md",
+      "baseline_git_blob": "8c8a56aa5ce22def06f659398ad9900bce7a78bf",
+      "baseline_sha256": "3d5e89961464369c0745f9890ae11489cddd51bd6f5d55526ab46c5edee07550"
+    },
+    {
+      "path": "docs/design/valiris-restaurants-brand-refinement.md",
+      "baseline_git_blob": "8412acb4497425ec2aa171a8d5ac9f3b0aaa230a",
+      "baseline_sha256": "7fd55ba2bc50e704ad9094f08d482ddeaedee43789d0636e4d11d50473952dd9"
+    },
+    {
+      "path": "docs/product/m0-capability-matrix.md",
+      "baseline_git_blob": "c34a28866e6b6fb5d92ba28e2399629d32696019",
+      "baseline_sha256": "603303a60540a870c8d16d8e073cc07b59bd2b1c63477e98e93baaca8c6d71dc"
+    },
+    {
+      "path": "docs/product/m0-journeys-and-criteria.md",
+      "baseline_git_blob": "854cbe6ad54649fc0ddab43cc3e348815b6da8f4",
+      "baseline_sha256": "fb6aaa728fb743d420cb998ac78626326741933d42b3a436d063d3dd1e0da919"
+    },
+    {
+      "path": "docs/product/m1-design-briefs.md",
+      "baseline_git_blob": "7ed2d854cf5f8e9ff97587fbf23d837b98cfd36f",
+      "baseline_sha256": "66cee4271eebca9eba5ff2057d431cad6e4bd243b71cd2f9543453cd39638839"
+    },
+    {
+      "path": "docs/project/roadmap.md",
+      "baseline_git_blob": "dbc14d853286634a69d8dc6abde9c37ce6897be8",
+      "baseline_sha256": "e381fe7b18c501ad7259538fb20e80425bed7601a4630318101bfae9ad760c7f"
+    },
+    {
+      "path": "docs/project/valiris-restaurants-brand-foundation-brief.md",
+      "baseline_git_blob": "76b70ef50d98e6fab563019cfba704da9e0172cb",
+      "baseline_sha256": "a28fc045f7427b6f79c017ab0d6fc4f20dc7c71eda3aa5833cf415dd803c2d6f"
+    },
+    {
+      "path": "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "baseline_git_blob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "baseline_sha256": "c6056e683cbd857707548d9a95e85c51a500ae7ad7afa9977710863c11c6380c"
+    },
+    {
+      "path": "research-evidence/g2-02-storefront/content-requests.md",
+      "baseline_git_blob": "03610a258902e0657319cfba8367d432070eb9ed",
+      "baseline_sha256": "19c981dc37022415d39e286d6a0791091a8e9a1a1013fdc618ea8b70e87ef489"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/README.md",
+      "baseline_git_blob": "89f158523b97557541c54837c87cae06ef902056",
+      "baseline_sha256": "60157f905574b06883f54d909a2c7653594b56a4007094a717fd41508e7d42b4"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/author-review.md",
+      "baseline_git_blob": "c1fa89cdd38ece0c42a807b15f46fb8a6602f755",
+      "baseline_sha256": "af31d1ecda394628c4b0b1e8cc17a1e5341630a0b3676598fc7129370d69dd84"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/checks.json",
+      "baseline_git_blob": "5239196651ad1870773214a98c9a876bf853ebb8",
+      "baseline_sha256": "7f54677757b9696c32eb4586960797feea83197a75dde17397d071ac02809c94"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/delivery.md",
+      "baseline_git_blob": "4f14a32f435ab172b1368d5af36179ed0b65ba4f",
+      "baseline_sha256": "165f3ed4dd3c48b677e0d8a953054711dbdb07b865fef18f0fc041a96179af5a"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/source-manifest.json",
+      "baseline_git_blob": "085f18ba49240ab2ee1d2077fe2dc3a439d0c008",
+      "baseline_sha256": "e0cab1d50ffbeed012163dd0d249f7adc3c7faa6c2bf762fb96a3cfea3eae197"
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/verify.py",
+      "baseline_git_blob": "c9340cc4d32dcc2f5bd42baf8eb4d2e037cb5297",
+      "baseline_sha256": "cca47dda4bfca3d48bd9d0d8113f16087c209288d27b3f0dd266ad545a7f8119"
+    },
+    {
+      "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "baseline_git_blob": "6aa0f221b2842472ee2146fbd23d0df0c86cb5f6",
+      "baseline_sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "baseline_git_blob": "96aeccb9f2f46d2c438fb329a5f4ddce7d100f71",
+      "baseline_sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "baseline_git_blob": "b2af9df083cd024364a913cf0ef35bfe0e9d7b82",
+      "baseline_sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "baseline_git_blob": "b9ee10a65366a09c3227b683730de7364ffea39e",
+      "baseline_sha256": "5ff29a779d49e20c8e632741e60d3f0160ba9eaf3a254febd40468a49e5f88bf"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "baseline_git_blob": "73fc7351a4f6095759ebe2cdbd2d02ed290257cb",
+      "baseline_sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb"
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/03-orilla-contraste-propuesto.png",
+      "baseline_git_blob": "944a3d942dfa6e9544dbeb4bb552844a72bdbf6e",
+      "baseline_sha256": "8d636a75e24d2d59044b4936598597b8d3081a981cfeb3d4c3392e2622a18a8b"
+    },
+    {
+      "path": "research-evidence/reviews/coverage-d71d3de/review-result.md",
+      "baseline_git_blob": "be0e91d00a2b8d6d2ad5122f49511431f8add49c",
+      "baseline_sha256": "37fabe7e6388e0fa86f5c08da7a0c777d7701c4189fa317c17441644fab0e76b"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-architecture-ff8fc06/g1-review.md",
+      "baseline_git_blob": "065b2e9f3c91215012f769c8233c54ea1267baa7",
+      "baseline_sha256": "9b81dd05819bf8b467b8366a83e8f82d8de3640b42c970a611048a841b53ae71"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-content-5bd3184/checks.json",
+      "baseline_git_blob": "56c88625cd35950557e036eac8dfb28f5347e5f9",
+      "baseline_sha256": "cd214511a68c2f9f812e535e061c6cb1b09bdc2ab968229fd8415cf30a815396"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-content-5bd3184/g1-review.md",
+      "baseline_git_blob": "b0bd5b49a9d00c40344008591c3ec2277555d1ee",
+      "baseline_sha256": "4706637c6cd7e6d292d417b8a5fa6f753b2e7b2efd1f88267a4b4db75dc0299e"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-seo-0c17480/checks.json",
+      "baseline_git_blob": "bf9909da658e15cee061339f752c41b310ec15b9",
+      "baseline_sha256": "1ebe100726b05b04ede3cfe059a257929906441b9a9389f273b8d3914054b56b"
+    },
+    {
+      "path": "research-evidence/reviews/orilla-seo-0c17480/g1-review.md",
+      "baseline_git_blob": "98fa0a201c87bf0e50ad874c439579d04b5eeb39",
+      "baseline_sha256": "d3f98414f3c79af6faa19f6bae95084bf5be017245fcf50c55ed75e449b83fc3"
+    },
+    {
+      "path": "research-evidence/seo-storefront/checks.json",
+      "baseline_git_blob": "ff170aaa26dfed84e0933470a4836277793e1507",
+      "baseline_sha256": "2ea2536b0f47d821c0f27594485a871fa22ef1f4b741be5a8178e6f8d0e25a70"
+    },
+    {
+      "path": "research-evidence/seo-storefront/delivery.md",
+      "baseline_git_blob": "379dec72361f0c1989d314a8a15601da22e8c6bf",
+      "baseline_sha256": "67acd51722772209730b109ce6571bacc3211671d1115afc2a5445376588f6d3"
+    },
+    {
+      "path": "research-evidence/seo-storefront/documentary-contrasts.md",
+      "baseline_git_blob": "1ad6da0300cb07049b02432ed2f702ea41c3c979",
+      "baseline_sha256": "f237933babad577428258982ff78475e1e69b4516f3638fee1e91b2827c81839"
+    },
+    {
+      "path": "research-evidence/seo-storefront/primary-sources.md",
+      "baseline_git_blob": "2eef89f06759477dc64372efaa5fb9b9a5b3ca24",
+      "baseline_sha256": "e17303d754e0180016cf369fb27a0402c697c3f61664f1e1650c0b6386235de1"
+    },
+    {
+      "path": "research-evidence/seo-storefront/source-manifest.json",
+      "baseline_git_blob": "911699348914ec054e3d0acc5718fa78766b966a",
+      "baseline_sha256": "1082024789a162a264d255707ab98ebd23a7d23855858c67467147c385c70ba7"
+    },
+    {
+      "path": "research-evidence/seo-storefront/verify.py",
+      "baseline_git_blob": "26d4a8912fd9ebb5e2d2f6b3d9aad70792f85efd",
+      "baseline_sha256": "5d091d2ce4546484711f5de4a45bb40ad3f68bb29a2db45fb45f3c4037c370e4"
+    }
+  ],
+  "skills": [
+    {
+      "path": "C:\\Users\\aboul\\.codex\\skills\\ux-writing-content-design\\SKILL.md",
+      "sha256": "0b20705a66c7b5533157c81305f362c60face03a52ab095ec03811611eec64b7",
+      "status": "same main skill reused"
+    },
+    {
+      "path": "C:\\Users\\aboul\\.codex\\skills\\rampstack-content-and-copy\\SKILL.md",
+      "sha256": "e669b7e72071fa6a78f9c91260e1ec1dbb8ae57fcbc2aee7b685719fbeadf19f",
+      "status": "same main skill reused"
+    }
+  ],
+  "reading_scope": "New full review/receipts/index; reuse previous complete readings plus changed operating text, as README records.",
+  "deliverables_1_1": [
+    {
+      "path": "docs/design/orilla-case.md",
+      "sha256": "b6ab6e968ecdf1d75b22f725b29051460e6aff1bea439a087ea75e288c4ed61c",
+      "working_git_blob": "ad0f42fc461396e1d28191c667b077c060195a38"
+    },
+    {
+      "path": "docs/design/m1-storefront-content-and-copy.md",
+      "sha256": "67454712ecda58e44dd2bd07dde77b35dbd110b815e28a4b1c85a5e51a14cdb8",
+      "working_git_blob": "d570c699455169c4d27c2fe8fc384250ce47fbd7"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "observed_on": "2026-10-04",
+  "scope": "G1 scoped documentary receipt, earlier IA verification reused, later adoption delta and prepared UI entry; no independent G4, UX, language, food, UI/runtime, crawler or software validation.",
+  "branch": "docs/m1-g1-orilla-ui-ready",
+  "joined_commit": "063edf041ee88d12b8c499c23c1188f59e73e558",
+  "frozen_sources": {
+    "content_pair": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+    "architecture_v0_4": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c",
+    "seo_return": "7c233f1b5b94257312ab92ca8c9c859c7a6c2c64",
+    "architecture_reviewed_by_seo_v0_3": "ba44c6809516d8d078d192f5f6a423b12cd8b673"
+  },
+  "reproductions": {
+    "seo": {
+      "status": "pass",
+      "controls": 21,
+      "links": null,
+      "method": "Inspected author verifier evaluated at its clean author checkout with only JSON output writes redirected to G1 cache; author files unchanged.",
+      "outputs": {
+        "checks.json": {
+          "byte_identical": true,
+          "sha256": "6e4bc73057290f44d9974ebb88409bbdccd0823e93c8683a405679f086442207"
+        },
+        "source-manifest.json": {
+          "byte_identical": true,
+          "sha256": "8dcf5224c189fbe7e309d057a0caefe85401d8baa0fb4d41e7999ebc9b0c1852"
+        }
+      }
+    },
+    "architecture": {
+      "status": "pass",
+      "controls": null,
+      "links": 79,
+      "method": "Inspected author verifier evaluated at its clean author checkout with only JSON output writes redirected to G1 cache; author files unchanged.",
+      "outputs": {
+        "checks.json": {
+          "byte_identical": true,
+          "sha256": "edb8a3299ed99317437c403a7fd60d89b3728508cb1dfc1fb5f8da0b030492a0"
+        },
+        "sources.json": {
+          "byte_identical": true,
+          "sha256": "713dc0fa64c42faaf046a2cef46ee7deb58012779ee719b61849cf635aa2e4e8"
+        }
+      },
+      "scope_note": "Reproduction from previous G1 receipt of #42 reused; compared against the same frozen source here."
+    }
+  },
+  "source_blobs": {
+    "docs/design/orilla-case.md": {
+      "source": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "git_blob": "ad0f42fc461396e1d28191c667b077c060195a38",
+      "sha256": "b6ab6e968ecdf1d75b22f725b29051460e6aff1bea439a087ea75e288c4ed61c"
+    },
+    "docs/design/m1-storefront-content-and-copy.md": {
+      "source": "4b382bebe5d5c6cad21a7edcaffab053c433a0e9",
+      "git_blob": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+      "sha256": "67454712ecda58e44dd2bd07dde77b35dbd110b815e28a4b1c85a5e51a14cdb8"
+    },
+    "docs/design/m1-storefront-information-architecture.md": {
+      "source": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c",
+      "git_blob": "e8365b0d00ddc47cd6ee095e2f915239ac587195",
+      "sha256": "1e4d081c219580c79571f09cb203745809efaf07f97960393603d0f1a583a4ef"
+    },
+    "docs/design/m1-storefront-discovery-content.md": {
+      "source": "7c233f1b5b94257312ab92ca8c9c859c7a6c2c64",
+      "git_blob": "82cb1374c80d43908c18b412bbb691da23376683",
+      "sha256": "a0c77044b15c5ce2bebae1ebb656e77fb12dc699081374469120c2c5781c4d37"
+    }
+  },
+  "github_readback": {
+    "42": {
+      "state": "OPEN",
+      "draft": true,
+      "base": "docs/m1-g1-orilla-joint-handoff",
+      "head": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c"
+    },
+    "43": {
+      "state": "OPEN",
+      "draft": true,
+      "base": "docs/m1-g1-orilla-joint-handoff",
+      "head": "7c233f1b5b94257312ab92ca8c9c859c7a6c2c64"
+    },
+    "issues": {
+      "5": "OPEN",
+      "4": "OPEN",
+      "15": "OPEN"
+    },
+    "linear": "Not read or modified."
+  },
+  "resolution": "Content 1.1 author resolutions, bounded SEO re-reading on IA v0.3 and explicit IA v0.4 content adoption received separately; no mandatory editorial correction in the examined uses. G1 checks later delta for composition without extending the SEO verdict.",
+  "next_owner": "G2.07 adaptive UI with G2.03 applied interaction",
+  "messages": "Prepared in existing contracts, not sent or activated.",
+  "pending": [
+    "PC and deliberate phone composition",
+    "Applied interaction and accessibility",
+    "Language review",
+    "Situated resources/typeface/provenance/rights",
+    "G3 technical decisions R11/R12/T01-T08 in M2/#4",
+    "Independent G4 application review",
+    "Real participant/device/usage evidence"
+  ],
+  "storage_verification": {
+    "date": "2026-10-03",
+    "preserved_original_files": 475,
+    "inventory_records": 487,
+    "operating_files_checked": 89,
+    "local_link_targets_checked": 2511,
+    "failures": [],
+    "secret_pattern_file_count": 0,
+    "protected_source_changes": [],
+    "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+  },
+  "storage_date_note": "Migration verifier retains historical date 2026-10-03; execution observed 2026-10-04.",
+  "operating_checks": {
+    "result": "pass",
+    "owned_paths": [
+      "HANDOFF.md",
+      "coordination/README.md",
+      "coordination/storage-migration-2026-10-03.json",
+      "coordination/valiris-restaurants/G2_02_Arquitectura_Storefront_ORILLA_Prompt.md",
+      "coordination/valiris-restaurants/G2_04_Contenido_Storefront_ORILLA_Prompt.md",
+      "coordination/valiris-restaurants/G2_07_UI_Storefront_Adaptativo_Prompt.md",
+      "coordination/valiris-restaurants/G2_Product_Designer_Prompt.md",
+      "coordination/valiris-restaurants/SEO_Estrategia_Contenido_Prompt.md",
+      "research-evidence/reviews/orilla-ui-ready-70512d7-7c233f1/g1-review.md",
+      "research-evidence/reviews/orilla-ui-ready-70512d7-7c233f1/checks.json"
+    ],
+    "source_delivery_files_byte_preserved": 15,
+    "original_inventory_fields": "preserved",
+    "local_targets": 342,
+    "fragments": 16,
+    "files_checked": 11,
+    "diff_whitespace": "pass",
+    "semantic_delta": "G1 scoped review only; no mandatory contradiction reproduced, not a new SEO verdict on v0.4"
+  }
+}

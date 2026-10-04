@@ -1,0 +1,33 @@
+{
+  "baseline": "c4f219cf5f06a3fe55b1d4e2040c6f6f45c584df",
+  "immutable_source_root": "D:\\the next level\\research-evidence\\reviews\\c1-c3-c4f219c\\source",
+  "document": "docs/design/m1-extended-journeys.md",
+  "sha256": "86B650AD37AF9DB33935E4C0834A23E9549CE492B2B688160254B813AE6705F9",
+  "local_link_occurrences": 44,
+  "local_link_failures": [],
+  "external_link_occurrences": 4,
+  "defined_state_count": 38,
+  "duplicate_state_ids": [],
+  "criteria_count": 20,
+  "traceability_count": 20,
+  "traceability_missing": [],
+  "traceability_extra": [],
+  "duplicate_criteria": [],
+  "author_counterexample_count": 20,
+  "walkthrough_count": 7,
+  "distinct_connection_cards": [
+    "J14-C01",
+    "J14-C02",
+    "J14-C03",
+    "J14-C04",
+    "J14-C05",
+    "J14-C06"
+  ],
+  "matrix_parent_rows": 72,
+  "matrix_treatments": {
+    "Included": 36,
+    "Configurable": 30,
+    "Connection-dependent": 6
+  },
+  "meaning": "Document structure/inventory only; no executed tests or all-capability completion. Independent reasoning/findings are recorded in reviewer reports."
+}

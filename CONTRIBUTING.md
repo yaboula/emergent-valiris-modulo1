@@ -18,6 +18,14 @@ This guide defines how work flows through the repository. It applies to document
 
 `main` remains reviewable and coherent. M0–M2 deliver decisions, prototypes and preparation, not usable-application releases. Software deliveries begin in M3 and integrate earlier work. Deployed releases are identifiable with relevant notes; a tag is not required for every task. `v1.0.0` is the first commercial Storefront + Digital Menu release with necessary Core. See [the roadmap](docs/project/roadmap.md).
 
+## Versioned operating material and isolated assignments
+
+Every specialist works through Git. Project instructions (`AGENTS.md`), handoff (`HANDOFF.md`), prompts/coordination and delivery evidence/assets belong in this repository. See the [operating index](coordination/README.md). This owner decision of 3 October supersedes the former outside-Git storage rule.
+
+Each editing assignment uses its own branch and isolated worktree/checkout at the agreed baseline. Check root, branch, HEAD and status before editing, then confirm the expected root/branch again before staging, committing and pushing. Stage only owned paths and inspect the diff; do not switch another specialist’s checkout or overwrite its work. G1 assigns ownership and coordinates dependent PRs. Read-only review freezes the reviewed SHA; its report is versioned separately from author evidence.
+
+Deliver relative artifact paths, branch, commit SHA, PR, relevant checks and unresolved dependencies. Tool-generated assets must be copied here with provenance/rights status and an approval boundary. Secrets, browser profiles, runtime caches and unrelated personal material do not enter Git. Local author is Yahya <yaboula@epsa.upv.es>, without trailers; verify attribution after committing. Saving or merging an artifact does not close its product milestone.
+
 ## Branch naming
 
 ```text
@@ -65,4 +73,4 @@ A change is done when **all** of the following hold:
 
 ## Language
 
-Repository content (code, documentation, commits, issues) is written in **English**. The product UI is Spanish-first with full internationalisation (see ADR-0005).
+Product repository content (code, product documentation, commits, issues and PRs) is written in **English**. Versioned operational coordination/instructions and unchanged historical originals may retain Spanish; this exception preserves their original meaning and records specialist responsibilities without changing commit attribution. The product UI is Spanish-first with full internationalisation (see ADR-0005).

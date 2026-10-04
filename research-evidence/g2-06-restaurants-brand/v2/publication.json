@@ -1,0 +1,79 @@
+{
+  "edition": "v2 / 2026-10-03",
+  "status": "General creative direction idea clarified per founder; not definitive branding or final approval",
+  "verifiedAt": "2026-10-03 17:05:45 UTC",
+  "revisionStart": "d44942ea7eee6471c8d6933dab91dcd9f6b37009",
+  "agreedBaseline": "27861fd94dafd51889e2f223000320d66fd39dae",
+  "branch": "docs/m1-g2-06-restaurants-brand",
+  "author": "Yahya <yaboula@epsa.upv.es>",
+  "trailers": "None",
+  "remotePush": "Current correction accompanies this record; remote branch tip is verified after pushing and reported in the final response. Initial publication proof is retained separately.",
+  "pullRequest": {
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/26",
+    "state": "OPEN",
+    "draft": true,
+    "baseRefName": "docs/m1-restaurants-brand-foundation",
+    "title": "docs(restaurants): propose an open culinary brand direction",
+    "statusCheckRollup": [],
+    "statusCheckInterpretation": "No check entries returned; no CI pass claimed",
+    "previousVerifiedHead": "07bb98462aca9ddae93ec5aab7643bc3d7578514"
+  },
+  "checks": {
+    "result": "PASS",
+    "report": "checks.json",
+    "nativeTexts": 129,
+    "minimumNativeTextContrast": 4.72,
+    "assets": 56,
+    "boards": 8,
+    "frozenSourceRecords": 19,
+    "scope": "Bounded author review; not integral accessibility or independent review",
+    "gitWhitespace": "Staged diff check passed with per-command cr-at-eol allowance for historical manifest; no Git configuration change",
+    "softwareTests": "Not applicable; no application/configuration changes"
+  },
+  "figma": {
+    "file": "uJSv4mj3oi9Br8Za9WuZAz",
+    "page": "20:2",
+    "team": "Valiris",
+    "url": "https://www.figma.com/design/uJSv4mj3oi9Br8Za9WuZAz?node-id=20-2",
+    "oldPage": "0:1 / preserved as rejected"
+  },
+  "reservedPaths": [
+    "docs/design/valiris-restaurants-brand-direction.md",
+    "research-evidence/g2-06-restaurants-brand/"
+  ],
+  "relativeGuide": "docs/design/valiris-restaurants-brand-direction.md",
+  "relativeEvidence": "research-evidence/g2-06-restaurants-brand/v2/",
+  "selfReferencePolicy": "This record travels with the clarification commit; its own SHA cannot be stored inside itself. Resolve with git log -1 --format=%H -- research-evidence/g2-06-restaurants-brand/v2/publication.json; final pushed tip is verified externally.",
+  "pending": [
+    "Founder direction/hierarchy selection",
+    "G1 consolidation",
+    "G6 offer validation",
+    "G2.04 copy/SEO/GEO",
+    "G2.05 localisation",
+    "G2.08 production/rights",
+    "G2.07/G2.03 applications",
+    "G2.09 motion",
+    "G4 independent application review"
+  ],
+  "merge": false,
+  "issueClosure": false,
+  "otherChatMessages": false,
+  "initialPublicationSnapshot": "publication-initial-v2.json",
+  "initialContentCommit": "07bb98462aca9ddae93ec5aab7643bc3d7578514",
+  "clarificationBasedOn": "dcebb18f426cb4da1d611c540ab6803d4577301f",
+  "recordVersion": "2026-10-03 / founder direction and open-repertoire clarification",
+  "verifiedAtMeaning": "Timestamp of original v2 publication snapshot, not current correction push",
+  "founderClarification": {
+    "source": "Real founder reply in this task after v2 delivery",
+    "generalDirection": "Good idea; direction clear",
+    "brandingState": "Direction idea, not definitive branding",
+    "repertoire": "Freely open to any food, cooking or restaurant-related subject; four prototype examples do not fix the cast",
+    "paletteAndDetails": "Exploratory; current colors not perfect and many details to adjust",
+    "record": "founder-clarification.md",
+    "changedBoards": [
+      "02",
+      "04",
+      "05"
+    ]
+  }
+}

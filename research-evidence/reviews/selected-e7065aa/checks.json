@@ -1,0 +1,39 @@
+{
+  "source_sha": "e7065aaa92acdf223628f9d7099301d766810ad3",
+  "selected_assets": [
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb",
+      "expected_sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb",
+      "bytes": 1708076,
+      "width": 1536,
+      "height": 1024,
+      "attachment_available": true,
+      "attachment_match_reproduced": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06",
+      "expected_sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06",
+      "bytes": 1726367,
+      "width": 1536,
+      "height": 1024,
+      "attachment_available": true,
+      "attachment_match_reproduced": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff",
+      "expected_sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff",
+      "bytes": 1767964,
+      "width": 1536,
+      "height": 1024,
+      "attachment_available": true,
+      "attachment_match_reproduced": true
+    }
+  ],
+  "orilla_original_sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+  "protected_source_changes": [],
+  "failures": [],
+  "scope": "Selected-source integrity, dimensions and available attachment matching only. No UX, software, independent G4, licence or external URL verification."
+}

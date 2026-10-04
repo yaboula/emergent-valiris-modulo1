@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "baseline": "b57ec6a0c13b60d41cffd7f9c910099dd23d9c19",
+  "upstream": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+  "branch": "docs/m1-g2-06-lettering-refinement",
+  "request": "Founder asks for more creative examples after selecting the graphic direction",
+  "status": "Three open conceptual proposals; no new founder selection",
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "file": "01-abre-algo-diferente.png",
+      "source": "exec-12b7e31d-ee9b-4faa-9dea-817b3abba882.png",
+      "prompt": "Use case: ads-marketing. Create a landscape 1536x1024 premium conceptual brand exploration board for VALIRIS RESTAURANTS, a studio line offering digital restaurant products, NOT itself a restaurant. Modern Product-Centric Web Design, Bold Graphic, Editorial and Soft Depth combined with playful adult culinary branding. Full-bleed art-directed composition with a small warm ivory top identity band and discreet concept footer. Broad geometric black bold sans letterforms, near the supplied Marshmallow-informed target: very wide circular counters, crisp terminals, substantial stems, single-storey a; not condensed, not bubbly rounded ends. Treat typography as visual approximation, not an actual licensed font. Beautifully legible exact Spanish accents. One expressive cropped image dominates, abundant deliberate negative space for the headline, minimal small text. No website build, no full navigation or component grid, no factual claims, no real restaurant photographs, no prices/allergen claims. Colour relationships can change while remaining intensely vivid against warm ivory and near-black. Keep the confident shapes, matte tactile surfaces and soft directional shadows of reference image 1, but invent an entirely new composition rather than repeat its three panels or spoon/fork/plate lineup. Text top left exact \"Valiris Restaurants\". Footer exact \"Exploración conceptual · no branding definitivo\". Other text only as specified. No third-party logos. CONCEPT 01 — REVEAL AS A STAGE. A giant coral-red restaurant serving cloche has just lifted from an oval violet stage, revealing an architectural freestanding folded ivory card representing a digital menu. This is metaphorical promotional staging, NOT a new menu interaction feature. The cloche's dome fills upper right with a shallow graceful curve. The menu structure stands center-right with two large folded planes, left plane exact heading \"Carta\", tiny clearly printed rows \"Entrantes\", \"Platos\", \"Postres\", and bottom black pill \"Ver carta →\"; right plane is a sculptural lemon-yellow shape and cutout tomato red curve, no food photos. A curved mint stripe on violet connects stages. Overscaled curving cutlery-shaped rail in tangerine guides the eye toward product; no faces or limbs in this board. Shot from low three-quarter angle, product clearly primary, tactile matte ceramic and ivory paper, finely controlled shadows, no glossy plastic or excessive realistic restaurant scenery. Headline in generous left ivory field exact \"Abre algo\" newline \"diferente.\" Huge broad black geometric letters, uncut, aligned left. Composition asymmetric with a reveal moment held perfectly static. Large vivid planes create ambiance, only 4 main objects, no floating generic cubes. The inventive idea is a culinary reveal staging the digital product. Avoid repeating the accordion scene, the previous 3-column triptych, giant centered hero card, or generic SaaS gradients.",
+      "input_references": [
+        0
+      ],
+      "sha256": "1a83ff7bc2170da3aedf0fd2cd413f351183c60bfe70f1df82d7e224dc049cd0",
+      "bytes": 1814213,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-sabor-tipografico.png",
+      "source": "exec-7be9e08a-adbf-459b-902c-81caa8ec2f98.png",
+      "prompt": "Use case: ads-marketing. Create a landscape 1536x1024 premium conceptual brand exploration board for VALIRIS RESTAURANTS, a studio line offering digital restaurant products, NOT itself a restaurant. Modern Product-Centric Web Design, Bold Graphic, Editorial and Soft Depth combined with playful adult culinary branding. Full-bleed art-directed composition with a small warm ivory top identity band and discreet concept footer. Broad geometric black bold sans letterforms, near the supplied Marshmallow-informed target: very wide circular counters, crisp terminals, substantial stems, single-storey a; not condensed, not bubbly rounded ends. Treat typography as visual approximation, not an actual licensed font. Beautifully legible exact Spanish accents. One expressive cropped image dominates, abundant deliberate negative space for the headline, minimal small text. No website build, no full navigation or component grid, no factual claims, no real restaurant photographs, no prices/allergen claims. Colour relationships can change while remaining intensely vivid against warm ivory and near-black. Keep the confident shapes, matte tactile surfaces and soft directional shadows of reference image 1, but invent an entirely new composition rather than repeat its three panels or spoon/fork/plate lineup. Text top left exact \"Valiris Restaurants\". Footer exact \"Exploración conceptual · no branding definitivo\". Other text only as specified. No third-party logos. CONCEPT 02 — KITCHEN OBJECTS BECOME LETTERS. A daring top-down editorial typographic still life: the giant word \"SABOR\" becomes the central sculptural arrangement on vivid buttery yellow. Every letter is clear readable culinary object construction with no faces: S is a thick continuous coral-red ribbon of folded flexible cutting-board material; A is two cobalt utensil handles leaning together with a coral crossbar; B is an ivory handle with two real-looking ceramic spoon bowls as its counters; O is a large mint-green ceramic plate seen directly overhead; R is a raspberry utensil handle with one spoon bowl at top and a diagonal knife-shaped blunt handle leg. Make them immediately read S A B O R as a coherent monumental typographic composition; no tiny icon collage. Their shared broad proportional family echoes the broad geometric type target. A single diagonal crisp ivory paper menu slip overlaps just the lower edge of O, does not obscure letter reading, exact \"Carta\" and \"Ver carta →\" on it, 2 thin rules without imaginary microtext. Very subtle object texture, textile fold only at edge, soft shadows grounding letters, playful visual wit and crafted material tension, not childish toy alphabet. SMALL headline in top ivory identity margin right exact \"Diseño que se saborea.\" Black type. Main sculpture central fills most width; footer ivory. No giant extraheadline besides SABOR, no characters, no food claim. Distinctive branding experiment relating actual culinary anatomy to letters; do not reproduce reference triptych or standard product hero.",
+      "input_references": [
+        0
+      ],
+      "sha256": "762dc99f875d574ee44a25101338b8786a5e60371a91407701e9fabad1c88d15",
+      "bytes": 2134269,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-cafeteria-con-caracter.png",
+      "source": "exec-7d7cdd82-da82-4ad5-bbae-050349432ee6.png",
+      "prompt": "Use case: ads-marketing. Create a landscape 1536x1024 premium conceptual brand exploration board for VALIRIS RESTAURANTS, a studio line offering digital restaurant products, NOT itself a restaurant. Modern Product-Centric Web Design, Bold Graphic, Editorial and Soft Depth combined with playful adult culinary branding. Full-bleed art-directed composition with a small warm ivory top identity band and discreet concept footer. Broad geometric black bold sans letterforms, near the supplied Marshmallow-informed target: very wide circular counters, crisp terminals, substantial stems, single-storey a; not condensed, not bubbly rounded ends. Treat typography as visual approximation, not an actual licensed font. Beautifully legible exact Spanish accents. One expressive cropped image dominates, abundant deliberate negative space for the headline, minimal small text. No website build, no full navigation or component grid, no factual claims, no real restaurant photographs, no prices/allergen claims. Colour relationships can change while remaining intensely vivid against warm ivory and near-black. Keep the confident shapes, matte tactile surfaces and soft directional shadows of reference image 1, but invent an entirely new composition rather than repeat its three panels or spoon/fork/plate lineup. Text top left exact \"Valiris Restaurants\". Footer exact \"Exploración conceptual · no branding definitivo\". Other text only as specified. No third-party logos. CONCEPT 03 — A CAFÉ COUNTER ACTS AS A DESIGN STUDIO. Reference image 2 supplies the desired character drawing grammar ONLY: lively culinary object bodies, expressive oblique eyes, dark supple arms and legs, cream hands, subtle shading, confident adult friendliness; no mandatory fixed biographies. New scene: enormous lemon-yellow espresso cup character on a raspberry saucer, one hand gracefully pulls a long ivory order-ticket ribbon forward, the other points along it. A slim teal moka-pot character on the right leans in to hold the far end; the two look at the product, not just smile frontward. The ribbon unfolds in a shallow S-curve across the foreground and becomes a beautifully clean printed product presentation strip with 3 broad short blocks labelled exact \"Storefront\", \"Carta digital\", \"Tu contenido\". The strip is a conceptual visual metaphor, not an interface feature or an offer approval. Bold background structural cobalt counter and salmon-coral wall, one ivory shelf and mint-green lamp clipped at upper right establish café ambiance using big planes, no dense realistic interior. Main headline on ivory negative space at upper left exact \"Pequeños detalles.\" newline \"Mucho carácter.\" Wide bold black geometric typography, large but enough space. Keep line identity top left; optional black pill bottom right exact \"Explorar →\". Characters gathered on right two-thirds; ribbon runs toward lower left and shows product clearly. Camera eye-level low oblique, different from overhead or old kitchen pot scene. A restrained blue steam curl from cup and one almond croissant without face on shelf for café context. Beautifully crafted shallow depth, matte surfaces, lively coordinated action, welcoming adult tone. Avoid copying Duolingo eyes, Marshmallow shapes, a mascot catalogue or character biographies. No factual café business details or claims.",
+      "input_references": [
+        0,
+        1
+      ],
+      "sha256": "2131d861117935225fbb113f8ce2baacfb7e0a5d3966f9803e9ad79f2a10fe00",
+      "bytes": 1774748,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "input_references": [
+    {
+      "file": "../signature-and-first-model/02-expresion-sin-personajes.png",
+      "role": "Selected graphic colour/type/culinary material grammar; style reference, not edit target",
+      "sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb"
+    },
+    {
+      "file": "../scene-exploration/03-cocina-viva.png",
+      "role": "Founder-desired adaptive character appearance; style reference only for concept 03",
+      "sha256": "afe5fded3a9e580d697eae268c2e1c21df366d985f4f95438acb1fd1c4b4a086"
+    }
+  ],
+  "rights": {
+    "assets": "Generated conceptual imagery; no exclusivity or third-party clearance claimed",
+    "typography": "Visual approximation; no actual Marshmallow Youth binary used or rights established",
+    "food_objects": "Fictional/generated; no real dishes, physical products or restaurant facts represented"
+  },
+  "author_review": {
+    "scope": "Visible static composition, wording, mechanism, product hierarchy and character interaction",
+    "observations": [
+      "01: dome reveals a freestanding folded menu, warm reading area remains legible; extra Oferta · Productos · Diseño footer retained from reference",
+      "02: SABOR readable in sculptural kitchen-derived forms; strongest new signature experiment, not a typeface or logo; product secondary",
+      "03: cup points to product ribbon while moka pot supports it; scene-local collaboration, no fixed character roles"
+    ],
+    "limits": [
+      "Raster concepts, not native fonts/editable assets",
+      "Static metaphors, not folding/reveal/ribbon product functions",
+      "No full accessibility, measured contrast, localisation, motion, user research or independent review",
+      "No new model names, offer/package approval, fixed palette or roster",
+      "Original ORILLA, prior selected direction and shared sources unchanged"
+    ]
+  }
+}

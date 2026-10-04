@@ -1,0 +1,1 @@
+Reconcile active documentation with completed M0; clarify G2 responsibilities and preserve accepted scope, criteria and historical integration evidence. Related to #5; M1 design remains open.

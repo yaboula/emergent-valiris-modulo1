@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "author documentary preservation/coherence, no product tests",
+  "operating_baseline": "b30dada1ac8fa5be01d07092ec6c7dbfe80a0439",
+  "branch": "docs/m1-g2-04-orilla-seo-consolidation",
+  "received_seo": "0c17480bdc2b6ff8037022228ebc4599a704e702",
+  "source_records_preserved": 61,
+  "original_evidence_files_preserved": 6,
+  "original_copy_ids_preserved": 83,
+  "copy_ids_1_1": 94,
+  "revised_copy_ids": [
+    "ORI-COPY-H02-07",
+    "ORI-COPY-M01-03",
+    "ORI-COPY-S10",
+    "ORI-COPY-S11",
+    "ORI-COPY-S14",
+    "ORI-COPY-S18"
+  ],
+  "new_copy_ids": [
+    "ORI-COPY-E01",
+    "ORI-COPY-E02",
+    "ORI-COPY-E03",
+    "ORI-COPY-H03-09",
+    "ORI-COPY-META-01",
+    "ORI-COPY-META-02",
+    "ORI-COPY-META-03",
+    "ORI-COPY-META-04",
+    "ORI-COPY-META-05",
+    "ORI-COPY-META-06",
+    "ORI-COPY-META-07"
+  ],
+  "state_ids": 30,
+  "scenarios": 11,
+  "scenario_wording_revision": "ORI-SCENARIO-06 / 2; input facts unchanged",
+  "unchanged": [
+    "story/people/place",
+    "dishes/offers/variants/prices",
+    "visit/food",
+    "asset rows",
+    "scenario inputs",
+    "foreign/1.0 evidence"
+  ],
+  "recommendations_resolved_by_author": [
+    "SEO-R01",
+    "SEO-R02",
+    "SEO-R03",
+    "SEO-R04",
+    "SEO-R05",
+    "SEO-R06",
+    "SEO-R07",
+    "SEO-R08"
+  ],
+  "local_links": 32,
+  "tables": 31,
+  "not_checked": [
+    "SEO re-reading of 1.1",
+    "architecture adoption",
+    "UI/phone/accessibility",
+    "translations/food",
+    "runtime/metadata/preview/indexing/policies",
+    "G4/participants"
+  ]
+}

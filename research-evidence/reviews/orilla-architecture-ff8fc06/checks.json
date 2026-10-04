@@ -1,0 +1,61 @@
+{
+  "observed_date": "2026-10-04",
+  "review_role": "G1 PM; not independent G4",
+  "reviewed_sha": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+  "reproduction": "Frozen author verifier; only JSON output destination redirected to G1 cache; outputs equal published bytes. Author checkout unchanged.",
+  "github_states": {
+    "33": "OPEN/draft",
+    "5": "OPEN",
+    "4": "OPEN",
+    "15": "OPEN"
+  },
+  "author_checks_reproduced": {
+    "baseline": "4cb80e03d1e7c98fdf4c5085edae0b4744f22122",
+    "branch": "docs/m1-g2-02-storefront-architecture",
+    "result": "pass",
+    "scope": "author document/source integrity only; no UX, G4 or runtime proof",
+    "owned_paths_only": true,
+    "baseline_sources_unchanged": true,
+    "source_records": 33,
+    "markdown_documents": 5,
+    "external_method_records": 4,
+    "external_method_archives_unchanged": true,
+    "first_delivery": "c2faedff9209571d793f21a8df3200b8f1a93077",
+    "original_contrast_rows_preserved": true,
+    "local_links_and_fragments": 78,
+    "tables": 17,
+    "fence_lines": 4,
+    "destination_ids": 7,
+    "journey_ids": 6,
+    "content_request_ids": 7,
+    "cross_return_ids": 4,
+    "documentary_contrasts": 26,
+    "capability_parent_rows": 72,
+    "treatments": {
+      "Included": 36,
+      "Configurable": 30,
+      "Connection-dependent": 6
+    },
+    "git_diff_check": true,
+    "errors": []
+  },
+  "limits": "Document/source integrity and scoped PM reading only; no UX/runtime/SEO/food-safety/G4 application validation.",
+  "handoff_checks": {
+    "owned_paths_only": true,
+    "author_delivery_and_product_sources_unchanged": true,
+    "migration_original_fields_unchanged": true,
+    "local_targets_in_changed_markdown": 205,
+    "storage_integrity_observed_date": "2026-10-04",
+    "storage_integrity": {
+      "date": "2026-10-03",
+      "preserved_original_files": 475,
+      "inventory_records": 487,
+      "operating_files_checked": 87,
+      "local_link_targets_checked": 2433,
+      "failures": [],
+      "secret_pattern_file_count": 0,
+      "protected_source_changes": [],
+      "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation."
+    }
+  }
+}

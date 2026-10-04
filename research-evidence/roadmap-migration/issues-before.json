@@ -1,0 +1,86 @@
+[
+  {
+    "body": "## Goal\r\n\r\nAdopt the owner-supplied roadmap dated 1 October 2026. Launch Storefront + Digital Menu and the necessary Core first; replace the seven-module/17-week release plan with M0–M7 outcome milestones.\r\n\r\n## Deliverables\r\n\r\n- Current English roadmap, preserved historical roadmap, and traceable decision.\r\n- Aligned charter, contribution rules, documentation index, glossary, and research applicability notes.\r\n- Updated GitHub milestones and execution issues without erasing historical evidence.\r\n\r\n## Done when\r\n\r\n- No active document or tracker promises seven modules in v1.0 or the former calendar.\r\n- M0–M2 are preparation; M3–M5 construction; M6 real pilot; M7 commercial launch.\r\n- Future modules remain unscheduled; no commercial validation or implementation is claimed.\r\n- Documentation checks pass and a reviewable PR is available.\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 9,
+    "state": "OPEN",
+    "title": "[Task] M0 Adopt first-product roadmap and align project planning"
+  },
+  {
+    "body": "﻿## Goal\nClose M0 with a consistent, reviewed documentation baseline and a ready backlog.\n\n## Deliverables\n- Cross-review of all M0 documents\n- M1 and M2 issues created with acceptance criteria\n- Release v0.0.0-docs with notes; short retrospective in docs/project/retrospectives/m0.md\n\n## Done when\n- M0 release gate passed\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 6,
+    "state": "OPEN",
+    "title": "[Task] M0.6 Close: cross-review, M1/M2 backlog, v0.0.0-docs release"
+  },
+  {
+    "body": "﻿## Goal\nDesign the experience and the visual system before implementation.\n\n## Deliverables\n- Information architecture of the guest surfaces and the owner panel\n- Critical flows: view menu, book a table, run today's service\n- Low-fidelity wireframes + quick test with 2-3 people\n- docs/design/art-direction.md (moodboard and documented style decision), product identity (logo, palette, typography, tone) and minimal Valiris studio identity\n- Design system: tokens, base components, WCAG 2.2 AA contrast, RTL readiness\n- High-fidelity screens for the core, M2 and M3\n\n## Done when\n- Design system and key screens reviewed by the product owner\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 5,
+    "state": "OPEN",
+    "title": "[Task] M0.5 UX/UI design: flows, wireframes, art direction, design system"
+  },
+  {
+    "body": "﻿## Goal\nDesign the platform/vertical/app architecture and record every significant decision.\n\n## Deliverables\n- ADRs: stack, modular monolith, product-line structure (platform/verticals/apps), multi-tenancy with RLS, event bus, background jobs, auth, i18n, hosting\n- docs/architecture/: C4 levels 1-3, core ER model and RLS policies, domain event catalog\n- docs/architecture/threat-model.md (STRIDE) and selected OWASP ASVS L2 requirements\n- docs/testing/strategy.md (ISO/IEC/IEEE 29119-based)\n\n## Done when\n- All deliverables merged and reviewed by the product owner\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 4,
+    "state": "OPEN",
+    "title": "[Task] M0.4 Technical design: ADRs, C4, data model, events, threat model, test strategy"
+  },
+  {
+    "body": "﻿## Goal\nDefine what v1.0 is, precisely and verifiably.\n\n## Deliverables\n- docs/product/vision.md, docs/product/personas.md, docs/product/story-map.md, docs/product/scope.md (MoSCoW per module)\n- docs/srs.md (ISO/IEC/IEEE 29148): core functional requirements in depth, module epics and key stories (Gherkin for critical ones), NFRs mapped to ISO/IEC 25010 with metrics\n\n## Done when\n- Gate 2 (scope frozen) is passed\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 3,
+    "state": "OPEN",
+    "title": "[Task] M0.3 Product definition: vision, personas, story map, SRS, MoSCoW"
+  },
+  {
+    "body": "﻿## Goal\nValidate the problem with evidence before defining the product.\n\n## Deliverables\n- docs/research/market.md - Spanish restaurant market, digitalisation, cost of no-shows (sources cited)\n- docs/research/competitors.md - feature/pricing matrix: Qamarero, EterSystem, TheFork, CoverManager, Google Reserve, QR menus, loyalty apps\n- docs/research/review-mining.md - at least 50 public competitor reviews classified by pain theme\n- docs/research/interviews/ - Mom Test script + 2-3 simulated owner interviews (clearly labelled as simulated)\n- docs/research/legal.md - GDPR/LOPDGDD, LSSI, allergens (EU 1169/2011), Google review policy, WhatsApp Business policy, PSD2/SCA\n- docs/research/synthesis.md - prioritised problems with evidence, jobs-to-be-done, differentiation hypothesis\n\n## Done when\n- Gate 1 (problem validated) is passed and recorded in synthesis.md\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 2,
+    "state": "OPEN",
+    "title": "[Research] M0.2 Discovery: market, competitors, review mining, simulated interviews, legal"
+  },
+  {
+    "body": "﻿## Goal\nSet up the repository and the working agreements so that every later change follows the same professional workflow.\n\n## Deliverables\n- Repository bootstrap (README, license, git/editor settings, changelog, contributing guide, issue/PR templates, labels, milestones)\n- ADR-0001 to ADR-0005\n- docs/glossary.md, docs/project/charter.md, docs/project/roadmap.md, docs/README.md\n\n## Done when\n- The product owner has reviewed and merged the M0.1 pull request\n- Labels and milestones M0-M8 exist on GitHub\r\n",
+    "milestone": {
+      "number": 1,
+      "title": "M0 - Discovery, specification and design",
+      "description": "Research, SRS, architecture, UX/UI and design system. Ends with v0.0.0-docs.",
+      "dueOn": null
+    },
+    "number": 1,
+    "state": "CLOSED",
+    "title": "[Task] M0.1 Kick-off: repository, conventions and foundational ADRs"
+  }
+]

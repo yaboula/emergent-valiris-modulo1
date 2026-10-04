@@ -1,0 +1,495 @@
+{
+  "renderer": "sharp 0.35.4",
+  "svg_renderer": "rsvg 2.62.91",
+  "font_embedding": false,
+  "results": [
+    {
+      "frame": "UI-P01",
+      "width": 1440,
+      "height": 4283,
+      "format": "png",
+      "png_sha256": "1b6b29c7b4b7e8df76c3a613ad3ddc26a9eef7ba06de36c1637c2b5021ada43b",
+      "svg_sha256": "e9c48dbea4b0d53fd6a90300ec0bfe08b106eb109c006986c3a9c9453d4d98eb"
+    },
+    {
+      "frame": "UI-T01",
+      "width": 390,
+      "height": 6340,
+      "format": "png",
+      "png_sha256": "86ef0d26d2c67e43aec7a44f8a255ab6654d5c1d5170bca32f03b7c4335d7734",
+      "svg_sha256": "337cf15681ec976a46e4d80a38ce1d0a3ed39bc0ad6f0737ddd61609767d33c0"
+    },
+    {
+      "frame": "UI-W360",
+      "width": 360,
+      "height": 6598,
+      "format": "png",
+      "png_sha256": "67c5b930797b2d7d422b0bc2619eb5ef3e98be0c209b3457f64a60b1e2c8476b",
+      "svg_sha256": "069c224e1756b0acc4c5d783c7dd169bd16da2d2d8a3895ab0d33db79752bb18"
+    },
+    {
+      "frame": "UI-W430",
+      "width": 430,
+      "height": 6183,
+      "format": "png",
+      "png_sha256": "9a08928cd68948a7c347738cf92cd48c86ceab87efbf92317298cf921f13888c",
+      "svg_sha256": "53f9f7607f9f059e1df585ecb333d7141d7c5704a78066f2d9068b048370cd42"
+    },
+    {
+      "frame": "UI-W768",
+      "width": 768,
+      "height": 5659,
+      "format": "png",
+      "png_sha256": "094ef2f8704401e980914dea6506c80c8270746177bd8f6b303229d7a5b3b693",
+      "svg_sha256": "940d035beca55b51b463ab6b5f3e5de44ff08ed6a6d29f2320655002f325072e"
+    },
+    {
+      "frame": "UI-W1024",
+      "width": 1024,
+      "height": 5430,
+      "format": "png",
+      "png_sha256": "e2d819256f4be990e5ce89e34acb7b231b84c68ff182a7f333dcad8bd129d114",
+      "svg_sha256": "e5b0e93fd9e8bf7e7f8a01c3ca41fed5a745ddb54e8898682d5f607bdd928336"
+    },
+    {
+      "frame": "UI-W1280",
+      "width": 1280,
+      "height": 4383,
+      "format": "png",
+      "png_sha256": "c9f553f4b6e96cce5d5808fddfa7658eda7ff44968bc5895cb674b00535995fc",
+      "svg_sha256": "7cd3096343374fb0819a11ee88942cca5063c75e3fc6201a1294749ec9178a54"
+    },
+    {
+      "frame": "UI-L844",
+      "width": 844,
+      "height": 5570,
+      "format": "png",
+      "png_sha256": "bb6a929ba30f91949dd78fcc710a97fab25c568136ca5cb748cb4af37a238dfe",
+      "svg_sha256": "e15f7eb953362a407be1c03f28cd3571a4daa8c89cfd5878b4b48bca88aa6e19"
+    },
+    {
+      "frame": "UI-Z390",
+      "width": 390,
+      "height": 15883,
+      "format": "png",
+      "png_sha256": "f4f3f2b1d1bcba76575cae36be797d768153cec48a5870ef8528ba34866cede1",
+      "svg_sha256": "4b5325e17dfff6e509cb5ddfb0b6f1f229149e183243b8c0dee84dd7f14b84d4"
+    },
+    {
+      "frame": "UI-P-NOART",
+      "width": 1440,
+      "height": 4150,
+      "format": "png",
+      "png_sha256": "ed9fefd67b699558b0de493c7a5a87bc2324e02de3de9e24495f25f32ef5c902",
+      "svg_sha256": "e8b336299edb5b9e4b43a6fdbee9e41c2f78bfccc3acc0402c6c2d18cd6d7ee7"
+    },
+    {
+      "frame": "UI-P-NOSTORY",
+      "width": 1440,
+      "height": 3420,
+      "format": "png",
+      "png_sha256": "0051f41d803013a469dcff0f2d330f5e361837bbc0da2312e6a86ae39e28f081",
+      "svg_sha256": "8a7cdc2c63ae36ad57c0f3d0ada8311a61d4a4a7e39d311484f6bde7f8806810"
+    },
+    {
+      "frame": "UI-P-WITHDRAWN",
+      "width": 1440,
+      "height": 3893,
+      "format": "png",
+      "png_sha256": "eea94c1cba246006a682fc42ca8fe592bef881f92457eae1877ec1e393e3b8c1",
+      "svg_sha256": "7fae60a2ab8a600b6917b1f3185e6f1eaaa62411d77f97a7d8e712090cde30e7"
+    },
+    {
+      "frame": "UI-P-MENU",
+      "width": 1440,
+      "height": 2389,
+      "format": "png",
+      "png_sha256": "b5399b976b7943b4731889262a8e0dd6bb28a878a439a4ecadd828c34977a345",
+      "svg_sha256": "62b4aec99926fc27c6a41dd0267e438f98a94fd86d24f659eb1d49d0b99f983c"
+    },
+    {
+      "frame": "UI-P-V01-H02",
+      "width": 1440,
+      "height": 1370,
+      "format": "png",
+      "png_sha256": "982f824e72a494a64fac8dd9cfa8efa7048f1cee6e74eeee177ca9615a18a9ad",
+      "svg_sha256": "11ffee667e77cfb79b70a3721f2cae37cdb75933915dafe46a39ae6eb8811b9a"
+    },
+    {
+      "frame": "UI-P-V02-DIRECT",
+      "width": 1440,
+      "height": 1341,
+      "format": "png",
+      "png_sha256": "f463b23fc19fc4a48a2690818f68465e247375a2ccbab9b350bcd8cdd4f61875",
+      "svg_sha256": "3155b4481acad0527fb391065b1d0538c129852c0678a060222cd7de51e6e736"
+    },
+    {
+      "frame": "UI-P-V02-MENU",
+      "width": 1440,
+      "height": 1341,
+      "format": "png",
+      "png_sha256": "294035a692180a69a8f1592a2d7dbd1b8d9b28b685383c2586bc724b4b7f6e8c",
+      "svg_sha256": "d44929112a7c625b99d81fbc0eb53bf7c035a5c716417b5cad6b50751a01bc01"
+    },
+    {
+      "frame": "UI-P-VISIT-DIRECT",
+      "width": 1440,
+      "height": 1349,
+      "format": "png",
+      "png_sha256": "003d65c416d9677fd389499387d9d84835974d1213128bce631072e0c1bdd27b",
+      "svg_sha256": "a82925188316d7e8e2b2b960b4b17398fd4a3b198a026df70f4c7df6ca93edb9"
+    },
+    {
+      "frame": "UI-P-VISIT-MENU",
+      "width": 1440,
+      "height": 1431,
+      "format": "png",
+      "png_sha256": "dcda79f3e4e953ec2d32498bdebd16015cc59aa43a91672f8e4cd78364e92e27",
+      "svg_sha256": "d0ab2f399919e2ddd5a503a05450941bf2b8d1b0830a2ae13c7700106bfe2e1c"
+    },
+    {
+      "frame": "UI-P-VISIT-PENDING",
+      "width": 1440,
+      "height": 1182,
+      "format": "png",
+      "png_sha256": "273691aad4109f86691127caf2d9b5e5678d8f3e1f4bd792bd2ef968a79f1ff8",
+      "svg_sha256": "0891eec39247de4adec8e7a5d76a9897a2f1345f55bc2a8abc8de84e0fb630a9"
+    },
+    {
+      "frame": "UI-P-available",
+      "width": 1440,
+      "height": 857,
+      "format": "png",
+      "png_sha256": "e6f4136b223c2333f2488d4aa95164fc4b2e88243a32439206a3842cbc01cfe2",
+      "svg_sha256": "5bca7497fa53ac66b7e415926289db795f93ffbb679f703b011b13073cc2136b"
+    },
+    {
+      "frame": "UI-P-S06",
+      "width": 1440,
+      "height": 951,
+      "format": "png",
+      "png_sha256": "fa932369d71da3cca8ed7514d2709df4c68a2cb2225059924401b639e6a2e15b",
+      "svg_sha256": "cecca34b54096bae5b395ef72cada9d10ee3dc154898c0d267c1291f3bb72a3b"
+    },
+    {
+      "frame": "UI-P-S08",
+      "width": 1440,
+      "height": 857,
+      "format": "png",
+      "png_sha256": "f8547041723b441829e2d088ac6b9b87d4bf009abb5ac88999002799ec5cd075",
+      "svg_sha256": "4ede23688a8d85200ab5064c0cccc1bee222d6143bd9721d1aa8471d1d6077f2"
+    },
+    {
+      "frame": "UI-P-S09",
+      "width": 1440,
+      "height": 857,
+      "format": "png",
+      "png_sha256": "b3b70c500495c78248c33d85bf0fffa62c8232c2a428874fd46090526d572a74",
+      "svg_sha256": "eee293c6626473188b23c7f3039f8de29624f5fdb7852fb6f9fc25d46a177187"
+    },
+    {
+      "frame": "UI-P-S17",
+      "width": 1440,
+      "height": 660,
+      "format": "png",
+      "png_sha256": "9169de7710e61e003516a1d9a0455fb89f56756b3da64e5370a56186c4a63355",
+      "svg_sha256": "2cfbd521f4ecd1a17221552f001082ea4630c0fec5a291a47c077d29d0fe0b7c"
+    },
+    {
+      "frame": "UI-P-S18",
+      "width": 1440,
+      "height": 723,
+      "format": "png",
+      "png_sha256": "8a68f92b14fdb8a0169794441f77877b20bf291f63e6fd88d0a1823ab3f81ed9",
+      "svg_sha256": "21e15ad3bc9c58a0f5a9fff8b2753c472d1d4f26a75b734f8b0d50cab06bf516"
+    },
+    {
+      "frame": "UI-P-S16",
+      "width": 1440,
+      "height": 660,
+      "format": "png",
+      "png_sha256": "da61da3a28bbc7ed5c10361e2b73347a6e83adfaf72ff6cf2abffbdb0fe997e6",
+      "svg_sha256": "ebf77b70064b9dc82d4ad7de19e830b05d514e097796482b5aa777a680a28500"
+    },
+    {
+      "frame": "UI-P-S14",
+      "width": 1440,
+      "height": 723,
+      "format": "png",
+      "png_sha256": "fa1aa7319e148d73b6fc6d9237eba441d8c28e549382a798f9c1434e6224c6bb",
+      "svg_sha256": "de2e947a6baf9036b002b9805a209f8a20fab25c2fd9da199ad1409e5fcb1bcd"
+    },
+    {
+      "frame": "UI-P-S24",
+      "width": 1440,
+      "height": 1440,
+      "format": "png",
+      "png_sha256": "af5230e881d0b6e88ba1125c37226125bbc70631546e0777a4ebf164c99020c4",
+      "svg_sha256": "8d06e2d5535f46d9c79469cb92cebcaf410da93c7704bc5232e3dc25b815bbc8"
+    },
+    {
+      "frame": "UI-P-S25",
+      "width": 1440,
+      "height": 660,
+      "format": "png",
+      "png_sha256": "4e22e42712d8a7bc47c1095cd3ecb65321c5cb182cd6daa81ffd8ec9fc5b37d3",
+      "svg_sha256": "42604667cbdfab042c5e3b762e6f9af3a3178919c0db8e986ff81a3b30987083"
+    },
+    {
+      "frame": "UI-P-S19",
+      "width": 1440,
+      "height": 660,
+      "format": "png",
+      "png_sha256": "c4cd1fba1ffb305c02fee6e2cd6ff5e4fe49a7406b13d187cea0e1c07eee5ff1",
+      "svg_sha256": "0600641f596f25088ad10fa2f3c4f7c20af9e43f5f5be6d9fa71e5cb9f426d98"
+    },
+    {
+      "frame": "UI-P-S23",
+      "width": 1440,
+      "height": 660,
+      "format": "png",
+      "png_sha256": "6846cd294e6b8c43b1112ac5b932dca3f441bb91dabe7c9e1643979f89257e08",
+      "svg_sha256": "2357a68149906ed4d0722edc44e1bbe4086620ce6bd22151aa2567cb0a521d4a"
+    },
+    {
+      "frame": "UI-P-S13",
+      "width": 1440,
+      "height": 597,
+      "format": "png",
+      "png_sha256": "e5114678de5b1ddc767120ffee401d22d3c4dca12dd92e95b2668a06d65ee44a",
+      "svg_sha256": "f03814b837f7327a0d3a8a0ae5747d97bb8671606e1c4a9b0d290e2633ae5876"
+    },
+    {
+      "frame": "UI-T-NOART",
+      "width": 390,
+      "height": 6034,
+      "format": "png",
+      "png_sha256": "57d76aa92ddfc51e5cc0bb859491abf079826711bbbba620955213c832b1e2d3",
+      "svg_sha256": "cda94f096cc6dbde9389caccd1f2c2391b1610b20d85dd246081623cf910ed13"
+    },
+    {
+      "frame": "UI-T-NOSTORY",
+      "width": 390,
+      "height": 4928,
+      "format": "png",
+      "png_sha256": "88561284d7ee67a0dc037b493618b9f45553401c62ca0e85dd7e826452aebb46",
+      "svg_sha256": "9590f8b3b01849ef085f9b3a25a8d48941bffa826d67c54d49be0f5f519330e5"
+    },
+    {
+      "frame": "UI-T-WITHDRAWN",
+      "width": 390,
+      "height": 5722,
+      "format": "png",
+      "png_sha256": "0f53aad1167400bae1643ad3d0d76e9b61874317692382195f8105d8cb615898",
+      "svg_sha256": "adeaf254af4e7261732016f2c2a5b9b57817209945eccad14ab703d2462daa27"
+    },
+    {
+      "frame": "UI-T-MENU",
+      "width": 390,
+      "height": 3354,
+      "format": "png",
+      "png_sha256": "0ea1475df93e26b41d4c20efba5c023c3f522127bac01e0e6fd9879993d24569",
+      "svg_sha256": "3a67a3523ee828b9c6d855f7624805c6202e27906bc627a34c8043aff57cf7b4"
+    },
+    {
+      "frame": "UI-T-V01-H02",
+      "width": 390,
+      "height": 1616,
+      "format": "png",
+      "png_sha256": "f596a1a09532854fb5170af8039053f6211a9e14aef98a6dfa3cb367f5c1efe4",
+      "svg_sha256": "581b7a0640bbb9accf3a731c40274bd6fb1d7dec70d8423ff2779795c50d48b2"
+    },
+    {
+      "frame": "UI-T-V02-DIRECT",
+      "width": 390,
+      "height": 1669,
+      "format": "png",
+      "png_sha256": "a6f85059dee0b79722cd210aa8ce140b24aca3454be553c8c95755e04c108d63",
+      "svg_sha256": "acd8cb2b56161e0775d311f20d702c2d757278426f96491b192c84731e5f4761"
+    },
+    {
+      "frame": "UI-T-V02-MENU",
+      "width": 390,
+      "height": 1669,
+      "format": "png",
+      "png_sha256": "4808c42c50968574448bfe1870c99963fb0d52a6a31c3c022779aa5c8151f2ed",
+      "svg_sha256": "adf1ef6292155fcd51a8313a3c44db544e650650c146499dd782312c4e514020"
+    },
+    {
+      "frame": "UI-T-VISIT-DIRECT",
+      "width": 390,
+      "height": 2099,
+      "format": "png",
+      "png_sha256": "1d19698762a4e2b57060a163096d3242a4747fa8030d2282fcc6be889fd13755",
+      "svg_sha256": "dd8d5a7d08ab846ceb7524586426705a1c68c1e60e24f1d30918e734edc01240"
+    },
+    {
+      "frame": "UI-T-VISIT-MENU",
+      "width": 390,
+      "height": 2207,
+      "format": "png",
+      "png_sha256": "58c242ce2468cec107077e39b0118970e8fbc4c5aafdccddec995d9c4eb999ab",
+      "svg_sha256": "a737f02ef23c1621945a9b72e35c45e6e321e491603b177bee463c9978cb091c"
+    },
+    {
+      "frame": "UI-T-VISIT-PENDING",
+      "width": 390,
+      "height": 1542,
+      "format": "png",
+      "png_sha256": "5b21d5e4154de5a5051aa10e7fa5a814211705f12366b77176c6315c0dc1a75b",
+      "svg_sha256": "401964ecb2c422a50d789595fa085df2a7ff16f2e846ae04e975d6b598ed0e69"
+    },
+    {
+      "frame": "UI-T-available",
+      "width": 390,
+      "height": 1033,
+      "format": "png",
+      "png_sha256": "78ab97ac485e52eab03c34e1d457b6724c5acfc081b754f35d4219dc3f880502",
+      "svg_sha256": "03305597b5d5bd9244233763c1cdf759138344f7d04f08f9b2b2d9f216e173fb"
+    },
+    {
+      "frame": "UI-T-S06",
+      "width": 390,
+      "height": 1180,
+      "format": "png",
+      "png_sha256": "f7c95351717d41b19848488f2cf83f2d0440e77005148b01b029932d45a1baed",
+      "svg_sha256": "bca57f62a71185b7cc49e2ddedfac269aadeaeceac45e91ade954b8fdfcfefb3"
+    },
+    {
+      "frame": "UI-T-S08",
+      "width": 390,
+      "height": 1033,
+      "format": "png",
+      "png_sha256": "ffaa8ea453cbda0ab164a6d1bc8343d7dd3c717a4af322e2b880766d3009f4da",
+      "svg_sha256": "898fb8271336af8d31a13460fb22be21a7ee2ff7bf737491cf2213d2ae617ddd"
+    },
+    {
+      "frame": "UI-T-S09",
+      "width": 390,
+      "height": 1033,
+      "format": "png",
+      "png_sha256": "40efa1b5740bd753faf71289a7829ea56cdfcabba07a8d732786c3de5a4783b4",
+      "svg_sha256": "f901256d122d41adff7b203c3f4a5b63d5805f4b4536f06cc9718f2b7bb35489"
+    },
+    {
+      "frame": "UI-T-S17",
+      "width": 390,
+      "height": 778,
+      "format": "png",
+      "png_sha256": "c0d5c3ad3972ea0f9e7a0ae59b5a0fd55dba27858814efe3f5744ae2eadb25ae",
+      "svg_sha256": "879c03272a56df5b32df223cc8f66ec03a170317bb23a5ec31fa58c3514cec2c"
+    },
+    {
+      "frame": "UI-T-S18",
+      "width": 390,
+      "height": 841,
+      "format": "png",
+      "png_sha256": "927975356889a30eab81c36daedafe3ed585e8e04ebb36e047a5941b3b44efe1",
+      "svg_sha256": "c1250c1e40c0b24ae8472acb2eee296c90c0f56c96343627df503c0e4fd27e81"
+    },
+    {
+      "frame": "UI-T-S16",
+      "width": 390,
+      "height": 804,
+      "format": "png",
+      "png_sha256": "582fb926989b0a27287b9e1233d5fa2f86c8dec27c280e14a6cb82da8cc30996",
+      "svg_sha256": "830e3bf3f240cf9cc67091a5a9d304646622cb806359caa7f39e419ce965afc6"
+    },
+    {
+      "frame": "UI-T-S14",
+      "width": 390,
+      "height": 815,
+      "format": "png",
+      "png_sha256": "e5ed1615fb8c94e2748334dc3b7b1e4d495ac4da79d9b26793b2d0b0ff0e1f8c",
+      "svg_sha256": "2ea350ae37384445af9b19e6075a945e960d4e78db35a461efb5f9f1cd806f13"
+    },
+    {
+      "frame": "UI-T-S24",
+      "width": 390,
+      "height": 1810,
+      "format": "png",
+      "png_sha256": "8560b18088c3f8519ebf1ccafa836aa12eb3ef19d5d9e91f912ff0e796d6bc95",
+      "svg_sha256": "0f27b796757114512d95081cd99643c8af0200ab2a5849a1b79a2beb173c31fa"
+    },
+    {
+      "frame": "UI-T-S25",
+      "width": 390,
+      "height": 778,
+      "format": "png",
+      "png_sha256": "38e55006d745ea3ca78bccb83a8b56f64b04e17c02b8c58dfc57521a4d71c860",
+      "svg_sha256": "e3213b0d66f877622561b5d57f3516b08c08f280753c270cce27341b7d76095c"
+    },
+    {
+      "frame": "UI-T-S19",
+      "width": 390,
+      "height": 778,
+      "format": "png",
+      "png_sha256": "51d1e4917d4c241a2cfa93f49d6ec98794b3d3b989c69305012f709f1d587de3",
+      "svg_sha256": "2df0bff008b1fbc7f37067e19e3879c12fc2c152f0a70e036601f1547dfe68c4"
+    },
+    {
+      "frame": "UI-T-S23",
+      "width": 390,
+      "height": 778,
+      "format": "png",
+      "png_sha256": "5a13e89c616ffddbb8b04cda059a350a8d24bc4127b4d75e7922778a7d63fb68",
+      "svg_sha256": "de3201c0c15bb85bd511be354080844aa8c0804d991b65fd9e7cbcd3aaa8f286"
+    },
+    {
+      "frame": "UI-T-S13",
+      "width": 390,
+      "height": 689,
+      "format": "png",
+      "png_sha256": "00bc333f849523cbd2d0489a7ac0141d5b30c459310d9bcb79b4188b8076e43c",
+      "svg_sha256": "783768132e31ad5c18be351f748a06d4415a848c31395519b51c0e3d8426d59c"
+    },
+    {
+      "frame": "UI-P-C1",
+      "width": 1440,
+      "height": 1668,
+      "format": "png",
+      "png_sha256": "28c373abc9bae9a000d723f8c84ff14436478b1f26e23ea6ab844bffb691217a",
+      "svg_sha256": "667635ee5e13096a6517e7c6ff26025d9e0edc3c94b60acb9853693f09ce7081"
+    },
+    {
+      "frame": "UI-T-C1",
+      "width": 390,
+      "height": 1919,
+      "format": "png",
+      "png_sha256": "a5fa6b194a3f94730c4e7012e4b7297a82c15d636f2b1147abc490d415b9a785",
+      "svg_sha256": "84947f6c47c7d0ec23630541e91a2f92144fd28358cb43591cb5f5db6de4d4b0"
+    },
+    {
+      "frame": "UI-P-C2",
+      "width": 1440,
+      "height": 1235,
+      "format": "png",
+      "png_sha256": "b059107dd8cd712859cfa9be5544af2a58164a018ddd5cae865f12eb9a8593ae",
+      "svg_sha256": "b6a55f5047a2e3918dec6029bdef219232e58abed6ca77493bbd8e07392283b5"
+    },
+    {
+      "frame": "UI-T-C2",
+      "width": 390,
+      "height": 1514,
+      "format": "png",
+      "png_sha256": "14a062e46c159769aeeeff7bf16d2804949cf900145c6b795e3785c5d431c6b7",
+      "svg_sha256": "191849848e35c069c7f0b884f295e5339f55284998330d9958426142d395ed58"
+    },
+    {
+      "frame": "UI-P-C3",
+      "width": 1440,
+      "height": 1386,
+      "format": "png",
+      "png_sha256": "18f5ac225c9b5fd178185476ca7667331bda7464cde5112cb22fa27da97f32d2",
+      "svg_sha256": "b513e3f7ea8d2f4ff7b7b8fb7831569f05cff2fedb68ede1a6da080a2917c1b9"
+    },
+    {
+      "frame": "UI-T-C3",
+      "width": 390,
+      "height": 1705,
+      "format": "png",
+      "png_sha256": "f85429b7a5daabd3dbf0b1c74bc932f1c6334e09d5280479febd68284e1191ff",
+      "svg_sha256": "0b18207ab87c1be8d0d28917b27a30351cd2d723103d2e489d058557a52bcc1c"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 * text=auto eol=lf
 
+# Preserve imported historical evidence bytes, including original CRLF.
+/research-evidence/** -text
+/coordination/history/** -text
+
+*.mp4 binary
 *.png binary
 *.jpg binary
 *.jpeg binary

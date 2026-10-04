@@ -1,0 +1,185 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "scope": "Complete PC Storefront proposal; native sections, partial bridges and state fragments; phone deferred",
+  "current_version": "PC reading set 0.4; recovery 0.5",
+  "transparent_background": false,
+  "outputs": [
+    {
+      "version": "0.1",
+      "file": "research-evidence/g2-07-storefront/imagegen/part1-pc-v0.1.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-d6aa2f2d-a215-472a-a90a-a817454a7230.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "151a2af25d26fb5601a5d1b69c6d555c6b776d4bbbc20c02b631a32879da0d3e",
+      "byte_identical_copy": true
+    },
+    {
+      "version": "0.2",
+      "file": "research-evidence/g2-07-storefront/imagegen/part1-pc-v0.2.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-c776cd4b-9a90-426d-8638-11b9721f42fc.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3606f1734212b133a28834cf77de81468ae84cdcf03b9487480279f4471ec1a6",
+      "byte_identical_copy": true
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-bridges-v0.4.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-2fdb64b0-f9ba-4338-99bd-2ddc42a49c2d.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1636270,
+      "sha256": "11ddbed181bd0c6d77d776be616d7b6f7231e392cd16be0210aaab1d0b27dc3d",
+      "byte_identical_copy": true,
+      "prompt": "pc-bridges-v0.4-prompt.txt",
+      "prompt_sha256": "227e5fcf828817494b0e21f22ebb99b76782ac3294cac77819fef560f037fc86",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-kitchen-v0.3.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-c0ea8c34-f57a-49e7-b23a-b540f81635ff.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1975277,
+      "sha256": "43340c7f367ce591144b51d682d3aa02267495695eb60b2fdde6fd22f0ffafff",
+      "byte_identical_copy": true,
+      "prompt": "pc-kitchen-v0.3-prompt.txt",
+      "prompt_sha256": "06d71b52ee7a69c81bbb4a59253d665c0a05680d581c7b4cb7328b3c7a3ef7e7",
+      "status": "composition/iteration evidence; corrected native sections current"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-kitchen-v0.4.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-d44c6aca-7d1c-48b9-b832-e0985da47efd.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1958893,
+      "sha256": "fa090d33f8c15e812f23f969fe67274a01c0607b6fc49d8de73ab3d3995b1665",
+      "byte_identical_copy": true,
+      "prompt": "pc-kitchen-v0.4-prompt.txt",
+      "prompt_sha256": "53fb8d5cf479b5949feb276b7262176383db68a15ecd8414901e23fc4d928f1c",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-presentation-v0.4.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-5b5bd0e8-8750-4d9e-aee0-785f8b1abbf7.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2080102,
+      "sha256": "88ccfc40161a90564b80580b625ad8951d310ffd06f7a7c7e81f2c6c9ea91226",
+      "byte_identical_copy": true,
+      "prompt": "pc-presentation-v0.4-prompt.txt",
+      "prompt_sha256": "f68f139fd5e13e9e5058d6e3bef08bbd934c0c1ffc3c82bc7651bfc47a20470b",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-recovery-v0.4.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-31118b38-6406-4b09-a147-8010d1b7d31e.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1781025,
+      "sha256": "d228859d761bf27dc3c885bf0ec759a6f4a4dc8b53bb0fbec1f0085103d11183",
+      "byte_identical_copy": true,
+      "prompt": "pc-recovery-v0.4-prompt.txt",
+      "prompt_sha256": "e16ec270de2a0a000d7b768b5df18cabb1acdb9731f202f90406fef38f2b838e",
+      "status": "rejected selection mismatch; superseded by v0.5"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-recovery-v0.5.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-9cb45961-b9f8-498b-8913-bc0d3450f731.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1848526,
+      "sha256": "47fabd835bcf4c5702e5777780019ac333ffdc3f920ed609c4929aab8d157dd0",
+      "byte_identical_copy": true,
+      "prompt": "pc-recovery-v0.5-prompt.txt",
+      "prompt_sha256": "295f500e0c696423944ed084c56f0647088c829a9d13379bc9c75c591dd71194",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-states-v0.4.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-f55727a4-3f40-46a2-800e-598628776a7d.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1564356,
+      "sha256": "426ef3162b1e9a1c88832f2c8f62dabdc2eae6d3c1ef4597bf77312c3d0ac078",
+      "byte_identical_copy": true,
+      "prompt": "pc-states-v0.4-prompt.txt",
+      "prompt_sha256": "91c0a251ee782f7ffa607502e35a17740c791d60b9c49543bf0be5356a3cd267",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-story-v0.4.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-6ea67b57-1881-452a-98cd-9bd0b8f6055c.png",
+      "width": 2057,
+      "height": 765,
+      "bytes": 1810913,
+      "sha256": "81299fd1c977a5d9755c4af0f1087c0ca88d3a6fc691018781f242be101920a0",
+      "byte_identical_copy": true,
+      "prompt": "pc-story-v0.4-prompt.txt",
+      "prompt_sha256": "845fc1b2b6bfdc7f2a1f17c102be7d1185292e6b804e3ae5b110dc45484f2799",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/pc-visit-exception-v0.3.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-5e947634-84c3-45e3-b737-1182e59d6502.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1761194,
+      "sha256": "390030b079d6b925b260c3e6fa635f0dca8c0eca5f5d5802a08183d718ce52a7",
+      "byte_identical_copy": true,
+      "prompt": "pc-visit-exception-v0.3-prompt.txt",
+      "prompt_sha256": "c09c5dd5b308ec6aa2054a5264beb54556855afee2552ed01c120f31d5bb5cb2",
+      "status": "static proposal; inspected; no approval"
+    },
+    {
+      "file": "research-evidence/g2-07-storefront/imagegen/storefront-pc-v0.3.png",
+      "original": "C:/Users/aboul/.codex/generated_images/01a1073b-a0b2-7510-8092-feda7789c366/exec-2cfafaf9-2cf1-48ef-842e-12ffd5abaa3a.png",
+      "width": 793,
+      "height": 1981,
+      "bytes": 2170267,
+      "sha256": "6df9461e7f9ccd71c51a913cbd93e56e8e3bd2e68c0f6112f5b1744346054c80",
+      "byte_identical_copy": true,
+      "prompt": "storefront-pc-v0.3-prompt.txt",
+      "prompt_sha256": "3fcc3a2198bad27c9d1d87329d9740b8c01bfb585b895899f52ccb8bf613550d",
+      "status": "composition/iteration evidence; corrected native sections current"
+    }
+  ],
+  "references": [
+    {
+      "file": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989"
+    },
+    {
+      "file": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb"
+    },
+    {
+      "file": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06"
+    },
+    {
+      "file": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff"
+    }
+  ],
+  "final_edit_prompt": "part1-pc-v0.2-prompt.txt",
+  "prompt_sha256": "c3a0594837548b8bf3968668cabaacb260f0cf3b34a036d7ac625338aea05386",
+  "sources": [
+    "ORI-COPY-H01-01-06",
+    "ORI-COPY-H02-01-07",
+    "ORI-COPY-H03-01-09",
+    "ORI-COPY-H04-01-11",
+    "ORI-COPY-E01-E03",
+    "ORI-COPY-D01-01-11",
+    "ORI-COPY-M01-01-10",
+    "ORI-COPY-S06-S12",
+    "ORI-COPY-S14/S17/S18/S19/S23/S24/S25",
+    "ORI-DISH-02-V01/V02",
+    "ORI-DISH-04",
+    "ORI-DISH-08",
+    "ORI-DISH-10",
+    "ORI-MENU-P02/P03/P05/P09/P11/P12"
+  ],
+  "status": "visual proposal; no approval, editability or interaction claimed",
+  "production": "Built-in ImageGen only; opaque raster; no scripted editing/resampling; original sources intact",
+  "cleanup": "Cleanup inventory: parent IAB has zero tabs; PID22156 no longer running. Temporary review surfaces expired or stopped; no detector overlay or injected app"
+}

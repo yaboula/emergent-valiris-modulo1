@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-03",
+  "preserved_original_files": 475,
+  "inventory_records": 487,
+  "operating_files_checked": 75,
+  "local_link_targets_checked": 2146,
+  "failures": [],
+  "secret_pattern_file_count": 0,
+  "protected_source_changes": [],
+  "scope": "Migration integrity and local link targets only; no new UX, independent design, runtime, software or external URL validation.",
+  "staged_original_blobs_hash_verified": 475,
+  "active_whitespace_check": "passed; historical originals excluded because exact preservation retains their existing CRLF/trailing whitespace/blank EOF",
+  "original_whitespace_locations": 517,
+  "shared_checkout": "not switched, staged, committed or reset; this migration uses its own worktree/branch",
+  "tracker_readback": {
+    "pr21_head": "b28ee63ef887c9d3bc9a6a8ad5165e9e160aa9fc",
+    "pr21_state": "OPEN",
+    "pr21_draft": true,
+    "issue5_state": "OPEN",
+    "linear": "not inspected or changed by this migration"
+  },
+  "exact_external_duplicates_removed": 470,
+  "parallel_g2_06_pr": {
+    "number": 22,
+    "head": "4f97693bbdb207e910146be74330ea852d5b6861",
+    "state": "OPEN",
+    "draft": true,
+    "not_modified": true
+  }
+}

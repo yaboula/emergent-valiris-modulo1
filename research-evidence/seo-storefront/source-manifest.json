@@ -1,0 +1,179 @@
+{
+  "consulted_on": "2026-10-04",
+  "operating_baseline": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+  "published_base_branch": "docs/m1-g1-orilla-content-handoff",
+  "base_pr": 36,
+  "own_branch": "docs/m1-seo-orilla-content-review",
+  "base_remote_check": "Matched 81f72e68aac5b6fd92a3511ac684edc288f739cc before creation and editing; manually observed with git ls-remote.",
+  "sources": [
+    {
+      "path": "docs/design/orilla-case.md",
+      "reviewed_sha": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+      "expected_blob": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+      "verified_at": {
+        "5bd3184ca48be8d579e3f82d3361dbf5de0ed228": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+        "81f72e68aac5b6fd92a3511ac684edc288f739cc": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+        "HEAD": "bade7126a2d4222227095a1f8e9fa6ae85c5c687",
+        "6ce8634e98da3d975a376a265de77b940ed22f37": "bade7126a2d4222227095a1f8e9fa6ae85c5c687"
+      },
+      "scope": "Full paired case/copy or architecture review."
+    },
+    {
+      "path": "docs/design/m1-storefront-content-and-copy.md",
+      "reviewed_sha": "5bd3184ca48be8d579e3f82d3361dbf5de0ed228",
+      "expected_blob": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+      "verified_at": {
+        "5bd3184ca48be8d579e3f82d3361dbf5de0ed228": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+        "81f72e68aac5b6fd92a3511ac684edc288f739cc": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+        "HEAD": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf",
+        "6ce8634e98da3d975a376a265de77b940ed22f37": "bfc11eba8d86c2192e0c4fef766bf2728d7d15cf"
+      },
+      "scope": "Full paired case/copy or architecture review."
+    },
+    {
+      "path": "docs/design/m1-storefront-information-architecture.md",
+      "reviewed_sha": "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b",
+      "expected_blob": "8c8a56aa5ce22def06f659398ad9900bce7a78bf",
+      "verified_at": {
+        "ff8fc061dfb4e63461ee2b77b5a18f02108edb6b": "8c8a56aa5ce22def06f659398ad9900bce7a78bf",
+        "81f72e68aac5b6fd92a3511ac684edc288f739cc": "8c8a56aa5ce22def06f659398ad9900bce7a78bf",
+        "HEAD": "8c8a56aa5ce22def06f659398ad9900bce7a78bf"
+      },
+      "scope": "Full paired case/copy or architecture review."
+    },
+    {
+      "path": "AGENTS.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "cb20abcde97d333c3b0915e4e39f163b858d0305",
+      "read_scope": "Full common instructions; own-checkout authority."
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "9e01b70139411ee21872c59d668e928e7449ceb9",
+      "read_scope": "Full workflow; stacked dependency and author rules."
+    },
+    {
+      "path": "HANDOFF.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "ef7695d698a6c9c5cb9e4e84bc0900862173bfc2",
+      "read_scope": "Current operating entry, dependencies and checkpoints; historical handoffs retained, not re-audited."
+    },
+    {
+      "path": "coordination/README.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "d044f010b31ee6fdb531dd001eb963b0ba513254",
+      "read_scope": "Current operating index and SEO handoff."
+    },
+    {
+      "path": "coordination/valiris-restaurants/SEO_Estrategia_Contenido_Prompt.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "710673a55e0c514729b052619bd3befd8399efa0",
+      "read_scope": "Full current specialty contract, including later ORILLA CASE/COPY handoff."
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_G2_Brief_Arranque_Diseno.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "05402afe09bbc3f5cdf00c6665d5314267703c69",
+      "read_scope": "Common current brief and adaptive/content decisions."
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Contexto_Comun_Agentes.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "0c3dfdeac265839f5f69a0d5e753b6f1360fbacd",
+      "read_scope": "Full shared context."
+    },
+    {
+      "path": "coordination/valiris-restaurants/Valiris_Organizacion_Protocolo_Agentes.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "3a39e3220af52ad6925db9f7b4546cc0b8a58e11",
+      "read_scope": "Shared protocol and responsibilities; current later decisions override historical preparation."
+    },
+    {
+      "path": "docs/research/storefront-digital-menu/functional-definition/functional-definition.es.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "eb1b18fc43bd26c0a314b3ed4c5f87df123edfc4",
+      "read_scope": "Full functional definition; later launch decisions preserved."
+    },
+    {
+      "path": "docs/project/roadmap.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "dbc14d853286634a69d8dc6abde9c37ce6897be8",
+      "read_scope": "Full roadmap; M1 design versus M2 preparation and later implementation."
+    },
+    {
+      "path": "docs/product/m1-design-briefs.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "7ed2d854cf5f8e9ff97587fbf23d837b98cfd36f",
+      "read_scope": "Both M1 briefs; accepted capabilities and factual/public/private/language criteria."
+    },
+    {
+      "path": "docs/adr/0005-repository-and-product-language.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "ab739d3c33159bdfc8f55ce20231fddce845106e",
+      "read_scope": "Full language ADR; English repository documents, Spanish-first UI, guest-language and RTL preparation obligations preserved."
+    },
+    {
+      "path": "docs/design/m1-public-presence-and-discovery.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "4e84997d2240cc97d6fd82b53ca75aaf008f78ea",
+      "read_scope": "Public structure, PV-P tasks, walkthroughs and contrasts; applicable operator-maintenance links."
+    },
+    {
+      "path": "docs/design/m1-connected-journey.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "bcd3ae32654a331c416017ae00049da73db0df7f",
+      "read_scope": "Applicable shared public C1-C3 rules, direct/menu/detail entries and public change/recovery contrasts; operator history not re-audited."
+    },
+    {
+      "path": "docs/design/m1-coverage-and-evidence.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "4e10dab5c6bc4be3d7f5bae19d05dcb1939b28bc",
+      "read_scope": "Coverage purpose, CG01-CG12 gaps and next-assignment checkpoints; no repeated audit of all capability rows."
+    },
+    {
+      "path": "docs/project/valiris-restaurants-brand-foundation-brief.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "76b70ef50d98e6fab563019cfba704da9e0172cb",
+      "read_scope": "Current scoped brand direction and ownership; no new visual selection."
+    },
+    {
+      "path": "docs/design/valiris-restaurants-brand-refinement.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "8412acb4497425ec2aa171a8d5ac9f3b0aaa230a",
+      "read_scope": "Current selected direction and application constraints; no rendered visual audit."
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "b9ee10a65366a09c3227b683730de7364ffea39e",
+      "read_scope": "Exact selected-reference record; existing image assets not re-audited."
+    },
+    {
+      "path": "research-evidence/reviews/orilla-content-5bd3184/g1-review.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "b0bd5b49a9d00c40344008591c3ec2277555d1ee",
+      "read_scope": "Full content receipt and limits."
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/delivery.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "4f14a32f435ab172b1368d5af36179ed0b65ba4f",
+      "read_scope": "Full author delivery and source pair."
+    },
+    {
+      "path": "research-evidence/g2-04-storefront/author-review.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "c1fa89cdd38ece0c42a807b15f46fb8a6602f755",
+      "read_scope": "Author contrasts and pending cross-specialist review; specialty questions remain in K section 7."
+    },
+    {
+      "path": "research-evidence/g2-02-storefront/content-requests.md",
+      "baseline_sha": "81f72e68aac5b6fd92a3511ac684edc288f739cc",
+      "baseline_blob": "03610a258902e0657319cfba8367d432070eb9ed",
+      "read_scope": "Architecture requests including full XR02."
+    }
+  ],
+  "official_source_method": "Web tool reads of official pages on 2026-10-04; URLs/excerpts/scope in primary-sources.md, no site crawl or raw-page reproduction.",
+  "review_limits": "Author documentary review, not acceptance, rendered inspection, implementation testing or independent review."
+}

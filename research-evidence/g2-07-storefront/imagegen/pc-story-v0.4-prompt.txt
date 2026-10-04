@@ -1,0 +1,17 @@
+Use case: ui-mockup. Asset: native1536x1024 PC H03 Nuestra mesa section, same connected ORILLA fullStorefront.
+Input1 is full page. Faithfully recompose its pink H03 section at readable desktop size. Broadroundedgeometricblackheadline, coralpinklightcolourfield, softmaterialdepth. Two editorial columns: complete story left, fictional culinarypassingtable scene right, with two occasional objectcharacters (blue spoon and ivoryplate) sharing a red ovenpan, wooden table, small tables implied, textilesyellow/blue, greenwarm pendant. They are culinaryillustration, NOT literalportraits of Inés/Dani. Do notassigncharacternames/roles. Preservequietreadingsurfaceandactualtextoutsideart.
+Large "Nuestra mesa", subtitle "Inés, Dani y una mesa reparada a mano."
+Two story paragraphs withALLwords unchanged, readableatleast20px:
+"ORILLA empezó con una conversación entre hermanos. Inés quería que todos probaran las verduras recién salidas del horno. Dani quería que hubiera tiempo para hablar después. En sus primeras mesas de prueba, compartirlo todo dejaba poco espacio a quien venía a comer por su cuenta. Por eso conviven la berenjena en dos tamaños, el arroz para compartir y los platos individuales."
+"Dani reparó una mesa de madera para seis y la rodeó de mesas pequeñas. Inés dejó el horno como centro de trabajo. La idea sigue en cada servicio: pasar un plato, elegir el tuyo y quedarse un rato dentro del horario del local."
+Belowleft two smallorganiccolourreadingfields, firstsoftyellowdarktext, secondcobaltdarkblueWHITEtext:
+"Inés Vidal · cocina."
+"Verduras primero al horno, aliños después."
+"Dani Vidal · sala."
+"Mesas pequeñas, una mesa de seis y tiempo para la sobremesa."
+ThesearePERSONtext profiles separatefromscene, notnamedcartoons.
+Scene caption readableatleast18px: "Escena ficticia de ORILLA".
+Below scene full placeconditions:
+"Una sala luminosa, madera y textiles de color. Puedes venir a comer por tu cuenta o compartir con un grupo pequeño. Cuando la sala se llena, se oye la conversación de otras mesas."
+Blackpillaction "Horarios y visita".
+Keep fullcontentincludingconversationnoiseandlocalhourslimit. Text mustnotbetiny, nofakehumanphotos, nocoast, noprizes/reviews/sourcingclaims. Scene cancropculinaryobjectswithoutobscuringtext. Noadditionalstoryor restaurant. No phone/UIappcode.

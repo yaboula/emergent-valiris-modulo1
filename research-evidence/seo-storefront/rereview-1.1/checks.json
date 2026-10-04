@@ -1,0 +1,230 @@
+{
+  "checked_on": "2026-10-04",
+  "baseline": "56306793d54bb8df74305134ec6284c6d647eebf",
+  "status": "pass",
+  "scope": "Author documentary checks; twelve manual affected-use contrasts in review.md; no rendered/runtime/G4/participant validation.",
+  "checks": [
+    {
+      "check": "isolated_assignment",
+      "status": "pass",
+      "detail": {
+        "branch": "docs/m1-seo-orilla-1-1-review",
+        "root": "D:/the next level/valiris-restaurants-worktrees/seo-orilla-1-1-review"
+      }
+    },
+    {
+      "check": "frozen_source:docs/design/orilla-case.md",
+      "status": "pass",
+      "detail": {
+        "4b382bebe5d5c6cad21a7edcaffab053c433a0e9": "ad0f42fc461396e1d28191c667b077c060195a38",
+        "56306793d54bb8df74305134ec6284c6d647eebf": "ad0f42fc461396e1d28191c667b077c060195a38",
+        "HEAD": "ad0f42fc461396e1d28191c667b077c060195a38",
+        "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4": "ad0f42fc461396e1d28191c667b077c060195a38"
+      }
+    },
+    {
+      "check": "frozen_source:docs/design/m1-storefront-content-and-copy.md",
+      "status": "pass",
+      "detail": {
+        "4b382bebe5d5c6cad21a7edcaffab053c433a0e9": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+        "56306793d54bb8df74305134ec6284c6d647eebf": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+        "HEAD": "d570c699455169c4d27c2fe8fc384250ce47fbd7",
+        "d9ef8c9bc90f77de8d38dd14b1664d8384d4dea4": "d570c699455169c4d27c2fe8fc384250ce47fbd7"
+      }
+    },
+    {
+      "check": "frozen_source:docs/design/m1-storefront-information-architecture.md",
+      "status": "pass",
+      "detail": {
+        "ba44c6809516d8d078d192f5f6a423b12cd8b673": "297d25f2869970b268bc1e8671bd0cbe74c477fd",
+        "56306793d54bb8df74305134ec6284c6d647eebf": "297d25f2869970b268bc1e8671bd0cbe74c477fd",
+        "HEAD": "297d25f2869970b268bc1e8671bd0cbe74c477fd"
+      }
+    },
+    {
+      "check": "six_historical_evidence_files",
+      "status": "pass",
+      "detail": {
+        "research-evidence/seo-storefront/checks.json": "ff170aaa26dfed84e0933470a4836277793e1507",
+        "research-evidence/seo-storefront/delivery.md": "379dec72361f0c1989d314a8a15601da22e8c6bf",
+        "research-evidence/seo-storefront/documentary-contrasts.md": "1ad6da0300cb07049b02432ed2f702ea41c3c979",
+        "research-evidence/seo-storefront/primary-sources.md": "2eef89f06759477dc64372efaa5fb9b9a5b3ca24",
+        "research-evidence/seo-storefront/source-manifest.json": "911699348914ec054e3d0acc5718fa78766b966a",
+        "research-evidence/seo-storefront/verify.py": "26d4a8912fd9ebb5e2d2f6b3d9aad70792f85efd"
+      }
+    },
+    {
+      "check": "original_review_body",
+      "status": "pass",
+      "detail": "Original 1.0 body retained; separate current pointer/outcomes added."
+    },
+    {
+      "check": "exact_affected_copy_rows",
+      "status": "pass",
+      "detail": {
+        "old_count": 83,
+        "new_count": 94,
+        "revised": [
+          "ORI-COPY-H02-07",
+          "ORI-COPY-M01-03",
+          "ORI-COPY-S10",
+          "ORI-COPY-S11",
+          "ORI-COPY-S14",
+          "ORI-COPY-S18"
+        ],
+        "added": [
+          "ORI-COPY-E01",
+          "ORI-COPY-E02",
+          "ORI-COPY-E03",
+          "ORI-COPY-H03-09",
+          "ORI-COPY-META-01",
+          "ORI-COPY-META-02",
+          "ORI-COPY-META-03",
+          "ORI-COPY-META-04",
+          "ORI-COPY-META-05",
+          "ORI-COPY-META-06",
+          "ORI-COPY-META-07"
+        ],
+        "removed": []
+      }
+    },
+    {
+      "check": "category_mapping_and_membership",
+      "status": "pass",
+      "detail": "Same four IDs/full headings/memberships; mapped compact jumps."
+    },
+    {
+      "check": "exception_revision_and_same_input",
+      "status": "pass",
+      "detail": "Revision 2 dates the same kitchen-service input; no local-hours change."
+    },
+    {
+      "check": "retained_offer_recipe_visit_rows",
+      "status": "pass",
+      "detail": {
+        "rows_compared": 46,
+        "scope": "Mechanical preservation of relevant retained records, not a new factual audit."
+      }
+    },
+    {
+      "check": "independent_fiction_in_metadata",
+      "status": "pass",
+      "detail": [
+        "ORI-COPY-META-01",
+        "ORI-COPY-META-02",
+        "ORI-COPY-META-03",
+        "ORI-COPY-META-04",
+        "ORI-COPY-META-05",
+        "ORI-COPY-META-06",
+        "ORI-COPY-META-07"
+      ]
+    },
+    {
+      "check": "unchanged_common_readings",
+      "status": "pass",
+      "detail": {
+        "reused_records": 15,
+        "not_refreshed": "Historical reads reused only where their blobs match."
+      }
+    },
+    {
+      "check": "later_owner_return_provenance",
+      "status": "pass",
+      "detail": {
+        "sha": "70512d7a3d1afcd7f3aa0c9823a4d6e7b08dde8c",
+        "path": "research-evidence/g2-02-storefront/content-1-1-adoption.md",
+        "blob": "62004a97d854e803ad9ee38f2498a418f4f6cad9",
+        "scope": "Owner adoption declaration only; not a new IA v0.4 SEO comparison or verifier reproduction."
+      }
+    },
+    {
+      "check": "per_recommendation_results",
+      "status": "pass",
+      "detail": [
+        "SEO-R01",
+        "SEO-R02",
+        "SEO-R03",
+        "SEO-R04",
+        "SEO-R05",
+        "SEO-R06",
+        "SEO-R07",
+        "SEO-R08",
+        "SEO-R09"
+      ]
+    },
+    {
+      "check": "twelve_affected_use_contrasts",
+      "status": "pass",
+      "detail": [
+        "RR11-C01",
+        "RR11-C02",
+        "RR11-C03",
+        "RR11-C04",
+        "RR11-C05",
+        "RR11-C06",
+        "RR11-C07",
+        "RR11-C08",
+        "RR11-C09",
+        "RR11-C10",
+        "RR11-C11",
+        "RR11-C12"
+      ]
+    },
+    {
+      "check": "every_affected_id_cited",
+      "status": "pass",
+      "detail": {
+        "revised": 6,
+        "new": 11
+      }
+    },
+    {
+      "check": "valid_frozen_source_ids",
+      "status": "pass",
+      "detail": {
+        "unique_cited": 119,
+        "unmatched": []
+      }
+    },
+    {
+      "check": "local_links_and_fragments",
+      "status": "pass",
+      "detail": {
+        "checked": 42,
+        "errors": []
+      }
+    },
+    {
+      "check": "markdown_tables",
+      "status": "pass",
+      "detail": {
+        "tables": 10,
+        "errors": []
+      }
+    },
+    {
+      "check": "owned_new_paths_only",
+      "status": "pass",
+      "detail": [
+        "docs/design/m1-storefront-discovery-content.md",
+        "research-evidence/seo-storefront/rereview-1.1/checks.json",
+        "research-evidence/seo-storefront/rereview-1.1/delivery.md",
+        "research-evidence/seo-storefront/rereview-1.1/later-architecture-return.md",
+        "research-evidence/seo-storefront/rereview-1.1/review.md",
+        "research-evidence/seo-storefront/rereview-1.1/source-manifest.json",
+        "research-evidence/seo-storefront/rereview-1.1/verify.py"
+      ]
+    },
+    {
+      "check": "git_diff_check",
+      "status": "pass",
+      "detail": "clean"
+    }
+  ],
+  "pending": [
+    "G1 receipt/consolidation of the parallel returns",
+    "Any further IA v0.4 comparison assigned by G1",
+    "Applied PC/phone and behaviour review",
+    "Linguistic/technical and independent G4 application review"
+  ]
+}

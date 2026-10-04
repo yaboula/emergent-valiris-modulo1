@@ -1,0 +1,31 @@
+Use case: ui-mockup. Asset: native readable PC Storefront section / direct-entry Horarios y visita sample.
+Reference image1 is the ORILLA full page. Preserve the same bright restaurant identity, broad heavy rounded geometric headings, warm ivory, mint/coral/yellow planes, tactile cobalt chair/glass and textile with soft depth. Create one LANDSCAPE DESKTOP SECTION at approximately1536x1024, straight-on UI without device/browserframe. This is a contiguous H04 variant for direct-entry and confirmed kitchen exception, not another restaurant or commercial landing page.
+Keep an upper compact context line, readable:
+"ORILLA · Cocina mediterránea en Alcoy (Alicante)"
+"ORILLA es un restaurante ficticio creado para esta demostración."
+A black pill "Ver carta" at upper right remains immediate.
+Large "Horarios y visita", below "Alcoy (Alicante)" and "Dirección y contacto de ejemplo no disponibles."
+Use ~70% width left calm functional table and reading fields, 30% right material chair/table/glass crop, no characters, no food. All text stays outside artwork; right scene does not cover info.
+
+Table titled by visible columnheads "Días" / "Horario del local" / "Horario de cocina".
+Rows verbatim:
+"Lunes" | "Cerrado" | "Cerrada"
+"Martes a jueves y domingo" | "12:30–17:00" | "13:00–15:30"
+"Viernes y sábado" | "12:30–17:00 y 19:30–23:00" | "13:00–15:30 y 20:00–22:00"
+Separate yellow outlined/light yellow callout AFTER ordinary table, dark readable text:
+"Horario especial de cocina · domingo 4 de octubre de 2026, 13:30–15:30."
+Do not replace the premises schedule; no "hoy" or general status open badge.
+
+Complete text beneath:
+"Puedes consultar la carta cuando la cocina está cerrada. Las bebidas se sirven durante el horario del local. La disponibilidad de los platos se confirma para cada servicio."
+Group practical conditions into THREE readable editorial groups, NO invented headings:
+Group1 "Mesas pequeñas y una mesa de seis. Para grupos de hasta seis, la distribución necesita confirmación."
+Group2 "Hay un escalón en la entrada. Las medidas de paso y del aseo están pendientes."
+"Las condiciones para venir con animales están pendientes."
+Group3 "No hay terraza en este caso de ejemplo."
+"No hay servicio de pedidos para llevar en este caso."
+Final demo notice separate gentle field:
+"Esta demostración no permite llamar, abrir un mapa ni reservar una mesa."
+Second black pill "Ver carta".
+
+Do not crop/truncate text or amounts, maintain full exception date, noaddress/map/call/reservation fictitious targets, no fabricatedliveavailability. Reading size practical, keep scene secondary to table. This is static ImageGen review evidence; no implementation code or functional links.

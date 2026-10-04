@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-02",
+  "baseline": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+  "head_upstream_pr_match": true,
+  "checkout_clean_before_after": true,
+  "pr": {
+    "headRefOid": "d71d3de81d611b76d2d80aab86ead119b34b0a0d",
+    "isDraft": true,
+    "state": "OPEN",
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/21"
+  },
+  "issues": [
+    {
+      "number": 5,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/5"
+    },
+    {
+      "number": 4,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/4"
+    }
+  ],
+  "local_report_handoff_links_valid": true,
+  "old_fo_final_and_preliminary_evidence_unchanged": true,
+  "historical_handoff_section_unchanged": true,
+  "handoff_before_sha256": "a3b010c08124019456182c7fe4381ade67c5018bb469b4daafcfbd92cd147976",
+  "handoff_after_sha256": "a4b9217835991a6c211d49e26bfee00e0baca10b43629c859a7a49abdcc9ab81",
+  "report_sha256": {
+    "g1-review.md": "c060bea39cfa8b9382d36eb0d88b977b817854522a2207d92a88b743cefcf57e",
+    "g4-review.md": "3dd5859616be226eb53d2f92792ff46dcfe796f3ef2af2066c3c63eec0c7d109",
+    "review-result.md": "37fabe7e6388e0fa86f5c08da7a0c777d7701c4189fa317c17441644fab0e76b"
+  },
+  "disposition": "No required documentary correction reproduced; new aggregate reading complete; original M1 actual evidence and closure remain pending",
+  "tracker_mutations_or_external_messages": false
+}

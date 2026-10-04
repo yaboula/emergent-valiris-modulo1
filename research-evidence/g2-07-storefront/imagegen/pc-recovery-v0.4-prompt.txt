@@ -1,0 +1,46 @@
+Use case: ui-mockup. Asset: ORILLA PC recovery / no-media reading reviewboard.
+Reference1 is partialfunctionalORILLAbridges, reference2currentstatefragments. Preserve brightivoryblackroundedgeometrictype,mint andyellowaccent, cleanfunctionalreading. ONE1536x1024 landscapePCreviewboard FOUR generous2x2fragments withsmallENGLISH reviewannotations outside UI; these are separate resets not4destinations. Noimages, characters, devices, menusrebuilt, orders/account. Common context:
+"ORILLA · Cocina mediterránea en Alcoy (Alicante)"
+"ORILLA es un restaurante ficticio creado para esta demostración."
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+AlllabelsSpanishexact, whitespaceclear min18pxbody.
+
+TopLeft reviewcaption "H02 → D01 · Valid preview origin".
+UI:
+"Berenjena asada con yogur de limón, miel y avellanas tostadas"
+"Berenjena tierna de horno, con yogur de limón, un hilo de miel y avellanas tostadas. Elige media ración o ración."
+"Con yogur de limón"
+"Media ración · 9,50 €"
+"Ración · 15,00 €"
+"Elige la variante; el precio no cambia."
+"Declarado en el ejemplo: leche y avellanas (frutos de cáscara). El resto de alérgenos y la elaboración están pendientes."
+PRIMARY "Volver a La cocina"
+secondary "Ver carta".
+Noimage becauseabsentasset.
+
+TopRight caption "M01 → D01 · Valid menu origin".
+UI:
+"Arroz al horno de verduras y garbanzos"
+"Por persona · 16,00 € / persona"
+"Mínimo 2 personas."
+"Arroz de horno con calabaza, pimiento y garbanzos. Se prepara para un mínimo de dos personas."
+"La información de alérgenos de este ejemplo está pendiente."
+PRIMARY "Volver a la carta"
+secondary "Horarios y visita".
+
+BottomLeft caption "Origin lost / variant unconfirmed · separate cases".
+TWO separated subfragments, notmergeduncertainty:
+First UI "La sección que estabas leyendo ha cambiado."
+button "Ver Postres" whenknowncurrentcategory.
+Second UI "Berenjena asada"
+"No podemos confirmar esta variante. Revisa las opciones de este plato."
+button "Ver opciones".
+Noamounts/foodfacts/displaydefaultvariant inunconfirmedfragment.
+
+BottomRight caption "Public update / locale recovery · separate cases".
+First UI "No hemos podido actualizar la carta."
+button "Reintentar" +secondary "Horarios y visita".
+Second "No podemos mostrar esta información en el idioma elegido."
+button "Ver carta en español".
+Noinventedloadedtimestamp,currentprice, closedstateor translation.
+Allfour are staticfragmentsannotatedoutsideUI. No ellipsescroppedfacts. Sourceactions drawn but nofakeanimation/toast claim.

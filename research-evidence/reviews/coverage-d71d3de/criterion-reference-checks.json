@@ -1,0 +1,415 @@
+[
+  {
+    "id": "J1.1",
+    "report_line": 23,
+    "states": "PV-P01, PV-P02, PV-O01, JT-O02",
+    "cases": "VC02, VC03, VC04",
+    "review_and_gaps": "RV05, RV06; CG04, CG05"
+  },
+  {
+    "id": "J1.2",
+    "report_line": 24,
+    "states": "PV-P03, JT-P01",
+    "cases": "VC03, VC05, TC03",
+    "review_and_gaps": "RV05, RV06; CG04, CG05, CG08"
+  },
+  {
+    "id": "J1.3",
+    "report_line": 25,
+    "states": "PV-P06, FO-F02",
+    "cases": "VC09, FC01",
+    "review_and_gaps": "RV05, RV07; CG04, CG05"
+  },
+  {
+    "id": "J1.4",
+    "report_line": 26,
+    "states": "PV-P02, PV-P10, J14-C01",
+    "cases": "VC06, VC13, Q12",
+    "review_and_gaps": "RV05, RV02; CG04, CG05, CG06, CG09.1"
+  },
+  {
+    "id": "J1.5",
+    "report_line": 27,
+    "states": "PV-P09, PV-P11",
+    "cases": "VC22, VC23",
+    "review_and_gaps": "RV05; CG04, CG05, CG12"
+  },
+  {
+    "id": "J2.1",
+    "report_line": 28,
+    "states": "PV-P04, PV-P05",
+    "cases": "VC01",
+    "review_and_gaps": "RV05; CG01, CG02, CG05"
+  },
+  {
+    "id": "J2.2",
+    "report_line": 29,
+    "states": "PV-P04, PV-P06, PV-P08",
+    "cases": "VC08, VC16",
+    "review_and_gaps": "RV05; CG04, CG05"
+  },
+  {
+    "id": "J2.3",
+    "report_line": 30,
+    "states": "PV-P05, PV-P10",
+    "cases": "VC10, VC13",
+    "review_and_gaps": "RV05; CG05, CG06"
+  },
+  {
+    "id": "J2.4",
+    "report_line": 31,
+    "states": "PV-P05, PV-P06, FO-F02",
+    "cases": "VC11, FC04",
+    "review_and_gaps": "RV05, RV07; CG04, CG05"
+  },
+  {
+    "id": "J2.5",
+    "report_line": 32,
+    "states": "PV-P06, PV-P07, PV-P08, PV-P11",
+    "cases": "VC12, VC14, VC17",
+    "review_and_gaps": "RV05; CG05"
+  },
+  {
+    "id": "J2.6",
+    "report_line": 33,
+    "states": "J10-P04, J10-P05",
+    "cases": "Q03, Q04",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J3.1",
+    "report_line": 34,
+    "states": "CP-I01, CP-M01, J8-S06",
+    "cases": "PC01, PC19, SC02",
+    "review_and_gaps": "RV03, RV04; CG02, CG03, CG05"
+  },
+  {
+    "id": "J3.2",
+    "report_line": 35,
+    "states": "CP-I01, CP-I03, CP-I04, CP-I07",
+    "cases": "PC02, PC03, PC04",
+    "review_and_gaps": "RV03; CG04, CG05, CG08"
+  },
+  {
+    "id": "J3.3",
+    "report_line": 36,
+    "states": "CP-I05, CP-R01, CP-S01, CP-S03",
+    "cases": "PC05, PC08, PC14, PC17",
+    "review_and_gaps": "RV03; CG04, CG05, CG08"
+  },
+  {
+    "id": "J3.4",
+    "report_line": 37,
+    "states": "CP-R02, FO-F02, FO-F03",
+    "cases": "PC07, PC15, FC01, FC05",
+    "review_and_gaps": "RV03, RV07; CG04, CG05"
+  },
+  {
+    "id": "J3.5",
+    "report_line": 38,
+    "states": "CP-A01, CP-A02, CP-A03",
+    "cases": "PC09, PC10, PC11, PC12",
+    "review_and_gaps": "RV03; CG04, CG05"
+  },
+  {
+    "id": "J3.6",
+    "report_line": 39,
+    "states": "CP-R03, JT-O04",
+    "cases": "PC06, TC02",
+    "review_and_gaps": "RV03, RV06; CG05, CG08"
+  },
+  {
+    "id": "J4.1",
+    "report_line": 40,
+    "states": "O05, O06, JT-O04",
+    "cases": "TC01, TC02, TC22",
+    "review_and_gaps": "RV01, RV06; CG05, CG08"
+  },
+  {
+    "id": "J4.2",
+    "report_line": 41,
+    "states": "JT-O02, JT-O03, JT-O05, JT-O06",
+    "cases": "TC03, TC06, TC07, TC08",
+    "review_and_gaps": "RV06; CG04, CG05, CG08"
+  },
+  {
+    "id": "J4.3",
+    "report_line": 42,
+    "states": "JT-O07, JT-O08, JT-X02",
+    "cases": "TC09, TC10, TC11, TC12, TC15, TC29",
+    "review_and_gaps": "RV06; CG05, CG08"
+  },
+  {
+    "id": "J4.4",
+    "report_line": 43,
+    "states": "O02, O03, JT-X01, CP-X02",
+    "cases": "DS01, DS02, DS03, DS04, TC16",
+    "review_and_gaps": "RV01, RV03, RV06; CG05, CG08"
+  },
+  {
+    "id": "J5.1",
+    "report_line": 44,
+    "states": "JT-O10, JT-O12, JT-P02",
+    "cases": "TC17, TC18",
+    "review_and_gaps": "RV06; CG05, CG08"
+  },
+  {
+    "id": "J5.2",
+    "report_line": 45,
+    "states": "JT-O11, JT-O12, JT-X03",
+    "cases": "TC19, TC20, TC21, TC22",
+    "review_and_gaps": "RV06; CG05, CG08"
+  },
+  {
+    "id": "J5.3",
+    "report_line": 46,
+    "states": "JT-O14, JT-O09",
+    "cases": "TC23, TC24, TC14",
+    "review_and_gaps": "RV06; CG04, CG05, CG08"
+  },
+  {
+    "id": "J5.4",
+    "report_line": 47,
+    "states": "JT-O13, JT-O15, CP-B04",
+    "cases": "TC18, TC21, TC25, PC23",
+    "review_and_gaps": "RV06, RV03; CG05, CG08"
+  },
+  {
+    "id": "J6.1",
+    "report_line": 48,
+    "states": "FO-F04, FO-F05",
+    "cases": "FC08",
+    "review_and_gaps": "RV07; CG04, CG05, CG06, CG08"
+  },
+  {
+    "id": "J6.2",
+    "report_line": 49,
+    "states": "FO-F02, FO-F03, FO-F04, FO-F05",
+    "cases": "FC01, FC05, FC06, FC09",
+    "review_and_gaps": "RV07; CG04, CG05, CG06, CG08"
+  },
+  {
+    "id": "J6.3",
+    "report_line": 50,
+    "states": "FO-F01, FO-F04, FO-F06, FO-O02",
+    "cases": "FC07, FC10, FC11",
+    "review_and_gaps": "RV07; CG04, CG05, CG07"
+  },
+  {
+    "id": "J7.1",
+    "report_line": 51,
+    "states": "FO-O01, FO-O02",
+    "cases": "FC12, FC13, FC14",
+    "review_and_gaps": "RV07; CG02, CG03, CG05, CG07"
+  },
+  {
+    "id": "J7.2",
+    "report_line": 52,
+    "states": "FO-O01, FO-O03, FO-O04",
+    "cases": "FC11, FC15, FC16, FC17, FC18",
+    "review_and_gaps": "RV07; CG04, CG05, CG06, CG07, CG08"
+  },
+  {
+    "id": "J7.3",
+    "report_line": 53,
+    "states": "FO-O05, FO-O06",
+    "cases": "FC19, FC20, FC21",
+    "review_and_gaps": "RV07; CG04, CG05, CG07, CG08"
+  },
+  {
+    "id": "J7.4",
+    "report_line": 54,
+    "states": "FO-Q01, FO-Q02, FO-Q03",
+    "cases": "FC22, FC23, FC24",
+    "review_and_gaps": "RV07; CG04, CG05, CG07, CG08"
+  },
+  {
+    "id": "J8.1",
+    "report_line": 55,
+    "states": "J8-S01, J8-S02",
+    "cases": "SC01",
+    "review_and_gaps": "RV04; CG03, CG05, CG10"
+  },
+  {
+    "id": "J8.2",
+    "report_line": 56,
+    "states": "J8-S03, J8-S04, J8-S05, J8-S06",
+    "cases": "SC02, SC03, SC04, SC05, SC06",
+    "review_and_gaps": "RV04; CG02, CG03, CG04, CG05, CG10"
+  },
+  {
+    "id": "J8.3",
+    "report_line": 57,
+    "states": "J8-S06, J8-S07, J8-S08, J9-X02",
+    "cases": "SC07, SC08, SC09, SC10, SC11",
+    "review_and_gaps": "RV04; CG05, CG08, CG10"
+  },
+  {
+    "id": "J8.4",
+    "report_line": 58,
+    "states": "J8-S09, J8-S10, J8-S11",
+    "cases": "SC12, SC13, SC14, SC15, SC16",
+    "review_and_gaps": "RV04; CG04, CG05, CG08, CG10"
+  },
+  {
+    "id": "J9.1",
+    "report_line": 59,
+    "states": "J9-M01, J9-M02, J9-M03, J9-M04",
+    "cases": "SC17, SC18, SC19, SC20",
+    "review_and_gaps": "RV04; CG05, CG07, CG08"
+  },
+  {
+    "id": "J9.2",
+    "report_line": 60,
+    "states": "J9-U01, J9-U02, J9-U04",
+    "cases": "SC21, SC22, SC24",
+    "review_and_gaps": "RV04; CG05, CG08"
+  },
+  {
+    "id": "J9.3",
+    "report_line": 61,
+    "states": "J9-U03, J9-U04, J14-C06",
+    "cases": "SC23, SC24, Q14",
+    "review_and_gaps": "RV04, RV02; CG05, CG08, CG09.6"
+  },
+  {
+    "id": "J10.1",
+    "report_line": 62,
+    "states": "J10-P01, J10-P02",
+    "cases": "Q01",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J10.2",
+    "report_line": 63,
+    "states": "J10-P03, J10-O01",
+    "cases": "Q02",
+    "review_and_gaps": "RV02; CG04, CG05, CG08"
+  },
+  {
+    "id": "J10.3",
+    "report_line": 64,
+    "states": "J10-P04",
+    "cases": "Q03",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J10.4",
+    "report_line": 65,
+    "states": "J10-P05",
+    "cases": "Q04",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J11.1",
+    "report_line": 66,
+    "states": "J11-O01, J11-P01",
+    "cases": "Q05",
+    "review_and_gaps": "RV02; CG04, CG05"
+  },
+  {
+    "id": "J11.2",
+    "report_line": 67,
+    "states": "J11-O02, J11-O03, FO-F03",
+    "cases": "Q06, FC06",
+    "review_and_gaps": "RV02, RV07; CG04, CG05, CG07, CG08"
+  },
+  {
+    "id": "J12.1",
+    "report_line": 68,
+    "states": "J12-O01, J12-P01",
+    "cases": "Q07",
+    "review_and_gaps": "RV02; CG04, CG05, CG07"
+  },
+  {
+    "id": "J12.2",
+    "report_line": 69,
+    "states": "J12-O02, J12-P02",
+    "cases": "Q08",
+    "review_and_gaps": "RV02; CG05, CG07, CG08"
+  },
+  {
+    "id": "J12.3",
+    "report_line": 70,
+    "states": "J12-O01, J12-P01",
+    "cases": "Q09",
+    "review_and_gaps": "RV02; CG05, CG07"
+  },
+  {
+    "id": "J13.1",
+    "report_line": 71,
+    "states": "J13-O01, J13-O03",
+    "cases": "Q10",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J13.2",
+    "report_line": 72,
+    "states": "J13-O02, J13-O03",
+    "cases": "Q11",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J14.1",
+    "report_line": 73,
+    "states": "J14-O01, J14-C01, J14-C02, J14-C03, J14-C04, J14-C05, J14-C06",
+    "cases": "Q12",
+    "review_and_gaps": "RV02; CG08, CG09.1, CG09.2, CG09.3, CG09.4, CG09.5, CG09.6"
+  },
+  {
+    "id": "J14.2",
+    "report_line": 74,
+    "states": "J14-O01, J14-O02",
+    "cases": "Q13",
+    "review_and_gaps": "RV02; CG05, CG08, CG09.1, CG09.2, CG09.3, CG09.4, CG09.5, CG09.6"
+  },
+  {
+    "id": "J14.3",
+    "report_line": 75,
+    "states": "J14-C06, J14-O02",
+    "cases": "Q14",
+    "review_and_gaps": "RV02; CG05, CG08, CG09.6"
+  },
+  {
+    "id": "J15.1",
+    "report_line": 76,
+    "states": "J15-P01",
+    "cases": "Q15",
+    "review_and_gaps": "RV02; CG05"
+  },
+  {
+    "id": "J15.2",
+    "report_line": 77,
+    "states": "J15-A01, J15-A02, J15-A03, J15-A04, J15-A05, J15-A09",
+    "cases": "Q16",
+    "review_and_gaps": "RV02; CG05, CG06, CG08"
+  },
+  {
+    "id": "J15.3",
+    "report_line": 78,
+    "states": "J15-A06, J15-P02, J15-P03",
+    "cases": "Q17, LC01, LC02, LC03, LC04, LC05, LC06",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J15.4",
+    "report_line": 79,
+    "states": "J15-P02, J15-O01, J10-P05",
+    "cases": "Q18, LC04, LC05",
+    "review_and_gaps": "RV02; CG04, CG05, CG08"
+  },
+  {
+    "id": "J15.5",
+    "report_line": 80,
+    "states": "J15-P03, J15-A09",
+    "cases": "Q19, LC06",
+    "review_and_gaps": "RV02; CG05, CG08"
+  },
+  {
+    "id": "J15.6",
+    "report_line": 81,
+    "states": "J15-A07, J15-A08",
+    "cases": "Q20",
+    "review_and_gaps": "RV02; CG05, CG08"
+  }
+]

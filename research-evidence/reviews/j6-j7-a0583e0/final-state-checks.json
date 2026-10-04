@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-02",
+  "baseline": "a0583e0ec04e310f6736f1d763ca4d7a78191973",
+  "head_upstream_match": true,
+  "pr": {
+    "headRefOid": "a0583e0ec04e310f6736f1d763ca4d7a78191973",
+    "isDraft": true,
+    "number": 21,
+    "state": "OPEN",
+    "url": "https://github.com/yaboula/valiris-restaurants/pull/21"
+  },
+  "issues": [
+    {
+      "number": 5,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/5"
+    },
+    {
+      "number": 4,
+      "state": "OPEN",
+      "url": "https://github.com/yaboula/valiris-restaurants/issues/4"
+    }
+  ],
+  "checkout_clean_before_after": true,
+  "fo_git_snapshot_sha256": "e268d5276cb735f945783ef2f114dc03ff8221c077ac7e8cd2bd09eeeb3e7507",
+  "local_report_handoff_links_valid": true,
+  "preliminary_evidence_unchanged": true,
+  "historical_handoff_section_unchanged": true,
+  "handoff_before_sha256": "ced412db87c01be72e2c6a156c607b3f917e46c2d06a5ddd8a97cfa6fae0e21d",
+  "handoff_after_sha256": "5c09404379b4fcd7bd10cf6514a450b45af46723d6b75021f7d98a33bb0746fb",
+  "outcome": "No required documentary correction in described final FO branches; M1 open; actual UX/food/files/print/QR/software evidence pending",
+  "tracker_mutations_or_external_messages": false
+}

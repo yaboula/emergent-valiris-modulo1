@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "baseline": "bf339092db3bc827c091a693fc86f20963e0fd77",
+  "upstream": "fa53d63d78cf7ad9364b17de9eea463425e198ed",
+  "branch": "docs/m1-g2-06-lettering-refinement",
+  "status": "Two requested conceptual refinements; founder valuation pending, not final branding",
+  "request_quote": "mira estas muy cerca de la perfection hay solo que mejorar dos de estas es la primera y la segunda",
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "file": "01-cafeteria-refinada-v2.png",
+      "source": "exec-731f63e3-9b48-4b0f-8d2c-b15d0832bbb1.png",
+      "edit_target": "references/cafe-input.png",
+      "prompt": "Use case: precise-object-edit, art-direction polish. Edit INPUT 1, the supplied 1536x1024 Valiris Restaurants café concept. This is a refinement of the SAME approved-to-explore idea, not a new concept. KEEP the exact visual identities and colours of the yellow espresso cup, raspberry saucer, teal moka pot, cream hands, black flexible limbs, cobalt counter, coral wall, ivory reading field and mint lamp. Preserve broad geometric bold typography (wide circular counters, substantial crisp stems, adult and confident), the brand name and headline exactly: \"Valiris Restaurants\"; \"Pequeños detalles.\" and \"Mucho carácter.\" Keep the headline in the upper-left light field, no overlap by characters or objects. Keep the main narrative: cup points toward the product and moka pot supports the ribbon, both looking at it. Keep warm hospitality, lively expressions and shared character anatomy, no biographies or new actors. No copying another brand logo or claiming an actual font.\n\nMake ONLY these art-direction improvements as a coordinated polish pass:\n1. QUIETER ENVIRONMENT: remove the blurry foreground plant at bottom left and the dense trailing plant behind the characters. Replace the busy upper shelving with ONE clean ivory horizontal shelf and the existing small croissant, visibly illustrated/conceptual not real food. Remove the stacks of plates and utensil pot at far left so the ivory typography zone breathes. Keep the clipped mint pendant for atmosphere and one simple coral plane; do not turn the setting into a blank flat background.\n2. MATERIAL COHERENCE: reduce glossy hotspots on cup, saucer, lamp and moka pot. Use rich satin/matte ceramic-like shading, gently rounded transitions and controlled soft contact shadows, retaining the teal pot's recognisable octagonal body. Not photoreal product render, not flat simplified mascots. Do not erase facial detail or exaggerated gestures.\n3. PRODUCT LEGIBILITY: retain the ivory product ribbon across the foreground, but reduce its twisting/perspective distortion so its three panels face the viewer more clearly. One graceful shallow curve, not a rollercoaster. Give each panel equal clear visual space. Preserve labels verbatim: \"Storefront\", \"Carta digital\", \"Tu contenido\". Separate label baseline from illustrations, matching generous margins and consistent scale, readable geometric semibold rather than all-black maximal display weight. The three pictograms can remain storefront-window, menu/fork and image respectively, but give them one coherent flat graphic construction and remove meaningless extra decorative emphasis strokes. Grey placeholder lines are graphic placeholders, not factual content. The cup's finger points to the centre panel WITHOUT covering label/icon; moka hand grips the far edge without hiding anything.\n4. DEPTH: restore convincing soft grounding under saucer and pot feet, no levitating actors or paper clipping through bodies. Avoid an overlarge foreground ribbon that obscures characters' anatomy. Keep bold deliberate cropping and generous ivory space.\nPreserve footer text EXACT \"Exploración conceptual · no branding definitivo\" and black \"Explorar →\" pill. Output same landscape dimensions. Do not change colours into a fixed new palette, add new wording/prices/business claims, redesign a website, add motion, or reinterpret characters as UI functionality. This remains one generated conceptual marketing composition.",
+      "sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06",
+      "bytes": 1726367,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-campana-refinada-v2.png",
+      "source": "exec-eee612cf-efab-49b3-9b90-1b6e50c08348.png",
+      "edit_target": "references/cloche-input.png",
+      "prompt": "Use case: precise-object-edit, art-direction polish. Edit INPUT 1, supplied 1536x1024 Valiris Restaurants serving-dome reveal concept. KEEP the SAME idea: a lifted coral serving cloche reveals an ivory/yellow folded menu on a shallow violet podium. Keep confident broad geometric bold headline letterforms, warm ivory reading field, vivid violet/coral/tangerine/mint/yellow relationships, matte tactility and soft depth. No characters or faces. Preserve exact brand/header \"Valiris Restaurants\", left headline \"Abre algo\" newline \"diferente.\", menu title \"Carta\", categories \"Entrantes\", \"Platos\", \"Postres\", CTA \"Ver carta →\", bottom \"Oferta · Productos · Diseño\" and \"Exploración conceptual · no branding definitivo\". This is targeted polishing, not a new scene or an approved UI.\n\nResolve THREE concrete composition/material issues:\n1. MENU PROTAGONIST: enlarge the freestanding folded menu modestly, about 12%, and turn its ivory information plane more toward the viewer so title, category rows and CTA are straighter and clearer. Preserve its right yellow plane with coral curved graphic, but reduce that plane's visual competition so ivory informational face leads. Improve row alignment/spacing, increase body-label weight and use coherent geometric readable sans rather than thin slanted labels; keep headline weight strongest. Spacious categories with subtle short rules; no new icons, food photos, prices or fake contents. CTA has one consistent black pill and a clean arrow. Keep all information inside margins and the menu grounded on podium.\n2. CLOCHE HIERARCHY: reduce the dome's visual mass by roughly 20%, lift it slightly farther above/behind the card and crop it deliberately in the upper-right. It should frame the reveal, not occupy most of the card's sky or swallow the text. Preserve unmistakable serving-dome shape, coral colour and physical rim; soften harsh almost-black/red underside with warm bounced light, retaining enough depth. No unrelated sculpture replacing dome.\n3. RECOGNISABLE UTENSIL: the original orange U-shaped rail looks like a race track. Replace it with ONE sculptural but unmistakable tangerine table fork lying diagonally in the lower-left foreground, bowl/head with FOUR short separated clean tines and one continuous slim flat handle directed toward the podium, visibly proportioned as cutlery, confidently cropped but not stretched into a giant looping track. Keep a broad simple mint graphic plane behind it as colour contrast; no intricate track-like channels. Fork supports eye movement toward the card without covering labels or headline. Retain calm violet platform and tabletop, soft consistent contact shadows, subtle matte texture; reduce noisy simulated grain.\nMake the typography/objects feel more crafted and balanced with clear hierarchy. Same landscape canvas, brand upper-left and footer intact. No new words or slogans, no realistic restaurant facts or foods, no new palette lock, no animated lift functionality or website component specification. This is a generated conceptual art-direction refinement.",
+      "sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff",
+      "bytes": 1767964,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "file": "references/cafe-input.png",
+      "attachment": "codex-clipboard-dbdf970a-9bd0-4b40-8d75-615078c9c339.png",
+      "role": "First displayed attachment; exact edit target",
+      "previous_version": "../open-creative-exploration/03-cafeteria-con-caracter.png",
+      "sha256": "2131d861117935225fbb113f8ce2baacfb7e0a5d3966f9803e9ad79f2a10fe00",
+      "matches_previous_version_bytes": true
+    },
+    {
+      "file": "references/cloche-input.png",
+      "attachment": "codex-clipboard-4c117231-73f1-435c-acd1-512ecfba633c.png",
+      "role": "Second displayed attachment; exact edit target",
+      "previous_version": "../open-creative-exploration/01-abre-algo-diferente.png",
+      "sha256": "1a83ff7bc2170da3aedf0fd2cd413f351183c60bfe70f1df82d7e224dc049cd0",
+      "matches_previous_version_bytes": true
+    }
+  ],
+  "rights": {
+    "assets": "Generated conceptual visuals; no exclusivity or third-party clearance claimed",
+    "typography": "Visual approximation; no exact font binary or production font licence established",
+    "objects_food": "Fictional/generated, not actual dishes or production objects"
+  },
+  "author_visual_review": {
+    "method": "Native generated outputs inspected inline",
+    "observations": [
+      "Café: crowded plants, plate stacks and utensil pot removed; cup/moka-pot gestures and headline retained; ribbon labels and pictograms clearer; reduced highlights still include some satin sheen",
+      "Reveal: larger and more frontal menu, heavier labels/clear CTA, smaller dome with lighter underside; orange fork has four recognizable tines instead of looping rail"
+    ],
+    "limits": [
+      "No numerical resizing/lighting measurements claimed; prompt percentages are requested adjustments, not measured results",
+      "Generated lettering is not native or editable typography",
+      "Static ribbon/reveal metaphors do not specify product interaction",
+      "No quantitative contrast, full accessibility, motion, localisation, user research or independent review",
+      "No new founder approval, fixed palette, character role, model or package claimed",
+      "Original versions, SABOR, selected triptych and ORILLA remain intact"
+    ]
+  }
+}

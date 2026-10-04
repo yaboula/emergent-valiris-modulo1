@@ -1,0 +1,494 @@
+{
+  "review_source_sha": "e7065aaa92acdf223628f9d7099301d766810ad3",
+  "operating_baseline_sha": "617ec16956e64c590d27930e91979f89e8399070",
+  "source_files": [
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/RETORNO_G1.es.md",
+      "source_blob_sha256": "bd193aac4663b615630e936424d1142a0f47b3903835abbb80dff9f4e561fefc",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/founder-clarification-2026-10-03.es.md",
+      "source_blob_sha256": "17e6453c72646c1f47a71871f184a1c8e2dfb508212e5af708069cc18003a8e0",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/graphic-direction-selection-2026-10-03.es.md",
+      "source_blob_sha256": "8f40d874dd22cbf0fa7f8080ebdab64096b2091ec335f356be890d7fbe4c36ed",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/00-selected-base.png",
+      "source_blob_sha256": "cbf1d19f0c2efc08dacc733bb9f6147f766008eab6e4157fafa7c9f7b3e9221b",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/01-rounded-trial.png",
+      "source_blob_sha256": "772cac2caddc37f830265f11d775b1dfa082d1dcee5622587ef2e5d5e021edd7",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/02-geometric-refinement.png",
+      "source_blob_sha256": "3e7ae823b8d66628fe9c6fa5e5bcbd89bc5c4f19cc8ea7ca4cf59a1bf3285219",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/checks.json",
+      "source_blob_sha256": "ecf464f2ba3f992b8418850b2a3fd2d0f5e03e0ca064f6f17403b028e41903e4",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/font-source.json",
+      "source_blob_sha256": "bd869a6a890aa767786ca96f7e478d7df32659ece3e5425184d1357917483b57",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/manifest.json",
+      "source_blob_sha256": "6434c999a8761dfc8012323f0f7ee3a75c8af5674b491a909d26079b70ad5baa",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/references/user-marshmallow-headline.png",
+      "source_blob_sha256": "5dbf0c14f7ef698b1454a2993ae56a35a029c3d7a5c295144a274753f0e2130b",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/lettering-study/references/user-marshmallow-wordmark.png",
+      "source_blob_sha256": "c6effae6e66cc3aca0f99218554b69a1eabe6be2d8b1df56fe7acf9f7371bd3a",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/01-abre-algo-diferente.png",
+      "source_blob_sha256": "1a83ff7bc2170da3aedf0fd2cd413f351183c60bfe70f1df82d7e224dc049cd0",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/02-sabor-tipografico.png",
+      "source_blob_sha256": "762dc99f875d574ee44a25101338b8786a5e60371a91407701e9fabad1c88d15",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/03-cafeteria-con-caracter.png",
+      "source_blob_sha256": "2131d861117935225fbb113f8ce2baacfb7e0a5d3966f9803e9ad79f2a10fe00",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/README.md",
+      "source_blob_sha256": "c9dad23f8fef607f3d9315233111fb47029a5c3686f8b307eacb73417fbd6d5b",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/checks.json",
+      "source_blob_sha256": "0bf7c77b90f50befaa8091bf95e984245970cce842c9f54ca61a9950329f8925",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/manifest.json",
+      "source_blob_sha256": "7cb475dd52775f69a70722472b1bf9151566ebe2ca68d954bb42a5ca875d2c26",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "source_blob_sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "source_blob_sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/README.md",
+      "source_blob_sha256": "56c98bd77c85bffb333372d63dd9552b7c3eda99b3a8e9ca3f6a774b228d20e0",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/checks.json",
+      "source_blob_sha256": "6e79391f27d5f7fa10c1a10861aa7fa342b7adfcfd2391648965802fa2d45ead",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/manifest.json",
+      "source_blob_sha256": "87c37a81c1b2c5235f33e8464f66a9b94eb9538600ed7124d1186352f1bc7f44",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/references/cafe-input.png",
+      "source_blob_sha256": "2131d861117935225fbb113f8ce2baacfb7e0a5d3966f9803e9ad79f2a10fe00",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/references/cloche-input.png",
+      "source_blob_sha256": "1a83ff7bc2170da3aedf0fd2cd413f351183c60bfe70f1df82d7e224dc049cd0",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/01-carta-en-escena.png",
+      "source_blob_sha256": "8ee3d1df08beca799450b44abf14132b95a64b8c216616b31af3f54b05e59f57",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/02-mesa-editorial.png",
+      "source_blob_sha256": "9be8a08c2174a16a07386ac32bfac9ef3011765e217af44607fdfe45435f3d5f",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/03-cocina-viva.png",
+      "source_blob_sha256": "afe5fded3a9e580d697eae268c2e1c21df366d985f4f95438acb1fd1c4b4a086",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/checks.json",
+      "source_blob_sha256": "05d29df67ca4d79b83d488eb783a702738c7c0fafc594025b6a70c6d00cdf38a",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/manifest.json",
+      "source_blob_sha256": "15df3f6297b68ee11d1f3415c52f6b08cf293ddfb063c7c2d05897e673e86063",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "source_blob_sha256": "5ff29a779d49e20c8e632741e60d3f0160ba9eaf3a254febd40468a49e5f88bf",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/01-marca-escrita.png",
+      "source_blob_sha256": "1a97f6752da2bc4cffe200465f29bb3151045ae7ebe92ecaa192a87adeb87437",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-abstracta-inicial.png",
+      "source_blob_sha256": "ddc326b305d3415fe3fb99a5ff8fe3a88c4f7743a74c068e6627ce9dab0616cc",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "source_blob_sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/03-orilla-contraste-propuesto.png",
+      "source_blob_sha256": "8d636a75e24d2d59044b4936598597b8d3081a981cfeb3d4c3392e2622a18a8b",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/checks.json",
+      "source_blob_sha256": "96c5da720cf835dcf6f5a8bd4c851fcc7e6544cf464afd9184c91de3955610cd",
+      "current_git_blob_matches": true
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/manifest.json",
+      "source_blob_sha256": "9ccab97c731f220be53f004cf57129d9138a2dbbac95c1be7117b04044d623ac",
+      "current_git_blob_matches": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "sha256": "36dc3ca72e8f7653675002c99a616598f8d8ed56e910e30a45226e17070346cb",
+      "bytes": 1708076,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "checks": {
+        "hash": true,
+        "bytes": true,
+        "dimensions": true,
+        "frozen_blob": true
+      }
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/03-orilla-contraste-propuesto.png",
+      "sha256": "8d636a75e24d2d59044b4936598597b8d3081a981cfeb3d4c3392e2622a18a8b",
+      "bytes": 1754526,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "checks": {
+        "hash": true,
+        "bytes": true,
+        "dimensions": true,
+        "frozen_blob": true
+      }
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "sha256": "737882f3adb19a5fe12533fe73d31b9e73fab3d7919683028103a2a5a0030a06",
+      "bytes": 1726367,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "checks": {
+        "hash": true,
+        "bytes": true,
+        "dimensions": true,
+        "frozen_blob": true
+      }
+    },
+    {
+      "path": "research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "sha256": "53501d4e70749f988c74c963597415ced959d494b74b2fa5fa03a0cd44ec29ff",
+      "bytes": 1767964,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "checks": {
+        "hash": true,
+        "bytes": true,
+        "dimensions": true,
+        "frozen_blob": true
+      }
+    }
+  ],
+  "preserved_original": {
+    "path": "research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+    "sha256": "4f576dd2156f9361abee8338df13704cfd4dc70a4e5e2a47d11de8fbf567f989",
+    "bytes": 1862288,
+    "dimensions": [
+      1422,
+      1106
+    ],
+    "matches_selected_hash": true,
+    "matches_frozen_blob": true
+  },
+  "local_targets": [
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/founder-clarification-2026-10-03.es.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/01-marca-escrita.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/03-orilla-contraste-propuesto.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-abstracta-inicial.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/03-orilla-contraste-propuesto.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/manifest.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/signature-and-first-model/checks.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/01-carta-en-escena.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/02-mesa-editorial.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/03-cocina-viva.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/manifest.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/scene-exploration/checks.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/00-selected-base.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/01-rounded-trial.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/02-geometric-refinement.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/font-source.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/open-creative-exploration/README.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/polish-v2/README.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/RETORNO_G1.es.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/manifest.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "docs/design/valiris-restaurants-brand-refinement.md",
+      "target": "../../research-evidence/g2-06-restaurants-brand/refinement/lettering-study/checks.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "target": "signature-and-first-model/02-expresion-sin-personajes.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "target": "polish-v2/01-cafeteria-refinada-v2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "target": "polish-v2/02-campana-refinada-v2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "target": "signature-and-first-model/manifest.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "target": "polish-v2/manifest.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/selected-three-references-2026-10-03.es.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../../docs/design/valiris-restaurants-brand-refinement.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/founder-clarification-2026-10-03.es.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../../docs/project/valiris-restaurants-brand-foundation-brief.md",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "verify.py",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "checks.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/signature-and-first-model/02-expresion-sin-personajes.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/polish-v2/01-cafeteria-refinada-v2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/polish-v2/02-campana-refinada-v2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/signature-and-first-model/03-orilla-contraste-propuesto.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-art-direction-2026-10-03/storefront-v0.2/02-cartel-revisado-v0.2.png",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "../../g2-06-restaurants-brand/refinement/lettering-study/font-source.json",
+      "exists_inside_repository": true
+    },
+    {
+      "document": "research-evidence/reviews/g4-selected-e7065aa/g4-review.md",
+      "target": "checks.json",
+      "exists_inside_repository": true
+    }
+  ],
+  "limits": [
+    "PNG header dimensions and file integrity only; no responsive or accessibility certification",
+    "Git blobs compared to frozen source; no author output rewritten",
+    "Remote links and Markdown fragment validity not checked",
+    "Attachment equality is not reverified here; founder selection and author records are attributed sources",
+    "Manual visual observations are in g4-review.md, not inferred from this script"
+  ],
+  "failures": []
+}

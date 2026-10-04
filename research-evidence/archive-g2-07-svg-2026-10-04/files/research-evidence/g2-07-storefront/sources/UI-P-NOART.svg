@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 4150" width="1440" height="4150" role="img" aria-labelledby="board-title board-desc">
+<title id="board-title">UI-P-NOART · ORILLA · static editable complete Storefront · v0.2</title>
+<desc id="board-desc">Fictional ORILLA demonstration. Static design source; drawn controls are not connected. SCENARIO-01; scoped unavailable flan, no live clock. Essential content is editable text; resource panels are labelled crop studies.</desc>
+<defs><filter id="soft-depth" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#20251E" flood-opacity="0.12"/></filter></defs>
+<rect width="1440" height="4150" fill="#FFF8EC"/>
+<g id="composition-UI-P-NOART" data-source="">
+<g id="H01-recognition" data-source="ORI-COPY-H01-01/05/06">
+<text id="UI-P-NOART-e1" data-source="ORI-COPY-H01-01" x="72" y="66" font-family="Arial Black" font-size="42" font-weight="900" fill="#20251E">
+<tspan x="72" y="66.0">ORILLA</tspan>
+</text>
+<g id="UI-P-NOART-e2-action" data-source="ORI-COPY-H01-05">
+<rect id="UI-P-NOART-e3" x="1236" y="24" width="132" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-P-NOART-e4" data-source="ORI-COPY-H01-05" x="1256" y="52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="1256" y="52.0">Ver carta</tspan>
+</text>
+</g>
+<text id="UI-P-NOART-e5" data-source="ORI-COPY-H01-06" x="72" y="108" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="72" y="108.0">ORILLA es un restaurante ficticio creado para esta demostración.</tspan>
+</text>
+</g>
+<g id="navigation-secondary" data-source="">
+<text id="UI-P-NOART-e6" data-source="ORI-COPY-H02-01" x="72" y="159.2" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="72" y="159.2">La cocina</tspan>
+</text>
+<path id="UI-P-NOART-e7" d="M72 167.4 H151.0" stroke="#20251E"/>
+<text id="UI-P-NOART-e8" data-source="ORI-COPY-H03-09" x="312" y="159.2" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="312" y="159.2">La historia de ORILLA</tspan>
+</text>
+<path id="UI-P-NOART-e9" d="M312 167.4 H494.0" stroke="#20251E"/>
+<text id="UI-P-NOART-e10" data-source="ORI-COPY-H04-01" x="632" y="159.2" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="632" y="159.2">Horarios y visita</tspan>
+</text>
+<path id="UI-P-NOART-e11" d="M632 167.4 H770.0" stroke="#20251E"/>
+</g>
+<rect id="UI-P-NOART-e12" x="72" y="187.2" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<g id="H01-presentation" data-source="ORI-COPY-H01-02–04">
+<text id="UI-P-NOART-e13" data-source="ORI-COPY-H01-02" x="72" y="247.2" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="247.2">Cocina mediterránea en Alcoy (Alicante)</tspan>
+</text>
+<text id="UI-P-NOART-e14" data-source="ORI-COPY-H01-03" x="72" y="356.2" font-family="Arial Black" font-size="80" font-weight="900" fill="#20251E">
+<tspan x="72" y="356.2">Del horno al centro</tspan>
+<tspan x="72" y="444.2">de la mesa.</tspan>
+</text>
+<text id="UI-P-NOART-e15" data-source="ORI-COPY-H01-04" x="72" y="498.2" font-family="Segoe UI" font-size="22" font-weight="400" fill="#20251E">
+<tspan x="72" y="498.2">Verduras asadas, arroz para compartir y platos individuales. Inés cocina; Dani prepara una</tspan>
+<tspan x="72" y="530.1">mesa en la que también cabe venir por tu cuenta.</tspan>
+</text>
+<g id="UI-P-NOART-e16-action" data-source="ORI-COPY-H01-05">
+<rect id="UI-P-NOART-e17" x="72" y="564.0" width="180" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-P-NOART-e18" data-source="ORI-COPY-H01-05" x="92" y="592.0" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="92" y="592.0">Ver carta</tspan>
+</text>
+</g>
+</g>
+<g id="H02-kitchen" data-source="ORI-COPY-H02-01–07; ORI-MENU-H01">
+<rect id="UI-P-NOART-e19" x="72" y="709.2" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e20" data-source="ORI-COPY-H02-01" x="72" y="793.2" font-family="Arial Black" font-size="48" font-weight="900" fill="#20251E">
+<tspan x="72" y="793.2">La cocina</tspan>
+</text>
+<text id="UI-P-NOART-e21" data-source="ORI-COPY-H02-02" x="72" y="852.4" font-family="Segoe UI" font-size="30" font-weight="700" fill="#20251E">
+<tspan x="72" y="852.4">Primero, el horno. Después, el aliño.</tspan>
+</text>
+<text id="UI-P-NOART-e22" data-source="ORI-COPY-H02-03" x="72" y="897.9" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="897.9">Asamos la berenjena antes de añadir yogur de limón, miel y avellanas. El arroz de verduras</tspan>
+<tspan x="72" y="926.9">y garbanzos se prepara para dos o más; las alubias, la merluza y el pollo tienen su plato</tspan>
+<tspan x="72" y="955.9">individual. Puedes pasar una ración al centro o elegir un plato para ti.</tspan>
+</text>
+<rect id="UI-P-NOART-e23" x="72" y="992.9000000000001" width="1296" height="58.099999999999994" rx="12" fill="#DDEBBE"/>
+<text id="UI-P-NOART-e24" data-source="ORI-COPY-M01-10" x="88" y="1024.9" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="88" y="1024.9">Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer.</tspan>
+</text>
+<text id="UI-P-NOART-e25" data-source="ORI-COPY-H02-04" x="72" y="1111.0" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="72" y="1111.0">Para empezar a elegir</tspan>
+</text>
+<g id="offer-02-V01-UI-P-NOART-e26" data-source="ORI-DISH-02-V01">
+<rect id="UI-P-NOART-e27" x="72" y="1145.8" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e28" data-source="ORI-DISH-02-V01" x="72" y="1205.8" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="72" y="1205.8">Berenjena asada con yogur de limón,</tspan>
+<tspan x="72" y="1244.2">miel y avellanas tostadas</tspan>
+</text>
+<text id="UI-P-NOART-e29" data-source="ORI-DISH-02-V01" x="72" y="1288.6" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="1288.6">Berenjena tierna de horno, con yogur de limón, un hilo de miel y avellanas</tspan>
+<tspan x="72" y="1317.6">tostadas. Elige media ración o ración.</tspan>
+</text>
+<text id="UI-P-NOART-e30" data-source="ORI-DISH-02-V01" x="862" y="1191.8" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="862" y="1191.8">Con yogur de limón</tspan>
+</text>
+<text id="UI-P-NOART-e31" data-source="ORI-MENU-P02" x="862" y="1233.9" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="862" y="1233.9">Media ración · 9,50 €</tspan>
+</text>
+<text id="UI-P-NOART-e32" data-source="ORI-MENU-P03" x="862" y="1276.5" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="862" y="1276.5">Ración · 15,00 €</tspan>
+</text>
+<text id="UI-P-NOART-e33" data-source="ORI-MENU-P02" x="862" y="1315.1" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="862" y="1315.1">Elige la variante; el precio no cambia.</tspan>
+</text>
+<text id="UI-P-NOART-e34" data-source="ORI-COPY-D01-03" x="72" y="1369.2" font-family="Segoe UI" font-size="18" font-weight="400" fill="#53594C">
+<tspan x="72" y="1369.2">Declarado en el ejemplo: leche y avellanas (frutos de cáscara). El resto de alérgenos y la elaboración están</tspan>
+<tspan x="72" y="1395.3">pendientes.</tspan>
+</text>
+<text id="UI-P-NOART-e35" data-source="ORI-COPY-H02-07; ORI-DISH-02-V01" x="72" y="1439.4" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="72" y="1439.4">Ver detalle</tspan>
+</text>
+<path id="UI-P-NOART-e36" d="M72 1447.6 H163.98000000000002" stroke="#20251E"/>
+</g>
+<g id="offer-04-V01-UI-P-NOART-e37" data-source="ORI-DISH-04">
+<rect id="UI-P-NOART-e38" x="72" y="1499.3999999999996" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e39" data-source="ORI-DISH-04" x="72" y="1559.4" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="72" y="1559.4">Arroz al horno de verduras y garbanzos</tspan>
+</text>
+<text id="UI-P-NOART-e40" data-source="ORI-DISH-04" x="72" y="1603.8" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="1603.8">Arroz de horno con calabaza, pimiento y garbanzos. Se prepara para un mínimo</tspan>
+<tspan x="72" y="1632.8">de dos personas.</tspan>
+</text>
+<text id="UI-P-NOART-e41" data-source="ORI-MENU-P05" x="862" y="1549.4" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="862" y="1549.4">Por persona · 16,00 € / persona</tspan>
+</text>
+<text id="UI-P-NOART-e42" data-source="ORI-MENU-P05" x="862" y="1588.0" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="862" y="1588.0">Mínimo 2 personas.</tspan>
+</text>
+<text id="UI-P-NOART-e43" data-source="ORI-COPY-D01-05" x="72" y="1671.8" font-family="Segoe UI" font-size="18" font-weight="400" fill="#53594C">
+<tspan x="72" y="1671.8">La información de alérgenos de este ejemplo está pendiente.</tspan>
+</text>
+<text id="UI-P-NOART-e44" data-source="ORI-COPY-H02-07; ORI-DISH-04" x="72" y="1715.9" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="72" y="1715.9">Ver detalle</tspan>
+</text>
+<path id="UI-P-NOART-e45" d="M72 1724.1 H163.98000000000002" stroke="#20251E"/>
+</g>
+<g id="offer-08-V01-UI-P-NOART-e46" data-source="ORI-DISH-08">
+<rect id="UI-P-NOART-e47" x="72" y="1775.8999999999996" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e48" data-source="ORI-DISH-08" x="72" y="1835.9" font-family="Arial Black" font-size="32" font-weight="900" fill="#20251E">
+<tspan x="72" y="1835.9">Flan de café</tspan>
+</text>
+<text id="UI-P-NOART-e49" data-source="ORI-COPY-S06" x="72" y="1874.3" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="1874.3">No disponible en este servicio</tspan>
+</text>
+<text id="UI-P-NOART-e50" data-source="ORI-DISH-08" x="72" y="1929.3" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="1929.3">Flan de café y caramelo, servido en una porción individual.</tspan>
+</text>
+<text id="UI-P-NOART-e51" data-source="ORI-MENU-P09" x="862" y="1825.9" font-family="Segoe UI" font-size="22" font-weight="700" fill="#20251E">
+<tspan x="862" y="1825.9">Ración · 6,00 €</tspan>
+</text>
+<text id="UI-P-NOART-e52" data-source="ORI-MENU-P09" x="862" y="1864.5" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="862" y="1864.5">Una ración individual.</tspan>
+</text>
+<text id="UI-P-NOART-e53" data-source="ORI-COPY-S07" x="72" y="1968.3" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="1968.3">El flan de café no está disponible para comidas del 4 de octubre. Puedes consultar los demás postres.</tspan>
+</text>
+<text id="UI-P-NOART-e54" data-source="ORI-COPY-S07" x="72" y="2012.4" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="72" y="2012.4">Ver postres</tspan>
+</text>
+<path id="UI-P-NOART-e55" d="M72 2020.6 H167.98000000000002" stroke="#20251E"/>
+<text id="UI-P-NOART-e56" data-source="ORI-COPY-D01-06" x="72" y="2062.4" font-family="Segoe UI" font-size="18" font-weight="400" fill="#53594C">
+<tspan x="72" y="2062.4">Declarado en el ejemplo: leche y huevo. El resto de alérgenos y la elaboración están pendientes.</tspan>
+</text>
+<text id="UI-P-NOART-e57" data-source="ORI-COPY-H02-07; ORI-DISH-08" x="72" y="2106.5" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="72" y="2106.5">Ver detalle</tspan>
+</text>
+<path id="UI-P-NOART-e58" d="M72 2114.7 H163.98000000000002" stroke="#20251E"/>
+</g>
+<g id="UI-P-NOART-e59-action" data-source="ORI-COPY-H02-06">
+<rect id="UI-P-NOART-e60" x="72" y="2166.4999999999995" width="250" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-P-NOART-e61" data-source="ORI-COPY-H02-06" x="92" y="2194.5" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="92" y="2194.5">Ver toda la carta</tspan>
+</text>
+</g>
+</g>
+<g id="H03-story" data-source="ORI-COPY-H03-01–09">
+<text id="UI-P-NOART-e62" data-source="ORI-COPY-H03-01" x="72" y="2319.7" font-family="Arial Black" font-size="48" font-weight="900" fill="#20251E">
+<tspan x="72" y="2319.7">Nuestra mesa</tspan>
+</text>
+<text id="UI-P-NOART-e63" data-source="ORI-COPY-H03-02" x="72" y="2374.42" font-family="Segoe UI" font-size="28" font-weight="700" fill="#20251E">
+<tspan x="72" y="2374.42">Inés, Dani y una mesa reparada a mano.</tspan>
+</text>
+<text id="UI-P-NOART-e64" data-source="ORI-COPY-H03-03" x="718" y="2429.42" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="718" y="2429.42">ORILLA empezó con una conversación entre hermanos. Inés quería que</tspan>
+<tspan x="718" y="2458.42">todos probaran las verduras recién salidas del horno. Dani quería que</tspan>
+<tspan x="718" y="2487.42">hubiera tiempo para hablar después. En sus primeras mesas de prueba,</tspan>
+<tspan x="718" y="2516.42">compartirlo todo dejaba poco espacio a quien venía a comer por su</tspan>
+<tspan x="718" y="2545.42">cuenta. Por eso conviven la berenjena en dos tamaños, el arroz para</tspan>
+<tspan x="718" y="2574.42">compartir y los platos individuales.</tspan>
+</text>
+<text id="UI-P-NOART-e65" data-source="ORI-COPY-H03-03" x="718" y="2623.42" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="718" y="2623.42">Dani reparó una mesa de madera para seis y la rodeó de mesas</tspan>
+<tspan x="718" y="2652.42">pequeñas. Inés dejó el horno como centro de trabajo. La idea sigue en</tspan>
+<tspan x="718" y="2681.42">cada servicio: pasar un plato, elegir el tuyo y quedarse un rato dentro</tspan>
+<tspan x="718" y="2710.42">del horario del local.</tspan>
+</text>
+<text id="UI-P-NOART-e66" data-source="ORI-COPY-H03-05" x="72" y="2767.42" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="2767.42">Inés Vidal · cocina. Verduras primero al</tspan>
+<tspan x="72" y="2796.42">horno, aliños después.</tspan>
+</text>
+<text id="UI-P-NOART-e67" data-source="ORI-COPY-H03-06" x="72" y="2849.42" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="2849.42">Dani Vidal · sala. Mesas pequeñas, una mesa</tspan>
+<tspan x="72" y="2878.42">de seis y tiempo para la sobremesa.</tspan>
+</text>
+<text id="UI-P-NOART-e68" data-source="ORI-COPY-H03-07" x="718" y="2767.42" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="718" y="2767.42">Una sala luminosa, madera y textiles de color. Puedes venir a comer por</tspan>
+<tspan x="718" y="2796.42">tu cuenta o compartir con un grupo pequeño. Cuando la sala se llena,</tspan>
+<tspan x="718" y="2825.42">se oye la conversación de otras mesas.</tspan>
+</text>
+<text id="UI-P-NOART-e69" data-source="ORI-COPY-H03-08" x="718" y="2886.42" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="718" y="2886.42">Horarios y visita</tspan>
+</text>
+<path id="UI-P-NOART-e70" d="M718 2894.62 H856.0" stroke="#20251E"/>
+</g>
+<rect id="UI-P-NOART-e101" x="0" y="3002.419999999999" width="1440" height="941.4999999999995" fill="#F3DE8A"/>
+<g id="H04-visit" data-source="ORI-COPY-H04-01–11; ORI-VISIT-01–03">
+<text id="UI-P-NOART-e71" data-source="ORI-COPY-H04-01" x="72" y="3094.42" font-family="Arial Black" font-size="48" font-weight="900" fill="#20251E">
+<tspan x="72" y="3094.42">Horarios y visita</tspan>
+</text>
+<text id="UI-P-NOART-e72" data-source="ORI-COPY-H04-02" x="72" y="3145.62" font-family="Segoe UI" font-size="24" font-weight="700" fill="#20251E">
+<tspan x="72" y="3145.62">Alcoy (Alicante)</tspan>
+</text>
+<text id="UI-P-NOART-e73" data-source="ORI-COPY-H04-03" x="72" y="3182.42" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="3182.42">Dirección y contacto de ejemplo no disponibles.</tspan>
+</text>
+<text id="UI-P-NOART-e74" data-source="ORI-VISIT-01" x="72" y="3236.52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="72" y="3236.52">Días</tspan>
+</text>
+<text id="UI-P-NOART-e75" data-source="ORI-COPY-H04-04" x="526" y="3236.52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="526" y="3236.52">Horario del local</tspan>
+</text>
+<text id="UI-P-NOART-e76" data-source="ORI-COPY-H04-04" x="947" y="3236.52" font-family="Segoe UI" font-size="18" font-weight="700" fill="#20251E">
+<tspan x="947" y="3236.52">Horario de cocina</tspan>
+</text>
+<rect id="UI-P-NOART-e77" x="72" y="3270.519999999999" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e78" data-source="ORI-VISIT-01" x="72" y="3310.52" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="3310.52">Lunes</tspan>
+</text>
+<text id="UI-P-NOART-e79" data-source="ORI-VISIT-01" x="526" y="3310.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="526" y="3310.52">Cerrado</tspan>
+</text>
+<text id="UI-P-NOART-e80" data-source="ORI-VISIT-01" x="947" y="3310.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="947" y="3310.52">Cerrada</tspan>
+</text>
+<rect id="UI-P-NOART-e81" x="72" y="3339.519999999999" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e82" data-source="ORI-VISIT-01" x="72" y="3379.52" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="3379.52">Martes a jueves y domingo</tspan>
+</text>
+<text id="UI-P-NOART-e83" data-source="ORI-VISIT-01" x="526" y="3379.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="526" y="3379.52">12:30–17:00</tspan>
+</text>
+<text id="UI-P-NOART-e84" data-source="ORI-VISIT-01" x="947" y="3379.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="947" y="3379.52">13:00–15:30</tspan>
+</text>
+<rect id="UI-P-NOART-e85" x="72" y="3408.519999999999" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e86" data-source="ORI-VISIT-01" x="72" y="3448.52" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="3448.52">Viernes y sábado</tspan>
+</text>
+<text id="UI-P-NOART-e87" data-source="ORI-VISIT-01" x="526" y="3448.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="526" y="3448.52">12:30–17:00 y 19:30–23:00</tspan>
+</text>
+<text id="UI-P-NOART-e88" data-source="ORI-VISIT-01" x="947" y="3448.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="947" y="3448.52">13:00–15:30 y 20:00–22:00</tspan>
+</text>
+<text id="UI-P-NOART-e89" data-source="ORI-COPY-H04-06" x="72" y="3517.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="3517.52">Puedes consultar la carta cuando la cocina está cerrada. Las bebidas se sirven durante el</tspan>
+<tspan x="72" y="3546.52">horario del local. La disponibilidad de los platos se confirma para cada servicio.</tspan>
+</text>
+<text id="UI-P-NOART-e90" data-source="ORI-COPY-H04-07" x="72" y="3607.52" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="72" y="3607.52">Mesas pequeñas y una mesa de seis.</tspan>
+</text>
+<text id="UI-P-NOART-e91" data-source="ORI-COPY-H04-07" x="72" y="3644.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="3644.52">Para grupos de hasta seis, la distribución necesita confirmación.</tspan>
+</text>
+<text id="UI-P-NOART-e92" data-source="ORI-COPY-H04-08" x="756" y="3607.52" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="756" y="3607.52">Hay un escalón en la entrada.</tspan>
+</text>
+<text id="UI-P-NOART-e93" data-source="ORI-COPY-H04-08" x="756" y="3644.52" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="756" y="3644.52">Las medidas de paso y del aseo están pendientes.</tspan>
+</text>
+<text id="UI-P-NOART-e94" data-source="ORI-COPY-H04-09" x="756" y="3701.52" font-family="Segoe UI" font-size="20" font-weight="700" fill="#20251E">
+<tspan x="756" y="3701.52">Las condiciones para venir con animales están pendientes.</tspan>
+</text>
+<text id="UI-P-NOART-e95" data-source="ORI-VISIT-03C" x="72" y="3699.52" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="3699.52">No hay terraza en este caso de ejemplo.</tspan>
+</text>
+<text id="UI-P-NOART-e96" data-source="ORI-VISIT-03E" x="72" y="3741.62" font-family="Segoe UI" font-size="18" font-weight="400" fill="#20251E">
+<tspan x="72" y="3741.62">No hay servicio de pedidos para llevar en este caso.</tspan>
+</text>
+<text id="UI-P-NOART-e97" data-source="ORI-COPY-H04-10" x="72" y="3809.72" font-family="Segoe UI" font-size="20" font-weight="400" fill="#20251E">
+<tspan x="72" y="3809.72">Esta demostración no permite llamar, abrir un mapa ni reservar una mesa.</tspan>
+</text>
+<g id="UI-P-NOART-e98-action" data-source="ORI-COPY-H04-11">
+<rect id="UI-P-NOART-e99" x="72" y="3850.719999999999" width="240" height="49.2" rx="24.6" fill="#243EB8"/>
+<text id="UI-P-NOART-e100" data-source="ORI-COPY-H04-11" x="92" y="3878.72" font-family="Segoe UI" font-size="18" font-weight="700" fill="#FFFFFF">
+<tspan x="92" y="3878.72">Ver carta</tspan>
+</text>
+</g>
+</g>
+<rect id="UI-P-NOART-e102" x="72" y="3995.9199999999987" width="1296" height="1" rx="0" fill="#CCC6B8"/>
+<text id="UI-P-NOART-e103" data-source="ORI-COPY-H01-01" x="72" y="4045.92" font-family="Arial Black" font-size="26" font-weight="900" fill="#20251E">
+<tspan x="72" y="4045.92">ORILLA</tspan>
+</text>
+<text id="UI-P-NOART-e104" data-source="ADR-0003; attribution only" x="72" y="4087.62" font-family="Segoe UI" font-size="16" font-weight="400" fill="#53594C">
+<tspan x="72" y="4087.62">Powered by Valiris Restaurants</tspan>
+</text>
+</g>
+</svg>

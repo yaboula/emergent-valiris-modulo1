@@ -1,0 +1,73 @@
+Use case: ui-mockup / style-transfer, desktop FULL-PAGE Storefront.
+EDIT AND EXTEND reference image 1 into a COMPLETE, coherently art-directed ORILLA desktop Storefront. The original was ONLY a header/hero exploration. It is NOT the complete assignment. Recompose it where necessary so the WHOLE page has intentional editorial rhythm. Output ONE tall full-page PC website screenshot, ideally 1536 px wide by 3840 px high. Native desktop columns within a tall page, NOT phone layout. Include ALL FOUR sections in order, with a clear beginning and practical ending; do not stop at the opening hero. No browser chrome or device mockup. Show readable real Spanish content throughout, not lorem ipsum or blank placeholders.
+
+REFERENCE ROLES: image 1 is the partial ORILLA PC proposal to extend/recompose, not a frozen template. Image 2 is selected Valiris Restaurants culinary graphic expression: broad heavy rounded geometric typography, vivid flexible colour planes, oversized objects, tangible material and soft depth. Image 3 defines the character LOOK: expressive culinary-object silhouettes, big eyes, locally meaningful gaze/gesture, black limbs and soft white gloves, polished matte shaded volume. Image 4 supports object/scene scale, reading fields and soft material shadows. Do not reproduce Valiris marketing wording or café products in ORILLA. Do not create four disconnected posters.
+
+BRAND WORLD: Playful Branding, Character-driven Brand Identity, Playful Minimalism, Brand-led UI; Modern Product-Centric Web Design — Bold Graphic, Editorial & Soft Depth. Monumental rounded extra-heavy wide display type visually VERY CLOSE to the reference lettering/Marshmallow target; fine precise readable body type. Luminous mint, saturated coral/raspberry, restrained cobalt and sunny yellow, warm ivory reading grounds. Colour is flexible, never random section rainbow or SaaS pastel. Product and characters interact with the SAME composition as the typography, not small art trapped in rounded cards. Two intensities: expressive spacious discovery and quietly precise consultation. Soft depth only in physical scenes, flat front-facing functional text/actions. Strong deliberate crops, typography/space relationships, light and real contact shadows. No dark mode, gradient text, generic pill-card grids, tiny corner decoration, heavy glass UI, repeated equal columns, fake data badges or colour-only state.
+
+CHARACTERS: founder selected OCCASIONAL characters integrated into expressive moments. Use perhaps a cobalt spoon character in the opening, with a purposeful gesture toward the sharing table/plate, and a complementary plate/fork character passing a dish in the story scene. They are culinary objects, not Inés/Dani portraits, mascots with fixed jobs or a character biography. They should match image 3's eye/limb/glove/material language, sophisticated and joyful, not babyish. Do not add a face to every food or put characters among price/allegens/control information. Actual food is appetising concept photography, not cartoon plastic. No human portrait or fake real-venue photograph.
+
+CONTENT SOURCE: fictional ORILLA in Alcoy, Alicante. One public general dining-room menu. No account, order/cart/checkout/payment, real address, map/call/booking, review scores, ingredient-safety assertions or clock-derived live opening badges. Essential food facts, amounts, minimums, status and actions are independent front-facing text, never perspective lettering on a plate. All Spanish strings below must be verbatim, accents and punctuation correct, with full long names allowed to wrap. No invented benefit copy. Do not delete text merely to fit.
+
+SECTION 1 — RECOGNITION / PRESENTATION, about the upper fifth of the full page:
+Header small restaurant "ORILLA"; secondary navigation "La cocina", "La historia de ORILLA", "Horarios y visita"; separate prominent "Ver carta" action. Immediately readable at entry: "ORILLA es un restaurante ficticio creado para esta demostración."
+Hero has monumental near-full-width "ORILLA", as in image 1 but proportioned to the whole page. Exact proposition "Del horno al centro de la mesa." Exact descriptor "Cocina mediterránea en Alcoy (Alicante)". Intro "Verduras asadas, arroz para compartir y platos individuales. Inés cocina; Dani prepara una mesa en la que también cabe venir por tu cuenta." Strong direct "Ver carta".
+Expressive large crop of roast aubergine with lemon yogurt, thin honey drizzle and toasted hazelnuts; a baked vegetable/chickpea RICE with visible rice grains, pumpkin and pepper. Keep photographic recipe-faithful food texture. No fresh herb confetti invented. A locally integrated playful culinary object character can animate the still composition. Mint/coral graphic ground and soft physical depth, not a little scene inside a card. Caption "Representaciones conceptuales de platos."
+
+SECTION 2 — LA COCINA, substantial actual offer content:
+Heading "La cocina". Editorial opening "Primero, el horno. Después, el aliño."
+Body "Asamos la berenjena antes de añadir yogur de limón, miel y avellanas. El arroz de verduras y garbanzos se prepara para dos o más; las alubias, la merluza y el pollo tienen su plato individual. Puedes pasar una ración al centro o elegir un plato para ti."
+Visible FOOD DEMO LIMIT near food entry: "Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+Selection heading "Para empezar a elegir".
+Create three generous serial editorial OFFER ROWS, not a dense full menu reconstruction or three uniform marketing cards. On PC full name/description at left, explicitly named formats/amount/condition aligned at right, with food information close underneath. Optional product cutouts can sit beside reading space, not under text. Names, prices and conditions should be clearly readable around 18–22px equivalent, not miniature.
+ROW A title "Berenjena asada con yogur de limón, miel y avellanas tostadas"
+description "Berenjena tierna de horno, con yogur de limón, un hilo de miel y avellanas tostadas. Elige media ración o ración."
+variant "Con yogur de limón"
+offers EACH fully named "Media ración · 9,50 €" and "Ración · 15,00 €".
+condition "Elige la variante; el precio no cambia."
+food "Declarado en el ejemplo: leche y avellanas (frutos de cáscara). El resto de alérgenos y la elaboración están pendientes."
+action "Ver detalle".
+ROW B title "Arroz al horno de verduras y garbanzos"
+description "Arroz de horno con calabaza, pimiento y garbanzos. Se prepara para un mínimo de dos personas."
+offer "Por persona · 16,00 € / persona"
+essential condition "Mínimo 2 personas."
+food "La información de alérgenos de este ejemplo está pendiente."
+action "Ver detalle".
+ROW C title "Flan de café"
+IMMEDIATELY beside/below title, before treating it as an option: "No disponible en este servicio"
+description "Flan de café y caramelo, servido en una porción individual."
+offer "Ración · 6,00 €"; condition "Una ración individual."
+scoped explanation "El flan de café no está disponible para comidas del 4 de octubre. Puedes consultar los demás postres."
+food "Declarado en el ejemplo: leche y huevo. El resto de alérgenos y la elaboración están pendientes."
+recovery "Ver postres"; detail action "Ver detalle".
+Food depiction is optional here, and no image implies availability. End with clear "Ver toda la carta".
+
+SECTION 3 — NUESTRA MESA, full source story, change of expressive rhythm:
+Contextual heading "Nuestra mesa", intro "Inés, Dani y una mesa reparada a mano."
+Complete story, readable in TWO paragraphs split at Dani's repaired-table sentence:
+"ORILLA empezó con una conversación entre hermanos. Inés quería que todos probaran las verduras recién salidas del horno. Dani quería que hubiera tiempo para hablar después. En sus primeras mesas de prueba, compartirlo todo dejaba poco espacio a quien venía a comer por su cuenta. Por eso conviven la berenjena en dos tamaños, el arroz para compartir y los platos individuales.
+Dani reparó una mesa de madera para seis y la rodeó de mesas pequeñas. Inés dejó el horno como centro de trabajo. La idea sigue en cada servicio: pasar un plato, elegir el tuyo y quedarse un rato dentro del horario del local."
+Captions, distinct but NOT fabricated testimonials: "Inés Vidal · cocina. Verduras primero al horno, aliños después." and "Dani Vidal · sala. Mesas pequeñas, una mesa de seis y tiempo para la sobremesa."
+Room text "Una sala luminosa, madera y textiles de color. Puedes venir a comer por tu cuenta o compartir con un grupo pequeño. Cuando la sala se llena, se oye la conversación de otras mesas."
+Optional fictional staged table/culinary-object-character scene, warm wood/colour textiles, hands passing a plate; clearly captioned "Escena ficticia de ORILLA". This is NOT a real room, floorplan or human photograph. Balance image/captions and full story deliberately in desktop columns. No tiny text, clipping or summaries that replace the story. Action "Horarios y visita".
+
+SECTION 4 — HORARIOS Y VISITA, complete practical ending:
+Heading "Horarios y visita". Location "Alcoy (Alicante)".
+"Dirección y contacto de ejemplo no disponibles."
+A clear desktop table with separate headings "Días", "Horario del local", "Horario de cocina".
+Rows verbatim and aligned:
+"Lunes" | "Cerrado" | "Cerrada"
+"Martes a jueves y domingo" | "12:30–17:00" | "13:00–15:30"
+"Viernes y sábado" | "12:30–17:00 y 19:30–23:00" | "13:00–15:30 y 20:00–22:00"
+Service explanation "Puedes consultar la carta cuando la cocina está cerrada. Las bebidas se sirven durante el horario del local. La disponibilidad de los platos se confirma para cada servicio."
+Group existing complete practical strings for scanning without inventing new headings or removing uncertainty:
+"Mesas pequeñas y una mesa de seis. Para grupos de hasta seis, la distribución necesita confirmación."
+"Hay un escalón en la entrada. Las medidas de paso y del aseo están pendientes."
+"Las condiciones para venir con animales están pendientes."
+"No hay terraza en este caso de ejemplo."
+"No hay servicio de pedidos para llevar en este caso."
+"This" must NOT appear in English: exact demo string "Esta demostración no permite llamar, abrir un mapa ni reservar una mesa."
+Separate public "Ver carta" button. Do not add dead map/call/reserve icons.
+Very discreet closing attribution "Powered by Valiris Restaurants".
+
+EXACTNESS / SCOPE CHECK before returning: all H01/H02/H03/H04 present in a single connected DESKTOP composition; full Berenjena name, both named euro amounts, rice per-person minimum, flan adjacent unavailable state, full Inés/Dani story, complete local+kitchen day groups, actual visit unknowns. No phone. No fabricated translations. This is a raster VISUAL PROPOSAL, not connected controls, editable live type, received final resource or G4/user approval. Preserve the expressive selected brand world through the whole page and make essential reading legible.

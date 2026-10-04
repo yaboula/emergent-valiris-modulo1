@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-04",
+  "base": "4893d501b750efd1bb9149ff695564f0d2df227b",
+  "ui_source": "f84c549ddaf3e775fd8fff808bbd2391c5ca5a21",
+  "result": "PASS",
+  "scope": "documentary export, hashes, preservation, owned links and ZIP readback only",
+  "documents_reproduced_byte_identically": 40,
+  "copy_unique_ids": 94,
+  "capability_rows": 72,
+  "included": 36,
+  "configurable": 30,
+  "connection_dependent": 6,
+  "selected_and_original_image_hashes": "4/4 match selected records",
+  "published_ui_images_and_prompt": "match author provenance",
+  "ui_files": 5,
+  "unpublished_ui_included": false,
+  "owned_local_links": 11,
+  "canonical_source_files_preserved": 46,
+  "full_archive_source_files": 788,
+  "not_demonstrated": [
+    "Relume upload/import",
+    "Relume generation or export",
+    "rendered UI",
+    "interaction",
+    "accessibility",
+    "linguistic review",
+    "SEO runtime",
+    "G4 review",
+    "user validation",
+    "software tests"
+  ]
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "B1.01",
+    "line": 41,
+    "name": "Página pública del local",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B1.02",
+    "line": 42,
+    "name": "Información para visitar",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B1.03",
+    "line": 43,
+    "name": "Atributos del establecimiento",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B1.04",
+    "line": 44,
+    "name": "Historia y contenido editorial",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B1.05",
+    "line": 45,
+    "name": "Identidad visual",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B1.06",
+    "line": 46,
+    "name": "Plantillas base",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B1.07",
+    "line": 47,
+    "name": "Diseño propio por el estudio",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B1.08",
+    "line": 48,
+    "name": "Dominio, vista al compartir y contenido descubrible",
+    "treatment": "Recomendada; dominio propio según oferta"
+  },
+  {
+    "id": "B1.09",
+    "line": 49,
+    "name": "Conexión con reservas",
+    "treatment": "Conectada"
+  },
+  {
+    "id": "B2.01",
+    "line": 69,
+    "name": "Catálogo de productos y categorías",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B2.02",
+    "line": 70,
+    "name": "Formatos y variantes",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B2.03",
+    "line": 71,
+    "name": "Complementos y condiciones",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B2.04",
+    "line": 72,
+    "name": "Menús compuestos",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B2.05",
+    "line": 73,
+    "name": "Varias cartas",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B2.06",
+    "line": 74,
+    "name": "Programación por servicio y fechas",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B2.07",
+    "line": 75,
+    "name": "Oferta por zona o sede",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B2.08",
+    "line": 76,
+    "name": "Disponibilidad durante el servicio",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B2.09",
+    "line": 77,
+    "name": "Excepción manual",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B2.10",
+    "line": 78,
+    "name": "Datos recibidos de sistemas operativos",
+    "treatment": "Conectada"
+  },
+  {
+    "id": "B3.01",
+    "line": 100,
+    "name": "Navegación por categorías",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B3.02",
+    "line": 101,
+    "name": "Búsqueda",
+    "treatment": "Configurable según carta"
+  },
+  {
+    "id": "B3.03",
+    "line": 102,
+    "name": "Filtros útiles",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B3.04",
+    "line": 103,
+    "name": "Consulta de alérgenos",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B3.05",
+    "line": 104,
+    "name": "Detalle gradual",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B3.06",
+    "line": 105,
+    "name": "Explicación de platos",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B3.07",
+    "line": 106,
+    "name": "Destacados del restaurante",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B3.08",
+    "line": 107,
+    "name": "Enlaces a platos y cartas",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B3.09",
+    "line": 108,
+    "name": "Lista personal para comparar",
+    "treatment": "Oportunidad"
+  },
+  {
+    "id": "B3.10",
+    "line": 109,
+    "name": "Maridajes o relaciones entre productos",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B3.11",
+    "line": 110,
+    "name": "Vídeo, explicación sonora o presentación 3D",
+    "treatment": "Oportunidad"
+  },
+  {
+    "id": "B4.01",
+    "line": 130,
+    "name": "Importar cartas",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.02",
+    "line": 131,
+    "name": "Revisión de importación",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.03",
+    "line": 132,
+    "name": "Edición desde móvil",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.04",
+    "line": 133,
+    "name": "Edición conjunta y duplicación",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.05",
+    "line": 134,
+    "name": "Borradores y previsualización",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.06",
+    "line": 135,
+    "name": "Publicación controlada",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.07",
+    "line": 136,
+    "name": "Publicación programada",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B4.08",
+    "line": 137,
+    "name": "Historial y recuperación",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.09",
+    "line": 138,
+    "name": "Responsabilidades del equipo",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B4.10",
+    "line": 139,
+    "name": "Asistencia de texto e imágenes",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B4.11",
+    "line": 140,
+    "name": "Revisión del contenido afectado",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B4.12",
+    "line": 141,
+    "name": "Fuente externa como origen de cambios",
+    "treatment": "Conectada"
+  },
+  {
+    "id": "B5.01",
+    "line": 163,
+    "name": "Idiomas de presencia y carta",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B5.02",
+    "line": 164,
+    "name": "Traducción asistida y revisión",
+    "treatment": "Recomendada si se ofrecen idiomas"
+  },
+  {
+    "id": "B5.03",
+    "line": 165,
+    "name": "Glosario del restaurante",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B5.04",
+    "line": 166,
+    "name": "Coherencia de datos comunes",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B5.05",
+    "line": 167,
+    "name": "Traducción pendiente de actualización",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B5.06",
+    "line": 168,
+    "name": "Ingredientes y alérgenos por variante",
+    "treatment": "Recomendada; detalle según oferta"
+  },
+  {
+    "id": "B5.07",
+    "line": 169,
+    "name": "Indicaciones del establecimiento",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B5.08",
+    "line": 170,
+    "name": "Registro y salida para el personal",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B5.09",
+    "line": 171,
+    "name": "Información nutricional",
+    "treatment": "Oportunidad"
+  },
+  {
+    "id": "B6.01",
+    "line": 191,
+    "name": "Enlace y QR estables",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B6.02",
+    "line": 192,
+    "name": "Entradas con intención",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B6.03",
+    "line": 193,
+    "name": "Acceso sin cuenta ni instalación",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B6.04",
+    "line": 194,
+    "name": "Material para compartir",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B6.05",
+    "line": 195,
+    "name": "Formatos imprimibles",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B6.06",
+    "line": 196,
+    "name": "Versiones por idioma y uso",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B6.07",
+    "line": 197,
+    "name": "Presencia en una web existente",
+    "treatment": "Configurable / conectada"
+  },
+  {
+    "id": "B6.08",
+    "line": 198,
+    "name": "Canales externos",
+    "treatment": "Conectada para sincronización"
+  },
+  {
+    "id": "B6.09",
+    "line": 199,
+    "name": "Pantallas y soportes de sala",
+    "treatment": "Configurable / conectada"
+  },
+  {
+    "id": "B6.10",
+    "line": 200,
+    "name": "Consulta con conexión interrumpida",
+    "treatment": "Oportunidad"
+  },
+  {
+    "id": "B6.11",
+    "line": 201,
+    "name": "Exportación y continuidad",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B7.01",
+    "line": 221,
+    "name": "Consultas de presencia y carta",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B7.02",
+    "line": 222,
+    "name": "Origen del acceso",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B7.03",
+    "line": 223,
+    "name": "Uso de categorías, búsqueda y filtros",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B7.04",
+    "line": 224,
+    "name": "Interés en platos",
+    "treatment": "Configurable"
+  },
+  {
+    "id": "B7.05",
+    "line": 225,
+    "name": "Acciones hacia la visita",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B7.06",
+    "line": 226,
+    "name": "Resultados de otros módulos",
+    "treatment": "Conectada"
+  },
+  {
+    "id": "B7.07",
+    "line": 227,
+    "name": "Calidad y mantenimiento",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B7.08",
+    "line": 228,
+    "name": "Comparación de cambios",
+    "treatment": "Oportunidad"
+  },
+  {
+    "id": "B7.09",
+    "line": 229,
+    "name": "Servicio de alta y diseño",
+    "treatment": "Recomendada"
+  },
+  {
+    "id": "B7.10",
+    "line": 230,
+    "name": "Actualizaciones delegadas",
+    "treatment": "Configurable"
+  }
+]

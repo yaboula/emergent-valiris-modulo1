@@ -1,0 +1,9 @@
+Use case: ui-mockup. Edit image1 precisely; it is the ORILLA PC La cocina section at1536x1024. Preserve layout, ALL dish names/descriptions/amounts/units/minimum/food declarations verbatim, food images, orange fork/blue textile, type and ivoryyellow visual direction.
+Make only these accessibility/hierarchy corrections:
+1. The flan badge "No disponible en este servicio" must have DARK BLACK text on the coral red pill, not white. It remains immediately beside Flan de café.
+2. Make "Ver postres" the filled black primary pill with white letters; "Ver detalle" below it becomes an outlined ivory secondary pill with dark letters. These are only the third row buttons; the other rows' detail buttons unchanged.
+3. Make the two bottom notices visibly readable at normal viewing, minimum16-18px on1536wide output, in a fullwidth readingstrip with40pxhorizontalpadding and ivorybackground. Preserve exact:
+"Representaciones conceptuales de platos."
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+Wrap the second sentence into two lines ifneeded, allow sectionheight to grow slightly, preserve fullsource noellipsis or clippedletter. Bottom CTA "Ver toda la carta" above notice. Do not crop the illustration or rewrite existing text.
+No additional controls, characters, timestamps, vegetarian/allergycertification, ordering. Output1536wide landscape sharp UI still.

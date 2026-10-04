@@ -1,0 +1,40 @@
+Use case: ui-mockup.
+Asset type: one native-resolution DESKTOP section of the ORILLA Storefront, for legibility review. Input image 1 is the complete proposed page; faithfully preserve its H02 section's visual language and offer relationships. This is a wider, readable section view of the same PC composition, not a new website, mobile layout, slide deck or invented restaurant.
+Output one landscape image approximately 1536 x 1024. Straight-on UI, no browser/device frame. Warm ivory surface, broad black rounded bold geometric typography close to the supplied reference, yellow expressive flat plane behind La cocina, oversized tactile orange fork on a folded cobalt textile in upper right, soft depth. Quiet serial offers below with compact conceptual food image on left, complete name/body/food text center, right aligned formats/amounts/actions; clear thin rules, no decorative card panels. Generous type and editorial whitespace. All text legible. Do not turn text into tiny decorative marks. No characters in this functional section.
+
+Exact text in upper section:
+"La cocina"
+"Primero, el horno. Después, el aliño."
+"Asamos la berenjena antes de añadir yogur de limón, miel y avellanas. El arroz de verduras y garbanzos se prepara para dos o más; las alubias, la merluza y el pollo tienen su plato individual. Puedes pasar una ración al centro o elegir un plato para ti."
+"Para empezar a elegir"
+
+Three full rows:
+1. "Berenjena asada con yogur de limón, miel y avellanas tostadas"
+"Berenjena tierna de horno, con yogur de limón, un hilo de miel y avellanas tostadas. Elige media ración o ración."
+"Declarado en el ejemplo: leche y avellanas (frutos de cáscara). El resto de alérgenos y la elaboración están pendientes."
+Right facts:
+"Con yogur de limón"
+"Media ración · 9,50 €"
+"Ración · 15,00 €"
+"Elige la variante; el precio no cambia."
+"Ver detalle"
+Image: half roasted aubergine, creamy yogurt, honey and chopped hazelnuts; no herbs.
+2. "Arroz al horno de verduras y garbanzos"
+"Arroz de horno con calabaza, pimiento y garbanzos. Se prepara para un mínimo de dos personas."
+"La información de alérgenos de este ejemplo está pendiente."
+Right facts:
+"Por persona · 16,00 € / persona"
+"Mínimo 2 personas."
+"Ver detalle"
+Image: red oven pan visible rice grains, squash, red pepper, chickpeas; no meat or seafood.
+3. "Flan de café" with immediate textual badge "No disponible en este servicio"
+"Flan de café y caramelo, servido en una porción individual."
+"El flan de café no está disponible para comidas del 4 de octubre. Puedes consultar los demás postres."
+"Declarado en el ejemplo: leche y huevo. El resto de alérgenos y la elaboración están pendientes."
+Rightfacts "Ración · 6,00 €", "Una ración individual.", "Ver postres", "Ver detalle".
+Image: single individual coffee caramel flan.
+Bottom CTA "Ver toda la carta".
+Below readable caption "Representaciones conceptuales de platos."
+"Los ingredientes y alérgenos son ejemplos sin verificar. Esta demostración no sirve para decidir qué puedes comer."
+
+Preserve entire names, price labels, units/minimum, positive food declarations plus pending remainder, explanation. Keep all essential text outside artwork. No cart/ordering/booking, no discounts, no fake stock or safe-food claims. Do not add extra food or headings.
