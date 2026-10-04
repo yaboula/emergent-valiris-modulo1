@@ -31,6 +31,14 @@ User choices: landing page only (very representative), continuous-scroll "journe
 - Landing tie-ins: nav 'La carta', hero 'Ver la carta', per-world 'Ver toda la carta de…'
 - Tested iteration_2: 29/29 pass; forwardRef warning fixed
 
+## Iteration 4 (2026-10-04) — Personajes vectoriales, Ojos vivos, Platos reveladores
+- 6 hand-built SVG mascots (components/mascots) with regional dress: Oli (bow tie host), Feta (Greek fisherman cap + Breton stripes), Don Pomodoro (Neapolitan paglietta + tricolore kerchief), Cassola (Valencian gingham mocador), Garbanzo (Lebanese tarboush + embroidered vest), Sultán Tajín (zellige band + babouche)
+- Ojos vivos: pupils follow pointer (springs), random blinks/double blinks, wander on touch, hover = 'wow' mouth; presenting arm animates (path d)
+- Platos reveladores: dish drawer stage — mascot springs in, cloche lifts, photo or 'MARCHANDO' price sticker, sparkles, speech bubble line per character
+- New top-down editorial dish photos /img/top_*.webp (arroz regenerated strictly vegetable per case); old AI char/dish webps removed
+- Tested iteration_3: 18/18 pass
+
 ## Backlog
+- P1: Compartir mesa por WhatsApp (resumen + enlace que reabre la selección) — user chose format, deferred this round
 - P1: Real reservation channel (WhatsApp/email) when real data exists
 - P2: Character micro-animations (blink, cursor-follow eyes), sound toggle, EN/FR/DE translations

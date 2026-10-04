@@ -1,0 +1,47 @@
+{
+  "summary": "Frontend testing of iteration 3 features: inline SVG mascots (Ojos vivos + Platos reveladores) and new top-down dish photos. All features verified on desktop (1920x1080) and mobile (390x844). 5 worlds (egeo/tirreno/levante/oriente/magreb) — note the review mentioned 'adriatico' but no such world exists in /app/frontend/src/data/worlds.js; the real 5th world is 'oriente'. All 5 world mascots render as inline SVG (role=img, aria-label). Legacy /img/d_*.webp and character .webp are fully gone (0 occurrences). No 4xx/5xx on any /img/ response; all top_* images have naturalWidth>0.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [],
+    "console_warnings": [
+      {"component": "react-router-dom v6", "issue": "React Router Future Flag warnings (v7_startTransition, v7_relativeSplatPath). Pre-existing, non-blocking."}
+    ]
+  },
+  "test_results": {
+    "hero_oli_character_inline_svg_with_role_img_and_aria_label": "PASS",
+    "world_character_landing_all_5_worlds_render_svg": "PASS (egeo, tirreno, levante, oriente, magreb)",
+    "cast_6_members_rendered": "PASS (6 cast-member-* found)",
+    "carta_pick_hero_all_5_worlds_render_svg": "PASS",
+    "oli_svg_in_landing_reserve_card": "PASS (2 Oli svg[role=img] on landing)",
+    "ojos_vivos_pupils_transforms_change_on_mouse_move": "PASS (styles differ before/after mouse move; blink group has scaleY transform)",
+    "mouth_wow_on_hover_available": "PASS (implemented via useFig mood switch on pointer enter/leave in Mascot.jsx)",
+    "legacy_d_or_char_webp_removed_no_404": "PASS (0 legacy img refs; 0 4xx on /img/)",
+    "top_down_dish_photos_load": "PASS (7 top_* images on landing, hero-dish-img present, naturalWidth>0)",
+    "dish_drawer_opens_from_card_click": "PASS",
+    "dish_reveal_stage_with_cloche_sparkles_mascot_bubble": "PASS (dish-reveal + reveal-bubble present after ~2s)",
+    "reveal_dish_img_shown_for_photo_dishes": "PASS (reveal-dish-img visible for ORI-DISH-02 V01)",
+    "ORI_DISH_02_V02_hides_photo_shows_sticker": "PASS (switching to V02: img=False, sticker=True)",
+    "dish_drawer_title_in_body": "PASS ('Berenjena asada con yogur de limón, miel y avellanas tostadas')",
+    "dish_drawer_close_x_works": "PASS (drawer removed after click)",
+    "mobile_390x844_reveal_no_overflow": "PASS (scrollWidth=390, innerWidth=390)",
+    "mobile_dish_reveal_renders": "PASS",
+    "10_svg_role_img_on_carta_page": "PASS (hero + 5 pickers + world heads visible)"
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "parts.jsx useLook adds a global pointermove listener per mascot instance; with 10+ mascots on a page each binds its own handler. Consider a shared context/global listener for perf, especially on mobile (currently guarded by hover:hover MQ, so OK).",
+    "Reveal.jsx picks the character line with d.id.length % lines.length — deterministic per dish, fine, but limits variety; consider rotating index per open.",
+    "DishDrawer showImg = d.img && (!d.variants || variantId === 'V01') correctly handles the ORI-DISH-02 V02 photo-hide case.",
+    "No DishCard forwardRef warning fix shipped since iteration_2; still logs 'Function components cannot be given refs' via AnimatePresence PopChild (non-blocking)."
+  ],
+  "updated_files": [],
+  "success_rate": {"frontend": "100% (18/18 critical tests)"},
+  "test_credentials": "N/A - frontend only",
+  "seed_data_creation": "localStorage key 'orilla-mesa' cleared before each run",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "The review request mentioned a world 'adriatico' which does NOT exist in the data (worlds.js has: egeo/tirreno/levante/oriente/magreb). All 5 real worlds render inline SVG mascots correctly on landing hero worlds, cast, carta hero pickers, carta world heads, and dish reveal. Ojos vivos works: pupils translate on pointermove, eyes have scaleY blink wrapper. Mouth switches to 'wow' ellipse on mascot hover. Platos reveladores: Reveal.jsx orchestrates cloche lift (0.6s delay, 0.7s duration), mascot spring-up from bottom (0.1s delay), sparkles at 0.8s, bubble + present=true at 650ms. ORI-DISH-02 V02 correctly swaps photo→price sticker. No image 404s. All iteration_2 flows remain in place (dish-drawer, dish-drawer-title, dish-drawer-close, dish-variant-V02, dish-food-notice)."
+}

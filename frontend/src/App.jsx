@@ -41,7 +41,7 @@ const ScrollReset = () => {
 export default function App() {
   useSmoothScroll();
   return (
-    <BrowserRouter>
+    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <ActiveProvider>
         <MesaProvider>
           <ScrollReset />
