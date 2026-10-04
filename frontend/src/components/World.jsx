@@ -57,9 +57,9 @@ export default function World({ w }) {
               <motion.div style={{ rotate: dishRot, scale: dishScale }} className="absolute inset-0 flex items-center justify-center">
                 <img src={w.dishImg} alt={w.dishes[0].name} data-testid={`world-dish-img-${w.id}`} className="drop max-h-full w-[88%] object-contain" />
               </motion.div>
-              <motion.div style={{ y: charY, rotate: charRot }} className="absolute bottom-0 left-0 h-[46%] w-[34%] md:left-[2%]">
+              <motion.div style={{ y: charY, rotate: charRot }} className="absolute bottom-0 left-0 h-[54%] w-[40%] md:left-[0%]">
                 <Bubble testId={`world-bubble-${w.id}`} className="-top-16 left-[60%] md:-top-14">«{w.char.quote}»</Bubble>
-                <Character src={w.char.img} alt={w.char.name} className="h-full w-full" testId={`world-character-${w.id}`} />
+                <Character mascot={w.char.id} present alt={w.char.name} className="h-full w-full" testId={`world-character-${w.id}`} />
               </motion.div>
             </div>
           </div>

@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import { ThemedSection } from "../lib/active";
 import { THEMES, WORLDS, HOST } from "../data/worlds";
+import Mascot from "./mascots/Mascot";
 
 const CAST = [
-  { id: "oli", ...HOST, color: "#A8F0DC", tag: "Anfitrión" },
-  ...WORLDS.map((w) => ({ id: w.id, img: w.char.img, name: w.char.name, role: w.char.role, color: w.theme.bg, tag: w.country.split(" ·")[0] })),
+  { id: "oli", mascot: HOST.id, name: HOST.name, role: HOST.role, color: "#A8F0DC", tag: "Anfitrión" },
+  ...WORLDS.map((w) => ({ id: w.id, mascot: w.char.id, name: w.char.name, role: w.char.role, color: w.theme.bg, tag: w.country.split(" ·")[0] })),
 ];
 
 const Member = ({ m, i }) => (
@@ -18,7 +19,7 @@ const Member = ({ m, i }) => (
     className="group relative flex flex-col items-center"
   >
     <div className="relative flex aspect-[4/5] w-full items-end justify-center overflow-hidden rounded-[999px_999px_36px_36px] pt-6" style={{ background: m.color }}>
-      <img src={m.img} alt={m.name} className="drop relative z-10 h-[86%] object-contain transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-6" />
+      <Mascot id={m.mascot} label={m.name} className="drop relative z-10 h-[86%] w-[80%] transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-6" />
     </div>
     <p className="font-display mt-4 text-2xl leading-none">{m.name}</p>
     <p className="mt-1 text-center text-sm font-medium opacity-70">{m.role}</p>

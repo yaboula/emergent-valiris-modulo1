@@ -1,22 +1,22 @@
 import { motion, useReducedMotion } from "framer-motion";
+import Mascot from "./mascots/Mascot";
 
-export default function Character({ src, alt, className = "", delay = 0, testId }) {
+export default function Character({ mascot, alt, className = "", delay = 0, testId, present = false }) {
   const reduce = useReducedMotion();
   return (
     <motion.div
       className={className}
-      animate={reduce ? undefined : { y: [0, -14, 0], rotate: [-2, 2, -2] }}
+      animate={reduce ? undefined : { y: [0, -12, 0], rotate: [-2, 2, -2] }}
       transition={{ duration: 3.4, repeat: Infinity, ease: "easeInOut", delay }}
     >
-      <motion.img
+      <motion.div
         data-testid={testId}
-        src={src}
-        alt={alt}
-        draggable={false}
-        whileHover={{ scale: 1.08, rotate: [0, -8, 8, -4, 0], transition: { duration: 0.6 } }}
-        whileTap={{ scale: 0.92 }}
-        className="drop h-full w-full cursor-grab select-none object-contain"
-      />
+        whileHover={{ scale: 1.06 }}
+        whileTap={{ scale: 0.9, rotate: -8 }}
+        className="drop h-full w-full cursor-pointer select-none"
+      >
+        <Mascot id={mascot} present={present} label={alt} className="h-full w-full" />
+      </motion.div>
     </motion.div>
   );
 }

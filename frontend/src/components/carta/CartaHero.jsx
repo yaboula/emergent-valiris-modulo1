@@ -3,6 +3,7 @@ import { Info } from "lucide-react";
 import { ThemedSection } from "../../lib/active";
 import { WORLDS } from "../../data/worlds";
 import { DISHES, FOOD_NOTICE } from "../../data/menu";
+import Mascot from "../mascots/Mascot";
 
 export const CARTA_THEME = { bg: "#FFF4E2", ink: "#14110C", accent: "#F0285F" };
 const ease = [0.22, 1, 0.36, 1];
@@ -43,7 +44,7 @@ export default function CartaHero({ onPick }) {
                 className="group flex flex-1 flex-col items-center md:flex-none"
               >
                 <span className="flex aspect-[3/4] w-full items-end justify-center overflow-hidden rounded-[999px_999px_24px_24px] pt-3 md:w-28" style={{ background: w.theme.bg }}>
-                  <img src={w.char.img} alt={w.char.name} className="drop h-[88%] object-contain transition-transform duration-500 group-hover:scale-110" />
+                  <Mascot id={w.char.id} label={w.char.name} className="drop h-[88%] w-[88%] transition-transform duration-500 group-hover:scale-110" />
                 </span>
                 <span className="mt-2 text-xs font-bold md:text-sm">{w.title.replace("El ", "")}</span>
               </motion.button>

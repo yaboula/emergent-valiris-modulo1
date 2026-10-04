@@ -29,7 +29,7 @@ export default function Casa() {
             whileInView={{ rotate: -6, scale: 1, opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ type: "spring", stiffness: 80, damping: 14 }}
-            src="/img/d_arroz.webp"
+            src="/img/top_arroz.webp"
             alt="Arroz al horno en cassola de barro"
             className="drop mx-auto w-[85%]"
             data-testid="casa-dish-img"

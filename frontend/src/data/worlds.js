@@ -16,8 +16,8 @@ export const WORLDS = [
     theme: { bg: "#1F44D6", ink: "#FFFFFF", accent: "#FFD23F" },
     intro: "Islas blancas, aceite verde y una sobremesa que se alarga con el sol. Aquí el queso se sirve entero y el orégano manda.",
     chips: ["Feta entera", "Orégano", "Kalamata", "Miel de tomillo"],
-    char: { img: "/img/feta.webp", name: "Feta", role: "El filósofo del sol", quote: "Primero el aceite. Después, la conversación." },
-    dishImg: "/img/d_horiatiki.webp",
+    char: { id: "feta", lines: ["Despacio. Así se come en las islas.", "Guarda pan para el aceite, ¿eh?"], name: "Feta", role: "El filósofo del sol", quote: "Primero el aceite. Después, la conversación." },
+    dishImg: "/img/top_horiatiki.webp",
     dishes: [
       { name: "Horiatiki con feta entera", desc: "Tomate, pepino, cebolla roja, kalamata y orégano.", price: "11,50 €" },
       { name: "Pulpo a la brasa con fava", desc: "Puré de guisante amarillo, alcaparras y limón.", price: "19,00 €" },
@@ -33,8 +33,8 @@ export const WORLDS = [
     theme: { bg: "#E8233A", ink: "#FFF4E2", accent: "#7CE0A3" },
     intro: "Tomate de verdad, albahaca recién cortada y la pasta en su punto. Un mantel de cuadros imaginario y mucha gesticulación.",
     chips: ["Pomodoro", "Albahaca", "Burrata", "Al dente"],
-    char: { img: "/img/pomodoro.webp", name: "Don Pomodoro", role: "El apasionado", quote: "¿Nata en la carbonara? Ma che dici…" },
-    dishImg: "/img/d_pasta.webp",
+    char: { id: "pomodoro", lines: ["Ecco! Mira qué color.", "Esto, con calma y en buena compañía."], name: "Don Pomodoro", role: "El apasionado", quote: "¿Nata en la carbonara? Ma che dici…" },
+    dishImg: "/img/top_pasta.webp",
     dishes: [
       { name: "Spaghetti al pomodoro y albahaca", desc: "Salsa de tomate lenta y parmesano.", price: "14,00 €" },
       { name: "Burrata con tomates asados", desc: "Pan tostado y aceite de albahaca.", price: "12,50 €" },
@@ -50,8 +50,8 @@ export const WORLDS = [
     theme: { bg: "#FFB31F", ink: "#1A1205", accent: "#E8233A" },
     intro: "La orilla de casa. Arroz al horno en cassola de barro, verduras asadas y un horno que nunca se apaga en Alcoy.",
     chips: ["Arroz al horno", "Cassola de barro", "Horno", "Para el centro"],
-    char: { img: "/img/cassola.webp", name: "Cassola", role: "La reina del domingo", quote: "El arroz, mínimo para dos. Las normas son las normas." },
-    dishImg: "/img/d_arroz.webp",
+    char: { id: "cassola", lines: ["¡Al centro, que esto se comparte!", "Recién salido del horno, como debe ser."], name: "Cassola", role: "La reina del domingo", quote: "El arroz, mínimo para dos. Las normas son las normas." },
+    dishImg: "/img/top_arroz.webp",
     dishes: [
       { name: "Arroz al horno de verduras y garbanzos", desc: "Calabaza, pimiento y garbanzos. Mínimo 2 personas.", price: "16,00 € / persona" },
       { name: "Berenjena asada con yogur de limón", desc: "Miel y avellanas tostadas. Media ración o ración.", price: "9,50 € · 15,00 €" },
@@ -67,8 +67,8 @@ export const WORLDS = [
     theme: { bg: "#0E8C66", ink: "#F7F3E8", accent: "#FF8AB3" },
     intro: "Mesas llenas de cuencos, pan caliente para mojar y nadie que se quede con hambre. Compartir aquí no es opcional, es amor.",
     chips: ["Hummus", "Za'atar", "Tahini", "Pan de pita"],
-    char: { img: "/img/garbanzo.webp", name: "Garbanzo", role: "El anfitrión generoso", quote: "Toma más pan. No, insisto. Toma más pan." },
-    dishImg: "/img/d_hummus.webp",
+    char: { id: "garbanzo", lines: ["Para ti. Y para toda la mesa.", "¿Más pan? Siempre hay más pan."], name: "Garbanzo", role: "El anfitrión generoso", quote: "Toma más pan. No, insisto. Toma más pan." },
+    dishImg: "/img/top_hummus.webp",
     dishes: [
       { name: "Hummus con aceite verde y piñones", desc: "Zumaque, pimentón y pita caliente.", price: "9,00 €" },
       { name: "Fattoush con pan crujiente", desc: "Hierbas, rabanito, granada y zumaque.", price: "10,50 €" },
@@ -84,8 +84,8 @@ export const WORLDS = [
     theme: { bg: "#5B2BD9", ink: "#FFFFFF", accent: "#FF8A1F" },
     intro: "Especias que viajan en caravana, cocciones lentas bajo una tapa cónica y un final dulce de azahar.",
     chips: ["Ras el hanout", "Limón confitado", "Cuscús", "Azahar"],
-    char: { img: "/img/tajin.webp", name: "Sultán Tajín", role: "El maestro de lo lento", quote: "La prisa no cabe bajo mi sombrero." },
-    dishImg: "/img/d_tajin.webp",
+    char: { id: "tajin", lines: ["Lo bueno se cocina despacio.", "Huele primero. Después, prueba."], name: "Sultán Tajín", role: "El maestro de lo lento", quote: "La prisa no cabe bajo mi sombrero." },
+    dishImg: "/img/top_tajin.webp",
     dishes: [
       { name: "Tajín de pollo, limón confitado y aceitunas", desc: "Azafrán, jengibre y cilantro.", price: "18,00 €" },
       { name: "Cuscús de siete verduras", desc: "Garbanzos, pasas y caldo especiado.", price: "15,00 €" },
@@ -94,7 +94,7 @@ export const WORLDS = [
   },
 ];
 
-export const HOST = { img: "/img/oli.webp", name: "Oli", role: "Tu anfitrión de orilla en orilla" };
+export const HOST = { id: "oli", name: "Oli", role: "Tu anfitrión de orilla en orilla" };
 
 export const HOURS = [
   { day: "Lunes", local: "Cerrado", kitchen: "Cerrada" },

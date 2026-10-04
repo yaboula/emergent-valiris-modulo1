@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Minus, Plus, Check, HandPlatter } from "lucide-react";
 import { useMesa } from "../lib/mesa";
+import Mascot from "./mascots/Mascot";
 import { eur } from "../lib/format";
 
 const TIMES = ["13:00", "13:30", "14:00", "14:30", "20:00", "20:30", "21:00"];
@@ -21,7 +22,7 @@ export default function ReserveCard() {
 
   return (
     <form onSubmit={submit} data-testid="reserve-form" className="relative rounded-[36px] bg-paper p-7 text-coal shadow-[0_18px_0_rgba(0,0,0,0.25)] md:p-9">
-      <img src="/img/oli.webp" alt="" aria-hidden="true" className="drop absolute -right-4 -top-20 h-32 rotate-12 md:-right-8 md:h-40" />
+      <Mascot id="oli" className="drop absolute -right-4 -top-24 h-36 w-32 rotate-12 md:-right-8 md:h-44 md:w-36" />
       <p className="kicker text-[#F0285F]">Reservar mesa</p>
       <p className="font-display mt-2 text-4xl leading-none">Guárdanos un sitio.</p>
       {mesa.count > 0 && (

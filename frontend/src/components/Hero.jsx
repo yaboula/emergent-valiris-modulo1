@@ -69,13 +69,13 @@ export default function Hero() {
           </div>
         </div>
 
-        <motion.div style={{ rotate: dishRot, y: dishY }} initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.9, duration: 1.2, ease }} className="absolute -bottom-[4%] left-[10%] z-10 w-[80vw] max-w-[600px] md:left-[54%] md:w-[36vw]">
-          <img src="/img/d_berenjena.webp" alt="Berenjena asada con yogur de limón, miel y avellanas" className="drop w-full" data-testid="hero-dish-img" />
+        <motion.div style={{ rotate: dishRot, y: dishY }} initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.9, duration: 1.2, ease }} className="absolute -bottom-[6%] left-[8%] z-10 w-[84vw] max-w-[500px] md:left-[60%] md:w-[30vw]">
+          <img src="/img/top_berenjena.webp" alt="Berenjena asada con yogur de limón, miel y avellanas" className="drop w-full" data-testid="hero-dish-img" />
         </motion.div>
 
-        <motion.div style={{ x: oliX }} className="absolute bottom-[8%] right-[3%] z-20 hidden h-[34vh] w-[24vh] md:block">
+        <motion.div style={{ x: oliX }} className="absolute bottom-[6%] right-[2%] z-20 hidden h-[40vh] w-[32vh] md:block">
           <Bubble testId="hero-oli-bubble" className="-left-40 -top-6">¡Hola! Soy {HOST.name}. ¿Viajamos?</Bubble>
-          <Character src={HOST.img} alt={HOST.name} className="h-full w-full" testId="hero-oli-character" />
+          <Character mascot={HOST.id} alt={HOST.name} className="h-full w-full" testId="hero-oli-character" />
         </motion.div>
       </div>
     </ThemedSection>

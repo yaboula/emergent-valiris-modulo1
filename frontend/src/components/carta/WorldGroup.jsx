@@ -7,7 +7,7 @@ import DishCard from "./DishCard";
 const Head = ({ w, n }) => (
   <div className="mb-12 grid items-end gap-6 md:grid-cols-12">
     <div className="relative h-44 w-36 md:col-span-2 md:h-56 md:w-full">
-      <Character src={w.char.img} alt={w.char.name} className="h-full w-full" testId={`carta-character-${w.id}`} />
+      <Character mascot={w.char.id} alt={w.char.name} className="h-full w-full" testId={`carta-character-${w.id}`} />
     </div>
     <div className="md:col-span-7">
       <p className="kicker flex items-center gap-3">

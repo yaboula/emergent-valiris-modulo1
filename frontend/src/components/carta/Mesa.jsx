@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useLocation, useNavigate } from "react-router-dom";
 import { HandPlatter, Minus, Plus, Trash2, X, ArrowRight } from "lucide-react";
 import Sheet from "../Sheet";
+import Mascot from "../mascots/Mascot";
 import { useMesa } from "../../lib/mesa";
 import { eur } from "../../lib/format";
 import { WORLDS, HOST } from "../../data/worlds";
@@ -13,7 +14,7 @@ const Line = ({ i }) => {
   return (
     <motion.li layout initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }} data-testid={`mesa-line-${i.dishId}`} className="flex gap-4 rounded-3xl bg-white p-4">
       <span className="mt-1 h-10 w-10 shrink-0 rounded-full" style={{ background: w.theme.bg }}>
-        <img src={w.char.img} alt="" className="h-full w-full object-contain p-0.5" />
+        <Mascot id={w.char.id} className="h-full w-full p-0.5" />
       </span>
       <div className="min-w-0 flex-1">
         <p className="font-display text-lg leading-tight tracking-tight">{i.name}</p>
@@ -36,7 +37,7 @@ const Line = ({ i }) => {
 
 const Empty = ({ onExplore }) => (
   <div className="flex flex-1 flex-col items-center justify-center px-8 text-center" data-testid="mesa-empty">
-    <img src={HOST.img} alt="" className="drop h-40" />
+    <Mascot id={HOST.id} className="drop h-44 w-36" />
     <p className="font-display mt-6 text-3xl leading-none">Tu mesa está vacía.</p>
     <p className="mt-2 text-sm opacity-60">Pulsa «+» en cualquier plato para empezar a montarla.</p>
     <button onClick={onExplore} data-testid="mesa-explore-btn" className="mt-6 rounded-full bg-coal px-6 py-3 font-bold text-paper">Explorar la carta</button>
