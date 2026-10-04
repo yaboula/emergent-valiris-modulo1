@@ -1,3 +1,4 @@
+import { forwardRef } from "react";
 import { motion } from "framer-motion";
 import { Plus, Star } from "lucide-react";
 import { AllergenDots } from "./Allergens";
@@ -21,7 +22,7 @@ const Badges = ({ d, w }) => (
   </div>
 );
 
-export default function DishCard({ d, w, onOpen }) {
+const DishCard = forwardRef(function DishCard({ d, w, onOpen }, ref) {
   const { add } = useMesa();
   const quick = d.prices.length === 1 && !d.variants;
   const featured = d.sig && d.img;
@@ -35,6 +36,7 @@ export default function DishCard({ d, w, onOpen }) {
 
   return (
     <motion.article
+      ref={ref}
       layout
       initial={{ opacity: 0, y: 30, scale: 0.96 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -74,4 +76,6 @@ export default function DishCard({ d, w, onOpen }) {
       )}
     </motion.article>
   );
-}
+});
+
+export default DishCard;

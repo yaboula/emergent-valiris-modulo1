@@ -1,0 +1,65 @@
+{
+  "summary": "Comprehensive frontend testing of the ORILLA Carta Digital feature (/carta route). 29 behavioural tests executed across hero, filter bar, world filter (tab + URL + hero pick), accent-insensitive search, filters panel (category + diet + allergen exclusion), empty state, dish drawer (variants V01/V02 title & warning, formats, min qty), quick-add single vs multi-price, Mi mesa (count, total 38€ = 2×16 + 6, min-qty respect on line, persistence after reload, clear → empty, reserve navigation + summary), landing integration (nav-link-carta, hero-carta-btn, carta-pick-levante with URL + filter), CSS --bg morph, and mobile responsiveness. All critical flows PASS.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Landing mobile 390x844", "issues": ["Minor horizontal overflow of ~8px (scrollWidth=398 vs innerWidth=390). Likely caused by a '-rotate-2' banner div and SVG assets slightly exceeding viewport width. Marquees are correctly sized but outer containers may need an additional overflow-x: clip wrapper on the rotated banner section. /carta route has no overflow."]}
+    ],
+    "console_warnings": [
+      {"component": "DishCard inside AnimatePresence/PopChild", "issue": "React warning: 'Function components cannot be given refs. Did you mean to use React.forwardRef()?' Occurs because framer-motion AnimatePresence wraps DishCard with PopChild which forwards a ref, but DishCard is a plain function component. Fix: wrap DishCard with React.forwardRef or use motion.div as the exit-animated element. Non-blocking but spams console."}
+    ]
+  },
+  "test_results": {
+    "carta_loads_35_dishes": "PASS",
+    "hero_pick_buttons_and_food_notice": "PASS",
+    "world_tab_filter_tirreno_6_dishes_url_update": "PASS",
+    "world_tab_all_restores_35": "PASS",
+    "direct_url_orilla_tirreno": "PASS",
+    "search_berenjena_accent_insensitive_3_results": "PASS (ORI-DISH-02, or-baba, ma-zaalouk)",
+    "search_cafe_accent_insensitive_3_results": "PASS (Flan de café, Café espresso, Tiramisù)",
+    "search_clear_button": "PASS",
+    "empty_state_zzzz_plus_reset_btn": "PASS",
+    "category_postre_filter_6_cards": "PASS",
+    "allergen_exclude_gluten_22_remaining": "PASS",
+    "filter_reset_btn": "PASS",
+    "dish_drawer_variant_V02_title_change_and_warning": "PASS",
+    "esc_closes_drawer": "PASS",
+    "ORI_DISH_04_min_qty_2_floor_enforced": "PASS",
+    "add_arroz_mesa_count_2": "PASS",
+    "quick_add_single_price_direct": "PASS (count=3)",
+    "quick_add_multi_price_opens_drawer": "PASS (ORI-DISH-10)",
+    "mesa_total_38_euros": "PASS (2×16 + 6 = 38,00 €)",
+    "mesa_line_min_qty_respected": "PASS (arroz cannot go below 2)",
+    "mesa_persist_localStorage_after_reload": "PASS",
+    "mesa_clear_empty_state_with_explore_btn": "PASS",
+    "nav_links_present_on_carta": "PASS",
+    "landing_nav_link_carta_to_carta": "PASS",
+    "hero_carta_btn_to_carta": "PASS",
+    "carta_pick_levante_filters_11_dishes_url": "PASS",
+    "css_bg_variable_morph": "PASS",
+    "mobile_carta_no_horizontal_overflow": "PASS",
+    "mesa_reserve_btn_navigates_landing_visita": "PASS",
+    "reserve_mesa_summary_text": "PASS ('Tu selección de la carta: 3 raciones · 38,00 €')"
+  },
+  "test_report_links": [],
+  "action_items": [
+    "LOW: Fix React forwardRef warning in DishCard (wrap export with React.forwardRef) to silence console noise caused by framer-motion AnimatePresence PopChild attaching a ref.",
+    "LOW: Address ~8px horizontal overflow on landing mobile (390px). Likely the rotated '-rotate-2 bg-[#F0285F]' banner element; wrap its parent in overflow-x:clip or reduce rotation at mobile breakpoint."
+  ],
+  "critical_code_review_comments": [
+    "Carta.jsx useFilters correctly makes world filter deterministic from URL (?orilla=) and resets params when 'all'. Good.",
+    "mesa.jsx setQty uses Math.max(i.min||1, qty) — min-qty floor correctly enforced on both drawer and line adjustments.",
+    "DishDrawer image visibility correctly suppressed for V02 variant (showImg checks variantId==='V01').",
+    "Sheet.jsx registers ESC listener and calls getLenis()?.stop() while open — correctly re-enables Lenis on close.",
+    "DishCard should be wrapped with React.forwardRef to be AnimatePresence/PopChild-safe (ref warning in console)."
+  ],
+  "updated_files": [],
+  "success_rate": {"frontend": "100% (29/29 critical tests)"},
+  "test_credentials": "N/A - frontend only, no auth",
+  "seed_data_creation": "localStorage key 'orilla-mesa' is cleared at test start, repopulated during flow and verified for persistence.",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "All /carta functional requirements verified: 35 dishes, 5 worlds, world filtering by tab/URL/hero-pick, accent-insensitive search, category/diet/allergen filters, empty state, dish drawer with variants (V01/V02) and warning, min qty for arroz (ORI-DISH-04 = 2 persons), quick-add single vs multi-price distinction, Mi mesa totals + persistence + reserve bridge to landing #visita with reserve-mesa-summary. Two non-blocking issues remain: a React forwardRef console warning on DishCard and ~8px horizontal overflow on landing mobile (not on /carta)."
+}

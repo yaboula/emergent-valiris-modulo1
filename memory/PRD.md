@@ -23,7 +23,14 @@ User choices: landing page only (very representative), continuous-scroll "journe
 - Hero buttons/text locked to hero palette (no invisible 'Empezar el viaje' when theme changes)
 - Reduced vertical spacing: worlds 140vh, manifesto 180vh, sections py-20/28
 
+## Carta Digital (2026-10-04, iteration 3)
+- Route /carta (react-router): hero with character world pickers, sticky glass filter bar (search accent-insensitive, world tabs synced to ?orilla=, categories, diet, 14 EU allergen exclusion), colour morph per world group
+- 35 dishes (data/menu.js); Levante = real ORILLA case menu (ORI-DISH-01..11, formats P01..P13, berenjena variants V01/V02 with warning, arroz min 2, vegano de ejemplo, 'pendiente' when no declaration)
+- Dish drawer (variants, formats, qty with min, allergens, food notice, conceptual image label); quick add
+- Mi mesa (localStorage) floating button + drawer -> 'Reservar con esta selección' -> landing #visita, summary in ReserveCard (MOCKED, no order/payment)
+- Landing tie-ins: nav 'La carta', hero 'Ver la carta', per-world 'Ver toda la carta de…'
+- Tested iteration_2: 29/29 pass; forwardRef warning fixed
+
 ## Backlog
-- P1: Full digital menu page (Ver carta) with allergens per dish
 - P1: Real reservation channel (WhatsApp/email) when real data exists
 - P2: Character micro-animations (blink, cursor-follow eyes), sound toggle, EN/FR/DE translations

@@ -113,7 +113,7 @@ export default function DishDrawer({ dish, onClose }) {
               <button data-testid="dish-qty-plus" onClick={() => setQty((q) => Math.min(12, q + 1))} className="grid h-9 w-9 place-items-center rounded-full hover:bg-coal/10" aria-label="Más"><Plus className="h-4 w-4" /></button>
             </div>
             <motion.button whileTap={{ scale: 0.96 }} data-testid="dish-add-to-mesa-btn" onClick={submit} className="flex flex-1 items-center justify-between rounded-full bg-[#F0285F] px-6 py-4 font-bold text-white transition-transform duration-300 hover:-translate-y-0.5">
-              <span>Añadir a mi mesa</span>
+              <span>Añadir<span className="hidden sm:inline"> a mi mesa</span></span>
               <span>{eur(p.amount * qty)}</span>
             </motion.button>
           </div>

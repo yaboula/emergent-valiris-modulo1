@@ -105,7 +105,7 @@ export function MesaButton({ always = false }) {
       whileTap={{ scale: 0.95 }}
       onClick={() => setOpen(true)}
       data-testid="mesa-open-btn"
-      className="fixed bottom-20 right-4 z-50 flex items-center gap-3 rounded-full bg-coal py-2 pl-2 pr-5 text-paper shadow-[0_12px_30px_rgba(0,0,0,0.35)] sm:bottom-5 sm:right-5"
+      className={`fixed right-4 z-50 flex items-center gap-3 rounded-full bg-coal py-2 pl-2 pr-5 text-paper shadow-[0_12px_30px_rgba(0,0,0,0.35)] sm:bottom-5 sm:right-5 ${always ? "bottom-5" : "bottom-20"}`}
     >
       <motion.span key={bump} initial={{ scale: 1 }} animate={{ scale: bump ? [1, 1.35, 1] : 1, rotate: bump ? [0, -15, 10, 0] : 0 }} transition={{ duration: 0.5 }} className="relative grid h-11 w-11 place-items-center rounded-full bg-[#F0285F]">
         <HandPlatter className="h-5 w-5" />

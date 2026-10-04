@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import { WORLDS } from "../../data/worlds";
@@ -50,8 +50,13 @@ const Panel = ({ f }) => (
 
 const WorldTabs = ({ f }) => {
   const { active } = useActive();
+  const ref = useRef(null);
+  useEffect(() => {
+    const el = ref.current?.querySelector(`[data-testid="world-tab-${f.world}"]`);
+    if (el) ref.current.scrollTo({ left: el.offsetLeft - 16, behavior: "smooth" });
+  }, [f.world]);
   return (
-    <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 pt-3 [scrollbar-width:none]" data-testid="world-tabs">
+    <div ref={ref} className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 pt-3 [scrollbar-width:none]" data-testid="world-tabs">
       <Chip on={f.world === "all"} onClick={() => f.setWorld("all")} testId="world-tab-all">Todas las orillas</Chip>
       {WORLDS.map((w) => (
         <Chip key={w.id} on={f.world === w.id} onClick={() => f.setWorld(f.world === w.id ? "all" : w.id)} testId={`world-tab-${w.id}`} style={{ background: w.theme.bg, color: w.theme.ink, borderColor: w.theme.bg }}>
