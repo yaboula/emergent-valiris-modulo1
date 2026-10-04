@@ -1,0 +1,188 @@
+{
+  "project_identity": {
+    "name": "Orilla - Restaurant Storefront",
+    "tagline": "Sabores que cruzan el Mediterráneo",
+    "concept": "Continuous Scroll Mediterranean Journey with Marshmallow Insurance & Headspace level creative branding",
+    "language": "Spanish (es)",
+    "archetype": "ORGANIC & EARTHY mixed with VIBRANT PLAY (Marshmallow Hot Pink + High Contrast Mediterranean Tones)"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Bricolage Grotesque, sans-serif",
+      "google_font_url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap",
+      "style": "Ultra-expressive custom wordmark and section headers, tight tracking (-0.03em), bold display character",
+      "max_hero_size": "text-4xl sm:text-5xl lg:text-6xl"
+    },
+    "body": {
+      "font_family": "Plus Jakarta Sans, sans-serif",
+      "style": "Clean geometric readability with friendly open counters, relaxed line height (leading-relaxed)"
+    },
+    "rules": {
+      "banned_heading_fonts": ["Inter", "Roboto", "Open Sans"],
+      "overline_labels": "Uppercase + tracking-[0.2em] + font-bold text-xs",
+      "hierarchy": "H1: text-5xl to text-6xl, H2: text-3xl to text-4xl, H3: text-xl to text-2xl, Body: text-base"
+    }
+  },
+  "colors": {
+    "brand_anchors": {
+      "marshmallow_hot_pink": "#FF1493",
+      "orilla_terracotta": "#D9531E",
+      "deep_navy": "#0B1D3A",
+      "cream_white": "#FDFBF7",
+      "warm_bone": "#F4EFE6"
+    },
+    "regions_scroll_color_morph": [
+      {
+        "id": "hero",
+        "name": "Orilla - Portal Mediterráneo",
+        "bg_color": "#FF1493",
+        "text_color": "#FFFFFF",
+        "accent": "#FFD700",
+        "card_bg": "#FFFFFF",
+        "card_text": "#0B1D3A"
+      },
+      {
+        "id": "grecia",
+        "name": "Grecia - Islas Egeas",
+        "bg_color": "#0B5ED7",
+        "text_color": "#FFFFFF",
+        "accent": "#FFD166",
+        "card_bg": "#F8FAFC",
+        "card_text": "#0F172A"
+      },
+      {
+        "id": "italia",
+        "name": "Italia - La Ribera y Campania",
+        "bg_color": "#E63946",
+        "text_color": "#FFFFFF",
+        "accent": "#52B788",
+        "card_bg": "#FFF0F1",
+        "card_text": "#1A1A1A"
+      },
+      {
+        "id": "espana",
+        "name": "España - Costa Cálida y Levante",
+        "bg_color": "#FF9F1C",
+        "text_color": "#1A1A1A",
+        "accent": "#2EC4B6",
+        "card_bg": "#FFFFFF",
+        "card_text": "#1A1A1A"
+      },
+      {
+        "id": "levante",
+        "name": "Levante y Líbano - Costa del Cedro",
+        "bg_color": "#2A9D8F",
+        "text_color": "#FFFFFF",
+        "accent": "#E9C46A",
+        "card_bg": "#F4F9F8",
+        "card_text": "#0D1F2D"
+      },
+      {
+        "id": "marruecos",
+        "name": "Marruecos - Zocos del Magreb",
+        "bg_color": "#8D0801",
+        "text_color": "#FFFFFF",
+        "accent": "#F4A261",
+        "card_bg": "#FFF5F5",
+        "card_text": "#2B0504"
+      }
+    ]
+  },
+  "brand_system_and_mascots": {
+    "concept": "Marshforms meets Headspace friendly characters. Modular SVG shapes (circles, arched pillars, stars, waves, olive drops) that combine into living cuisine mascots.",
+    "mascots": [
+      {
+        "id": "olivo_hero",
+        "name": "Olivo Blando",
+        "region": "Orilla Main",
+        "svg_composition": "Blobby arch body in Hot Pink, floating olive head, animated blinking eyes, wave hands.",
+        "personality": "Friendly host who guides you through the Mediterranean journey."
+      },
+      {
+        "id": "feta_greece",
+        "name": "Feta & Ouzo",
+        "region": "Grecia",
+        "svg_composition": "Geometric square block with rounded corners in soft white, blue sun hat, winking eyes.",
+        "personality": "Sunbathing philosopher who loves fresh oregano."
+      },
+      {
+        "id": "pomodoro_italy",
+        "name": "Don Pomodoro",
+        "region": "Italia",
+        "svg_composition": "Round juicy red sphere with green basil leaf crown and mustache.",
+        "personality": "Passionate chef obsessed with al dente pasta and Neapolitan crusts."
+      },
+      {
+        "id": "paellero_spain",
+        "name": "Gamba Don Paella",
+        "region": "España",
+        "svg_composition": "Curved golden rice grain body with shrimp antennae and cheerful smile.",
+        "personality": "King of Sunday gatherings and saffron aromas."
+      },
+      {
+        "id": "hummus_libano",
+        "name": "Za'atar Blob",
+        "region": "Líbano",
+        "svg_composition": "Smooth beige dip mound with olive oil whirlpool eyes and mint leaf ears.",
+        "personality": "Generous host who insists on sharing pita bread."
+      },
+      {
+        "id": "tagine_maroc",
+        "name": "Sultán Tagine",
+        "region": "Marruecos",
+        "svg_composition": "Cone-shaped terracotta vessel mascot with golden star crown and dancing steam trail.",
+        "personality": "Master of slow-cooked spices and sweet plum stews."
+      }
+    ]
+  },
+  "scroll_journey_and_color_morph": {
+    "engine": "Framer Motion useScroll + useTransform + Lenis smooth scroll",
+    "implementation": "Wrap the main viewport in a fixed background container that smoothly morphs its background color based on section scroll offset. As the user scrolls into a region section, the mascot animates with bounce/float micro-interactions.",
+    "floating_nav": "Sticky header with glassmorphism (backdrop-blur-md bg-black/30 or bg-white/30 depending on contrast), showing regional quick-jump anchors."
+  },
+  "layouts_and_grids": {
+    "hero": "Asymmetric Bento Grid with massive Bricolage Grotesque logo, floating 3D/SVG mascot, video/interactive scroll prompt, and signature dish badge.",
+    "regional_sections": "Alternating 2-column bento card system. Left: Regional mascot + story + signature ingredients. Right: Dish grid (3-4 dishes per region with prices, tags like 'Vegano', 'Estrella', 'Sin Gluten').",
+    "manifesto": "Large editorial typographic block with high contrast, modular Marshform illustrations and brand quotes.",
+    "location_and_reservations": "Tactical card layout with working hours badge, interactive WhatsApp reservation button, live address, and map visual card."
+  },
+  "components_and_sections": [
+    "HeaderNav: Sticky Glassmorphism Header with logo and regional quick jump pill badges",
+    "HeroSection: Bold Marshmallow-style introduction with continuous scroll trigger indicator",
+    "MascotSVGComponent: Dynamic SVG mascot renderer with Framer Motion hover & scroll keyframe animations",
+    "RegionalScrollWorld: Continuous scroll section wrapper with background color transition and regional header",
+    "DishCard: High-impact food card with photo, regional badge, price, ingredients list, and dish story",
+    "BrandManifestoSection: Editorial brand story explaining the philosophy of 'Orilla' and mixing cultures",
+    "InteractiveMenuFilter: Quick filter bar to filter dishes by dietary preference (Vegetariano, Mar, Carnes, Tradición)",
+    "ReservationLocationSection: Location, opening hours, phone / WhatsApp direct booking CTA card",
+    "Footer: Continuous scroll summary, newsletter badge, social icons, and credit"
+  ],
+  "motion_and_interactions": {
+    "scroll": "Lenis smooth scroll enabled",
+    "mascot_animations": "Idle floating (y: [-5, 5, -5], duration 3s), eye blinking, interactive click/hover wiggle",
+    "card_transitions": "Staggered fade-up entry as sections cross the scroll threshold",
+    "button_interactions": "Pill shaped buttons with active spring scale (whileTap={{ scale: 0.96 }})"
+  },
+  "accessibility": {
+    "apca_contrast": "All text over regional backgrounds must pass 4.5:1 contrast (white text on dark morphs, charcoal text on light morphs)",
+    "keyboard_nav": "All anchor links and reservation buttons have focus-visible rings",
+    "test_ids": "All interactive elements must include data-testid attributes"
+  },
+  "image_urls": {
+    "hero_feast": "https://images.unsplash.com/photo-1748540459503-19efc015143b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxtZWRpdGVycmFuZWFuJTIwZm9vZCUyMGZlYXN0JTIwdGFibGUlMjB0YXBhcyUyMHBhZWxsYSUyMGh1bW11c3xlbnwwfHx8fDE3OTExMzYzOTF8MA&ixlib=rb-4.1.0&q=85",
+    "greek_salad": "https://images.pexels.com/photos/38299613/pexels-photo-38299613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "mediterranean_mezze": "https://images.pexels.com/photos/28845495/pexels-photo-28845495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "spanish_paella": "https://images.unsplash.com/photo-1661494328468-623384c8c53b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHw0fHxtZWRpdGVycmFuZWFuJTIwZm9vZCUyMGZlYXN0JTIwdGFibGUlMjB0YXBhcyUyMHBhZWxsYSUyMGh1bW11c3xlbnwwfHx8fDE3OTExMzYzOTF8MA&ixlib=rb-4.1.0&q=85",
+    "dips_tray": "https://images.unsplash.com/photo-1783455442171-16dbde079c53?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHw0fHxncmVlayUyMHNhbGFkJTIwcGFlbGxhJTIwaHVtbXVzJTIwbWV6emUlMjB0YWdpbmUlMjBwaXp6YSUyMG1lZGl0ZXJyYW5lYW58ZW58MHx8fHwxNzkxMTM2Mzk3fDA&ixlib=rb-4.1.0&q=85",
+    "middle_eastern_spread": "https://images.unsplash.com/photo-1785734290864-eca98549d0b6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwzfHxncmVlayUyMHNhbGFkJTIwcGFlbGxhJTIwaHVtbXVzJTIwbWV6emUlMjB0YWdpbmUlMjBwaXp6YSUyMG1lZGl0ZXJyYW5lYW58ZW58MHx8fHwxNzkxMTM2Mzk3fDA&ixlib=rb-4.1.0&q=85"
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Never use generic Inter for main headings. Use Bricolage Grotesque or display serif/sans.",
+    "Do not use transparent header background without blur scrim.",
+    "Ensure contrast is vibrant and clear on background morphing.",
+    "Add data-testid to every interactive component (buttons, tabs, links, modal triggers).",
+    "Implement SVG mascots as modular code components with Framer Motion so they bounce and react to scrolling.",
+    "All copy must be in Spanish as requested by the user."
+  ],
+  "instructions_to_main_agent": "Read this JSON design guideline carefully. Build the 'Orilla' Storefront Landing Page using React JS with Framer Motion scroll morphing, expressive typography (Bricolage Grotesque), custom animated SVG regional mascots, full food showcase cards, manifesto section, and reservation CTA. Ensure test attributes data-testid are present on all clickable elements."
+}
