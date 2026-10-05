@@ -38,6 +38,17 @@ User choices: landing page only (very representative), continuous-scroll "journe
 - New top-down editorial dish photos /img/top_*.webp (arroz regenerated strictly vegetable per case); old AI char/dish webps removed
 - Tested iteration_3: 18/18 pass
 
+## Iteration 5 (2026-10-05) — Mobile & responsive
+- Hero mobile: full-width wordmark (28vw), short kicker, side-by-side CTAs above dish, Oli visible
+- Nav hides on scroll down (mobile only), --nav-offset drives sticky filter bar top
+- World sections: CSS grid areas (head → visual → body on mobile; 2-col sticky on desktop)
+- Cast: horizontal snap carousel on mobile
+- Sheet component: bottom sheet with drag handle on mobile (dish drawer, mesa drawer, filters), right panel on desktop
+- Filters on mobile in bottom sheet with live 'Ver N platos'; Mi mesa = full-width bottom bar on mobile (hidden when empty); route tracker shifts above it
+- Pluralization ración/raciones; search input 16px (no iOS zoom)
+- NOTE: only html has overflow-x:hidden (body must stay visible or position:sticky breaks)
+- Tested iteration_4: 34/34 pass (mobile 390, tablet 768, desktop 1920)
+
 ## Backlog
 - P1: Compartir mesa por WhatsApp (resumen + enlace que reabre la selección) — user chose format, deferred this round
 - P1: Real reservation channel (WhatsApp/email) when real data exists

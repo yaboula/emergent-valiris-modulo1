@@ -15,13 +15,12 @@
     --accent 0.9s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
-html { background: var(--bg); }
+html { background: var(--bg); overflow-x: hidden; }
 body {
   background: var(--bg);
   color: var(--ink);
   font-family: "Plus Jakarta Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 ::selection { background: var(--ink); color: var(--bg); }
 
