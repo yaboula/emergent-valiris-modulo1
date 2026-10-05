@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Minus, Plus, Check, HandPlatter } from "lucide-react";
 import { useMesa } from "../lib/mesa";
 import Mascot from "./mascots/Mascot";
+import { raciones } from "./carta/Mesa";
 import { eur } from "../lib/format";
 
 const TIMES = ["13:00", "13:30", "14:00", "14:30", "20:00", "20:30", "21:00"];
@@ -28,7 +29,7 @@ export default function ReserveCard() {
       {mesa.count > 0 && (
         <button type="button" onClick={() => mesa.setOpen(true)} data-testid="reserve-mesa-summary" className="mt-5 flex w-full items-center gap-3 rounded-2xl bg-[#A8F0DC] px-4 py-3 text-left transition-transform duration-300 hover:-translate-y-0.5">
           <HandPlatter className="h-5 w-5 shrink-0" />
-          <span className="flex-1 text-sm font-semibold">Tu selección de la carta: {mesa.count} raciones · {eur(mesa.total)}</span>
+          <span className="flex-1 text-sm font-semibold">Tu selección de la carta: {raciones(mesa.count)} · {eur(mesa.total)}</span>
           <span className="text-xs font-bold underline">Ver</span>
         </button>
       )}

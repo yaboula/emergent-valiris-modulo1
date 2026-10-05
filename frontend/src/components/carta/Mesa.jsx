@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useLocation, useNavigate } from "react-router-dom";
 import { HandPlatter, Minus, Plus, Trash2, X, ArrowRight } from "lucide-react";
 import Sheet from "../Sheet";
+import useMedia, { MOBILE } from "../../lib/useMedia";
 import Mascot from "../mascots/Mascot";
 import { useMesa } from "../../lib/mesa";
 import { eur } from "../../lib/format";
@@ -62,7 +63,7 @@ export function MesaDrawer() {
 
   return (
     <Sheet open={open} onClose={close} testId="mesa-drawer">
-      <div className="flex items-center justify-between px-7 pb-4 pt-7">
+      <div className="flex items-center justify-between px-6 pb-4 pt-8 md:px-7 md:pt-7">
         <div>
           <p className="kicker text-[#F0285F]">Mi mesa</p>
           <p className="font-display text-4xl leading-none">Lo que nos apetece</p>
@@ -79,7 +80,7 @@ export function MesaDrawer() {
           <div className="border-t border-coal/10 px-7 py-5">
             <div className="flex items-end justify-between">
               <div>
-                <p className="text-sm font-semibold opacity-60">{count} raciones · total orientativo</p>
+                <p className="text-sm font-semibold opacity-60">{raciones(count)} · total orientativo</p>
                 <button onClick={clear} data-testid="mesa-clear-btn" className="mt-1 text-xs font-bold underline opacity-60 hover:opacity-100">Vaciar mesa</button>
               </div>
               <p data-testid="mesa-total" className="font-display text-4xl leading-none">{eur(total)}</p>
@@ -95,23 +96,31 @@ export function MesaDrawer() {
   );
 }
 
+export const raciones = (n) => `${n} ${n === 1 ? "ración" : "raciones"}`;
+
+const Badge = ({ bump, count }) => (
+  <motion.span key={bump} animate={{ scale: bump ? [1, 1.35, 1] : 1, rotate: bump ? [0, -15, 10, 0] : 0 }} transition={{ duration: 0.5 }} className="relative grid h-11 w-11 shrink-0 place-items-center rounded-full bg-[#F0285F]">
+    <HandPlatter className="h-5 w-5" />
+    <span data-testid="mesa-count" className="absolute -right-1 -top-1 grid h-5 min-w-5 place-items-center rounded-full bg-[#FFD23F] px-1 text-[11px] font-extrabold text-coal">{count}</span>
+  </motion.span>
+);
+
 export function MesaButton({ always = false }) {
   const { count, total, setOpen, bump } = useMesa();
-  if (!always && count === 0) return null;
+  const isMobile = useMedia(MOBILE);
+  if ((isMobile || !always) && count === 0) return null;
+  if (isMobile)
+    return (
+      <motion.button initial={{ y: 90 }} animate={{ y: 0 }} whileTap={{ scale: 0.97 }} onClick={() => setOpen(true)} data-testid="mesa-open-btn" className="fixed inset-x-3 bottom-3 z-50 flex items-center gap-3 rounded-full bg-coal py-2 pl-2 pr-5 text-paper shadow-[0_12px_30px_rgba(0,0,0,0.35)]" style={{ marginBottom: "env(safe-area-inset-bottom)" }}>
+        <Badge bump={bump} count={count} />
+        <span className="flex-1 text-left text-sm font-bold">Ver mi mesa</span>
+        <span className="font-display text-xl">{eur(total)}</span>
+        <ArrowRight className="h-4 w-4" />
+      </motion.button>
+    );
   return (
-    <motion.button
-      initial={{ y: 80, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      whileHover={{ y: -4 }}
-      whileTap={{ scale: 0.95 }}
-      onClick={() => setOpen(true)}
-      data-testid="mesa-open-btn"
-      className={`fixed right-4 z-50 flex items-center gap-3 rounded-full bg-coal py-2 pl-2 pr-5 text-paper shadow-[0_12px_30px_rgba(0,0,0,0.35)] sm:bottom-5 sm:right-5 ${always ? "bottom-5" : "bottom-20"}`}
-    >
-      <motion.span key={bump} initial={{ scale: 1 }} animate={{ scale: bump ? [1, 1.35, 1] : 1, rotate: bump ? [0, -15, 10, 0] : 0 }} transition={{ duration: 0.5 }} className="relative grid h-11 w-11 place-items-center rounded-full bg-[#F0285F]">
-        <HandPlatter className="h-5 w-5" />
-        <span data-testid="mesa-count" className="absolute -right-1 -top-1 grid h-5 min-w-5 place-items-center rounded-full bg-[#FFD23F] px-1 text-[11px] font-extrabold text-coal">{count}</span>
-      </motion.span>
+    <motion.button initial={{ y: 80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} whileHover={{ y: -4 }} whileTap={{ scale: 0.95 }} onClick={() => setOpen(true)} data-testid="mesa-open-btn" className="fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full bg-coal py-2 pl-2 pr-5 text-paper shadow-[0_12px_30px_rgba(0,0,0,0.35)]">
+      <Badge bump={bump} count={count} />
       <span className="text-left leading-tight">
         <span className="block text-xs font-semibold opacity-60">Mi mesa</span>
         <span className="font-display text-lg">{eur(total)}</span>

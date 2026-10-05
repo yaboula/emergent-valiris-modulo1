@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
@@ -18,14 +19,34 @@ export const useGo = () => {
   return (id) => (pathname === "/" ? scrollToId(id) : navigate(`/#${id}`));
 };
 
+const useHideOnScroll = () => {
+  const [hidden, setHidden] = useState(false);
+  useEffect(() => {
+    let last = window.scrollY;
+    const on = () => {
+      const y = window.scrollY;
+      const h = window.innerWidth < 768 && y > 160 && y > last + 2 ? true : y < last - 2 || y < 160 ? false : null;
+      if (h !== null) {
+        setHidden(h);
+        document.documentElement.style.setProperty("--nav-offset", h ? "12px" : "84px");
+      }
+      last = y;
+    };
+    window.addEventListener("scroll", on, { passive: true });
+    return () => window.removeEventListener("scroll", on);
+  }, []);
+  return hidden;
+};
+
 export default function Nav() {
+  const hidden = useHideOnScroll();
   const go = useGo();
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
   return (
-    <motion.header initial={{ y: -80, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="fixed inset-x-0 top-4 z-50 px-4">
-      <nav className="glass mx-auto flex max-w-6xl items-center justify-between rounded-full border py-2.5 pl-5 pr-2.5 text-ink" style={{ borderColor: "color-mix(in srgb, var(--ink) 14%, transparent)" }}>
+    <motion.header data-testid="site-nav" initial={{ y: -80, opacity: 0 }} animate={{ y: hidden ? -110 : 0, opacity: 1 }} transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }} className="fixed inset-x-0 top-3 z-50 px-3 md:top-4 md:px-4">
+      <nav className="glass mx-auto flex max-w-6xl items-center justify-between rounded-full border py-2 pl-4 pr-2 text-ink md:py-2.5 md:pl-5 md:pr-2.5" style={{ borderColor: "color-mix(in srgb, var(--ink) 14%, transparent)" }}>
         <button data-testid="nav-logo" onClick={() => go("inicio")} className="transition-transform duration-300 hover:scale-105">
           <Logo />
         </button>

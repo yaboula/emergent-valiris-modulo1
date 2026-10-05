@@ -12,7 +12,7 @@ const ease = [0.22, 1, 0.36, 1];
 const LETTERS = ["R", "I", "L", "L", "A"];
 
 const Wordmark = () => (
-  <h1 data-testid="hero-wordmark" aria-label="ORILLA" className="font-display flex items-center text-[clamp(5.2rem,21vw,21rem)] leading-[0.82]">
+  <h1 data-testid="hero-wordmark" aria-label="ORILLA" className="font-display -ml-[0.02em] flex items-center text-[28vw] leading-[0.82] md:text-[clamp(5.2rem,21vw,21rem)]">
     <motion.span initial={{ scale: 0, rotate: -180 }} animate={{ scale: 1, rotate: 0 }} transition={{ duration: 1.1, ease, delay: 0.3 }} className="mr-[0.02em] inline-block">
       <Symbol className="h-[0.74em] w-[0.74em]" sun="var(--ink)" sea="#F0285F" foam="#A8F0DC" />
     </motion.span>
@@ -25,7 +25,7 @@ const Wordmark = () => (
 );
 
 const Plane = () => (
-  <div className="absolute inset-x-0 bottom-0 h-[44%]">
+  <div className="absolute inset-x-0 bottom-0 h-[36%] md:h-[44%]">
     <svg viewBox="0 0 1440 60" preserveAspectRatio="none" className="absolute -top-[59px] h-[60px] w-[200%] wave-move-slow">
       <path d="M0 30 Q90 0 180 30 T360 30 T540 30 T720 30 T900 30 T1080 30 T1260 30 T1440 30 V60 H0Z" fill="#F0285F" />
     </svg>
@@ -46,9 +46,9 @@ export default function Hero() {
     <ThemedSection id="inicio" theme={THEMES.hero} className="relative min-h-[100svh] overflow-hidden bg-[#A8F0DC] text-[#0B1F17]" style={{ "--ink": "#0B1F17", "--bg": "#A8F0DC", "--accent": "#F0285F" }}>
       <div ref={ref} className="relative min-h-[100svh]">
         <Plane />
-        <div className="relative z-10 mx-auto max-w-[1500px] px-5 pt-28 md:px-10 md:pt-32">
+        <div className="relative z-20 mx-auto max-w-[1500px] px-5 pt-28 md:px-10 md:pt-32">
           <motion.p initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="kicker mb-3 flex items-center gap-3">
-            <span className="h-2 w-2 rounded-full bg-[#F0285F]" /> Cocina mediterránea · Alcoy (Alicante)
+            <span className="h-2 w-2 rounded-full bg-[#F0285F]" /> <span className="md:hidden">Mediterránea · Alcoy</span><span className="hidden md:inline">Cocina mediterránea · Alcoy (Alicante)</span>
           </motion.p>
           <motion.div style={{ y: wordY }}>
             <Wordmark />
@@ -56,12 +56,12 @@ export default function Hero() {
           <div className="mt-4 grid gap-6 md:mt-6 md:grid-cols-12">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 0.8, ease }} className="md:col-span-5">
               <p className="font-display text-3xl leading-[0.95] md:text-5xl">Cinco orillas.<br />Una sola mesa.</p>
-              <p className="mt-4 max-w-sm text-base font-medium leading-relaxed opacity-80">Del Egeo al Magreb sin levantarte de la silla. Cada cocina, un mundo. Cada mundo, un personaje.</p>
+              <p className="mt-4 max-w-[19rem] text-[15px] font-medium leading-relaxed opacity-80 md:max-w-sm md:text-base">Del Egeo al Magreb sin levantarte de la silla. Cada cocina, un mundo. Cada mundo, un personaje.</p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-start-journey-btn" onClick={() => scrollToId("manifiesto")} className="group flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 font-bold text-[#A8F0DC] transition-transform duration-300 hover:-translate-y-1">
+                <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-start-journey-btn" onClick={() => scrollToId("manifiesto")} className="group flex flex-1 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-ink px-5 py-3.5 text-[15px] md:px-6 md:text-base font-bold text-[#A8F0DC] md:flex-none transition-transform duration-300 hover:-translate-y-1">
                   Empezar el viaje <ArrowDown className="h-4 w-4 transition-transform duration-300 group-hover:translate-y-1" />
                 </motion.button>
-                <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-carta-btn" onClick={() => navigate("/carta")} className="rounded-full border-2 border-ink px-6 py-3.5 font-bold transition-colors duration-300 hover:bg-ink hover:text-[#A8F0DC]">
+                <motion.button whileTap={{ scale: 0.95 }} data-testid="hero-carta-btn" onClick={() => navigate("/carta")} className="flex-1 whitespace-nowrap rounded-full border-2 border-ink bg-[#A8F0DC] px-5 py-3.5 text-[15px] md:px-6 md:text-base font-bold transition-colors md:flex-none md:bg-transparent duration-300 hover:bg-ink hover:text-[#A8F0DC]">
                   Ver la carta
                 </motion.button>
               </div>
@@ -69,12 +69,12 @@ export default function Hero() {
           </div>
         </div>
 
-        <motion.div style={{ rotate: dishRot, y: dishY }} initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.9, duration: 1.2, ease }} className="absolute -bottom-[6%] left-[8%] z-10 w-[84vw] max-w-[500px] md:left-[60%] md:w-[30vw]">
+        <motion.div style={{ rotate: dishRot, y: dishY }} initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.9, duration: 1.2, ease }} className="absolute -bottom-[16%] left-[4%] z-10 w-[80vw] max-w-[500px] md:-bottom-[6%] md:left-[60%] md:w-[30vw]">
           <img src="/img/top_berenjena.webp" alt="Berenjena asada con yogur de limón, miel y avellanas" className="drop w-full" data-testid="hero-dish-img" />
         </motion.div>
 
-        <motion.div style={{ x: oliX }} className="absolute bottom-[6%] right-[2%] z-20 hidden h-[40vh] w-[32vh] md:block">
-          <Bubble testId="hero-oli-bubble" className="-left-40 -top-6">¡Hola! Soy {HOST.name}. ¿Viajamos?</Bubble>
+        <motion.div style={{ x: oliX }} className="absolute bottom-[3%] right-[1%] z-20 h-[22vh] w-[18vh] md:bottom-[6%] md:right-[2%] md:h-[40vh] md:w-[32vh]">
+          <Bubble testId="hero-oli-bubble" className="-left-32 -top-12 !px-4 !py-3 !text-sm md:-left-40 md:-top-6 md:!px-5 md:!py-4 md:!text-lg">¡Hola! Soy {HOST.name}. ¿Viajamos?</Bubble>
           <Character mascot={HOST.id} alt={HOST.name} className="h-full w-full" testId="hero-oli-character" />
         </motion.div>
       </div>

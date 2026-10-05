@@ -37,7 +37,7 @@ export default function Visit() {
             <p className="mt-4 text-sm opacity-60">Comidas de martes a domingo. Cenas los viernes y sábados. No hay terraza.</p>
           </div>
         </div>
-        <div className="lg:col-span-5">
+        <div className="mt-10 lg:col-span-5 lg:mt-0">
           <ReserveCard />
         </div>
       </div>

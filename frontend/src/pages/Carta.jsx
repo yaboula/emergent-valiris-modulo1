@@ -60,7 +60,7 @@ export default function Carta() {
 
   return (
     <>
-      <main>
+      <main className="pb-20 md:pb-0">
         <CartaHero onPick={f.setWorld} />
         <FilterBar f={f} count={f.results.length} />
         <div id="carta-resultados" data-testid="carta-results">

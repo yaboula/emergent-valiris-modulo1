@@ -16,7 +16,7 @@ const Member = ({ m, i }) => (
     viewport={{ once: true, amount: 0.3 }}
     transition={{ type: "spring", stiffness: 120, damping: 16, delay: i * 0.07 }}
     whileHover={{ y: -12, rotate: i % 2 ? 2 : -2 }}
-    className="group relative flex flex-col items-center"
+    className="group relative flex w-[60vw] shrink-0 snap-center flex-col items-center md:w-auto"
   >
     <div className="relative flex aspect-[4/5] w-full items-end justify-center overflow-hidden rounded-[999px_999px_36px_36px] pt-6" style={{ background: m.color }}>
       <Mascot id={m.mascot} label={m.name} className="drop relative z-10 h-[86%] w-[80%] transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-6" />
@@ -39,7 +39,8 @@ export default function Cast() {
             Cada orilla tiene su guardián. Son exigentes, un poco exagerados y saben exactamente cómo debería saber su plato.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-3 lg:grid-cols-6">
+        <p className="kicker mb-4 opacity-60 md:hidden">Desliza para conocerlos →</p>
+        <div data-testid="cast-track" className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-4 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-3 md:gap-x-5 md:gap-y-12 md:overflow-visible md:px-0 lg:grid-cols-6">
           {CAST.map((m, i) => <Member key={m.id} m={m} i={i} />)}
         </div>
       </div>

@@ -7,6 +7,7 @@
 @property --accent { syntax: "<color>"; inherits: true; initial-value: #f0285f; }
 
 :root {
+  --nav-offset: 84px;
   --bg: #a8f0dc;
   --ink: #0b1f17;
   --accent: #f0285f;
